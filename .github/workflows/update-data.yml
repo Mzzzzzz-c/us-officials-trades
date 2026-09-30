@@ -38,7 +38,7 @@ jobs:
 
       # Prices and downloaded PDFs are large and rebuildable, so they live in the Actions cache, not in git.
       - name: Restore price / PDF cache
-        uses: actions/cache@v4
+        uses: actions/cache/restore@v4
         with:
           path: data/cache
           key: data-cache-${{ github.run_id }}
@@ -49,6 +49,7 @@ jobs:
         run: python -m pytest -q tests
 
       - name: Fetch and build
+        id: build
         working-directory: pipeline
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
@@ -61,7 +62,16 @@ jobs:
             python -m otrack all
           fi
 
+      # Save what was fetched even if the build step failed, so the next run can resume.
+      - name: Save price / PDF cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/cache
+          key: data-cache-${{ github.run_id }}
+
       - name: Commit changes
+        if: steps.build.outcome == 'success'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

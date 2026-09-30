@@ -10,7 +10,7 @@ from collections import Counter, defaultdict
 
 from . import companies, estimate, house, performance, positions, prices, sec13f, senate
 from .members import Directory
-from .util import CONFIG, SITE, days_between, load_yaml, norm_name, settings, today_iso, write_json
+from .util import CONFIG, SITE, days_between, load_yaml, norm_name, read_json, settings, today_iso, write_json
 
 log = logging.getLogger(__name__)
 
@@ -134,7 +134,8 @@ def dedupe(trades: list[dict]) -> list[dict]:
         if not amended_docs:
             keep.extend(ts)  # two original filings: genuinely separate trades
             continue
-        latest = max(amended_docs, key=lambda d: max(x.get("fil") or "" for x in ts if x["doc"] == d))
+        # latest filing wins; the doc id breaks same-day ties so every run picks the same one
+        latest = max(sorted(amended_docs), key=lambda d: (max(x.get("fil") or "" for x in ts if x["doc"] == d), d))
         keep.extend(t for t in ts if t["doc"] == latest)
     keep.sort(key=lambda t: (t.get("fil") or "", t["tx"] or "", t["id"]), reverse=True)
     return keep
@@ -507,6 +508,23 @@ def _card(t: dict) -> dict:
 # ------------------------------------------------------------------ orchestration
 
 
+def guard_coverage(trades: list[dict]) -> None:
+    """Refuse to overwrite the site if price coverage collapsed (e.g. the price source blocked us today).
+
+    Set FORCE_BUILD=1 to override.
+    """
+    import os
+
+    old = read_json(SITE / "meta.json") or {}
+    before = (old.get("counts") or {}).get("estimated") or 0
+    now = sum(1 for t in trades if (t.get("est") or {}).get("d"))
+    if before and now < 0.9 * before and os.environ.get("FORCE_BUILD") != "1":
+        raise RuntimeError(
+            f"price coverage dropped from {before} to {now} estimated trades - keeping yesterday's site "
+            "(missing prices will be retried on the next run; FORCE_BUILD=1 overrides)"
+        )
+
+
 def run(fetch: bool = True, limit: int | None = None, skip_prices: bool = False, skip_sec: bool = False) -> dict:
     cfg = settings()
     this_year = dt.date.today().year
@@ -543,5 +561,6 @@ def run(fetch: bool = True, limit: int | None = None, skip_prices: bool = False,
         report["companies"] = companies.update(syms | inv_syms)
 
     series, pos = analyse(trades, cfg)
+    guard_coverage(trades)
     report["meta"] = export(trades, scanned, unknown, review, series, pos, directory, cfg, with_investors=not skip_sec)
     return report
