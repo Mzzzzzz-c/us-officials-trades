@@ -1,0 +1,29 @@
+{
+ "amended": false,
+ "filed": "2021-05-19",
+ "first": "Jerry",
+ "full": "Moran, Jerry (Senator)",
+ "kind": "ptr",
+ "last": "Moran,",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 05/19/2021",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Verizon Communications Inc. (Exchanged) T-Mobile US, Inc. (Received)",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "comment": "Exchange occurred as a result of the Sprint/T-Mobile merger.",
+   "idx": 1,
+   "owner": "JT",
+   "ticker": "VZTMUS",
+   "tx_date": "2020-04-01",
+   "type": "E"
+  }
+ ],
+ "uid": "121df9b4-2fea-46d1-8090-10cf701ddb38",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/121df9b4-2fea-46d1-8090-10cf701ddb38/"
+}

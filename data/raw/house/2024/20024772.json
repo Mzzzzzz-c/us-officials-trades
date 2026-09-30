@@ -1,0 +1,34 @@
+{
+ "doc_id": "20024772",
+ "filed": "2024-04-01",
+ "filer": {
+  "name": "Hon. Max Miller",
+  "state_dst": "OH07",
+  "status": "Member"
+ },
+ "first": "Max",
+ "last": "Miller",
+ "parser": 3,
+ "state_dst": "OH07",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Alpine Investors IX, LP",
+   "asset_type": "HN",
+   "description": "GLAS - Alpine Investors IX, LP Capital Call",
+   "idx": 1,
+   "notified": "2024-04-01",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "2012 Trust",
+   "ticker": null,
+   "tx_date": "2024-04-01",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20024772.pdf",
+ "year": 2024
+}

@@ -1,0 +1,28 @@
+{
+ "amended": false,
+ "filed": "2025-05-08",
+ "first": "John N",
+ "full": "Kennedy, John (Senator)",
+ "kind": "ptr",
+ "last": "Kennedy",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 05/08/2025",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Annaly Capital Management Inc Company: Annaly Capital Management Inc. (New York, New York) Description: Mortgage Real Estate Investment Trust",
+   "asset_type": "OT",
+   "asset_type_text": "Other",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "NLY",
+   "tx_date": "2025-04-21",
+   "type": "P"
+  }
+ ],
+ "uid": "94863fb5-21cc-4585-a124-c0ea92ef5f1b",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/94863fb5-21cc-4585-a124-c0ea92ef5f1b/"
+}

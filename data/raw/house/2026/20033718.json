@@ -1,0 +1,75 @@
+{
+ "doc_id": "20033718",
+ "filed": "2026-01-02",
+ "filer": {
+  "name": "Hon. Ann Wagner",
+  "state_dst": "MO02",
+  "status": "Member"
+ },
+ "first": "Ann",
+ "last": "Wagner",
+ "parser": 3,
+ "state_dst": "MO02",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Floyd County IN 4.00% 12/30/2031",
+   "asset_type": "GS",
+   "idx": 1,
+   "notified": "2025-12-08",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Fidelity Trust",
+   "ticker": null,
+   "tx_date": "2025-12-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Fremont IN Cmnty Schs Gen Oblig Bds 4.00% 1/15/2032",
+   "asset_type": "GS",
+   "idx": 2,
+   "notified": "2025-12-08",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Fidelity Trust",
+   "ticker": null,
+   "tx_date": "2025-12-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Logan Rogersville MO Reorg No R 08 Sch 4.00% 3/1/2033",
+   "asset_type": "GS",
+   "idx": 3,
+   "notified": "2025-12-05",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Fidelity Trust",
+   "ticker": null,
+   "tx_date": "2025-12-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Teays Valley OH 5.00% 12/1/2033",
+   "asset_type": "GS",
+   "idx": 4,
+   "notified": "2025-12-19",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Fidelity Trust",
+   "ticker": null,
+   "tx_date": "2025-12-18",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033718.pdf",
+ "year": 2026
+}

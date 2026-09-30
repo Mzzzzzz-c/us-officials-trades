@@ -1,0 +1,88 @@
+{
+ "amended": false,
+ "filed": "2026-03-04",
+ "first": "Shelley M",
+ "full": "Capito, Shelley Moore (Senator)",
+ "kind": "ptr",
+ "last": "Capito",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 03/04/2026",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Illinois Tool Works Inc. Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 1,
+   "owner": "SP",
+   "ticker": "ITW",
+   "tx_date": "2026-02-24",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Paychex, Inc. - Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 2,
+   "owner": "SP",
+   "ticker": "PAYX",
+   "tx_date": "2026-02-20",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BlackRock, Inc. Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 3,
+   "owner": "SP",
+   "ticker": "BLK",
+   "tx_date": "2026-02-10",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Analog Devices, Inc. - Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 4,
+   "owner": "SP",
+   "ticker": "ADI",
+   "tx_date": "2026-02-10",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Broadcom Inc. - Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 5,
+   "owner": "SP",
+   "ticker": "AVGO",
+   "tx_date": "2026-02-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "GOOGL - Alphabet Inc. - Class C Capital Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 6,
+   "owner": "SP",
+   "ticker": null,
+   "tx_date": "2026-02-09",
+   "type": "P"
+  }
+ ],
+ "uid": "29828a0d-22e7-4acf-b0e4-2a340947b79e",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/29828a0d-22e7-4acf-b0e4-2a340947b79e/"
+}

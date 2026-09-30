@@ -1,0 +1,52 @@
+{
+ "amended": false,
+ "filed": "2021-03-14",
+ "first": "Shelley M",
+ "full": "Capito, Shelley Moore (Senator)",
+ "kind": "ptr",
+ "last": "Capito",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 03/14/2021",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "EV - Eaton Vance Corp",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 1,
+   "owner": "SP",
+   "ticker": null,
+   "tx_date": "2021-02-23",
+   "type": "SF"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "United Bankshares, Inc.",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 2,
+   "owner": "SP",
+   "ticker": "UBSI",
+   "tx_date": "2021-02-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Cisco Systems, Inc.",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 3,
+   "owner": "SP",
+   "ticker": "CSCO",
+   "tx_date": "2021-02-08",
+   "type": "SP"
+  }
+ ],
+ "uid": "3542ce53-b0e3-46a1-92f5-8f32c262fe3d",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/3542ce53-b0e3-46a1-92f5-8f32c262fe3d/"
+}

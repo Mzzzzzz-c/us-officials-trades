@@ -1,0 +1,40 @@
+{
+ "amended": false,
+ "filed": "2025-04-20",
+ "first": "John",
+ "full": "Boozman, John (Senator)",
+ "kind": "ptr",
+ "last": "Boozman",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 04/20/2025",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "iShares S&P 500 Growth ETF",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 1,
+   "owner": "JT",
+   "ticker": "IVW",
+   "tx_date": "2025-03-19",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Dte Energy Company",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 2,
+   "owner": "JT",
+   "ticker": "DTE",
+   "tx_date": "2025-03-19",
+   "type": "SF"
+  }
+ ],
+ "uid": "fb482df2-16d2-4401-911b-7a68166c2c6e",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/fb482df2-16d2-4401-911b-7a68166c2c6e/"
+}

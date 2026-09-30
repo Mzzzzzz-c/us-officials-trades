@@ -1,0 +1,156 @@
+{
+ "doc_id": "20019052",
+ "filed": "2021-07-09",
+ "filer": {
+  "name": "Hon. Marie Newman",
+  "status": "Member"
+ },
+ "first": "Marie",
+ "last": "Newman",
+ "parser": 3,
+ "state_dst": "IL03",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ARK Innovation ETF",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2021-07-05",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Charles Schwab JT TEN",
+   "ticker": "ARKK",
+   "tx_date": "2021-06-18",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Carnival Corporation",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2021-07-05",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Rollover IRA",
+   "ticker": "CCL",
+   "tx_date": "2021-06-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Peloton Interactive, Inc.",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2021-07-05",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Rollover IRA",
+   "ticker": "PTON",
+   "tx_date": "2021-06-18",
+   "type": "SF"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Salesforce.com Inc",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2021-07-05",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Charles Schwab JT TEN",
+   "ticker": "CRM",
+   "tx_date": "2021-06-18",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Tesla, Inc.",
+   "asset_type": "OP",
+   "description": "Call",
+   "idx": 5,
+   "notified": "2021-07-05",
+   "option": {
+    "kind": "call"
+   },
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Rollover IRA",
+   "ticker": "TSLA",
+   "tx_date": "2021-06-02",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Tesla, Inc.",
+   "asset_type": "OP",
+   "description": "Call",
+   "idx": 6,
+   "notified": "2021-07-05",
+   "option": {
+    "kind": "call"
+   },
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Rollover IRA",
+   "ticker": "TSLA",
+   "tx_date": "2021-06-18",
+   "type": "SF"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Wayfair Inc. Class A",
+   "asset_type": "ST",
+   "idx": 7,
+   "notified": "2021-07-05",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Rollover IRA",
+   "ticker": "W",
+   "tx_date": "2021-06-25",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Zoom Video Communications, Inc. - Class A",
+   "asset_type": "OP",
+   "description": "Call",
+   "idx": 8,
+   "notified": "2021-07-05",
+   "option": {
+    "kind": "call"
+   },
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Rollover IRA",
+   "ticker": "ZM",
+   "tx_date": "2021-06-02",
+   "type": "SF"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Zoom Video Communications, Inc. - Class A",
+   "asset_type": "ST",
+   "idx": 9,
+   "notified": "2021-07-05",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Rollover IRA",
+   "ticker": "ZM",
+   "tx_date": "2021-06-18",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2021/20019052.pdf",
+ "year": 2021
+}

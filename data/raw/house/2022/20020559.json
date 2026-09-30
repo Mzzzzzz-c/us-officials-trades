@@ -1,0 +1,443 @@
+{
+ "doc_id": "20020559",
+ "filed": "2022-03-04",
+ "filer": {
+  "name": "Hon. James R. Langevin",
+  "state_dst": "RI02",
+  "status": "Member"
+ },
+ "first": "James R.",
+ "last": "Langevin",
+ "parser": 3,
+ "state_dst": "RI02",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Alibaba Group Holding Limited American Depositary Shares Each Representing Eight Ordinary Share",
+   "asset_type": "OP",
+   "description": "Call options; Strike price $119; Expires 02/11/22",
+   "idx": 1,
+   "notified": "2022-03-04",
+   "option": {
+    "exp": "2022-02-11",
+    "kind": "call",
+    "strike": 119.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "BABA",
+   "tx_date": "2022-02-07",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Alibaba Group Holding Limited American Depositary Shares Each Representing Eight Ordinary Share",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2022-03-04",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Roth IRA",
+   "ticker": "BABA",
+   "tx_date": "2022-02-11",
+   "type": "SF"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Alibaba Group Holding Limited American Depositary Shares Each Representing Eight Ordinary Share",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2022-03-04",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "BABA",
+   "tx_date": "2022-02-11",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Alphabet Inc. - Class A",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2022-03-04",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Roth IRA",
+   "ticker": "GOOGL",
+   "tx_date": "2022-02-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Block, Inc. Class A Common Stock,",
+   "asset_type": "OP",
+   "description": "Call options; Strike price $135; Expires 03/11/22",
+   "idx": 5,
+   "notified": "2022-03-04",
+   "option": {
+    "exp": "2022-03-11",
+    "kind": "call",
+    "strike": 135.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "SQ",
+   "tx_date": "2022-02-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Block, Inc. Class A Common Stock,",
+   "asset_type": "ST",
+   "idx": 6,
+   "notified": "2022-03-04",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "SQ",
+   "tx_date": "2022-02-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Block, Inc. Class A Common Stock,",
+   "asset_type": "OP",
+   "description": "Call options; Strike price $125; Expires 02/25/22",
+   "idx": 7,
+   "notified": "2022-03-04",
+   "option": {
+    "exp": "2022-02-25",
+    "kind": "call",
+    "strike": 125.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "SQ",
+   "tx_date": "2022-02-09",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Block, Inc. Class A Common Stock,",
+   "asset_type": "OP",
+   "description": "Call options; Strike price $126; Expires 03/04/22",
+   "idx": 8,
+   "notified": "2022-03-04",
+   "option": {
+    "exp": "2022-03-04",
+    "kind": "call",
+    "strike": 126.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "SQ",
+   "tx_date": "2022-02-25",
+   "type": "SF"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Generac Holdlings Inc.",
+   "asset_type": "ST",
+   "idx": 9,
+   "notified": "2022-03-04",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "GNRC",
+   "tx_date": "2022-02-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Generac Holdlings Inc.",
+   "asset_type": "OP",
+   "description": "Call options; Strike price $340; Expires 03/18/22",
+   "idx": 10,
+   "notified": "2022-03-04",
+   "option": {
+    "exp": "2022-03-18",
+    "kind": "call",
+    "strike": 340.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "GNRC",
+   "tx_date": "2022-02-25",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Generac Holdlings Inc.",
+   "asset_type": "OP",
+   "description": "Call options; Strike price $310; Expires 03/18/22",
+   "idx": 11,
+   "notified": "2022-03-04",
+   "option": {
+    "exp": "2022-03-18",
+    "kind": "call",
+    "strike": 310.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "GNRC",
+   "tx_date": "2022-02-25",
+   "type": "SF"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Generac Holdlings Inc.",
+   "asset_type": "OP",
+   "description": "Call options; Strike price $270; Expires 03/18/22",
+   "idx": 12,
+   "notified": "2022-03-04",
+   "option": {
+    "exp": "2022-03-18",
+    "kind": "call",
+    "strike": 270.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "GNRC",
+   "tx_date": "2022-02-09",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Generac Holdlings Inc.",
+   "asset_type": "OP",
+   "description": "Call options; Strike price $310; Expires 03/18/22",
+   "idx": 13,
+   "notified": "2022-03-04",
+   "option": {
+    "exp": "2022-03-18",
+    "kind": "call",
+    "strike": 310.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "GNRC",
+   "tx_date": "2022-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Generac Holdlings Inc.",
+   "asset_type": "OP",
+   "description": "Call options; Strike price $290; Expires 02/18/22",
+   "idx": 14,
+   "notified": "2022-03-04",
+   "option": {
+    "exp": "2022-02-18",
+    "kind": "call",
+    "strike": 290.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "GNRC",
+   "tx_date": "2022-02-15",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Generac Holdlings Inc.",
+   "asset_type": "OP",
+   "description": "Call options; Strike price $290; Expires 02/18/22",
+   "idx": 15,
+   "notified": "2022-03-04",
+   "option": {
+    "exp": "2022-02-18",
+    "kind": "call",
+    "strike": 290.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "GNRC",
+   "tx_date": "2022-02-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Generac Holdlings Inc.",
+   "asset_type": "ST",
+   "idx": 16,
+   "notified": "2022-03-04",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Roth IRA",
+   "ticker": "GNRC",
+   "tx_date": "2022-02-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Meta Platforms, Inc. - Class A",
+   "asset_type": "OP",
+   "description": "Call options; Strike price $230; Expires 02/25/22",
+   "idx": 17,
+   "notified": "2022-03-04",
+   "option": {
+    "exp": "2022-02-25",
+    "kind": "call",
+    "strike": 230.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "FB",
+   "tx_date": "2022-02-15",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Meta Platforms, Inc. - Class A",
+   "asset_type": "OP",
+   "description": "Call options; Strike price $340; Expires 02/25/22",
+   "idx": 18,
+   "notified": "2022-03-04",
+   "option": {
+    "exp": "2022-02-25",
+    "kind": "call",
+    "strike": 340.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "FB",
+   "tx_date": "2022-02-01",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Netflix, Inc.",
+   "asset_type": "OP",
+   "description": "Call options; Strike price $400; Expires 03/04/22",
+   "idx": 19,
+   "notified": "2022-03-04",
+   "option": {
+    "exp": "2022-03-04",
+    "kind": "call",
+    "strike": 400.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "NFLX",
+   "tx_date": "2022-02-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PAYPAL Holdings, Inc.",
+   "asset_type": "OP",
+   "description": "Call options; Strike price $118; Expires 02/25/22",
+   "idx": 20,
+   "notified": "2022-03-04",
+   "option": {
+    "exp": "2022-02-25",
+    "kind": "call",
+    "strike": 118.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "PYPL",
+   "tx_date": "2022-02-15",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PAYPAL Holdings, Inc.",
+   "asset_type": "OP",
+   "description": "Call options; Strike price $155; Expires 03/18/22",
+   "idx": 21,
+   "notified": "2022-03-04",
+   "option": {
+    "exp": "2022-03-18",
+    "kind": "call",
+    "strike": 155.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "PYPL",
+   "tx_date": "2022-02-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Roku, Inc. - Class A",
+   "asset_type": "OP",
+   "description": "Call options; Strike price $170; Expires 02/25/22",
+   "idx": 22,
+   "notified": "2022-03-04",
+   "option": {
+    "exp": "2022-02-25",
+    "kind": "call",
+    "strike": 170.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "ROKU",
+   "tx_date": "2022-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Zillow Group, Inc. - Class C Capital Stock",
+   "asset_type": "OP",
+   "description": "Call options; Strike price $60; Expires 02/18/22",
+   "idx": 23,
+   "notified": "2022-03-04",
+   "option": {
+    "exp": "2022-02-18",
+    "kind": "call",
+    "strike": 60.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "Z",
+   "tx_date": "2022-02-18",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2022/20020559.pdf",
+ "year": 2022
+}

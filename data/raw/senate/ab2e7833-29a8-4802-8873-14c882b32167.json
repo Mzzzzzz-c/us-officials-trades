@@ -1,0 +1,40 @@
+{
+ "amended": false,
+ "filed": "2024-05-08",
+ "first": "John",
+ "full": "Boozman, John (Senator)",
+ "kind": "ptr",
+ "last": "Boozman",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 05/08/2024",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Hess Corp",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 1,
+   "owner": "JT",
+   "ticker": "HES",
+   "tx_date": "2024-03-28",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Applied Materials",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 2,
+   "owner": "JT",
+   "ticker": "AMAT",
+   "tx_date": "2024-03-28",
+   "type": "P"
+  }
+ ],
+ "uid": "ab2e7833-29a8-4802-8873-14c882b32167",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/ab2e7833-29a8-4802-8873-14c882b32167/"
+}

@@ -1,0 +1,49 @@
+{
+ "doc_id": "20023677",
+ "filed": "2023-09-17",
+ "filer": {
+  "name": "Hon. Daniel Goldman",
+  "state_dst": "NY10",
+  "status": "Member"
+ },
+ "first": "Daniel",
+ "last": "Goldman",
+ "parser": 3,
+ "state_dst": "NY10",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SIG GROUP AG UNSP/ADR",
+   "asset_type": "ST",
+   "description": "Transferred from Daniel Goldman Grandchildren 1986 Trust TLH ADR",
+   "idx": 1,
+   "notified": "2023-09-12",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Daniel Goldman Grandchildren 1986 Trust > MP",
+   "ticker": "SIGCY",
+   "tx_date": "2023-08-03",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Wolters Kluwer N V Ord American Depositary Shares",
+   "asset_type": "ST",
+   "description": "Transferred from Daniel Goldman Grandchildren 1986 Trust TLH ADR",
+   "idx": 2,
+   "notified": "2023-09-12",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Daniel Goldman Grandchildren 1986 Trust > MP",
+   "ticker": "WTKWY",
+   "tx_date": "2023-08-03",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2023/20023677.pdf",
+ "year": 2023
+}

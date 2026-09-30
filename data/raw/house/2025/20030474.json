@@ -1,0 +1,90 @@
+{
+ "doc_id": "20030474",
+ "filed": "2025-06-13",
+ "filer": {
+  "name": "Hon. Julie Johnson",
+  "state_dst": "TX32",
+  "status": "Member"
+ },
+ "first": "Julie",
+ "last": "Johnson",
+ "parser": 3,
+ "state_dst": "TX32",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Capital One Financial Corporation Common Stock",
+   "asset_type": "ST",
+   "description": "Discover Financial Services stock exchanged for Capital One Financial Services stock following merger",
+   "idx": 1,
+   "notified": "2025-06-06",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Merrill Lynch Tax Efficient Core",
+   "ticker": "COF",
+   "tx_date": "2025-05-19",
+   "type": "E"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Fidelity National Information Services, Inc. Common Stock",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2025-06-03",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Chase Brokerage Account (3935)",
+   "ticker": "FIS",
+   "tx_date": "2025-05-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "General Dynamics Corporation Common Stock",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2025-06-03",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Chase Brokerage Account (3935)",
+   "ticker": "GD",
+   "tx_date": "2025-05-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Morgan Stanley Common Stock",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2025-06-03",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Chase Brokerage Account (3935)",
+   "ticker": "MS",
+   "tx_date": "2025-05-15",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "The Bank of New York Mellon Corporation Common Stock",
+   "asset_type": "ST",
+   "idx": 5,
+   "notified": "2025-06-03",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Chase Brokerage Account (3935)",
+   "ticker": "BK",
+   "tx_date": "2025-05-15",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030474.pdf",
+ "year": 2025
+}

@@ -1,0 +1,34 @@
+{
+ "doc_id": "20035528",
+ "filed": "2026-09-27",
+ "filer": {
+  "name": "Hon. Max Miller",
+  "state_dst": "OH07",
+  "status": "Member"
+ },
+ "first": "Max",
+ "last": "Miller",
+ "parser": 3,
+ "state_dst": "OH07",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Mercato Partners Traverse IV QP, LP (GLAS Funds, LP)",
+   "asset_type": "HN",
+   "description": "Capital call of $3,014.00",
+   "idx": 1,
+   "notified": "2026-09-27",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "2012 Trust",
+   "ticker": null,
+   "tx_date": "2026-09-04",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035528.pdf",
+ "year": 2026
+}

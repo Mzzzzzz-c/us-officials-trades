@@ -1,0 +1,99 @@
+{
+ "doc_id": "20016837",
+ "filed": "2020-06-25",
+ "filer": {
+  "state_dst": "VA03",
+  "status": "Member"
+ },
+ "first": "Robert C. \"Bobby\"",
+ "last": "Scott",
+ "parser": 3,
+ "state_dst": "VA03",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Paychex, Inc.",
+   "asset_type": "ST",
+   "description": "Total sale for day of PAYX - $15,000 - $50,000",
+   "idx": 1,
+   "notified": "2020-06-25",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "PAYX",
+   "tx_date": "2020-06-16",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Paychex, Inc.",
+   "asset_type": "ST",
+   "description": "Total sale for day of PAYX - $15,000 - $50,000",
+   "idx": 2,
+   "notified": "2020-06-25",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "PAYX",
+   "tx_date": "2020-06-16",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Procter & Gamble Company",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2020-06-25",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "PG",
+   "tx_date": "2020-06-16",
+   "type": "SF"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Sysco Corporation",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2020-06-25",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "SYY",
+   "tx_date": "2020-06-16",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Yum China Holdings, Inc.",
+   "asset_type": "ST",
+   "description": "Subholding of YuM",
+   "idx": 5,
+   "notified": "2020-06-25",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "YUMC",
+   "tx_date": "2020-06-16",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Yum! Brands, Inc.",
+   "asset_type": "ST",
+   "idx": 6,
+   "notified": "2020-06-25",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "YUM",
+   "tx_date": "2020-06-16",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2020/20016837.pdf",
+ "year": 2020
+}

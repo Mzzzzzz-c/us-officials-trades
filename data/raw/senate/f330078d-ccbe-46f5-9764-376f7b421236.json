@@ -1,0 +1,40 @@
+{
+ "amended": false,
+ "filed": "2020-01-25",
+ "first": "Gary C",
+ "full": "Peters, Gary (Senator)",
+ "kind": "ptr",
+ "last": "Peters",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 01/25/2020",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "WARRINGTON TWP PA GO BDS 2014 DUE 12/01/2029 (Exchanged) WARRINGTON TWP PA GO BDS 2014 DUE 12/01/2029 CALLABLE-NEXT PRICING CALL 12/01/2024 (Received) Rate/Coupon: 3.125% Matures: 12/01/2029",
+   "asset_type": "GS",
+   "asset_type_text": "Municipal Security",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": null,
+   "tx_date": "2019-12-31",
+   "type": "E"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "WARRINGTON TWP PA GO BDS 2014 DUE 12/01/2029 (Exchanged) WARRINGTON TWP PA GO BDS 2014 DUE 12/01/2029 PREREFUNDED 12/01/2024 (Received) Rate/Coupon: 3.125% Matures: 12/01/2029",
+   "asset_type": "GS",
+   "asset_type_text": "Municipal Security",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": null,
+   "tx_date": "2019-12-31",
+   "type": "E"
+  }
+ ],
+ "uid": "f330078d-ccbe-46f5-9764-376f7b421236",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/f330078d-ccbe-46f5-9764-376f7b421236/"
+}

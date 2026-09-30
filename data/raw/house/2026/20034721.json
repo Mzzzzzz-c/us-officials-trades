@@ -1,0 +1,45 @@
+{
+ "doc_id": "20034721",
+ "filed": "2026-06-05",
+ "filer": {
+  "name": "Hon. Tim Moore",
+  "state_dst": "NC14",
+  "status": "Member"
+ },
+ "first": "Tim",
+ "last": "Moore",
+ "parser": 3,
+ "state_dst": "NC14",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "AT&T Inc.",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2026-05-21",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "T",
+   "tx_date": "2026-05-21",
+   "type": "SF"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "AT&T Inc.",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2026-06-04",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "T",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034721.pdf",
+ "year": 2026
+}

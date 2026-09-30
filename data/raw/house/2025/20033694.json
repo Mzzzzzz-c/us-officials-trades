@@ -1,0 +1,92 @@
+{
+ "doc_id": "20033694",
+ "filed": "2025-12-29",
+ "filer": {
+  "name": "Hon. Sheri Biggs",
+  "state_dst": "SC03",
+  "status": "Member"
+ },
+ "first": "Sheri",
+ "last": "Biggs",
+ "parser": 3,
+ "state_dst": "SC03",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "KKR Real Estate Select Trust Class U",
+   "asset_type": "RS",
+   "description": "Dividend reinvestment in a professionally managed account.",
+   "idx": 1,
+   "notified": "2025-12-08",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "W.S.B Trust > UBS Financial Services 26",
+   "ticker": null,
+   "tx_date": "2025-11-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Oaktree Strategic Credit Fund Class S",
+   "asset_type": "OT",
+   "description": "Dividend reinvestment in a professionally managed account – Business Development Company.",
+   "idx": 2,
+   "location": "US",
+   "notified": "2025-12-08",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "W.S.B Trust > UBS Financial Services 26",
+   "ticker": null,
+   "tx_date": "2025-11-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "US Treasury Note 11/15/2025",
+   "asset_type": "GS",
+   "idx": 3,
+   "notified": "2025-12-08",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "W.S.B Trust > UBS Financial Services Inc 35",
+   "ticker": null,
+   "tx_date": "2025-11-17",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "US Treasury Note 11/15/2025",
+   "asset_type": "GS",
+   "idx": 4,
+   "notified": "2025-12-08",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "W.S.B Trust > UBS Financial Services Inc 35",
+   "ticker": null,
+   "tx_date": "2025-11-17",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "US Treasury Note 11/15/2025",
+   "asset_type": "GS",
+   "idx": 5,
+   "notified": "2025-12-08",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "W.S.B Trust > UBS Financial Services Inc 35",
+   "ticker": null,
+   "tx_date": "2025-11-17",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033694.pdf",
+ "year": 2025
+}

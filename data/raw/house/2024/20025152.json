@@ -1,0 +1,33 @@
+{
+ "doc_id": "20025152",
+ "filed": "2024-06-04",
+ "filer": {
+  "name": "Hon. Doris O. Matsui",
+  "state_dst": "CA07",
+  "status": "Member"
+ },
+ "first": "Doris O.",
+ "last": "Matsui",
+ "parser": 3,
+ "state_dst": "CA07",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": 1000001,
+   "asset": "Intrinsic Exchange Group, Inc.",
+   "asset_type": "OI",
+   "description": "The investment was made through a Simple Agreement for Future Equity (SAFE).",
+   "idx": 1,
+   "notified": "2024-05-29",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2024-05-29",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025152.pdf",
+ "year": 2024
+}

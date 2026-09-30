@@ -1,0 +1,88 @@
+{
+ "amended": false,
+ "filed": "2025-02-07",
+ "first": "John",
+ "full": "Fetterman, John (Senator)",
+ "kind": "ptr",
+ "last": "Fetterman",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 02/07/2025",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ENSTAR FINANCE LLC NOTE Rate/Coupon: 5.5% Matures: 01/15/2042",
+   "asset_type": "CS",
+   "asset_type_text": "Corporate Bond",
+   "idx": 1,
+   "owner": "DC",
+   "ticker": null,
+   "tx_date": "2025-01-29",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PARAMOUNT GLOBAL BOND Rate/Coupon: 6.875% Matures: 04/30/2036",
+   "asset_type": "CS",
+   "asset_type_text": "Corporate Bond",
+   "idx": 2,
+   "owner": "DC",
+   "ticker": null,
+   "tx_date": "2025-01-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SEMPRA NOTE Rate/Coupon: 4.125% Matures: 04/01/2052",
+   "asset_type": "CS",
+   "asset_type_text": "Corporate Bond",
+   "idx": 3,
+   "owner": "DC",
+   "ticker": null,
+   "tx_date": "2025-01-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ELEVANCE HEALTH INC NOTE Rate/Coupon: 4.9% Matures: 02/08/2026",
+   "asset_type": "CS",
+   "asset_type_text": "Corporate Bond",
+   "idx": 4,
+   "owner": "DC",
+   "ticker": null,
+   "tx_date": "2025-01-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CELANESE US HLDGS LLC NOTE Rate/Coupon: 6.33% Matures: 07/15/2029",
+   "asset_type": "CS",
+   "asset_type_text": "Corporate Bond",
+   "idx": 5,
+   "owner": "DC",
+   "ticker": null,
+   "tx_date": "2025-01-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BANK NEW YORK MELLON CORP BOND Rate/Coupon: 3.75% Matures: 12/20/2026",
+   "asset_type": "CS",
+   "asset_type_text": "Corporate Bond",
+   "idx": 6,
+   "owner": "DC",
+   "ticker": null,
+   "tx_date": "2025-01-13",
+   "type": "P"
+  }
+ ],
+ "uid": "5600cc30-f2c9-4d6b-b681-baae1c70a40a",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/5600cc30-f2c9-4d6b-b681-baae1c70a40a/"
+}

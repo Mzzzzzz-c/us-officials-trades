@@ -1,0 +1,55 @@
+{
+ "amended": false,
+ "filed": "2023-04-19",
+ "first": "Tina",
+ "full": "Smith, Tina (Senator)",
+ "kind": "ptr",
+ "last": "Smith",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 04/19/2023",
+ "transactions": [
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Cardiovascular Systems, Inc. - Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "comment": "Underlying asset of Truchas Capital 401k Plan",
+   "idx": 1,
+   "owner": "SP",
+   "ticker": "CSII",
+   "tx_date": "2023-04-05",
+   "type": "SF"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Medtronic plc. Ordinary Shares",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "comment": "Underlying asset of Arch C Smith Revocable Trust U/A DTD 11/23/2015",
+   "idx": 2,
+   "owner": "SP",
+   "ticker": "MDT",
+   "tx_date": "2023-04-05",
+   "type": "SF"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Cardiovascular Systems, Inc. - Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "comment": "Underlying asset of Arch C Smith Revocable Trust U/A DTD 11/23/2015",
+   "idx": 3,
+   "owner": "SP",
+   "ticker": "CSII",
+   "tx_date": "2023-04-05",
+   "type": "SF"
+  }
+ ],
+ "uid": "7c840533-d541-42ab-b8ca-361a1be272d2",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/7c840533-d541-42ab-b8ca-361a1be272d2/"
+}

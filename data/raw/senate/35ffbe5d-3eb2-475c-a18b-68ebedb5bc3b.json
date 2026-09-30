@@ -1,0 +1,268 @@
+{
+ "amended": false,
+ "filed": "2024-04-15",
+ "first": "Thomas H",
+ "full": "Tuberville, Tommy (Senator)",
+ "kind": "ptr",
+ "last": "Tuberville",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 04/15/2024",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Walgreens Boots Alliance, Inc. - Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 1,
+   "owner": "JT",
+   "ticker": "WBA",
+   "tx_date": "2024-03-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Paramount Global - Class B Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 2,
+   "owner": "JT",
+   "ticker": "PARA",
+   "tx_date": "2024-03-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ROLLS-ROYCE HOLDINGS PLC SPONSORED ADR",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 3,
+   "owner": "JT",
+   "ticker": null,
+   "tx_date": "2024-03-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ROLLS-ROYCE HOLDINGS PLC SPONSORED ADR",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 4,
+   "owner": "JT",
+   "ticker": null,
+   "tx_date": "2024-03-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Humacyte Inc",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 5,
+   "owner": "JT",
+   "ticker": "HUMA",
+   "tx_date": "2024-03-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Humacyte, Inc. - Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 6,
+   "owner": "JT",
+   "ticker": "HUMA",
+   "tx_date": "2024-03-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Humacyte, Inc. - Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 7,
+   "owner": "JT",
+   "ticker": "HUMA",
+   "tx_date": "2024-03-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "QUALCOMM Incorporated - Common Stock Option Type: Put Strike price: $155.00 Expires: 12/20/2024",
+   "asset_type": "OP",
+   "asset_type_text": "Stock Option",
+   "idx": 8,
+   "option": {
+    "exp": "2024-12-20",
+    "kind": "put"
+   },
+   "owner": "JT",
+   "ticker": "QCOM",
+   "tx_date": "2024-03-13",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Adobe Systems Inc Option Type: Put Strike price: $500.00 Expires: 12/20/2024",
+   "asset_type": "OP",
+   "asset_type_text": "Stock Option",
+   "idx": 9,
+   "option": {
+    "exp": "2024-12-20",
+    "kind": "put"
+   },
+   "owner": "JT",
+   "ticker": "ADBE",
+   "tx_date": "2024-03-13",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Adobe Systems Inc Option Type: Put Strike price: $500.00 Expires: 12/20/2024",
+   "asset_type": "OP",
+   "asset_type_text": "Stock Option",
+   "idx": 10,
+   "option": {
+    "exp": "2024-12-20",
+    "kind": "put"
+   },
+   "owner": "JT",
+   "ticker": "ADBE",
+   "tx_date": "2024-03-13",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Adobe Systems Inc Option Type: Put Strike price: $500.00 Expires: 12/20/2024",
+   "asset_type": "OP",
+   "asset_type_text": "Stock Option",
+   "idx": 11,
+   "option": {
+    "exp": "2024-12-20",
+    "kind": "put"
+   },
+   "owner": "JT",
+   "ticker": "ADBE",
+   "tx_date": "2024-03-13",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Adobe Systems Inc Option Type: Put Strike price: $500.00 Expires: 12/20/2024",
+   "asset_type": "OP",
+   "asset_type_text": "Stock Option",
+   "idx": 12,
+   "option": {
+    "exp": "2024-12-20",
+    "kind": "put"
+   },
+   "owner": "JT",
+   "ticker": "ADBE",
+   "tx_date": "2024-03-13",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Applied Materials, Inc. - Common Stock Option Type: Put Strike price: $175.00 Expires: 01/17/2025",
+   "asset_type": "OP",
+   "asset_type_text": "Stock Option",
+   "idx": 13,
+   "option": {
+    "exp": "2025-01-17",
+    "kind": "put"
+   },
+   "owner": "JT",
+   "ticker": "AMAT",
+   "tx_date": "2024-03-08",
+   "type": "SF"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "FEDERAL HOME LN MTG CORP MTN Rate/Coupon: 5.375% Matures: 02/08/2027",
+   "asset_type": "CS",
+   "asset_type_text": "Corporate Bond",
+   "idx": 14,
+   "owner": "SELF",
+   "ticker": null,
+   "tx_date": "2024-03-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Apple Inc",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 15,
+   "owner": "SELF",
+   "ticker": "AAPL",
+   "tx_date": "2024-03-12",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Accenture Plc",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 16,
+   "owner": "JT",
+   "ticker": "ACN",
+   "tx_date": "2024-03-12",
+   "type": "SF"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CSX Corporation - Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 17,
+   "owner": "JT",
+   "ticker": "CSX",
+   "tx_date": "2024-03-12",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "JP Morgan Chase & Co. Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 18,
+   "owner": "JT",
+   "ticker": "JPM",
+   "tx_date": "2024-03-12",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Texas Instruments Incorporated - Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 19,
+   "owner": "JT",
+   "ticker": "TXN",
+   "tx_date": "2024-03-12",
+   "type": "SF"
+  }
+ ],
+ "uid": "35ffbe5d-3eb2-475c-a18b-68ebedb5bc3b",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/35ffbe5d-3eb2-475c-a18b-68ebedb5bc3b/"
+}

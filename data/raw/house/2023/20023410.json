@@ -1,0 +1,62 @@
+{
+ "doc_id": "20023410",
+ "filed": "2023-07-31",
+ "filer": {
+  "name": "Hon. William R. Keating",
+  "state_dst": "MA09",
+  "status": "Member"
+ },
+ "first": "William R.",
+ "last": "Keating",
+ "parser": 3,
+ "state_dst": "MA09",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Electronic Arts Inc.",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2023-07-31",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Bill's IRA",
+   "ticker": "EA",
+   "tx_date": "2023-07-20",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Intuitive Surgical, Inc.",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2023-07-31",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Bill's IRA",
+   "ticker": "ISRG",
+   "tx_date": "2023-07-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "META PLATFORMS INC NOTE CALL MAKE WHOLE 4.95000% 05/15/2033",
+   "asset_type": "CS",
+   "description": "30303M8N5",
+   "idx": 3,
+   "notified": "2023-07-31",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Bill's IRA",
+   "ticker": null,
+   "tx_date": "2023-07-21",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2023/20023410.pdf",
+ "year": 2023
+}

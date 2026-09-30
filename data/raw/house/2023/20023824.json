@@ -1,0 +1,71 @@
+{
+ "doc_id": "20023824",
+ "filed": "2023-10-13",
+ "filer": {
+  "name": "Hon. Scott H. Peters",
+  "state_dst": "CA50",
+  "status": "Member"
+ },
+ "first": "Scott H.",
+ "last": "Peters",
+ "parser": 3,
+ "state_dst": "CA50",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "U.S Treasury Bills",
+   "asset_type": "GS",
+   "idx": 1,
+   "notified": "2023-09-30",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2023-09-21",
+   "type": "SP"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "U.S Treasury Bills",
+   "asset_type": "GS",
+   "idx": 2,
+   "notified": "2023-09-30",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2023-09-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "U.S Treasury Bills",
+   "asset_type": "GS",
+   "idx": 3,
+   "notified": "2023-09-30",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2023-09-21",
+   "type": "SP"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "U.S Treasury Bills",
+   "asset_type": "GS",
+   "idx": 4,
+   "notified": "2023-09-30",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2023-09-25",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2023/20023824.pdf",
+ "year": 2023
+}

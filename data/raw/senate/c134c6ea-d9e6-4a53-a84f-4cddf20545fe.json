@@ -1,0 +1,40 @@
+{
+ "amended": false,
+ "filed": "2022-06-12",
+ "first": "Shelley M",
+ "full": "Capito, Shelley Moore (Senator)",
+ "kind": "ptr",
+ "last": "Capito",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 06/12/2022",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NextEra Energy, Inc. Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 1,
+   "owner": "SP",
+   "ticker": "NEE",
+   "tx_date": "2022-05-26",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "WEC Energy Group, Inc. Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 2,
+   "owner": "SP",
+   "ticker": "WEC",
+   "tx_date": "2022-05-25",
+   "type": "SP"
+  }
+ ],
+ "uid": "c134c6ea-d9e6-4a53-a84f-4cddf20545fe",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/c134c6ea-d9e6-4a53-a84f-4cddf20545fe/"
+}

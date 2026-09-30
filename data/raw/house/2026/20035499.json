@@ -1,0 +1,33 @@
+{
+ "doc_id": "20035499",
+ "filed": "2026-09-22",
+ "filer": {
+  "name": "Hon. Pete Sessions",
+  "state_dst": "TX17",
+  "status": "Member"
+ },
+ "first": "Pete",
+ "last": "Sessions",
+ "parser": 3,
+ "state_dst": "TX17",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Apple Inc. - Common Stock",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2026-09-22",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "IRA One",
+   "ticker": "AAPL",
+   "tx_date": "2026-09-22",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035499.pdf",
+ "year": 2026
+}

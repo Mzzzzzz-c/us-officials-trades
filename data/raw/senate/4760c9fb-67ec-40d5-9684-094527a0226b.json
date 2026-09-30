@@ -1,0 +1,28 @@
+{
+ "amended": false,
+ "filed": "2021-09-28",
+ "first": "Roy",
+ "full": "Blunt, Roy (Senator)",
+ "kind": "ptr",
+ "last": "Blunt",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 09/28/2021",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Nerdy Inc. Class A Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 1,
+   "owner": "SP",
+   "ticker": "NRDY",
+   "tx_date": "2021-09-27",
+   "type": "P"
+  }
+ ],
+ "uid": "4760c9fb-67ec-40d5-9684-094527a0226b",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/4760c9fb-67ec-40d5-9684-094527a0226b/"
+}

@@ -1,0 +1,34 @@
+{
+ "doc_id": "20019320",
+ "filed": "2021-08-13",
+ "filer": {
+  "state_dst": "MD08",
+  "status": "Member"
+ },
+ "first": "Jamie",
+ "last": "Raskin",
+ "parser": 3,
+ "state_dst": "MD08",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": 1000001,
+   "asset": "The Reserve Trust Company/QED Fund V, LP",
+   "asset_type": "PS",
+   "description": "195,936 shares sold @ 7.50 per share",
+   "idx": 1,
+   "location": "US",
+   "notified": "2020-11-13",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Other",
+   "ticker": null,
+   "tx_date": "2020-12-18",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2021/20019320.pdf",
+ "year": 2021
+}

@@ -1,0 +1,49 @@
+{
+ "doc_id": "20030742",
+ "filed": "2025-07-27",
+ "filer": {
+  "name": "Hon. Max Miller",
+  "state_dst": "OH07",
+  "status": "Member"
+ },
+ "first": "Max",
+ "last": "Miller",
+ "parser": 3,
+ "state_dst": "OH07",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 647,
+   "amount_min": 647,
+   "asset": "AIX Ventures Fund II, LP (GLAS Funds, LP)",
+   "asset_type": "HN",
+   "description": "Capital Call for AIX Ventures Fund II, LP (GLAS Funds, LP)",
+   "idx": 1,
+   "notified": "2025-07-27",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "2012 Trust",
+   "ticker": null,
+   "tx_date": "2025-07-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "GLAS Funds, LP",
+   "asset_type": "HN",
+   "description": "Transfer of $25,000 to GLAS Funds, LP to fund capital calls for future investments.",
+   "idx": 2,
+   "notified": "2025-07-27",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "2012 Trust",
+   "ticker": null,
+   "tx_date": "2025-07-15",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030742.pdf",
+ "year": 2025
+}

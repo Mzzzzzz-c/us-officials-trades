@@ -1,0 +1,77 @@
+{
+ "doc_id": "20023822",
+ "filed": "2023-10-08",
+ "filer": {
+  "name": "Hon. Max Miller",
+  "state_dst": "OH07",
+  "status": "Member"
+ },
+ "first": "Max",
+ "last": "Miller",
+ "parser": 3,
+ "state_dst": "OH07",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "JPMorgan Equity Premium Income ETF",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2023-10-06",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "1989 Trust",
+   "ticker": "JEPI",
+   "tx_date": "2023-10-06",
+   "type": "SP"
+  },
+  {
+   "amount_max": 836,
+   "amount_min": 836,
+   "asset": "Mercato Partners Travers IV QP, LP (GLAS Funds, LP)",
+   "asset_type": "OT",
+   "description": "Mercato Partners Traverse IV LP; capital call for private equity investment",
+   "idx": 2,
+   "location": "US",
+   "notified": "2023-10-06",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "2012 Trust",
+   "ticker": null,
+   "tx_date": "2023-10-07",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Vanguard Mid-Cap ETF",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2023-10-06",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "1989 Trust",
+   "ticker": "VO",
+   "tx_date": "2023-10-06",
+   "type": "SP"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Vanguard S&P 500 ETF",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2023-10-06",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "1989 Trust",
+   "ticker": "VOO",
+   "tx_date": "2023-10-06",
+   "type": "SP"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2023/20023822.pdf",
+ "year": 2023
+}

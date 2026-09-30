@@ -1,0 +1,100 @@
+{
+ "amended": false,
+ "filed": "2025-10-10",
+ "first": "John",
+ "full": "Boozman, John (Senator)",
+ "kind": "ptr",
+ "last": "Boozman",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 10/10/2025",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Schwab U.S. TIPS ETF",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 1,
+   "owner": "JT",
+   "ticker": "SCHP",
+   "tx_date": "2025-09-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "iShares 7-10 Year Treasury Bond ETF",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 2,
+   "owner": "JT",
+   "ticker": "IEF",
+   "tx_date": "2025-09-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "iShares 1-3 Year Treasury Bond ETF",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 3,
+   "owner": "JT",
+   "ticker": "SHY",
+   "tx_date": "2025-09-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "iShares 3-7 Year Treasury Bond ETF",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 4,
+   "owner": "JT",
+   "ticker": "IEI",
+   "tx_date": "2025-09-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Eaton Corp",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 5,
+   "owner": "JT",
+   "ticker": "ETN",
+   "tx_date": "2025-09-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Alphabet Cl A",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 6,
+   "owner": "JT",
+   "ticker": "GOOGL",
+   "tx_date": "2025-09-17",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Adobe Systems Inc",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 7,
+   "owner": "JT",
+   "ticker": "ADBE",
+   "tx_date": "2025-09-04",
+   "type": "P"
+  }
+ ],
+ "uid": "c8fa5a56-c0db-4cf4-8370-c81d858f9ca9",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/c8fa5a56-c0db-4cf4-8370-c81d858f9ca9/"
+}

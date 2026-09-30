@@ -1,0 +1,72 @@
+{
+ "doc_id": "20025768",
+ "filed": "2024-09-09",
+ "filer": {
+  "name": "Hon. Suzan K. DelBene",
+  "state_dst": "WA01",
+  "status": "Member"
+ },
+ "first": "Suzan K.",
+ "last": "DelBene",
+ "parser": 3,
+ "state_dst": "WA01",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "Maryland ST Go BDS Ser. 2017 B 5.00 % Due Aug 1, 2026",
+   "asset_type": "GS",
+   "idx": 1,
+   "notified": "2024-08-29",
+   "owner": "JT",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2024-08-29",
+   "type": "SF"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Microsoft Corporation - Common Stock",
+   "asset_type": "ST",
+   "description": "Vested shares sold to separate trust not for the benefit of filer or spouse pursuant to forward contract dated 2/9/2022",
+   "idx": 2,
+   "notified": "2024-08-31",
+   "owner": "JT",
+   "status": "New",
+   "ticker": "MSFT",
+   "tx_date": "2024-08-31",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Seattle WA MN LT PW 0%45 PWR Util Due 05/01/45",
+   "asset_type": "GS",
+   "idx": 3,
+   "notified": "2024-08-23",
+   "owner": "JT",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2024-08-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "UT ST Tran Auth 5%36 Excise Tax Due 06/15/36",
+   "asset_type": "GS",
+   "idx": 4,
+   "notified": "2024-08-29",
+   "owner": "JT",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2024-08-29",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025768.pdf",
+ "year": 2024
+}

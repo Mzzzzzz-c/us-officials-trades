@@ -1,0 +1,91 @@
+{
+ "doc_id": "20021629",
+ "filed": "2022-10-30",
+ "filer": {
+  "name": "Hon. William R. Keating",
+  "state_dst": "MA09",
+  "status": "Member"
+ },
+ "first": "William R.",
+ "last": "Keating",
+ "parser": 3,
+ "state_dst": "MA09",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ORACLE CORP NOTE CALL MAKE WHOLE 2.30000% 03/25/2028",
+   "asset_type": "CS",
+   "description": "68389XCD5",
+   "idx": 1,
+   "notified": "2022-10-20",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Bill's IRA",
+   "ticker": null,
+   "tx_date": "2022-09-15",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Ross Stores, Inc.",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2022-10-20",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Bill's IRA",
+   "ticker": "ROST",
+   "tx_date": "2022-09-09",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "TJX Companies, Inc.",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2022-10-20",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Bill's IRA",
+   "ticker": "TJX",
+   "tx_date": "2022-09-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "UNITED STATES TREAS SER C-2032 2.87500% 05/15/2032 NTS NOTE",
+   "asset_type": "GS",
+   "idx": 4,
+   "notified": "2022-09-01",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Bill's IRA",
+   "ticker": null,
+   "tx_date": "2022-07-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "VERIZON COMMUNICATIONS INC 4.01600% 12/03/2029 SER C NOTE CALL MAKE WHOLE",
+   "asset_type": "CS",
+   "description": "92343VEU4",
+   "idx": 5,
+   "notified": "2022-10-20",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Bill's IRA",
+   "ticker": null,
+   "tx_date": "2022-09-30",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2022/20021629.pdf",
+ "year": 2022
+}

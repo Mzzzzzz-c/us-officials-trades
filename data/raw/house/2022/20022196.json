@@ -1,0 +1,34 @@
+{
+ "doc_id": "20022196",
+ "filed": "2022-12-30",
+ "filer": {
+  "name": "Hon. John W. Rose",
+  "state_dst": "TN06",
+  "status": "Member"
+ },
+ "first": "John W.",
+ "last": "Rose",
+ "parser": 3,
+ "state_dst": "TN06",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Continental Resources, Inc.",
+   "asset_type": "ST",
+   "description": "This transaction was a forced sale as the result of a cash tender offer. Gain over the 15+ year holding period exceeded $200 but is not taxable given the status of this account.",
+   "idx": 1,
+   "notified": "2022-11-30",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "John Williams Rose RIRA",
+   "ticker": "CLR",
+   "tx_date": "2022-11-29",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2022/20022196.pdf",
+ "year": 2022
+}

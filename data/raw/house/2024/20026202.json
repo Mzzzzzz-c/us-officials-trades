@@ -1,0 +1,89 @@
+{
+ "doc_id": "20026202",
+ "filed": "2024-11-12",
+ "filer": {
+  "name": "Hon. Thomas R. Suozzi",
+  "state_dst": "NY03",
+  "status": "Member"
+ },
+ "first": "Thomas R.",
+ "last": "Suozzi",
+ "parser": 3,
+ "state_dst": "NY03",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Boeing Company",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2024-10-25",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Merrill Lynch- Advisor Discretion Account- IRA",
+   "ticker": "BA",
+   "tx_date": "2024-10-24",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Corning Incorporated Common Stock",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2024-10-25",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Merrill Lynch- Advisor Discretion Account- IRA",
+   "ticker": "GLW",
+   "tx_date": "2024-10-24",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CVS Health Corporation Common Stock",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2024-10-25",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Merrill Lynch- Advisor Discretion Account- IRA",
+   "ticker": "CVS",
+   "tx_date": "2024-10-24",
+   "type": "SF"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "NVIDIA Corporation - Common Stock",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2024-10-25",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Merrill Lynch- Advisor Discretion Account- IRA",
+   "ticker": "NVDA",
+   "tx_date": "2024-10-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Weyerhaeuser Company Common Stock When Distibuted",
+   "asset_type": "ST",
+   "idx": 5,
+   "notified": "2024-10-25",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Merrill Lynch- Advisor Discretion Account- IRA",
+   "ticker": "WY.Z",
+   "tx_date": "2024-10-24",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20026202.pdf",
+ "year": 2024
+}

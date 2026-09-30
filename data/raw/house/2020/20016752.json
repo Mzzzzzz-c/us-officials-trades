@@ -1,0 +1,47 @@
+{
+ "doc_id": "20016752",
+ "filed": "2020-06-11",
+ "filer": {
+  "status": "Member"
+ },
+ "first": "Earl Leroy",
+ "last": "Carter",
+ "parser": 3,
+ "state_dst": "GA01",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MARIETTA GA DEV AUTH RFDG SPSU STDNT HSG",
+   "asset_type": "GS",
+   "description": "Due 6/15/24",
+   "idx": 1,
+   "notified": "2020-06-02",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Stifel",
+   "ticker": null,
+   "tx_date": "2020-05-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "PRIVATE CLLGS & UNIV REV SAVANNAH CLLG ART & DSGN",
+   "asset_type": "GS",
+   "description": "DUE 4/01/35",
+   "idx": 2,
+   "notified": "2020-06-02",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Stifel",
+   "ticker": null,
+   "tx_date": "2020-05-13",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2020/20016752.pdf",
+ "year": 2020
+}

@@ -1,0 +1,45 @@
+{
+ "doc_id": "20018863",
+ "filed": "2021-06-08",
+ "filer": {
+  "state_dst": "MN03",
+  "status": "Member"
+ },
+ "first": "Dean",
+ "last": "Phillips",
+ "parser": 3,
+ "state_dst": "MN03",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Digital Realty Trust Inc PFD",
+   "asset_type": "CS",
+   "description": "Preferred security",
+   "idx": 1,
+   "notified": "2021-06-07",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2021-05-17",
+   "type": "SF"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MO St Hwys & Trnst Ref-1st Lien- Ser A 5% 05/01/2021 Dtd 06/03/2014",
+   "asset_type": "GS",
+   "idx": 2,
+   "notified": "2021-06-07",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2021-05-03",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2021/20018863.pdf",
+ "year": 2021
+}

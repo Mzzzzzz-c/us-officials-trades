@@ -1,0 +1,88 @@
+{
+ "doc_id": "20017541",
+ "filed": "2020-10-20",
+ "filer": {
+  "state_dst": "NJ06",
+  "status": "Member"
+ },
+ "first": "Frank",
+ "last": "Pallone",
+ "parser": 3,
+ "state_dst": "NJ06",
+ "status": "ok",
+ "suffix": "Jr.",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Estee Lauder Companies, Inc.",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2020-09-25",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "WELLS FARGO ADVISORS: IRA",
+   "ticker": "EL",
+   "tx_date": "2020-09-25",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "General Electric Company",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2020-09-25",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "WELLS FARGO ADVISORS: IRA",
+   "ticker": "GE",
+   "tx_date": "2020-09-25",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "General Electric Company",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2020-09-25",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "WELLS FARGO ADVISORS: IRA",
+   "ticker": "GE",
+   "tx_date": "2020-09-25",
+   "type": "SF"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Texas Instruments Incorporated",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2020-09-25",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "WELLS FARGO ADVISORS: IRA",
+   "ticker": "TXN",
+   "tx_date": "2020-09-25",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Walt Disney Company",
+   "asset_type": "ST",
+   "idx": 5,
+   "notified": "2020-09-25",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "WELLS FARGO ADVISORS: IRA",
+   "ticker": "DIS",
+   "tx_date": "2020-09-25",
+   "type": "SP"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2020/20017541.pdf",
+ "year": 2020
+}

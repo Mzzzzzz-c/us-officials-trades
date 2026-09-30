@@ -1,0 +1,28 @@
+{
+ "amended": true,
+ "filed": "2020-08-11",
+ "first": "Patrick J",
+ "full": "Toomey, Pat (Senator)",
+ "kind": "ptr",
+ "last": "Toomey",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 02/21/2019 (Amendment 1)",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "The Toronto-Dominion Bank Rate/Coupon: 3.25 Matures: 06/11/2021",
+   "asset_type": "CS",
+   "asset_type_text": "Corporate Bond",
+   "idx": 1,
+   "owner": "JT",
+   "ticker": "TNTOF",
+   "tx_date": "2019-01-31",
+   "type": "P"
+  }
+ ],
+ "uid": "acdea934-650d-4726-8f8a-af34f2e36706",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/acdea934-650d-4726-8f8a-af34f2e36706/"
+}

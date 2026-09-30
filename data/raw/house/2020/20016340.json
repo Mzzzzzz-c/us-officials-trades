@@ -1,0 +1,107 @@
+{
+ "doc_id": "20016340",
+ "filed": "2020-04-01",
+ "filer": {
+  "status": "Member"
+ },
+ "first": "Nancy",
+ "last": "Pelosi",
+ "parser": 3,
+ "state_dst": "CA12",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "Alphabet Inc. - Class A",
+   "asset_type": "OP",
+   "description": "Purchased 40 call options with a strike price of $1200 and an expiration date of 6/18/2021.",
+   "idx": 1,
+   "notified": "2020-02-27",
+   "option": {
+    "exp": "2021-06-18",
+    "kind": "call",
+    "strike": 1200.0
+   },
+   "owner": "SP",
+   "status": "New",
+   "ticker": "GOOGL",
+   "tx_date": "2020-02-27",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Microsoft Corporation",
+   "asset_type": "OP",
+   "description": "Purchased 50 call options with a strike price of $130 and an expiration date of 3/19/2021.",
+   "idx": 2,
+   "notified": "2020-02-28",
+   "option": {
+    "exp": "2021-03-19",
+    "kind": "call",
+    "strike": 130.0
+   },
+   "owner": "SP",
+   "status": "New",
+   "ticker": "MSFT",
+   "tx_date": "2020-02-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Microsoft Corporation",
+   "asset_type": "OP",
+   "description": "Purchased 100 call options with a strike price of $140 and an expiration date of 3/19/2021.",
+   "idx": 3,
+   "notified": "2020-02-20",
+   "option": {
+    "exp": "2021-03-19",
+    "kind": "call",
+    "strike": 140.0
+   },
+   "owner": "SP",
+   "status": "New",
+   "ticker": "MSFT",
+   "tx_date": "2020-02-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "Microsoft Corporation",
+   "asset_type": "OP",
+   "description": "Purchased 100 call options with a strike price of $130 and an expiration date of 3/19/2021.",
+   "idx": 4,
+   "notified": "2020-02-21",
+   "option": {
+    "exp": "2021-03-19",
+    "kind": "call",
+    "strike": 130.0
+   },
+   "owner": "SP",
+   "status": "New",
+   "ticker": "MSFT",
+   "tx_date": "2020-02-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Slack Technologies, Inc. Class A",
+   "asset_type": "ST",
+   "description": "Purchased 10,000 shares.",
+   "idx": 5,
+   "notified": "2020-02-20",
+   "owner": "SP",
+   "status": "New",
+   "ticker": "WORK",
+   "tx_date": "2020-02-20",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2020/20016340.pdf",
+ "year": 2020
+}

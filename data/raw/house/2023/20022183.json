@@ -1,0 +1,84 @@
+{
+ "doc_id": "20022183",
+ "filed": "2023-01-02",
+ "filer": {
+  "name": "Hon. Suzan K. DelBene",
+  "state_dst": "WA01",
+  "status": "Member"
+ },
+ "first": "Suzan K.",
+ "last": "DelBene",
+ "parser": 3,
+ "state_dst": "WA01",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "Arizona Indl Dev Auth Rev BDS Lincoln 5.00 % Due Nov 1, 2029",
+   "asset_type": "GS",
+   "idx": 1,
+   "notified": "2022-12-16",
+   "owner": "JT",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2022-12-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "Connecticut ST Go BDS 2018 C 5.0000% Due 06/15/2030",
+   "asset_type": "GS",
+   "idx": 2,
+   "notified": "2022-12-16",
+   "owner": "JT",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2022-12-16",
+   "type": "SF"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "Maryland ST Dept TR 5%26 Comb Tax Due 10/01/26",
+   "asset_type": "GS",
+   "idx": 3,
+   "notified": "2022-12-16",
+   "owner": "JT",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2022-12-16",
+   "type": "SF"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Philadelphia PA SCH Dist Go BDS Ser. F 5.00 % Due Sep 1, 2027",
+   "asset_type": "GS",
+   "idx": 4,
+   "notified": "2022-12-15",
+   "owner": "JT",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2022-12-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "Round Rock Tex Indpt SCH Dist Unltd Tax 5.00 % Due Aug 1, 2025",
+   "asset_type": "GS",
+   "idx": 5,
+   "notified": "2022-12-19",
+   "owner": "JT",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2022-12-19",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2023/20022183.pdf",
+ "year": 2023
+}

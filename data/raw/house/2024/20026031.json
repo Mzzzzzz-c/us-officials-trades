@@ -1,0 +1,47 @@
+{
+ "doc_id": "20026031",
+ "filed": "2024-10-18",
+ "filer": {
+  "name": "Hon. Richard W. Allen",
+  "state_dst": "GA12",
+  "status": "Member"
+ },
+ "first": "Richard W.",
+ "last": "Allen",
+ "parser": 3,
+ "state_dst": "GA12",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Charles Schwab Corporation",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2024-10-14",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "R.W. Allen & Associates, Inc.",
+   "ticker": "SCHW",
+   "tx_date": "2024-09-12",
+   "type": "SF"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "US Treasury Bill 912797HP5",
+   "asset_type": "GS",
+   "idx": 2,
+   "notified": "2024-10-14",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "SCH1",
+   "ticker": null,
+   "tx_date": "2024-09-13",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20026031.pdf",
+ "year": 2024
+}

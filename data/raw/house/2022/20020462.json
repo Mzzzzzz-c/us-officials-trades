@@ -1,0 +1,60 @@
+{
+ "doc_id": "20020462",
+ "filed": "2022-02-15",
+ "filer": {
+  "state_dst": "TN09",
+  "status": "Member"
+ },
+ "first": "Steve",
+ "last": "Cohen",
+ "parser": 3,
+ "state_dst": "TN09",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "First Trust Preferred Securities and Income ETF ETF",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2022-02-15",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Stephens Advantage Account",
+   "ticker": "FPE",
+   "tx_date": "2022-02-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Global X Variable Rate Preferred ETF",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2022-02-15",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Stephens Advantage Account",
+   "ticker": "PFFV",
+   "tx_date": "2022-02-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Invesco Variable Rate Preferred ETF",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2022-02-15",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Stephens Advantage Account",
+   "ticker": "VRP",
+   "tx_date": "2022-02-11",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2022/20020462.pdf",
+ "year": 2022
+}

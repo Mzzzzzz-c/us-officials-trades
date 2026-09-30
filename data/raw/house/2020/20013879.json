@@ -1,0 +1,122 @@
+{
+ "doc_id": "20013879",
+ "filed": "2020-01-09",
+ "filer": {
+  "name": "Hon. Roger W. Marshall",
+  "status": "Member"
+ },
+ "first": "Roger W.",
+ "last": "Marshall",
+ "parser": 3,
+ "state_dst": "KS01",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Alibaba Group Holding Limited American Depositary Shares Each Representing Eight Ordinary Share",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2020-01-07",
+   "owner": "DC",
+   "status": "New",
+   "ticker": "BABA",
+   "tx_date": "2019-12-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Alibaba Group Holding Limited American Depositary Shares Each Representing Eight Ordinary Share",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2020-01-07",
+   "owner": "DC",
+   "status": "New",
+   "ticker": "BABA",
+   "tx_date": "2019-12-05",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Apple Inc.",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2020-01-07",
+   "owner": "DC",
+   "status": "New",
+   "ticker": "AAPL",
+   "tx_date": "2019-12-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Apple Inc.",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2020-01-07",
+   "owner": "DC",
+   "status": "New",
+   "ticker": "AAPL",
+   "tx_date": "2019-12-06",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Apple Inc.",
+   "asset_type": "ST",
+   "idx": 5,
+   "notified": "2020-01-07",
+   "owner": "DC",
+   "status": "New",
+   "ticker": "AAPL",
+   "tx_date": "2019-12-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Apple Inc.",
+   "asset_type": "ST",
+   "idx": 6,
+   "notified": "2020-01-07",
+   "owner": "DC",
+   "status": "New",
+   "ticker": "AAPL",
+   "tx_date": "2019-12-06",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "YETI Holdings, Inc.",
+   "asset_type": "ST",
+   "idx": 7,
+   "notified": "2020-01-07",
+   "owner": "DC",
+   "status": "New",
+   "ticker": "YETI",
+   "tx_date": "2019-11-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "YETI Holdings, Inc.",
+   "asset_type": "ST",
+   "idx": 8,
+   "notified": "2020-01-07",
+   "owner": "DC",
+   "status": "New",
+   "ticker": "YETI",
+   "tx_date": "2019-12-12",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2020/20013879.pdf",
+ "year": 2020
+}

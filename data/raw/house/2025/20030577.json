@@ -1,0 +1,32 @@
+{
+ "doc_id": "20030577",
+ "filed": "2025-07-01",
+ "filer": {
+  "name": "Hon. Debbie Wasserman Schultz",
+  "state_dst": "FL25",
+  "status": "Member"
+ },
+ "first": "Debbie",
+ "last": "Wasserman Schultz",
+ "parser": 3,
+ "state_dst": "FL25",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "New Gold Inc.",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2025-06-27",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "NGD",
+   "tx_date": "2024-02-28",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030577.pdf",
+ "year": 2025
+}

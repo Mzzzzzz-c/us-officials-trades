@@ -1,0 +1,77 @@
+{
+ "doc_id": "20020504",
+ "filed": "2022-02-28",
+ "filer": {
+  "state_dst": "MA09",
+  "status": "Member"
+ },
+ "first": "William R.",
+ "last": "Keating",
+ "parser": 3,
+ "state_dst": "MA09",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "COMCAST CORP NEW NOTE CALL MAKE WHOLE 4.25000% 10/15/2030",
+   "asset_type": "CS",
+   "description": "20030NCu3",
+   "idx": 1,
+   "notified": "2022-02-22",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Bill's IRA",
+   "ticker": null,
+   "tx_date": "2022-01-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Fiserv, Inc.",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2022-02-22",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Bill's IRA",
+   "ticker": "FISV",
+   "tx_date": "2022-01-28",
+   "type": "SF"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "GENERAL MTRS FINL CO INC NOTE 3.10000% 01/12/2032 CALL MAKE WHOLE",
+   "asset_type": "CS",
+   "description": "37045XDS2",
+   "idx": 3,
+   "notified": "2022-02-22",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Bill's IRA",
+   "ticker": null,
+   "tx_date": "2022-02-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "GENERAL MTRS FINL CO INC NOTE 5.10000% 01/17/2024 CALL MAKE WHOLE",
+   "asset_type": "CS",
+   "description": "37045XCR5",
+   "idx": 4,
+   "notified": "2022-02-22",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Bill's IRA",
+   "ticker": null,
+   "tx_date": "2022-02-11",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2022/20020504.pdf",
+ "year": 2022
+}

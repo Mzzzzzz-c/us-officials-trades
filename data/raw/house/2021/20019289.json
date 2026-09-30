@@ -1,0 +1,31 @@
+{
+ "doc_id": "20019289",
+ "filed": "2021-08-11",
+ "filer": {
+  "state_dst": "NY26",
+  "status": "Member"
+ },
+ "first": "Brian",
+ "last": "Higgins",
+ "parser": 3,
+ "state_dst": "NY26",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Sphere 3D Corp. - Common Shares",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2021-08-11",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "ANY",
+   "tx_date": "2020-09-04",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2021/20019289.pdf",
+ "year": 2021
+}

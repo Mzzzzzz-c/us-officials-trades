@@ -1,0 +1,88 @@
+{
+ "doc_id": "20019643",
+ "filed": "2021-10-18",
+ "filer": {
+  "state_dst": "VA01",
+  "status": "Member"
+ },
+ "first": "Robert J.",
+ "last": "Wittman",
+ "parser": 3,
+ "state_dst": "VA01",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CYRUSONE Inc",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2021-10-04",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Morgan Stanley",
+   "ticker": "CONE",
+   "tx_date": "2021-09-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Johnson & Johnson",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2021-09-14",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Morgan Stanley",
+   "ticker": "JNJ",
+   "tx_date": "2021-09-10",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Johnson & Johnson",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2021-09-15",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Morgan Stanley",
+   "ticker": "JNJ",
+   "tx_date": "2021-09-13",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Royal Gold, Inc.",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2021-09-07",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Morgan Stanley INH IRA",
+   "ticker": "RGLD",
+   "tx_date": "2021-09-01",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "TJX Companies, Inc.",
+   "asset_type": "ST",
+   "idx": 5,
+   "notified": "2021-09-15",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Morgan Stanley",
+   "ticker": "TJX",
+   "tx_date": "2021-09-13",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2021/20019643.pdf",
+ "year": 2021
+}

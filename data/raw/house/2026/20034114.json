@@ -1,0 +1,50 @@
+{
+ "doc_id": "20034114",
+ "filed": "2026-03-17",
+ "filer": {
+  "name": "Hon. Neal Patrick MD, Facs Dunn",
+  "state_dst": "FL02",
+  "status": "Member"
+ },
+ "first": "Neal Patrick MD, Facs",
+ "last": "Dunn",
+ "parser": 3,
+ "state_dst": "FL02",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Cadence Bank 5.50% Series A (CADE$A)",
+   "asset_type": "ST",
+   "description": "Received Huntington Banc Shares Series-L in exchange for asset listed above due to corporate action.",
+   "idx": 1,
+   "notified": "2026-03-02",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "IRA #3",
+   "ticker": null,
+   "tx_date": "2026-02-02",
+   "type": "E"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Huntington Bancshares Incorporated - Depositary Shares L Preferred Stock",
+   "asset_type": "OT",
+   "description": "Received asset listed above in exchange for Cadence Bank Preferred Shares due to corporate action.",
+   "idx": 2,
+   "location": "US",
+   "notified": "2026-03-02",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "IRA #3",
+   "ticker": "HBANZ",
+   "tx_date": "2026-02-02",
+   "type": "E"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034114.pdf",
+ "year": 2026
+}

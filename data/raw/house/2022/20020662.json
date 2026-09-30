@@ -1,0 +1,32 @@
+{
+ "doc_id": "20020662",
+ "filed": "2022-03-21",
+ "filer": {
+  "state_dst": "CA12",
+  "status": "Member"
+ },
+ "first": "Nancy",
+ "last": "Pelosi",
+ "parser": 3,
+ "state_dst": "CA12",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "Tesla, Inc.",
+   "asset_type": "ST",
+   "description": "Exercised 25 call options (2,500 shares) expiring 3/18/22 at a strike price of $500.",
+   "idx": 1,
+   "notified": "2022-03-17",
+   "owner": "SP",
+   "status": "New",
+   "ticker": "TSLA",
+   "tx_date": "2022-03-17",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2022/20020662.pdf",
+ "year": 2022
+}

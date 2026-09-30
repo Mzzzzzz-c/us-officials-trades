@@ -1,0 +1,33 @@
+{
+ "doc_id": "20016861",
+ "filed": "2025-05-16",
+ "filer": {
+  "name": "Hon. John McGuire",
+  "state_dst": "VA05",
+  "status": "Member"
+ },
+ "first": "John",
+ "last": "McGuire",
+ "parser": 3,
+ "state_dst": "VA05",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "UnitedHealth Group Incorporated Common Stock",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2025-05-15",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Merrill Lynch SEP IRA",
+   "ticker": "UNH",
+   "tx_date": "2025-04-10",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20016861.pdf",
+ "year": 2025
+}

@@ -1,0 +1,61 @@
+{
+ "doc_id": "20026412",
+ "filed": "2024-12-20",
+ "filer": {
+  "name": "Hon. Michael Patrick Guest",
+  "state_dst": "MS03",
+  "status": "Member"
+ },
+ "first": "Michael Patrick",
+ "last": "Guest",
+ "parser": 3,
+ "state_dst": "MS03",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Amazon.com, Inc. - Common Stock",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2024-12-11",
+   "owner": "DC",
+   "status": "New",
+   "subholding": "TR - D1",
+   "ticker": "AMZN",
+   "tx_date": "2024-11-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "monday.com Ltd. - Ordinary Shares",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2024-12-11",
+   "owner": "DC",
+   "status": "New",
+   "subholding": "TR - D1",
+   "ticker": "MNDY",
+   "tx_date": "2024-11-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Tesla, Inc. - Common Stock",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2024-12-11",
+   "owner": "DC",
+   "status": "New",
+   "subholding": "TR - D1",
+   "ticker": "TSLA",
+   "tx_date": "2024-11-08",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20026412.pdf",
+ "year": 2024
+}

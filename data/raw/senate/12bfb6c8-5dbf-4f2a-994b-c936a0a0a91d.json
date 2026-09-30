@@ -1,0 +1,112 @@
+{
+ "amended": false,
+ "filed": "2025-10-03",
+ "first": "Sheldon",
+ "full": "Whitehouse, Sheldon (Senator)",
+ "kind": "ptr",
+ "last": "Whitehouse",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 10/03/2025",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Unitedhealth Group Inc",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "UNH",
+   "tx_date": "2025-09-04",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Verizon Communications Inc",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "VZ",
+   "tx_date": "2025-09-04",
+   "type": "SF"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Nvidia Corp",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "NVDA",
+   "tx_date": "2025-09-04",
+   "type": "SP"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Honeywell International Inc",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "HON",
+   "tx_date": "2025-09-04",
+   "type": "SF"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "RI INFRASTRUCTURE BK SAFE DRINKIN Rate/Coupon: 3.0% Matures: 10/01/2032",
+   "asset_type": "GS",
+   "asset_type_text": "Municipal Security",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": null,
+   "tx_date": "2025-09-04",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Amgen Inc",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "AMGN",
+   "tx_date": "2025-09-04",
+   "type": "SF"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Apple Inc",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "AAPL",
+   "tx_date": "2025-09-04",
+   "type": "SP"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Microsoft Corp",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": "MSFT",
+   "tx_date": "2025-09-04",
+   "type": "SP"
+  }
+ ],
+ "uid": "12bfb6c8-5dbf-4f2a-994b-c936a0a0a91d",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/12bfb6c8-5dbf-4f2a-994b-c936a0a0a91d/"
+}

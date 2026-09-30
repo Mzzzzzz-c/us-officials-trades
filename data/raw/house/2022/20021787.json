@@ -1,0 +1,61 @@
+{
+ "doc_id": "20021787",
+ "filed": "2022-10-01",
+ "filer": {
+  "name": "Hon. Alan S. Lowenthal",
+  "state_dst": "CA47",
+  "status": "Member"
+ },
+ "first": "Alan S.",
+ "last": "Lowenthal",
+ "parser": 3,
+ "state_dst": "CA47",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Salesforce, Inc.",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2022-10-01",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Neuberger Berman - Malumed Lowenthal Rev Trust #2",
+   "ticker": "CRM",
+   "tx_date": "2022-09-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Service Corporation International",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2022-10-01",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Neuberger Berman - Malumed Lowenthal Rev Trust #2",
+   "ticker": "SCI",
+   "tx_date": "2022-09-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Service Corporation International",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2022-10-01",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Neuberger Berman - Malumed Lowenthal Rev Trust #2",
+   "ticker": "SCI",
+   "tx_date": "2022-09-22",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2022/20021787.pdf",
+ "year": 2022
+}

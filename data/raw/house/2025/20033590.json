@@ -1,0 +1,61 @@
+{
+ "doc_id": "20033590",
+ "filed": "2025-12-05",
+ "filer": {
+  "name": "Hon. David J. Taylor",
+  "state_dst": "OH02",
+  "status": "Member"
+ },
+ "first": "David J.",
+ "last": "Taylor",
+ "parser": 3,
+ "state_dst": "OH02",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Amgen Inc. - Common Stock",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2025-12-05",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "David Taylor Trust > Schwab Joint Brokerage #1 (Home Grown)",
+   "ticker": "AMGN",
+   "tx_date": "2025-12-03",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Amgen Inc. - Common Stock",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2025-12-05",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "David Taylor Trust > Sardinia Ready Mix 401(k) - Dave",
+   "ticker": "AMGN",
+   "tx_date": "2025-12-03",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Visa Inc.",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2025-12-05",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "David Taylor Trust > Sardinia Ready Mix 401(k) - Dave",
+   "ticker": "V",
+   "tx_date": "2025-12-03",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033590.pdf",
+ "year": 2025
+}

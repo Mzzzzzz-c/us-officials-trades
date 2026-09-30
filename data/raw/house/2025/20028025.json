@@ -1,0 +1,33 @@
+{
+ "doc_id": "20028025",
+ "filed": "2025-04-01",
+ "filer": {
+  "name": "Hon. Steve Cohen",
+  "state_dst": "TN09",
+  "status": "Member"
+ },
+ "first": "Steve",
+ "last": "Cohen",
+ "parser": 3,
+ "state_dst": "TN09",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "United States Treas Bills Maturity 8/21/2025",
+   "asset_type": "GS",
+   "idx": 1,
+   "notified": "2025-03-17",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Stephens Advantage Account",
+   "ticker": null,
+   "tx_date": "2025-02-24",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20028025.pdf",
+ "year": 2025
+}

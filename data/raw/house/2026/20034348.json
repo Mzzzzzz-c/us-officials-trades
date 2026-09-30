@@ -1,0 +1,103 @@
+{
+ "doc_id": "20034348",
+ "filed": "2026-04-15",
+ "filer": {
+  "name": "Hon. August Lee Pfluger II",
+  "state_dst": "TX11",
+  "status": "Member"
+ },
+ "first": "August Lee",
+ "last": "Pfluger",
+ "parser": 3,
+ "state_dst": "TX11",
+ "status": "ok",
+ "suffix": "II",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Amerco - Series N Non-Voting",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2026-03-31",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Investment",
+   "ticker": "UHALB",
+   "tx_date": "2026-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Berkshire Hathaway Inc. New Common Stock",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2026-03-31",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Investment",
+   "ticker": "BRK.B",
+   "tx_date": "2026-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Dorchester Minerals, L.P. - Common Units Representing Limited Partnership Interests",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2026-03-31",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Investment",
+   "ticker": "DMLP",
+   "tx_date": "2026-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Enterprise Products Partners L.P. Common Stock",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2026-03-31",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Investment",
+   "ticker": "EPD",
+   "tx_date": "2026-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Kimbell Royalty Partners Common Units Representing Limited Partner Interests",
+   "asset_type": "ST",
+   "idx": 5,
+   "notified": "2026-03-31",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Investment",
+   "ticker": "KRP",
+   "tx_date": "2026-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Viper Energy, Inc. - Class A Common Stock",
+   "asset_type": "ST",
+   "idx": 6,
+   "notified": "2026-03-31",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Investment",
+   "ticker": "VNOM",
+   "tx_date": "2026-03-13",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034348.pdf",
+ "year": 2026
+}

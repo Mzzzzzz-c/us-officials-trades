@@ -1,0 +1,28 @@
+{
+ "amended": false,
+ "filed": "2026-09-28",
+ "first": "James Conley",
+ "full": "Justice II,  James Conley (Senator)",
+ "kind": "ptr",
+ "last": "Justice, II",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 09/28/2026",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": 50000001,
+   "asset": "Greenbrier Hotel Corporation and Affiliates Company: Greenbrier Hotel Corporation and Affiliates (White Sulphur Springs, WV) Description: Hospitality",
+   "asset_type": "OT",
+   "asset_type_text": "Non-Public Stock",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": null,
+   "tx_date": "2026-08-14",
+   "type": "SP"
+  }
+ ],
+ "uid": "0a93a20c-2a0f-4979-80ca-cc2f61297527",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/0a93a20c-2a0f-4979-80ca-cc2f61297527/"
+}

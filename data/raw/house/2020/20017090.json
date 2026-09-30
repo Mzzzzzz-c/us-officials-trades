@@ -1,0 +1,73 @@
+{
+ "doc_id": "20017090",
+ "filed": "2020-08-13",
+ "filer": {
+  "state_dst": "CA48",
+  "status": "Member"
+ },
+ "first": "Harley E.",
+ "last": "Rouda",
+ "parser": 3,
+ "state_dst": "CA48",
+ "status": "ok",
+ "suffix": "Jr.",
+ "transactions": [
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "Parcel 17 STE LLC",
+   "asset_type": "HN",
+   "idx": 1,
+   "notified": "2019-11-22",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Armchair Investments LLC > Armchair Opportunity Zone Fund LLC",
+   "ticker": null,
+   "tx_date": "2019-11-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Rocky Brands, Inc.",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2019-04-05",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Wells Fargo Brokerage",
+   "ticker": "RCKY",
+   "tx_date": "2019-04-05",
+   "type": "SF"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Rocky Brands, Inc.",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2019-09-10",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "RCKY",
+   "tx_date": "2019-09-10",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "UTG, Inc.",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2019-03-20",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Corient Capital Partners LLC",
+   "ticker": "UTGN",
+   "tx_date": "2019-03-20",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2020/20017090.pdf",
+ "year": 2020
+}

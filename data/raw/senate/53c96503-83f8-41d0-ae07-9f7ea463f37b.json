@@ -1,0 +1,28 @@
+{
+ "amended": false,
+ "filed": "2025-01-14",
+ "first": "John",
+ "full": "Boozman, John (Senator)",
+ "kind": "ptr",
+ "last": "Boozman",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 01/14/2025",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Applied Materials, Inc. - Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 1,
+   "owner": "JT",
+   "ticker": "AMAT",
+   "tx_date": "2024-12-23",
+   "type": "SP"
+  }
+ ],
+ "uid": "53c96503-83f8-41d0-ae07-9f7ea463f37b",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/53c96503-83f8-41d0-ae07-9f7ea463f37b/"
+}

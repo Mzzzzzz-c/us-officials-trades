@@ -1,0 +1,45 @@
+{
+ "doc_id": "20034384",
+ "filed": "2026-04-21",
+ "filer": {
+  "name": "Hon. Terri A. Sewell",
+  "state_dst": "AL07",
+  "status": "Member"
+ },
+ "first": "Terri A.",
+ "last": "Sewell",
+ "parser": 3,
+ "state_dst": "AL07",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "GE HealthCare Technologies Inc. - Common Stock",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2026-03-26",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "GEHC",
+   "tx_date": "2026-03-25",
+   "type": "SF"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Tapestry, Inc. Common Stock",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2026-03-26",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "TPR",
+   "tx_date": "2026-03-25",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034384.pdf",
+ "year": 2026
+}

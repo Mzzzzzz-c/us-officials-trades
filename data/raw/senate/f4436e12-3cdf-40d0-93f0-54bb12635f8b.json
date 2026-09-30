@@ -1,0 +1,29 @@
+{
+ "amended": false,
+ "filed": "2020-03-13",
+ "first": "Jacklyn S",
+ "full": "Rosen, Jacky (Senator)",
+ "kind": "ptr",
+ "last": "Rosen",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 03/13/2020",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Ingersoll Rand Inc. (Exchanged) GDI - Ingersoll Rand Plc (f/k/a Gardner Denver Holdings, Inc.) (Received)",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "comment": "On 3/4/2020 Ingersoll Rand PLC (GDI) changed it's name to Trane Technologies PLC F (TT)",
+   "idx": 1,
+   "owner": "JT",
+   "ticker": "IR",
+   "tx_date": "2020-02-29",
+   "type": "E"
+  }
+ ],
+ "uid": "f4436e12-3cdf-40d0-93f0-54bb12635f8b",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/f4436e12-3cdf-40d0-93f0-54bb12635f8b/"
+}

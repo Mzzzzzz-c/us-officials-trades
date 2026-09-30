@@ -1,0 +1,33 @@
+{
+ "doc_id": "20016430",
+ "filed": "2020-04-18",
+ "filer": {
+  "state_dst": "CA47",
+  "status": "Member"
+ },
+ "first": "Alan S.",
+ "last": "Lowenthal",
+ "parser": 3,
+ "state_dst": "CA47",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Mondelez International",
+   "asset_type": "CS",
+   "description": "Maturity date is 4/13/2023, interest is 2.125%",
+   "idx": 1,
+   "notified": "2020-04-14",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Neuberger Berman - Municipal Bonds",
+   "ticker": null,
+   "tx_date": "2020-04-07",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2020/20016430.pdf",
+ "year": 2020
+}

@@ -1,0 +1,74 @@
+{
+ "doc_id": "20016875",
+ "filed": "2020-07-02",
+ "filer": {
+  "state_dst": "CA47",
+  "status": "Member"
+ },
+ "first": "Alan S.",
+ "last": "Lowenthal",
+ "parser": 3,
+ "state_dst": "CA47",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 20,
+   "amount_min": 20,
+   "asset": "Sunrun Inc.",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2020-06-29",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Neuberger Berman - Beneficiary IRA",
+   "ticker": "RUN",
+   "tx_date": "2020-06-22",
+   "type": "SP"
+  },
+  {
+   "amount_max": 20,
+   "amount_min": 20,
+   "asset": "Sunrun Inc.",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2020-06-30",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Neuberger Berman - Beneficiary IRA",
+   "ticker": "RUN",
+   "tx_date": "2020-06-23",
+   "type": "SP"
+  },
+  {
+   "amount_max": 20,
+   "amount_min": 20,
+   "asset": "Vivint Solar, Inc.",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2020-06-30",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Neuberger Berman - Beneficiary IRA",
+   "ticker": "VSLR",
+   "tx_date": "2020-06-23",
+   "type": "SP"
+  },
+  {
+   "amount_max": 10,
+   "amount_min": 10,
+   "asset": "Vivint Solar, Inc.",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2020-06-29",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Neuberger Berman - Beneficiary IRA",
+   "ticker": "VSLR",
+   "tx_date": "2020-06-22",
+   "type": "SP"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2020/20016875.pdf",
+ "year": 2020
+}

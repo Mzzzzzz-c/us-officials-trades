@@ -1,0 +1,62 @@
+{
+ "doc_id": "20021090",
+ "filed": "2022-05-21",
+ "filer": {
+  "name": "Hon. Alan S. Lowenthal",
+  "state_dst": "CA47",
+  "status": "Member"
+ },
+ "first": "Alan S.",
+ "last": "Lowenthal",
+ "parser": 3,
+ "state_dst": "CA47",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Constellation Brands Inc",
+   "asset_type": "CS",
+   "description": "Interest rate is 3.60%, maturity date is 05/09/2024.",
+   "idx": 1,
+   "notified": "2022-05-21",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Neuberger Berman - Traditional IRA",
+   "ticker": null,
+   "tx_date": "2022-05-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Intercontinental Exchange Inc.",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2022-05-21",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Neuberger Berman - Traditional IRA",
+   "ticker": "ICE",
+   "tx_date": "2022-05-05",
+   "type": "SP"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Intercontinental Exchange Inc.",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2022-05-21",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Neuberger Berman - Traditional IRA",
+   "ticker": "ICE",
+   "tx_date": "2022-05-06",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2022/20021090.pdf",
+ "year": 2022
+}

@@ -1,0 +1,248 @@
+{
+ "doc_id": "20018522",
+ "filed": "2021-04-09",
+ "filer": {
+  "state_dst": "RI02",
+  "status": "Member"
+ },
+ "first": "James R.",
+ "last": "Langevin",
+ "parser": 3,
+ "state_dst": "RI02",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Alibaba Group Holding Limited American Depositary Shares Each Representing Eight Ordinary Share",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2021-04-05",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "BABA",
+   "tx_date": "2021-03-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Apple Inc.",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2021-04-05",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Roth IRA",
+   "ticker": "AAPL",
+   "tx_date": "2021-03-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Apple Inc.",
+   "asset_type": "OP",
+   "description": "Call Options, Strike Price $126, Expires 3/19/21",
+   "idx": 3,
+   "notified": "2021-04-05",
+   "option": {
+    "exp": "2021-03-19",
+    "kind": "call",
+    "strike": 126.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "AAPL",
+   "tx_date": "2021-03-09",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Apple Inc.",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2021-04-05",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Roth IRA",
+   "ticker": "AAPL",
+   "tx_date": "2021-03-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Facebook, Inc. - Class A",
+   "asset_type": "OP",
+   "description": "Call Options, Strike Price $287.50, Expires 3/26/21",
+   "idx": 5,
+   "notified": "2021-04-05",
+   "option": {
+    "exp": "2021-03-26",
+    "kind": "call",
+    "strike": 287.5
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "FB",
+   "tx_date": "2021-03-15",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Facebook, Inc. - Class A Type",
+   "asset_type": "OP",
+   "description": "Call Options, Strike Price $287.50, Expires 3/26/21",
+   "idx": 6,
+   "notified": "2021-04-05",
+   "option": {
+    "exp": "2021-03-26",
+    "kind": "call",
+    "strike": 287.5
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "FB",
+   "tx_date": "2021-03-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Generac Holdlings Inc.",
+   "asset_type": "ST",
+   "idx": 7,
+   "notified": "2021-04-05",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Roth IRA",
+   "ticker": "GNRC",
+   "tx_date": "2021-03-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Generac Holdlings Inc.",
+   "asset_type": "ST",
+   "idx": 8,
+   "notified": "2021-04-05",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Roth IRA",
+   "ticker": "GNRC",
+   "tx_date": "2021-03-29",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Generac Holdlings Inc.",
+   "asset_type": "OP",
+   "description": "Call Options, Strike Price $350, Expires 4/16/21",
+   "idx": 9,
+   "notified": "2021-04-05",
+   "option": {
+    "exp": "2021-04-16",
+    "kind": "call",
+    "strike": 350.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "GNRC",
+   "tx_date": "2021-03-31",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Roku, Inc. - Class A",
+   "asset_type": "OP",
+   "description": "Call Options, Strike Price $300, Expires 4/30/21",
+   "idx": 10,
+   "notified": "2021-04-05",
+   "option": {
+    "exp": "2021-04-30",
+    "kind": "call",
+    "strike": 300.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "ROKU",
+   "tx_date": "2021-03-26",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Roku, Inc. - Class A",
+   "asset_type": "OP",
+   "description": "Call Options, Strike Price $130, Expires 4/16/21",
+   "idx": 11,
+   "notified": "2021-04-05",
+   "option": {
+    "exp": "2021-04-16",
+    "kind": "call",
+    "strike": 130.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "ROKU",
+   "tx_date": "2021-03-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Square, Inc. Class A",
+   "asset_type": "OP",
+   "description": "Call Options, Strike Price $220, Expires 4/9/21",
+   "idx": 12,
+   "notified": "2021-04-05",
+   "option": {
+    "exp": "2021-04-09",
+    "kind": "call",
+    "strike": 220.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "SQ",
+   "tx_date": "2021-03-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Square, Inc. Class A",
+   "asset_type": "OP",
+   "description": "Call Options, Strike Price $220, Expires 4/9/21",
+   "idx": 13,
+   "notified": "2021-04-05",
+   "option": {
+    "exp": "2021-04-09",
+    "kind": "call",
+    "strike": 220.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "SQ",
+   "tx_date": "2021-03-31",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2021/20018522.pdf",
+ "year": 2021
+}

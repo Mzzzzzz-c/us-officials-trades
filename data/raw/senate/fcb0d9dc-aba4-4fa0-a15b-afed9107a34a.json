@@ -1,0 +1,28 @@
+{
+ "amended": false,
+ "filed": "2022-02-04",
+ "first": "Rafael E",
+ "full": "Cruz, Ted (Senator)",
+ "kind": "ptr",
+ "last": "Cruz",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 02/04/2022",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Bitcoin Exchange/Platform : River",
+   "asset_type": "CT",
+   "asset_type_text": "Cryptocurrency",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "BTC",
+   "tx_date": "2022-01-25",
+   "type": "P"
+  }
+ ],
+ "uid": "fcb0d9dc-aba4-4fa0-a15b-afed9107a34a",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/fcb0d9dc-aba4-4fa0-a15b-afed9107a34a/"
+}

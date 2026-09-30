@@ -1,0 +1,88 @@
+{
+ "doc_id": "20033981",
+ "filed": "2026-02-12",
+ "filer": {
+  "name": "Hon. Byron Donalds",
+  "state_dst": "FL19",
+  "status": "Member"
+ },
+ "first": "Byron",
+ "last": "Donalds",
+ "parser": 3,
+ "state_dst": "FL19",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Bitcoin (CRYPTO:BTC)",
+   "asset_type": "CT",
+   "idx": 1,
+   "notified": "2026-01-13",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2026-01-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Howmet Aerospace Inc. Common Stock",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2026-02-01",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Moran Wealth IRA",
+   "ticker": "HWM",
+   "tx_date": "2026-01-08",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Parker-Hannifin Corporation Common Stock",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2026-02-01",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Moran Wealth IRA",
+   "ticker": "PH",
+   "tx_date": "2026-01-08",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "The Trade Desk, Inc. - Class A Common Stock",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2026-02-01",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Moran Wealth IRA",
+   "ticker": "TTD",
+   "tx_date": "2026-01-08",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "The Trade Desk, Inc. - Class A Common Stock",
+   "asset_type": "ST",
+   "idx": 5,
+   "notified": "2026-02-01",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Moran Wealth IRA",
+   "ticker": "TTD",
+   "tx_date": "2026-01-08",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033981.pdf",
+ "year": 2026
+}

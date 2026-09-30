@@ -1,0 +1,100 @@
+{
+ "doc_id": "20025970",
+ "filed": "2024-10-08",
+ "filer": {
+  "name": "Hon. Earl Blumenauer",
+  "state_dst": "OR03",
+  "status": "Member"
+ },
+ "first": "Earl",
+ "last": "Blumenauer",
+ "parser": 3,
+ "state_dst": "OR03",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Target Corp 2.35%30",
+   "asset_type": "CS",
+   "description": "Part of my spouse's retirement portfolio.",
+   "idx": 1,
+   "notified": "2024-10-06",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2024-09-26",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Target Corp 3.375%29",
+   "asset_type": "CS",
+   "description": "Part of my spouse's retirement portfolio.",
+   "idx": 2,
+   "notified": "2024-10-06",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2024-09-26",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "US Treasury Bill Due 09/04/25",
+   "asset_type": "GS",
+   "idx": 3,
+   "notified": "2024-10-06",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2024-09-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "US Treasury Bill Due 11/26/24",
+   "asset_type": "GS",
+   "idx": 4,
+   "notified": "2024-10-06",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2024-09-27",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "US Treasury Bill Due 12/12/24",
+   "asset_type": "GS",
+   "idx": 5,
+   "notified": "2024-10-06",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2024-09-27",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Ventas, Inc. Common Stock",
+   "asset_type": "ST",
+   "description": "Part of my spouse's retirement portfolio.",
+   "idx": 6,
+   "notified": "2024-10-06",
+   "owner": "SP",
+   "status": "New",
+   "ticker": "VTR",
+   "tx_date": "2024-09-19",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025970.pdf",
+ "year": 2024
+}

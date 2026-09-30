@@ -1,0 +1,36 @@
+{
+ "doc_id": "20021322",
+ "filed": "2022-07-22",
+ "filer": {
+  "name": "Hon. Maria Elvira Salazar",
+  "state_dst": "FL27",
+  "status": "Member"
+ },
+ "first": "Maria Elvira",
+ "last": "Salazar",
+ "parser": 3,
+ "state_dst": "FL27",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "7 Heaven for Kids, LLC f/k/a 7 Heaven for Kids PPEC, LLC",
+   "asset_type": "OL",
+   "comment": "Asset did not produce any income during time Filer held shares in asset. This sales transaction was not for cash proceeds but for forgiveness of the loan Buyer originally made to Filer to invest in LLC.",
+   "description": "Filer sold her 20% interest in LLC (20,000 Class B shares) in exchange for forgiveness of the loan Buyer initially made to Filer to invest in PPEC.",
+   "idx": 1,
+   "location": "Miami, FL, US",
+   "notified": "2022-06-23",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "MES Health Holding, Inc.",
+   "ticker": null,
+   "tx_date": "2022-06-21",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2022/20021322.pdf",
+ "year": 2022
+}

@@ -1,0 +1,33 @@
+{
+ "doc_id": "20034552",
+ "filed": "2026-06-04",
+ "filer": {
+  "name": "Hon. Susie Lee",
+  "state_dst": "NV03",
+  "status": "Member"
+ },
+ "first": "Susie",
+ "last": "Lee",
+ "parser": 3,
+ "state_dst": "NV03",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Full House Resorts, Inc. - Common Stock",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2026-05-13",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Fidelity Investments IRA",
+   "ticker": "FLL",
+   "tx_date": "2026-04-21",
+   "type": "SP"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034552.pdf",
+ "year": 2026
+}

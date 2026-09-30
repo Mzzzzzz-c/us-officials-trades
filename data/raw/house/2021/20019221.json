@@ -1,0 +1,32 @@
+{
+ "doc_id": "20019221",
+ "filed": "2021-08-02",
+ "filer": {
+  "state_dst": "OR03",
+  "status": "Member"
+ },
+ "first": "Earl",
+ "last": "Blumenauer",
+ "parser": 3,
+ "state_dst": "OR03",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Oracle Corp 2.8% Due 07/08/21",
+   "asset_type": "CS",
+   "description": "Full Redemption. Part of my spouse's retirement portfolio.",
+   "idx": 1,
+   "notified": "2021-08-02",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2021-07-08",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2021/20019221.pdf",
+ "year": 2021
+}

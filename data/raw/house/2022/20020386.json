@@ -1,0 +1,32 @@
+{
+ "doc_id": "20020386",
+ "filed": "2022-02-06",
+ "filer": {
+  "state_dst": "OH07",
+  "status": "Member"
+ },
+ "first": "Bob",
+ "last": "Gibbs",
+ "parser": 3,
+ "state_dst": "OH07",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Alphabet Inc. - Class A",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2022-02-02",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "CHARLES SWABB ACCOUNT",
+   "ticker": "GOOGL",
+   "tx_date": "2022-02-02",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2022/20020386.pdf",
+ "year": 2022
+}

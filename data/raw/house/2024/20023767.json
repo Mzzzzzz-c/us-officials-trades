@@ -1,0 +1,64 @@
+{
+ "doc_id": "20023767",
+ "filed": "2024-01-16",
+ "filer": {
+  "name": "Hon. William R. Keating",
+  "state_dst": "MA09",
+  "status": "Member"
+ },
+ "first": "William R.",
+ "last": "Keating",
+ "parser": 3,
+ "state_dst": "MA09",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BOEING CO NOTE CALL MAKE WHOLE 3.62500% 02/01/2031",
+   "asset_type": "CS",
+   "description": "BOEING CO NOTE CALL MAKE WHOLE 3.62500% 02/01/2031",
+   "idx": 1,
+   "notified": "2023-09-25",
+   "owner": "SELF",
+   "status": "Amended",
+   "subholding": "Bill's IRA",
+   "ticker": null,
+   "tx_date": "2023-09-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SIMON PPTY GROUP LP NOTE CALL MAKE WHOLE 2.45000% 09/13/2029",
+   "asset_type": "CS",
+   "description": "SIMON PPTY GROUP LP NOTE CALL MAKE WHOLE 2.45000% 09/13/2029",
+   "idx": 2,
+   "notified": "2023-09-25",
+   "owner": "SELF",
+   "status": "Amended",
+   "subholding": "Bill's IRA",
+   "ticker": null,
+   "tx_date": "2023-09-13",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "UNITED STATES TREAS BILLS ZERO CPN 0.00000% 01/09/2024",
+   "asset_type": "CS",
+   "description": "912797HY6",
+   "idx": 3,
+   "notified": "2024-01-16",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Bill's IRA",
+   "ticker": null,
+   "tx_date": "2023-12-29",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20023767.pdf",
+ "year": 2024
+}

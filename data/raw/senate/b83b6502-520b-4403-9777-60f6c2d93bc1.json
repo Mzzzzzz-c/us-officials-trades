@@ -1,0 +1,52 @@
+{
+ "amended": false,
+ "filed": "2025-10-27",
+ "first": "Jerry",
+ "full": "Moran, Jerry (Senator)",
+ "kind": "ptr",
+ "last": "Moran,",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 10/27/2025",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Alphabet Cl C",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 1,
+   "owner": "SP",
+   "ticker": "GOOG",
+   "tx_date": "2025-09-23",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Berkshire Hathaway Cl B",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "BRK.B",
+   "tx_date": "2025-09-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Alphabet Cl C",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "GOOG",
+   "tx_date": "2025-09-23",
+   "type": "SP"
+  }
+ ],
+ "uid": "b83b6502-520b-4403-9777-60f6c2d93bc1",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/b83b6502-520b-4403-9777-60f6c2d93bc1/"
+}

@@ -1,0 +1,34 @@
+{
+ "doc_id": "20021049",
+ "filed": "2022-05-18",
+ "filer": {
+  "name": "Hon. Scott H. Peters",
+  "state_dst": "CA52",
+  "status": "Member"
+ },
+ "first": "Scott H.",
+ "last": "Peters",
+ "parser": 3,
+ "state_dst": "CA52",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": 1000001,
+   "asset": "Multi-Pack Solutions, LLC",
+   "asset_type": "OL",
+   "description": "Packaging Company",
+   "idx": 1,
+   "location": "Mt. Prospect, IL, US",
+   "notified": "2022-04-30",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2022-04-19",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2022/20021049.pdf",
+ "year": 2022
+}

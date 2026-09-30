@@ -1,0 +1,29 @@
+{
+ "amended": false,
+ "filed": "2021-04-26",
+ "first": "Patrick J",
+ "full": "Toomey, Pat (Senator)",
+ "kind": "ptr",
+ "last": "Toomey",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 04/26/2021",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AIARA Co., Ltd Company: AIARA Co., Ltd (Seoul, South Korea) Description: Gaming Technology Company",
+   "asset_type": "OT",
+   "asset_type_text": "Non-Public Stock",
+   "comment": "Aiara is a new investment of SRI Capital Fund I, LP (\"SRI\"), a venture capital fund. Sen. Toomey and his wife have a limited partnership interest in SRI.",
+   "idx": 1,
+   "owner": "JT",
+   "ticker": null,
+   "tx_date": "2021-03-31",
+   "type": "P"
+  }
+ ],
+ "uid": "37a7e285-49c2-425c-a02a-c40330e2e52b",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/37a7e285-49c2-425c-a02a-c40330e2e52b/"
+}

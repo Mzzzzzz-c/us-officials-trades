@@ -1,0 +1,93 @@
+{
+ "doc_id": "20021837",
+ "filed": "2022-10-14",
+ "filer": {
+  "name": "Hon. Nancy Pelosi",
+  "state_dst": "CA12",
+  "status": "Member"
+ },
+ "first": "Nancy",
+ "last": "Pelosi",
+ "parser": 3,
+ "state_dst": "CA12",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "Alphabet Inc. - Class C Capital Stock",
+   "asset_type": "ST",
+   "description": "Exercised 200 call options purchased 12/17/21 (20,000 shares) at a strike price of $100 with an expiration date of 9/16/22.",
+   "idx": 1,
+   "notified": "2022-09-16",
+   "owner": "SP",
+   "status": "New",
+   "ticker": "GOOG",
+   "tx_date": "2022-09-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Micron Technology, Inc.",
+   "asset_type": "OP",
+   "comment": "Sold 100 call options purchased 12/21/21 (10,000 shares) at a price of $1.84 per share for a total loss of $392,575.",
+   "description": "Sold 100 call options purchased 12/21/21 with a strike price of $50 and an expiration date of 9/16/22.",
+   "idx": 2,
+   "notified": "2022-09-16",
+   "option": {
+    "exp": "2022-09-16",
+    "kind": "call",
+    "strike": 50.0
+   },
+   "owner": "SP",
+   "status": "New",
+   "ticker": "MU",
+   "tx_date": "2022-09-16",
+   "type": "SF"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NVIDIA Corporation",
+   "asset_type": "OP",
+   "comment": "Sold 50 call options purchased 7/23/21 (5,000 shares) at a price of $26.86 per share for a total loss of $361,476.",
+   "description": "Sold 50 call options purchased 7/23/21 with a strike price of $100 and an expiration date of 9/16/22.",
+   "idx": 3,
+   "notified": "2022-09-16",
+   "option": {
+    "exp": "2022-09-16",
+    "kind": "call",
+    "strike": 100.0
+   },
+   "owner": "SP",
+   "status": "New",
+   "ticker": "NVDA",
+   "tx_date": "2022-09-16",
+   "type": "SF"
+  },
+  {
+   "amount_max": 1,
+   "amount_min": 1,
+   "asset": "Walt Disney Company",
+   "asset_type": "OP",
+   "comment": "50 call options purchased 12/17/21 with a strike price of $130 and an expiration date of 9/16/22 expired with no value for a total loss of $132,824.",
+   "description": "50 call options purchased 12/17/21 with a strike price of $130 and an expiration date of 9/16/22 expired with no value.",
+   "idx": 4,
+   "notified": "2022-09-16",
+   "option": {
+    "exp": "2022-09-16",
+    "kind": "call",
+    "strike": 130.0
+   },
+   "owner": "SP",
+   "status": "New",
+   "ticker": "DIS",
+   "tx_date": "2022-09-16",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2022/20021837.pdf",
+ "year": 2022
+}

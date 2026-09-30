@@ -1,0 +1,123 @@
+{
+ "doc_id": "20023946",
+ "filed": "2023-11-07",
+ "filer": {
+  "name": "Hon. Virginia Foxx",
+  "state_dst": "NC05",
+  "status": "Member"
+ },
+ "first": "Virginia",
+ "last": "Foxx",
+ "parser": 3,
+ "state_dst": "NC05",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Altria Group, Inc.",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2023-10-11",
+   "owner": "JT",
+   "status": "New",
+   "ticker": "MO",
+   "tx_date": "2023-10-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Cross Timbers Royalty Trust",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2023-10-02",
+   "owner": "JT",
+   "status": "New",
+   "ticker": "CRT",
+   "tx_date": "2023-10-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "FLEX LNG Ltd. Ordinary Shares",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2023-10-02",
+   "owner": "JT",
+   "status": "New",
+   "ticker": "FLNG",
+   "tx_date": "2023-10-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Hercules Capital, Inc.",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2023-10-03",
+   "owner": "JT",
+   "status": "New",
+   "ticker": "HTGC",
+   "tx_date": "2023-10-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Hercules Capital, Inc.",
+   "asset_type": "ST",
+   "idx": 5,
+   "notified": "2023-10-20",
+   "owner": "JT",
+   "status": "New",
+   "ticker": "HTGC",
+   "tx_date": "2023-10-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Hercules Capital, Inc.",
+   "asset_type": "ST",
+   "idx": 6,
+   "notified": "2023-10-23",
+   "owner": "JT",
+   "status": "New",
+   "ticker": "HTGC",
+   "tx_date": "2023-10-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Hercules Capital, Inc.",
+   "asset_type": "ST",
+   "idx": 7,
+   "notified": "2023-10-25",
+   "owner": "JT",
+   "status": "New",
+   "ticker": "HTGC",
+   "tx_date": "2023-10-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Plains All American Pipeline, L.P. - Common Units representing Limited Partner Interests",
+   "asset_type": "ST",
+   "idx": 8,
+   "notified": "2023-10-03",
+   "owner": "JT",
+   "status": "New",
+   "ticker": "PAA",
+   "tx_date": "2023-10-03",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2023/20023946.pdf",
+ "year": 2023
+}

@@ -1,0 +1,28 @@
+{
+ "amended": false,
+ "filed": "2026-05-08",
+ "first": "John",
+ "full": "Boozman, John (Senator)",
+ "kind": "ptr",
+ "last": "Boozman",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 05/08/2026",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Invesco Short Term Treasury ETF",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 1,
+   "owner": "JT",
+   "ticker": "TBLL",
+   "tx_date": "2026-04-02",
+   "type": "SP"
+  }
+ ],
+ "uid": "c99d5ebd-82ce-439c-a678-014946f46c50",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/c99d5ebd-82ce-439c-a678-014946f46c50/"
+}

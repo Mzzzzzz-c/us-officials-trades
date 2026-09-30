@@ -1,0 +1,33 @@
+{
+ "doc_id": "20027927",
+ "filed": "2025-03-12",
+ "filer": {
+  "name": "Hon. Richard W. Allen",
+  "state_dst": "GA12",
+  "status": "Member"
+ },
+ "first": "Richard W.",
+ "last": "Allen",
+ "parser": 3,
+ "state_dst": "GA12",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "US Treasury Bill - Due 12/15/26 4.375% - 91282CJP7",
+   "asset_type": "GS",
+   "idx": 1,
+   "notified": "2025-03-05",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "LIVTR",
+   "ticker": null,
+   "tx_date": "2025-02-26",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027927.pdf",
+ "year": 2025
+}

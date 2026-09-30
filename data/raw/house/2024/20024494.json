@@ -1,0 +1,45 @@
+{
+ "doc_id": "20024494",
+ "filed": "2024-02-13",
+ "filer": {
+  "name": "Hon. Mike Kelly",
+  "state_dst": "PA16",
+  "status": "Member"
+ },
+ "first": "Mike",
+ "last": "Kelly",
+ "parser": 3,
+ "state_dst": "PA16",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Connecticut St Hlth & Educ Ref Ser M Rev 5% Due 7/1/24",
+   "asset_type": "GS",
+   "idx": 1,
+   "notified": "2024-02-06",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2024-01-24",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Florida St Hsg Fin Corp Revenue Social Bon Rev Call 07/01/30 3% due 7/1/52",
+   "asset_type": "GS",
+   "idx": 2,
+   "notified": "2024-02-06",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2024-01-01",
+   "type": "SP"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20024494.pdf",
+ "year": 2024
+}

@@ -1,0 +1,61 @@
+{
+ "doc_id": "20021515",
+ "filed": "2022-08-10",
+ "filer": {
+  "name": "Hon. Robert J. Wittman",
+  "state_dst": "VA01",
+  "status": "Member"
+ },
+ "first": "Robert J.",
+ "last": "Wittman",
+ "parser": 3,
+ "state_dst": "VA01",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Abbott Laboratories",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2022-07-19",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Morgan Stanley",
+   "ticker": "ABT",
+   "tx_date": "2022-07-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Baxter International Inc.",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2022-07-19",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Morgan Stanley",
+   "ticker": "BAX",
+   "tx_date": "2022-07-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Walmart Inc.",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2022-07-19",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Morgan Stanley",
+   "ticker": "WMT",
+   "tx_date": "2022-07-15",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2022/20021515.pdf",
+ "year": 2022
+}

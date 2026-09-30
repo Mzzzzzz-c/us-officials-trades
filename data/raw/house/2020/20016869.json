@@ -1,0 +1,70 @@
+{
+ "doc_id": "20016869",
+ "filed": "2020-07-08",
+ "filer": {
+  "state_dst": "NC05",
+  "status": "Member"
+ },
+ "first": "Virginia",
+ "last": "Foxx",
+ "parser": 3,
+ "state_dst": "NC05",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BP P.l.c.",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2020-06-22",
+   "owner": "JT",
+   "status": "New",
+   "ticker": "BP",
+   "tx_date": "2020-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Clearway Energy, Inc. Class A",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2020-06-16",
+   "owner": "JT",
+   "status": "New",
+   "ticker": "CWEN.A",
+   "tx_date": "2020-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Duke Energy Corporation",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2020-07-17",
+   "owner": "JT",
+   "status": "New",
+   "ticker": "DUK",
+   "tx_date": "2020-06-17",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Southern Company",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2020-06-09",
+   "owner": "JT",
+   "status": "New",
+   "ticker": "SO",
+   "tx_date": "2020-06-09",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2020/20016869.pdf",
+ "year": 2020
+}

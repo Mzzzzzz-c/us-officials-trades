@@ -1,0 +1,60 @@
+{
+ "doc_id": "20017540",
+ "filed": "2020-10-16",
+ "filer": {
+  "state_dst": "TX35",
+  "status": "Member"
+ },
+ "first": "Lloyd",
+ "last": "Doggett",
+ "parser": 3,
+ "state_dst": "TX35",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Home Depot, Inc.",
+   "asset_type": "ST",
+   "description": "Reinvest shares",
+   "idx": 1,
+   "notified": "2020-10-06",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "HD",
+   "tx_date": "2020-09-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "International Business Machines Corporation",
+   "asset_type": "ST",
+   "description": "Reinvest shares",
+   "idx": 2,
+   "notified": "2020-10-06",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "IBM",
+   "tx_date": "2020-09-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PPG Industries, Inc.",
+   "asset_type": "ST",
+   "description": "Reinvest shares",
+   "idx": 3,
+   "notified": "2020-10-06",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "PPG",
+   "tx_date": "2020-09-14",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2020/20017540.pdf",
+ "year": 2020
+}

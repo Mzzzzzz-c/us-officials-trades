@@ -1,0 +1,75 @@
+{
+ "doc_id": "20033944",
+ "filed": "2026-02-17",
+ "filer": {
+  "name": "Hon. Michael Patrick Guest",
+  "state_dst": "MS03",
+  "status": "Member"
+ },
+ "first": "Michael Patrick",
+ "last": "Guest",
+ "parser": 3,
+ "state_dst": "MS03",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Chord Energy Corporation - Common Stock",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2026-02-04",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "TR - SP",
+   "ticker": "CHRD",
+   "tx_date": "2026-01-09",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Dynatrace, Inc. Common Stock",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2026-02-04",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "TR - SP",
+   "ticker": "DT",
+   "tx_date": "2026-01-09",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "EVOLUTION AB UNSP/ADR",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2026-02-04",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "TR - SP",
+   "ticker": "EVVTY",
+   "tx_date": "2026-01-09",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "OTC Markets Group Inc. Common Stock Class A",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2026-02-04",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "TR - SP",
+   "ticker": "OTCM",
+   "tx_date": "2026-01-09",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033944.pdf",
+ "year": 2026
+}

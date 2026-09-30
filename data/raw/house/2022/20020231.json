@@ -1,0 +1,46 @@
+{
+ "doc_id": "20020231",
+ "filed": "2022-01-14",
+ "filer": {
+  "state_dst": "NY02",
+  "status": "Member"
+ },
+ "first": "Andrew",
+ "last": "Garbarino",
+ "parser": 3,
+ "state_dst": "NY02",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Oramed Pharmaceuticals Inc.",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2022-01-14",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Stock Account",
+   "ticker": "ORMP",
+   "tx_date": "2022-01-14",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Tellurian Inc.",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2022-01-14",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Stock Account",
+   "ticker": "TELL",
+   "tx_date": "2022-01-14",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2022/20020231.pdf",
+ "year": 2022
+}

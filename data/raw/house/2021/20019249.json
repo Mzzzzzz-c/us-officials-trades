@@ -1,0 +1,30 @@
+{
+ "doc_id": "20019249",
+ "filed": "2021-08-06",
+ "filer": {
+  "status": "Member"
+ },
+ "first": "Mo",
+ "last": "Brooks",
+ "parser": 3,
+ "state_dst": "AL05",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Baldwin Cnty Ala Pub Bldg Authbuildg RE OID",
+   "asset_type": "GS",
+   "idx": 1,
+   "notified": "2021-07-16",
+   "owner": "JT",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2021-07-16",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2021/20019249.pdf",
+ "year": 2021
+}

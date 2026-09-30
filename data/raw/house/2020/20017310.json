@@ -1,0 +1,46 @@
+{
+ "doc_id": "20017310",
+ "filed": "2020-09-04",
+ "filer": {
+  "state_dst": "CA47",
+  "status": "Member"
+ },
+ "first": "Alan S.",
+ "last": "Lowenthal",
+ "parser": 3,
+ "state_dst": "CA47",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 624,
+   "amount_min": 624,
+   "asset": "Salesforce.com Inc",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2020-08-31",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Neuberger Berman - Beneficiary IRA",
+   "ticker": "CRM",
+   "tx_date": "2020-08-24",
+   "type": "SP"
+  },
+  {
+   "amount_max": 691,
+   "amount_min": 691,
+   "asset": "TJX Companies, Inc.",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2020-08-31",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Neuberger Berman - Beneficiary IRA",
+   "ticker": "TJX",
+   "tx_date": "2020-08-24",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2020/20017310.pdf",
+ "year": 2020
+}

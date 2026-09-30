@@ -1,0 +1,40 @@
+{
+ "amended": false,
+ "filed": "2025-12-01",
+ "first": "Lindsey",
+ "full": "Graham, Lindsey (Senator)",
+ "kind": "ptr",
+ "last": "Graham",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 12/01/2025",
+ "transactions": [
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Vanguard U.S. Growth Fund Admiral Shares",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "VWUAX",
+   "tx_date": "2025-11-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Vanguard U.S. Growth Fund",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "VWUSX",
+   "tx_date": "2025-11-06",
+   "type": "SF"
+  }
+ ],
+ "uid": "8a072cb0-269a-47d2-a859-c2d730c94064",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/8a072cb0-269a-47d2-a859-c2d730c94064/"
+}

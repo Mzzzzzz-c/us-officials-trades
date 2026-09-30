@@ -1,0 +1,74 @@
+{
+ "doc_id": "20016693",
+ "filed": "2020-06-16",
+ "filer": {
+  "state_dst": "UT03",
+  "status": "Member"
+ },
+ "first": "John",
+ "last": "Curtis",
+ "parser": 3,
+ "state_dst": "UT03",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "COLORADO ST CTFS PARTN RURAL COPS 2020 A 4.000% 12/15/37",
+   "asset_type": "CS",
+   "description": "COLORADO",
+   "idx": 1,
+   "notified": "2020-06-15",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2020-06-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SANGAMON LOGAN & MENARD CNTYS ILL CMNTY UNIT SCH DIST NO 015 GO BDS 2020A 4.000% 12/01/34",
+   "asset_type": "CS",
+   "description": "SANgAMON, LOgAN, & MENARD COUNTY, IL",
+   "idx": 2,
+   "notified": "2020-06-15",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2020-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SKAGIT CNTY WASH CONS SCH DIST NO 320 MOUNT VERNON UNLTD TAX GO BDS 2017 4.000% 12/01/32",
+   "asset_type": "CS",
+   "description": "SKAgIT COUNTY, WASHINgTON",
+   "idx": 3,
+   "notified": "2020-06-15",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2020-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SULLIVAN CNTY PA SCH DIST GO NTS 2020 3.000% 04/01/28 B/E DTD 07/07/20",
+   "asset_type": "CS",
+   "description": "SULLIVAN COUNTY PA",
+   "idx": 4,
+   "notified": "2020-06-15",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2020-06-05",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2020/20016693.pdf",
+ "year": 2020
+}

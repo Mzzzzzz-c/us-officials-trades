@@ -1,0 +1,34 @@
+{
+ "doc_id": "20025519",
+ "filed": "2024-07-25",
+ "filer": {
+  "name": "Hon. Victoria Spartz",
+  "state_dst": "IN05",
+  "status": "Member"
+ },
+ "first": "Victoria",
+ "last": "Spartz",
+ "parser": 3,
+ "state_dst": "IN05",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Simon Property Group, Inc. Common Stock",
+   "asset_type": "ST",
+   "description": "This Transaction was made by Jason Spartz's Roth IRA.",
+   "idx": 1,
+   "notified": "2024-07-09",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Charles Schwab Roth IRA",
+   "ticker": "SPG",
+   "tx_date": "2024-06-28",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025519.pdf",
+ "year": 2024
+}

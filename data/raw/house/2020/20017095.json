@@ -1,0 +1,33 @@
+{
+ "doc_id": "20017095",
+ "filed": "2020-08-05",
+ "filer": {
+  "state_dst": "NC04",
+  "status": "Member"
+ },
+ "first": "David E.",
+ "last": "Price",
+ "parser": 3,
+ "state_dst": "NC04",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "UNC - Wilmington Limited Obligation Bonds",
+   "asset_type": "OT",
+   "description": "Purchase of 10,000 units",
+   "idx": 1,
+   "location": "US",
+   "notified": "2020-07-27",
+   "owner": "JT",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2020-07-22",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2020/20017095.pdf",
+ "year": 2020
+}

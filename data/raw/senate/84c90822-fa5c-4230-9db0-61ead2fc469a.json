@@ -1,0 +1,28 @@
+{
+ "amended": false,
+ "filed": "2021-05-19",
+ "first": "Shelley M",
+ "full": "Capito, Shelley Moore (Senator)",
+ "kind": "ptr",
+ "last": "Capito",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 05/19/2021",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Wells Fargo & Company",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 1,
+   "owner": "SP",
+   "ticker": "WFC",
+   "tx_date": "2021-04-26",
+   "type": "SP"
+  }
+ ],
+ "uid": "84c90822-fa5c-4230-9db0-61ead2fc469a",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/84c90822-fa5c-4230-9db0-61ead2fc469a/"
+}

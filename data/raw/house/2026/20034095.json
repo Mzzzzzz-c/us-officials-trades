@@ -1,0 +1,32 @@
+{
+ "doc_id": "20034095",
+ "filed": "2026-03-02",
+ "filer": {
+  "name": "Hon. Virginia Foxx",
+  "state_dst": "NC05",
+  "status": "Member"
+ },
+ "first": "Virginia",
+ "last": "Foxx",
+ "parser": 3,
+ "state_dst": "NC05",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Alliance Resource Partners, L.P. - Common Units Representing Limited Partnership Interests",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2026-02-13",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "ARLP",
+   "tx_date": "2026-02-13",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034095.pdf",
+ "year": 2026
+}

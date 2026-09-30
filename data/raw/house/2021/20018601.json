@@ -1,0 +1,74 @@
+{
+ "doc_id": "20018601",
+ "filed": "2021-04-19",
+ "filer": {
+  "state_dst": "FL18",
+  "status": "Member"
+ },
+ "first": "Brian",
+ "last": "Mast",
+ "parser": 3,
+ "state_dst": "FL18",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Aemetis, Inc",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2021-03-04",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Morgan Stanley Magnum Mast UTMA/FL",
+   "ticker": "AMTX",
+   "tx_date": "2021-03-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Aemetis, Inc",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2021-03-04",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Morgan Stanley Magnum Mast UTMA/FL",
+   "ticker": "AMTX",
+   "tx_date": "2021-03-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Aemetis, Inc",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2021-03-04",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Morgan Stanley Maverick Mast UTMA/FL",
+   "ticker": "AMTX",
+   "tx_date": "2021-03-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Aemetis, Inc",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2021-03-04",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Morgan Stanley Maverick Mast UTMA/FL",
+   "ticker": "AMTX",
+   "tx_date": "2021-03-04",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2021/20018601.pdf",
+ "year": 2021
+}

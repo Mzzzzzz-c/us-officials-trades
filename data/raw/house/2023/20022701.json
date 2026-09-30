@@ -1,0 +1,75 @@
+{
+ "doc_id": "20022701",
+ "filed": "2023-04-14",
+ "filer": {
+  "name": "Hon. Michael Patrick Guest",
+  "state_dst": "MS03",
+  "status": "Member"
+ },
+ "first": "Michael Patrick",
+ "last": "Guest",
+ "parser": 3,
+ "state_dst": "MS03",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Mississippi Dev Bk Spl Oblig BDS 2019",
+   "asset_type": "GS",
+   "idx": 1,
+   "notified": "2023-04-10",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "KINV - CP",
+   "ticker": null,
+   "tx_date": "2023-03-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Mississippi Dev Bk Spl Oblig BDS 2021",
+   "asset_type": "GS",
+   "idx": 2,
+   "notified": "2023-04-10",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "KINV - CP",
+   "ticker": null,
+   "tx_date": "2023-03-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Mississippi St Gaming Tax Rev BDS 2015",
+   "asset_type": "GS",
+   "idx": 3,
+   "notified": "2023-04-10",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "KINV - CP",
+   "ticker": null,
+   "tx_date": "2023-03-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Mississippi St Univ Edl Bldg Rev Corp Camp Impt Project",
+   "asset_type": "GS",
+   "idx": 4,
+   "notified": "2023-04-10",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "KINV - CP",
+   "ticker": null,
+   "tx_date": "2023-03-02",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2023/20022701.pdf",
+ "year": 2023
+}

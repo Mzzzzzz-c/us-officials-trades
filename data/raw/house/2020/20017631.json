@@ -1,0 +1,46 @@
+{
+ "doc_id": "20017631",
+ "filed": "2020-11-03",
+ "filer": {
+  "state_dst": "OR03",
+  "status": "Member"
+ },
+ "first": "Earl",
+ "last": "Blumenauer",
+ "parser": 3,
+ "state_dst": "OR03",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Duke Energy Progr 3.7%28 Due 09/01/28",
+   "asset_type": "CS",
+   "description": "Part of my spouse's retirement portfolio.",
+   "idx": 1,
+   "notified": "2020-11-03",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2020-10-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "The Blackstone Group Inc. Class A",
+   "asset_type": "ST",
+   "description": "Part of my spouse's retirement portfolio.",
+   "idx": 2,
+   "notified": "2020-11-03",
+   "owner": "SP",
+   "status": "New",
+   "ticker": "BX",
+   "tx_date": "2020-10-28",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2020/20017631.pdf",
+ "year": 2020
+}

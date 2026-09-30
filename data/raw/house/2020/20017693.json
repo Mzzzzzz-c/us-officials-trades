@@ -1,0 +1,44 @@
+{
+ "doc_id": "20017693",
+ "filed": "2020-11-15",
+ "filer": {
+  "state_dst": "KY03",
+  "status": "Member"
+ },
+ "first": "John A.",
+ "last": "Yarmuth",
+ "parser": 3,
+ "state_dst": "KY03",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Cisco Systems, Inc.",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2020-09-08",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "CSCO",
+   "tx_date": "2020-08-27",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CMS Energy Corporation",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2020-09-08",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "CMS",
+   "tx_date": "2020-08-27",
+   "type": "SP"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2020/20017693.pdf",
+ "year": 2020
+}

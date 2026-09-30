@@ -1,0 +1,83 @@
+{
+ "doc_id": "20016363",
+ "filed": "2020-04-16",
+ "filer": {
+  "state_dst": "CA53",
+  "status": "Member"
+ },
+ "first": "Susan A.",
+ "last": "Davis",
+ "parser": 3,
+ "state_dst": "CA53",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Baidu, Inc. - American Depositary Shares, Each Representing One Tenth Class A Ordinary Share",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2020-03-18",
+   "owner": "SP",
+   "status": "New",
+   "ticker": "BIDU",
+   "tx_date": "2020-03-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Exelon Corporation",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2020-03-18",
+   "owner": "SP",
+   "status": "New",
+   "ticker": "EXC",
+   "tx_date": "2020-03-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Facebook, Inc. - Class A",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2020-03-18",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "FB",
+   "tx_date": "2020-03-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Fortinet, Inc.",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2020-03-18",
+   "owner": "SP",
+   "status": "New",
+   "ticker": "FTNT",
+   "tx_date": "2020-03-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Levi Strauss & Co Class A",
+   "asset_type": "ST",
+   "idx": 5,
+   "notified": "2020-03-18",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "LEVI",
+   "tx_date": "2020-03-16",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2020/20016363.pdf",
+ "year": 2020
+}

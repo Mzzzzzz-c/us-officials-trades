@@ -1,0 +1,33 @@
+{
+ "doc_id": "20017873",
+ "filed": "2020-12-18",
+ "filer": {
+  "state_dst": "CA52",
+  "status": "Member"
+ },
+ "first": "Scott H.",
+ "last": "Peters",
+ "parser": 3,
+ "state_dst": "CA52",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Multi-Pack Solutions LLC",
+   "asset_type": "OL",
+   "description": "Packaging Company",
+   "idx": 1,
+   "location": "Mt. Prospect, IL, US",
+   "notified": "2020-11-30",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2020-11-30",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2020/20017873.pdf",
+ "year": 2020
+}

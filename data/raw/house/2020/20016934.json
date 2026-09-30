@@ -1,0 +1,159 @@
+{
+ "doc_id": "20016934",
+ "filed": "2020-07-23",
+ "filer": {
+  "name": "Hon. James R. Langevin",
+  "state_dst": "RI02",
+  "status": "Member"
+ },
+ "first": "James R.",
+ "last": "Langevin",
+ "parser": 3,
+ "state_dst": "RI02",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Alibaba Group Holding Limited American Depositary Shares Each Representing Eight Ordinary Share",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2020-07-06",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "BABA",
+   "tx_date": "2020-07-06",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Alibaba Group Holding Limited American Depositary Shares Each Representing Eight Ordinary Share",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2020-07-08",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Roth IRA",
+   "ticker": "BABA",
+   "tx_date": "2020-07-08",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Alibaba Group Holding Limited American Depositary Shares Each Representing Eight Ordinary Share",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2020-07-08",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Roth IRA",
+   "ticker": "BABA",
+   "tx_date": "2020-07-08",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Facebook, Inc. - Class A",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2020-07-06",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "FB",
+   "tx_date": "2020-07-06",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "HUYA Inc. American Depositary Shares, Each Representing One Class A Ordinary Share",
+   "asset_type": "OP",
+   "description": "Call Option, $18, Exp. 06/19/2020",
+   "idx": 5,
+   "notified": "2020-06-11",
+   "option": {
+    "kind": "call"
+   },
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "HUYA",
+   "tx_date": "2020-06-11",
+   "type": "SF"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "HUYA Inc. American Depositary Shares, Each Representing One Class A Ordinary Share",
+   "asset_type": "ST",
+   "idx": 6,
+   "notified": "2020-06-22",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "HUYA",
+   "tx_date": "2020-06-22",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "HUYA Inc. American Depositary Shares, Each Representing One Class A Ordinary Share",
+   "asset_type": "OP",
+   "description": "Call Option, $18, Exp. 06/19/2020",
+   "idx": 7,
+   "notified": "2020-06-19",
+   "option": {
+    "kind": "call"
+   },
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "HUYA",
+   "tx_date": "2020-06-19",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "HUYA Inc. American Depositary Shares, Each Representing One Class A Ordinary Share",
+   "asset_type": "ST",
+   "idx": 8,
+   "notified": "2020-06-22",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "HUYA",
+   "tx_date": "2020-06-22",
+   "type": "SP"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Zillow Group, Inc. - Class C Capital Stock",
+   "asset_type": "ST",
+   "idx": 9,
+   "notified": "2020-06-26",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "Z",
+   "tx_date": "2020-06-26",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Zillow Group, Inc. - Class C Capital Stock",
+   "asset_type": "ST",
+   "idx": 10,
+   "notified": "2020-07-06",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "Z",
+   "tx_date": "2020-07-06",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2020/20016934.pdf",
+ "year": 2020
+}

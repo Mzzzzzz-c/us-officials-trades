@@ -1,0 +1,31 @@
+{
+ "doc_id": "20005968",
+ "filed": "2020-01-15",
+ "filer": {
+  "name": "Hon. James French Hill",
+  "state_dst": "AR02",
+  "status": "Member"
+ },
+ "first": "James French",
+ "last": "Hill",
+ "parser": 3,
+ "state_dst": "AR02",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Atlas Air Worldwide Holdings Fﾛﾞﾛἠﾙ SϹ￿Ϲﾟ;: New Sﾟ￿ﾚ貎ﾞǶﾛἠﾙ Oﾘ: J French Hill ­ Revocable Trust",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2019-12-19",
+   "owner": "SELF",
+   "ticker": "AAWW",
+   "tx_date": "2019-12-19",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2020/20005968.pdf",
+ "year": 2020
+}

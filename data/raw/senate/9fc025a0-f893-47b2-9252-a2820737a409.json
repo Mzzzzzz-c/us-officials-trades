@@ -1,0 +1,40 @@
+{
+ "amended": false,
+ "filed": "2023-05-17",
+ "first": "Sheldon",
+ "full": "Whitehouse, Sheldon (Senator)",
+ "kind": "ptr",
+ "last": "Whitehouse",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 05/17/2023",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Essex Property Trust, Inc. Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 1,
+   "owner": "SP",
+   "ticker": "ESS",
+   "tx_date": "2023-04-18",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Essex Property Trust, Inc. Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "ESS",
+   "tx_date": "2023-04-18",
+   "type": "SF"
+  }
+ ],
+ "uid": "9fc025a0-f893-47b2-9252-a2820737a409",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/9fc025a0-f893-47b2-9252-a2820737a409/"
+}

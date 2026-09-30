@@ -1,0 +1,32 @@
+{
+ "doc_id": "20021332",
+ "filed": "2022-07-21",
+ "filer": {
+  "name": "Hon. Peter Meijer",
+  "state_dst": "MI03",
+  "status": "Member"
+ },
+ "first": "Peter",
+ "last": "Meijer",
+ "parser": 3,
+ "state_dst": "MI03",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Deere & Company",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2022-06-27",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "DE",
+   "tx_date": "2022-06-27",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2022/20021332.pdf",
+ "year": 2022
+}

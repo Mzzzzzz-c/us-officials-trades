@@ -1,0 +1,32 @@
+{
+ "doc_id": "20035175",
+ "filed": "2026-08-11",
+ "filer": {
+  "name": "Hon. Suzan K. DelBene",
+  "state_dst": "WA01",
+  "status": "Member"
+ },
+ "first": "Suzan K.",
+ "last": "DelBene",
+ "parser": 3,
+ "state_dst": "WA01",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Fort Bend Tex Indpt SCH Dist Variable 04.00000% 08/01/2054 Rate Unltd Tax BLDG Ref BDS Ser. 2024B",
+   "asset_type": "GS",
+   "idx": 1,
+   "notified": "2026-07-23",
+   "owner": "JT",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2026-07-23",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035175.pdf",
+ "year": 2026
+}

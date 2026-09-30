@@ -1,0 +1,46 @@
+{
+ "doc_id": "20019461",
+ "filed": "2021-09-14",
+ "filer": {
+  "state_dst": "NY27",
+  "status": "Member"
+ },
+ "first": "Christopher L.",
+ "last": "Jacobs",
+ "parser": 3,
+ "state_dst": "NY27",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "NEW YORK CITY NY TRANSITIONAL 5.000% 11/01/2027 DD 08/17/21",
+   "asset_type": "GS",
+   "idx": 1,
+   "notified": "2021-09-10",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "CL TRUST > LDJ FAM INV LLC > GWK",
+   "ticker": null,
+   "tx_date": "2021-08-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "NEW YORK ST DORM AUTH SALES TA 5.000% 03/15/2026 DD 09/29/16",
+   "asset_type": "GS",
+   "idx": 2,
+   "notified": "2021-09-10",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "CL TRUST > LDJ FAM INV LLC > GWK",
+   "ticker": null,
+   "tx_date": "2021-08-03",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2021/20019461.pdf",
+ "year": 2021
+}

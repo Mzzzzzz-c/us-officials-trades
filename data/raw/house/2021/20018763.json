@@ -1,0 +1,31 @@
+{
+ "doc_id": "20018763",
+ "filed": "2021-05-18",
+ "filer": {
+  "state_dst": "IN03",
+  "status": "Member"
+ },
+ "first": "James E Hon",
+ "last": "Banks",
+ "parser": 3,
+ "state_dst": "IN03",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Kroger Company",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2021-04-09",
+   "owner": "JT",
+   "status": "New",
+   "ticker": "KR",
+   "tx_date": "2021-04-05",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2021/20018763.pdf",
+ "year": 2021
+}

@@ -1,0 +1,97 @@
+{
+ "doc_id": "20025111",
+ "filed": "2024-05-23",
+ "filer": {
+  "name": "Hon. Doris O. Matsui",
+  "state_dst": "CA07",
+  "status": "Member"
+ },
+ "first": "Doris O.",
+ "last": "Matsui",
+ "parser": 3,
+ "state_dst": "CA07",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": 1000001,
+   "asset": "U.S. Treasury Note due 1/31/2028",
+   "asset_type": "GS",
+   "idx": 1,
+   "notified": "2024-04-23",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2024-04-23",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": 1000001,
+   "asset": "U.S. Treasury Note due 10/31/2027",
+   "asset_type": "GS",
+   "idx": 2,
+   "notified": "2024-04-23",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2024-04-23",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": 1000001,
+   "asset": "U.S. Treasury Note due 12/15/2026",
+   "asset_type": "GS",
+   "idx": 3,
+   "notified": "2024-04-23",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2024-04-23",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": 1000001,
+   "asset": "U.S. Treasury Note due 3/15/2027",
+   "asset_type": "GS",
+   "idx": 4,
+   "notified": "2024-04-23",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2024-04-23",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": 1000001,
+   "asset": "U.S. Treasury Note due 5/31/2028",
+   "asset_type": "GS",
+   "idx": 5,
+   "notified": "2024-04-23",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2024-04-23",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": 1000001,
+   "asset": "U.S. Treasury Note due 7/31/2027",
+   "asset_type": "GS",
+   "idx": 6,
+   "notified": "2024-04-23",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2024-04-23",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20025111.pdf",
+ "year": 2024
+}

@@ -1,0 +1,62 @@
+{
+ "doc_id": "20018083",
+ "filed": "2021-01-26",
+ "filer": {
+  "state_dst": "CA47",
+  "status": "Member"
+ },
+ "first": "Alan S.",
+ "last": "Lowenthal",
+ "parser": 3,
+ "state_dst": "CA47",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "General Mills",
+   "asset_type": "CS",
+   "description": "Interest rate is 3.2%, maturity date is 4/16/21.",
+   "idx": 1,
+   "notified": "2021-01-26",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Neuberger Berman - Malumed Lowenthal Rev Trust",
+   "ticker": null,
+   "tx_date": "2021-01-11",
+   "type": "SF"
+  },
+  {
+   "amount_max": 995,
+   "amount_min": 995,
+   "asset": "General Motors Company",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2021-01-26",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Neuberger Berman - Malumed Lowenthal Rev Trust",
+   "ticker": "GM",
+   "tx_date": "2021-01-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "T-MOBILE USA",
+   "asset_type": "CS",
+   "description": "Interest rate is 2.250% and maturity date is 2/15/26.",
+   "idx": 3,
+   "notified": "2021-01-26",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Neuberger Berman - Malumed Lowenthal Rev Trust",
+   "ticker": null,
+   "tx_date": "2021-01-11",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2021/20018083.pdf",
+ "year": 2021
+}

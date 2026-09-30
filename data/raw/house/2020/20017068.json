@@ -1,0 +1,74 @@
+{
+ "doc_id": "20017068",
+ "filed": "2020-08-03",
+ "filer": {
+  "state_dst": "MT00",
+  "status": "Member"
+ },
+ "first": "Greg",
+ "last": "Gianforte",
+ "parser": 3,
+ "state_dst": "MT00",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Five Below, Inc.",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2020-08-03",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Riverbridge Managed Account - Small Cap US Equities",
+   "ticker": "FIVE",
+   "tx_date": "2020-07-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "IAC/InterActiveCorp",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2020-08-03",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Riverbridge Managed Account - Small Cap US Equities",
+   "ticker": "IAC",
+   "tx_date": "2020-07-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Internationa Flavors & Fragrances, Inc.",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2020-08-03",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Riverbridge Managed Account - Small Cap US Equities",
+   "ticker": "IFF",
+   "tx_date": "2020-07-28",
+   "type": "SF"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Taiwan Semiconductor Manufacturing Company Ltd.",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2020-08-03",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Harding Loevner International Equity",
+   "ticker": "TSM",
+   "tx_date": "2020-07-28",
+   "type": "SP"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2020/20017068.pdf",
+ "year": 2020
+}

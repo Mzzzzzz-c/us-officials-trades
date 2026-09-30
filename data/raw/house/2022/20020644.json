@@ -1,0 +1,32 @@
+{
+ "doc_id": "20020644",
+ "filed": "2022-03-18",
+ "filer": {
+  "state_dst": "MS03",
+  "status": "Member"
+ },
+ "first": "Michael Patrick",
+ "last": "Guest",
+ "parser": 3,
+ "state_dst": "MS03",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AT&T Inc.",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2022-03-16",
+   "owner": "DC",
+   "status": "New",
+   "subholding": "ET-INV",
+   "ticker": "T",
+   "tx_date": "2022-03-14",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2022/20020644.pdf",
+ "year": 2022
+}

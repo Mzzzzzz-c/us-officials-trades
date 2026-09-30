@@ -1,0 +1,52 @@
+{
+ "amended": false,
+ "filed": "2021-09-15",
+ "first": "Shelley M",
+ "full": "Capito, Shelley Moore (Senator)",
+ "kind": "ptr",
+ "last": "Capito",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 09/15/2021",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Apple Inc. - Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 1,
+   "owner": "SP",
+   "ticker": "AAPL",
+   "tx_date": "2021-08-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Microsoft Corporation - Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 2,
+   "owner": "SP",
+   "ticker": "MSFT",
+   "tx_date": "2021-08-17",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Apple Inc. - Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 3,
+   "owner": "SP",
+   "ticker": "AAPL",
+   "tx_date": "2021-08-17",
+   "type": "SP"
+  }
+ ],
+ "uid": "6d5a5182-2b97-4772-b982-ff501f343822",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/6d5a5182-2b97-4772-b982-ff501f343822/"
+}

@@ -1,0 +1,33 @@
+{
+ "doc_id": "20034499",
+ "filed": "2026-05-07",
+ "filer": {
+  "name": "Hon. Greg Stanton",
+  "state_dst": "AZ04",
+  "status": "Member"
+ },
+ "first": "Greg",
+ "last": "Stanton",
+ "parser": 3,
+ "state_dst": "AZ04",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "TRULIEVE CANNABIS CORP",
+   "asset_type": "ST",
+   "description": "This stock was acquired as part of an executive compensation package.",
+   "idx": 1,
+   "notified": "2026-05-07",
+   "owner": "SP",
+   "status": "New",
+   "ticker": "TCNNF",
+   "tx_date": "2026-05-06",
+   "type": "SP"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034499.pdf",
+ "year": 2026
+}

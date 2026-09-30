@@ -1,0 +1,28 @@
+{
+ "amended": false,
+ "filed": "2021-08-11",
+ "first": "Rand",
+ "full": "Paul, Rand (Senator)",
+ "kind": "ptr",
+ "last": "Paul",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 08/11/2021",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "GILD",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 1,
+   "owner": "SP",
+   "ticker": null,
+   "tx_date": "2020-02-26",
+   "type": "P"
+  }
+ ],
+ "uid": "5407f18e-8faa-4f1e-a8bf-6cf7a2ffe5bd",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/5407f18e-8faa-4f1e-a8bf-6cf7a2ffe5bd/"
+}

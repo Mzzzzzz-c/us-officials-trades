@@ -1,0 +1,49 @@
+{
+ "doc_id": "20023426",
+ "filed": "2023-08-02",
+ "filer": {
+  "name": "Hon. John Rutherford",
+  "state_dst": "FL05",
+  "status": "Member"
+ },
+ "first": "John",
+ "last": "Rutherford",
+ "parser": 3,
+ "state_dst": "FL05",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "DNB ASA SP/ADR",
+   "asset_type": "ST",
+   "comment": "Asset was transferred from old IRA account to West End Traditional IRA and then sold. The use of the ticker symbol DNHBY in reporting this transaction was a data entry error. The correct ticker symbol is DNBBY. DNBBY is OTC stock, and was previously not listed in the system’s stock catalog.",
+   "idx": 1,
+   "notified": "2022-03-16",
+   "owner": "SELF",
+   "status": "Amended",
+   "subholding": "West End Traditional IRA",
+   "ticker": "DNBBY",
+   "tx_date": "2022-03-16",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NN GROUP NV UNSP/ADR",
+   "asset_type": "ST",
+   "comment": "Asset was transferred from old IRA account to West End Traditional IRA and then sold. The use of the ticker symbol NNGPF in reporting this transaction was a data entry error. The correct ticker symbol is NNGRY. NNGRY is OTC stock, and was previously not listed in the system’s stock catalog.",
+   "idx": 2,
+   "notified": "2022-03-16",
+   "owner": "SELF",
+   "status": "Amended",
+   "subholding": "West End Traditional IRA",
+   "ticker": "NNGRY",
+   "tx_date": "2022-03-16",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2023/20023426.pdf",
+ "year": 2023
+}

@@ -1,0 +1,103 @@
+{
+ "doc_id": "20035273",
+ "filed": "2026-08-18",
+ "filer": {
+  "name": "Hon. Thomas H. Kean Jr",
+  "state_dst": "NJ07",
+  "status": "Member"
+ },
+ "first": "Thomas H.",
+ "last": "Kean",
+ "parser": 3,
+ "state_dst": "NJ07",
+ "status": "ok",
+ "suffix": "Jr",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Alphabet Inc. - Class A Common Stock",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2026-08-07",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "State Street Bank & Trust Co.",
+   "ticker": "GOOGL",
+   "tx_date": "2026-07-22",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Amazon.com, Inc. - Common Stock",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2026-08-03",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Kean Family Partnership",
+   "ticker": "AMZN",
+   "tx_date": "2026-07-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "EQT Corporation Common Stock",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2026-08-03",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Kean Family Partnership",
+   "ticker": "EQT",
+   "tx_date": "2026-07-07",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ESAB Corporation Common Stock",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2026-08-03",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Kean Family Partnership",
+   "ticker": "ESAB",
+   "tx_date": "2026-07-07",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Stryker Corporation Common Stock",
+   "asset_type": "ST",
+   "idx": 5,
+   "notified": "2026-08-07",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "State Street Bank & Trust Co.",
+   "ticker": "SYK",
+   "tx_date": "2026-07-22",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Toast, Inc. Class A Common Stock",
+   "asset_type": "ST",
+   "idx": 6,
+   "notified": "2026-08-03",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Kean Family Partnership",
+   "ticker": "TOST",
+   "tx_date": "2026-07-08",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035273.pdf",
+ "year": 2026
+}

@@ -1,0 +1,67 @@
+{
+ "amended": false,
+ "filed": "2025-02-21",
+ "first": "Ron L",
+ "full": "Wyden, Ron (Senator)",
+ "kind": "ptr",
+ "last": "Wyden",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 02/21/2025",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "iRobot Corporation - Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 1,
+   "owner": "SP",
+   "ticker": "IRBT",
+   "tx_date": "2025-02-06",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Solventum Corporation",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "comment": "Received shares through a spin-off with 3M Company",
+   "idx": 2,
+   "owner": "SP",
+   "ticker": "SOLV",
+   "tx_date": "2025-02-06",
+   "type": "SF"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Eli Lilly and Company Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "comment": "After learning that her independent broker purchased shares of LLY without her knowledge, the filer’s spouse requested that the shares be sold in full",
+   "idx": 3,
+   "owner": "SP",
+   "ticker": "LLY",
+   "tx_date": "2025-02-10",
+   "type": "SF"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Eli Lilly and Company Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "comment": "Underlying asset of M. Schunker LLC",
+   "idx": 4,
+   "owner": "SP",
+   "ticker": "LLY",
+   "tx_date": "2025-01-22",
+   "type": "P"
+  }
+ ],
+ "uid": "f3e6926f-70d4-4265-9b81-68798dfc73bb",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/f3e6926f-70d4-4265-9b81-68798dfc73bb/"
+}

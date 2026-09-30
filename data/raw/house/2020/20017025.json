@@ -1,0 +1,88 @@
+{
+ "doc_id": "20017025",
+ "filed": "2020-07-24",
+ "filer": {
+  "state_dst": "CA47",
+  "status": "Member"
+ },
+ "first": "Alan S.",
+ "last": "Lowenthal",
+ "parser": 3,
+ "state_dst": "CA47",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Amazon.com, Inc.",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2020-07-17",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Neuberger Berman - Traditional IRA",
+   "ticker": "AMZN",
+   "tx_date": "2020-07-10",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Sunrun Inc.",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2020-07-20",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Neuberger Berman - Traditional IRA",
+   "ticker": "RUN",
+   "tx_date": "2020-07-13",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Sunrun Inc.",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2020-07-20",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Neuberger Berman - Traditional IRA",
+   "ticker": "RUN",
+   "tx_date": "2020-07-13",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Sunrun Inc.",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2020-07-20",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Neuberger Berman - Traditional IRA",
+   "ticker": "RUN",
+   "tx_date": "2020-07-13",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Sunrun Inc.",
+   "asset_type": "ST",
+   "idx": 5,
+   "notified": "2020-07-20",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Neuberger Berman - Traditional IRA",
+   "ticker": "RUN",
+   "tx_date": "2020-07-13",
+   "type": "SP"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2020/20017025.pdf",
+ "year": 2020
+}

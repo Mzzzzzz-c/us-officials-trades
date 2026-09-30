@@ -1,0 +1,88 @@
+{
+ "doc_id": "20018685",
+ "filed": "2021-05-04",
+ "filer": {
+  "state_dst": "OR03",
+  "status": "Member"
+ },
+ "first": "Earl",
+ "last": "Blumenauer",
+ "parser": 3,
+ "state_dst": "OR03",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Howard Hughes Corporation",
+   "asset_type": "ST",
+   "description": "Part of my spouse's retirement portfolio.",
+   "idx": 1,
+   "notified": "2021-05-04",
+   "owner": "SP",
+   "status": "New",
+   "ticker": "HHC",
+   "tx_date": "2021-04-09",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Howard Hughes Corporation",
+   "asset_type": "ST",
+   "description": "Part of my spouse's retirement portfolio.",
+   "idx": 2,
+   "notified": "2021-05-04",
+   "owner": "SP",
+   "status": "New",
+   "ticker": "HHC",
+   "tx_date": "2021-04-12",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Howard Hughes Corporation",
+   "asset_type": "ST",
+   "description": "Part of my spouse's retirement portfolio.",
+   "idx": 3,
+   "notified": "2021-05-04",
+   "owner": "SP",
+   "status": "New",
+   "ticker": "HHC",
+   "tx_date": "2021-04-13",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Realty Income Corp Reit",
+   "asset_type": "AB",
+   "description": "Part of my spouse's retirement portfolio.",
+   "idx": 4,
+   "notified": "2021-05-04",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2021-04-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "US Treasury NT 2.25%04/21",
+   "asset_type": "GS",
+   "description": "Full Redemption. Part of my spouse's retirement portfolio.",
+   "idx": 5,
+   "notified": "2021-05-04",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2021-04-30",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2021/20018685.pdf",
+ "year": 2021
+}

@@ -1,0 +1,64 @@
+{
+ "amended": false,
+ "filed": "2026-08-17",
+ "first": "John",
+ "full": "Boozman, John (Senator)",
+ "kind": "ptr",
+ "last": "Boozman",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 08/17/2026",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Cboe Global Markets, Inc. Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 1,
+   "owner": "JT",
+   "ticker": "CBOE",
+   "tx_date": "2026-07-31",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "JP Morgan Chase & Co. Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 2,
+   "owner": "JT",
+   "ticker": "JPM",
+   "tx_date": "2026-07-23",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Home Depot, Inc. (The) Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 3,
+   "owner": "JT",
+   "ticker": "HD",
+   "tx_date": "2026-07-09",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "The Travelers Companies, Inc. Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 4,
+   "owner": "JT",
+   "ticker": "TRV",
+   "tx_date": "2026-07-02",
+   "type": "SF"
+  }
+ ],
+ "uid": "28e465df-caf1-4a98-8ebc-605e1e1ba99b",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/28e465df-caf1-4a98-8ebc-605e1e1ba99b/"
+}

@@ -1,0 +1,77 @@
+{
+ "doc_id": "20020712",
+ "filed": "2022-04-21",
+ "filer": {
+  "name": "Hon. Kim Dr Schrier",
+  "state_dst": "WA08",
+  "status": "Member"
+ },
+ "first": "Kim Dr",
+ "last": "Schrier",
+ "parser": 3,
+ "state_dst": "WA08",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Apple Inc.",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2022-03-22",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Inherited IRA",
+   "ticker": "AAPL",
+   "tx_date": "2022-03-22",
+   "type": "SF"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "Apple Inc.",
+   "asset_type": "ST",
+   "description": "Background Information: The holdings of Gowing Family Trust Secondary account were consolidated into the Primary account in December, 2021. As a result, the Primary account held AAPL stock since that time in December until this reported sale. (i.e., Prior to that, the AAPL stock was in the Secondary account.)",
+   "idx": 2,
+   "notified": "2022-03-22",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Gowing Family Trust Primary Account",
+   "ticker": "AAPL",
+   "tx_date": "2022-03-22",
+   "type": "SF"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Tesla, Inc.",
+   "asset_type": "ST",
+   "description": "Background Information: The holdings of Gowing Family Trust Secondary account were consolidated into the Primary account in December, 2021. As a result, the Primary account held Tesla stock since that time in December until this reported sale. (i.e., Prior to that, the TSLA stock was in the Secondary account.)",
+   "idx": 3,
+   "notified": "2022-03-22",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Gowing Family Trust Primary Account",
+   "ticker": "TSLA",
+   "tx_date": "2022-03-22",
+   "type": "SF"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Tesla, Inc.",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2022-03-22",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "David's IRA",
+   "ticker": "TSLA",
+   "tx_date": "2022-03-22",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2022/20020712.pdf",
+ "year": 2022
+}

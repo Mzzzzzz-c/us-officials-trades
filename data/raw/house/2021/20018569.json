@@ -1,0 +1,70 @@
+{
+ "doc_id": "20018569",
+ "filed": "2021-04-13",
+ "filer": {
+  "state_dst": "VA02",
+  "status": "Member"
+ },
+ "first": "Elaine",
+ "last": "Luria",
+ "parser": 3,
+ "state_dst": "VA02",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Alibaba Group Holding Limited American Depositary Shares Each Representing Eight Ordinary Share",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2021-03-31",
+   "owner": "JT",
+   "status": "New",
+   "ticker": "BABA",
+   "tx_date": "2021-03-31",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "QuantumScape Corporation Class A",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2021-03-22",
+   "owner": "SP",
+   "status": "New",
+   "ticker": "QS",
+   "tx_date": "2021-03-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Tesla, Inc.",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2021-03-22",
+   "owner": "SP",
+   "status": "New",
+   "ticker": "TSLA",
+   "tx_date": "2021-03-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Uber Technologies, Inc.",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2021-03-31",
+   "owner": "JT",
+   "status": "New",
+   "ticker": "UBER",
+   "tx_date": "2021-03-31",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2021/20018569.pdf",
+ "year": 2021
+}

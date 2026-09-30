@@ -1,0 +1,57 @@
+{
+ "doc_id": "20020642",
+ "filed": "2022-03-22",
+ "filer": {
+  "state_dst": "WA01",
+  "status": "Member"
+ },
+ "first": "Suzan K.",
+ "last": "DelBene",
+ "parser": 3,
+ "state_dst": "WA01",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "Colorado Health Fac 5.00% Hosp HLTH Due 08/01/2049",
+   "asset_type": "GS",
+   "idx": 1,
+   "notified": "2022-03-15",
+   "owner": "JT",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2022-03-15",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Prince Georges CNTY MD Go Consolidated 5.00% Due 07/15/2031",
+   "asset_type": "GS",
+   "idx": 2,
+   "notified": "2022-03-02",
+   "owner": "JT",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2022-03-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "WA ST HLTH Care Fa 5.00% Hosp HLTH Due 08/01/2049",
+   "asset_type": "GS",
+   "idx": 3,
+   "notified": "2022-03-15",
+   "owner": "JT",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2022-03-15",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2022/20020642.pdf",
+ "year": 2022
+}

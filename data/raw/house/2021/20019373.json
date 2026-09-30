@@ -1,0 +1,46 @@
+{
+ "doc_id": "20019373",
+ "filed": "2021-08-23",
+ "filer": {
+  "state_dst": "FL18",
+  "status": "Member"
+ },
+ "first": "Brian",
+ "last": "Mast",
+ "parser": 3,
+ "state_dst": "FL18",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Virgin Galactic Holdings, Inc.",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2021-07-19",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Morgan Stanley Magnum Mast UTMA/FL",
+   "ticker": "SPCE",
+   "tx_date": "2021-07-19",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Virgin Galactic Holdings, Inc.",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2021-07-19",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Morgan Stanley Maverick Mast UTMA/FL",
+   "ticker": "SPCE",
+   "tx_date": "2021-07-19",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2021/20019373.pdf",
+ "year": 2021
+}

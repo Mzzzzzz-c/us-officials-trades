@@ -1,0 +1,76 @@
+{
+ "amended": false,
+ "filed": "2026-04-04",
+ "first": "Shelley M",
+ "full": "Capito, Shelley Moore (Senator)",
+ "kind": "ptr",
+ "last": "Capito",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 04/04/2026",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PNC Financial Services Group, Inc. (The) Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 1,
+   "owner": "SP",
+   "ticker": "PNC",
+   "tx_date": "2026-03-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "FactSet Research Systems Inc. Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 2,
+   "owner": "SP",
+   "ticker": "FDS",
+   "tx_date": "2026-03-31",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "FactSet Research Systems Inc. Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 3,
+   "owner": "SP",
+   "ticker": "FDS",
+   "tx_date": "2026-03-26",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "FactSet Research Systems Inc. Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 4,
+   "owner": "SP",
+   "ticker": "FDS",
+   "tx_date": "2026-03-25",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "American Express Company Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 5,
+   "owner": "SP",
+   "ticker": "AXP",
+   "tx_date": "2026-03-11",
+   "type": "P"
+  }
+ ],
+ "uid": "ab712d8d-1afd-4f09-b29e-f1b65bba50b8",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/ab712d8d-1afd-4f09-b29e-f1b65bba50b8/"
+}

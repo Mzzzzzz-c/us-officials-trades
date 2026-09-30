@@ -1,0 +1,32 @@
+{
+ "doc_id": "20016924",
+ "filed": "2021-02-12",
+ "filer": {
+  "state_dst": "NC03",
+  "status": "Member"
+ },
+ "first": "Greg Francis",
+ "last": "Murphy",
+ "parser": 3,
+ "state_dst": "NC03",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Nymox Pharmaceutical Corporation",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2021-01-28",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Vanguard Funds",
+   "ticker": "NYMX",
+   "tx_date": "2021-01-22",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2021/20016924.pdf",
+ "year": 2021
+}

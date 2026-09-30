@@ -1,0 +1,51 @@
+{
+ "doc_id": "20033579",
+ "filed": "2025-12-04",
+ "filer": {
+  "name": "Hon. Sheri Biggs",
+  "state_dst": "SC03",
+  "status": "Member"
+ },
+ "first": "Sheri",
+ "last": "Biggs",
+ "parser": 3,
+ "state_dst": "SC03",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Apollo Debt Solutions BDC Class S",
+   "asset_type": "OT",
+   "description": "Dividend reinvestment in a professionally managed account – Business Development Company.",
+   "idx": 1,
+   "location": "US",
+   "notified": "2025-11-07",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "W.S.B Trust > UBS Financial Services 26",
+   "ticker": null,
+   "tx_date": "2025-10-29",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Oaktree Strategic Credit Fund Class S",
+   "asset_type": "OT",
+   "description": "Dividend reinvestment in a professionally managed account – Business Development Company.",
+   "idx": 2,
+   "location": "US",
+   "notified": "2025-11-07",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "W.S.B Trust > UBS Financial Services 26",
+   "ticker": null,
+   "tx_date": "2025-10-30",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033579.pdf",
+ "year": 2025
+}

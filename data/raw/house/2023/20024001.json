@@ -1,0 +1,77 @@
+{
+ "doc_id": "20024001",
+ "filed": "2023-11-16",
+ "filer": {
+  "name": "Hon. Richard W. Allen",
+  "state_dst": "GA12",
+  "status": "Member"
+ },
+ "first": "Richard W.",
+ "last": "Allen",
+ "parser": 3,
+ "state_dst": "GA12",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Activision Blizzard, Inc",
+   "asset_type": "ST",
+   "description": "cash merger no longer publicly traded company",
+   "idx": 1,
+   "notified": "2023-11-06",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "INIRA",
+   "ticker": "ATVI",
+   "tx_date": "2023-10-13",
+   "type": "SF"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Activision Blizzard, Inc",
+   "asset_type": "ST",
+   "description": "cash merger no longer publicly traded company",
+   "idx": 2,
+   "notified": "2023-11-06",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "IRA",
+   "ticker": "ATVI",
+   "tx_date": "2023-10-13",
+   "type": "SF"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "The Charles Schwab Corporation Depositary Shares each representing 1/40th interest in a share of 5.95% Non-Cumulative Perpetual Preferred Stock, Series D (SCHW$D)",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2023-11-06",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "R.W. Allen & Associates, Inc.",
+   "ticker": null,
+   "tx_date": "2023-10-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "US Treasury Bill 912797GD3",
+   "asset_type": "GS",
+   "idx": 4,
+   "notified": "2023-11-06",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "SCH1",
+   "ticker": null,
+   "tx_date": "2023-10-03",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2023/20024001.pdf",
+ "year": 2023
+}

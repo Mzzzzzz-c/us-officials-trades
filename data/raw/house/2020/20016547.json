@@ -1,0 +1,104 @@
+{
+ "doc_id": "20016547",
+ "filed": "2020-05-05",
+ "filer": {
+  "state_dst": "RI02",
+  "status": "Member"
+ },
+ "first": "James R.",
+ "last": "Langevin",
+ "parser": 3,
+ "state_dst": "RI02",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "American Airlines Group, Inc.",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2020-03-25",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "AAL",
+   "tx_date": "2020-03-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Carnival Corporation",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2020-03-25",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "CCL",
+   "tx_date": "2020-03-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Ishares U.s. Regional Banks ETF",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2020-03-25",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "IAT",
+   "tx_date": "2020-03-25",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Southwest Airlines Company",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2020-03-25",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "LUV",
+   "tx_date": "2020-03-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SPDR Dow Jones Industrial Average ETF",
+   "asset_type": "OP",
+   "description": "Call Option, $225, Exp. 02/07/2020",
+   "idx": 5,
+   "notified": "2020-04-08",
+   "option": {
+    "kind": "call"
+   },
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "DIA",
+   "tx_date": "2020-04-08",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SPDR Dow Jones Industrial Average ETF",
+   "asset_type": "OP",
+   "description": "Call Option, $220, Exp. 04/09/2020",
+   "idx": 6,
+   "notified": "2020-04-09",
+   "option": {
+    "kind": "call"
+   },
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "DIA",
+   "tx_date": "2020-04-09",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2020/20016547.pdf",
+ "year": 2020
+}

@@ -1,0 +1,88 @@
+{
+ "doc_id": "20019319",
+ "filed": "2021-08-16",
+ "filer": {
+  "state_dst": "NJ06",
+  "status": "Member"
+ },
+ "first": "Frank",
+ "last": "Pallone",
+ "parser": 3,
+ "state_dst": "NJ06",
+ "status": "ok",
+ "suffix": "Jr.",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Chevron Corporation",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2021-08-12",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "WELLS FARGO ADVISORS: GST TRUST 1",
+   "ticker": "CVX",
+   "tx_date": "2021-08-11",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Citigroup, Inc.",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2021-08-12",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "WELLS FARGO ADVISORS: GST TRUST 1",
+   "ticker": "C",
+   "tx_date": "2021-08-11",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Dominion Energy, Inc.",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2021-08-12",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "WELLS FARGO ADVISORS: GST TRUST 1",
+   "ticker": "D",
+   "tx_date": "2021-08-11",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Philip Morris International Inc",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2021-08-12",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "WELLS FARGO ADVISORS: GST TRUST 1",
+   "ticker": "PM",
+   "tx_date": "2021-08-11",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Philip Morris International Inc",
+   "asset_type": "ST",
+   "idx": 5,
+   "notified": "2021-08-12",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "WELLS FARGO ADVISORS: GST TRUST 1",
+   "ticker": "PM",
+   "tx_date": "2021-08-11",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2021/20019319.pdf",
+ "year": 2021
+}

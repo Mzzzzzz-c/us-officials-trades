@@ -1,0 +1,113 @@
+{
+ "amended": false,
+ "filed": "2023-04-13",
+ "first": "John W",
+ "full": "Hickenlooper, John (Senator)",
+ "kind": "ptr",
+ "last": "Hickenlooper",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 04/13/2023",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Liberty Media Corporation - Series C Liberty Brave",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 1,
+   "owner": "SP",
+   "ticker": "BATRK",
+   "tx_date": "2023-03-20",
+   "type": "SP"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Liberty Media Corporation - Series C Liberty Formu",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 2,
+   "owner": "SP",
+   "ticker": "FWONK",
+   "tx_date": "2023-03-20",
+   "type": "SP"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "Liberty Media Corporation - Series C Liberty Formu",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 3,
+   "owner": "SP",
+   "ticker": "FWONK",
+   "tx_date": "2023-03-08",
+   "type": "SP"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Liberty Media Corporation - Series C Liberty Formu",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "comment": "Exercised stock option",
+   "idx": 4,
+   "owner": "SP",
+   "ticker": "FWONK",
+   "tx_date": "2023-03-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Liberty Broadband Corporation - Class C Common Sto",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 5,
+   "owner": "SP",
+   "ticker": "LBRDK",
+   "tx_date": "2023-03-20",
+   "type": "SP"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Liberty Media Corporation - Series C Liberty Siriu",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 6,
+   "owner": "SP",
+   "ticker": "LSXMK",
+   "tx_date": "2023-03-20",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Liberty TripAdvisor Holdings, Inc. - Series A Comm",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 7,
+   "owner": "SP",
+   "ticker": "LTRPA",
+   "tx_date": "2023-03-20",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Nokia Corporation Sponsored American Depositary Sh",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 8,
+   "owner": "SP",
+   "ticker": "NOK",
+   "tx_date": "2023-03-15",
+   "type": "SF"
+  }
+ ],
+ "uid": "4b312925-a9a6-48e1-baab-80010d8e2800",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/4b312925-a9a6-48e1-baab-80010d8e2800/"
+}

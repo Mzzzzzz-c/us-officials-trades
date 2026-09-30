@@ -1,0 +1,78 @@
+{
+ "doc_id": "20024212",
+ "filed": "2024-01-24",
+ "filer": {
+  "name": "Hon. Pete Sessions",
+  "state_dst": "TX17",
+  "status": "Member"
+ },
+ "first": "Pete",
+ "last": "Sessions",
+ "parser": 3,
+ "state_dst": "TX17",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Alibaba Group Holding Limited American Depositary Shares each representing eight Ordinary share",
+   "asset_type": "ST",
+   "description": "45 shares loss ~$5500",
+   "idx": 1,
+   "notified": "2023-12-29",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Trust One",
+   "ticker": "BABA",
+   "tx_date": "2023-12-28",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "American Tower Corporation",
+   "asset_type": "ST",
+   "description": "sold loss 21.1125 shares",
+   "idx": 2,
+   "notified": "2023-12-29",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Trust One",
+   "ticker": "AMT",
+   "tx_date": "2023-12-28",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Crown Castle Inc.",
+   "asset_type": "ST",
+   "description": "Sale loss 45.9831 shares",
+   "idx": 3,
+   "notified": "2023-12-29",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Trust One",
+   "ticker": "CCI",
+   "tx_date": "2023-12-28",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "US Treasury Bill 9128286R6",
+   "asset_type": "GS",
+   "description": "$5K 30 day T-Bill 5.1%",
+   "idx": 4,
+   "notified": "2024-01-25",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2024-01-25",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20024212.pdf",
+ "year": 2024
+}

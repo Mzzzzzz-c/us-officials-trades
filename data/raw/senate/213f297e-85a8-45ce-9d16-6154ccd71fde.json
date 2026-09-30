@@ -1,0 +1,112 @@
+{
+ "amended": false,
+ "filed": "2022-08-15",
+ "first": "Thomas H",
+ "full": "Tuberville, Tommy (Senator)",
+ "kind": "ptr",
+ "last": "Tuberville",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 08/15/2022",
+ "transactions": [
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Cleveland-Cliffs Inc. Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 1,
+   "owner": "JT",
+   "ticker": "CLF",
+   "tx_date": "2022-07-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ChannelAdvisor Corporation Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 2,
+   "owner": "JT",
+   "ticker": "ECOM",
+   "tx_date": "2022-07-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Call Sep 22 CBT Soybeans",
+   "asset_type": "OT",
+   "asset_type_text": "Commodities/Futures Contract",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": null,
+   "tx_date": "2022-07-27",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Call Sep 22 CBT Soybeans",
+   "asset_type": "OT",
+   "asset_type_text": "Commodities/Futures Contract",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": null,
+   "tx_date": "2022-07-27",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Call Sep 22 CBT Soybeans",
+   "asset_type": "OT",
+   "asset_type_text": "Commodities/Futures Contract",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": null,
+   "tx_date": "2022-07-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Aug 22 Soybean Meal",
+   "asset_type": "OT",
+   "asset_type_text": "Commodities/Futures Contract",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": null,
+   "tx_date": "2022-07-08",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Dec 22 Soybean Meal",
+   "asset_type": "OT",
+   "asset_type_text": "Commodities/Futures Contract",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": null,
+   "tx_date": "2022-07-07",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Dec 22 CBT Corn",
+   "asset_type": "OT",
+   "asset_type_text": "Commodities/Futures Contract",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": null,
+   "tx_date": "2022-07-01",
+   "type": "P"
+  }
+ ],
+ "uid": "213f297e-85a8-45ce-9d16-6154ccd71fde",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/213f297e-85a8-45ce-9d16-6154ccd71fde/"
+}

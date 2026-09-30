@@ -1,0 +1,35 @@
+{
+ "doc_id": "20033744",
+ "filed": "2026-01-12",
+ "filer": {
+  "name": "Hon. Debbie Dingell",
+  "state_dst": "MI06",
+  "status": "Member"
+ },
+ "first": "Debbie",
+ "last": "Dingell",
+ "parser": 3,
+ "state_dst": "MI06",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "VERSANT MEDIA GROUP INC CL A",
+   "asset_type": "OT",
+   "description": "Asset was acquired through a spin-off of Comcast Corporation (CMCSA).",
+   "idx": 1,
+   "location": "US",
+   "notified": "2026-01-05",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Morgan Stanley Smith Barney LLC Brokerage Account",
+   "ticker": "VSNT",
+   "tx_date": "2026-01-05",
+   "type": "E"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033744.pdf",
+ "year": 2026
+}

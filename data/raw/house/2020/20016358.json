@@ -1,0 +1,31 @@
+{
+ "doc_id": "20016358",
+ "filed": "2020-04-03",
+ "filer": {
+  "state_dst": "IN01",
+  "status": "Member"
+ },
+ "first": "Peter J.",
+ "last": "Visclosky",
+ "parser": 3,
+ "state_dst": "IN01",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Exxon Mobil Corporation",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2020-03-20",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "XOM",
+   "tx_date": "2020-03-18",
+   "type": "SP"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2020/20016358.pdf",
+ "year": 2020
+}

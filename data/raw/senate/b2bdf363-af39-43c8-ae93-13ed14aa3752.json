@@ -1,0 +1,76 @@
+{
+ "amended": false,
+ "filed": "2026-01-15",
+ "first": "Thomas H",
+ "full": "Tuberville, Tommy (Senator)",
+ "kind": "ptr",
+ "last": "Tuberville",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 01/15/2026",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SPDR Select Sector Fund - Utilities",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "XLU",
+   "tx_date": "2025-12-17",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SPDR Select Sector Fund - Consumer Staples",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "XLP",
+   "tx_date": "2025-12-17",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SPDR Select Sector Fund - Health Care",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "XLV",
+   "tx_date": "2025-12-17",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Apple Inc",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "AAPL",
+   "tx_date": "2025-12-17",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Alphabet Cl A",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "GOOGL",
+   "tx_date": "2025-12-17",
+   "type": "SF"
+  }
+ ],
+ "uid": "b2bdf363-af39-43c8-ae93-13ed14aa3752",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/b2bdf363-af39-43c8-ae93-13ed14aa3752/"
+}

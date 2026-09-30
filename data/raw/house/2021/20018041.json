@@ -1,0 +1,46 @@
+{
+ "doc_id": "20018041",
+ "filed": "2021-01-18",
+ "filer": {
+  "state_dst": "FL16",
+  "status": "Member"
+ },
+ "first": "Vern",
+ "last": "Buchanan",
+ "parser": 3,
+ "state_dst": "FL16",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Clay Cnty MO Public 3% 3/1/22",
+   "asset_type": "GS",
+   "idx": 1,
+   "notified": "2021-01-11",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "BNY Mellon 5000",
+   "ticker": null,
+   "tx_date": "2020-12-08",
+   "type": "SF"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "New York City NY Tra 5% 11/01/29",
+   "asset_type": "GS",
+   "idx": 2,
+   "notified": "2021-01-11",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "BNY Mellon 5000",
+   "ticker": null,
+   "tx_date": "2020-12-11",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2021/20018041.pdf",
+ "year": 2021
+}

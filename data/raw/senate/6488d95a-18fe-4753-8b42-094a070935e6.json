@@ -1,0 +1,40 @@
+{
+ "amended": false,
+ "filed": "2025-02-06",
+ "first": "Marco",
+ "full": "Former Senator (Former Senator)",
+ "kind": "ptr",
+ "last": "Rubio",
+ "parser": 2,
+ "role": "Former Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 02/06/2025",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Cisco Systems Inc",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "CSCO",
+   "tx_date": "2025-01-07",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Coca-Cola Company",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "KO",
+   "tx_date": "2025-01-07",
+   "type": "SF"
+  }
+ ],
+ "uid": "6488d95a-18fe-4753-8b42-094a070935e6",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/6488d95a-18fe-4753-8b42-094a070935e6/"
+}

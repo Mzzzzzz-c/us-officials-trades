@@ -1,0 +1,31 @@
+{
+ "doc_id": "20019691",
+ "filed": "2021-10-26",
+ "filer": {
+  "state_dst": "GA14",
+  "status": "Member"
+ },
+ "first": "Marjorie Taylor",
+ "last": "Greene",
+ "parser": 3,
+ "state_dst": "GA14",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Digital World Acquisition Corp. - Class A",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2021-10-26",
+   "owner": "JT",
+   "status": "New",
+   "ticker": "DWAC",
+   "tx_date": "2021-10-22",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2021/20019691.pdf",
+ "year": 2021
+}

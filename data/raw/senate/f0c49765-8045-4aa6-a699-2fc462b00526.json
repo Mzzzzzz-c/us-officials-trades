@@ -1,0 +1,40 @@
+{
+ "amended": false,
+ "filed": "2021-08-09",
+ "first": "John W",
+ "full": "Hickenlooper, John (Senator)",
+ "kind": "ptr",
+ "last": "Hickenlooper",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 08/09/2021",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Pinterest, Inc. Class A Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 1,
+   "owner": "SP",
+   "ticker": "PINS",
+   "tx_date": "2021-07-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Snap Inc. Class A Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 2,
+   "owner": "SP",
+   "ticker": "SNAP",
+   "tx_date": "2021-07-27",
+   "type": "SP"
+  }
+ ],
+ "uid": "f0c49765-8045-4aa6-a699-2fc462b00526",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/f0c49765-8045-4aa6-a699-2fc462b00526/"
+}

@@ -1,0 +1,103 @@
+{
+ "doc_id": "20021945",
+ "filed": "2022-11-10",
+ "filer": {
+  "name": "Hon. Brad Sherman",
+  "state_dst": "CA30",
+  "status": "Member"
+ },
+ "first": "Brad",
+ "last": "Sherman",
+ "parser": 3,
+ "state_dst": "CA30",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "US Treasury Inflation Protected Note",
+   "asset_type": "GS",
+   "description": "This item appears on Page 18 of the filer's 2021 annual financial disclosure statement.",
+   "idx": 1,
+   "notified": "2022-11-03",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2022-11-03",
+   "type": "SF"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "US Treasury Inflation Protected Note",
+   "asset_type": "GS",
+   "description": "This item appears on page 15 of the filer's 2021 annual financial disclosure statement (4th asset listed on page).",
+   "idx": 2,
+   "notified": "2022-11-03",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2022-11-03",
+   "type": "SF"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "US Treasury Inflation Protected Note #2",
+   "asset_type": "GS",
+   "description": "This item appears on page 15 of the filer's 2021 annual financial disclosure statement (5th asset listed on page).",
+   "idx": 3,
+   "notified": "2022-11-03",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2022-11-03",
+   "type": "SF"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "US Treasury Inflation Protected Notes",
+   "asset_type": "GS",
+   "description": "This item was acquired by filer on 8/26/2022 as reported via periodic transaction report.",
+   "idx": 4,
+   "notified": "2022-11-07",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2022-11-07",
+   "type": "SP"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "US Treasury Notes",
+   "asset_type": "GS",
+   "description": "This item was acquired on 5/10/2022 as reported via periodic transaction report.",
+   "idx": 5,
+   "notified": "2022-11-03",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2022-11-03",
+   "type": "SF"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "US Treasury Notes",
+   "asset_type": "GS",
+   "description": "These were acquired on 7/13/2022 as reported via periodic transaction report.",
+   "idx": 6,
+   "notified": "2022-11-03",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2022-11-03",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2022/20021945.pdf",
+ "year": 2022
+}

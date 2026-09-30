@@ -1,0 +1,32 @@
+{
+ "doc_id": "20019527",
+ "filed": "2021-09-27",
+ "filer": {
+  "state_dst": "IN05",
+  "status": "Member"
+ },
+ "first": "Victoria",
+ "last": "Spartz",
+ "parser": 3,
+ "state_dst": "IN05",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Simon Property Group, Inc.",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2021-08-13",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "TD Ameritrade Roth IRA",
+   "ticker": "SPG",
+   "tx_date": "2021-08-13",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2021/20019527.pdf",
+ "year": 2021
+}

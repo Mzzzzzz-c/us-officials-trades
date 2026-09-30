@@ -1,0 +1,45 @@
+{
+ "doc_id": "20016984",
+ "filed": "2020-07-21",
+ "filer": {
+  "status": "Member"
+ },
+ "first": "Donna",
+ "last": "Shalala",
+ "parser": 3,
+ "state_dst": "FL27",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "TEGNA Inc",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2020-03-31",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Tegna Deferred Compensation Plan",
+   "ticker": "TGNA",
+   "tx_date": "2020-03-31",
+   "type": "SP"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "TEGNA Inc",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2019-04-01",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Tegna Deferred Compensation Plan",
+   "ticker": "TGNA",
+   "tx_date": "2019-04-01",
+   "type": "SP"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2020/20016984.pdf",
+ "year": 2020
+}

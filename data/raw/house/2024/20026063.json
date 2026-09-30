@@ -1,0 +1,73 @@
+{
+ "doc_id": "20026063",
+ "filed": "2024-11-21",
+ "filer": {
+  "name": "Hon. Laurel Lee",
+  "state_dst": "FL15",
+  "status": "Member"
+ },
+ "first": "Laurel",
+ "last": "Lee",
+ "parser": 3,
+ "state_dst": "FL15",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Apple Inc. - Common Stock",
+   "asset_type": "ST",
+   "description": "$215 Puts exp. 1/17/25",
+   "idx": 1,
+   "notified": "2024-10-22",
+   "owner": "SP",
+   "status": "New",
+   "ticker": "AAPL",
+   "tx_date": "2024-10-07",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "GE Vernova Inc. Common Stock",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2024-11-12",
+   "owner": "SP",
+   "status": "New",
+   "ticker": "GEV",
+   "tx_date": "2024-11-08",
+   "type": "SF"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Pfizer, Inc. Common Stock",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2024-10-23",
+   "owner": "SP",
+   "status": "New",
+   "ticker": "PFE",
+   "tx_date": "2024-10-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "TuHURA Biosciences, Inc. - Common Stock",
+   "asset_type": "ST",
+   "description": "The Note SP holds in TuHURA Biosciences was converted as the result of a merger of the company with Kintara Therapeutics (KTRA). The note converted into 31,571 common shares of the combined companies following a concurrent reverse stock split. The combined companies are trading under the name TuHURA Biosciences, trading symbol HURA. Any additional information can be obtained on the company's investor relations website.",
+   "idx": 4,
+   "notified": "2024-11-12",
+   "owner": "SP",
+   "status": "New",
+   "ticker": "HURA",
+   "tx_date": "2024-10-18",
+   "type": "E"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2024/20026063.pdf",
+ "year": 2024
+}

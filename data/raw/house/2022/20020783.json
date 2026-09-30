@@ -1,0 +1,103 @@
+{
+ "doc_id": "20020783",
+ "filed": "2022-04-13",
+ "filer": {
+  "name": "Hon. Earl Blumenauer",
+  "state_dst": "OR03",
+  "status": "Member"
+ },
+ "first": "Earl",
+ "last": "Blumenauer",
+ "parser": 3,
+ "state_dst": "OR03",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Air Products and Chemicals, Inc.",
+   "asset_type": "ST",
+   "description": "Part of my spouse's retirement portfolio.",
+   "idx": 1,
+   "notified": "2022-04-12",
+   "owner": "SP",
+   "status": "New",
+   "ticker": "APD",
+   "tx_date": "2022-03-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Goldman Sachs Inter 3%24",
+   "asset_type": "CS",
+   "description": "Part of my spouse's retirement portfolio.",
+   "idx": 2,
+   "notified": "2022-04-12",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2022-03-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Toyota Motor Credit 3%25",
+   "asset_type": "CS",
+   "description": "Part of my spouse's retirement portfolio.",
+   "idx": 3,
+   "notified": "2022-04-12",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2022-03-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "US Treasur NT 1.625%04/23",
+   "asset_type": "GS",
+   "description": "Part of my spouse's retirement portfolio.",
+   "idx": 4,
+   "notified": "2022-04-12",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2022-03-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "US Treasur NT 2.25%11/14",
+   "asset_type": "GS",
+   "description": "Part of my spouse's retirement portfolio.",
+   "idx": 5,
+   "notified": "2022-04-12",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2022-03-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "US Treasur NT 2.25%11/25",
+   "asset_type": "GS",
+   "description": "Part of my spouse's retirement portfolio.",
+   "idx": 6,
+   "notified": "2022-04-12",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2022-03-09",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2022/20020783.pdf",
+ "year": 2022
+}

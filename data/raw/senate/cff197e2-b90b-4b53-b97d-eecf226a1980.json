@@ -1,0 +1,40 @@
+{
+ "amended": false,
+ "filed": "2026-07-21",
+ "first": "Jerry",
+ "full": "Moran, Jerry (Senator)",
+ "kind": "ptr",
+ "last": "Moran,",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 07/21/2026",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Alphabet Inc. - Class C Capital Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "GOOG",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Berkshire Hathaway Inc. New Common Stock",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "BRK.B",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  }
+ ],
+ "uid": "cff197e2-b90b-4b53-b97d-eecf226a1980",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/cff197e2-b90b-4b53-b97d-eecf226a1980/"
+}

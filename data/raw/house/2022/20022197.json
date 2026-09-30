@@ -1,0 +1,59 @@
+{
+ "doc_id": "20022197",
+ "filed": "2022-12-31",
+ "filer": {
+  "name": "Hon. Mo Brooks",
+  "state_dst": "AL05",
+  "status": "Member"
+ },
+ "first": "Mo",
+ "last": "Brooks",
+ "parser": 3,
+ "state_dst": "AL05",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Arlington TX Higher Ed Fin",
+   "asset_type": "GS",
+   "idx": 1,
+   "notified": "2022-12-08",
+   "owner": "JT",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2022-12-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Duke Energy Corp Fxd",
+   "asset_type": "CS",
+   "description": "Corporate Bond",
+   "idx": 2,
+   "notified": "2022-08-30",
+   "owner": "JT",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2022-08-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "U. S. Treasury Note",
+   "asset_type": "GS",
+   "idx": 3,
+   "notified": "2022-11-29",
+   "owner": "JT",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2022-11-29",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2022/20022197.pdf",
+ "year": 2022
+}

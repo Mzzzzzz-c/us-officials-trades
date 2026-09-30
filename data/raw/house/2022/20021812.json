@@ -1,0 +1,168 @@
+{
+ "doc_id": "20021812",
+ "filed": "2022-10-06",
+ "filer": {
+  "name": "Hon. James R. Langevin",
+  "state_dst": "RI02",
+  "status": "Member"
+ },
+ "first": "James R.",
+ "last": "Langevin",
+ "parser": 3,
+ "state_dst": "RI02",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Airbnb, Inc. - Class A",
+   "asset_type": "OP",
+   "description": "Call options; Strike price $120; Expires 09/16/22",
+   "idx": 1,
+   "notified": "2022-10-04",
+   "option": {
+    "exp": "2022-09-16",
+    "kind": "call",
+    "strike": 120.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "ABNB",
+   "tx_date": "2022-09-07",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Airbnb, Inc. - Class A",
+   "asset_type": "OP",
+   "description": "Call options; Strike price $126; Expires 09/30/22",
+   "idx": 2,
+   "notified": "2022-10-04",
+   "option": {
+    "exp": "2022-09-30",
+    "kind": "call",
+    "strike": 126.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "ABNB",
+   "tx_date": "2022-09-20",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Block, Inc. Class A Common Stock,",
+   "asset_type": "ST",
+   "description": "Call options; Strike price $63; Expires 10/07/22",
+   "idx": 3,
+   "notified": "2022-10-04",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "SQ",
+   "tx_date": "2022-09-28",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Block, Inc. Class A Common Stock,",
+   "asset_type": "OP",
+   "description": "Call options; Strike price $75; Expires 09/16/22",
+   "idx": 4,
+   "notified": "2022-10-04",
+   "option": {
+    "exp": "2022-09-16",
+    "kind": "call",
+    "strike": 75.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "SQ",
+   "tx_date": "2022-09-08",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "DoorDash, Inc. Class A",
+   "asset_type": "OP",
+   "description": "Call options; Strike price $57; Expires 10/07/22",
+   "idx": 5,
+   "notified": "2022-10-04",
+   "option": {
+    "exp": "2022-10-07",
+    "kind": "call",
+    "strike": 57.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "DASH",
+   "tx_date": "2022-09-28",
+   "type": "SF"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Generac Holdlings Inc.",
+   "asset_type": "ST",
+   "idx": 6,
+   "notified": "2022-10-04",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "GNRC",
+   "tx_date": "2022-09-28",
+   "type": "SP"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Generac Holdlings Inc.",
+   "asset_type": "OP",
+   "description": "Call options; Strike price $200; Expires 11/18/22",
+   "idx": 7,
+   "notified": "2022-10-04",
+   "option": {
+    "exp": "2022-11-18",
+    "kind": "call",
+    "strike": 200.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "GNRC",
+   "tx_date": "2022-09-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PayPal Holdings, Inc.",
+   "asset_type": "OP",
+   "description": "Call options; Strike price $101; Expires 09/23/22",
+   "idx": 8,
+   "notified": "2022-10-04",
+   "option": {
+    "exp": "2022-09-23",
+    "kind": "call",
+    "strike": 101.0
+   },
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Brokerage Account",
+   "ticker": "PYPL",
+   "tx_date": "2022-09-15",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2022/20021812.pdf",
+ "year": 2022
+}

@@ -1,0 +1,45 @@
+{
+ "doc_id": "20017188",
+ "filed": "2020-08-13",
+ "filer": {
+  "status": "Member"
+ },
+ "first": "Earl Leroy",
+ "last": "Carter",
+ "parser": 3,
+ "state_dst": "GA01",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BULLOCH CNTY GA DEV STDNT HSDG REV RFDG GA STHRN UNIV",
+   "asset_type": "GS",
+   "idx": 1,
+   "notified": "2020-08-13",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Stifel",
+   "ticker": null,
+   "tx_date": "2020-07-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "FULTON CNTY GA WTR & SWR REV",
+   "asset_type": "GS",
+   "idx": 2,
+   "notified": "2020-08-13",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Stifel",
+   "ticker": null,
+   "tx_date": "2020-06-25",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2020/20017188.pdf",
+ "year": 2020
+}

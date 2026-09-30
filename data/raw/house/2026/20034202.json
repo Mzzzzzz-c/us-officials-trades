@@ -1,0 +1,49 @@
+{
+ "doc_id": "20034202",
+ "filed": "2026-03-18",
+ "filer": {
+  "name": "Hon. Rob Bresnahan",
+  "state_dst": "PA08",
+  "status": "Member"
+ },
+ "first": "Rob",
+ "last": "Bresnahan",
+ "parser": 3,
+ "state_dst": "PA08",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Parkland, PA School District Municipal Bond",
+   "asset_type": "GS",
+   "comment": "All investment decisions related to my personal financial portfolio are delegated to professional financial advisors. I have no role in, nor am informed of, specific investment decisions prior to their execution. Accordingly, this transaction was planned and executed by a financial advisor.",
+   "idx": 1,
+   "notified": "2026-03-09",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "JP Morgan Brokerage Account #4",
+   "ticker": null,
+   "tx_date": "2026-02-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Pennsylvania State Turnpike Commission Bond",
+   "asset_type": "GS",
+   "comment": "All investment decisions related to my personal financial portfolio are delegated to professional financial advisors. I have no role in, nor am informed of, specific investment decisions prior to their execution. Accordingly, this transaction was planned and executed by a financial advisor.",
+   "idx": 2,
+   "notified": "2026-03-09",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "JP Morgan Brokerage Account #4",
+   "ticker": null,
+   "tx_date": "2026-03-06",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034202.pdf",
+ "year": 2026
+}

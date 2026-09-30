@@ -1,0 +1,28 @@
+{
+ "amended": false,
+ "filed": "2021-05-20",
+ "first": "Mike",
+ "full": "Rounds, Mike (Senator)",
+ "kind": "ptr",
+ "last": "Rounds",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 05/20/2021",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Bird Dog Hospitality Fund 1, LLC Company: Bird Dog Equity Partners (Sioux Falls, SD) Description: Hospitality",
+   "asset_type": "OT",
+   "asset_type_text": "Non-Public Stock",
+   "idx": 1,
+   "owner": "JT",
+   "ticker": null,
+   "tx_date": "2021-05-01",
+   "type": "P"
+  }
+ ],
+ "uid": "31ba15f9-3190-4872-8094-7044810a33c8",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/31ba15f9-3190-4872-8094-7044810a33c8/"
+}

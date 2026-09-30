@@ -1,0 +1,35 @@
+{
+ "doc_id": "20021643",
+ "filed": "2022-09-04",
+ "filer": {
+  "name": "Hon. Abigail Spanberger",
+  "state_dst": "VA07",
+  "status": "Member"
+ },
+ "first": "Abigail",
+ "last": "Spanberger",
+ "parser": 3,
+ "state_dst": "VA07",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "L3Harris Technologies, Inc.",
+   "asset_type": "SA",
+   "description": "Spouse was granted a Restricted Unit Award of L3Harris Technologies, Inc common stock as part of his compensation. These restricted units will vest in September 2025",
+   "idx": 1,
+   "location": "US",
+   "notified": "2022-09-03",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Shares of Restricted Stock",
+   "ticker": "LHX",
+   "tx_date": "2022-09-01",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2022/20021643.pdf",
+ "year": 2022
+}

@@ -1,0 +1,64 @@
+{
+ "amended": false,
+ "filed": "2023-11-28",
+ "first": "Markwayne",
+ "full": "Mullin, Markwayne (Senator)",
+ "kind": "ptr",
+ "last": "Mullin",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 11/28/2023",
+ "transactions": [
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CLEAR CREEK TEX INDPT SCH DIST UNLTD TAX REF BDS 2023 Rate/Coupon: 5.0% Matures: 02/15/2038",
+   "asset_type": "GS",
+   "asset_type_text": "Municipal Security",
+   "idx": 1,
+   "owner": "JT",
+   "ticker": null,
+   "tx_date": "2023-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "NEW YORK N Y CITY MUN WTR FIN AUTH WTR & SWR SYS REV REV BDS 2015 FF Rate/Coupon: 5.0% Matures: 06/15/2039",
+   "asset_type": "GS",
+   "asset_type_text": "Municipal Security",
+   "idx": 2,
+   "owner": "JT",
+   "ticker": null,
+   "tx_date": "2023-10-27",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Oklahoma Transn Auth OK F/K/A Rate/Coupon: 5.0% Matures: 01/01/2025",
+   "asset_type": "GS",
+   "asset_type_text": "Municipal Security",
+   "idx": 3,
+   "owner": "JT",
+   "ticker": null,
+   "tx_date": "2023-10-26",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Oklahoma Dev Fin Auth Lease RE Rate/Coupon: 5.0% Matures: 12/01/2029",
+   "asset_type": "GS",
+   "asset_type_text": "Municipal Security",
+   "idx": 4,
+   "owner": "JT",
+   "ticker": null,
+   "tx_date": "2023-11-16",
+   "type": "P"
+  }
+ ],
+ "uid": "eb9b2a1f-7def-4b94-b4f7-2c8794914358",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/eb9b2a1f-7def-4b94-b4f7-2c8794914358/"
+}

@@ -1,0 +1,74 @@
+{
+ "doc_id": "20023752",
+ "filed": "2023-09-28",
+ "filer": {
+  "name": "Hon. William R. Keating",
+  "state_dst": "MA09",
+  "status": "Member"
+ },
+ "first": "William R.",
+ "last": "Keating",
+ "parser": 3,
+ "state_dst": "MA09",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "097023DC6",
+   "asset_type": "CS",
+   "idx": 1,
+   "notified": "2023-09-25",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Bill's IRA",
+   "ticker": null,
+   "tx_date": "2023-09-15",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "D: BOEING CO NOTE CALL MAKE",
+   "asset_type": null,
+   "idx": 2,
+   "notified": null,
+   "owner": "SELF",
+   "ticker": null,
+   "tx_date": "2031-02-01",
+   "type": "WHOLE 3.62500%"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "828807DF1",
+   "asset_type": "CS",
+   "description": "SIMON PPTY GROUP LP NOTE CALL MAKE WHOLE 2.45000% 09/13/2029",
+   "idx": 3,
+   "notified": "2023-09-25",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Bill's IRA",
+   "ticker": null,
+   "tx_date": "2023-09-13",
+   "type": "SF"
+  },
+  {
+   "amount_max": 848,
+   "amount_min": 848,
+   "asset": "Caterpillar, Inc.",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2023-09-25",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Bill's IRA",
+   "ticker": "CAT",
+   "tx_date": "2023-09-21",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2023/20023752.pdf",
+ "year": 2023
+}

@@ -1,0 +1,32 @@
+{
+ "doc_id": "20021290",
+ "filed": "2022-07-23",
+ "filer": {
+  "name": "Hon. Anthony E. Gonzalez",
+  "state_dst": "OH16",
+  "status": "Member"
+ },
+ "first": "Anthony E.",
+ "last": "Gonzalez",
+ "parser": 3,
+ "state_dst": "OH16",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Amazon.com, Inc.",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2022-06-28",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "AMZN",
+   "tx_date": "2022-06-28",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2022/20021290.pdf",
+ "year": 2022
+}

@@ -1,0 +1,35 @@
+{
+ "doc_id": "20030591",
+ "filed": "2025-07-01",
+ "filer": {
+  "name": "Hon. Bradley S. Schneider",
+  "state_dst": "IL10",
+  "status": "Member"
+ },
+ "first": "Bradley S.",
+ "last": "Schneider",
+ "parser": 3,
+ "state_dst": "IL10",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Questek International, LLC",
+   "asset_type": "PS",
+   "description": "Redeemed stock with the company",
+   "idx": 1,
+   "location": "US",
+   "notified": "2024-06-09",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "25 - Other Individual Investments",
+   "ticker": null,
+   "tx_date": "2024-06-09",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030591.pdf",
+ "year": 2025
+}

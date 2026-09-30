@@ -1,0 +1,69 @@
+{
+ "doc_id": "20017399",
+ "filed": "2020-09-20",
+ "filer": {
+  "status": "Member"
+ },
+ "first": "Austin",
+ "last": "Scott",
+ "parser": 3,
+ "state_dst": "GA08",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Bloom Energy Corporation Class A",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2020-08-10",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "BE",
+   "tx_date": "2020-08-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "FUELCELL Energy, Inc.",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2020-07-21",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "FCEL",
+   "tx_date": "2020-07-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "FUELCELL Energy, Inc.",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2020-07-23",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "FCEL",
+   "tx_date": "2020-07-23",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "General Electric Company",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2020-08-24",
+   "owner": "SELF",
+   "status": "New",
+   "ticker": "GE",
+   "tx_date": "2020-08-24",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2020/20017399.pdf",
+ "year": 2020
+}

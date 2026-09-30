@@ -1,0 +1,100 @@
+{
+ "amended": false,
+ "filed": "2025-09-01",
+ "first": "David H",
+ "full": "McCormick, David H. (Senator)",
+ "kind": "ptr",
+ "last": "McCormick",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 09/01/2025",
+ "transactions": [
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "PITTSBURGH PA WTR & SWR AUTH WTR & SWR Rate/Coupon: 5% Matures: 09/01/2044",
+   "asset_type": "GS",
+   "asset_type_text": "Municipal Security",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": null,
+   "tx_date": "2025-08-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "TREDYFFRIN-EASTTOWN PA SCH DIST GO Rate/Coupon: 5% Matures: 02/15/2043",
+   "asset_type": "GS",
+   "asset_type_text": "Municipal Security",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": null,
+   "tx_date": "2025-08-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "UNIV PITTSBURGH OF THE COMWLTH REV Rate/Coupon: 5% Matures: 02/15/2029",
+   "asset_type": "GS",
+   "asset_type_text": "Municipal Security",
+   "idx": 3,
+   "owner": "SP",
+   "ticker": null,
+   "tx_date": "2025-08-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MONROE CNTY PA HOSP AUTH REV Rate/Coupon: 5% Matures: 07/01/2036",
+   "asset_type": "GS",
+   "asset_type_text": "Municipal Security",
+   "idx": 4,
+   "owner": "SP",
+   "ticker": null,
+   "tx_date": "2025-08-19",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "PENNSYLVANIA ST TPK COMMN TPK REV Rate/Coupon: 5% Matures: 12/01/2025",
+   "asset_type": "GS",
+   "asset_type_text": "Municipal Security",
+   "idx": 5,
+   "owner": "SP",
+   "ticker": null,
+   "tx_date": "2025-08-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "HAVERFORD TWP PA SCH DIST GO Rate/Coupon: 5% Matures: 03/01/2026",
+   "asset_type": "GS",
+   "asset_type_text": "Municipal Security",
+   "idx": 6,
+   "owner": "SP",
+   "ticker": null,
+   "tx_date": "2025-08-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "EAST STROUDSBURG PA AREA GO Rate/Coupon: 5% Matures: 09/01/2025",
+   "asset_type": "GS",
+   "asset_type_text": "Municipal Security",
+   "idx": 7,
+   "owner": "SP",
+   "ticker": null,
+   "tx_date": "2025-08-04",
+   "type": "P"
+  }
+ ],
+ "uid": "fc29dd5c-8fd0-4525-9aae-8f1e41c9337b",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/fc29dd5c-8fd0-4525-9aae-8f1e41c9337b/"
+}

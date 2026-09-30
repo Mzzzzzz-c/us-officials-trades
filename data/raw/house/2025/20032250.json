@@ -1,0 +1,33 @@
+{
+ "doc_id": "20032250",
+ "filed": "2025-10-08",
+ "filer": {
+  "name": "Hon. Laura Friedman",
+  "state_dst": "CA30",
+  "status": "Member"
+ },
+ "first": "Laura",
+ "last": "Friedman",
+ "parser": 3,
+ "state_dst": "CA30",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Paramount Skydance Corporation - Class B Common Stock",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2025-10-07",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "Fidelity Brokerage Services, LLC",
+   "ticker": "PSKY",
+   "tx_date": "2025-09-10",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032250.pdf",
+ "year": 2025
+}

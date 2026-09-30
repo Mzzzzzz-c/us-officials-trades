@@ -1,0 +1,49 @@
+{
+ "doc_id": "20023100",
+ "filed": "2023-06-14",
+ "filer": {
+  "name": "Hon. Suzan K. DelBene",
+  "state_dst": "WA01",
+  "status": "Member"
+ },
+ "first": "Suzan K.",
+ "last": "DelBene",
+ "parser": 3,
+ "state_dst": "WA01",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "MSFT Common Stock",
+   "asset_type": "PS",
+   "description": "Vested shares sold to separate trust not for the benefit of filer or spouse pursuant to forward contract dated 2/9/2022",
+   "idx": 1,
+   "location": "US",
+   "notified": "2022-08-30",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2022-08-30",
+   "type": "SF"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "MSFT Common Stock",
+   "asset_type": "PS",
+   "description": "Vested shares sold to separate trust not for the benefit of filer or spouse pursuant to forward contract dated 2/9/2022",
+   "idx": 2,
+   "location": "US",
+   "notified": "2023-03-01",
+   "owner": "SP",
+   "status": "New",
+   "ticker": null,
+   "tx_date": "2023-03-01",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2023/20023100.pdf",
+ "year": 2023
+}

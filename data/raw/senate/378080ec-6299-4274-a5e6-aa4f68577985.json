@@ -1,0 +1,29 @@
+{
+ "amended": false,
+ "filed": "2021-04-13",
+ "first": "Daniel S",
+ "full": "Sullivan, Dan (Senator)",
+ "kind": "ptr",
+ "last": "Sullivan",
+ "parser": 2,
+ "role": "Senator",
+ "status": "ok",
+ "title": "Periodic Transaction Report for 04/13/2021",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "RPM International Inc.",
+   "asset_type": "ST",
+   "asset_type_text": "Stock",
+   "comment": "The filer's portfolio is managed by a third party investment professional. The filer was advised of these transactions on April 13, 2021. This activity is part of an ongoing long-term portfolio diversification strategy that regularly includes similar transactions",
+   "idx": 1,
+   "owner": "JT",
+   "ticker": "RPM",
+   "tx_date": "2021-03-05",
+   "type": "SP"
+  }
+ ],
+ "uid": "378080ec-6299-4274-a5e6-aa4f68577985",
+ "url": "https://efdsearch.senate.gov/search/view/ptr/378080ec-6299-4274-a5e6-aa4f68577985/"
+}
