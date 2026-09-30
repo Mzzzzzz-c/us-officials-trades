@@ -1,0 +1,5 @@
+pipeline/
+data/raw/
+data/cache/
+data/ref/
+docs/
