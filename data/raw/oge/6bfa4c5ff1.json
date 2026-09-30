@@ -1,0 +1,170 @@
+{
+ "added": "2025-12-13",
+ "agency": "Social Security Administration",
+ "amended": false,
+ "doc": "6bfa4c5ff1",
+ "kind": "278 Transaction",
+ "name": "Bisignano, Frank J",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Commissioner",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Fiserv, Inc. (FISV)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "FISV",
+   "tx_date": "2025-08-01",
+   "type": "S"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "Allspring Short-Term Hi Inc A (SSTHX)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "SSTHX",
+   "tx_date": "2025-08-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 25000000,
+   "amount_min": 5000001,
+   "asset": "Invesco New Jersey Municipal A (ONJAX)",
+   "asset_type": "EF",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "ONJAX",
+   "tx_date": "2025-08-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "PIMCO Income Fund Class A Shares (PONAX)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "PONAX",
+   "tx_date": "2025-08-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "Nuveen NJ Municipal Bond A (NNJAX)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "NNJAX",
+   "tx_date": "2025-08-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 25000000,
+   "amount_min": 5000001,
+   "asset": "Franklin NJ Tax Free Income A (FNJQX)",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "FNJQX",
+   "tx_date": "2025-08-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "BrandywineGLOBAL - HIGH YIELD FUND Class A (BGHAX) $5,000,000",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "BGHAX",
+   "tx_date": "2025-08-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "iShares Fallen Angels USD Bond ETF (FALN)",
+   "asset_type": "EF",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "FALN",
+   "tx_date": "2025-08-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 25000000,
+   "amount_min": 5000001,
+   "asset": "anguard Tax-Exempt Bond Index Fund ETF Shares (VTEB) $25,000,000",
+   "asset_type": "EF",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": "VTEB",
+   "tx_date": "2025-08-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "iShares 0-5 Year High Yield Corporate Bond ETF (SHYG) $1,000,000",
+   "asset_type": "EF",
+   "idx": 9,
+   "owner": "SELF",
+   "ticker": "SHYG",
+   "tx_date": "2025-08-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "Janus Henderson AAA CLO ETF (JAAA)",
+   "asset_type": "EF",
+   "idx": 10,
+   "owner": "SELF",
+   "ticker": "JAAA",
+   "tx_date": "2025-08-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "Nuveen Short Duration Hi Yld Muni Bd A (NVHAX)",
+   "asset_type": "ST",
+   "idx": 11,
+   "owner": "SELF",
+   "ticker": "NVHAX",
+   "tx_date": "2025-08-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "PGIM Ultra Short Bond ETF (PULS)",
+   "asset_type": "EF",
+   "idx": 12,
+   "owner": "SELF",
+   "ticker": "PULS",
+   "tx_date": "2025-08-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "The Travelers Companies, Inc. (TRV)",
+   "asset_type": "ST",
+   "idx": 13,
+   "owner": "SELF",
+   "ticker": "TRV",
+   "tx_date": "2025-08-07",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/AA16C26F767256C285258D5F00343F7B/$FILE/Frank-J-Bisignano-09.09.2025-278T.pdf"
+}

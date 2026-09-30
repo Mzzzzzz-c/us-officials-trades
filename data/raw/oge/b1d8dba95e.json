@@ -1,0 +1,36 @@
+{
+ "added": "2021-01-13",
+ "agency": "Department of Energy",
+ "amended": false,
+ "doc": "b1d8dba95e",
+ "kind": "278 Transaction",
+ "name": "Menezes, Mark W",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Deputy Secretary",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Beyond Meat, Inc. (BYND)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "BYND",
+   "tx_date": "2020-11-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Shopify Inc",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2020-11-16",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/4BEDAF6C5E0A4A698525865C00317C87/$FILE/Mark-W-Menezes-12.08.2020-278T.pdf"
+}

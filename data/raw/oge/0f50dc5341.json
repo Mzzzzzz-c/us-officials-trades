@@ -1,0 +1,58 @@
+{
+ "added": "2023-09-26",
+ "agency": "Department of Energy",
+ "amended": false,
+ "doc": "0f50dc5341",
+ "kind": "278 Transaction",
+ "name": "Granholm, Jennifer",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "JPMorgan US Value Factor ETF (JVAL)",
+   "asset_type": "EF",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "JVAL",
+   "tx_date": "2023-08-08",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "iShares 0-3 Month Treasury Bond ETF iShares 0-3 Month Treasury Bond ETF (SGOV) $100,000",
+   "asset_type": "GS",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2023-08-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "iShares 0-3 Month Treasury Bond ETF iShares 0-3 Month Treasury Bond ETF (SGOV)",
+   "asset_type": "GS",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2023-08-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Janus Henderson Research Fund (JNRFX)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "JNRFX",
+   "tx_date": "2023-08-30",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/26CF97C6373446E885258A36002EF20E/$FILE/Jennifer-Granholm-08.31.2023-278T.pdf"
+}

@@ -1,0 +1,126 @@
+{
+ "added": "2022-03-12",
+ "agency": "Department of Homeland Security",
+ "amended": false,
+ "doc": "626e76d272",
+ "kind": "278 Transaction",
+ "name": "Criswell, Deanne",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Emergency Management Agency",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Robolox Corp. (RBLX)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "RBLX",
+   "tx_date": "2022-02-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Paycom Software, Inc. (PAYC)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "PAYC",
+   "tx_date": "2022-02-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Facebook, Inc. (FB)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "FB",
+   "tx_date": "2022-02-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Crowdstrike Holding's Inc. (CRWD)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "CRWD",
+   "tx_date": "2022-02-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "salesforce.com, inc. (CRM)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "CRM",
+   "tx_date": "2022-02-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Autodesk, Inc. (ADSK)",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "ADSK",
+   "tx_date": "2022-02-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Shopify Inc. (SHOP)",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "SHOP",
+   "tx_date": "2022-02-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Sea Limited (SE)",
+   "asset_type": "ST",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "SE",
+   "tx_date": "2022-02-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PayPal Holdings, Inc. (PYPL)",
+   "asset_type": "ST",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": "PYPL",
+   "tx_date": "2022-02-02",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Starbucks Corp. (SBUX)",
+   "asset_type": "ST",
+   "idx": 9,
+   "owner": "SELF",
+   "ticker": "SBUX",
+   "tx_date": "2022-02-02",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/9B1EEC36309D0956852588030033C13A/$FILE/Deanne-Criswell-02.04.2022-278T.pdf"
+}

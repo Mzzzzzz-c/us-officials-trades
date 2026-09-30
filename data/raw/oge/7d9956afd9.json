@@ -1,0 +1,242 @@
+{
+ "added": "2025-08-14",
+ "agency": "Department of The Treasury",
+ "amended": false,
+ "doc": "7d9956afd9",
+ "kind": "278 Transaction",
+ "name": "Bessent, Scott",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "iShares MSCI Germany ETF (EWG)",
+   "asset_type": "EF",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "EWG",
+   "tx_date": "2025-03-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "iShares MSCI Thailand ETF (THD)",
+   "asset_type": "EF",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "THD",
+   "tx_date": "2025-03-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "SPDR Gold Shares (GLD)",
+   "asset_type": "EF",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "GLD",
+   "tx_date": "2025-03-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Verizon Communications, Inc. (VZ)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "VZ",
+   "tx_date": "2025-03-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "SPDR Gold Shares (GLD)",
+   "asset_type": "EF",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "GLD",
+   "tx_date": "2025-03-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Old Farm Partners",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2025-01-28",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Key Square Group LP",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2025-02-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Key Square Group LP",
+   "idx": 7,
+   "owner": "SELF",
+   "tx_date": "2025-02-19",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Key Square Partners II LP",
+   "idx": 8,
+   "owner": "SELF",
+   "tx_date": "2025-02-19",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Key Square Partners II LP",
+   "idx": 9,
+   "owner": "SELF",
+   "tx_date": "2025-02-19",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Key Square Group LP",
+   "idx": 10,
+   "owner": "SELF",
+   "tx_date": "2025-02-20",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Key Square Master Fund SP",
+   "idx": 11,
+   "owner": "SELF",
+   "tx_date": "2025-02-21",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Skye Global Fund",
+   "idx": 12,
+   "owner": "SELF",
+   "tx_date": "2025-03-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Roxo Energy Funding IV LLC",
+   "idx": 13,
+   "owner": "SELF",
+   "tx_date": "2025-03-25",
+   "type": "S"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "Roxo Energy Funding IV LLC",
+   "idx": 14,
+   "owner": "SELF",
+   "tx_date": "2025-03-25",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Roxo Energy Funding IV LLC",
+   "idx": 15,
+   "owner": "SELF",
+   "tx_date": "2025-03-25",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Key Square Partners II LLP",
+   "idx": 16,
+   "owner": "SELF",
+   "tx_date": "2025-03-25",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Key Square Partners II LLP",
+   "idx": 17,
+   "owner": "SELF",
+   "tx_date": "2025-03-25",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Totem Macro Global Alpha Select Onshore Fund, LLC",
+   "idx": 18,
+   "owner": "SELF",
+   "tx_date": "2025-03-27",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Castle Hook LP",
+   "idx": 19,
+   "owner": "SELF",
+   "tx_date": "2025-03-27",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Castle Hook LP",
+   "idx": 20,
+   "owner": "SELF",
+   "tx_date": "2025-03-27",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Castle Hook LP",
+   "idx": 21,
+   "owner": "SELF",
+   "tx_date": "2025-03-27",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Old Farm Partners Master",
+   "idx": 22,
+   "owner": "SELF",
+   "tx_date": "2025-04-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Totem Macro Global Alpha Select Onshore Fund, LLC",
+   "idx": 23,
+   "owner": "SELF",
+   "tx_date": "2025-06-30",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/BA716BA5B423A76685258CE6002C8303/$FILE/Scott-Bessent-07.14.2025-278T.pdf"
+}

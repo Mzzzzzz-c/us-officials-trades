@@ -8,7 +8,7 @@ import re
 import shutil
 from collections import Counter, defaultdict
 
-from . import companies, estimate, house, performance, positions, prices, sec13f, senate
+from . import companies, estimate, executive, house, oge, performance, positions, prices, sec13f, senate
 from .members import Directory
 from .util import CONFIG, SITE, days_between, load_yaml, norm_name, read_json, settings, today_iso, write_json
 
@@ -61,6 +61,16 @@ def normalise(directory: Directory) -> tuple[list[dict], list[dict], dict, list[
             if f.get("amended"):
                 tr["amd"] = True
             trades.append(tr)
+
+    # executive branch (OGE 278-T)
+    try:
+        names = oge.resolve_names(executive.equity_names())
+    except Exception as e:  # noqa: BLE001
+        log.warning("OGE name matching skipped: %s", e)
+        names = {}
+    et, es = executive.normalise(_trade, names)
+    trades += et
+    scanned += es
     return trades, scanned, unknown, review
 
 
@@ -306,8 +316,10 @@ def export(trades, scanned, unknown, review, series, pos, directory: Directory, 
     names_zh = load_yaml(CONFIG / "names_zh.yaml") or {}
 
     # --- members
-    mids = {t["m"] for t in trades} | {s["m"] for s in scanned}
+    mids = {t["m"] for t in trades} | {s["m"] for s in scanned} | executive.always_ids()
     prof = directory.export(mids)
+    exec_ids = {m for m in mids if m.startswith(executive.ID_PREFIX)}
+    prof.update(executive.profiles(exec_ids, {m for m in mids if not m.startswith(executive.ID_PREFIX)}))
     prof.update({k: {**v, "current": False, "committees": []} for k, v in unknown.items()})
     by_member = defaultdict(list)
     for t in trades:
@@ -328,11 +340,12 @@ def export(trades, scanned, unknown, review, series, pos, directory: Directory, 
             p["zh"] = names_zh[mid]
         ts = by_member.get(mid, [])
         delays = [t["delay"] for t in ts if t.get("delay") is not None and t["delay"] >= 0]
-        late = sum(1 for d in delays if d > 45)
+        # the 45-day STOCK Act rule applies to Congress; OGE's posting date is not the filing date
+        late = sum(1 for d in delays if d > 45) if p.get("chamber") != "E" else 0
         vmin = sum(t["amin"] or 0 for t in ts)
         vmax = sum(t["amax"] or t["amin"] or 0 for t in ts)
         row = {
-            **{k: p.get(k) for k in ("id", "name", "zh", "party", "chamber", "state", "district", "current")},
+            **{k: p.get(k) for k in ("id", "name", "zh", "party", "chamber", "state", "district", "current", "title", "agency", "title_zh", "agency_zh")},
             "n": len(ts),
             "nb": sum(1 for t in ts if t["type"] == "P"),
             "ns": sum(1 for t in ts if t["type"] in ("SF", "SP", "S")),
@@ -464,7 +477,7 @@ def export(trades, scanned, unknown, review, series, pos, directory: Directory, 
             "members": len({t["m"] for t in last30}),
             "buys": sum(1 for t in last30 if t["type"] == "P"),
             "sells": sum(1 for t in last30 if t["type"] in ("SF", "SP", "S")),
-            "late": sum(1 for t in last30 if (t.get("delay") or 0) > 45),
+            "late": sum(1 for t in last30 if (t.get("delay") or 0) > 45 and t["ch"] != "E"),
         },
         "top_bought": [{"sym": k, "nm": len(v)} for k, v in sorted(buyers.items(), key=lambda kv: (-len(kv[1]), kv[0]))[:12]],
         "top_sold": [{"sym": k, "nm": len(v)} for k, v in sorted(sellers.items(), key=lambda kv: (-len(kv[1]), kv[0]))[:12]],
@@ -540,6 +553,10 @@ def run(fetch: bool = True, limit: int | None = None, skip_prices: bool = False,
             log.warning("members refresh failed (using cached copy): %s", e)
         report["house"] = house.update(years, limit=limit)
         report["senate"] = senate.update(cfg["start_year"], limit=limit)
+        try:
+            report["oge"] = oge.update(limit=limit)
+        except Exception as e:  # noqa: BLE001
+            log.warning("OGE update failed (using cached reports): %s", e)
         if not skip_sec:
             report["sec13f"] = sec13f.update(cfg["investor_quarters"])
     directory = Directory()

@@ -34,7 +34,10 @@ jobs:
           cache-dependency-path: pipeline/requirements.txt
 
       - name: Install
-        run: pip install -r pipeline/requirements.txt
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr   # OCR for scanned executive-branch reports
+          pip install -r pipeline/requirements.txt
 
       # Prices and downloaded PDFs are large and rebuildable, so they live in the Actions cache, not in git.
       - name: Restore price / PDF cache

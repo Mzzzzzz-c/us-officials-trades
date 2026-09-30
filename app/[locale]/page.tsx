@@ -21,7 +21,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   const pxSub: Record<string, number> = { SPY: px.SPY };
   for (const tr of recent) {
     const m = mm.get(tr.m);
-    if (m && !members[tr.m]) members[tr.m] = { name: m.name, zh: m.zh, party: m.party, chamber: m.chamber, state: m.state };
+    if (m && !members[tr.m]) members[tr.m] = { name: m.name, zh: m.zh, party: m.party, chamber: m.chamber, state: m.state, agency: m.agency, agency_zh: m.agency_zh };
     if (tr.sym && px[tr.sym] != null) pxSub[tr.sym] = px[tr.sym];
   }
   const unparsed = getUnparsed().length;

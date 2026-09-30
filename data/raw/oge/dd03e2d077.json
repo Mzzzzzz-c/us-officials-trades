@@ -1,0 +1,27 @@
+{
+ "added": "2021-09-08",
+ "agency": "Department of Homeland Security",
+ "amended": false,
+ "doc": "dd03e2d077",
+ "kind": "278 Transaction",
+ "name": "Criswell, Deanne",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Emergency Management Agency",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Alibaba Group Holding Limited (BABA)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "BABA",
+   "tx_date": "2021-08-23",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/B60B3A50D1966CA58525874A002E54D5/$FILE/Deanne-Criswell-08.23.2021-278T.pdf"
+}

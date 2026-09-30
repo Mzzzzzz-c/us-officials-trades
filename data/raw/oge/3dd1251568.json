@@ -1,0 +1,28 @@
+{
+ "added": "2026-04-01",
+ "agency": "Department of Transportation",
+ "amended": false,
+ "doc": "3dd1251568",
+ "kind": "278 Transaction",
+ "name": "McMaster, Sean",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Highway Administration",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Grab Holdings Limited Class A Ordinary Shares (GRAB)",
+   "asset_type": "ST",
+   "idx": 0,
+   "late_notice": true,
+   "owner": "SELF",
+   "ticker": "GRAB",
+   "tx_date": "2026-01-21",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/6669428412F0329885258DCC002DC6FF/$FILE/Sean-McMaster-02.27.2026-278T.pdf"
+}

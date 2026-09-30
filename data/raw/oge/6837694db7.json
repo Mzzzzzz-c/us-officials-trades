@@ -1,0 +1,155 @@
+{
+ "added": "2026-02-27",
+ "agency": "Department of The Navy",
+ "amended": false,
+ "doc": "6837694db7",
+ "kind": "278 Transaction",
+ "name": "Phelan, John",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MSD Special Investments Fund II",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2025-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Kingfish Investments X, LLC",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2025-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "TMG Haynesville Investors, LLC",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2025-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "TMG VCLR Investor, LLC",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2025-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Dawson Portfolio Finance 5 LP",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2025-06-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "MSD Investment Corp. (BDC)",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "BDC",
+   "tx_date": "2025-06-27",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Dawson Portfolio Finance 5 LP",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2025-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Cresta Royalty Partners LP",
+   "idx": 7,
+   "owner": "SELF",
+   "tx_date": "2025-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "TMG Monument Investors LLC",
+   "idx": 8,
+   "owner": "SELF",
+   "tx_date": "2025-06-20",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "26North BDC, Inc",
+   "idx": 9,
+   "owner": "SELF",
+   "tx_date": "2025-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SRP Continuation Partners, LP",
+   "idx": 10,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "RCG Ventures Fund VIII",
+   "idx": 11,
+   "owner": "SELF",
+   "tx_date": "2025-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "RCG Momentum, LP",
+   "idx": 12,
+   "owner": "SELF",
+   "tx_date": "2025-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MSD EIV Private, LLC (JRK Investments III)",
+   "idx": 13,
+   "owner": "SELF",
+   "tx_date": "2025-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "RCG Momentum, LP",
+   "idx": 14,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-06-02",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/DFA1DC5E6B4CE0BF85258DAB00346FD8/$FILE/John-Phelan-07.28.2025-278T(2).pdf"
+}

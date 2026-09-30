@@ -1,0 +1,49 @@
+{
+ "added": "2024-05-01",
+ "agency": "Department of Homeland Security",
+ "amended": false,
+ "doc": "7fb57c314d",
+ "kind": "278 Transaction",
+ "name": "Criswell, Deanne",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Emergency Management Agency",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Advanced Micro Devices, Inc. (AMD) See Endnote",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "AMD",
+   "tx_date": "2024-03-22",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "NVIDIA Corp. (NVDA) See Endnote",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "NVDA",
+   "tx_date": "2024-03-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Schwab Value Advantage Money Fund Investor Class Shares (SWVXX) $100,000",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "SWVXX",
+   "tx_date": "2024-03-21",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/25E7F390E4D9D1F785258B10002EFB8D/$FILE/Deanne-Criswell-04.02.2024-278T.pdf"
+}

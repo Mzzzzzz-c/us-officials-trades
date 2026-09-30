@@ -1,0 +1,25 @@
+{
+ "added": "2025-08-02",
+ "agency": "Department of Homeland Security",
+ "amended": false,
+ "doc": "b893f7f7e2",
+ "kind": "278 Transaction",
+ "name": "Noem, Kristi",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Granite Falls Energy LLC",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2025-07-01",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/2B62CBA20DBEA2EF85258CDA002C951F/$FILE/Kristi-Noem-07.23.2025-278T.pdf"
+}

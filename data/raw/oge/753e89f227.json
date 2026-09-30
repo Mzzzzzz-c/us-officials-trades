@@ -1,0 +1,105 @@
+{
+ "added": "2022-11-15",
+ "agency": "Office of National Drug Control Policy",
+ "amended": false,
+ "doc": "753e89f227",
+ "kind": "278 Transaction",
+ "name": "Gupta, Rahul",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Kimberly-Clark Corp. (KMB)",
+   "asset_type": "ST",
+   "idx": 0,
+   "late_notice": true,
+   "owner": "SELF",
+   "ticker": "KMB",
+   "tx_date": "2022-09-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Amazon.com, Inc. (AMZN)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "AMZN",
+   "tx_date": "2022-09-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Amazon.com, Inc. (AMZN)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "AMZN",
+   "tx_date": "2022-09-27",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Kimberly-Clark Corp. (KMB)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "KMB",
+   "tx_date": "2022-09-27",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Kimberly-Clark Corp. (KMB)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "KMB",
+   "tx_date": "2022-09-29",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Kimberly-Clark Corp. (KMB)",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "KMB",
+   "tx_date": "2022-09-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NIKE, Inc. (NKE)",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "NKE",
+   "tx_date": "2022-09-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Kimberly-Clark Corp. (KMB)",
+   "asset_type": "ST",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "KMB",
+   "tx_date": "2022-10-07",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/9BBFA8D4BA104104852588FB00343B05/$FILE/Rahul-Gupta-10.19.2022-278T.pdf"
+}

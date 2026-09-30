@@ -1,0 +1,96 @@
+{
+ "added": "2022-09-23",
+ "agency": "Office of National Drug Control Policy",
+ "amended": false,
+ "doc": "68486e1993",
+ "kind": "278 Transaction",
+ "name": "Gupta, Rahul",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Netflix, Inc. (NFLX)",
+   "asset_type": "ST",
+   "idx": 0,
+   "late_notice": true,
+   "owner": "SELF",
+   "ticker": "NFLX",
+   "tx_date": "2022-07-20",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Netflix, Inc. (NFLX)",
+   "asset_type": "ST",
+   "idx": 1,
+   "late_notice": true,
+   "owner": "SELF",
+   "ticker": "NFLX",
+   "tx_date": "2022-07-27",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Amazon.com, Inc. (AMZN)",
+   "asset_type": "ST",
+   "idx": 2,
+   "late_notice": true,
+   "owner": "SELF",
+   "ticker": "AMZN",
+   "tx_date": "2022-07-29",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Amazon.com, Inc. (AMZN)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "AMZN",
+   "tx_date": "2022-08-01",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Amazon.com, Inc. (AMZN)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "AMZN",
+   "tx_date": "2022-08-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Amazon.com, Inc. (AMZN)",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "AMZN",
+   "tx_date": "2022-08-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "General Electric Co. (GE)",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "GE",
+   "tx_date": "2022-08-16",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/94CA5F98CCA949CE852588C6002ED20D/$FILE/Rahul-Gupta-09.06.2022-278T.pdf"
+}

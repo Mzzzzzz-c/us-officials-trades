@@ -1,0 +1,25 @@
+{
+ "added": "2022-05-10",
+ "agency": "Department of State",
+ "amended": false,
+ "doc": "1b0c03c8f1",
+ "kind": "278 Transaction",
+ "name": "Sherman, Wendy R",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Deputy Secretary",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Orange Mass Genl Oblig",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2022-03-03",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/4A118C46DB99335A8525883E002E4AFF/$FILE/Wendy-R-Sherman-03-31-2022-278T.pdf"
+}

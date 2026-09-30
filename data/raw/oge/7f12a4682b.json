@@ -1,0 +1,38 @@
+{
+ "added": "2026-05-01",
+ "agency": "Office of Personnel Management",
+ "amended": false,
+ "doc": "7f12a4682b",
+ "kind": "278 Transaction",
+ "name": "Kupor, Scott A",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Airbnb Inc. Class A Common Stock (ABNB) See Endnote",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "ABNB",
+   "tx_date": "2026-04-17",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Robinhood Markets Inc. Class A Common Stock See Endnote (HOOD) $250,000",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "HOOD",
+   "tx_date": "2026-04-17",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/574C5AAD33A157FE85258DEA002DB4F0/$FILE/Scott-A-Kupor-04.20.2026-278T.pdf"
+}

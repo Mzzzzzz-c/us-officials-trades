@@ -1,0 +1,25 @@
+{
+ "added": "2023-02-22",
+ "agency": "Department of Veterans Affairs",
+ "amended": false,
+ "doc": "8169a8429b",
+ "kind": "278 Transaction",
+ "name": "Remy, Donald",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Deputy Secretary",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SHOP",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2022-12-29",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/230B6E42A7797D358525895E00345164/$FILE/Donald-Remy-01.12.2023-278T.pdf"
+}

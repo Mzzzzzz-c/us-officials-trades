@@ -1,0 +1,34 @@
+{
+ "added": "2022-02-09",
+ "agency": "Department of Commerce",
+ "amended": false,
+ "doc": "a5b99e1c0b",
+ "kind": "278 Transaction",
+ "name": "Raimondo, Gina M",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "PathAI stock See Endnote",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2021-12-27",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "PathAI stock See Endnote",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2021-12-27",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/79F47D7EEFF81B9E852587E40033CA4C/$FILE/Gina-M-Raimondo-01.26.2022-278T.pdf"
+}

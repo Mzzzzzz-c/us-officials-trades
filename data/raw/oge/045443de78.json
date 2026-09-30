@@ -1,0 +1,5060 @@
+{
+ "added": "2025-08-19",
+ "agency": "White House Office",
+ "amended": false,
+ "doc": "045443de78",
+ "kind": "278 Transaction",
+ "name": "Trump, Donald J",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "paper",
+ "title": "President",
+ "transactions": [
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "U.S. Office of Government Ethics; 5 C.F.R. part 2634 UNITCO STATCS omcc or -COVERN*MENT E THICS Exocutivo Branch Personnel Public Financial Dlsciosuro Roport: ,~'\"\"' c~ftkt, ol lfll~t Fllo(s lnfonnatlon Last Name First Name Ml Trump Donald Flle(s Certlflcatlon -I certlf loto and correct to the best ",
+   "asset_type": "GS",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2025-01-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ALACHUA CNTY FL HLTH FAC REV RFDG SHANDS TEACHING HOSP & CLINICS B1 BIE 5.00 % Duo Doe 1",
+   "asset_type": "GS",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2025-01-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "LAKE CNTY OH HOSP FACS REV RFDG LK HOSP SYS INC BIE PTC 5.00 % Duo Aua 15",
+   "asset_type": "GS",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2025-01-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MASSACHUSETTS ST WTR RES AUTH REV SER C GREEN BO B1E ETM 5.00 % Duo Aua 1",
+   "asset_type": "GS",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2025-01-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MATANUSKASUSITNA BOROAKTRANSN SYS SER C BIE4.00 % Duo Nov 1",
+   "asset_type": "GS",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2025-01-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MICHIGAN PUB PWR AGY REV BELLE RVR PJ 2024 ABIE 5.00 % Duo Jan 1",
+   "asset_type": "GS",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2025-01-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MIDLOTHIAN lX CMNTY DEV CORP SALES TAX REV BAMBIE B/Q 4.00 % Duo Seo 1",
+   "asset_type": "GS",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2025-01-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "RACINE WI RFDG BIE PTC 4.00 % Du.o Dec 1",
+   "asset_type": "GS",
+   "idx": 7,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-01-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "WICKLIFFE OH CITY SCH DIST FACS IMPT 2020 ABIE 5.00 % Duo Ooc 1",
+   "asset_type": "GS",
+   "idx": 8,
+   "owner": "SELF",
+   "tx_date": "2025-01-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ATLANTA GA .D..E V AUTH.REV'.t.A ST UNIV RESH FNOTN'SCI PK PJ B/E PTC 4.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 9,
+   "owner": "SELF",
+   "tx_date": "2025-01-29",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "DANVILLE VA SCH 2022 B1E GUAR CR ENH 4.00 % Duo Sop 1",
+   "asset_type": "GS",
+   "idx": 10,
+   "owner": "SELF",
+   "tx_date": "2025-01-29",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "GARVIN CNTY OK EDL FACS AUTH LSE REV WYNNEWOOD PUB SCH PJ BIE 5.00 % Due Doc 1",
+   "asset_type": "GS",
+   "idx": 11,
+   "owner": "SELF",
+   "tx_date": "2025-01-29",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "GRANO RAPIDS Ml PUO SCHS SCH BLDG & SITE RFOG AGM BIE 5.00 % Duo May 1",
+   "asset_type": "GS",
+   "idx": 12,
+   "owner": "SELF",
+   "tx_date": "2025-01-29",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "JOHNSON CNTY KS PK & REC DIST CTF PARTN REV SER A B1E B/Q 4.00 % Duo Soo 1",
+   "asset_type": "GS",
+   "idx": 13,
+   "owner": "SELF",
+   "tx_date": "2025-01-29",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "LOWER AL GAS DIST GAS GAS DIST PJ 2 REV BIE 4.00 % Duo Dec 1",
+   "asset_type": "GS",
+   "idx": 14,
+   "owner": "SELF",
+   "tx_date": "2025-01-29",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MEMORIAL CITY REDEV AUTH lX TAX INCRMT CNTRCT REV RFDG AGM BIE 5.00 % Duo Seo 1",
+   "asset_type": "GS",
+   "idx": 15,
+   "owner": "SELF",
+   "tx_date": "2025-01-29",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MIAMI DADE CNTY FL HLTH FACS HOSP RF0G NICKLAUS CHLDRNS HOSP A REV BIE 5.00 % Duo A,-1",
+   "asset_type": "GS",
+   "idx": 16,
+   "owner": "SELF",
+   "tx_date": "2025-01-29",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MILWAUKEE CNTY WI CORP PURP SER ABIE PTC 3.00 %.Duo Oct 1",
+   "asset_type": "GS",
+   "idx": 17,
+   "owner": "SELF",
+   "tx_date": "2025-01-29",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "PARIS TX WTR & SWR REV 2022 BIE CR ENH 5.00 % Duo Jun 15",
+   "asset_type": "GS",
+   "idx": 18,
+   "owner": "SELF",
+   "tx_date": "2025-01-29",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "POLK CNTY FL SCH BRO CTF PARTN RFOG SER B REV BIE 5.00 % Duo Jan 1",
+   "asset_type": "GS",
+   "idx": 19,
+   "owner": "SELF",
+   "tx_date": "2025-01-29",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "WHITEHALL OH CITY SCH DIST RFDG SER A B/E B/Q CR ENH CAB @76.261 2.75% 0.00 % Duo Dec 1",
+   "asset_type": "GS",
+   "idx": 20,
+   "owner": "SELF",
+   "tx_date": "2025-01-29",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ARIZONA ST CTF PARTN RFDG REV B1E 5.00 % Duo Soo 1",
+   "asset_type": "GS",
+   "idx": 21,
+   "owner": "SELF",
+   "tx_date": "2025-01-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "BATAVIA OH LOC SCH DIST IMPT SERB BIE 4.00 % Duo Nov 1",
+   "asset_type": "GS",
+   "idx": 22,
+   "owner": "SELF",
+   "tx_date": "2025-01-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "BLACK BELT ENERGY GAS DIST AL GAS PREPAY REV PJ 4 SER A 1 B/E VAR 4.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 23,
+   "owner": "SELF",
+   "tx_date": "2025-01-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "COLORADO HLTH FACS AUTH REV COMMONSPIRIT HLTH SER A 1 B/E 5.00 % Duo Auo 1",
+   "asset_type": "GS",
+   "idx": 24,
+   "owner": "SELF",
+   "tx_date": "2025-01-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "DUBLIN OH VARIOUS PURP B/E 3.00 % Duo Dec 1",
+   "asset_type": "GS",
+   "idx": 25,
+   "owner": "SELF",
+   "tx_date": "2025-01-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "KENOSHA WI PROM NT B/E 4.00 % Duo Seo 1",
+   "asset_type": "GS",
+   "idx": 26,
+   "owner": "SELF",
+   "tx_date": "2025-01-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Filer's Name Page 28 YES LOWER AL GAS DIST GAS GAS DIST PJ 2 REV 8/E 4.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 27,
+   "owner": "SELF",
+   "tx_date": "2025-01-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "NORTHERN PALM BCH CNTY IMPT DIST FL WTR CTL RFDG REV BAM 8/E 5.00 % Duo AuQ 1",
+   "asset_type": "GS",
+   "idx": 28,
+   "owner": "SELF",
+   "tx_date": "2025-01-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "PHILADELPHIA PA WTR & WSTWTR REV SERB AGM 8/E 5.00 % Duo Seo 1",
+   "asset_type": "GS",
+   "idx": 29,
+   "owner": "SELF",
+   "tx_date": "2025-01-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SHARONVILLE OH SPL OBLIG REV 8/E 4.00 % Due Doc 1",
+   "asset_type": "GS",
+   "idx": 30,
+   "owner": "SELF",
+   "tx_date": "2025-01-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "SOUTHCENTRAL PA GENL AUTH REV HANOVER HOSP 8/E 5.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 31,
+   "owner": "SELF",
+   "tx_date": "2025-01-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "TEXAS ST COLL STDNT LN B/E AMT 5.00 % Duo Au<> 1",
+   "asset_type": "GS",
+   "idx": 32,
+   "owner": "SELF",
+   "tx_date": "2025-01-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "WASHINGTON ST VARIOUS PURP SER A B/E 5.00 % Duo Auo 1",
+   "asset_type": "GS",
+   "idx": 33,
+   "owner": "SELF",
+   "tx_date": "2025-01-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "AKRON OH RFDG VARIOUS PURP SER A B/E 010 llb97.485 326% 3.00 % Due Doc 1",
+   "asset_type": "GS",
+   "idx": 34,
+   "owner": "SELF",
+   "tx_date": "2025-01-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CENTRAL PLAINS ENERGY PJ NE GAS SPPLY REV RFDG 8/E 4.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 35,
+   "owner": "SELF",
+   "tx_date": "2025-01-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CHILLICOTHE MO CTF PARTN REV B/E B/Q 4.00 % Due Fob 1",
+   "asset_type": "GS",
+   "idx": 36,
+   "owner": "SELF",
+   "tx_date": "2025-01-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "DALTON WHITFIELD CNTY GAJT DEV AUTH REV HAMILTON HLTH CARE SYS INC B 8/E 5.00 % Duo AuQ 15",
+   "asset_type": "GS",
+   "idx": 37,
+   "owner": "SELF",
+   "tx_date": "2025-01-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "JACKSON CNTY Ml CAP IMPT 8/E 467106 LTD TAX CAP IMPT 3.00 % Duo Nov 1",
+   "asset_type": "GS",
+   "idx": 38,
+   "owner": "SELF",
+   "tx_date": "2025-01-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MISSISSIPPI HM CORP SNGL FAM MTG REV SERF B/E AMT 3.00 % Due Doc 1",
+   "asset_type": "GS",
+   "idx": 39,
+   "owner": "SELF",
+   "tx_date": "2025-01-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "ALASKA ST HSG FIN CORP CAP PJ II SER C REV B/E 5.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 40,
+   "owner": "SELF",
+   "tx_date": "2025-02-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ARLINGTON l)( HIGH ED FIN ED REV TRINITY BASIN PREPARATORY B/E PSF GTD 5.00 % Duo AuQ 15",
+   "asset_type": "GS",
+   "idx": 41,
+   "owner": "SELF",
+   "tx_date": "2025-02-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "BURKE CNTY GA DEV AUTH POLLTN CTL REV GA PWR CO PLANT VOGTLE 1ST SER B/E 2.875 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 42,
+   "owner": "SELF",
+   "tx_date": "2025-02-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CENTRE CNTY PA HOSP AUTH MT NITTANY MED CTR SER A REV B/E PTC 5.00 % Due Nov 15",
+   "asset_type": "GS",
+   "idx": 43,
+   "owner": "SELF",
+   "tx_date": "2025-02-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CLEVELAND CNTY OK EFA EDL FAC LSE LEXINGTON PUB SCHS PJ REV 8/E 5.00 % Duo Sop 1",
+   "asset_type": "GS",
+   "idx": 44,
+   "owner": "SELF",
+   "tx_date": "2025-02-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "GARDEN CITY KS RFDG TAX INCRMT SER A DB B/E PTC 3.00 % Duo Nov 1",
+   "asset_type": "GS",
+   "idx": 45,
+   "owner": "SELF",
+   "tx_date": "2025-02-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "HAWAII ST DEPT BUDGET & FIN SPL PURP REV RFDG HI PAC HLTH OBLIG GRP B BIE 5.00 % Due Jul 1",
+   "asset_type": "GS",
+   "idx": 46,
+   "owner": "SELF",
+   "tx_date": "2025-02-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MERCER CNTY KY PUB PPTY CORP 1ST MTG REV RFDG JUDICIAL CTR PJ B/E BIQ 4.00 % Duo Auo 1",
+   "asset_type": "GS",
+   "idx": 47,
+   "owner": "SELF",
+   "tx_date": "2025-02-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NEVADA SYS HIGH ED UNIV REV SER A B/E 5.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 48,
+   "owner": "SELF",
+   "tx_date": "2025-02-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NORTH DAKOTA ST HSG FIN AGY PG HM MTG PG 2017A PAC REV B/E 2.625 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 49,
+   "owner": "SELF",
+   "tx_date": "2025-02-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NORWIN PA SCH DIST AGM B/E STINTRCPT 3.00 % Duo Nov 15",
+   "asset_type": "GS",
+   "idx": 50,
+   "owner": "SELF",
+   "tx_date": "2025-02-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "WELD CNTY CO SCH DIST RE 7 BIE ST INTRCPT 4.00 % Due Doc 1",
+   "asset_type": "GS",
+   "idx": 51,
+   "owner": "SELF",
+   "tx_date": "2025-02-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "WEST CARROLLTON OH CITY SCH DIST FACS CONSTR & IMPT B B/E B/Q CR ENH 4.00 % Due Doc 1",
+   "asset_type": "GS",
+   "idx": 52,
+   "owner": "SELF",
+   "tx_date": "2025-02-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "loslr.llmQ Page 54 YES ADAMS CNTY CO SCH DIST 001 MAPLETON PUB SCHS BIE ST INTRCPT 4.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 53,
+   "owner": "SELF",
+   "tx_date": "2025-02-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "LOUISIANA PUB FACS AUTH REV RFDG 19TH JUDICIAL DIST COURT BLDG AGM 8/E 5.25 % Duo Jun 1",
+   "asset_type": "GS",
+   "idx": 54,
+   "owner": "SELF",
+   "tx_date": "2025-02-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "LOWER AL GAS DIST GAS GAS DIST PJ 2 REV B1E 4.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 55,
+   "owner": "SELF",
+   "tx_date": "2025-02-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "SAN ANTONIO TX INDPT SCH DIST BLDG PSF GTD 8/E 5.00 % Duo Aua 15",
+   "asset_type": "GS",
+   "idx": 56,
+   "owner": "SELF",
+   "tx_date": "2025-02-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ST LUCIE CNTY FL SCH DIST SALES TAX REV AGM BIE 5.00 % Duo Oct 1",
+   "asset_type": "GS",
+   "idx": 57,
+   "owner": "SELF",
+   "tx_date": "2025-02-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "TEXAS MUN PWR AGY REV TRNSMSN SYS RFDG AGM 8/E 3.00 % Duo Sap 1",
+   "asset_type": "GS",
+   "idx": 58,
+   "owner": "SELF",
+   "tx_date": "2025-02-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "WEST VIRGINIA ST HOSP FIN AUTH REV RFDG UTD HLTH SYS SER A B1E 5.00 % Due Jun 1. 202S",
+   "asset_type": "GS",
+   "idx": 59,
+   "owner": "SELF",
+   "tx_date": "2025-02-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ALVIN TX WTRWKS & SWR REV SYS AGM BIE 5.00 % Duo Feb 1",
+   "asset_type": "GS",
+   "idx": 60,
+   "owner": "SELF",
+   "tx_date": "2025-02-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "BURKE CNTY GA DEV AUTH POLLT N CTL REV GA PWR CO PLANT VOGTLE 1 ST SER B1E 2.875 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 61,
+   "owner": "SELF",
+   "tx_date": "2025-02-06",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "CENTRAL NE PLAINS ENERGY PJ GAS SPLY RFDG REV BIE 2.50 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 62,
+   "owner": "SELF",
+   "tx_date": "2025-02-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CROWLEY TX INDPT SCH DIST RFDG PSF GTD SER A 8/E 5.00 % Duo Aug 1",
+   "asset_type": "GS",
+   "idx": 63,
+   "owner": "SELF",
+   "tx_date": "2025-02-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "DISTRICT COLUMBIA HSG FIN AGY MLTIFAM HSG REV FAJRCLIFF PLAZA BIE PTC 5.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 64,
+   "owner": "SELF",
+   "tx_date": "2025-02-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "GREATER CLEVELAND OH REGL TRAN AUTH SALES TAX RFOG Cl REV B1E 5.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 65,
+   "owner": "SELF",
+   "tx_date": "2025-02-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "HAMILTON STHESTRN IN SCHS SER ABIE ST INTRCPT 5.00 % Duo Jun 30",
+   "asset_type": "GS",
+   "idx": 66,
+   "owner": "SELF",
+   "tx_date": "2025-02-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "HARRIS CNTY TX MUD 459 AGM BIE 4.50 % Duo An, 1",
+   "asset_type": "GS",
+   "idx": 67,
+   "owner": "SELF",
+   "tx_date": "2025-02-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "HARRIS CNTYTX TOLL RD REV 1ST LIEN RFDG SER ABIE 5.00 % Duo Auo 15",
+   "asset_type": "GS",
+   "idx": 68,
+   "owner": "SELF",
+   "tx_date": "2025-02-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "KOKOMO IN SCH CORP 2023 BIE 8/Q CR ENH 5.00 % Due Jan 15",
+   "asset_type": "GS",
+   "idx": 69,
+   "owner": "SELF",
+   "tx_date": "2025-02-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "LAKEWOOD OH RFOG VARIOUS PURP IMPT SER ABIE 5.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 70,
+   "owner": "SELF",
+   "tx_date": "2025-02-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "LAKEWOOD WA WTR DIST WTR REV RFDG SER ABIE 8/Q 3.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 71,
+   "owner": "SELF",
+   "tx_date": "2025-02-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "RACINE WI PROM NT BIE 5.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 72,
+   "owner": "SELF",
+   "tx_date": "2025-02-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ROUND ROCK TX INDPT SCH DIST RFDG B1E 5.00 % Due Aun 1",
+   "asset_type": "GS",
+   "idx": 73,
+   "owner": "SELF",
+   "tx_date": "2025-02-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SMITH CNTY TX B1E 4.00 % Duo Fob 15",
+   "asset_type": "GS",
+   "idx": 74,
+   "owner": "SELF",
+   "tx_date": "2025-02-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "WASHOE CNTY NV SCH DIST RFDG SCH IMPT SER A 8/E 5.00 % Duo Jun 1, 202S",
+   "asset_type": "GS",
+   "idx": 75,
+   "owner": "SELF",
+   "tx_date": "2025-02-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "WISCONSIN ST HLTH & EFA REV ADVOCATE AURORA HLTHCARE SER C 3 B1E 5.00 % Duo Auo 15",
+   "asset_type": "GS",
+   "idx": 76,
+   "owner": "SELF",
+   "tx_date": "2025-02-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ARLINGTON CNTY VA INDL DEV AUTH MLTIFAM REV HSG SHIRLINGTON APTS A B/E 5.00 % Duo Jan 1",
+   "asset_type": "GS",
+   "idx": 77,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ARLINGTON TX HIGH ED FIN CORP UPLIFT ED SER A REV 8/E PSF GTD 5.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 78,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Filer's Name I Page 80 YES ARLINGTON TX HSG FIN CORP MLTIFAM HSG REV RESV MAYFIELD APTS BIE 3.50 % Duo Nov 1",
+   "asset_type": "GS",
+   "idx": 79,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ATCHISON CNTY KS UNI SCH DIST 409 RFDG IMPT BAM BIE 5.00 % Duo Son 1",
+   "asset_type": "GS",
+   "idx": 80,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "BARTOW CNTY GA DEV AUTH POLLUTN CTL REV GA PWR CO PLT BOWEN 1ST BIE 2.875 % Due Aug 1",
+   "asset_type": "GS",
+   "idx": 81,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "BIRMINGHAM AL CONV SERA1 BIE CAB@87.829 4.04% 5.00 % Duo Mar 1",
+   "asset_type": "GS",
+   "idx": 82,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "BLACK BELT ENERGY GAS DIST AL GAS PREPAY REV PJ 4 SER A 1 B/E VAR 4.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 83,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CINCO TX MUD 1 CNTRCT REV 2019 A B/E CR ENH 4.00 % Duo Dec 1",
+   "asset_type": "GS",
+   "idx": 84,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CITIGROUP INC. VAR 32 DUE 05101/32",
+   "idx": 85,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "CLARK CNTY NV SCH DIST VARIOUS PURP MEDIUM TERM BO SERF BIE 3.00 % Duo Jun 15",
+   "asset_type": "GS",
+   "idx": 86,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "HUTTO TX INDPT SCH DIST BLDG PSF GTD BIE 5.00 % Duo AuQ 1",
+   "asset_type": "GS",
+   "idx": 87,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "IOWAST UNIV SCI & TECH UNIV REV ATHLETIC FACS SER IS U BIE 3.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 88,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "KANSAS ST DEV FIN AUTH REV RFDG KS ST PJ SERF BIE 5.00 % Duo Nov 1",
+   "asset_type": "GS",
+   "idx": 89,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "LOUISIANA LOC GOVT ENVMNTL FAC & CMNTY DEV AUTH INS ASSMT B REV BIE 5.00 % Due AuQ 15",
+   "asset_type": "GS",
+   "idx": 90,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MASSACHUSETTS ST HSG FIN AGY HSG REV SER /13 GREEN BO B/E 2.95 % Due Dec 1",
+   "asset_type": "GS",
+   "idx": 91,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MEMPHIS SHELBY CNTY TN INCL DEV BRO ECON REV GRWTH RFDG B B/E 5.00 % Duo Nov 1",
+   "asset_type": "GS",
+   "idx": 92,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MIAMI CNTY KS PUB BLDG COMMN LSE REV B/E B/Q 010 tli!97.858 3.4% 3.25 % Due Seo 1",
+   "asset_type": "GS",
+   "idx": 93,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "MINNEAPOLIS & ST PAUL MN MET ARPTS COMMN ARPT REV SUB RFDG SER C B/E 5.00 % Due Jan 1",
+   "asset_type": "GS",
+   "idx": 94,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MORGAN STANLEY VAR 28 DUE 10/18128",
+   "idx": 95,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ORANGE CNTY FL SCH BRO CTf PARTN RFDG SER C REV BIE 5.00 % Due AuQ 1",
+   "asset_type": "GS",
+   "idx": 96,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "POLK CNTY FL SCH BRO CTf PARTN RFDG SERB REV BIE 5.00 % Duo Jan 1",
+   "asset_type": "GS",
+   "idx": 97,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "QUALCOMM INC 2.15%30 DUE 05120/30",
+   "asset_type": "CS",
+   "idx": 98,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ST MARYS CLLG MD REV RFDG ACADEMIC FEES & BIE 010 i!!l99.780 3.02% 3.00 % Duo Seo 1",
+   "asset_type": "GS",
+   "idx": 99,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "THE HOME DEPOT, 2.95%29 DUE 06/15129",
+   "asset_type": "GS",
+   "idx": 100,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "T-MOBILE USA, I 3.375%29 DUE 04/15129",
+   "asset_type": "GS",
+   "idx": 101,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "UNITEDHEALTH GROU 4.5%33 DUE 04/15ru",
+   "asset_type": "GS",
+   "idx": 102,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "WASHINGTON ST 5%37GO UTX DUE 02/01/37",
+   "asset_type": "GS",
+   "idx": 103,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "WELLS FARGO & CO VAR 33 DUE 07125/33",
+   "idx": 104,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Filer's Name I Pa<>e 106 YES WISCONSIN ST HLTH & EFA REV CHLDRNS HOSP OF WI 2017 B/E SBJ ST TAX 5.00 % Duo Aua 15",
+   "asset_type": "GS",
+   "idx": 105,
+   "owner": "SELF",
+   "tx_date": "2025-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "BAY CITY TX RFDG 8/E 5.00 % Duo Sep 1",
+   "asset_type": "GS",
+   "idx": 106,
+   "owner": "SELF",
+   "tx_date": "2025-02-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "BERMUDIAN SPRINGS PA SCH DIST NT ADAMS CNTY AGM B/E ST INTRCPT 4.00 % Duo MAv 1",
+   "asset_type": "GS",
+   "idx": 107,
+   "owner": "SELF",
+   "tx_date": "2025-02-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "CENTRAL PLAINS ENERGY PJ NE GAS SPPLY REV RFDG 8/E 4.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 108,
+   "owner": "SELF",
+   "tx_date": "2025-02-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "EAST PIERCE WA FIRE & RESCUE B/E 5.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 109,
+   "owner": "SELF",
+   "tx_date": "2025-02-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "HAMPTON TWP PA SCH DIST SER A B/E 4.00 % Duo Sop 1",
+   "asset_type": "GS",
+   "idx": 110,
+   "owner": "SELF",
+   "tx_date": "2025-02-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "HARLANDALE TX INDPT SCH DIST RFDG SER A 8/E PSF GTD 5.00 % Duo Aua 15",
+   "asset_type": "GS",
+   "idx": 111,
+   "owner": "SELF",
+   "tx_date": "2025-02-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "HILLSBOROUGH CNTY FL CMNTY INVT TAX REV RFDG 8/E 5.00 % Duo Nov 1",
+   "asset_type": "GS",
+   "idx": 112,
+   "owner": "SELF",
+   "tx_date": "2025-02-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "INDIANAPOLIS IN WTR SYS REV RFDG 1 ST LIEN SER A AGM B/E 5.00 % Duo Oct 1",
+   "asset_type": "GS",
+   "idx": 113,
+   "owner": "SELF",
+   "tx_date": "2025-02-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MIAMI DADE CNTY FL SCH BRO CTF PARTN SER A REV AGM B/E 5.00 % Duo Mav 1",
+   "asset_type": "GS",
+   "idx": 114,
+   "owner": "SELF",
+   "tx_date": "2025-02-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MIAMI DADE CNTY FL SCH BRO CTF PARTN SER A REV B/E 5.00 % Duo Mav 1",
+   "asset_type": "GS",
+   "idx": 115,
+   "owner": "SELF",
+   "tx_date": "2025-02-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MONTGOMERY CNTY PA HIGH ED & HLTH AUTH REV UNIV THOMAS JEFFERSON 8/E 5.00 % Duo Soo 1",
+   "asset_type": "GS",
+   "idx": 116,
+   "owner": "SELF",
+   "tx_date": "2025-02-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "NEWTON KS SER A DB B/E 5.00 % Due SeP 1",
+   "asset_type": "GS",
+   "idx": 117,
+   "owner": "SELF",
+   "tx_date": "2025-02-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "POTTAWATOMIE CNTY KS SER A DB 8/E 4.00 % Duo Oct 1",
+   "asset_type": "GS",
+   "idx": 118,
+   "owner": "SELF",
+   "tx_date": "2025-02-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "RACINE WI RFDG 8/E 3.00 % Due Doc 1",
+   "asset_type": "GS",
+   "idx": 119,
+   "owner": "SELF",
+   "tx_date": "2025-02-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "RHODE IS HLTH & EDL BLDG CORP PUB SCHS REV FING PG SER A AGM B/E 5.00 % Duo Mav 15",
+   "asset_type": "GS",
+   "idx": 120,
+   "owner": "SELF",
+   "tx_date": "2025-02-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "RHODE IS INFRA BK SAFE DRNKG WTR REV SER A GREEN 8/E PTC 5.00 % Duo Oct 1",
+   "asset_type": "GS",
+   "idx": 121,
+   "owner": "SELF",
+   "tx_date": "2025-02-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "SOUTHWEST TX HIGH ED AUTH INC STHRN METHODIST UNIV PJ A REV B/E 5.00 % Due Oct 1",
+   "asset_type": "GS",
+   "idx": 122,
+   "owner": "SELF",
+   "tx_date": "2025-02-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "UNIVERSITY AL GENL REV SER A RFDG B/E 5.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 123,
+   "owner": "SELF",
+   "tx_date": "2025-02-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "WESTON MUD TX RFDG HARRIS CNTY BAM B/E 8/Q 4.00 % Due Auo 1",
+   "asset_type": "GS",
+   "idx": 124,
+   "owner": "SELF",
+   "tx_date": "2025-02-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "ARLINGTON TEX INDPT 5%31GO UTX DUE 02/15131",
+   "asset_type": "GS",
+   "idx": 125,
+   "owner": "SELF",
+   "tx_date": "2025-02-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "ARIZONA INDL DEV AU 5% DUE ON 11/01\"",
+   "asset_type": "GS",
+   "idx": 126,
+   "owner": "SELF",
+   "tx_date": "2025-02-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "HUTTO TEX 4.125% DUE ON 08/01/49",
+   "asset_type": "GS",
+   "idx": 127,
+   "owner": "SELF",
+   "tx_date": "2025-02-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "TEXAS PRIVATE ACTIV 4% DUE ON 12/31/38",
+   "asset_type": "GS",
+   "idx": 128,
+   "owner": "SELF",
+   "tx_date": "2025-02-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "WEST VA COMMR OF HW 5% 09/01/27",
+   "idx": 129,
+   "owner": "SELF",
+   "tx_date": "2025-02-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "ARLINGTON TEX HIGHE 4% 08/15/44",
+   "idx": 130,
+   "owner": "SELF",
+   "tx_date": "2025-02-19",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "Lom.~ Filer's Name I Paste 132 I YES LIBERTY NY DEV 5.25% 10/01/35",
+   "asset_type": "GS",
+   "idx": 131,
+   "owner": "SELF",
+   "tx_date": "2025-02-19",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "NORTH SPENCER CNlY 5% DUE ON 07/15131",
+   "asset_type": "GS",
+   "idx": 132,
+   "owner": "SELF",
+   "tx_date": "2025-02-19",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ALAMOGORDO NM MUN SCH DIST 1 B/E B/Q 4.00 % Duo Aua 1",
+   "asset_type": "GS",
+   "idx": 133,
+   "owner": "SELF",
+   "tx_date": "2025-02-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ALTOONA PA SWR DB AGM B/E GTD 4.00 % Duo Aua 1",
+   "asset_type": "GS",
+   "idx": 134,
+   "owner": "SELF",
+   "tx_date": "2025-02-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CUYAHOGA OH MET HSG AUTH MLTIFAM HSG REV WADE PK LP B/E 4.75 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 135,
+   "owner": "SELF",
+   "tx_date": "2025-02-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "EL PASO TX RFDG B/E 5.00 % Duo Aua 15",
+   "asset_type": "GS",
+   "idx": 136,
+   "owner": "SELF",
+   "tx_date": "2025-02-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "FLORIDA ST BRO ED PUB ED RFDG CAP OUTLAY SERF DB B/E PTC 5.00 % Duo Jun 1",
+   "asset_type": "GS",
+   "idx": 137,
+   "owner": "SELF",
+   "tx_date": "2025-02-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "GREATER JASPER SCH BLDG CORP IN 1ST MTG REV B/E ST INTRCPT 5.00 % Duo Jan 15",
+   "asset_type": "GS",
+   "idx": 138,
+   "owner": "SELF",
+   "tx_date": "2025-02-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "HARRIS CN1YTEXMET5% DUE ON 11/01/26",
+   "asset_type": "GS",
+   "idx": 139,
+   "owner": "SELF",
+   "tx_date": "2025-02-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "HARRISON CNlY KY SCH DIST FIN CORP SCH BLDG REV B/E ST INTRCPT 4.00 % Duo Aua 1",
+   "asset_type": "GS",
+   "idx": 140,
+   "owner": "SELF",
+   "tx_date": "2025-02-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "KNOXVILLE TN ELEC SER GG REV B/E PTC 2.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 141,
+   "owner": "SELF",
+   "tx_date": "2025-02-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "LINDALE TX RFDG SMITH CNlY B/E B/Q 4.00 % Duo Aua 15",
+   "asset_type": "GS",
+   "idx": 142,
+   "owner": "SELF",
+   "tx_date": "2025-02-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MANHEIM TWP PA SCH DIST SER A B/E 5.00 % Duo Fob 1",
+   "asset_type": "GS",
+   "idx": 143,
+   "owner": "SELF",
+   "tx_date": "2025-02-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MANHEIM TWP PA SCH DIST SER A B/E 5.00 % Duo Fob 1",
+   "asset_type": "GS",
+   "idx": 144,
+   "owner": "SELF",
+   "tx_date": "2025-02-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "NEW MEXICO ST HOSP EQUIP LN COUNCIL REV SER A PRESBYTERIAN HC SVCS B/E 5.00 % Duo Aug 1",
+   "asset_type": "GS",
+   "idx": 145,
+   "owner": "SELF",
+   "tx_date": "2025-02-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "PASCO CNlY FL SCH BRO CTF PARTN SER A REV BAM B/E 5.00 % Duo Aua 1",
+   "asset_type": "GS",
+   "idx": 146,
+   "owner": "SELF",
+   "tx_date": "2025-02-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "PECULIAR MO COMB WTRWKS & SWR SYS REV RFDG IMPT 2020 BAM B/E B/Q CR ENH 5.00 % Duo Fob 1",
+   "asset_type": "GS",
+   "idx": 147,
+   "owner": "SELF",
+   "tx_date": "2025-02-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "PIKE CNlY KY SCH DIST FIN CORP SCH BLDG REV B/E ST INTRCPT 5.00 % Duo Feb 1",
+   "asset_type": "GS",
+   "idx": 148,
+   "owner": "SELF",
+   "tx_date": "2025-02-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "RANDOLPH IN CENT SCH AD VALOREM PPlY TAX 1ST MTG RFDG IMPT REV B/E 4.00 % Duo Jan 15",
+   "asset_type": "GS",
+   "idx": 149,
+   "owner": "SELF",
+   "tx_date": "2025-02-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "TEXAS TRANSN COMMN 5% DUE ON 08/15/40",
+   "asset_type": "GS",
+   "idx": 150,
+   "owner": "SELF",
+   "tx_date": "2025-02-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "TEXAS TRANSN COMMN 5%40TPK TRAN DUE 08/1S/40XTRO",
+   "asset_type": "GS",
+   "idx": 151,
+   "owner": "SELF",
+   "tx_date": "2025-02-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "VIA MET TRAN AUTH TX SALES TAX REV CONTRCTL OBLIG B/E 5.00 % Duo Jul 15",
+   "asset_type": "GS",
+   "idx": 152,
+   "owner": "SELF",
+   "tx_date": "2025-02-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "WASHINGTON ST VARIOUS PURP SER A B/E 5.00 % Duo Aug 1",
+   "asset_type": "GS",
+   "idx": 153,
+   "owner": "SELF",
+   "tx_date": "2025-02-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "WESTERN DUBUQUE CNlY IA CMNlY SCH DIST INFRA REV SALES SVCS BAM B/E 5.00 % Duo Jun 1",
+   "asset_type": "GS",
+   "idx": 154,
+   "owner": "SELF",
+   "tx_date": "2025-02-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "CHATTANOOGA TENN HE 5% DUE ON 12/01/34",
+   "asset_type": "GS",
+   "idx": 155,
+   "owner": "SELF",
+   "tx_date": "2025-02-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "COMMONWEALTH PA FING AUTH TOB MSTR SETTLMT PMT REV B/E 5.00 % Duo Jun 1",
+   "asset_type": "GS",
+   "idx": 156,
+   "owner": "SELF",
+   "tx_date": "2025-02-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Filer's Name I Pa2e 158 YES FRANKLIN CNlY MO PUB WTR SPLY DIST 3 WTRWKS RFOG SER AV REV 8/E 4.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 157,
+   "owner": "SELF",
+   "tx_date": "2025-02-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "HARRIS CNlY TX MUD 105 RFOG 2019 8/E CR ENH 3.00 % Duo Mar 1",
+   "asset_type": "GS",
+   "idx": 158,
+   "owner": "SELF",
+   "tx_date": "2025-02-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "LAFAYETTE LA COMMNS SYS REV RFOG AGM 8/E 5.00 % Due Nov 1",
+   "asset_type": "GS",
+   "idx": 159,
+   "owner": "SELF",
+   "tx_date": "2025-02-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "METROPOLITAN ATLANTA RAPID TRAN AUTH GA SALES REV RFOG NPFG 8/E 525 % Due Jul 1",
+   "asset_type": "GS",
+   "idx": 160,
+   "owner": "SELF",
+   "tx_date": "2025-02-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MIAMI TRACE OH LOC SCH DIST RFOG 8/E 8/Q 3.00 % Due Dec 1",
+   "asset_type": "GS",
+   "idx": 161,
+   "owner": "SELF",
+   "tx_date": "2025-02-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "MIAMI-DADE CNTY 525% DUE ON 10/01/551",
+   "asset_type": "GS",
+   "idx": 162,
+   "owner": "SELF",
+   "tx_date": "2025-02-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "PORT ARANSAS TX COMB TAX LTD PLG REV CTF OBLIG 2025 OB 8/E 8/Q 5.00 % Duo Fob 1",
+   "asset_type": "GS",
+   "idx": 163,
+   "owner": "SELF",
+   "tx_date": "2025-02-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "TEXAS ST UNIV SYS FING RFOG SER A REV 8/E PTC 5.00 % Duo Mar 15",
+   "asset_type": "GS",
+   "idx": 164,
+   "owner": "SELF",
+   "tx_date": "2025-02-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "WELD CNTY COLO S 525%39GO UTX DUE 12/01/39",
+   "asset_type": "GS",
+   "idx": 165,
+   "owner": "SELF",
+   "tx_date": "2025-02-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "AIR PRODUCTS ANO 4.85%34 DUE 02/08/341",
+   "asset_type": "GS",
+   "idx": 166,
+   "owner": "SELF",
+   "tx_date": "2025-02-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "BERNALILLO NM MUN SCH DIST 120198/E 8/Q CR ENH 4.00 % Duo Aua 1",
+   "asset_type": "GS",
+   "idx": 167,
+   "owner": "SELF",
+   "tx_date": "2025-02-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "BLACK BELT ENERGY GAS DIST AL GAS PREPAY REV PJ 4 SER A 1 8/E VAR 4.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 168,
+   "owner": "SELF",
+   "tx_date": "2025-02-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "BUCKS CNlY PA INOL DEV AUTH REV PENNSWOOO VLG PJ SER A 8/E 5.00 % Duo Oct 1",
+   "asset_type": "GS",
+   "idx": 169,
+   "owner": "SELF",
+   "tx_date": "2025-02-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CAPE CORAL FL WTR & SWR REV RFOG 8/E 5.00 % Duo Oct 1",
+   "asset_type": "GS",
+   "idx": 170,
+   "owner": "SELF",
+   "tx_date": "2025-02-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "COLORADO SCH MINES INSTL ENTRPRS REV BREV B 8/E 5.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 171,
+   "owner": "SELF",
+   "tx_date": "2025-02-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "FAYETTE CNTY KY SCH DIST FIN CORP SCH BLOG REV SERO 8/E 5.00 % Duo Aua 1",
+   "asset_type": "GS",
+   "idx": 172,
+   "owner": "SELF",
+   "tx_date": "2025-02-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "IOWA CENT CMNlY CLLG DORM RFOG MERGED AREA V REV 8/E 8/Q 3.00 % Duo Jun 1",
+   "asset_type": "GS",
+   "idx": 173,
+   "owner": "SELF",
+   "tx_date": "2025-02-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "JEFFERSON CNTY CO SCH DIST R 1 CTF PARTN REV 8/E 5.00 % Duo Doc 15",
+   "asset_type": "GS",
+   "idx": 174,
+   "owner": "SELF",
+   "tx_date": "2025-02-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "KANSAS CllY MO WTR REV SER A 8/E 5.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 175,
+   "owner": "SELF",
+   "tx_date": "2025-02-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "LOWER COLORADO RVR AUTH TX TRNSMSN CNTRCT REV RFOG LCRA SVCS 8/E PTC 5.00 % Duo Mav 15",
+   "asset_type": "GS",
+   "idx": 176,
+   "owner": "SELF",
+   "tx_date": "2025-02-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MIAMI DADE CNlY FL PUB FACS REV RFOG JACKSON HLTH SYS SER A 8/E 5.00 % Due Jun 1",
+   "asset_type": "GS",
+   "idx": 177,
+   "owner": "SELF",
+   "tx_date": "2025-02-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "PHILADELPHIA PA SCH DIST RFDG SERF BAM TCRS 5.00 % Duo Soo 1",
+   "asset_type": "GS",
+   "idx": 178,
+   "owner": "SELF",
+   "tx_date": "2025-02-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "WARREN CNlY KY BRO ED 8/E 5.00 % Duo Dec 1",
+   "asset_type": "GS",
+   "idx": 179,
+   "owner": "SELF",
+   "tx_date": "2025-02-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "WISCONSIN DELLS WI PROM NT SERB 8/E 5.00 % Duo Mar 1",
+   "asset_type": "GS",
+   "idx": 180,
+   "owner": "SELF",
+   "tx_date": "2025-02-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "CENTRAL PLAINS ENERGY PJ NE GAS SPPLY REV RFOG 8/E 4.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 181,
+   "owner": "SELF",
+   "tx_date": "2025-02-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "GREATER CLARK BLOG CORP IN 1ST MTG SERB REV 8/E ST INTRCPT 6.00 % Duo Jan 15",
+   "asset_type": "GS",
+   "idx": 182,
+   "owner": "SELF",
+   "tx_date": "2025-02-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "lnstr.uJ;tiQ Filer\"s Name I Pa~e 184 YES LOWER Al GAS DIST PJ REV 2 SER A B/E 4.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 183,
+   "owner": "SELF",
+   "tx_date": "2025-02-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "AUSTIN TX REV RFDG SUB LIEN 1998 NPFG 525 % Duo May 15",
+   "asset_type": "GS",
+   "idx": 184,
+   "owner": "SELF",
+   "tx_date": "2025-02-26",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "CONNECTICUT ST HEALTH & EDL FACS AUTH REV LOOMIS CHAFFEE SCH F B/E AMBAC 525 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 185,
+   "owner": "SELF",
+   "tx_date": "2025-02-26",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "KENTIJCKY INTERLOCAL SCH TRANSN ASSN EQUIP LSE REV COP B/E ST INTRCPT 3.25 % Duo Mar 1",
+   "asset_type": "GS",
+   "idx": 186,
+   "owner": "SELF",
+   "tx_date": "2025-02-26",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "I YES META PLATFORMS, 4.75%34 DUE 08/15/34",
+   "asset_type": "GS",
+   "idx": 187,
+   "owner": "SELF",
+   "tx_date": "2025-02-26",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "METROPOLITAN ST LOUIS MO SWR DIST WSTWTR SYS REV RFDG & IMPT C B/E PTC 5.00 % Duo Mav 1",
+   "asset_type": "GS",
+   "idx": 188,
+   "owner": "SELF",
+   "tx_date": "2025-02-26",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "NORTH TX MUN WTR DIST TX LOWER EAST FORK WSTWTR RFDG REV B/E 3.00 % Duo Jun 1",
+   "asset_type": "GS",
+   "idx": 189,
+   "owner": "SELF",
+   "tx_date": "2025-02-26",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "SOUTH CAROLINA ST P 5% DUE ON 12/01/50",
+   "asset_type": "GS",
+   "idx": 190,
+   "owner": "SELF",
+   "tx_date": "2025-02-26",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "PENNSYLVANIA ST TPK 5% DUE ON 12/01/43",
+   "asset_type": "GS",
+   "idx": 191,
+   "owner": "SELF",
+   "tx_date": "2025-02-27",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "BROWARD CNTY FL TOURIST DEV TAX REV CONVNTN CTR EXPN 8/E 5.00 % Duo Soo 1",
+   "asset_type": "GS",
+   "idx": 192,
+   "owner": "SELF",
+   "tx_date": "2025-02-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CENTRAL PLAINS ENERGY PJ NE GAS SPPLY REV RFDG 8/E 4.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 193,
+   "owner": "SELF",
+   "tx_date": "2025-02-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "COLORADO HLTH FACS AUTH REV COMMONSPIRIT HLTH SER A 1 B/E 5.00 % Duo Aun 1",
+   "asset_type": "GS",
+   "idx": 194,
+   "owner": "SELF",
+   "tx_date": "2025-02-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CUYAHOGA OH MET HSG AUTH MLTIFAM HSG REV WADE PK LP 8/E 4.75 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 195,
+   "owner": "SELF",
+   "tx_date": "2025-02-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "FAYETTE MOR Ill SCH DIST RFOG 2021 8/E 8/Q MDDP 2.00 % Duo Mar 1",
+   "asset_type": "GS",
+   "idx": 196,
+   "owner": "SELF",
+   "tx_date": "2025-02-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "GALVESTON CNTY TX WTR CTL & IMPT DIST 1 8/E 5.00 % Duo Mar 1",
+   "asset_type": "GS",
+   "idx": 197,
+   "owner": "SELF",
+   "tx_date": "2025-02-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "JACKSONVILLE Fl SPL REV RFDG SERB 8/E 5.00 % Duo Oct 1",
+   "asset_type": "GS",
+   "idx": 198,
+   "owner": "SELF",
+   "tx_date": "2025-02-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "JACKSONVILLE FL TRANSN AUTH LOC OPT GAS TAX - REV SR LIEN 8/E 5.00 % Duo 4·- 1",
+   "asset_type": "GS",
+   "idx": 199,
+   "owner": "SELF",
+   "tx_date": "2025-02-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "JEFFERSON CNTY KY SCH DIST FIN CORP BLDG REV RFDG SERB B/E PTC 3.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 200,
+   "owner": "SELF",
+   "tx_date": "2025-02-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "LAKEVILLE MN HSG & REDEV AUTH LSE REV RFDG ICE ARENA PJ SER A 8/E 8/Q 4.00 % Due Fob 1",
+   "asset_type": "GS",
+   "idx": 201,
+   "owner": "SELF",
+   "tx_date": "2025-02-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MISSOURI ST HLTH & EDL FACS AUTH BJC SYS SERB REV B/E 4.00 % Duo Mav 1",
+   "asset_type": "GS",
+   "idx": 202,
+   "owner": "SELF",
+   "tx_date": "2025-02-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "NEW MELLE MO FIRE PROTN DIST BAM 8/E 8/Q 3.00 % Due Mar 1",
+   "asset_type": "GS",
+   "idx": 203,
+   "owner": "SELF",
+   "tx_date": "2025-02-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "NEW MEXICO ST HOSP EQUIP LN COUNCIL HOSP REV SYS SER A 8/E PTC 5.00 % Duo Auo 1",
+   "asset_type": "GS",
+   "idx": 204,
+   "owner": "SELF",
+   "tx_date": "2025-02-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ORANGE CNTY Fl HLTH FACS AUTH REV HOSP RFDG ORLANDO HEALTH B 8/E 5.00 % Duo Oct 1",
+   "asset_type": "GS",
+   "idx": 205,
+   "owner": "SELF",
+   "tx_date": "2025-02-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "OSHKOSH WI WTR SYS REV SER C 8/E 4.00 % Duo J~n 1",
+   "asset_type": "GS",
+   "idx": 206,
+   "owner": "SELF",
+   "tx_date": "2025-02-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "PENNSYLVANIA ST HIGH EDL FACS AUTH REV RFDG UNIV PA HLTH SYS SERB 8/E 5.00 % Due A·~ 15",
+   "asset_type": "GS",
+   "idx": 207,
+   "owner": "SELF",
+   "tx_date": "2025-02-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "ST FRANCOIS CNTY MO CENT SCH DIST R Ill RFDG 2021 8/E B/Q MDDP 2.00 % Duo Mar 1",
+   "asset_type": "GS",
+   "idx": 208,
+   "owner": "SELF",
+   "tx_date": "2025-02-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Filer\"s Name Page 210 YES TWIN LAKES IN SCH BLDG CORP 1ST MTG REV 8/E ST INTRCPT 5.00 % Duo Jul 15",
+   "asset_type": "GS",
+   "idx": 209,
+   "owner": "SELF",
+   "tx_date": "2025-02-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "UNIVERSITY NE UNIV REV RFDG SER A 8/E ETM 5.00 % Due Jul 1",
+   "asset_type": "GS",
+   "idx": 210,
+   "owner": "SELF",
+   "tx_date": "2025-02-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "UNIVERSITY WEST FL FNDTN INC FL DORM REV RFDG SER A 8/E 5.00 % Duo Jun 1",
+   "asset_type": "GS",
+   "idx": 211,
+   "owner": "SELF",
+   "tx_date": "2025-02-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "WICHITA KS RFDG 2020 A B/E 3.00 % Duo Jun 1",
+   "asset_type": "GS",
+   "idx": 212,
+   "owner": "SELF",
+   "tx_date": "2025-02-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ANKENY IA SER A 8/E 5.00 % Duo Jun 1",
+   "asset_type": "GS",
+   "idx": 213,
+   "owner": "SELF",
+   "tx_date": "2025-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "DODGE CNTY WI RFDG 2017 A 8/E 8/Q 3.00 % Due Aua 1",
+   "asset_type": "GS",
+   "idx": 214,
+   "owner": "SELF",
+   "tx_date": "2025-03-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "EAST RIDGE TN RFDG 2021 A 8/E 8/Q 3.00 % Duo Jun 1",
+   "asset_type": "GS",
+   "idx": 215,
+   "owner": "SELF",
+   "tx_date": "2025-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "INDIANA FIN AUTH HLTH SYS REV IN UNIV HLTH INC SERB 8/E 2.25 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 216,
+   "owner": "SELF",
+   "tx_date": "2025-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "LYCOMING CNTY PA WTR & SWR AUTH REV GTD AGM 8/E 3.00 % Duo Nav 15",
+   "asset_type": "GS",
+   "idx": 217,
+   "owner": "SELF",
+   "tx_date": "2025-03-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "OHIO ST HSG FIN AGY RES MTG REV2025A 8/E GUAR CR ENH 6.00 % Duo Mar 1",
+   "asset_type": "GS",
+   "idx": 218,
+   "owner": "SELF",
+   "tx_date": "2025-03-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "OKLAHOMA TRANSN AUTH OK F KA OK ST TPK AUTH 2ND SR REV SER A 8/E 5.00 % Duo Jan 1",
+   "asset_type": "GS",
+   "idx": 219,
+   "owner": "SELF",
+   "tx_date": "2025-03-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "PENNSYLVANIA ECON DEV FING AUTH UPMC REV UNIV PITTSBURGH MED CTR A 8/E 5.00 % Due Aor 15",
+   "asset_type": "GS",
+   "idx": 220,
+   "owner": "SELF",
+   "tx_date": "2025-03-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SOUTH DAKOTA BRO REGTS HSG & AUX FAC SYS REV 8/E 5.00 % Duo Aor 1",
+   "asset_type": "GS",
+   "idx": 221,
+   "owner": "SELF",
+   "tx_date": "2025-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "TENNESSEE HSG DEV AGY RES FIN PG REV SER 3A 8/E 4.05 % Duo Jan 1",
+   "asset_type": "GS",
+   "idx": 222,
+   "owner": "SELF",
+   "tx_date": "2025-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "ALLEGHENY CNTY PA HOSP DEV AUTH REV SER A UNIV PITTSBURGH MED CTR 8/E 5.00 % Duo Jul 15",
+   "asset_type": "GS",
+   "idx": 223,
+   "owner": "SELF",
+   "tx_date": "2025-03-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "COOK CNTY ILL CM 4.25% DUE ON 12/01/47",
+   "asset_type": "GS",
+   "idx": 224,
+   "owner": "SELF",
+   "tx_date": "2025-03-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "DALLAS TX HSG FIN CORP MULTI FAM HSG REV POSITANOAPTS LLC 8/E 5.00 % Duo Sop 1",
+   "asset_type": "GS",
+   "idx": 225,
+   "owner": "SELF",
+   "tx_date": "2025-03-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "DISTRICT COLUMBIA HSG FIN AGY MLTIFAM HSG REV FAIRCLIFF PLAZA 8/E PTC 5.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 226,
+   "owner": "SELF",
+   "tx_date": "2025-03-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "KENTUCKY INC KY PUB ENERGY AUTH GAS SPLY REV SER A 8/E 4.00 % Due Dec 1",
+   "asset_type": "GS",
+   "idx": 227,
+   "owner": "SELF",
+   "tx_date": "2025-03-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "LAKEVIEW OH LOC SCH DIST CLSSRM FACS & SCH IMPT 8/E CR ENH PTC 3.00 % Duo Nav 1",
+   "asset_type": "GS",
+   "idx": 228,
+   "owner": "SELF",
+   "tx_date": "2025-03-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "LAS CRUCES NM JT UTIL RFDG & IMPT REV SYS 8/E 5.00 % Duo Jun 1",
+   "asset_type": "GS",
+   "idx": 229,
+   "owner": "SELF",
+   "tx_date": "2025-03-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "LOWER CO RIV AUTH TX TRNSMSN CNTRCT REV RFDG LCRA SVCS SER A 8/E 5.00 % Due May 15",
+   "asset_type": "GS",
+   "idx": 230,
+   "owner": "SELF",
+   "tx_date": "2025-03-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MARICOPA CNTY AZ INDL DEV AUTH BANNER HLTH SER D REV 8/E 5.00 % Duo Jan 1",
+   "asset_type": "GS",
+   "idx": 231,
+   "owner": "SELF",
+   "tx_date": "2025-03-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "MARYLAND ST HEALTH 5% DUE ON 10/01/43",
+   "asset_type": "GS",
+   "idx": 232,
+   "owner": "SELF",
+   "tx_date": "2025-03-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MINOT ND WTR & SWR UTIL RESV SER D DB 8/E 3.00 % Duo Oct 1",
+   "asset_type": "GS",
+   "idx": 233,
+   "owner": "SELF",
+   "tx_date": "2025-03-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "RHODE IS ST HEALTH 5% DUE ON 05/15/34",
+   "asset_type": "GS",
+   "idx": 234,
+   "owner": "SELF",
+   "tx_date": "2025-03-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Filer's Name Pa2e 236 YES ECTOR CNTY TX INDPT SCH DIST RFOG PSF GTO B/E 5.00 % Duo Aua 15",
+   "asset_type": "GS",
+   "idx": 235,
+   "owner": "SELF",
+   "tx_date": "2025-03-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "ILLINOIS·ST 5% DUE ON 05/01/39",
+   "asset_type": "GS",
+   "idx": 236,
+   "owner": "SELF",
+   "tx_date": "2025-03-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "KENTWOOD Ml PUB SCHS SCH BLOG & SITE SER 2 B/E 4.00 % Due May 1",
+   "asset_type": "GS",
+   "idx": 237,
+   "owner": "SELF",
+   "tx_date": "2025-03-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "LOWER AL GAS DIST GAS GAS DIST PJ 2 REV B/E 4.00 % Duo Dec 1",
+   "asset_type": "GS",
+   "idx": 238,
+   "owner": "SELF",
+   "tx_date": "2025-03-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "LOWER CO RIV AUTH TX TRNSMSN CNTRCT REV RFOG LCRA TRNSMSN SVCS A B/E 5.00 % Duo Mav 15",
+   "asset_type": "GS",
+   "idx": 239,
+   "owner": "SELF",
+   "tx_date": "2025-03-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "MANATEE CNTY FLA SC 5% DUE ON 07/01/38",
+   "asset_type": "GS",
+   "idx": 240,
+   "owner": "SELF",
+   "tx_date": "2025-03-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MARYLAND ST STOM AUTH REV BALTIMORE CITY PUB SCHS CONSTR A B/E 5.00 % Duo Mav 1",
+   "asset_type": "GS",
+   "idx": 241,
+   "owner": "SELF",
+   "tx_date": "2025-03-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "MISSOURI ST HEALTH 4% DUE ON 04/01/45",
+   "asset_type": "GS",
+   "idx": 242,
+   "owner": "SELF",
+   "tx_date": "2025-03-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MISSOURI ST HLTH & EOL FACS AUTH BJC SYS SERB REV B/E 4.00 % Duo Mav 1",
+   "asset_type": "GS",
+   "idx": 243,
+   "owner": "SELF",
+   "tx_date": "2025-03-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "NEWARK CULTURAL ED FACS FIN CORP TX REV RFOG KIMBELL ART FNOTN PJB/E 5.00 % Duo Nov 15",
+   "asset_type": "GS",
+   "idx": 244,
+   "owner": "SELF",
+   "tx_date": "2025-03-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "PHILADELPHIA PA AUTH INCL DEV CITY SVC AGREEMT REV REBUILD B/E 5.00 % Duo .,_ 1",
+   "asset_type": "GS",
+   "idx": 245,
+   "owner": "SELF",
+   "tx_date": "2025-03-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "RACINE WIS UNI SCH 5% DUE ON 04/01/30",
+   "asset_type": "GS",
+   "idx": 246,
+   "owner": "SELF",
+   "tx_date": "2025-03-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "SOMERVILLE MA MUN PURP LN B/E 5.00 % Due Jun 1",
+   "asset_type": "GS",
+   "idx": 247,
+   "owner": "SELF",
+   "tx_date": "2025-03-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "KENTUCKY ST PPTY & 5% DUE ON 04/01/37",
+   "asset_type": "GS",
+   "idx": 248,
+   "owner": "SELF",
+   "tx_date": "2025-03-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "KING CNTY WA HSG AUTH REV POOL RFOG B/E 3.00 % Duo May 1",
+   "asset_type": "GS",
+   "idx": 249,
+   "owner": "SELF",
+   "tx_date": "2025-03-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "LAKE WORTH BEACH FL NON AO VALOREM REV A BAM B/E 5.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 250,
+   "owner": "SELF",
+   "tx_date": "2025-03-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "MONROEVILLE PA FIN 5% DUE ON 05/15/32",
+   "asset_type": "GS",
+   "idx": 251,
+   "owner": "SELF",
+   "tx_date": "2025-03-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "OAK CREEK-FRANKLIN 4% DUE ON 04/01/28",
+   "asset_type": "GS",
+   "idx": 252,
+   "owner": "SELF",
+   "tx_date": "2025-03-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "OKLAHOMA CNTY OK INOPT SCH DIST 006 DEER CRK COMB PURP B/E 5.00 % Due Soo 1",
+   "asset_type": "GS",
+   "idx": 253,
+   "owner": "SELF",
+   "tx_date": "2025-03-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SOUTHFIELD Ml WTR & SWR CAP IMPT B/E 3.00 % Duo Mav 1",
+   "asset_type": "GS",
+   "idx": 254,
+   "owner": "SELF",
+   "tx_date": "2025-03-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CHIPPEWA VLY Ml SCHS RFOG SER A QSBLF B/E PTC 5.00 % Duo May 1",
+   "asset_type": "GS",
+   "idx": 255,
+   "owner": "SELF",
+   "tx_date": "2025-03-07",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CONCORD IN CMNTY SCHS BLOG CORP RFOG 1ST MTG REV BIE ST INTRCPT 3.00 % Duo Jul 15",
+   "asset_type": "GS",
+   "idx": 256,
+   "owner": "SELF",
+   "tx_date": "2025-03-07",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "IOAHO HSG & FIN ASSN SNGL FAM MTG SER A REV B/E 2.90 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 257,
+   "owner": "SELF",
+   "tx_date": "2025-03-07",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "MADISON WI MET SCH DIST TAX REV ANTIC PROM NT 2024 B/E 4.00 % Due Seo 2",
+   "asset_type": "GS",
+   "idx": 258,
+   "owner": "SELF",
+   "tx_date": "2025-03-07",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "UPTON CNTY TX TAX NT AGM B/E 5.00 % Duo Fob 15",
+   "asset_type": "GS",
+   "idx": 259,
+   "owner": "SELF",
+   "tx_date": "2025-03-07",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "ARLINGTON TX PERM IMPT SER A B/E 5.00 % Duo Aua 15",
+   "asset_type": "GS",
+   "idx": 260,
+   "owner": "SELF",
+   "tx_date": "2025-03-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Filer's Name I Pa1?c 262 YES CUYAHOGA OH MET HSG AUTH MLTIFAM HSG REV WADE PK LP 8/E 4.75 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 261,
+   "owner": "SELF",
+   "tx_date": "2025-03-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "DEARBORN Ml CAP IMPT SERB 8/E 3.00 % Duo Mav 1",
+   "asset_type": "GS",
+   "idx": 262,
+   "owner": "SELF",
+   "tx_date": "2025-03-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "DENTON CNTYTX FRESH WTR SPLY DIST 6 UTIL SYS RFDG BAM 8/E BIO 3.00 % Duo Fob 15",
+   "asset_type": "GS",
+   "idx": 263,
+   "owner": "SELF",
+   "tx_date": "2025-03-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "DENTON CNTY TX PERM IMPT RFOG 8/E 3.00 % Due Jul 15",
+   "asset_type": "GS",
+   "idx": 264,
+   "owner": "SELF",
+   "tx_date": "2025-03-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "GRUNDY CNTY IA 2025 8/E BIO 4.00 % Duo Jun 1",
+   "asset_type": "GS",
+   "idx": 265,
+   "owner": "SELF",
+   "tx_date": "2025-03-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "INDIANA ST FIN AUTH ENVMNTL REV IMPT RFDG SER B 8/E STHN IN G&E CO 3.45 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 266,
+   "owner": "SELF",
+   "tx_date": "2025-03-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MARICOPA CNTY A2 UNI SCH DIST 89 DYSART RFDG BAM 8/E 3.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 267,
+   "owner": "SELF",
+   "tx_date": "2025-03-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "PLEASANT HILLS BORO PA 2025 8/E BIO 5.00 % Due\"\"\" 1",
+   "asset_type": "GS",
+   "idx": 268,
+   "owner": "SELF",
+   "tx_date": "2025-03-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "SCOTTSDALE A2 MUN PPTY CORP EXCISE TAX REV RFDG B/E PTC 5.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 269,
+   "owner": "SELF",
+   "tx_date": "2025-03-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "TRADITION MUD 2B TX 2023 BAM B/E CR ENH 5.50 % Duo Soo 1",
+   "asset_type": "GS",
+   "idx": 270,
+   "owner": "SELF",
+   "tx_date": "2025-03-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "YES UPPER OCCOQUAN SWR AUTH VA REGL REV RFDG SYS BIE PTC 4.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 271,
+   "owner": "SELF",
+   "tx_date": "2025-03-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "I YES UTAH ST B/E 2.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 272,
+   "owner": "SELF",
+   "tx_date": "2025-03-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "WHITING IN SCH CITY BLDG CORP AD VALOREM 1ST MTG REV B/E BIO ST INTRCPT 5.00 % Duo Jan 15",
+   "asset_type": "GS",
+   "idx": 273,
+   "owner": "SELF",
+   "tx_date": "2025-03-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "CENTRAL BROWN CNTY WTR AUTH WTR SYS REV WI RFDG 2024A B/E 5.00 % Duo Nov 1",
+   "asset_type": "GS",
+   "idx": 274,
+   "owner": "SELF",
+   "tx_date": "2025-03-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "CONNECTICUT ST HLTH & EDL FACS AUTH REV YAEL UNIV SER A 8/E 2.80 % Due Jul 1",
+   "asset_type": "GS",
+   "idx": 275,
+   "owner": "SELF",
+   "tx_date": "2025-03-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "FLORIDA ST TPK AUTH REV RFDG DEPT TRANSN SERB BIE PTC 5.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 276,
+   "owner": "SELF",
+   "tx_date": "2025-03-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "FORT BEND CNTY TX MUD 134B AGM 8/E 6.50 % Due Mar 1",
+   "asset_type": "GS",
+   "idx": 277,
+   "owner": "SELF",
+   "tx_date": "2025-03-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "GREATER ATTLEBORO TAUNTON REGL TRAN AUTH MA REV ANTIC NT 8/E BIO 4.00 % Due Auo 15",
+   "asset_type": "GS",
+   "idx": 278,
+   "owner": "SELF",
+   "tx_date": "2025-03-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "HUTTO TX INDPT SCH DIST BLOG PSF GTO BIE 5.00 % Due Aua 1",
+   "asset_type": "GS",
+   "idx": 279,
+   "owner": "SELF",
+   "tx_date": "2025-03-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "MT VERNON IN SCH BLDG CORP 1ST MTG REV 8/EST INTRCPT5.00 % Due Jan 15,2026",
+   "asset_type": "GS",
+   "idx": 280,
+   "owner": "SELF",
+   "tx_date": "2025-03-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "NEW ORLEANS LA SEW SVC REV 8/E PTC 5.00 % Duo Jun 1",
+   "asset_type": "GS",
+   "idx": 281,
+   "owner": "SELF",
+   "tx_date": "2025-03-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "PHOENIX A2 CIVIC IMPT CORP WTR SYS REV RFDG JR LIEN 8/E 5.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 282,
+   "owner": "SELF",
+   "tx_date": "2025-03-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ARIZONA ST TRANSN BRO EXCISE TAX REV BIE 5.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 283,
+   "owner": "SELF",
+   "tx_date": "2025-03-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CARSON CITY NV HWY IMPT REV RFDG 2015 8/E 5.00 % Duo Nov 1",
+   "asset_type": "GS",
+   "idx": 284,
+   "owner": "SELF",
+   "tx_date": "2025-03-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "COOK CNTY ILL SCH D 5% DUE ON 12/15/3J",
+   "asset_type": "GS",
+   "idx": 285,
+   "owner": "SELF",
+   "tx_date": "2025-03-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "DALLAS CNTY TX CTF OBLIG DB 8/E 5.00 % Duo Aua 15",
+   "asset_type": "GS",
+   "idx": 286,
+   "owner": "SELF",
+   "tx_date": "2025-03-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Filer's Name I Pa~e 288 YES HARRIS CNTY TX IMPT DIST 18 AGM 8/E O1D ®97.399 3.59% 3.375 % Duo Sep 1",
+   "asset_type": "GS",
+   "idx": 287,
+   "owner": "SELF",
+   "tx_date": "2025-03-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "HARRIS CNTY TX MUD 1 B/E ASRD GTY 3.00 % Duo Sep 1",
+   "asset_type": "GS",
+   "idx": 288,
+   "owner": "SELF",
+   "tx_date": "2025-03-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "JOHNSON CNTY KS UNI SCH DIST 512 SHAWNEE MISSION RFDG&IMPT SER A B/E PTC 4.00 % Due Oct 1",
+   "asset_type": "GS",
+   "idx": 289,
+   "owner": "SELF",
+   "tx_date": "2025-03-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "KENTUCKY ST PPTY & BLDGS COMMN REV RFDG AGY FD PJ 113 B/E 4.00 % Due Apr 1",
+   "asset_type": "GS",
+   "idx": 290,
+   "owner": "SELF",
+   "tx_date": "2025-03-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "LITTLE ROCK AR SWR REV RFDG 8/E OID ®97.770 3.32% 3.125 % Duo Oct 1",
+   "asset_type": "GS",
+   "idx": 291,
+   "owner": "SELF",
+   "tx_date": "2025-03-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "MARATHON CNTY WI BLDG HLTH CARE PJ 20228 B/E 3.00 % Duo Fob 1",
+   "asset_type": "GS",
+   "idx": 292,
+   "owner": "SELF",
+   "tx_date": "2025-03-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "NEVADA ST RFDG SER H DB B/E PTC 3.00 % Duo A·~ 1",
+   "asset_type": "GS",
+   "idx": 293,
+   "owner": "SELF",
+   "tx_date": "2025-03-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NORTHWEST HARRIS CNTY TX MUD 5 SER A BAM B/E PTC 3.00 % Duo May 1",
+   "asset_type": "GS",
+   "idx": 294,
+   "owner": "SELF",
+   "tx_date": "2025-03-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "OTTUMWA IA RFDG CAP LN NT 2020 8/E CR ENH 4.00 % Duo Mav 1",
+   "asset_type": "GS",
+   "idx": 295,
+   "owner": "SELF",
+   "tx_date": "2025-03-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SOUTH LK Ml SCHS BLDG SITE QSBLF B/E 6.00 % Duo Nov 1",
+   "asset_type": "GS",
+   "idx": 296,
+   "owner": "SELF",
+   "tx_date": "2025-03-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ST MARTIN PARISH LA SCH DIST PARISH WIDE SER A AGM B/E Ol0@98.001 3.3% 3.125 % Duo Mar 1",
+   "asset_type": "GS",
+   "idx": 297,
+   "owner": "SELF",
+   "tx_date": "2025-03-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "STATE UNIV IA UNIV REV UTIL SYS RFDG ST UNIV IA SER A 8/E ETM 5.00 % Duo Nov 1",
+   "asset_type": "GS",
+   "idx": 298,
+   "owner": "SELF",
+   "tx_date": "2025-03-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SWAN CREEK INTERCNTY DRAIN DIST Ml DRAIN 2018 REV B/E B/Q 3.00 % Due Jun 1",
+   "asset_type": "GS",
+   "idx": 299,
+   "owner": "SELF",
+   "tx_date": "2025-03-12",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "TULSA OK PUB FACS AUTH CAP IMPT REV B/E PTC 3.00 % Duo Jun 1",
+   "asset_type": "GS",
+   "idx": 300,
+   "owner": "SELF",
+   "tx_date": "2025-03-12",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "BUTLER CNTY KS UNI SCH DIST 385 ANDOVER RFDG & SCH BLDG B/E PTC 4.00 % Duo Sep 1",
+   "asset_type": "GS",
+   "idx": 301,
+   "owner": "SELF",
+   "tx_date": "2025-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "FLAGSTAFF'AZ PLEDGED REV OBLIG RD REPAIR STR IMPT PJ B/E 4.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 302,
+   "owner": "SELF",
+   "tx_date": "2025-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "GILBERT AZ SUB LIEN PLEDGED REVOBLIGS B/E OID 11il97.6553.45% 325 % Due Jul 1",
+   "asset_type": "GS",
+   "idx": 303,
+   "owner": "SELF",
+   "tx_date": "2025-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "GREENE CNTY MO CTF PARTN REV SER A B/E 4.00 % Due Mar 1",
+   "asset_type": "GS",
+   "idx": 304,
+   "owner": "SELF",
+   "tx_date": "2025-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "HIDALGO CNTY TX DRAIN DIST 1 IMPT B/E 5.00 % Due Sep 1",
+   "asset_type": "GS",
+   "idx": 305,
+   "owner": "SELF",
+   "tx_date": "2025-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "f HUTCHINSON KS SERAB/E4.00 % Duo Oct 1",
+   "idx": 306,
+   "owner": "SELF",
+   "tx_date": "2025-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "KING CNTY WA SCH DIST 210 FEDL WAY RFDG 2015 B/E CR ENH 4.00 % Due Doc 1",
+   "asset_type": "GS",
+   "idx": 307,
+   "owner": "SELF",
+   "tx_date": "2025-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "KING CNTY WA SCH DIST 411 ISSAQUAH RFDG B/E PTC BD GTY PG 3.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 308,
+   "owner": "SELF",
+   "tx_date": "2025-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "MARATHON CNTY WI BLDG HLTH CARE PJ 20228 B/E 3.00 % Duo Fob 1",
+   "asset_type": "GS",
+   "idx": 309,
+   "owner": "SELF",
+   "tx_date": "2025-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "NEWYORKN Y CITYT 5% DUE ON 11/01/501",
+   "asset_type": "GS",
+   "idx": 310,
+   "owner": "SELF",
+   "tx_date": "2025-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "NORTH ANDOVER MA MUN PURP LN B/E B/Q PTC 3.00 % Duo Jun 15",
+   "asset_type": "GS",
+   "idx": 311,
+   "owner": "SELF",
+   "tx_date": "2025-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NORTHEAST WI TECH CLLG DIST WI PROM NT SERB B/E 4.00 % Duo Oct 1",
+   "asset_type": "GS",
+   "idx": 312,
+   "owner": "SELF",
+   "tx_date": "2025-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Filer's Name Pai:e 314 YES OKLAHOMA CNTY OK INDPT SCH DIST 89 OK COMB PURP SER A B/E 3.00 % Due Jul 1",
+   "asset_type": "GS",
+   "idx": 313,
+   "owner": "SELF",
+   "tx_date": "2025-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "ST PAUL MN HSG & REDEV AUTH HOSP REV FAC A B/E PTC 5.00 % Due Nov 15",
+   "asset_type": "GS",
+   "idx": 314,
+   "owner": "SELF",
+   "tx_date": "2025-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "TRINllY RVR AUTH TX 10 MILE CREEK SYS REV RFDG & IMPT B/E 5.00 % Due Aun 1",
+   "asset_type": "GS",
+   "idx": 315,
+   "owner": "SELF",
+   "tx_date": "2025-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "TULSAOKSERAB/E4.00 % Duo Jan",
+   "idx": 316,
+   "owner": "SELF",
+   "tx_date": "2025-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "WAUKESHA WI SWR SYS REV B/E PTC 4.00 % Due May 1",
+   "asset_type": "GS",
+   "idx": 317,
+   "owner": "SELF",
+   "tx_date": "2025-03-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "DISTRICT COLUMBIA SER D B/E 5.00 % Duo Jun 1",
+   "asset_type": "GS",
+   "idx": 318,
+   "owner": "SELF",
+   "tx_date": "2025-03-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "GEORGETOWN CNTY SC SCH DIST B/E 4.00 % Due Mar 1",
+   "asset_type": "GS",
+   "idx": 319,
+   "owner": "SELF",
+   "tx_date": "2025-03-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "GRAND BLANC Ml CMNTY SCHS BLDG SITE B/E QSBLF 5.00 % Duo Nov 1",
+   "asset_type": "GS",
+   "idx": 320,
+   "owner": "SELF",
+   "tx_date": "2025-03-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "KATY TX INDPT SCH DIST SCH BLDG SER A B/E PSF GTD PTC 4.00 % Duo Fob 15",
+   "asset_type": "GS",
+   "idx": 321,
+   "owner": "SELF",
+   "tx_date": "2025-03-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "I YES KNOX CNTY TN B/E 5.00 % Duo Jun 1",
+   "asset_type": "GS",
+   "idx": 322,
+   "owner": "SELF",
+   "tx_date": "2025-03-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "MIDVlEW OH LOC SCH DIST CTF PARTN RFDG REV BAM B/E 4.00 % Duo Nov 1",
+   "asset_type": "GS",
+   "idx": 323,
+   "owner": "SELF",
+   "tx_date": "2025-03-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "NORTH PUTNAM IN MID SCH BLDG CORP REV 1ST MTG B/E PTC ST INTRCPT 4.00 % Duo Jan 15",
+   "asset_type": "GS",
+   "idx": 324,
+   "owner": "SELF",
+   "tx_date": "2025-03-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NORTHWEST TX INDPT SCH DIST SCH BLDG B/E PSF GTD PTC 4.00 % Due Fob 15",
+   "asset_type": "GS",
+   "idx": 325,
+   "owner": "SELF",
+   "tx_date": "2025-03-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ROUND ROCK TX INDPT SCH DIST BLDG RFDG PSF GTD SER A B/E 4.00 % Duo Aue 1",
+   "asset_type": "GS",
+   "idx": 326,
+   "owner": "SELF",
+   "tx_date": "2025-03-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "SCOTT CNTY KY SCH DIST FIN CORP SCH BLDG RFDG REV BIE 4.00 % Duo Fob 1",
+   "asset_type": "GS",
+   "idx": 327,
+   "owner": "SELF",
+   "tx_date": "2025-03-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ST CHARLES PARISH LA SCH DIST 1 PARISH WIDE B/E 3.00 % Due Mar 1",
+   "asset_type": "GS",
+   "idx": 328,
+   "owner": "SELF",
+   "tx_date": "2025-03-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ST CHARLES PARISH LA SCH DIST 1 PARISH WIDE BIE 010 @97.746 3.45% 3.25 % Duo Mar 1",
+   "asset_type": "GS",
+   "idx": 329,
+   "owner": "SELF",
+   "tx_date": "2025-03-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "TAMPA BAY WTR FL A REGL WTR SPLY AUTH UTIL SYS REV RFOG SER A B/E 4.00 % Due Oct 1",
+   "asset_type": "GS",
+   "idx": 330,
+   "owner": "SELF",
+   "tx_date": "2025-03-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "TAYLOR Ml DB BAM B/E 4.00 % Duo Mar 1",
+   "asset_type": "GS",
+   "idx": 331,
+   "owner": "SELF",
+   "tx_date": "2025-03-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "TEXAS ST WTR FINL ASSIST RFDG SERB DB B/E 4.00 % Duo Aue 1",
+   "asset_type": "GS",
+   "idx": 332,
+   "owner": "SELF",
+   "tx_date": "2025-03-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "YORK CNTY SC SCH DIST 4 FORT MILL SER C B/E 3.20 % Duo Mar 1",
+   "asset_type": "GS",
+   "idx": 333,
+   "owner": "SELF",
+   "tx_date": "2025-03-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "METROPOLITAN GOVT NASHVILLE & DAVIDSON CNTY TN RFDG B/E PTC 4.00 % Duo Jan 1",
+   "asset_type": "GS",
+   "idx": 334,
+   "owner": "SELF",
+   "tx_date": "2025-03-17",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "GALENA PK TX INDPT SCH DIST RFDG PSF GTD B/E 4.00 % Duo Aug 15",
+   "asset_type": "GS",
+   "idx": 335,
+   "owner": "SELF",
+   "tx_date": "2025-03-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "HOUSTON TX INOPT SCH DIST RFDG SCHLHSE B/E PTC PSF GTD 4.00 % Duo Fob 15",
+   "asset_type": "GS",
+   "idx": 336,
+   "owner": "SELF",
+   "tx_date": "2025-03-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "LAS VEGAS NV MEDIUM TERM TRANSN SER A B/E PTC 4.00 % Duo Jun 1",
+   "asset_type": "GS",
+   "idx": 337,
+   "owner": "SELF",
+   "tx_date": "2025-03-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "HENDERSON CNTY NC LTD OBLIG REV B/E 4.00 % Duo Jun 1",
+   "asset_type": "GS",
+   "idx": 338,
+   "owner": "SELF",
+   "tx_date": "2025-03-19",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "Filer's Name Page 340 YES HOUSTON TEX INDPT S 5% DUE ON 09/15129",
+   "asset_type": "GS",
+   "idx": 339,
+   "owner": "SELF",
+   "tx_date": "2025-03-19",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MESA AZ UTIL SYS REV B/E 3.50 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 340,
+   "owner": "SELF",
+   "tx_date": "2025-03-19",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ARAPAHOE CNTY CO SCH DIST 001 ENGLEWOOD B/E 4.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 341,
+   "owner": "SELF",
+   "tx_date": "2025-03-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "HONOLULU HI CITY & CNTY WSTWTR SYS REV RFDG SR 1ST BO RESOLTN B B/E PTC 4.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 342,
+   "owner": "SELF",
+   "tx_date": "2025-03-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "LAMESA TX INDPTSCH DIST BLDG2019 B/E B/Q PSF GTD4.00 % Duo Aug 15",
+   "asset_type": "GS",
+   "idx": 343,
+   "owner": "SELF",
+   "tx_date": "2025-03-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "METROPOLITAN GOVT NASHVILLE & DAVIDSON CNTY TN IMPT B/E 4.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 344,
+   "owner": "SELF",
+   "tx_date": "2025-03-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "COLUMBUS OH VARIOUS PURP SER A B/E PTC 3.00 % Duo Aue 15",
+   "asset_type": "GS",
+   "idx": 345,
+   "owner": "SELF",
+   "tx_date": "2025-03-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CONROE TX CTF OBLIG DB B/E 01D @98.465 3.15% 3.00 % Duo Mar 1",
+   "asset_type": "GS",
+   "idx": 346,
+   "owner": "SELF",
+   "tx_date": "2025-03-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "EL PASO TX INDPT SCH DIST SCH BLDG B/E PSF GTD 01D 1Zil98.254 3.16 3.00 % Duo Aug 15",
+   "asset_type": "GS",
+   "idx": 347,
+   "owner": "SELF",
+   "tx_date": "2025-03-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "HARTSVILLE SC COMB SYS IMPT REV 2018 BAM B/E B/Q CR ENH 4.00 % Duo Jun 1",
+   "asset_type": "GS",
+   "idx": 348,
+   "owner": "SELF",
+   "tx_date": "2025-03-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "JEFFERSON GA SCH DIST RFDG B/E PTC ST INTRCPT 4.00 % Duo Fob 1",
+   "asset_type": "GS",
+   "idx": 349,
+   "owner": "SELF",
+   "tx_date": "2025-03-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MARICOPA CNTY AZ ELEM SCH DIST 25 LIBERTY SCH IMPT A AGM B/E PTC 4.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 350,
+   "owner": "SELF",
+   "tx_date": "2025-03-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MURFREESBORO TN B/E 3.05 % Duo Jun 1",
+   "asset_type": "GS",
+   "idx": 351,
+   "owner": "SELF",
+   "tx_date": "2025-03-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "NEWBURYPORT MA MUN PURP LN B/E 3.00 % Duo Oct 15",
+   "asset_type": "GS",
+   "idx": 352,
+   "owner": "SELF",
+   "tx_date": "2025-03-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "BLACKWELL TX CONS INDPT SCH DIST B/E B/Q CR ENH 4.00 % Duo Fob 15",
+   "asset_type": "GS",
+   "idx": 353,
+   "owner": "SELF",
+   "tx_date": "2025-03-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CLARK CNTY NV BO BK RFDG DB B/E 4.00 % Due Jun 1",
+   "asset_type": "GS",
+   "idx": 354,
+   "owner": "SELF",
+   "tx_date": "2025-03-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "COMAL TX INDPT SCH DIST RFDG PSF GTD B/E 3.50 % Duo Fob 1",
+   "asset_type": "GS",
+   "idx": 355,
+   "owner": "SELF",
+   "tx_date": "2025-03-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "DUCHESNE CNTY UT SCH DIST SCH BLDG UT SCH BO GTY PG B/E PTC 4.00 % Duo Jun 1",
+   "asset_type": "GS",
+   "idx": 356,
+   "owner": "SELF",
+   "tx_date": "2025-03-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "HOUSTON TX INDPT SCH DIST RFDG SCHLHSE PSF GTD B/E PTC 4.00 % Duo Fob 15",
+   "asset_type": "GS",
+   "idx": 357,
+   "owner": "SELF",
+   "tx_date": "2025-03-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "JOHNSON CNTY MO SCH DIST R VI WARRENSBURG MDDP B/E 4.00 % Duo Mar 1",
+   "asset_type": "GS",
+   "idx": 358,
+   "owner": "SELF",
+   "tx_date": "2025-03-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "KAUKAUNA WI SCH DIST PROM NT AGI B/E 4.00 % Duo Mar 1",
+   "asset_type": "GS",
+   "idx": 359,
+   "owner": "SELF",
+   "tx_date": "2025-03-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "KINGSPORT TN RFDG & IMPT SER A B/E PTC 3.00 % Duo Mar 1",
+   "asset_type": "GS",
+   "idx": 360,
+   "owner": "SELF",
+   "tx_date": "2025-03-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "LAWRENCE TWP IN SCH BLDG CORP 1ST MTG REV B/E PTC ST INTRCPT 3.00 % Duo Jul 15",
+   "asset_type": "GS",
+   "idx": 361,
+   "owner": "SELF",
+   "tx_date": "2025-03-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MAPLEWOOD RICHMOND HTS MO SCH DIST IMPT RFDG SER A B/E PTC 3.00 % Duo Mar 1",
+   "asset_type": "GS",
+   "idx": 362,
+   "owner": "SELF",
+   "tx_date": "2025-03-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "TAMPA BAY WTR FL REGL WTR SPLY AUTH UTIL SYS REV RFDG SER A B/E 4.00 % Due Oct 1",
+   "asset_type": "GS",
+   "idx": 363,
+   "owner": "SELF",
+   "tx_date": "2025-03-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "WEST FARGO ND PUB SCH DIST 6 BLDG SER A B/E PTC 4.00 % Duo May 1",
+   "asset_type": "GS",
+   "idx": 364,
+   "owner": "SELF",
+   "tx_date": "2025-03-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "lostructisms Filer's Name Pa2e 366 YES STERLING HEIGHTS Ml CAP IMPT BIE 4.00 % Duo Aor 1",
+   "asset_type": "GS",
+   "idx": 365,
+   "owner": "SELF",
+   "tx_date": "2025-03-26",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "HAWKEYE CMNTY CLLG IA SCH 2025 BIE 4.00 % Duo Jun 1",
+   "asset_type": "GS",
+   "idx": 366,
+   "owner": "SELF",
+   "tx_date": "2025-03-27",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MARYLAND ST OPT TRANSN CONS TRANSN REV BIE 3.00 % Duo Nov 1",
+   "asset_type": "GS",
+   "idx": 367,
+   "owner": "SELF",
+   "tx_date": "2025-03-27",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "METROPOLITAN ATLANTA RAPID TRAN AUTH GA SALES TAX REV RFDG D BIE 4.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 368,
+   "owner": "SELF",
+   "tx_date": "2025-03-27",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MISSOURI ST HSG DEV COMM SNGL FAM MTG REV SER C BIE GTD GNMA 3.70 % Duo Nov 1",
+   "asset_type": "GS",
+   "idx": 369,
+   "owner": "SELF",
+   "tx_date": "2025-03-27",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MISSOURI ST HSG DEV COMM SNGL FAM MTG REV SER C B1E GTD GNMA 3.75 % Duo May 1",
+   "asset_type": "GS",
+   "idx": 370,
+   "owner": "SELF",
+   "tx_date": "2025-03-27",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SNOHOMISH CNTY WA LTD TX 2018A BIE 4.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 371,
+   "owner": "SELF",
+   "tx_date": "2025-03-27",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "SNOHOMISH CNTY WA LTD TX 2018A BIE 4.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 372,
+   "owner": "SELF",
+   "tx_date": "2025-03-27",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "TEXAS ST WTR FINL ASSIST RFDG SERB DB BIE 4.00 % Duo Aua 1",
+   "asset_type": "GS",
+   "idx": 373,
+   "owner": "SELF",
+   "tx_date": "2025-03-27",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ALBUQUERQUE NM TRANSN INFRA GROSS RCPTS TAX IMPT REV BIE PTC 4.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 374,
+   "owner": "SELF",
+   "tx_date": "2025-04-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "FLORIDA ST TPK AUTH REV RFDG SER ABIE 4.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 375,
+   "owner": "SELF",
+   "tx_date": "2025-04-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "HARRIS CNTY TX MUD 106 RFDG 2015 BIE B/Q 010 (l!l97.304 3.35% 3.125 % Duo Soo 1",
+   "asset_type": "GS",
+   "idx": 376,
+   "owner": "SELF",
+   "tx_date": "2025-04-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "KIRTLAND Ml CMNTY CLLG DIST CLLG FAC BIE B/Q 4.00 % Duo Mav 1",
+   "asset_type": "GS",
+   "idx": 377,
+   "owner": "SELF",
+   "tx_date": "2025-04-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "NEW BRAUNFELS TX INDPT SCH DIST BLDG RFDG BIE PSF GTD 4.00 % Duo Fob 1",
+   "asset_type": "GS",
+   "idx": 378,
+   "owner": "SELF",
+   "tx_date": "2025-04-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "RALEIGH NC COMB ENTRPRS SYS REV COMB SER A B1E 4.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 379,
+   "owner": "SELF",
+   "tx_date": "2025-04-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SABINE PASS TX INDPT SCH DIST RFDG PSF GTD BIE B/Q PTC 325 % Due Aua 15",
+   "asset_type": "GS",
+   "idx": 380,
+   "owner": "SELF",
+   "tx_date": "2025-04-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "SPRINGFIELD MO PUB UTIL REV RFDG BIE PTC 3.25 % Due Aua 1",
+   "asset_type": "GS",
+   "idx": 381,
+   "owner": "SELF",
+   "tx_date": "2025-04-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "WASHOE CNTY NV SCH DIST SCH IMPT SER B BIE 4.00 % Duo May 1",
+   "asset_type": "GS",
+   "idx": 382,
+   "owner": "SELF",
+   "tx_date": "2025-04-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ERIE CO CTF PARTN REV BIE 010 11ll97.499 3.7% 3.50 % Duo Nov 1",
+   "asset_type": "GS",
+   "idx": 383,
+   "owner": "SELF",
+   "tx_date": "2025-04-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "PLAINFIELD IN CMNTY HIGH SCH BLDG 1ST MTG SER A REV BIE ST INTRCPT PTC 4.00 % Duo Jan 15",
+   "asset_type": "GS",
+   "idx": 384,
+   "owner": "SELF",
+   "tx_date": "2025-04-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "PORT ARTHUR TX INDPT SCH DIST RFDG SERB PSF GTO B1E PTC 4.00 % Duo Fob 15",
+   "asset_type": "GS",
+   "idx": 385,
+   "owner": "SELF",
+   "tx_date": "2025-04-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "NEVADA ST HWY IMPT A REV BIE 4.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 386,
+   "owner": "SELF",
+   "tx_date": "2025-04-07",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "TEXAS WTR DEV BRO ST IMPLEMENTATION REV BIE 4.00 % Duo Oct 15",
+   "asset_type": "GS",
+   "idx": 387,
+   "owner": "SELF",
+   "tx_date": "2025-04-07",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CENTRAL WA UNIV SYS REV RFOG AGM CR 010 11ll98.994 3.45% 3.375 % Duo May 1",
+   "asset_type": "GS",
+   "idx": 388,
+   "owner": "SELF",
+   "tx_date": "2025-04-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CINCINNATI OH VARIOUS PURP IMPT DB BIE 4.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 389,
+   "owner": "SELF",
+   "tx_date": "2025-04-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ELYRIA OH RFDG VARIOUS PURP IMPT AGM BIE 010 \"\"°\".661 3.13% 3.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 390,
+   "owner": "SELF",
+   "tx_date": "2025-04-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "lns~ Filer's Name I Pa2e 392 YES FORT BEND CNTY TX MUD 25 AGM BIE B/Q 010 \"\"\"B.357 3.15% 3.00 % Duo Oct 1",
+   "asset_type": "GS",
+   "idx": 391,
+   "owner": "SELF",
+   "tx_date": "2025-04-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "GEORGETOWN TX COMB TAX & REV CTF OBLIG 2021 DB B1E 4.00 % Duo Aua 15",
+   "asset_type": "GS",
+   "idx": 392,
+   "owner": "SELF",
+   "tx_date": "2025-04-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "I YES IOWA CITY IA BIE 3.00 % Duo Jun 1",
+   "asset_type": "GS",
+   "idx": 393,
+   "owner": "SELF",
+   "tx_date": "2025-04-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "JOPLIN MO SCH BLDG MDDP B/E O1D\"\"\"A.817 3.1% 3.00 % Duo Mar 1",
+   "asset_type": "GS",
+   "idx": 394,
+   "owner": "SELF",
+   "tx_date": "2025-04-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "NEW HAMPSHIRE ST HSG FIN AUTH SNGL FAM MTG REV ACQ 2023A B1E GUAR GNMA 3.00 % Due Jul 1",
+   "asset_type": "GS",
+   "idx": 395,
+   "owner": "SELF",
+   "tx_date": "2025-04-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "WENlZVILLE MO SCH DIST R 04 BIE 4.00 % Duo Mar 1",
+   "asset_type": "GS",
+   "idx": 396,
+   "owner": "SELF",
+   "tx_date": "2025-04-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "COMMONWEALTH FING A 5% DUE ON 06/01/28",
+   "asset_type": "GS",
+   "idx": 397,
+   "owner": "SELF",
+   "tx_date": "2025-04-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ARLINGTON CNTY VA PUB IMPT BIE 5.00 % Duo Jun 15",
+   "asset_type": "GS",
+   "idx": 398,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "BROOKINGS SD SCH DIST 05 1 RFDG BIE 4.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 399,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "BUFFALO MN TAX ABATEMT UTIL RFOG 2023 B DB BIE 5.00 % Duo Fob 1",
+   "asset_type": "GS",
+   "idx": 400,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CHARLOTTE MECKLENBURG HOSP AUTH NC HC SYS REV RFOG CAROLINAS HCA B1E 5.00 % Duo Jan 15",
+   "asset_type": "GS",
+   "idx": 401,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CLARK CNTY WA PUO 001 WTR REV RFDG SYS B1E 5.00 % Duo Jan 1",
+   "asset_type": "GS",
+   "idx": 402,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CUYAHOGA CNTY OH ECON DEV REV RFDG SER D B/E 5.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 403,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CYPRESS FAIRBANKS TX INDPT SCH DIST RFDG SCH BLDG PSF GTD BIE 5.00 % Duo Fob 15",
+   "asset_type": "GS",
+   "idx": 404,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "DAKOTA CNTY MN CMNTY DEV AGY GOVTL REV RFDG SERB B/E 5.00 % Duo Jan 1",
+   "asset_type": "GS",
+   "idx": 405,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "EL PASO TX WTR & SWR REV RFDG & IMPT B/E 5.00 % Duo Mar 1",
+   "asset_type": "GS",
+   "idx": 406,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "FORSYTH CNTY GA SCH DIST B/E 5.00 % Duo Fob 1",
+   "asset_type": "GS",
+   "idx": 407,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "GREENE CNTY MO CTF PARTN CAP PJS SER A REV B1E 5.00 % Due Mar 1",
+   "asset_type": "GS",
+   "idx": 408,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "INDIANA FIN AUTH HOSP RFDG IN UNIV HLTH OBLIG GRP SER A REV B/E 5.00 % Due Doc 1",
+   "asset_type": "GS",
+   "idx": 409,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "INOIANA ST FIN AUTH REV ST REVLVG FD PG SER A GREEN BO BIE 5.00 % Duo Fob 1",
+   "asset_type": "GS",
+   "idx": 410,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "METROPOLITAN ATLANTA RAPID TRAN AUTH GA SALES TAX REV 3RD INDENT ABIE 5.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 411,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MUNSTER IN SCH BLDG CORP AD VALOREM PPTYTAX 1ST MTG REV B1E 5.00 % Duo Jan 15",
+   "asset_type": "GS",
+   "idx": 412,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "NEBRASKA ST PUB PWR DIST REV GENL SER A B/E 5.00 % Duo Jan 1",
+   "asset_type": "GS",
+   "idx": 413,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NORTH CHARLESTON SC LTD OBLIG TAX INCRMT PLG 2024 REV B1E 5.00 % Duo Oct 1",
+   "asset_type": "GS",
+   "idx": 414,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "OHIO ST HOSP FAC RFDG CLEVELAND CLINIC HLTH SYS OBLIG GRP B REV B1E 5.00 % Duo Jan 1",
+   "asset_type": "GS",
+   "idx": 415,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "OHIO ST HSG FIN AGY RESDNTL MTG REV SER ABIE 5.00 % Duo Mar 1",
+   "asset_type": "GS",
+   "idx": 416,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "J.ns.tr.u.moM Filer's Name I Pa2c 418 YES ORANGE CNTY FL SCH BRD CTF PRTNRSHP RFDG SER C REV 8/E PTC 5.00 % Due Aun 1",
+   "asset_type": "GS",
+   "idx": 417,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "PENNSYLVANIA ST COMMN TPK REV SERB 8/E 5.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 418,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "PHILADELPHIA PA GAS WKS REV 1998GENL ORDINANCE 15TH 8/E 5.00 % Duo A•on 1",
+   "asset_type": "GS",
+   "idx": 419,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "RACINE WI RFOG SERB 8/E 4.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 420,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "RICHMOND VA PUB UTIL REV RFDG SER A 8/E 5.00 % Duo Jan 15",
+   "asset_type": "GS",
+   "idx": 421,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ROANOKE VA PUB IMPT SER A 8/E 5.00 % Duo Aor 1",
+   "asset_type": "GS",
+   "idx": 422,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "SHELDON 1X INDPT SCH DIST RFOG SCH BLDG PSF GTD 8/E 5.00 % Duo Fob 15",
+   "asset_type": "GS",
+   "idx": 423,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SPRINGFIELD MO SCH DIST R12 SCH RFDG SERB MDDP 8/E 5.00 % Due Mar 1",
+   "asset_type": "GS",
+   "idx": 424,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "TEXAS ST TRANSN COMMN HWY IMPT SER A 8/E 5.00 % Duo Af,r 1",
+   "asset_type": "GS",
+   "idx": 425,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "THURSTON & PIERCE CNTYS WA CMNTY SCH YELM 8/E 5.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 426,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "TRAVIS CNTY 1X RFDG SER A 8/E 5.00 % Duo Mar 1",
+   "asset_type": "GS",
+   "idx": 427,
+   "owner": "SELF",
+   "tx_date": "2025-05-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "JEA FLA ELEC SYS REV SUB REV 5.0000% 10/01 /26",
+   "asset_type": "GS",
+   "idx": 428,
+   "owner": "SELF",
+   "tx_date": "2025-05-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ALLEGHENY CNTY PA HOSP DEV AUTH REV SER A UNIV PITTSBURGH MED CTR 8/E 5.00 % Duo Jul 15",
+   "asset_type": "GS",
+   "idx": 429,
+   "owner": "SELF",
+   "tx_date": "2025-05-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ARIZONA BRD REGTS p;z ST UNIV SYS REV SPEED RFDG 8/E 5.00 % Duo Aug 1",
+   "asset_type": "GS",
+   "idx": 430,
+   "owner": "SELF",
+   "tx_date": "2025-05-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "BROWARD CNTY FL HSG FIN AUTH MLTIFAM HSG REV ST JOSEPH MANOR II 8/E 3.50 % Duo Aor 1",
+   "asset_type": "GS",
+   "idx": 431,
+   "owner": "SELF",
+   "tx_date": "2025-05-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "BURKE CNTY GA DEV AUTH POLLTN CTL REV GA PWR PLT VOGTLE PJ 4TH 94 8/E 3.80 % Duo Oct 1",
+   "asset_type": "GS",
+   "idx": 432,
+   "owner": "SELF",
+   "tx_date": "2025-05-06",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "COLORADO SPRINGS co UTIL REV RFOG SYS SER A 2 8/E 5.00 % Duo Nov 15",
+   "asset_type": "GS",
+   "idx": 433,
+   "owner": "SELF",
+   "tx_date": "2025-05-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CUYAHOGA OH MET HSG AUTH MLTIFAM HSG REV WADE PK LP 8/E 4.75 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 434,
+   "owner": "SELF",
+   "tx_date": "2025-05-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "DICKINSON CNTY KS UNI SCH DIST 435 ABILENE AGM 8/E BIO 5.00 % Duo Sop 1",
+   "asset_type": "GS",
+   "idx": 435,
+   "owner": "SELF",
+   "tx_date": "2025-05-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "DUBUQUE IA CMNTY SCH DIST INFRA SALES SVCS & USE TAX REV BAM 8/E 5.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 436,
+   "owner": "SELF",
+   "tx_date": "2025-05-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "KNOXVILLE TN CMNTY DEV CORP MLTIFAM REV COLL HSG WILLOW PJ 8/E 3.75 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 437,
+   "owner": "SELF",
+   "tx_date": "2025-05-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "LEXINGTON CNTY SC HLTH HLTH SVCS DIST INC HOSP RFDG MED CTR REV 8/E 5.00 % Duo Nov 1",
+   "asset_type": "GS",
+   "idx": 438,
+   "owner": "SELF",
+   "tx_date": "2025-05-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NEWARK HIGH ED FIN CORP 1X ED REV THE HUGHEN CTR INC 2021 A 8/E PSF GTD 4.00 % Due Aug 15",
+   "asset_type": "GS",
+   "idx": 439,
+   "owner": "SELF",
+   "tx_date": "2025-05-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "NUECES RIV AUTH 1XW TR SUPPLY REV RFDG CORPUS CHRISTI LK TEXANA PJ 8/E 5.00 % Duo Jul 15",
+   "asset_type": "GS",
+   "idx": 440,
+   "owner": "SELF",
+   "tx_date": "2025-05-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "OHIO ST WTR DEV AUTH POLLTN CTL FACS REV FD BD SER A 8/E 5.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 441,
+   "owner": "SELF",
+   "tx_date": "2025-05-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "PIERCE CNTY WA SCH DIST 010 TACOMA RFDG 8/E 5.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 442,
+   "owner": "SELF",
+   "tx_date": "2025-05-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Filer's Name I Pa2e 444 YES TEXAS CITY TX INDPT SCH DIST 8/E PSF GTD 5.00 % Duo ._,on 15",
+   "asset_type": "GS",
+   "idx": 443,
+   "owner": "SELF",
+   "tx_date": "2025-05-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "TEXAS WOMANS UNIV REV FING SYS SER A 8/E 5.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 444,
+   "owner": "SELF",
+   "tx_date": "2025-05-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "UNIVERSITY CO ENTRPRS SYS REV SER A 8/E 5.00 % Duo Jun 1",
+   "asset_type": "GS",
+   "idx": 445,
+   "owner": "SELF",
+   "tx_date": "2025-05-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "UNIVERSITY MN SPL PURP REV RFDG SER A 8/E 5.00 % Due ._,on 1",
+   "asset_type": "GS",
+   "idx": 446,
+   "owner": "SELF",
+   "tx_date": "2025-05-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "WATERTOWN S D SALES TAX REV RFDG 2020 SD 8/E 4.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 447,
+   "owner": "SELF",
+   "tx_date": "2025-05-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "PALM BEACH CNTY FLA SCH BRO 5.0000% 08/01/30",
+   "idx": 448,
+   "owner": "SELF",
+   "tx_date": "2025-05-07",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "DWAL CNTY FLA SCH BRO CTFS 5.0000% 07/01/29",
+   "idx": 449,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "CONNECTICUT ST HEALTH & EDL 5.0000% 07/01/64",
+   "idx": 450,
+   "owner": "SELF",
+   "tx_date": "2025-05-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "KANSAS ST DEPT TRANSN HWY RE 5.0000%",
+   "idx": 451,
+   "owner": "SELF",
+   "tx_date": "2025-05-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "MIAMI-DADE CNTY 5.25% DUE ON 04/01/37",
+   "asset_type": "GS",
+   "idx": 452,
+   "owner": "SELF",
+   "tx_date": "2025-05-27",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "NEW HAMPSHIRE HEALT 5% DUE ON 08/01/55",
+   "asset_type": "GS",
+   "idx": 453,
+   "owner": "SELF",
+   "tx_date": "2025-05-27",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "CHICAGO ILL O HA 5.25% DUE ON 01/01/53",
+   "asset_type": "GS",
+   "idx": 454,
+   "owner": "SELF",
+   "tx_date": "2025-05-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "KENTUCKYSTPPTY & BLDGSCOMMN REVPJ 108SERAB/E PTC5.00 % Duo ._,on 1,2032",
+   "idx": 455,
+   "owner": "SELF",
+   "tx_date": "2025-05-29",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "KENTUCKY ST PPTY & BLDGS COMMN REV RFDG PJ 110 8/E PTC 5.00 % Duo AuQ 1",
+   "asset_type": "GS",
+   "idx": 456,
+   "owner": "SELF",
+   "tx_date": "2025-05-29",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "SAN ANTONIO TEX WTR REV SYS 5.0000% 05/15/27",
+   "asset_type": "GS",
+   "idx": 457,
+   "owner": "SELF",
+   "tx_date": "2025-05-29",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "GREATER CLARK BLDG 5% DUE ON 07/15/39 460 YES NEW YORK NY GO BOS FISCAL 5.0000% 08/01/29",
+   "asset_type": "GS",
+   "idx": 458,
+   "owner": "SELF",
+   "tx_date": "2025-06-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "HOUSTON TX ARPT SYS REV RFDG SUB LIEN SERB 8/E 5.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 459,
+   "owner": "SELF",
+   "tx_date": "2025-06-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "MICHIGAN ST HOSP FIN AUTH REV ASCENSION HLTH SR CR GRP 2010F 6 8/E 4.00 % Due Nov 15",
+   "asset_type": "GS",
+   "idx": 460,
+   "owner": "SELF",
+   "tx_date": "2025-06-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "I YES TEMPLE TX NT 8/E 4.00 % Duo Aua 1",
+   "asset_type": "GS",
+   "idx": 461,
+   "owner": "SELF",
+   "tx_date": "2025-06-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "NORTH SUMTER CNTY UTIL DEPENDENT DIST FL UTIL REV RFDG 2020 8/E 5.00 % Duo Oct 1",
+   "asset_type": "GS",
+   "idx": 462,
+   "owner": "SELF",
+   "tx_date": "2025-06-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "KENTUCKY INC KY PUB ENERGY AUTH GAS SPLY REV SER A 8/E 4.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 463,
+   "owner": "SELF",
+   "tx_date": "2025-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MILL CREEK IN CMNTY SCH BLDG AD VALOREM PPTY TAX 1ST MTG REV 8/E 8/Q 5.00 % Duo Jan 15",
+   "asset_type": "GS",
+   "idx": 464,
+   "owner": "SELF",
+   "tx_date": "2025-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "NEW YORK NY CITY HSG DEV CO 3.7500% 05/01/65",
+   "idx": 465,
+   "owner": "SELF",
+   "tx_date": "2025-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "COLORADO HEALTH FACS AUTH RE 5.0000% 11/15/60",
+   "idx": 466,
+   "owner": "SELF",
+   "tx_date": "2025-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "PEFA INC IOWA GAS PROJ REV B 5.0000% 09/01/49",
+   "asset_type": "GS",
+   "idx": 467,
+   "owner": "SELF",
+   "tx_date": "2025-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "JnstOJctions Filer's Name I Paec 470 YES INDIANA FIN AUTH HEALTH SYS 5.0000% 10/01/64",
+   "idx": 468,
+   "owner": "SELF",
+   "tx_date": "2025-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "EAST LANSING Ml SCH DIST RFDG B/E QSBLF 5.00 % Duo Mav 1",
+   "asset_type": "GS",
+   "idx": 469,
+   "owner": "SELF",
+   "tx_date": "2025-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "RHOOE ISLAND HSG & MTG FIN CORP REV MLTI FAM DEV SUSTAIN SER 1 B B/E 1.90 % Due Oct 1",
+   "asset_type": "GS",
+   "idx": 470,
+   "owner": "SELF",
+   "tx_date": "2025-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "ALLEN CNTY KS PUB BLDG COMMN REV RFDG SER A B/E 5.00 % Due Dec 1",
+   "asset_type": "GS",
+   "idx": 471,
+   "owner": "SELF",
+   "tx_date": "2025-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "OKLAHOMA ST TPK AUTH REV 2ND SR SER A B/E PTC 5.00 % Duo Jan 1",
+   "asset_type": "GS",
+   "idx": 472,
+   "owner": "SELF",
+   "tx_date": "2025-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "UPPER DAUPHIN PA AAE.A SCH DIST BAM B/E B/O OID ~99.490 2.2% 2.125 % Duo Sop 1",
+   "asset_type": "GS",
+   "idx": 473,
+   "owner": "SELF",
+   "tx_date": "2025-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "PEFA INC IA GAS PJ REV B/E 5.00 % Due Soo 1",
+   "asset_type": "GS",
+   "idx": 474,
+   "owner": "SELF",
+   "tx_date": "2025-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "COLORADO HLTH FACS AUTH REV INTERMTN HLTHCARE INC SERB B/E 5.00 % Due Mav 15",
+   "asset_type": "GS",
+   "idx": 475,
+   "owner": "SELF",
+   "tx_date": "2025-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "BLACK BELT ENERGY GAS DIST AL GAS PREPAY REV PJ 4 SER A 1 B/E VAR 4.00 % Due Dec 1",
+   "asset_type": "GS",
+   "idx": 476,
+   "owner": "SELF",
+   "tx_date": "2025-06-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "MICHIGAN ST HOSP FIN AUTH REV ASCENSION HLTH SR CR GRP 2010F 6 B/E 4.00 % Due Nov 15",
+   "asset_type": "GS",
+   "idx": 477,
+   "owner": "SELF",
+   "tx_date": "2025-06-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MAINE ST HSG AUTH MTG PURCH REV SERF B/E 3.25 % Duo Nov 15",
+   "asset_type": "GS",
+   "idx": 478,
+   "owner": "SELF",
+   "tx_date": "2025-06-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "CORBIN KY INDPT SCH DIST FIN CORP BLDG REV B/E 3.00 % Duo Fob 1",
+   "asset_type": "GS",
+   "idx": 479,
+   "owner": "SELF",
+   "tx_date": "2025-06-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "WISCONSIN ST HLTH & EFA ADVOCATE HLTH & HOSP CORP REV SER C1 B/E 5.00 % Due Auo 15",
+   "asset_type": "GS",
+   "idx": 480,
+   "owner": "SELF",
+   "tx_date": "2025-06-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ST LOUIS MO MUN FIN CORP LSEHLD RFDG REFUSE FAC & GARAGE PJ SER A B/E REV 5.00 % Due Apr 15",
+   "asset_type": "GS",
+   "idx": 481,
+   "owner": "SELF",
+   "tx_date": "2025-06-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NORTH CAROLINA HSG FIN AGY HMOWNRSHP REV SER SSC B/E 3.20 % Due Jul 1",
+   "asset_type": "GS",
+   "idx": 482,
+   "owner": "SELF",
+   "tx_date": "2025-06-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "CENTRAL PLAINS ENERGY PROJ N 5.0000% 08/01/30",
+   "idx": 483,
+   "owner": "SELF",
+   "tx_date": "2025-06-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "LOWER COLO RIV AUTH TEX REV 5.0000% 05/15/28",
+   "asset_type": "GS",
+   "idx": 484,
+   "owner": "SELF",
+   "tx_date": "2025-06-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NORTH CHARLESTON SC LTD OBLIG TAX INCRMT PLG 2024 REV B/E 5.00 % Due Oct 1",
+   "asset_type": "GS",
+   "idx": 485,
+   "owner": "SELF",
+   "tx_date": "2025-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "PEFA INC IA GAS PJ REV B/E 5.00 % Duo \"\"\" 1",
+   "asset_type": "GS",
+   "idx": 486,
+   "owner": "SELF",
+   "tx_date": "2025-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "TEXAS WTR DEV BRO ST REVLVG FD REV B/E 5.00 % Due AuQ 1",
+   "asset_type": "GS",
+   "idx": 487,
+   "owner": "SELF",
+   "tx_date": "2025-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "INTERMOUNTAIN PWR AGY UT PWR SPLY REV SER A B/E 5.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 488,
+   "owner": "SELF",
+   "tx_date": "2025-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ARIZONA ST INCL DEV AUTH MLTIFAM HSG REV RANCHES AT GUNSMOKE APT B/E PTC 5.00 % Duo Mar 1",
+   "asset_type": "GS",
+   "idx": 489,
+   "owner": "SELF",
+   "tx_date": "2025-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "DALLAS TX RFDG 2024A B/E 5.00 % Duo Fob 15",
+   "asset_type": "GS",
+   "idx": 490,
+   "owner": "SELF",
+   "tx_date": "2025-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "KENTUCKY HSG CORP MLTIFAM HSG REV BEECHER TERRACE PHASE IV PJ B/E 5.00 % Duo Soo 1",
+   "asset_type": "GS",
+   "idx": 491,
+   "owner": "SELF",
+   "tx_date": "2025-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "MICHIGAN FIN AUTH REV TOB SETTLMT ABS SER A CL 1 B/E 5.00 % Due Jun 1",
+   "asset_type": "GS",
+   "idx": 492,
+   "owner": "SELF",
+   "tx_date": "2025-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "HARRIS CNTY TX MUD 109 NPFG B/E PTC 3.00 % Duo Oct 1",
+   "asset_type": "GS",
+   "idx": 493,
+   "owner": "SELF",
+   "tx_date": "2025-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Filer's Name Pa2c 496 YES KENTUCKY ASSET LIABILITY COMMN AGY FD REV FOL HWY lR 1ST RFDG SER ABIE 5.00 % Duo Sop 1",
+   "asset_type": "GS",
+   "idx": 494,
+   "owner": "SELF",
+   "tx_date": "2025-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SNOHOMISH CNTY WA SCH DIST 3061.AKEWOOD GENL RFDG OBLIG ABIE 5.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 495,
+   "owner": "SELF",
+   "tx_date": "2025-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "MElROPOLITAN ST LOUIS MO SWR DIST WSTWTR SYS REV RFDG & IMPT C BIE PTC 5.00 % Duo Mav 1",
+   "asset_type": "GS",
+   "idx": 496,
+   "owner": "SELF",
+   "tx_date": "2025-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "OWENSBORO KY WTR REV RFDG & IMPT BAM BIE 5.00 % Duo Soo 15",
+   "asset_type": "GS",
+   "idx": 497,
+   "owner": "SELF",
+   "tx_date": "2025-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "MElROPOLITAN UTILS DIST OMAHA NE WlR REV RFDG SYS IMPT BIE 2.85 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 498,
+   "owner": "SELF",
+   "tx_date": "2025-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "FLORIDA INS ASSIST INTERLOCAL AGY FL INS ASSMT REV SER A 1 BIE 5.00 % Duo Soo 1",
+   "asset_type": "GS",
+   "idx": 499,
+   "owner": "SELF",
+   "tx_date": "2025-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "WELLBORN SPL UTIL DIST TX WlR SYS REV BAMBIE B/Q 3.50 % Duo Jul 15",
+   "asset_type": "GS",
+   "idx": 500,
+   "owner": "SELF",
+   "tx_date": "2025-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "KENTUCKY ST PPTY & BLDGS COMMN REV PJ 108 SER ABIE PTC 5.00 % Duo Aun 1",
+   "asset_type": "GS",
+   "idx": 501,
+   "owner": "SELF",
+   "tx_date": "2025-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ALLEN TX ECON DEV CORP SALES TAX REV RFDG ABIE 5.00 % Duo Sop 1",
+   "asset_type": "GS",
+   "idx": 502,
+   "owner": "SELF",
+   "tx_date": "2025-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "GENOA OCEOLA SWR & WTR AUTH Ml SWR SYS IMPT REV 2018 BIE B/Q 325 % Due Soo 1",
+   "asset_type": "GS",
+   "idx": 503,
+   "owner": "SELF",
+   "tx_date": "2025-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "MElROPOLITAN GOVT NASHVILLE 5.0000% 07/01129",
+   "idx": 504,
+   "owner": "SELF",
+   "tx_date": "2025-06-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "I YES COOK CNTY ILL CM 425% DUE 12/01/47",
+   "asset_type": "GS",
+   "idx": 505,
+   "owner": "SELF",
+   "tx_date": "2025-06-13",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/E9C024E25C9E4B2085258CEB006E7E23/$FILE/Donald-J-Trump-08.12.2025-278T.pdf"
+}

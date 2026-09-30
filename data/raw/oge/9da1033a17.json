@@ -1,0 +1,27 @@
+{
+ "added": "2025-01-07",
+ "agency": "Department of Energy",
+ "amended": false,
+ "doc": "9da1033a17",
+ "kind": "278 Transaction",
+ "name": "Granholm, Jennifer",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "iShares Core S&P Mid-Cap ETF (IJH)",
+   "asset_type": "EF",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "IJH",
+   "tx_date": "2024-11-26",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/15FA0D3447B01A4585258C0B003362A9/$FILE/Jennifer-Granholm-12.20.2024-278T.pdf"
+}

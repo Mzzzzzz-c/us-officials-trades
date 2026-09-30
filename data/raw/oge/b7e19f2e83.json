@@ -1,0 +1,25 @@
+{
+ "added": "2023-03-11",
+ "agency": "Office of Director of National Intelligence",
+ "amended": false,
+ "doc": "b7e19f2e83",
+ "kind": "278 Transaction",
+ "name": "Abizaid, Christine",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director, National Counterterrorism Center",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Moonshots Capital Investment Fund",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2022-11-29",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/6AE894D70FFEB5A38525896F003437B7/$FILE/Christine-Abizaid-12.03.2022-278T.pdf"
+}

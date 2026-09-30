@@ -1,0 +1,93 @@
+{
+ "added": "2025-03-25",
+ "agency": "Department of Housing and Urban Development",
+ "amended": false,
+ "doc": "3d6488f150",
+ "kind": "278 Transaction",
+ "name": "Turner, Eric Scott",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Alphabet, Inc. (GOOGL)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "GOOGL",
+   "tx_date": "2025-02-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Zillow Group, Inc. (Z)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "Z",
+   "tx_date": "2025-02-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Berkshire Hathaway Inc. (BRKB)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "BRKB",
+   "tx_date": "2025-02-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Microsoft Corp. (MSFT)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "MSFT",
+   "tx_date": "2025-02-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Amazon.com, Inc. (AMZN)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "AMZN",
+   "tx_date": "2025-02-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Alphabet, Inc. (GOOGL)",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "GOOGL",
+   "tx_date": "2025-02-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Berkshire Hathaway Inc. (BRKB)",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "BRKB",
+   "tx_date": "2025-02-12",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/BF782DF3A2A5684F85258C58002C87DB/$FILE/Eric-Scott-Turner-03.04.2025-278T.pdf"
+}

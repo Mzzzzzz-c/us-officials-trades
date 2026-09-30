@@ -1,0 +1,47 @@
+{
+ "added": "2022-07-26",
+ "agency": "Department of Veterans Affairs",
+ "amended": false,
+ "doc": "de84d3668e",
+ "kind": "278 Transaction",
+ "name": "Remy, Donald",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Deputy Secretary",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Olin Corp. (OLN)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "OLN",
+   "tx_date": "2022-05-31",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SWBI",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2022-06-27",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Sturm, Ruger & Co., Inc. (RGR)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "RGR",
+   "tx_date": "2022-06-27",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/891E75ADC3AF96DC8525888B002ED1DA/$FILE/Donald-Remy-06.27.2022-278T.pdf"
+}

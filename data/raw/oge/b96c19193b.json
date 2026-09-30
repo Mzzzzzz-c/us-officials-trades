@@ -1,0 +1,56 @@
+{
+ "added": "2022-03-08",
+ "agency": "Office of Science and Technology Policy",
+ "amended": false,
+ "doc": "b96c19193b",
+ "kind": "278 Transaction",
+ "name": "Lander, Eric S",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CINCINNATI OH WTR SYS REV 5.000% 12/01/2023 $250,000",
+   "asset_type": "GS",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2022-01-07",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "LEWIS CNTY SD #302 WA GO 5.000% 12/01/2023",
+   "asset_type": "GS",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2022-01-07",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "HAMPTON ROADS VA SANTN 0.030% 08/01/2046 $100,000",
+   "asset_type": "GS",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2022-01-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "STONEHAM MA 5.000% 01/15/2033",
+   "asset_type": "GS",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2022-01-27",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/BB8D15E6297FA213852587FF0033C57A/$FILE/Eric-S-Lander-02.07.2022-278T.pdf"
+}

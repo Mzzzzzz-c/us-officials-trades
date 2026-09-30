@@ -1,0 +1,27 @@
+{
+ "added": "2026-01-27",
+ "agency": "Department of Transportation",
+ "amended": false,
+ "doc": "852549ab44",
+ "kind": "278 Transaction",
+ "name": "McMaster, Sean",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Highway Administration",
+ "transactions": [
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Tesla, Inc. (TSLA)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "TSLA",
+   "tx_date": "2025-12-10",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/14687F0C20F84C2385258D8C00346652/$FILE/Sean-McMaster-12.11.2025-278T.pdf"
+}

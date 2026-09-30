@@ -1,0 +1,28 @@
+{
+ "added": "2025-11-18",
+ "agency": "Environmental Protection Agency",
+ "amended": false,
+ "doc": "ab4012f5d8",
+ "kind": "278 Transaction",
+ "name": "Zeldin, Lee",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NeuroSense Therapeutics Ltd. Ordinary Shares (NRSN)",
+   "asset_type": "ST",
+   "idx": 0,
+   "late_notice": true,
+   "owner": "SELF",
+   "ticker": "NRSN",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/1F2CA5D27DDE1D9085258D460031984D/$FILE/Lee-Zeldin-09-24-2025-278T.pdf"
+}

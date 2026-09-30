@@ -1,0 +1,27 @@
+{
+ "added": "2025-11-27",
+ "agency": "Office of Personnel Management",
+ "amended": false,
+ "doc": "0c67c6fe47",
+ "kind": "278 Transaction",
+ "name": "Kupor, Scott A",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Microsoft Corp. (MSFT) See Endnote",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "MSFT",
+   "tx_date": "2025-09-25",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/F3E4FE48A7ADA0E285258D4F00319101/$FILE/Scott-A-Kupor-09.26.2025-278T.pdf"
+}

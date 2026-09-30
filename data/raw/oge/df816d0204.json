@@ -1,0 +1,25 @@
+{
+ "added": "2021-01-13",
+ "agency": "Department of Education",
+ "amended": false,
+ "doc": "df816d0204",
+ "kind": "278 Transaction",
+ "name": "DeVos, Elisabeth (Betsy) P",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "GRD Holding LP",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2020-11-20",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/A6681E05181CEFF48525865C00317863/$FILE/Elisabeth(Betsy)-P-DeVos-12.10.2020-278T.pdf"
+}

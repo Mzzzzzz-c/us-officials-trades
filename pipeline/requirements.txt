@@ -4,3 +4,4 @@ beautifulsoup4>=4.12
 lxml>=5.0
 PyYAML>=6.0
 pytest>=8.0
+numpy>=1.26

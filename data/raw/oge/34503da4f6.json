@@ -1,0 +1,104 @@
+{
+ "added": "2025-01-11",
+ "agency": "Office of National Drug Control Policy",
+ "amended": false,
+ "doc": "34503da4f6",
+ "kind": "278 Transaction",
+ "name": "Gupta, Rahul",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Block Inc (SQ)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "SQ",
+   "tx_date": "2024-11-06",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Tesla, Inc. (TSLA)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "TSLA",
+   "tx_date": "2024-11-06",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Amazon.com, Inc. (AMZN)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "AMZN",
+   "tx_date": "2024-11-06",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Tesla, Inc. (TSLA)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "TSLA",
+   "tx_date": "2024-11-08",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Block Inc (SQ)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "SQ",
+   "tx_date": "2024-11-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Block Inc (SQ)",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "SQ",
+   "tx_date": "2024-11-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Block Inc (SQ)",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "SQ",
+   "tx_date": "2024-11-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Block Inc (SQ)",
+   "asset_type": "ST",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "SQ",
+   "tx_date": "2024-11-15",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/065046E34B98020A85258C0F00336121/$FILE/Rahul-Gupta-12.15.2024-278T.pdf"
+}

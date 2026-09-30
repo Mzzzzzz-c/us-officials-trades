@@ -1,0 +1,105 @@
+{
+ "added": "2020-10-28",
+ "agency": "Department of Energy",
+ "amended": false,
+ "doc": "94c3be74c3",
+ "kind": "278 Transaction",
+ "name": "Menezes, Mark W",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Deputy Secretary",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Shopify Inc",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2020-09-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Shopify Inc",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2020-09-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Etsy, Inc. (ETSY)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "ETSY",
+   "tx_date": "2020-09-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PayPal Holdings, Inc. (PYPL)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "PYPL",
+   "tx_date": "2020-09-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Schwab Value Advantage Money Fund Investor Class Shares (SWVXX)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "SWVXX",
+   "tx_date": "2020-09-17",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Spotify Technology",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2020-09-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Starbucks Corp. (SBUX)",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "SBUX",
+   "tx_date": "2020-09-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Spotify Technology",
+   "idx": 7,
+   "owner": "SELF",
+   "tx_date": "2020-09-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "GlaxoSmithKline PLC Sponsored ADR",
+   "idx": 8,
+   "owner": "SELF",
+   "tx_date": "2020-09-29",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/285BECF419CFFE3A8525860F0027DDF9/$FILE/Mark-W-Menezes-10.02.2020-278T.pdf"
+}

@@ -1,0 +1,79 @@
+{
+ "added": "2026-04-25",
+ "agency": "Federal Reserve System Board of Governors",
+ "amended": false,
+ "doc": "0364603f38",
+ "kind": "278 Transaction",
+ "name": "Miran, Stephen I",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Governor",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "BBH Wealth Strategies, LLC - SILVER POINT See Endnote DISTRESSED OPPORTUNITY II SERIES",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2026-01-20",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "BBH Wealth Strategies, LLC - CLARKSTON See Endnote CAPITAL PARTNERS SMALL/MID CAP SERIES $250,000",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2026-01-21",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "BBH Wealth Strategies, LLC - CLARKSTON See Endnote CAPITAL PARTNERS SMALL/MID CAP SERIES $250,000",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2026-01-30",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "BBH Wealth Strategies, LLC - CLARKSTON See Endnote CAPITAL PARTNERS SMALL/MID CAP SERIES $250,000",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2026-02-06",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "BBH Wealth Strategies, LLC - CLARKSTON See Endnote CAPITAL PARTNERS SMALL/MID CAP SERIES $250,000",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2026-02-20",
+   "type": "S"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "BBH LIMITED DURATION FUND CL I",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2026-03-02",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "BBH Wealth Strategies, LLC - CLARKSTON CAPITAL PARTNERS SMALL/MID CAP SERIES $250,000",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2026-03-02",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/4B988978D7A864F785258DE4002DBF44/$FILE/Stephen-I-Miran-04.03.2026-278T.pdf"
+}

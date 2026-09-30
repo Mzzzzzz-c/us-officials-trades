@@ -1,0 +1,230 @@
+{
+ "added": "2021-05-18",
+ "agency": "Department of State",
+ "amended": false,
+ "doc": "4fff547013",
+ "kind": "278 Transaction",
+ "name": "Blinken, Antony J",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ALLY (ALLY)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "ALLY",
+   "tx_date": "2021-03-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ALPHABET CLASS C (GOOG)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "GOOG",
+   "tx_date": "2021-03-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "AMGEN (AMGN)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "AMGN",
+   "tx_date": "2021-03-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "APPLE (AAPL)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "AAPL",
+   "tx_date": "2021-03-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "BERKSHIRE HATHAWAY CLASS B (BRK B)",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2021-03-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "FACEBOOK CLASS A (FB)",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "FB",
+   "tx_date": "2021-03-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "IQVIA HOLDINGS (IQV)",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "IQV",
+   "tx_date": "2021-03-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "NASDAQ (NDAQ)",
+   "asset_type": "ST",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "NDAQ",
+   "tx_date": "2021-03-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ORACLE (ORCL)",
+   "asset_type": "ST",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": "ORCL",
+   "tx_date": "2021-03-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ALLY (ALLY)",
+   "asset_type": "ST",
+   "idx": 9,
+   "owner": "SELF",
+   "ticker": "ALLY",
+   "tx_date": "2021-03-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ALPHABET CLASS C (GOOG)",
+   "asset_type": "ST",
+   "idx": 10,
+   "owner": "SELF",
+   "ticker": "GOOG",
+   "tx_date": "2021-03-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "APPLE (AAPL)",
+   "asset_type": "ST",
+   "idx": 11,
+   "owner": "SELF",
+   "ticker": "AAPL",
+   "tx_date": "2021-03-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BERKSHIRE HATHAWAY CLASS B (BRK B)",
+   "idx": 12,
+   "owner": "SELF",
+   "tx_date": "2021-03-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CAPITAL ONE (COF)",
+   "asset_type": "ST",
+   "idx": 13,
+   "owner": "SELF",
+   "ticker": "COF",
+   "tx_date": "2021-03-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "COMCAST CLASS A (CMCSA)",
+   "asset_type": "ST",
+   "idx": 14,
+   "owner": "SELF",
+   "ticker": "CMCSA",
+   "tx_date": "2021-03-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "DISCOVERY SERIES C (DISCK)",
+   "asset_type": "ST",
+   "idx": 15,
+   "owner": "SELF",
+   "ticker": "DISCK",
+   "tx_date": "2021-03-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "FACEBOOK CLASS A (FB)",
+   "asset_type": "ST",
+   "idx": 16,
+   "owner": "SELF",
+   "ticker": "FB",
+   "tx_date": "2021-03-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "INTEL (INTC)",
+   "asset_type": "ST",
+   "idx": 17,
+   "owner": "SELF",
+   "ticker": "INTC",
+   "tx_date": "2021-03-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "UNITEDHEALTH (UNH)",
+   "asset_type": "ST",
+   "idx": 18,
+   "owner": "SELF",
+   "ticker": "UNH",
+   "tx_date": "2021-03-23",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "WESTEXEC ADVISORS, LLC See Endnote",
+   "idx": 19,
+   "owner": "SELF",
+   "tx_date": "2021-03-30",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/843610542B32BDB2852586D9002EC103/$FILE/Anthony-J-Blinken-04.26.2021-278T.pdf"
+}

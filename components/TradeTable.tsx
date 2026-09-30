@@ -11,7 +11,9 @@ export interface MemberLite {
   name: string;
   zh?: string;
   party: string;
-  chamber: "H" | "S";
+  chamber: "H" | "S" | "E";
+  agency?: string;
+  agency_zh?: string;
   state: string;
 }
 
@@ -80,6 +82,7 @@ export default function TradeTable({ locale, trades, members = {}, px, showMembe
             <option value="">{t.filters.chamber}: {t.common.all}</option>
             <option value="H">{t.chamber.H}</option>
             <option value="S">{t.chamber.S}</option>
+            <option value="E">{t.chamber.E}</option>
           </select>
           <select className="input" value={party} onChange={(e) => { setParty(e.target.value); reset(); }} aria-label={t.filters.party}>
             <option value="">{t.filters.party}: {t.common.all}</option>
@@ -124,7 +127,7 @@ export default function TradeTable({ locale, trades, members = {}, px, showMembe
               const chg = since(tr.ent?.fol, now);
               const spy = since(tr.ent?.sfol, spyNow);
               const isOpen = open === tr.id;
-              const late = (tr.delay ?? 0) > 45;
+              const late = tr.ch !== "E" && (tr.delay ?? 0) > 45;
               return (
                 <Fragment key={tr.id}>
                   <tr onClick={() => setOpen(isOpen ? null : tr.id)} className="cursor-pointer">
@@ -137,7 +140,7 @@ export default function TradeTable({ locale, trades, members = {}, px, showMembe
                         </Link>
                         {m && (
                           <div className="text-[11px] text-faint">
-                            {t.chamber[m.chamber]} · {m.state}
+                            {m.chamber === "E" ? (locale === "zh" ? m.agency_zh ?? m.agency : m.agency) ?? t.chamber.E : `${t.chamber[m.chamber]} · ${m.state}`}
                           </div>
                         )}
                       </td>

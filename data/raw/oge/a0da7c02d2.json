@@ -1,0 +1,210 @@
+{
+ "added": "2023-01-31",
+ "agency": "Central Intelligence Agency",
+ "amended": false,
+ "doc": "a0da7c02d2",
+ "kind": "278 Transaction",
+ "name": "Burns, William J",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Wells Fargo & Co See Endnote",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2022-10-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Walmart, Inc. (WMT)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "WMT",
+   "tx_date": "2022-10-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "W P Carey Inc",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2022-10-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Unilever",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2022-10-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Procter & Gamble Co. (PG)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "PG",
+   "tx_date": "2022-10-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Novartis",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2022-10-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Microsoft Corp. (MSFT)",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "MSFT",
+   "tx_date": "2022-10-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "McDonald's Corp. (MCD)",
+   "asset_type": "ST",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "MCD",
+   "tx_date": "2022-10-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Johnson & Johnson (JNJ)",
+   "asset_type": "ST",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": "JNJ",
+   "tx_date": "2022-10-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "iShares MSCI Japan ETF",
+   "asset_type": "EF",
+   "idx": 9,
+   "owner": "SELF",
+   "tx_date": "2022-10-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "General Electric Co. (GE)",
+   "asset_type": "ST",
+   "idx": 10,
+   "owner": "SELF",
+   "ticker": "GE",
+   "tx_date": "2022-10-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Meta Platforms Inc. Class A",
+   "idx": 11,
+   "owner": "SELF",
+   "tx_date": "2022-10-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Warner Brothers Discovery Inc",
+   "idx": 12,
+   "owner": "SELF",
+   "tx_date": "2022-10-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AT&T Inc",
+   "idx": 13,
+   "owner": "SELF",
+   "tx_date": "2022-10-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Honeywell International, Inc. (HON)",
+   "asset_type": "ST",
+   "idx": 14,
+   "owner": "SELF",
+   "ticker": "HON",
+   "tx_date": "2022-11-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "QUALCOMM, Inc. (QCOM)",
+   "asset_type": "ST",
+   "idx": 15,
+   "owner": "SELF",
+   "ticker": "QCOM",
+   "tx_date": "2022-11-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Vertex Pharmaceuticals, Inc. (VRTX)",
+   "asset_type": "ST",
+   "idx": 16,
+   "owner": "SELF",
+   "ticker": "VRTX",
+   "tx_date": "2022-11-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "International Paper Co. (IP)",
+   "asset_type": "ST",
+   "idx": 17,
+   "owner": "SELF",
+   "ticker": "IP",
+   "tx_date": "2022-12-20",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Sylvamo Corporation (SLVM)",
+   "asset_type": "ST",
+   "idx": 18,
+   "owner": "SELF",
+   "ticker": "SLVM",
+   "tx_date": "2022-12-20",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/5F185826C75E415D8525894800344166/$FILE/William-J-Burns-01.04.2023-278T.pdf"
+}

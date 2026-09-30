@@ -1,0 +1,242 @@
+{
+ "added": "2026-05-22",
+ "agency": "Department of The Navy",
+ "amended": false,
+ "doc": "574c2224c8",
+ "kind": "278 Transaction",
+ "name": "Phelan, John",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Dawson Portfolio Finance 5 LP See Endnote",
+   "idx": 0,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-03-24",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Turnbridge Real Estate Fund II See Endnote",
+   "idx": 1,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-03-26",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "26North Private Equity Fund I See Endnote",
+   "idx": 2,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-03-28",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Red Cell Incubation Fund, LP See Endnote",
+   "idx": 3,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-04-07",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Cotulla Aviation LP",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2025-04-11",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "HealthQuest Tactical Opportunities Fund, L.P. See Endnote",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2025-04-16",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "RCP GP Fund II, LP See Endnote",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2025-04-21",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "HealthQuest Tactical Opportunities Fund, L.P. See Endnote",
+   "idx": 7,
+   "owner": "SELF",
+   "tx_date": "2025-04-29",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "RCG Ventures Fund VIII, LP See Endnote",
+   "idx": 8,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-03-28",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Cresta Royalty Partners LP See Endnote",
+   "idx": 9,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-03-27",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "MSD Investment Corp. (BDC) See Endnote",
+   "asset_type": "ST",
+   "idx": 10,
+   "late_notice": true,
+   "owner": "SELF",
+   "ticker": "BDC",
+   "tx_date": "2025-03-27",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Dawson Portfolio Finance 5 LP See Endnote",
+   "idx": 11,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-03-31",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Cresta SC Fund I-A LP See Endnote",
+   "idx": 12,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-03-31",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "TMG Monument Investors LCL See Endnote",
+   "idx": 13,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-04-03",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Dawson Portfolio Finance 5 LP See Endnote",
+   "idx": 14,
+   "owner": "SELF",
+   "tx_date": "2025-04-29",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "MSD EIV Private, LLC See Endnote",
+   "idx": 15,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-03-24",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Kingfish Investments V, LLC See Endnote",
+   "idx": 16,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-03-26",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "MSD Special Investments Fund II See Endnote",
+   "idx": 17,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-03-28",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "MSD Credit Opportunity Fund, L.P. See Endnote",
+   "idx": 18,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-03-28",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Kingfish Investments X, LLC See Endnote",
+   "idx": 19,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-03-28",
+   "type": "S"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "MSD Hospitality Partners LP",
+   "idx": 20,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-03-31",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Kingfish Investments II, LLC See Endnote",
+   "idx": 21,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-04-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "RSL Football Holdings LLC",
+   "idx": 22,
+   "owner": "SELF",
+   "tx_date": "2025-04-17",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/DC3783D3D22CADA585258DFF002DCC65/$FILE/John-Phelan-05.20.2025-278T.pdf"
+}

@@ -1,0 +1,235 @@
+{
+ "added": "2025-09-06",
+ "agency": "White House Office",
+ "amended": false,
+ "doc": "e26e95fb8c",
+ "kind": "278 Transaction",
+ "name": "Trump, Donald J",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "paper",
+ "title": "President",
+ "transactions": [
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "U.S. Office or Government Ethics; 5 C.F.R. part 2634 UNITC0 HATCS OHICC OF G-OVERNM*EN­T ETHICS Executive Branch Personnel Public Financial Disclosure Report: Pl(''flf'flllne Conn1ch of lfllNHt Ml Position J President or the United States or America Agency Ethics Officlol's Opinion -On tho basis or ",
+   "asset_type": "GS",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2025-05-01",
+   "type": "S"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "Patriots EnerQY Group Fin!l 5.2500% 02/01/54",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2025-05-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "TOPEKA KS 2025 A B/E 4.00 % Due Aua 15, 2034 oun:hasc B/18/2025 No $15,001 -$50,000 MAIN STREET NAT GAS INC GA GAS SPLY REV C B/E 4.00 % Due Mar 1, 2050 oun:hase B/15/2025 No $1,000,001 -$5,000,000 PUBLIC FIN AUTH WI POLLTN CTL DUKE ENERGY PROGRESS REV RFDG A1B /E 3.30 % Due Oct 1",
+   "asset_type": "GS",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2025-08-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ST PAUL MN HSG & REDEV AUTH HC FAC REV RFDG A B/E 010 @97.874 3.23% 3.00 % Due Jul 1",
+   "asset_type": "GS",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2025-08-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "INMAN KS 2025 DB BAM B/E B/Q CR ENH 5.00 % Due Aua 1",
+   "asset_type": "GS",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2025-08-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "TYLER TX JR CLLG DIST REV COMB FEE B/E OID @98.222 3.3% 3.125 % Due Aug 15",
+   "asset_type": "GS",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2025-08-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NEWTON OH LOC SCH DIST N FORK LOC SCH DIST FACS CONSTR IMPT RFDG B/E B/Q 3.00 % Due Jan 15",
+   "asset_type": "GS",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2025-08-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "KNOXYILLE TN CMNTY DEV CORP MLTIFAM �EV COLL HSG WIU�W PJ B/E 3.75 % Due Dec 1",
+   "asset_type": "CS",
+   "idx": 7,
+   "owner": "SELF",
+   "tx_date": "2025-08-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "ARIZONA ST INDL DEV AUTH MLTIFAM HSG REV UNITY AT WEST GLENDALE PJ B/E 5.00 % Due Mar 1",
+   "asset_type": "GS",
+   "idx": 8,
+   "owner": "SELF",
+   "tx_date": "2025-08-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "WISCONSIN ST HLTH & EDL FACS REV RFDG PROHLTH CARE INC OBLIG GRP B/E 3.00 % Due Aug 15",
+   "asset_type": "GS",
+   "idx": 9,
+   "owner": "SELF",
+   "tx_date": "2025-08-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "UNIVERSITY WA REV RFDG GENL SER C B/E PTC 5.00 % Due Dec 1",
+   "asset_type": "GS",
+   "idx": 10,
+   "owner": "SELF",
+   "tx_date": "2025-08-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "BLACK BELT ENERGY GAS DIST AL GAS PJ 7 REV SER C 1 B/E GTD 4.00 % Due Oct 1",
+   "asset_type": "GS",
+   "idx": 11,
+   "owner": "SELF",
+   "tx_date": "2025-08-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "LONGMONT CO STORM DRAIN REV B/E PTC 4.00 % Due Dec 1",
+   "asset_type": "GS",
+   "idx": 12,
+   "owner": "SELF",
+   "tx_date": "2025-08-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "KENTUCKY INC KY PUB ENERGY AUTH GAS SPLY REV SER A B/E 4.00 % Due Dec 1",
+   "asset_type": "GS",
+   "idx": 13,
+   "owner": "SELF",
+   "tx_date": "2025-08-07",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "PEFA INC IA GAS PJ REV B/E 5.00 % Due Sep 1",
+   "asset_type": "GS",
+   "idx": 14,
+   "owner": "SELF",
+   "tx_date": "2025-08-07",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "BLACK BELT ENERGY GAS DIST AL GAS REV PJ 6 SERB B/E 4.00 % Due Oct 1",
+   "asset_type": "GS",
+   "idx": 15,
+   "owner": "SELF",
+   "tx_date": "2025-08-07",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "HOUSTON TX HSG FIN CORP MLTIFAM HSG REV ALCOTT VLG SER A B/E 3.20 % Due Apr 1",
+   "asset_type": "GS",
+   "idx": 16,
+   "owner": "SELF",
+   "tx_date": "2025-08-07",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CHATTANOOGA TN HLTH EDL& HSG FAC BRO MLTIFAM HSG REV COLLTZD SHUWFRD B/E 3.80 % Due Dec 1",
+   "asset_type": "GS",
+   "idx": 17,
+   "owner": "SELF",
+   "tx_date": "2025-08-07",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MENOMONIE WI AREA SCH DIST RFDG BAM B/Q B/E 3.00 % Due Mar 1",
+   "asset_type": "GS",
+   "idx": 18,
+   "owner": "SELF",
+   "tx_date": "2025-08-07",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MIAMI DADE CNTY FL HSG MLTIFAM SANTA CLARA II APTS PJ REV B/E 5.00 % Due Oct 1",
+   "asset_type": "GS",
+   "idx": 19,
+   "owner": "SELF",
+   "tx_date": "2025-08-07",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "PRINCE GEORGES CNTY MD CHRTR SCH REV CHESAPEAKE LIGHTHOUSE FNDTN 1 SA B/E 6.90 % Due Aug 1",
+   "asset_type": "GS",
+   "idx": 20,
+   "owner": "SELF",
+   "tx_date": "2025-08-07",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ASHEVILLE NC HSG AUTH MLTIFAM REV VANDERBILT APTS B/E 5.00 % Due Nov 1",
+   "asset_type": "GS",
+   "idx": 21,
+   "owner": "SELF",
+   "tx_date": "2025-08-07",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/322B8A28DB21CC9285258CFD002C0D0B/$FILE/Donald%20J.%20Trump%209.3.25%20278-T.pdf"
+}

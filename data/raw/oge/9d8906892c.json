@@ -1,0 +1,49 @@
+{
+ "added": "2024-08-27",
+ "agency": "Department of Homeland Security",
+ "amended": false,
+ "doc": "9d8906892c",
+ "kind": "278 Transaction",
+ "name": "Criswell, Deanne",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Emergency Management Agency",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Advanced Micro Devices, Inc. (AMD)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "AMD",
+   "tx_date": "2024-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Meta Financial Group, Inc. (META)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "META",
+   "tx_date": "2024-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NVIDIA Corp. (NVDA)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "NVDA",
+   "tx_date": "2024-06-12",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/E17EF5BDAB771EB385258B86002DDD08/$FILE/Deanne-Criswell-06.24.2024-278T.pdf"
+}

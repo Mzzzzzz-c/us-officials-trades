@@ -1,0 +1,27 @@
+{
+ "added": "2026-04-01",
+ "agency": "Department of Housing and Urban Development",
+ "amended": false,
+ "doc": "c31f8a16a2",
+ "kind": "278 Transaction",
+ "name": "Turner, Eric Scott",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Bitmine Immersion Technologies (BMNR)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "BMNR",
+   "tx_date": "2025-11-19",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/3A9FB168C78ABC2885258DCC002DDC8D/$FILE/Eric-Scott-Turner-01.16.2026-278T.pdf"
+}

@@ -1,0 +1,25 @@
+{
+ "added": "2021-12-15",
+ "agency": "Department of Health and Human Services",
+ "amended": false,
+ "doc": "0baf4410da",
+ "kind": "278 Transaction",
+ "name": "Palm, Andrea",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Deputy Secretary",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Hyster-Yale Materials Handling, Inc. - Class B common stock (material handling equipment company)",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2021-11-17",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/D9065DE8B96AEC66852587AC0033D4CD/$FILE/Andrea-Palm-12.01.2021-278T.pdf"
+}

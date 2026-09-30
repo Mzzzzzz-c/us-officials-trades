@@ -1,0 +1,25 @@
+{
+ "added": "2025-12-31",
+ "agency": "Federal Reserve System Board of Governors",
+ "amended": false,
+ "doc": "7d628df4fb",
+ "kind": "278 Transaction",
+ "name": "Miran, Stephen I",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Governor",
+ "transactions": [
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "ISHARES S&P 500 INDEX FUND - IVV",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2025-11-14",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/86C03B37455893E185258D710034584A/$FILE/Stephen-I-Miran-12.03.2025-278T.pdf"
+}

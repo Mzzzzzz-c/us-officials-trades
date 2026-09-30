@@ -1,0 +1,82 @@
+{
+ "added": "2026-04-17",
+ "agency": "Department of Agriculture",
+ "amended": false,
+ "doc": "e95cd9d0f0",
+ "kind": "278 Transaction",
+ "name": "Vaden, Stephen A",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Deputy Secretary",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Alphabet, Inc. (GOOG) See Endnote",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "GOOG",
+   "tx_date": "2026-02-10",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Trane Technologies plc (TT) See Endnote",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "TT",
+   "tx_date": "2026-02-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Fiserv, Inc. (FISV)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "FISV",
+   "tx_date": "2026-02-10",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Alphabet, Inc. (GOOG) See Endnote",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "GOOG",
+   "tx_date": "2026-02-10",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Trane Technologies plc (TT) See Endnote",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "TT",
+   "tx_date": "2026-02-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Fiserv, Inc. (FISV)",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "FISV",
+   "tx_date": "2026-02-10",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/26AA499A708D62B285258DDC002DD79C/$FILE/Stephen-A-Vaden-03.19.2026-278T.pdf"
+}

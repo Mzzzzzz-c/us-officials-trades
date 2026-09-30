@@ -1,0 +1,60 @@
+{
+ "added": "2024-10-24",
+ "agency": "Federal Reserve System Board of Governors",
+ "amended": false,
+ "doc": "6bade07be1",
+ "kind": "278 Transaction",
+ "name": "Kugler, Adriana",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Governor",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Cava Group Inc. (CAVA) See Endnote",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "CAVA",
+   "tx_date": "2024-07-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Apple Inc. (AAPL)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "AAPL",
+   "tx_date": "2024-07-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Apple Inc. (AAPL)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "AAPL",
+   "tx_date": "2024-07-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Apple Inc. (APPL)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "APPL",
+   "tx_date": "2024-09-09",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/717AB6B5822B9CBA85258BC0002DE3A9/$FILE/Adriana-Kugler-09.14.2024-278T.pdf"
+}

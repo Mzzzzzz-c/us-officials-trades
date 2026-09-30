@@ -1,0 +1,25 @@
+{
+ "added": "2025-09-09",
+ "agency": "Department of The Treasury",
+ "amended": false,
+ "doc": "5aeeaec01b",
+ "kind": "278 Transaction",
+ "name": "Faulkender, Michael W",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Deputy Secretary",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Global Accountability Corporation",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2025-06-25",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/AF83B6CFCFDD7C7985258D00002BFE32/$FILE/Michael-W-Faulkender-06.26.2025-278T.pdf"
+}

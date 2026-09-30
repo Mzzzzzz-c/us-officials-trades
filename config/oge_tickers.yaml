@@ -1,0 +1,3 @@
+# Manual fixes for executive-branch reports that name a company without a ticker.
+# "Description exactly as parsed": TICKER   (use "" to mark something as not a listed stock)
+{}

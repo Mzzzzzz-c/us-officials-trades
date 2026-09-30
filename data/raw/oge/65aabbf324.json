@@ -1,0 +1,47 @@
+{
+ "added": "2023-06-10",
+ "agency": "Department of The Navy",
+ "amended": false,
+ "doc": "65aabbf324",
+ "kind": "278 Transaction",
+ "name": "Del Toro, Carlos",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Costco Wholesale Corp. (COST)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "COST",
+   "tx_date": "2023-04-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Deere & Co. (DE)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "DE",
+   "tx_date": "2023-04-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "New York Community Bank Corp",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2023-04-20",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/07BDE239CAA48EDA852589CA002EEE01/$FILE/Carlos-Del-Toro-05.16.2023-278T.pdf"
+}

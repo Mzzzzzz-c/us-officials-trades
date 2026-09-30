@@ -1,0 +1,109 @@
+{
+ "added": "2022-05-03",
+ "agency": "Department of Transportation",
+ "amended": false,
+ "doc": "fb151fd9d5",
+ "kind": "278 Transaction",
+ "name": "Fernandez, Nuria",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Transit Administration",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Philip Morris International, Inc. (PM)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "PM",
+   "tx_date": "2022-03-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Air Products and Chemicals, Inc. (APD)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "APD",
+   "tx_date": "2022-03-25",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Air Products and Chemicals, Inc. (APD)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "APD",
+   "tx_date": "2022-03-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Booz Allen Hamilton Holding Corp. (BAH)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "BAH",
+   "tx_date": "2022-03-15",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "The PNC Financial Services Group, Inc. (PNC)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "PNC",
+   "tx_date": "2022-03-15",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NXPI - Semiconductors",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2022-03-14",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ATLKY - Atlas Cop Co",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2022-03-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "TSM - Taiwan Semiconductors",
+   "idx": 7,
+   "owner": "SELF",
+   "tx_date": "2022-03-08",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Philip Morris International, Inc. (PM)",
+   "asset_type": "ST",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": "PM",
+   "tx_date": "2022-03-04",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/FB3DEA696D2CE55185258837002E45C5/$FILE/Nuria-Fernandez-03.30.2022-278T.pdf"
+}

@@ -94,3 +94,17 @@ const TITLES_ZH: Record<string, string> = {
 export function committeeTitle(title: string, locale: Locale): string {
   return locale === "zh" ? TITLES_ZH[title] ?? title : title;
 }
+
+/** "财政部 部长" / "Secretary, Department of The Treasury" */
+export function roleLabel(m: { title?: string; agency?: string; title_zh?: string; agency_zh?: string }, locale: Locale): string {
+  if (locale === "zh") {
+    const title = m.title_zh ?? m.title ?? "";
+    const agency = m.agency_zh ?? m.agency ?? "";
+    // titles that already name their agency ("联邦航空管理局局长") stand alone
+    if (m.title_zh && /局|署|中心|总监|总统/.test(m.title_zh) && m.title?.includes(",")) return m.title_zh;
+    if (m.title === "President" || m.title === "Vice President") return title;
+    return `${agency} ${title}`.trim();
+  }
+  if (m.title === "President" || m.title === "Vice President") return m.title === "President" ? "President of the United States" : "Vice President of the United States";
+  return [m.title, m.agency].filter(Boolean).join(", ");
+}

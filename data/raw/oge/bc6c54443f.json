@@ -1,0 +1,100 @@
+{
+ "added": "2023-02-18",
+ "agency": "Department of Transportation",
+ "amended": false,
+ "doc": "bc6c54443f",
+ "kind": "278 Transaction",
+ "name": "Fernandez, Nuria",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Transit Administration",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "LVMUY LVMH MOET LOUIS VUITTON SA",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2022-12-29",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "lululemon athletica, Inc. (LULU)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "LULU",
+   "tx_date": "2022-12-28",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "TEAM ATLASSIAN CORPORATION CLASS A",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2022-12-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Bank of America Corp. (BAC)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "BAC",
+   "tx_date": "2022-12-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Lam Research Corp. (LRCX)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "LRCX",
+   "tx_date": "2022-12-14",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "The PNC Financial Services Group, Inc. (PNC)",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "PNC",
+   "tx_date": "2022-12-14",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Linde Plc (LIN)",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "LIN",
+   "tx_date": "2022-12-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Activision Blizzard, Inc. (ATVI)",
+   "asset_type": "ST",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "ATVI",
+   "tx_date": "2022-11-30",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/AEFF5001C1465AC58525895A00344C10/$FILE/Nuria-Fernandez-12.30.2022-278T.pdf"
+}

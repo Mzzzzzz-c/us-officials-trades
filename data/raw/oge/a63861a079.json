@@ -1,0 +1,63 @@
+{
+ "added": "2021-04-07",
+ "agency": "Department of Defense/Office of The Secretary",
+ "amended": false,
+ "doc": "a63861a079",
+ "kind": "278 Transaction",
+ "name": "Austin, Lloyd",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Booz Allen Hamilton Holding Corp",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2021-02-17",
+   "type": "S"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "Nucor Corp. (NUE)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "NUE",
+   "tx_date": "2021-02-17",
+   "type": "S"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "Tenet Healthcare Corp",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2021-02-17",
+   "type": "S"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "Raytheon Technologies Corp",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2021-03-02",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Raytheon Technologies Corp",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2021-03-09",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/2B6EEA9072604BFB852586B0002EC78E/$FILE/Lloyd-Austin-03.29.2021-278T.pdf"
+}

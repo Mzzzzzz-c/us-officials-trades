@@ -1,0 +1,1150 @@
+{
+ "added": "2026-03-04",
+ "agency": "White House Office",
+ "amended": false,
+ "doc": "46aa1ae4cb",
+ "kind": "278 Transaction",
+ "name": "Trump, Donald J",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "paper",
+ "title": "President",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "U.S. Office of Govommant Ethics; 5 C.F.R. part 2634 UNIHO ST\" cs omcc or G-OVERNM*EN­T ETHICS Exocutivo Branch Porsonnol Public Financial D\\sc\\osuro Roport: P•��o,tH'I Co,.ft,ct, oflP'lt,r,�)t Fl\\o(s lnformaUon LastNamo Ml Position Trump Prosldo\"8 of tho Unltod Statos of Amorlca mado in this ro ort ",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2025-11-17",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "COREBRIDGE FINL INC PERP -A 6.8750% 12/31/49",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2025-11-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "KEYCORP DP SH PFD H -KEYpl",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2025-11-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BANK OF AMERICA CORPORATION -BACpl",
+   "idx": 3,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-11-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "KEYCORP DP SH PFD H -KEYpl",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2025-11-13",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "WELLS FARGO & CO NEW -WFCpl I",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2025-11-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "TRUIST FINL CORP PERP NT 5.1000% I",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2025-10-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "KEYCORP DP SH PFD H -KEYPI I",
+   "idx": 7,
+   "owner": "SELF",
+   "tx_date": "2025-10-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "M & T BK CORP PERP SUB GLBL 3.5000%",
+   "idx": 8,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-10-15",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "M & T BK CORP PERP SUB GLBL 3.5000%",
+   "idx": 9,
+   "owner": "SELF",
+   "tx_date": "2025-10-15",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "BANK OF AMERICA CORPORATION -BACpl",
+   "idx": 10,
+   "owner": "SELF",
+   "tx_date": "2025-10-07",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "VO..i. s15,oot-sso.ooo 14 WELLS FARGO & CO NEW -WFCPI",
+   "idx": 11,
+   "owner": "SELF",
+   "tx_date": "2025-10-07",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "WELLS FARGO & CO PERP NT 6.8500% 12/31/49",
+   "idx": 12,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-09-30",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "BANK NEW YORK MELLON CORP PE 5.9500% 12/31/49 I",
+   "idx": 13,
+   "owner": "SELF",
+   "tx_date": "2025-09-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "GENERAL MTRS FINL CO INC PER 6.5000%",
+   "idx": 14,
+   "owner": "SELF",
+   "tx_date": "2025-09-16",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "PNC FINL SVCS GROUP INC PERP 6.2500%",
+   "idx": 15,
+   "owner": "SELF",
+   "tx_date": "2025-09-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "\"\" .. ' . s50,001 -s100,ooo 19 HUNTINGTON BANCSHARES INCTI 4.4500% ..1 . 9/10/2025 ... $5000t -$100000 20 HUNTINGTON BANCSHARES INC PE 6.2500% 12/31/49",
+   "idx": 16,
+   "owner": "SELF",
+   "tx_date": "2025-09-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "HUNTINGTON BANCSHARES INC PE 6.2500%",
+   "idx": 17,
+   "owner": "SELF",
+   "tx_date": "2025-09-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "HUNTINGTON BANCSHARES INC PE 6.2500% 12/31/49",
+   "idx": 18,
+   "owner": "SELF",
+   "tx_date": "2025-09-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "HUNTINGTON BANCSHARES INC PE 6.2500%",
+   "idx": 19,
+   "owner": "SELF",
+   "tx_date": "2025-09-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ALLY FINL INC ALT TIER I PER4.7000%",
+   "idx": 20,
+   "owner": "SELF",
+   "tx_date": "2025-07-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "BANK AMERICA CORP PERP GLBL 6.6250% 12/31/49 I",
+   "idx": 21,
+   "owner": "SELF",
+   "tx_date": "2025-07-14",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "BANK OF AMERICA CORPORATION -BACpl I",
+   "idx": 22,
+   "owner": "SELF",
+   "tx_date": "2025-07-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BANK OF AMERICA CORPORATION -BAC0I I",
+   "idx": 23,
+   "owner": "SELF",
+   "tx_date": "2025-06-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CITIZENS FINL GROUP INC PERP 4.0000%",
+   "idx": 24,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-06-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "GENERAL MTRS FINL CO INC PER 5.7500%",
+   "idx": 25,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-06-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MORGAN STANLEY DEP SHS REPST 6.6250% 12/31/49",
+   "idx": 26,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-06-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MORGAN STANLEY DEP SHS REPST 6.6250% 12/31/49",
+   "idx": 27,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-06-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "WELLS FARGO & CO PERP A BB N 3.9000% 12/31/49",
+   "idx": 28,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-06-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "DOMINION ENERGY INC PERP GLB 4.3500% 12/31/49 I",
+   "idx": 29,
+   "owner": "SELF",
+   "tx_date": "2025-06-27",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "It YPU nooct roprp PIAAO (QIIQ»' [b'!IO I0ltrudlP0I Noto You mu■t 1dd DIAM bg[qrg nntqrfog !OfAODObOO Now,· Thia la ■ outlllo fonn Oo not Include a000Unt nurnt>er9 atraot oddrooeos. 0t famllV mombot naMOa Sol lrurttuctlon& for mnuJfflll'I lnfQfTT\\lt.lon Fllor'sNam• Paoa Trenuctlona NoUnc:otlon RK411",
+   "idx": 30,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-06-26",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "WELLS FARGO & CO PERP NT 6.8500% 12/31/49 I",
+   "idx": 31,
+   "owner": "SELF",
+   "tx_date": "2025-06-26",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "HUNTINGTON BANCSHARES INC Tl S.6250% 12/31/49",
+   "idx": 32,
+   "owner": "SELF",
+   "tx_date": "2025-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "AT&TINCS DEP RP PFDA-T.PR.A",
+   "idx": 33,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "AIR LEASE CORP TIER I PERP G 4.6500% 12/31/49",
+   "idx": 34,
+   "owner": "SELF",
+   "tx_date": "2025-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "AMERICAN EXPRESS COA LT TIER 3.SSOO%",
+   "idx": 35,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "BK OF AMERICAC ORP PERP TT N 6.1250% 12/31/49",
+   "idx": 36,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "BANK AMERICA CORP PERP GLBL 6.62SO% 12/31/49 I01Jrchno 6/18/2025 \\l'H $50,001-$100,000 BANK NEW YORK MELLON CORP PE 3.7500%",
+   "idx": 37,
+   "owner": "SELF",
+   "tx_date": "2025-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "CITIZENS FINL GROUP INC PERP4 .0000%",
+   "idx": 38,
+   "owner": "SELF",
+   "tx_date": "2025-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "GOLDMAN SACHS GROUP INC PERP 7.5000% 12/31/49 ourohuo 6/18/202S --· $50,001 -$100,000 4Q JPMORGAN CHASE & CO PERP NN 6.8750%",
+   "idx": 39,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "KEYCORP PERP JR GLBL -D 5.0000% 12/31/49",
+   "idx": 40,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MffilFE INC PERP JR SB GLBL 3.8500%",
+   "idx": 41,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "MffilFE INC PERP JR SB GLBL 3.8500% I",
+   "idx": 42,
+   "owner": "SELF",
+   "tx_date": "2025-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SEMPRA PERP SUB GLBL -C 4.8750%",
+   "idx": 43,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "STATE STR CORP PERP GLBL -J 6.7000% 12/31/49 6/18/2025 ... $100,001 -$250,000 5Q TRUIST FINL CORP PERP -P BO 4.9500%",
+   "idx": 44,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000000,
+   "amount_min": 25000001,
+   "asset": "eo US BANCORP TIER I PERP GLBL 3.7000% I",
+   "idx": 45,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "WELLS FARGO & CO NEW -WFCpl I ..ou",
+   "idx": 46,
+   "owner": "SELF",
+   "tx_date": "2025-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Fifth Third Bancorp 7.5938% 12/31/49",
+   "idx": 47,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-05-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Fifth Third Bancorp 7 .5938\" 12/31/49",
+   "idx": 48,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-05-16",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Alar'aName ?oae DoneldJTrump Recti� Over 30 Deeertnt.1on DayoAgo Amownt ,n",
+   "idx": 49,
+   "owner": "SELF",
+   "tx_date": "2025-10-02",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "PAR VALUE OF, AIR LEASE CORP TIER I PERP G 4.6500% 12/31/49 IP<m:huo 5/13/2025 ... $100,001 • $250,000",
+   "idx": 50,
+   "owner": "SELF",
+   "tx_date": "2025-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "PAR VALUE OF, AMERICAN EXPRESS CO ALT TIER 3.5500% lourehuo 5/13/2025 -· $50 001 -$100,000",
+   "idx": 51,
+   "owner": "SELF",
+   "tx_date": "2025-10-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "PAR VALUE OF, BP CAP MKTS PLCP ERP SUB G 6.4500% I",
+   "idx": 52,
+   "owner": "SELF",
+   "tx_date": "2025-05-13",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "BANK NEW YORK MELLON CORP PE 6.3000% 12/31/49",
+   "idx": 53,
+   "owner": "SELF",
+   "tx_date": "2025-05-13",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "HUNTINGTON BANCSHARES INC Tl 5.6250% 12/31/49",
+   "idx": 54,
+   "owner": "SELF",
+   "tx_date": "2025-05-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "n HUNTINGTON BANCSHARES INC Tl 5.6250% 12/31/49",
+   "idx": 55,
+   "owner": "SELF",
+   "tx_date": "2025-05-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "HUNTINGTON BANCSHARES INC Tl 4.4500%",
+   "idx": 56,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-05-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NORTHERN TR CORP ALT TIER 14.6000% 12/31/49",
+   "idx": 57,
+   "owner": "SELF",
+   "tx_date": "2025-05-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "AIR LEASE CORP TIER I PERP G 4.6500% 12/31/49",
+   "idx": 58,
+   "owner": "SELF",
+   "tx_date": "2025-05-12",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "BANK OF AMERICA CORPORATION",
+   "idx": 59,
+   "owner": "SELF",
+   "tx_date": "2025-05-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Fifth Third Bancoro 7.5938% 12/31/49 I",
+   "idx": 60,
+   "owner": "SELF",
+   "tx_date": "2025-05-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "JPMORGAN CHASE & CO ALT TIER 3.6500% 12/31/49",
+   "idx": 61,
+   "owner": "SELF",
+   "tx_date": "2025-05-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SCHWAB CHARLES CORP PERP SUB 4.0000%",
+   "idx": 62,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-05-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AIR LEASE CORP TIER I PERP G 4.6500% 12/31/49 I",
+   "idx": 63,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-05-09",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "AMERICAN EXPRESS CO ALT TIER 3.5500% I",
+   "idx": 64,
+   "owner": "SELF",
+   "tx_date": "2025-05-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BP CAP MKTS P LC PERP SUB G 6.4500%",
+   "idx": 65,
+   "owner": "SELF",
+   "tx_date": "2025-05-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BANK OF AMERICA CORPORATION -BACol",
+   "idx": 66,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-05-09",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "BANK NEW YORK MELLON CORP PE 63000% 12/31/49 I",
+   "idx": 67,
+   "owner": "SELF",
+   "tx_date": "2025-05-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "BANK NEW YORK MELLON CORP PE 6.3000% 12/31/49 I",
+   "idx": 68,
+   "owner": "SELF",
+   "tx_date": "2025-05-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CAPITAL ONE FINL CORP PERP 5 3.9500%",
+   "idx": 69,
+   "owner": "SELF",
+   "tx_date": "2025-05-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CAPITAL ONE FINL CORP PERP S 3.9500%",
+   "idx": 70,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-05-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "GENERAL MTRS FINL CO INC PER 6.5000%",
+   "idx": 71,
+   "owner": "SELF",
+   "tx_date": "2025-05-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "GOLDMAN SACHS GROUP INC PERP 7.5000% 12/31/49",
+   "idx": 72,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-05-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "OGE Farm 278--T (Updalad February 2024) I Alor'aNome Pace Oonlld J TNmP Tranuctlon■ Nottncation 100 GOLDMAN SACHS GROUP INC PERP 6.1250% 12/31/49 I",
+   "idx": 73,
+   "owner": "SELF",
+   "tx_date": "2025-05-09",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "HUNTINGTON BANCSHARES INC Tl 5.6250% 12/31/49",
+   "idx": 74,
+   "owner": "SELF",
+   "tx_date": "2025-05-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "HUNTINGTON BANCSHARES INC Tl 5.6250% 12/31/49",
+   "idx": 75,
+   "owner": "SELF",
+   "tx_date": "2025-05-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MORGAN STANLEY PERP JR GLBL 5.8750%",
+   "idx": 76,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-05-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MORGAN STANLEY PERP JR GLBL 5.8750%",
+   "idx": 77,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-05-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "NATWEST GROUP PLC ALT TIER 18.1250% 12/31/49",
+   "idx": 78,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-05-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SCHWAB CHARLES CORP PERP SUB 4.0000% I",
+   "idx": 79,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-05-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SCHWAB CHARLES CORP PERP SUB 4.0000%",
+   "idx": 80,
+   "owner": "SELF",
+   "tx_date": "2025-05-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "US BANCORP ALT TIER I PERP 5.3000% 12/31/49",
+   "idx": 81,
+   "owner": "SELF",
+   "tx_date": "2025-05-09",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "WELLS FARGO & CO PERP A BB N 3.9000% 12/31/49",
+   "idx": 82,
+   "owner": "SELF",
+   "tx_date": "2025-05-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "AIR LEASE CORP TIER I PERP G 4.6500% 12/31/49 I",
+   "idx": 83,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "AMERICAN EXPRESS CO ALT TIER 35500% I",
+   "idx": 84,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "AMERICAN EXPRESS CO ALT TIER 3.5500% I",
+   "idx": 85,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "BP CAP MKTS P LC PERP SUB 4.8750%",
+   "idx": 86,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "BP CAP MKTS PLC PERP SUB G 6.4500%",
+   "idx": 87,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CAPITAL ONE FINL CORP PERP S 3.9500% I",
+   "idx": 88,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CAPITAL ONE FINL CORP PERP S 3.9500%",
+   "idx": 89,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "DOMINION ENERGY INC PERP GLB 4.3500% 12/31/49 I",
+   "idx": 90,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Fifth Third Bancorp 7.5938% 12/31/49",
+   "idx": 91,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "GENERAL MTRS FINL CO INC PER 5.7500%",
+   "idx": 92,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "DUbl lc fo nn. Do not lndudo aax,unt runbot'a . . troo I addl\"OUoS ·\"' fDfflltv m If o yo rnbor u no n od omm mo . rv Soe e,p p1 lnl tructiOn& follow \\tl o r \"' to\"\"' 1n1 ul truetJ rod o k'l n t 1 ormo Neto llon Y ou mu1I ■dd PIAN! b<,foc, tmar1ng 10Iorm1Uon _____________ Alor'aNamo I Paae I Oon11dJ",
+   "idx": 93,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "GOLDMAN SACHS GROUP INC PERP 7.5000% 12/31/49 I",
+   "idx": 94,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "GOLDMAN SACHS GROUP INC PERP 7.5000% 12/31/49 I",
+   "idx": 95,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "GOLDMAN SACHS GROUP INC PERP 6.1250% 12/31/49",
+   "idx": 96,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "GOLDMAN SACHS GROUP INC PERP 6.1250% 12/31/49 I",
+   "idx": 97,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "HUNTINGTON BANCSHARES INC Tl 5.6250% 12/31/49 I",
+   "idx": 98,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "HUNTINGTON BANCSHARES INC Tl 5.6250% 12/31/49",
+   "idx": 99,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "HUNTINGTON BANCSHARES INCTI 4.4500%",
+   "idx": 100,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "JPMORGAN CHASE & CO PERP NT 6.5000% 12/31/49",
+   "idx": 101,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "JPMORGAN CHASE & CO ALTTIER 3.6500% 12/31/49",
+   "idx": 102,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "JPMORGAN CHASE & CO ALT TIER 3.6500% 12/31/49 I",
+   "idx": 103,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "METLIFE INC PERP JR SB GLBL 5.8750% I",
+   "idx": 104,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "METLIFE INC PERP JR SB GLBL 5.8750% I",
+   "idx": 105,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MORGAN STANLEY DEP SHS REPST 6.6250% 12/31/49",
+   "idx": 106,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MORGAN STANLEY PERP JR GLBL 5.8750%",
+   "idx": 107,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "MORGAN STANLEY PERP JR GLBL 5.8750%",
+   "idx": 108,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "SCHWAB CHARLES CORP PERP SUB 4.0000%",
+   "idx": 109,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SCHWAS CHARLES CORP PERP SUS 4.0000% I",
+   "idx": 110,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SCHWAB CHARLES CORP PERP SUS 4.0000%",
+   "idx": 111,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "SCHWAB CHARLES CORP PERP SUB 4.0000% I",
+   "idx": 112,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "SCHWAB CHARLES CORP PERP SUB 4.0000%",
+   "idx": 113,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SEMPRA PERP SUB GLBL· C 4.8750% I",
+   "idx": 114,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "TRUIST FINL CORP PERP NT 5.1000%",
+   "idx": 115,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "TRUIST FINL CORP PERP NT 5.1000%",
+   "idx": 116,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "US BANCORP ALT TIER I PERP 5.3000% 12/31/49 I",
+   "idx": 117,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "WELLS FARGO & CO NEW· WFCpl",
+   "idx": 118,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "WELLS FARGO & CO PERP A BB N 3.9000% 12/31/49",
+   "idx": 119,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "WELLS FARGO & CO PERP A BB N 3.9000% 12/31/49",
+   "idx": 120,
+   "owner": "SELF",
+   "tx_date": "2025-05-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "CAPITAL ONE FINL CORP PERP S 3.9500% IN,_ 5/7/2025 ... $100.001 -$250,000 1n MORGAN STANLEY DEP SHS REPST 6,6250% 12/31/49 I ourdwlo 5/7/2025 ... s,.oo, -$15,000 173 PNC FINL SVCS GROUP INC TIER 6,2000%",
+   "idx": 121,
+   "owner": "SELF",
+   "tx_date": "2025-05-07",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/174165F6E1E120B185258DB000347F54/$FILE/Donald%20J.%20Trump%202.26.2026%20278-T%20(1).pdf"
+}

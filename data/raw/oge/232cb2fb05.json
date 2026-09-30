@@ -1,0 +1,49 @@
+{
+ "added": "2025-07-11",
+ "agency": "Department of Veterans Affairs",
+ "amended": false,
+ "doc": "232cb2fb05",
+ "kind": "278 Transaction",
+ "name": "Lawrence, Paul R",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Deputy Secretary",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Dominion Energy, Inc. (D)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "D",
+   "tx_date": "2025-05-08",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Fidelity Software and IT Services Portfolio (FSCSX)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "FSCSX",
+   "tx_date": "2025-04-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "T Rowe Price Health Sciences Fund, Inc Class I Shares (THISX)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "THISX",
+   "tx_date": "2025-04-28",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/5B8B5CEB2359CA1D85258CC4002C8A8E/$FILE/Paul-R-Lawrence-06.11.2025-278T.pdf"
+}

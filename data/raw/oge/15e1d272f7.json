@@ -1,0 +1,96 @@
+{
+ "added": "2021-12-28",
+ "agency": "Department of Energy",
+ "amended": false,
+ "doc": "15e1d272f7",
+ "kind": "278 Transaction",
+ "name": "Granholm, Jennifer",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Gilead Sciences, Inc. (GILD)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "GILD",
+   "tx_date": "2021-04-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Redfin Corp. (RDFN)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "RDFN",
+   "tx_date": "2021-04-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Uber Technologies, Inc. (UBER)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "UBER",
+   "tx_date": "2021-04-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Viatris",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2021-05-06",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Invesco Ltd",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2021-05-06",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Redfin Corp. (RDFN)",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "RDFN",
+   "tx_date": "2021-07-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Service Properties REIT",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2021-09-14",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Cohen & Steers REIT & Pref",
+   "idx": 7,
+   "owner": "SELF",
+   "tx_date": "2021-05-06",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/F13761F51A3FB703852587B90033C757/$FILE/Jennifer-Granholm-12.16.2021-278T.pdf"
+}

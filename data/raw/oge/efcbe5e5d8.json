@@ -1,0 +1,25 @@
+{
+ "added": "2021-01-05",
+ "agency": "Department of Transportation",
+ "amended": false,
+ "doc": "efcbe5e5d8",
+ "kind": "278 Transaction",
+ "name": "Chao, Elaine L",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "WFC - Wells Fargo & Co See Endnote",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2020-12-03",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/E4782F4E33E9DA5885258654003178FF/$FILE/Elaine-L-Chao-12.07.2020-278T.pdf"
+}

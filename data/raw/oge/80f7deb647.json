@@ -1,0 +1,76 @@
+{
+ "added": "2025-07-15",
+ "agency": "Department of The Interior",
+ "amended": false,
+ "doc": "80f7deb647",
+ "kind": "278 Transaction",
+ "name": "Burgum, Douglas J",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Goldman Sachs GQG Partners International Opportunities Fund Institutional Class Shs (GSIMX)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "GSIMX",
+   "tx_date": "2025-05-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "GQG PartnersEmerging Markets Equity Fund Institutional Class Shares (GQGIX) 4 Line is intentionally left blank No",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "GQGIX",
+   "tx_date": "2025-05-02",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures II, LP - Jane Software, Inc. See Endnote",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2025-06-06",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures III, LP - GivingData Holdings, Inc. See Endnote",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2025-05-16",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures III, LP - Foundant Technologies See Endnote 8 Line is left intentionally blank No 9 Retirement Account #1 No",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2025-05-16",
+   "type": "E"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SPDR S&P 500 ETF Trust (SPY)",
+   "asset_type": "EF",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "SPY",
+   "tx_date": "2025-06-03",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/4570FD57E16F594E85258CC8002C7DA3/$FILE/Douglas-J-Burgum-06.12.2025-278T.pdf"
+}

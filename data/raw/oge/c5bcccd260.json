@@ -1,0 +1,71 @@
+{
+ "added": "2022-12-06",
+ "agency": "Department of Health and Human Services",
+ "amended": false,
+ "doc": "c5bcccd260",
+ "kind": "278 Transaction",
+ "name": "Palm, Andrea",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Deputy Secretary",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "American Funds EuroPacific Growth Fund Class R6 Shares (RERGX)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "RERGX",
+   "tx_date": "2022-08-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BNY Mellon Midcap Index Fund, Inc; Investor Class Shares (PESPX)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "PESPX",
+   "tx_date": "2022-08-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ClearBridge Large Cap Growth Fund Class IS Shares (LSITX)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "LSITX",
+   "tx_date": "2022-08-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Delaware Value Fund Institutional Class Shares (DDVIX)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "DDVIX",
+   "tx_date": "2022-08-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "American Funds American Balanced Fund Class R6 Shares (RLBGX)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "RLBGX",
+   "tx_date": "2022-08-24",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/BFC68D194F9F49788525891000344F36/$FILE/Andrea-Palm-09.12.2022-278T.pdf"
+}

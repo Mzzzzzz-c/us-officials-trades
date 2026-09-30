@@ -1,0 +1,38 @@
+{
+ "added": "2021-09-14",
+ "agency": "Department of Homeland Security",
+ "amended": false,
+ "doc": "d671a8326b",
+ "kind": "278 Transaction",
+ "name": "Criswell, Deanne",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Emergency Management Agency",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Etsy, Inc. (ETSY)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "ETSY",
+   "tx_date": "2021-08-27",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Peloton Interactive Inc. (PTON)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "PTON",
+   "tx_date": "2021-08-27",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/FD54C77633EEF27385258750002E5457/$FILE/Deanne-Criswell-09.06.2021-278T.pdf"
+}

@@ -1,0 +1,26 @@
+{
+ "added": "2022-10-21",
+ "agency": "Department of Veterans Affairs",
+ "amended": false,
+ "doc": "a15740bf8b",
+ "kind": "278 Transaction",
+ "name": "Remy, Donald",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Deputy Secretary",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Indiana State Finance Authority Rev 5% See Endnote",
+   "asset_type": "GS",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2022-08-30",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/AF28E914906FB2A4852588E2002EC827/$FILE/Donald-Remy-09.09.2022-278T.pdf"
+}

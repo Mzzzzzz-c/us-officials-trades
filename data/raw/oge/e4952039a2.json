@@ -1,0 +1,98 @@
+{
+ "added": "2022-03-19",
+ "agency": "Department of Transportation",
+ "amended": false,
+ "doc": "e4952039a2",
+ "kind": "278 Transaction",
+ "name": "Fernandez, Nuria",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Transit Administration",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "The PNC Financial Services Group, Inc. (PNC)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "PNC",
+   "tx_date": "2022-01-27",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Accenture Plc (ACN)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "ACN",
+   "tx_date": "2022-01-25",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NXPI - Semiconductors",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2022-01-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Activision Blizzard, Inc. (ATVI)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "ATVI",
+   "tx_date": "2022-01-20",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NXPI - Semiconductors",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2022-01-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Bank of America Corp. (BAC)",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "BAC",
+   "tx_date": "2022-01-19",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "The PNC Financial Services Group, Inc. (PNC)",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "PNC",
+   "tx_date": "2022-01-19",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "EVVTY - Evolution AB",
+   "idx": 7,
+   "owner": "SELF",
+   "tx_date": "2022-01-13",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/64F7E62F5BC31E838525880A002E54A5/$FILE/Nuria-Fernandez-01.31.2022-278T.pdf"
+}

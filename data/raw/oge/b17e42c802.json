@@ -1,0 +1,38 @@
+{
+ "added": "2023-06-09",
+ "agency": "Department of Energy",
+ "amended": false,
+ "doc": "b17e42c802",
+ "kind": "278 Transaction",
+ "name": "Granholm, Jennifer",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "JPMorgan BetaBuilders USD High Yield Corporate See Endnote Bond ETF (BBHY) $100,000",
+   "asset_type": "EF",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "BBHY",
+   "tx_date": "2023-04-17",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "JPMorgan US Value Factor ETF (JVAL)",
+   "asset_type": "EF",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "JVAL",
+   "tx_date": "2023-04-17",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/9E1ECDE3522091F0852589C9002EF117/$FILE/Jennifer-Granholm-05.12.2023-278T.pdf"
+}

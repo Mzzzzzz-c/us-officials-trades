@@ -1,0 +1,28 @@
+{
+ "added": "2024-08-07",
+ "agency": "Department of Energy",
+ "amended": false,
+ "doc": "410335f40e",
+ "kind": "278 Transaction",
+ "name": "Granholm, Jennifer",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Take-Two Interactive Software, Inc. (TTWO)",
+   "asset_type": "ST",
+   "idx": 0,
+   "late_notice": true,
+   "owner": "SELF",
+   "ticker": "TTWO",
+   "tx_date": "2024-01-16",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/10047F773D0BFE6885258B72002DE3E3/$FILE/Jennifer-M-Granholm-07.10.2024-278T.pdf"
+}

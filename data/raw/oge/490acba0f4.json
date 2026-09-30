@@ -1,0 +1,27 @@
+{
+ "added": "2021-10-13",
+ "agency": "Department of Health and Human Services",
+ "amended": false,
+ "doc": "490acba0f4",
+ "kind": "278 Transaction",
+ "name": "Palm, Andrea",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Deputy Secretary",
+ "transactions": [
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Vanguard 500 Index Fund ETF Shares (VOO)",
+   "asset_type": "EF",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "VOO",
+   "tx_date": "2021-08-24",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/7515D2080DEB5EFE8525876D002E57CB/$FILE/Andrea-Palm-09.21.2021-278T.pdf"
+}

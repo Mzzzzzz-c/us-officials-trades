@@ -1,0 +1,356 @@
+{
+ "added": "2021-06-16",
+ "agency": "Council of Economic Advisers",
+ "amended": false,
+ "doc": "9705737534",
+ "kind": "278 Transaction",
+ "name": "Rouse, Cecilia",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Member & Chairman",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "3M Co",
+   "idx": 0,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2021-04-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Aptiv PLC",
+   "idx": 1,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2021-04-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Bristol-Myers Squibb Co",
+   "idx": 2,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2021-04-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Edison Intl Com",
+   "idx": 3,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2021-04-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Eversource Energy",
+   "idx": 4,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2021-04-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "First Trust Ise Cloud Computing Index Fd",
+   "idx": 5,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2021-04-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "iShares DJ US Home Construction ETF",
+   "asset_type": "EF",
+   "idx": 6,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2021-04-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Alphabet Inc - Class A",
+   "idx": 7,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2021-04-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Amazon.Com Inc",
+   "idx": 8,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2021-04-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Apple Inc",
+   "idx": 9,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2021-04-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Cisco Systems",
+   "idx": 10,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2021-04-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Cummins Inc",
+   "idx": 11,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2021-04-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Intel Corp",
+   "idx": 12,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2021-04-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Merck & Co",
+   "idx": 13,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2021-04-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Novo-Nordisk A/S-Spons Adr",
+   "idx": 14,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2021-04-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "PNC Fincl Services Group",
+   "idx": 15,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2021-04-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "United Parcel Service -Cl B",
+   "idx": 16,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2021-04-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Unitedhealth Group Inc",
+   "idx": 17,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2021-04-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "US Bancorp New",
+   "idx": 18,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2021-04-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Verizon Communications",
+   "idx": 19,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2021-04-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Visa Inc Class A Shares",
+   "idx": 20,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2021-04-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Wal Mart Stores Inc",
+   "idx": 21,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2021-04-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Zimmer Biomet Holdings 3.700% Due 03-19-23",
+   "asset_type": "GS",
+   "idx": 22,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2021-04-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Berkshire Hathaway Inc-CL B",
+   "idx": 23,
+   "owner": "SELF",
+   "tx_date": "2021-04-27",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Blackrock Inc",
+   "idx": 24,
+   "owner": "SELF",
+   "tx_date": "2021-04-27",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Comcast Corp Cl A",
+   "idx": 25,
+   "owner": "SELF",
+   "tx_date": "2021-04-27",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Johnson & Johnson",
+   "idx": 26,
+   "owner": "SELF",
+   "tx_date": "2021-04-27",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Home Depot Inc",
+   "idx": 27,
+   "owner": "SELF",
+   "tx_date": "2021-05-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "JPMorgan Chase & Co",
+   "idx": 28,
+   "owner": "SELF",
+   "tx_date": "2021-05-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "McDonald's Corp",
+   "idx": 29,
+   "owner": "SELF",
+   "tx_date": "2021-05-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Microsoft Corp",
+   "idx": 30,
+   "owner": "SELF",
+   "tx_date": "2021-05-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Pepsico Inc",
+   "idx": 31,
+   "owner": "SELF",
+   "tx_date": "2021-05-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Pfizer Inc",
+   "idx": 32,
+   "owner": "SELF",
+   "tx_date": "2021-05-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Procter & Gamble",
+   "idx": 33,
+   "owner": "SELF",
+   "tx_date": "2021-05-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Raytheon Tech Corp",
+   "idx": 34,
+   "owner": "SELF",
+   "tx_date": "2021-05-03",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/6E49C5CE8DAB31B3852586F6002E6634/$FILE/Cecilia-Rouse-05.24.2021-278T.pdf"
+}

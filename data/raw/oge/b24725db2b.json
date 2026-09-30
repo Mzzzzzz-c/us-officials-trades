@@ -1,0 +1,34 @@
+{
+ "added": "2020-12-11",
+ "agency": "Department of Education",
+ "amended": false,
+ "doc": "b24725db2b",
+ "kind": "278 Transaction",
+ "name": "DeVos, Elisabeth (Betsy) P",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "HgCapital Stingray Co-Invest L.P. See Endnote",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2020-10-15",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Myndlift LTD. See Endnote",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2020-10-16",
+   "type": "E"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/0636F82C82A2BACC8525863B002D5AA8/$FILE/Elisabeth-(Betsy)-P-DeVos-11.11.2020-278T.pdf"
+}

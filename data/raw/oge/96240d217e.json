@@ -1,0 +1,54 @@
+{
+ "added": "2022-03-23",
+ "agency": "Department of State",
+ "amended": false,
+ "doc": "96240d217e",
+ "kind": "278 Transaction",
+ "name": "Sherman, Wendy R",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Deputy Secretary",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Invesco Premier Inst",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2022-02-01",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "WCM Focused Intl GWTH Inst",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2022-02-01",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "iShares Core Total USD Bond Market ETF",
+   "asset_type": "EF",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2022-02-02",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SPDR Portfolio S&P 600 Small Cap ETF",
+   "asset_type": "EF",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2022-02-02",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/8322A7318F4AC41D8525880E002E6384/$FILE/Wendy-R-Sherman-02.04.2022-278T.pdf"
+}

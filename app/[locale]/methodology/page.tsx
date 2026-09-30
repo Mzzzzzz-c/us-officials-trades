@@ -38,6 +38,11 @@ function Zh({ meta, c }: P) {
           参议院：<a className="link" href="https://efdsearch.senate.gov/search/">eFD 电子披露系统</a>中的电子版 PTR 表格。
         </li>
         <li>
+          行政部门（总统、副总统、内阁部长及其他经参议院确认的官员）：美国政府道德办公室（OGE）
+          <a className="link" href="https://www.oge.gov/web/oge.nsf/Officials%20Individual%20Disclosures%20Search%20Collection?OpenForm">公开文件库</a>
+          中可直接下载的 278-T 交易报告。电子版按文字解析；总统的报告是扫描件，用文字识别（OCR）读取，公司名通过 SEC 公司名单匹配股票代码，个别行可能读错或遗漏。只能书面申请的报告无法收录。行政官员的“公开日”是 OGE 发布日期，比本人提交日期晚，因此不计逾期。
+        </li>
+        <li>
           投资人：<a className="link" href="https://www.sec.gov/edgar/search/">SEC EDGAR</a> 的 13F-HR 季报；CUSIP 通过 OpenFIGI 转换为股票代码。
         </li>
         <li>
@@ -120,6 +125,11 @@ function En({ meta, c }: P) {
         </li>
         <li>
           Senate: electronic PTR tables from the <a className="link" href="https://efdsearch.senate.gov/search/">eFD system</a>.
+        </li>
+        <li>
+          Executive branch (the President, Vice President, Cabinet and other Senate-confirmed officials): every 278-T periodic transaction report that the Office of Government Ethics posts for download in its
+          {" "}<a className="link" href="https://www.oge.gov/web/oge.nsf/Officials%20Individual%20Disclosures%20Search%20Collection?OpenForm">public collection</a>.
+          Electronic reports are read as text; the President&apos;s reports are scans read with OCR, company names are matched to tickers with SEC&apos;s company list, and a few lines may be misread or missed. Reports available only on request cannot be included. For these officials the public date is when OGE posted the report, later than the filing date, so lateness is not scored.
         </li>
         <li>
           Investors: Form 13F-HR from <a className="link" href="https://www.sec.gov/edgar/search/">SEC EDGAR</a>; CUSIPs are mapped to tickers with OpenFIGI.

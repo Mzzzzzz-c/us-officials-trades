@@ -1,0 +1,71 @@
+{
+ "added": "2022-08-23",
+ "agency": "Department of Transportation",
+ "amended": false,
+ "doc": "5a2eb32878",
+ "kind": "278 Transaction",
+ "name": "Fernandez, Nuria",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Transit Administration",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Rockwell Automation, Inc. (ROK)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "ROK",
+   "tx_date": "2022-06-17",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Target Corp. (TGT)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "TGT",
+   "tx_date": "2022-06-17",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Bank of America Corp. (BAC)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "BAC",
+   "tx_date": "2022-06-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Rockwell Automation, Inc. (ROK)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "ROK",
+   "tx_date": "2022-06-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Target Corp. (TGT)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "TGT",
+   "tx_date": "2022-06-13",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/3DEC0AE06FFF3CAE852588A7002EB7E0/$FILE/Nuria-Fernandez-07.02.2022-278T.pdf"
+}

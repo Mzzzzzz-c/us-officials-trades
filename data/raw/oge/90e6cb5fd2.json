@@ -1,0 +1,203 @@
+{
+ "added": "2023-06-28",
+ "agency": "Department of Energy",
+ "amended": false,
+ "doc": "90e6cb5fd2",
+ "kind": "278 Transaction",
+ "name": "Granholm, Jennifer",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Uber Technologies, Inc. (UBER)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "UBER",
+   "tx_date": "2023-05-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Gilead Sciences, Inc. (GILD)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "GILD",
+   "tx_date": "2023-05-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Redfin Corp. (RDFN)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "RDFN",
+   "tx_date": "2023-05-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "DNP Select Income Fund, Inc (DNP)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "DNP",
+   "tx_date": "2023-05-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Cedar Fair L.P. Common Stock (FUN)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "FUN",
+   "tx_date": "2023-05-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Invesco Ltd. (IVZ)",
+   "asset_type": "EF",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "IVZ",
+   "tx_date": "2023-05-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Redfin Corp. (RDFN)",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "RDFN",
+   "tx_date": "2023-05-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "DNP Select Income Fund, Inc (DNP)",
+   "asset_type": "ST",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "DNP",
+   "tx_date": "2023-05-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Cedar Fair L.P. Common Stock (FUN)",
+   "asset_type": "ST",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": "FUN",
+   "tx_date": "2023-05-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Invesco Ltd. (IVZ)",
+   "asset_type": "EF",
+   "idx": 9,
+   "owner": "SELF",
+   "ticker": "IVZ",
+   "tx_date": "2023-05-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Redfin Corp. (RDFN)",
+   "asset_type": "ST",
+   "idx": 10,
+   "owner": "SELF",
+   "ticker": "RDFN",
+   "tx_date": "2023-05-18",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Ford Motor Co. (F) See Endnote",
+   "asset_type": "ST",
+   "idx": 11,
+   "owner": "SELF",
+   "ticker": "F",
+   "tx_date": "2023-05-15",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Teledoc Health, Inc. (TDOC) See Endnote",
+   "asset_type": "ST",
+   "idx": 12,
+   "owner": "SELF",
+   "ticker": "TDOC",
+   "tx_date": "2023-05-18",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Teledoc Health, Inc. (TDOC) See Endnote",
+   "asset_type": "ST",
+   "idx": 13,
+   "owner": "SELF",
+   "ticker": "TDOC",
+   "tx_date": "2023-05-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "WisdomTree Emerging Markets ex-State-Owned Enterprises Fund (XSOE)",
+   "asset_type": "ST",
+   "idx": 14,
+   "owner": "SELF",
+   "ticker": "XSOE",
+   "tx_date": "2023-05-30",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Goldman Sachs ActiveBeta US Large Cap Equity See Endnote ETF (GSLC)",
+   "asset_type": "EF",
+   "idx": 15,
+   "owner": "SELF",
+   "ticker": "GSLC",
+   "tx_date": "2023-05-30",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "JPMorgan BetaBuilders USD High Yield Corporate See Endnote Bond ETF (BBHY)",
+   "asset_type": "EF",
+   "idx": 16,
+   "owner": "SELF",
+   "ticker": "BBHY",
+   "tx_date": "2023-05-30",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/10731ED1AC82869C852589DC002EF3E9/$FILE/Jennifer-Granholm-06.07.2023-278T.pdf"
+}

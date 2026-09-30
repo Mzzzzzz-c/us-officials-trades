@@ -1,0 +1,25 @@
+{
+ "added": "2020-11-06",
+ "agency": "Department of Education",
+ "amended": false,
+ "doc": "4b1dd7ccce",
+ "kind": "278 Transaction",
+ "name": "DeVos, Elisabeth (Betsy) P",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Whitecaps Bridge Fund, LLC See Endnote",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2020-09-03",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/0DEE584F2FBDA78E85258618002D605D/$FILE/Elisabeth-P-DeVos-10.02.2020-278T.pdf"
+}

@@ -1,0 +1,136 @@
+{
+ "added": "2022-11-03",
+ "agency": "Department of State",
+ "amended": false,
+ "doc": "80b9e3b111",
+ "kind": "278 Transaction",
+ "name": "Sherman, Wendy R",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Deputy Secretary",
+ "transactions": [
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ISHARES 3-7 YR Treasury BD EFT",
+   "asset_type": "GS",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2022-09-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ISHARES CORE U.S. AGGREGATE",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2022-09-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "VANGUARD SHORT TERM BND",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2022-09-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "WCM FOCUSED INTL GWTH INST",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2022-09-29",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "iShares Core Total USD Bond Market ETF",
+   "asset_type": "EF",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2022-09-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "AQR MNGD FUTURES STRAT 1",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2022-09-29",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "T ROWE PRICE BLUE CHIP GR",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2022-09-29",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AQR MNGD FUTURES STRAT 1",
+   "idx": 7,
+   "owner": "SELF",
+   "tx_date": "2022-09-29",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CONS STAPLES SEL SECT SPDR FD",
+   "idx": 8,
+   "owner": "SELF",
+   "tx_date": "2022-09-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ISHARES CORE TOTAL BOND ETF",
+   "asset_type": "EF",
+   "idx": 9,
+   "owner": "SELF",
+   "tx_date": "2022-09-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "AQR MNGD FUTURES STRAT 1",
+   "idx": 10,
+   "owner": "SELF",
+   "tx_date": "2022-09-29",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SCWAB U.S. LARGE-CAP VALUE",
+   "idx": 11,
+   "owner": "SELF",
+   "tx_date": "2022-09-30",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "T ROWE PRICE BLUE CHIP GR",
+   "idx": 12,
+   "owner": "SELF",
+   "tx_date": "2022-09-29",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/15D52DE04D9C333C852588EF002EC962/$FILE/Wendy-R-Sherman-10.06.2022-278T.pdf"
+}

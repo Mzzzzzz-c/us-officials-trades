@@ -1,0 +1,47 @@
+{
+ "added": "2021-07-22",
+ "agency": "Office of Management and Budget",
+ "amended": false,
+ "doc": "3a25f1463f",
+ "kind": "278 Transaction",
+ "name": "Miller, Jason S",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Deputy Director",
+ "transactions": [
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Apple, Inc. (AAPL)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "AAPL",
+   "tx_date": "2021-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Procter & Gamble Co. (PG)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "PG",
+   "tx_date": "2021-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "AstraZeneca ADR",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2021-06-23",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/04FA98DDD54E5C408525871A002E4A53/$FILE/Jason-S-Miller-07.07.2021-278T.pdf"
+}

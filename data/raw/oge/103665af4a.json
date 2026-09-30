@@ -1,0 +1,467 @@
+{
+ "added": "2026-03-04",
+ "agency": "White House Office",
+ "amended": false,
+ "doc": "103665af4a",
+ "kind": "278 Transaction",
+ "name": "Trump, Donald J",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "paper",
+ "title": "President",
+ "transactions": [
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "U.S. Offico of Govommont Ethics; 5 C.F.R. part 2634 UNITCO STATCS OHIC[ or .-COVERNM*EN­T ETHICS Executive Branch Personnel Public Financial Disclosure Report: p,,c,w.-.\"t1rig (onfl.ct, of l11t1·,�,.t Fllo(s Information Las!Namo Ml Tn.imp Prosldont or tho Unltod Statos of America made In this ro ort",
+   "asset_type": "EF",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2026-01-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "GENERAL MTR$ FINL CO INC DUE 03/01/2028 05.250% MS 01D ISCRETIONARY ORDER Y1EL04.083 % TO PAR CALL YIELD 4.374 % TO MATURITY CALLA9LE 02/20J28 AT 100.000T IME OF EXE I",
+   "asset_type": "CS",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2026-01-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "UNtTED RENTALS NORTH AMER INC SENIOR SECURED NOTES REGS DUE 12/15/202Q 08.000% JD 15 DISCRETIONARY ORDER IF THIS CONFIRMATION IS IN CONNECTION WITH A SALE PI",
+   "asset_type": "CS",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2026-01-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "WHIRLPOOL CORP DEB SENIOR NOTES DUE 02128/2029 04.750% FA 28 DISCRETIONARY ORDER YIELD 5.128 % TO MATURITY YIElO 5.15Q % TO PAA CALL CALLABLE 11/2e/28 AT 100.000 I auteha&a 1/2012028 no $100,001 -$250,000 -NETR.IX INC REGS DUE 11/151202'1 05.375% JD 15D ISCRETIONARY ORDER IF THIS CONFIRMATION IS IN ",
+   "asset_type": "CS",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2026-01-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "OLIN CORP DUE 08101/2029 05.825% FA 01 DISCRETIONARY ORDER YIELD 5.168 % TO PAR CALL YIELD 21.288 % TO CALL YIELO 5A1B % TO MATURITY CALLABLE 08/01127 AT 100.000",
+   "asset_type": "CS",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2026-01-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "FI..R ST ,H. ORlZON BK MEMPHIS TEt,,,1·\"N DUE 05/01/2030 057. 50% MN 01D ISCRETIONARY ORO ER YIELD 4.897 % TO PAR CALL YIELD 4.\"40 % TO MATURITY CALLABLE 02J01f30 AT 100.000TI ME Ci",
+   "asset_type": "GS",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2026-01-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "THE BOEINGC OMPANY SENIOR UNSECURED NOTE DUE 0510112027 05.040% MN 01 DISCRETIONARY ORDER YlELO 4.0BO % TO PAR CALL YIELD 4.197 % TO MATURITY CAU.ASLE 03/01/27 Al",
+   "asset_type": "GS",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2026-01-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "BLOCK FINL LLC SENIOR UNSECURED NOTE DUE 08115J203003 .875% FA 15D ISCRETIONARY ORDER YIELD A.805 % TO MATURl'TY YlELD 4.855 % TO PAR CALL CALLABLE 05/15130A T 100.001",
+   "asset_type": "CS",
+   "idx": 7,
+   "owner": "SELF",
+   "tx_date": "2026-01-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "vlCTORIAS SECRET CO REGS OUE 07/15/202904.825% JJ 15 DISCRETIONARY ORDER IF THIS CONFIRMATION IS IN CONNECTION WITH A SALE PURSUANT TO REG. S I",
+   "idx": 8,
+   "owner": "SELF",
+   "tx_date": "2026-01-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "coREWEAVE INC REGS DUE 02/01ao31 09.000% FA 01D ISCRETIONARY ORDER IF THIS CONFIRMATION IS IN CONNECTION WITH A SALE PURSUANT TO REG.S I",
+   "asset_type": "CS",
+   "idx": 9,
+   "owner": "SELF",
+   "tx_date": "2026-01-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "GENERAL MTR$ FINL CO INC DUE 03/011202605.250% MS 01D ISCRETIONARY ORDER YIB.D 3.935 % TO PAR CALL YIELD 4.585 % TO MATURITY CALLABLE 02/02128 AT 100.000T IME OF EXE",
+   "asset_type": "CS",
+   "idx": 10,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-01-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "WHIRLPOOL CORP DEB SENIOR NOTES DUE 02/26/202ll 04.750% FA 28 DISCRETIONARY ORDER YIELD 5.202 % TO MATURITY YIELD 5240 % TO PAR CALL CALLA8LE 11126128 AT 100.000",
+   "asset_type": "CS",
+   "idx": 11,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-01-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "NETFLIX INC REGS DUE 11115/2029 05.375% JD 15 DISCRETIONARY ORDER IF THIS CONFIRMATION IS IN CONNECTION WITH ASAlE PURSUANT TO REG.S oun:l>o\"\" 112/2028 ..,.. $500,001 -S1, 000,000 X, -SIRIUS XM RADIO INC SENIOR NOTES REGS DUE 07/0112029 05.500% JJ 01 DISCRETIONARY ORDER IF THIS CON�IRMA.TION IS IN C",
+   "asset_type": "CS",
+   "idx": 12,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-01-02",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "OLIN CORP DUE 08/0112029 05.825% FA.01D ISCRETIONARY ORDER YIELD 5.258 % TO ?AR CALL YIELD 23.888 % TO CALL YIELD 5A54 % TO MATURITY CALLABLE 00/01.127 AT 100.000",
+   "asset_type": "CS",
+   "idx": 13,
+   "owner": "SELF",
+   "tx_date": "2026-01-02",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "THE BOEING COMPANY SENIOR UNSECURED NOTE DUE O!J01!2027 05.040% MN 01 DISCRETIONARY ORDER YlELD 4.088 % TO PAR CALL YIELD 4200 % TO MATURITY CAUABLE 03101127 Ai",
+   "asset_type": "GS",
+   "idx": 14,
+   "owner": "SELF",
+   "tx_date": "2026-01-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "BLOCK FINL LLC SENIOR UNSECURED NOTE DUE 08/15/2030 03.875% FA 15D ISCRETIONARY ORDER YIELD 4.737 % TO MATURITY YIELD 4.783 % TO PAR CALL CALI.ABLE 05115/30 AT 100.00lourchaoo 1/2/2026 vaa $250,001- ssoo 000 33 OCCIDENTAL PETE SR DEBS-REGS ENIOR NOTES DUE OW01/2030 08.825% MS 01D ISCRETIONARY ORDER ",
+   "asset_type": "CS",
+   "idx": 15,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-01-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "COREWEAVE INC REGS DUE 02101/2031 OQ.000% FA 01 DISCRETIONARY ORDER IFTHIS CONFIRMATION IS IN CONNECTION WITH A SALE PURSUANT TO REG. S",
+   "asset_type": "CS",
+   "idx": 16,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-01-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "LONE STAR Ct.LGSY S TX RFOG 8/E 5.00 % Que Fob 15",
+   "asset_type": "GS",
+   "idx": 17,
+   "owner": "SELF",
+   "tx_date": "2026-01-21",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "PHILADELPHIA PA AUTH INDL DEV MLTI FAM REV HSG B/E 010 d'l}07. 106 <1.00 % Duo 0oc 1",
+   "asset_type": "GS",
+   "idx": 18,
+   "owner": "SELF",
+   "tx_date": "2026-01-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "FORT LUPTON CO CTF PARTN REV BIE 5.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 19,
+   "owner": "SELF",
+   "tx_date": "2026-01-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "LEHIGH CNTY PA GENL PURP AUTH REV RFOG Ct.LG CARBON CMNTY PJ BAM 8/E 5.00 % Quo Nov 1",
+   "asset_type": "GS",
+   "idx": 20,
+   "owner": "SELF",
+   "tx_date": "2026-01-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "HARRlS CNlYTX MU0\"332019AB AM 8/E CR ENH .&.00 % Due $ap 1",
+   "asset_type": "GS",
+   "idx": 21,
+   "owner": "SELF",
+   "tx_date": "2026-01-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MUSKOGEE CNlY OK PUB SAFETY AUTH CAP IMPT REV 2025 8/E 4.00 % Duo Doc 1",
+   "asset_type": "GS",
+   "idx": 22,
+   "owner": "SELF",
+   "tx_date": "2026-01-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MADISONVILLE KY AGI 8/E 8/Q 5.00 % Duo Seo 1, 2028",
+   "asset_type": "GS",
+   "idx": 23,
+   "owner": "SELF",
+   "tx_date": "2026-01-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "NEW HOPE CULTURAL ED FACS FIN COR? STONT HSG REV CHF SER A 8/E ?TC 5.00 % Duo Aor 1",
+   "asset_type": "GS",
+   "idx": 24,
+   "owner": "SELF",
+   "tx_date": "2026-01-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "COOPER GREEN MERCY HLTH SVCS AUTH AL REV SER A 8/E 5.00 % Due Sop 1",
+   "asset_type": "GS",
+   "idx": 25,
+   "owner": "SELF",
+   "tx_date": "2026-01-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MAINE ST TPI( AUTH REV B/E 5.00 % Duo Jul 1",
+   "asset_type": "GS",
+   "idx": 26,
+   "owner": "SELF",
+   "tx_date": "2026-01-09",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "OMAHA NE PWR ?US DIST SEPARATE ELEC REV SYS SER A B/E PTC 5.00 % Duo Feb 1",
+   "asset_type": "GS",
+   "idx": 27,
+   "owner": "SELF",
+   "tx_date": "2026-01-09",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "MANOR TX lNOPT SCH DIST SCH BLOG 8/E 5.00 % Duo Aug 1, 2028 I",
+   "asset_type": "GS",
+   "idx": 28,
+   "owner": "SELF",
+   "tx_date": "2026-01-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MISSISSIPPI DEV BK SPL OBL1G NRTHEST MS CMNTY CLLG REV AGM B/E 4.00 % Duo Ju l1",
+   "asset_type": "GS",
+   "idx": 29,
+   "owner": "SELF",
+   "tx_date": "2026-01-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "COLORADO HLTH FACS AUTH REV INTERMTN HLTHCARE INC SERB BIE 5.00 % Cue Mov 15",
+   "asset_type": "GS",
+   "idx": 30,
+   "owner": "SELF",
+   "tx_date": "2026-01-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "COLORADO HLTH FACS AUTH REV RFOG Ct-lLDRNS HOSP CO PJ SER C 8/E 5.00 % Duo Doe 1",
+   "asset_type": "GS",
+   "idx": 31,
+   "owner": "SELF",
+   "tx_date": "2026-01-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MOORESVIUE lN CONS SCH CORP 8/E 8/Q ST INTRcPT 5.00 % Duo Jul 15",
+   "asset_type": "GS",
+   "idx": 32,
+   "owner": "SELF",
+   "tx_date": "2026-01-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CHESA?EAl<E VA REOEV & HSGAUTH MLTIFAM HSG REV HUNTER PT APTS B/E 5.00 % Duo Moy 1, 204-3",
+   "asset_type": "GS",
+   "idx": 33,
+   "owner": "SELF",
+   "tx_date": "2026-01-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "LYON CNTY KS UNI SCH DIST 253 EMPORIA 8/E 4.00 % Due Seo 1",
+   "asset_type": "GS",
+   "idx": 34,
+   "owner": "SELF",
+   "tx_date": "2026-01-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "KlNG CNTY WA SWR REV RFOG & IMP'T SERB BIE 5.00 % Due Jul 1, 2026 I",
+   "asset_type": "GS",
+   "idx": 35,
+   "owner": "SELF",
+   "tx_date": "2026-01-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "KENTUCKY ST PPTY & Bl.DGS COMM REV PJ 117 SER D BIE 5.00 % Cue May 1",
+   "asset_type": "GS",
+   "idx": 36,
+   "owner": "SELF",
+   "tx_date": "2026-01-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "MISSOURI ST HLTH & EDL FACS Al/THB JC SYS SER 8 REV 8/E 4.00 % Due Mav 1",
+   "asset_type": "GS",
+   "idx": 37,
+   "owner": "SELF",
+   "tx_date": "2026-01-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "COR?US CHRISTI TX VTIL SYS REV SR LIEN IMPT RFDG 2025 Q/E CR ENH 5.00 % Duo Jul 15. 2028 I",
+   "asset_type": "GS",
+   "idx": 38,
+   "owner": "SELF",
+   "tx_date": "2026-01-07",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "CAPE ANN MA TRAN AUTH REV ANTIC NT 8/E 8/0 4.25 % Due Jul 15",
+   "asset_type": "GS",
+   "idx": 39,
+   "owner": "SELF",
+   "tx_date": "2026-01-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "LAKE CNTY OM VARIOUO PURP IMPT NT B/E 3.75 % Duo Soo 18",
+   "asset_type": "GS",
+   "idx": 40,
+   "owner": "SELF",
+   "tx_date": "2026-01-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "PROSPER TX INDPi SCH DIST BLDG SERB B/E PSF GTO 4.00 % Duo Fob 15",
+   "asset_type": "GS",
+   "idx": 41,
+   "owner": "SELF",
+   "tx_date": "2026-01-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "CONNECTICUT ST HEAL 5%42SYST HLTH OUE 07J01/42XTRO ASSURED GUAAANTY IN",
+   "idx": 42,
+   "owner": "SELF",
+   "tx_date": "2026-01-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "OU PAGE CNlY ILL CM 4%42GO U1X OUE 01�5/42010 I",
+   "idx": 43,
+   "owner": "SELF",
+   "tx_date": "2026-01-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BANK OF AMCRICACOR.PORATION CONV PFDSER l7.250%",
+   "idx": 44,
+   "owner": "SELF",
+   "tx_date": "2026-01-30",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/BCF60D94B8F1E59285258DB000347F61/$FILE/Donald%20J.%20Trump%202.26.2026%20278-T%20(2).pdf"
+}

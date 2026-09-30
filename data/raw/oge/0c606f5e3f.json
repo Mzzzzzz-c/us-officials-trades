@@ -1,0 +1,25 @@
+{
+ "added": "2021-07-27",
+ "agency": "National Aeronautics and Space Administration",
+ "amended": false,
+ "doc": "0c606f5e3f",
+ "kind": "278 Transaction",
+ "name": "Nelson, Clarence W",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Relativity Space stock, purchased through exercise See Endnote of Relativity Space stock options",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2021-06-25",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/9C516B0864B699408525871F002E5073/$FILE/Clarence-W-Nelson-06.29.2021-278T.pdf"
+}

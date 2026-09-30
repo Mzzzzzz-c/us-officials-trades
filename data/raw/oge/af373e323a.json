@@ -1,0 +1,201 @@
+{
+ "added": "2021-11-10",
+ "agency": "Department of The Air Force",
+ "amended": false,
+ "doc": "af373e323a",
+ "kind": "278 Transaction",
+ "name": "Kendall, Frank",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Leidos Holdings, Inc. (LDOS)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "LDOS",
+   "tx_date": "2021-10-15",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Leidos Holdings, Inc. (LDOS)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "LDOS",
+   "tx_date": "2021-10-15",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Leidos Holdings, Inc. (LDOS)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "LDOS",
+   "tx_date": "2021-10-15",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Leidos Holdings, Inc. (LDOS)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "LDOS",
+   "tx_date": "2021-09-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Leidos Holdings, Inc. (LDOS)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "LDOS",
+   "tx_date": "2021-09-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Leidos Holdings, Inc. (LDOS)",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "LDOS",
+   "tx_date": "2021-09-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Leidos Holdings, Inc. (LDOS)",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "LDOS",
+   "tx_date": "2021-09-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Leidos Holdings, Inc. (LDOS)",
+   "asset_type": "ST",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "LDOS",
+   "tx_date": "2021-09-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Leidos Holdings, Inc. (LDOS)",
+   "asset_type": "ST",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": "LDOS",
+   "tx_date": "2021-09-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Leidos Holdings, Inc. (LDOS)",
+   "asset_type": "ST",
+   "idx": 9,
+   "owner": "SELF",
+   "ticker": "LDOS",
+   "tx_date": "2021-09-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Leidos Holdings, Inc. (LDOS)",
+   "asset_type": "ST",
+   "idx": 10,
+   "owner": "SELF",
+   "ticker": "LDOS",
+   "tx_date": "2021-09-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Leidos Holdings, Inc. (LDOS)",
+   "asset_type": "ST",
+   "idx": 11,
+   "owner": "SELF",
+   "ticker": "LDOS",
+   "tx_date": "2021-09-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Vanguard Target Retirement 2025 Fund Investor Class Shares (VTTVX) $100,000",
+   "asset_type": "EF",
+   "idx": 12,
+   "owner": "SELF",
+   "ticker": "VTTVX",
+   "tx_date": "2021-09-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Vanguard Total Bond Market Index Fund Institutional Plus Shares (VBMPX) $100,000",
+   "asset_type": "EF",
+   "idx": 13,
+   "owner": "SELF",
+   "ticker": "VBMPX",
+   "tx_date": "2021-09-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Vanguard Extended Market Index Fund Institutional Plus Shares (VEMPX) $250,000",
+   "asset_type": "EF",
+   "idx": 14,
+   "owner": "SELF",
+   "ticker": "VEMPX",
+   "tx_date": "2021-09-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "T Rowe Price QM US Small & Mid-Cap Core D",
+   "idx": 15,
+   "owner": "SELF",
+   "tx_date": "2021-09-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Northrop Grumman Corp. (NOC)",
+   "asset_type": "ST",
+   "idx": 16,
+   "owner": "SELF",
+   "ticker": "NOC",
+   "tx_date": "2021-09-30",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/E5CE05E652191717852587890033C847/$FILE/Frank-Kendall-10.28.2021-278T.pdf"
+}

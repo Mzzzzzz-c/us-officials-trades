@@ -1,0 +1,76 @@
+{
+ "added": "2021-09-14",
+ "agency": "Office of the National Cyber Director",
+ "amended": false,
+ "doc": "ec39bfa604",
+ "kind": "278 Transaction",
+ "name": "Inglis, John C",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "FedEx Corp. (FDX) See Endnote",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "FDX",
+   "tx_date": "2021-08-16",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "FedEx Corp. (FDX) See Endnote",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "FDX",
+   "tx_date": "2021-08-16",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "FedEx Corp. (FDX) See Endnote",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "FDX",
+   "tx_date": "2021-08-31",
+   "type": "S"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "Paladin Cyber Investors LP",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2021-08-27",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Paladin Cyber Investors II LP (and Carried Interest)",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2021-08-26",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Paladin Cyber Investors III Carried Interest",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2021-08-26",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/4663AF18F81DFE6785258750002E5623/$FILE/John-C-Inglis-09.09.2021-278T.pdf"
+}

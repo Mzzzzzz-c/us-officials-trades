@@ -1,0 +1,27 @@
+{
+ "added": "2023-12-05",
+ "agency": "Department of Energy",
+ "amended": false,
+ "doc": "47155ff2f0",
+ "kind": "278 Transaction",
+ "name": "Granholm, Jennifer",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "JPMorgan US Value Factor ETF (JVAL)",
+   "asset_type": "EF",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "JVAL",
+   "tx_date": "2023-11-14",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/6C7C977AA405AC1285258A7C00347AD4/$FILE/Jennifer-Granholm-11.21.2023-278T.pdf"
+}

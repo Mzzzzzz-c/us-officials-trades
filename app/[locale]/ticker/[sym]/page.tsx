@@ -41,7 +41,7 @@ export default async function TickerPage({ params }: { params: Promise<{ locale:
   const members: Record<string, MemberLite> = {};
   for (const tr of d.trades) {
     const m = mm.get(tr.m);
-    if (m) members[tr.m] = { name: m.name, zh: m.zh, party: m.party, chamber: m.chamber, state: m.state };
+    if (m) members[tr.m] = { name: m.name, zh: m.zh, party: m.party, chamber: m.chamber, state: m.state, agency: m.agency, agency_zh: m.agency_zh };
   }
   const name = (id: string) => {
     const m = mm.get(id);

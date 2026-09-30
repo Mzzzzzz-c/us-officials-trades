@@ -7,9 +7,12 @@ import { Note, PartyBadge, Pct, Section, Stat } from "@/components/ui";
 import { getLatestPrices, getMember, getMembers, getTickers, slim } from "@/lib/data";
 import { amountRange } from "@/lib/format";
 import { dict, fmt, isLocale } from "@/lib/i18n";
-import { committeeName, committeeTitle, stateName } from "@/lib/labels";
+import { committeeName, committeeTitle, roleLabel, stateName } from "@/lib/labels";
 
 export const dynamicParams = true;
+
+// keeps the page light for the few filers with thousands of lines (the President reports ~9,000)
+const MAX_TRADES = 1500;
 
 export function generateStaticParams() {
   return getMembers().map((m) => ({ id: m.id }));
@@ -24,7 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const nm = locale === "zh" && p.profile.zh ? `${p.profile.zh}（${p.profile.name}）` : p.profile.name;
   return {
     title: nm,
-    description: `${nm} · ${t.chamber[p.profile.chamber]} · ${t.party[p.profile.party as keyof typeof t.party] ?? ""} · ${p.summary.n} ${t.home.trades}`,
+    description: `${nm} · ${p.profile.chamber === "E" ? roleLabel(p.profile, locale) : t.chamber[p.profile.chamber]} · ${t.party[p.profile.party as keyof typeof t.party] ?? ""} · ${p.summary.n} ${t.home.trades}`,
   };
 }
 
@@ -37,11 +40,12 @@ export default async function MemberPage({ params }: { params: Promise<{ locale:
   const { profile: p, summary: s } = data;
   const { px } = getLatestPrices();
   const pxSub: Record<string, number> = { SPY: px.SPY };
-  for (const tr of data.trades) if (tr.sym && px[tr.sym] != null) pxSub[tr.sym] = px[tr.sym];
+  for (const tr of data.trades.slice(0, MAX_TRADES)) if (tr.sym && px[tr.sym] != null) pxSub[tr.sym] = px[tr.sym];
   const names: Record<string, string> = {};
   const want = new Set(data.positions.map((x) => x.sym));
   for (const tk of getTickers()) if (want.has(tk.sym)) names[tk.sym] = (locale === "zh" && tk.zh) || tk.name;
-  const member = { [p.id]: { name: p.name, zh: p.zh, party: p.party, chamber: p.chamber, state: p.state } };
+  const member = { [p.id]: { name: p.name, zh: p.zh, party: p.party, chamber: p.chamber, state: p.state, agency: p.agency, agency_zh: p.agency_zh } };
+  const exec = p.chamber === "E";
   const partyLabel = t.party[p.party as keyof typeof t.party] ?? p.party;
   const horizons = ["30", "90", "180", "365"];
   const buy = data.perf.buy ?? {};
@@ -56,10 +60,11 @@ export default async function MemberPage({ params }: { params: Promise<{ locale:
             {locale === "zh" && p.zh ? <span className="ml-2 text-base font-normal text-muted">{p.name}</span> : null}
           </h1>
           <div className="mt-2 flex flex-wrap items-center gap-2 text-sm text-muted">
-            <PartyBadge party={p.party} label={partyLabel} />
+            {p.party ? <PartyBadge party={p.party} label={partyLabel} /> : null}
             <span>{t.chamber[p.chamber]}</span>
             <span>·</span>
-            <span>
+            {exec ? <span>{roleLabel(p, locale)}</span> : null}
+            <span className={exec ? "hidden" : ""}>
               {stateName(p.state, locale)}
               {p.chamber === "H" && p.district != null
                 ? locale === "zh"
@@ -73,13 +78,24 @@ export default async function MemberPage({ params }: { params: Promise<{ locale:
               <>
                 <span>·</span>
                 <span>
-                  {t.member.since} {p.since}
+                  {exec ? t.member.firstFiling : t.member.since} {p.since}
                 </span>
               </>
             ) : null}
           </div>
         </div>
       </div>
+
+      {exec && p.congress ? (
+        <p className="mt-3 text-sm">
+          <Link prefetch={false} className="link" href={`/${locale}/member/${p.congress}`}>
+            {t.member.congressPage} →
+          </Link>
+        </p>
+      ) : null}
+      {exec && data.trades.length === 0 && data.scanned.length === 0 ? (
+        <p className="mt-4 rounded-lg bg-warn-soft px-3 py-2 text-sm text-warn">{t.member.noExecTrades}</p>
+      ) : null}
 
       {p.committees?.length ? (
         <div className="mt-4">
@@ -95,13 +111,19 @@ export default async function MemberPage({ params }: { params: Promise<{ locale:
         </div>
       ) : null}
 
+      {exec && data.trades.length === 0 ? null : (
       <div className="mt-5 grid grid-cols-2 gap-3 md:grid-cols-5">
         <Stat label={t.member.tradeCount} value={s.n.toLocaleString()} sub={<><span className="text-pos">{s.nb}</span> / <span className="text-neg">{s.ns}</span> {t.table.buysSells}</>} />
         <Stat label={t.table.volume} value={amountRange(s.vmin, s.vmax)} />
         <Stat label={t.member.avgDelay} value={data.delay.avg != null ? fmt(t.table.days, { n: data.delay.avg }) : "—"} sub={data.delay.max != null ? `${t.member.maxDelay} ${fmt(t.table.days, { n: data.delay.max })}` : undefined} />
-        <Stat label={t.table.late} value={<span className={s.late ? "text-warn" : ""}>{s.late}</span>} sub="> 45" />
+        {exec ? (
+          <Stat label={t.table.late} value="—" sub={<span className="text-[11px]">{t.member.execLateNote}</span>} />
+        ) : (
+          <Stat label={t.table.late} value={<span className={s.late ? "text-warn" : ""}>{s.late}</span>} sub="> 45" />
+        )}
         <Stat label={t.table.lastFiled} value={<span className="text-base">{s.lastf ?? "—"}</span>} />
       </div>
+      )}
 
       {Object.keys(buy).length > 0 && (
         <Section title={t.member.perfTitle}>
@@ -144,9 +166,12 @@ export default async function MemberPage({ params }: { params: Promise<{ locale:
         </Section>
       )}
 
+      {exec && data.trades.length === 0 ? null : (
       <Section title={`${t.member.trades} (${data.trades.length})`}>
-        <TradeTable locale={locale} trades={data.trades.map(slim)} members={member} px={pxSub} showMember={false} filters={data.trades.length > 30} />
+        <TradeTable locale={locale} trades={data.trades.slice(0, MAX_TRADES).map(slim)} members={member} px={pxSub} showMember={false} filters={data.trades.length > 30} />
+        {data.trades.length > MAX_TRADES ? <Note>{fmt(t.member.tradesCapped, { n: MAX_TRADES, total: data.trades.length })}</Note> : null}
       </Section>
+      )}
 
       {data.scanned.length > 0 && (
         <Section title={`${t.member.scanned} (${data.scanned.length})`}>
@@ -163,6 +188,26 @@ export default async function MemberPage({ params }: { params: Promise<{ locale:
           </ul>
         </Section>
       )}
+      {exec && (p.docs?.length || p.on_request) ? (
+        <Section title={t.member.ogeDocs}>
+          <ul className="card divide-y divide-line text-sm">
+            {(p.docs ?? []).map((d, i) => (
+              <li key={`${d.url}-${i}`} className="flex flex-wrap items-center justify-between gap-3 px-3 py-2">
+                <span className="num text-muted">{d.added}</span>
+                <span className="flex-1">{t.executive.kinds[d.kind.replace(/\s*\(?\d{4}\)?$/, "")] ?? d.kind}{/\d{4}/.test(d.kind) ? ` (${d.kind.match(/\d{4}/)![0]})` : ""}</span>
+                {d.url ? (
+                  <a className="link" href={d.url} target="_blank" rel="noopener noreferrer">
+                    PDF ↗
+                  </a>
+                ) : null}
+              </li>
+            ))}
+          </ul>
+          <Note>
+            {t.member.ogeDocsNote} {p.on_request ? fmt(t.member.onRequest, { n: p.on_request }) : ""}
+          </Note>
+        </Section>
+      ) : null}
       <p className="mt-8 text-xs text-faint">
         <Link prefetch={false} className="link" href={`/${locale}/methodology`}>
           {t.nav.methodology}

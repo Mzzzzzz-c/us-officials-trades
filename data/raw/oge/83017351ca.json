@@ -1,0 +1,502 @@
+{
+ "added": "2025-10-01",
+ "agency": "Office of Personnel Management",
+ "amended": false,
+ "doc": "83017351ca",
+ "kind": "278 Transaction",
+ "name": "Kupor, Scott A",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "APPLE INC See Endnote",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "ADOBE INC COM See Endnote",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "AKAMAI TECHNOLOGIES COM USD0.01 See Endnote",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "AMAZON.COM INC See Endnote",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "BOOZ ALLEN HAMILTON HLDG CORP CL A See Endnote",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "BEST BUY CO INC COM USD0.10 See Endnote",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "CITIGROUP INC See Endnote",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "CACI INTERNATIONAL INC See Endnote",
+   "idx": 7,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "SALESFORCE INC COM See Endnote",
+   "idx": 8,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "CISCO SYSTEMS INC See Endnote",
+   "idx": 9,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "DELL TECHNOLOGIES INC CL C See Endnote",
+   "idx": 10,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "DISNEY WALT CO COM See Endnote",
+   "idx": 11,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "DOCUSIGN INC COM See Endnote",
+   "idx": 12,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "FOX CORP CL B COM See Endnote",
+   "idx": 13,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "FOX CORP CL A COM See Endnote",
+   "idx": 14,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "GENERAL DYNAMICS CORP COM See Endnote",
+   "idx": 15,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "ALPHABET INC CAP STK CL C See Endnote",
+   "idx": 16,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "ALPHABET INC CAP STK CL A See Endnote",
+   "idx": 17,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "HEWLETT PACKARD ENTERPRISE CO COM See Endnote",
+   "idx": 18,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "HP INC COM See Endnote",
+   "idx": 19,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "HOST HOTELS &RESORTS INC COM See Endnote",
+   "idx": 20,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "INTERNATIONAL BUS MACH CORP COM See Endnote USD0.20",
+   "idx": 21,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "GARTNER INC COM USD0.0005 See Endnote",
+   "idx": 22,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "LOCKHEED MARTIN CORP COM USD1.00 See Endnote",
+   "idx": 23,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "MICROSOFT CORP See Endnote",
+   "idx": 24,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "NORTHROP GRUMMAN CORP COM USD1 See Endnote",
+   "idx": 25,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "NETAPP INC See Endnote",
+   "idx": 26,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "OPEN TEXT CORP COM ISIN #CA6837151068 See Endnote SEDOL #2260824",
+   "idx": 27,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "SCIENCE APPLICATIONS INTL CORP COM See Endnote",
+   "idx": 28,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "SAP ADR REP 1 ORD See Endnote",
+   "idx": 29,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "SOUTHERN CO See Endnote",
+   "idx": 30,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "AT&T INC COM USD1 See Endnote",
+   "idx": 31,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "THOMSON-REUTERS CORP COM NPV( POST See Endnote REV SPLIT) ISIN #CA8849038085 SEDOL",
+   "idx": 32,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "TYLER TECHNOLOGIES INC See Endnote",
+   "idx": 33,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "UNITED PARCEL SERVICE INC CL B See Endnote",
+   "idx": 34,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "VERIZON COMMUNICATIONS INC See Endnote",
+   "idx": 35,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "WORKDAY INC COM USD0.001 CL A See Endnote",
+   "idx": 36,
+   "owner": "SELF",
+   "tx_date": "2025-09-02",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "APPLE INC See Endnote",
+   "idx": 37,
+   "owner": "SELF",
+   "tx_date": "2025-08-27",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "AMAZON.COM INC See Endnote",
+   "idx": 38,
+   "owner": "SELF",
+   "tx_date": "2025-08-27",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "CITIGROUP INC See Endnote",
+   "idx": 39,
+   "owner": "SELF",
+   "tx_date": "2025-08-27",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "CISCO SYSTEMS INC See Endnote",
+   "idx": 40,
+   "owner": "SELF",
+   "tx_date": "2025-08-27",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "DELL TECHNOLOGIES INC CL C See Endnote",
+   "idx": 41,
+   "owner": "SELF",
+   "tx_date": "2025-08-27",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "DISNEY WALT CO COM See Endnote",
+   "idx": 42,
+   "owner": "SELF",
+   "tx_date": "2025-08-27",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "DOCUSIGN INC COM See Endnote",
+   "idx": 43,
+   "owner": "SELF",
+   "tx_date": "2025-08-27",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "ALPHABET INC CAP STK CL C See Endnote",
+   "idx": 44,
+   "owner": "SELF",
+   "tx_date": "2025-08-27",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "ALPHABET INC CAP STK CL A See Endnote",
+   "idx": 45,
+   "owner": "SELF",
+   "tx_date": "2025-08-27",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "INFORMATICA INC COM CL A See Endnote",
+   "idx": 46,
+   "owner": "SELF",
+   "tx_date": "2025-08-27",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "LOCKHEED MARTIN CORP COM USD1.00 See Endnote",
+   "idx": 47,
+   "owner": "SELF",
+   "tx_date": "2025-08-27",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "NORTHROP GRUMMAN CORP COM USD1 See Endnote",
+   "idx": 48,
+   "owner": "SELF",
+   "tx_date": "2025-08-27",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "ORACLE CORP See Endnote",
+   "idx": 49,
+   "owner": "SELF",
+   "tx_date": "2025-08-27",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "SOUTHERN CO See Endnote",
+   "idx": 50,
+   "owner": "SELF",
+   "tx_date": "2025-08-27",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "AT&T INC COM USD1 See Endnote",
+   "idx": 51,
+   "owner": "SELF",
+   "tx_date": "2025-08-27",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "TYLER TECHNOLOGIES INC See Endnote",
+   "idx": 52,
+   "owner": "SELF",
+   "tx_date": "2025-08-27",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "VERIZON COMMUNICATIONS INC See Endnote",
+   "idx": 53,
+   "owner": "SELF",
+   "tx_date": "2025-08-27",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/689E88A6FDFF4BE885258D16002C0DD7/$FILE/Scott-A-Kupor-09.12.2025-278T.pdf"
+}

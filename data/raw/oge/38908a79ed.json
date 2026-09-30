@@ -1,0 +1,63 @@
+{
+ "added": "2023-04-04",
+ "agency": "Department of Transportation",
+ "amended": false,
+ "doc": "38908a79ed",
+ "kind": "278 Transaction",
+ "name": "Bhatt, Shailen",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Highway Administration",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "EMC Equity, Convertible Note",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2023-03-05",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Flow Labs Vested Stock Options",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2023-03-05",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Zuul Vested Stock Options",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2023-03-05",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Spoke Safety, Simple Agreement for Future Equity (SAFE)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "SAFE",
+   "tx_date": "2023-03-06",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Spoke Safety Vested Common Units",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2023-03-06",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/70EC85CCC7AED3B585258987002EBE51/$FILE/Shailen-Bhatt-03.06.2023-278T.pdf"
+}

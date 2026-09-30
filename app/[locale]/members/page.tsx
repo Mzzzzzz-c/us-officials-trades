@@ -17,7 +17,7 @@ export default async function MembersPage({ params }: { params: Promise<{ locale
     <div>
       <h1 className="text-2xl font-semibold">{t.nav.members}</h1>
       <p className="mt-1 mb-5 text-sm text-muted">{t.home.intro}</p>
-      <MemberList locale={locale} rows={getMembers()} />
+      <MemberList locale={locale} rows={getMembers().filter((m) => m.chamber !== "E")} />
     </div>
   );
 }

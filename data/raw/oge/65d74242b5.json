@@ -1,0 +1,53 @@
+{
+ "added": "2026-05-14",
+ "agency": "White House Office",
+ "amended": false,
+ "doc": "65d74242b5",
+ "kind": "278 Transaction",
+ "name": "Trump, Donald J",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "paper",
+ "title": "President",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "COt.OIW>O HLTH r-ACS AUTH RCVCOMSPUUT Hl.J'H SDlA2 ll/[ S.00\" OU.AUi 1. 202G .pu.r d'l■.N. 2/2l/>!J26 .\".\" s100.001-$250.ooo .,,,. 3 MAIN mctT NAT GAS INCGA GAS S,LY ~ C &/E. .&.00\" Due Mat 1, 20SO 2/2l/>!J26 $500,001-s1.ooo.ooo _,,.,. • MONTANA ST SER G B/C S.00\" 0ue Aull 1. 2026 2/2l/>D2' no $SO.M",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2026-02-02",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "OICI.AHOMA KSG FIN AGV COlLTZD RCV I.AICCSHORE POINTI UC 8/[ 3.35\" Due DK 1, 2027 1. ..- .. 2/2ll>D2• no $100,001-S2SO 000 • • MARYi.ANO ST Hlf'H I, H1GH C0l fACS AUTH MV l.0\\'0lA UNIV SERA1 /E s.tOX. Di.0 ct 1",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2026-02-21",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "LANSING Ml SO. DIST BLDG.S IT[S U I 8/1! QSBl.f PTC S.00\"D I.ta Mav 1",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2026-02-21",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "GCOlltGtA ST ltDl o TWY Al.JTH RCV FCOL HWV GRANT ANTIC B/[ S.00\" Due Jun 1 202' l/2(J/2026 SS0 001-$100,000 .3.1 tNOIAHASTFINAllTH Ill.CV OEACONESSHLTHSYSSClltAI/E ,rc4.00\" DI.le Mir 1. 2044 ... .. 1/23/201G - $100,001-$250,000 '-·-.. - RIOiMONO VA fli[DEV .. HSGAUTH MLTI~M kEV 8/E JO'Yfl[LDGERMAN ",
+   "asset_type": "GS",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2026-01-10",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/5326D3AF5BE7C25385258DF7002DD1B7/$FILE/Trump%2C%20Donald%20J.-05.08.2026-278T.pdf"
+}

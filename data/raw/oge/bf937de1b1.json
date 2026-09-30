@@ -1,0 +1,148 @@
+{
+ "added": "2022-03-19",
+ "agency": "Office of Director of National Intelligence",
+ "amended": false,
+ "doc": "bf937de1b1",
+ "kind": "278 Transaction",
+ "name": "Abizaid, Christine",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director, National Counterterrorism Center",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Intel Corp. (INTC)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "INTC",
+   "tx_date": "2022-01-26",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Vanguard Total World Stock Index Fund ETF Class Shares (VT)",
+   "asset_type": "EF",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "VT",
+   "tx_date": "2022-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "USAA Small Cap Stock Fund Institutional Class Shares (UISCX)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "UISCX",
+   "tx_date": "2022-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "USAA International Fund Institutional Shares (UIIFX)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "UIIFX",
+   "tx_date": "2022-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "USAAEmerging Markets Fund Institutional Class Shares (UIEMX)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "UIEMX",
+   "tx_date": "2022-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "USAA Income Stock Fund Institutional Class Shares (UIISX)",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "UIISX",
+   "tx_date": "2022-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "USAA Growth Fund Institutional Class Shares (UIGRX)",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "UIGRX",
+   "tx_date": "2022-02-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "USAA Managed Allocation Fund (UMAFX)",
+   "asset_type": "ST",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "UMAFX",
+   "tx_date": "2022-01-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "USAA Small Cap Stock Fund Institutional Class Shares (UISCX)",
+   "asset_type": "ST",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": "UISCX",
+   "tx_date": "2022-01-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "USAA Income Stock Fund Institutional Class Shares (UIISX)",
+   "asset_type": "ST",
+   "idx": 9,
+   "owner": "SELF",
+   "ticker": "UIISX",
+   "tx_date": "2022-01-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "USAA International Fund Institutional Class Shares (UIIFX)",
+   "asset_type": "ST",
+   "idx": 10,
+   "owner": "SELF",
+   "ticker": "UIIFX",
+   "tx_date": "2022-01-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "USAA Growth Fund Institutional Class Shares (UIGRX)",
+   "asset_type": "ST",
+   "idx": 11,
+   "owner": "SELF",
+   "ticker": "UIGRX",
+   "tx_date": "2022-01-31",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/98FECB7040C731B58525880A002E4F5F/$FILE/Christine-Abizaid-02.27.2022-278T.pdf"
+}

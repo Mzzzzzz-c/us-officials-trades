@@ -1,0 +1,133 @@
+{
+ "added": "2023-08-15",
+ "agency": "Department of Transportation",
+ "amended": false,
+ "doc": "7a7fd6c4ed",
+ "kind": "278 Transaction",
+ "name": "Fernandez, Nuria",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Transit Administration",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Dollar General Corp. (DG)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "DG",
+   "tx_date": "2023-06-29",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Morgan Stanley (MS)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "MS",
+   "tx_date": "2023-06-29",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Dollar General Corp. (DG)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "DG",
+   "tx_date": "2023-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Target Corp. (TGT)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "TGT",
+   "tx_date": "2023-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Stryker Corp. (SYK)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "SYK",
+   "tx_date": "2023-06-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Target Corp. (TGT)",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "TGT",
+   "tx_date": "2023-06-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Morgan Stanley (MS)",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "MS",
+   "tx_date": "2023-06-07",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Target Corp. (TGT)",
+   "asset_type": "ST",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "TGT",
+   "tx_date": "2023-06-07",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Bank of America Corp. (BAC)",
+   "asset_type": "ST",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": "BAC",
+   "tx_date": "2023-06-05",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CMPGY - Compass Group PLC",
+   "idx": 9,
+   "owner": "SELF",
+   "tx_date": "2023-06-29",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "LNNGY - Li Ning Company",
+   "idx": 10,
+   "owner": "SELF",
+   "tx_date": "2023-06-09",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/4085E16F22CCDA5385258A0C002EF319/$FILE/Nuria-Fernandez-06.30.2023-278T.pdf"
+}

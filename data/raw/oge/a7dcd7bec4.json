@@ -1,0 +1,25 @@
+{
+ "added": "2021-11-23",
+ "agency": "Department of Veterans Affairs",
+ "amended": false,
+ "doc": "a7dcd7bec4",
+ "kind": "278 Transaction",
+ "name": "Remy, Donald",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Deputy Secretary",
+ "transactions": [
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Divestiture and Resignation from Omega Investment Partners, LLC $500,000",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2021-10-13",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/9939294D652178B6852587960033DE60/$FILE/Donald-M-Remy-10.22.2021-278T.pdf"
+}

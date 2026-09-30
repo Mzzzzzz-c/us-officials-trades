@@ -1,0 +1,170 @@
+{
+ "added": "2026-03-06",
+ "agency": "Social Security Administration",
+ "amended": false,
+ "doc": "8753cc6b03",
+ "kind": "278 Transaction",
+ "name": "Bisignano, Frank J",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Commissioner",
+ "transactions": [
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SPDR S&P 500 ETF Trust (SPY)",
+   "asset_type": "EF",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "SPY",
+   "tx_date": "2025-12-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Vanguard Russell 1000 Growth Index Fund ETF Shares (VONG) $500,000",
+   "asset_type": "EF",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "VONG",
+   "tx_date": "2025-12-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Vanguard Dividend Appreciation Index Fund ETF Class Shares (VIG) $500,000",
+   "asset_type": "EF",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "VIG",
+   "tx_date": "2025-12-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Vanguard High Dividend Yield Index Fund ETF Shares (VYM) $250,000",
+   "asset_type": "EF",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "VYM",
+   "tx_date": "2025-12-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Vanguard Russell 1000 Growth Index Fund ETF Shares (VONG) $500,000",
+   "asset_type": "EF",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "VONG",
+   "tx_date": "2025-12-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Vanguard Dividend Appreciation Index Fund ETF Class Shares (VIG) $500,000",
+   "asset_type": "EF",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "VIG",
+   "tx_date": "2025-12-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Vanguard High Dividend Yield Index Fund ETF Shares (VYM) $250,000",
+   "asset_type": "EF",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "VYM",
+   "tx_date": "2025-12-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Vanguard Russell 1000 Growth Index Fund ETF Shares (VONG) $500,000",
+   "asset_type": "EF",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "VONG",
+   "tx_date": "2025-12-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Vanguard Dividend Appreciation Index Fund ETF Class Shares (VIG) $500,000",
+   "asset_type": "EF",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": "VIG",
+   "tx_date": "2025-12-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Vanguard High Dividend Yield Index Fund ETF Shares (VYM) $250,000",
+   "asset_type": "EF",
+   "idx": 9,
+   "owner": "SELF",
+   "ticker": "VYM",
+   "tx_date": "2025-12-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Vanguard Russell 1000 Growth Index Fund ETF Shares (VONG) $500,000",
+   "asset_type": "EF",
+   "idx": 10,
+   "owner": "SELF",
+   "ticker": "VONG",
+   "tx_date": "2025-12-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Vanguard Dividend Appreciation Index Fund ETF Class Shares (VIG) $500,000",
+   "asset_type": "EF",
+   "idx": 11,
+   "owner": "SELF",
+   "ticker": "VIG",
+   "tx_date": "2025-12-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Vanguard High Dividend Yield Index Fund ETF Shares (VYM) $250,000",
+   "asset_type": "EF",
+   "idx": 12,
+   "owner": "SELF",
+   "ticker": "VYM",
+   "tx_date": "2025-12-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Humana, Inc. (HUM)",
+   "asset_type": "ST",
+   "idx": 13,
+   "owner": "SELF",
+   "ticker": "HUM",
+   "tx_date": "2025-12-24",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/FCD5083EB618F35085258DB200344824/$FILE/Frank-J-Bisignano-02.10.2026-278T.pdf"
+}

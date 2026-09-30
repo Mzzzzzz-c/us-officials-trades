@@ -1,0 +1,38 @@
+{
+ "added": "2023-03-11",
+ "agency": "Office of National Drug Control Policy",
+ "amended": false,
+ "doc": "4f88450b07",
+ "kind": "278 Transaction",
+ "name": "Gupta, Rahul",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NIKE, Inc. (NKE)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "NKE",
+   "tx_date": "2023-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Kimberly-Clark Corp. (KMB)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "KMB",
+   "tx_date": "2023-01-06",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/F2056361107CFA928525896F00343EDF/$FILE/Rahul-Gupta-02.09.2023-278T.pdf"
+}

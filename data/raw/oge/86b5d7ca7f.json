@@ -1,0 +1,126 @@
+{
+ "added": "2025-01-25",
+ "agency": "Department of Homeland Security",
+ "amended": false,
+ "doc": "86b5d7ca7f",
+ "kind": "278 Transaction",
+ "name": "Criswell, Deanne",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Emergency Management Agency",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Schwab Value Advantage Money Fund Investor Class Shares (SWVXX)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "SWVXX",
+   "tx_date": "2024-11-21",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Amazon.com, Inc. (AMZN)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "AMZN",
+   "tx_date": "2024-11-21",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Meta Platforms Inc. Class A Common Stock (META)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "META",
+   "tx_date": "2024-11-21",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Paycom Software, Inc. (PAYC)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "PAYC",
+   "tx_date": "2024-11-21",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Autodesk, Inc. (ADSK)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "ADSK",
+   "tx_date": "2024-11-21",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Palantir Technologies Inc. Class A Common Stock (PLTR)",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "PLTR",
+   "tx_date": "2024-11-21",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CrowdStrike Holdings Inc. Class A Common Stock (CRWD)",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "CRWD",
+   "tx_date": "2024-11-21",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Apple, Inc. (AAPL)",
+   "asset_type": "ST",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "AAPL",
+   "tx_date": "2024-11-21",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "lululemon athletica, Inc. (LULU)",
+   "asset_type": "ST",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": "LULU",
+   "tx_date": "2024-11-21",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Invesco QQQ Trust, Series 1 (QQQ)",
+   "asset_type": "EF",
+   "idx": 9,
+   "owner": "SELF",
+   "ticker": "QQQ",
+   "tx_date": "2024-11-20",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/7D4E0C157D5EAD7085258C1D00320572/$FILE/Deanne-Criswell-12.19.2024-278T.pdf"
+}

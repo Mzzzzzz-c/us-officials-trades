@@ -1,0 +1,91 @@
+{
+ "added": "2021-02-17",
+ "agency": "Department of The Air Force",
+ "amended": false,
+ "doc": "1424586738",
+ "kind": "278 Transaction",
+ "name": "Barrett, Barbara M",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Impele Holdings LLC",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2021-01-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "iShares S&P 500 Growth ETF (IVW)",
+   "asset_type": "EF",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "IVW",
+   "tx_date": "2021-01-06",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Lord Abbett National Tax Free Fund Class F Shares (LANFX)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "LANFX",
+   "tx_date": "2021-01-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Franklin Federal Intermediate-Term Tax-Free Income Fund Advisor Class Shares (FITZX)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "FITZX",
+   "tx_date": "2021-01-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Eaton Vance High Yield Municipal Income Fund Class I Shares (EIHYX)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "EIHYX",
+   "tx_date": "2021-01-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Eaton Vance Global Macro Absolute Return Advantage Fund Class I Shares (EGRIX)",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "EGRIX",
+   "tx_date": "2021-01-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Blackstone Alternative Multi-Strategy Fund Class I Shares (BXMIX)",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "BXMIX",
+   "tx_date": "2021-01-04",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/EE813D04E90EFF8F8525867F0032D37A/$FILE/Barbara-M-Barrett-02.01.2021-278T.pdf"
+}

@@ -1,0 +1,396 @@
+{
+ "added": "2025-08-19",
+ "agency": "White House Office",
+ "amended": false,
+ "doc": "011c7ab104",
+ "kind": "278 Transaction",
+ "name": "Trump, Donald J",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "paper",
+ "title": "President",
+ "transactions": [
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "U.S. Office of Government Ethics: 5 C.F.R. part 2634 UNITCO STATCS orr,ct or C-OVERNM*EN­T ETHICS Executive Branch Personnel Public Financial Disclosure Report: Pfnfl'ftflC c:...nict, of h,titrnt Fllo(s Information Last Name I\\ First Name lMI I Position I Agoncv Trump Donald 1 I President of tho Uni",
+   "asset_type": "GS",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "CENTRAL BROWN CNTY WTR AUTH WTR SYS REVW I RFDG 2024AB /E 5.00 % Due Nov 1",
+   "asset_type": "GS",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "SPRINGFIELD MO PUB UTIL REVR FDG B/E PTC 4.00 % Due AuQ 1",
+   "asset_type": "GS",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BLACK BELT ENERGY GAS DIST AL GAS REV PJ 6 SER B B/E 4.00 % Due Oct 1",
+   "asset_type": "GS",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "TALLAHASSEE FL ENERGY SYS REV RFDG B/E PTC 5.00 % Due Oct 1",
+   "asset_type": "GS",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BLACK BELT ENERGY GAS DIST AL GAS PREPAY REV PJ 5 SER A 1 B/E 4.00 % Due Oct 1",
+   "asset_type": "GS",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "PUBLIC FIN AUTH WI POLLTN CTL DUKE ENERGY PROGRESS REVRFDGA1 B/E 3.30 % Due Oct 1",
+   "asset_type": "GS",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ADAMS CNTY IN BLDG CORP LSE RENT REV B/E O1D @98.614 3.15% 3.00 % Due Jul 15",
+   "asset_type": "GS",
+   "idx": 7,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "COLORADO HLTH FACS AUTH REV RFDG CHLDRNS HOSP CO PJ SER C B/E 5.00 % Due Dec 1",
+   "asset_type": "GS",
+   "idx": 8,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MASSACHUSETTS ST DEV FIN AGY CLLG HOLY CROSS SER A REVB /E 5.00 % Due Seo 1",
+   "asset_type": "GS",
+   "idx": 9,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "CAMDENTON MO CTF PARTN CTF PARTN 2025 REV B/EB /Q 4.00 % Due Jul 1",
+   "asset_type": "GS",
+   "idx": 10,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "BLAINE CNTY OK EDL FACS LSE REV WATONGA PUB SCHS PJ B/E O1D @98.259 3.55% 3.375 % Due Dec 1",
+   "asset_type": "GS",
+   "idx": 11,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "·I MIC�GAN ST BLDG AUTH REV RFDG FACS PG SER I B/E PTC 5.00 % Due ADr 15",
+   "asset_type": "GS",
+   "idx": 12,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "KANSAS ST DEPT TRANSN HWY REV B B/E 5.00 % Due Seo 1",
+   "asset_type": "GS",
+   "idx": 13,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "CENTRE CNTY PA HOSP AUTH MT NITTANY MED CTR PJ SER A REV B/E PTC 4.00 % Due Nov 15",
+   "asset_type": "GS",
+   "idx": 14,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "IOWA ST BRO REGTS HOSP REV RFDG UNIV IA HOSP$ & CLINICS S U I SER C B/E 5.00 % Due Seo 1",
+   "asset_type": "GS",
+   "idx": 15,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "BRUSHY CREEK MUD TX RFDG 2020 B/E 3.00 % Due Jun 1",
+   "asset_type": "GS",
+   "idx": 16,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CELINA TX CTF OBLIG WTRWKS & $WR SYS DB B/E 5.00 % Due Seo 1",
+   "asset_type": "GS",
+   "idx": 17,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "LOUISIANA ST UNIV &AGRIC & MECH CLLG BRO SUPERVSR REV RFDG AUX SER A B/E 5.00 % Due Jul 1",
+   "asset_type": "GS",
+   "idx": 18,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MIAMI DADE CNTY FL HSG FIN AUTH MLTIFAM HSG IMPERIAL CLUB REVB /E 2.95 % Due Oct 1",
+   "asset_type": "GS",
+   "idx": 19,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "LEWIS POINTE MET DIST CO RFDG 2021 DB BAM B/E CR ENH 4.00 % Due Dec 1",
+   "asset_type": "GS",
+   "idx": 20,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "HAMILTON OH CITY SCH DIST RFDG VARIOUS PURP B/E PTC ST INTRCPT 5.00 % Due Dec 1",
+   "asset_type": "GS",
+   "idx": 21,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "TROY AL ELEC WTR & SWR REV RFDG WT SER A AGM B/E 01 D @98.675 2.69% 2.50 % Due Oct 1",
+   "asset_type": "GS",
+   "idx": 22,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "HUTCHINSON KS TEMP NT SERB DB B/E B/Q 3.75 % Due Oct 1",
+   "asset_type": "GS",
+   "idx": 23,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MICHIGAN ST BLDG AUTH REV RFDG FACS PG SER I B/E 5.00 % Due Oct 15",
+   "asset_type": "GS",
+   "idx": 24,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "HONOLULU HI CITY & CNTY SER C B/E 5.00 % Due Oct 1",
+   "asset_type": "GS",
+   "idx": 25,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "LARIMER CNTY CO SCH DIST R 1 POUDRE BIE 5.00 % Due Dec 15",
+   "asset_type": "GS",
+   "idx": 26,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "BOULDER LARIMER & WELD CNTY CO ST VRAIN VLY SC SER CB/EST INTRCPT 5.00 % Due Dec 15",
+   "asset_type": "GS",
+   "idx": 27,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ASPEN CO FIRE PROTN DIST CTF PARTN REV B/E 4.00 %·Due Dec 1",
+   "asset_type": "GS",
+   "idx": 28,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BURLINGTON IA CORP PURP A BIE B/Q 3.00 % Due Jun 1",
+   "asset_type": "CS",
+   "idx": 29,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "BRANDON MS RFDG B/E B/Q PTC 3.00 % Due SeD 1",
+   "asset_type": "GS",
+   "idx": 30,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MICHIGAN ST BLDG AUTH REV RFDG I B/E 5.00 % Due ADr 15",
+   "asset_type": "GS",
+   "idx": 31,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "KANSAS ST DEPT TRANSN HWY REV SERB B/E PTC 5.00 % Due Seo 1",
+   "asset_type": "GS",
+   "idx": 32,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ALABAMA ST RFDG SER A B/E PTC 3.00 % Due AuQ 1",
+   "asset_type": "GS",
+   "idx": 33,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "FllofsNamo n�� - ~ \"! nf \"! PaQO R■e11lv■d Over 30 Daya Ago 35 JEFFERSON CNTY CO CTF PARTN FIN CORP RFDG REV B/E 5.00 % Due Dec 1",
+   "asset_type": "GS",
+   "idx": 34,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "OSCEOLA CNTY FL SALES TAX RFDG SER A REV B/E 5.00 % Due Oct 1",
+   "asset_type": "GS",
+   "idx": 35,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "JOHNSON CNTY KS UNI SCH DIST 233 CRSOVR RFOG SER B B/E 5.00 % Due Sep 1",
+   "asset_type": "GS",
+   "idx": 36,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "TARRANT CNlYTEX CULTURAL ED 5.0000% Due Nov 15",
+   "asset_type": "GS",
+   "idx": 37,
+   "owner": "SELF",
+   "tx_date": "2025-07-25",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/5315A095A2EE1B9185258CEB006E7E36/$FILE/Donald-J-Trump-08.12.2025-278T(3).pdf"
+}

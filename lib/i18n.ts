@@ -7,8 +7,8 @@ export function isLocale(x: string): x is Locale {
 
 const zh = {
   siteName: "美国官员交易追踪",
-  siteTagline: "美国国会议员股票交易披露与知名投资人持仓，每日自动更新",
-  nav: { home: "最新披露", members: "官员", tickers: "股票", investors: "投资人", methodology: "方法与声明" },
+  siteTagline: "美国国会议员、总统及内阁官员的股票交易披露与知名投资人持仓，每日自动更新",
+  nav: { home: "最新披露", members: "国会议员", executive: "行政官员", tickers: "股票", investors: "投资人", methodology: "方法与声明" },
   langSwitch: "EN",
   langSwitchLabel: "Switch to English",
   common: {
@@ -42,7 +42,7 @@ const zh = {
   home: {
     title: "最新披露",
     intro:
-      "汇总美国众议院、参议院依《STOCK法案》公开的每一笔证券交易。价格和股数为根据当日行情的推测值，请以原始文件为准。",
+      "汇总美国众议院、参议院依《STOCK法案》公开的每一笔证券交易，以及总统、内阁等行政官员向政府道德办公室（OGE）申报的交易。价格和股数为根据当日行情的推测值，请以原始文件为准。",
     last30: "最近 30 天",
     trades: "笔交易",
     members: "位官员",
@@ -165,6 +165,21 @@ const zh = {
     tradeCount: "交易笔数",
     committeeLink: "委员会",
     since: "任职起始",
+    role: "职位",
+    firstFiling: "首份 OGE 文件",
+    ogeDocs: "OGE 公开文件",
+    ogeDocsNote: "包括年度财产报告（278e）、交易报告（278-T）、道德协议等，点击查看原件。",
+    onRequest: "另有 {n} 份文件未在网上公开，需向美国政府道德办公室（OGE）书面申请（OGE Form 201）。",
+    congressPage: "查看其在国会任职期间的交易",
+    tradesCapped: "为加快加载，这里只列出最近 {n} 笔（共 {total} 笔）；收益统计和持仓还原已包含全部交易。完整明细请查看下方 OGE 原始文件。",
+    noExecTrades: "OGE 网站上没有此人公开的交易报告（278-T）。可能是未发生需申报的交易，或报告只能书面申请。可查看下方的年度财产报告了解其持仓。",
+    execLateNote: "行政官员的“公开日”为 OGE 网站发布日期，通常晚于本人提交日期，因此不计算逾期。",
+  },
+  executive: {
+    title: "行政部门官员",
+    intro:
+      "总统、副总统、内阁部长及其他经参议院确认的高级官员，向美国政府道德办公室（OGE）提交 278-T 交易报告。本页收录 OGE 网站上可直接下载的全部 278-T 报告（2020 年起）。总统的报告为扫描件，经文字识别（OCR）解析，个别字段可能有误，请以原件为准。",
+    kinds: { "278 Transaction": "交易报告 278-T", Annual: "年度报告 278e", "Nominee 278": "提名人报告", Termination: "离职报告", "New Entrant": "新任报告", "Ethics Agreement": "道德协议", "Certification of Ethics Agreement Compliance": "道德协议履约证明", "Conflict of Interest Waiver": "利益冲突豁免", "Annual Term": "年度及离职报告", "Presidential Candidate": "总统候选人报告", "Vice Presidential Candidate": "副总统候选人报告" } as Record<string, string>,
   },
   ticker: {
     priceChart: "股价（周收盘）与官员买卖点",
@@ -201,7 +216,7 @@ const zh = {
   acts: { open: "建仓", add: "加仓", reduce: "减仓", close: "清仓", sell: "卖出", exchange: "置换", other: "其他" },
   owners: { SELF: "本人", SP: "配偶", JT: "联名", DC: "子女" },
   party: { D: "民主党", R: "共和党", I: "无党派", L: "自由意志党", "?": "未知" },
-  chamber: { H: "众议院", S: "参议院" },
+  chamber: { H: "众议院", S: "参议院", E: "行政部门" },
   conf: { high: "高", medium: "中", low: "低", reported: "申报价", none: "无法估算" },
   why: {
     option: "期权交易，暂不估算",
@@ -225,7 +240,7 @@ const zh = {
   },
   footer: {
     disclaimer:
-      "本站为免费的公共信息网站，不构成任何投资建议。数据来自美国众议院书记官办公室、参议院公共记录办公室和 SEC EDGAR 的公开披露，可能存在错误或遗漏；推测价格与股数仅为估算；历史收益不代表未来。",
+      "本站为免费的公共信息网站，不构成任何投资建议。数据来自美国众议院书记官办公室、参议院公共记录办公室、美国政府道德办公室（OGE）和 SEC EDGAR 的公开披露，可能存在错误或遗漏；推测价格与股数仅为估算；历史收益不代表未来。",
     legal:
       "根据 5 U.S.C. §13107，官员财务披露报告不得用于除新闻与传播媒体向公众传播以外的商业目的、信用评级或募款。",
     corrections: "发现错误？请在 GitHub 提交问题。",
@@ -239,8 +254,8 @@ export type Dict = typeof zh;
 
 const en: Dict = {
   siteName: "US Officials Trade Tracker",
-  siteTagline: "Congressional stock-trade disclosures and famous investors' holdings, updated daily",
-  nav: { home: "Latest", members: "Officials", tickers: "Stocks", investors: "Investors", methodology: "Methodology" },
+  siteTagline: "Stock trades disclosed by Congress, the President and Cabinet, plus famous investors' holdings, updated daily",
+  nav: { home: "Latest", members: "Congress", executive: "Executive", tickers: "Stocks", investors: "Investors", methodology: "Methodology" },
   langSwitch: "中文",
   langSwitchLabel: "切换到中文",
   common: {
@@ -274,7 +289,7 @@ const en: Dict = {
   home: {
     title: "Latest disclosures",
     intro:
-      "Every securities trade disclosed by members of the US House and Senate under the STOCK Act. Prices and share counts are estimates from that day's market data; the original filing is authoritative.",
+      "Every securities trade disclosed by members of the US House and Senate under the STOCK Act, plus trades the President, Cabinet and other senior executive officials report to the Office of Government Ethics. Prices and share counts are estimates from that day's market data; the original filing is authoritative.",
     last30: "Last 30 days",
     trades: "trades",
     members: "officials",
@@ -397,6 +412,21 @@ const en: Dict = {
     tradeCount: "Trades",
     committeeLink: "Committee",
     since: "Serving since",
+    role: "Position",
+    firstFiling: "First OGE filing",
+    ogeDocs: "Public OGE documents",
+    ogeDocsNote: "Annual reports (278e), periodic transaction reports (278-T), ethics agreements and more; open the originals.",
+    onRequest: "{n} more documents are not posted online and must be requested from the Office of Government Ethics (OGE Form 201).",
+    congressPage: "See trades from their time in Congress",
+    tradesCapped: "To keep the page fast only the latest {n} of {total} trades are listed; performance and positions use all of them. See the original OGE reports below for the full list.",
+    noExecTrades: "OGE has not posted a transaction report (278-T) for this official. There may have been no reportable trades, or the reports are available only on request. The annual reports below show holdings.",
+    execLateNote: "For executive officials the public date is when OGE posted the report, usually later than the filing date, so lateness is not scored.",
+  },
+  executive: {
+    title: "Executive branch officials",
+    intro:
+      "The President, Vice President, Cabinet secretaries and other Senate-confirmed officials file periodic transaction reports (278-T) with the Office of Government Ethics. This page includes every 278-T that OGE posts for direct download (since 2020). The President's reports are scans read by OCR, so individual fields may be wrong; the original is authoritative.",
+    kinds: { "278 Transaction": "Transaction report 278-T", Annual: "Annual report 278e", "Nominee 278": "Nominee report", Termination: "Termination report", "New Entrant": "New entrant report", "Ethics Agreement": "Ethics agreement", "Certification of Ethics Agreement Compliance": "Ethics agreement compliance", "Conflict of Interest Waiver": "Conflict of interest waiver", "Annual Term": "Annual & termination report", "Presidential Candidate": "Presidential candidate report", "Vice Presidential Candidate": "Vice presidential candidate report" } as Record<string, string>,
   },
   ticker: {
     priceChart: "Price (weekly close) with officials' trades",
@@ -433,7 +463,7 @@ const en: Dict = {
   acts: { open: "Open", add: "Add", reduce: "Trim", close: "Close", sell: "Sell", exchange: "Exchange", other: "Other" },
   owners: { SELF: "Self", SP: "Spouse", JT: "Joint", DC: "Child" },
   party: { D: "Democrat", R: "Republican", I: "Independent", L: "Libertarian", "?": "Unknown" },
-  chamber: { H: "House", S: "Senate" },
+  chamber: { H: "House", S: "Senate", E: "Executive" },
   conf: { high: "High", medium: "Medium", low: "Low", reported: "Reported", none: "N/A" },
   why: {
     option: "Option trade - not estimated",
@@ -458,7 +488,7 @@ const en: Dict = {
   },
   footer: {
     disclaimer:
-      "A free public-information site, not investment advice. Data comes from public disclosures by the Clerk of the House, the Senate Office of Public Records and SEC EDGAR and may contain errors; estimated prices and share counts are estimates; past returns do not predict future results.",
+      "A free public-information site, not investment advice. Data comes from public disclosures by the Clerk of the House, the Senate Office of Public Records, the Office of Government Ethics and SEC EDGAR and may contain errors; estimated prices and share counts are estimates; past returns do not predict future results.",
     legal:
       "Under 5 U.S.C. §13107, officials' financial disclosure reports may not be used for any commercial purpose other than by news and communications media for dissemination to the general public, for credit ratings, or for soliciting money.",
     corrections: "Spotted an error? Open an issue on GitHub.",

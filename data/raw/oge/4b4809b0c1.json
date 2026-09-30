@@ -1,0 +1,115 @@
+{
+ "added": "2026-07-25",
+ "agency": "Office of Personnel Management",
+ "amended": false,
+ "doc": "4b4809b0c1",
+ "kind": "278 Transaction",
+ "name": "Kupor, Scott A",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Okta, Inc. (OKTA) See Endnote",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "OKTA",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Okta, Inc. (OKTA) See Endnote",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "OKTA",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Okta, Inc. (OKTA) See Endnote",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "OKTA",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Okta, Inc. (OKTA) See Endnote",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "OKTA",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Robinhood Markets Inc. Class A Common Stock See Endnote (HOOD) $250,000",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "HOOD",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Robinhood Markets Inc. Class A Common Stock See Endnote (HOOD) $1,000,000",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "HOOD",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Robinhood Markets Inc. Class A Common Stock See Endnote (HOOD) $250,000",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "HOOD",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Robinhood Markets Inc. Class A Common Stock See Endnote (HOOD) $1,000,000",
+   "asset_type": "ST",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "HOOD",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Robinhood Markets Inc. Class A Common Stock See Endnote (HOOD) $1,000,000",
+   "asset_type": "ST",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": "HOOD",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/0CC139F3C2A2CB1985258E3F002DA973/$FILE/Scott-A-Kupor-06.22.2026-278T(1).pdf"
+}

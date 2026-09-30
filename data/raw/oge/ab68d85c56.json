@@ -1,0 +1,27 @@
+{
+ "added": "2021-08-31",
+ "agency": "Office of Director of National Intelligence",
+ "amended": false,
+ "doc": "ab68d85c56",
+ "kind": "278 Transaction",
+ "name": "Dixon, Stacey",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Principal Deputy Director of National Intelligence",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Amazon.com, Inc. (AMZN)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "AMZN",
+   "tx_date": "2021-08-23",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/E19691CF6317598D85258742002E54E1/$FILE/Stacey-Dixon-08.24.2021-278T(1).pdf"
+}

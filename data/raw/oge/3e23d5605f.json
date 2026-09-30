@@ -1,0 +1,27 @@
+{
+ "added": "2026-07-11",
+ "agency": "Office of Science and Technology Policy",
+ "amended": false,
+ "doc": "3e23d5605f",
+ "kind": "278 Transaction",
+ "name": "Kratsios, Michael J",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "iShares iBoxx $ Investment Grade Corporate Bond ETF (LQD)",
+   "asset_type": "EF",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "LQD",
+   "tx_date": "2026-05-14",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/F4060C7CB31DC8DA85258E31002DCF6A/$FILE/Michael-Kratsios-06.10.2026-278T.pdf"
+}

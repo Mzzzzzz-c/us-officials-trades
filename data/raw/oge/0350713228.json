@@ -1,0 +1,142 @@
+{
+ "added": "2026-04-25",
+ "agency": "Department of The Navy",
+ "amended": false,
+ "doc": "0350713228",
+ "kind": "278 Transaction",
+ "name": "Phelan, John",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": 50000001,
+   "asset": "MSD Hospitality Partners LP",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2026-02-27",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Bear Lake Operations LLC",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2026-02-26",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MSD Special Investments Fund II, LP",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2026-02-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MSD EIV Private LLC",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2026-02-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MSD EIV Private LLC",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2026-02-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MSD Real Estate Credit Opportunity Fund II",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2026-02-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Bear Lake Operations LLC",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2026-02-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "HealthQuest Tactical Opportunities Fund LP",
+   "idx": 7,
+   "owner": "SELF",
+   "tx_date": "2026-02-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Dawson Portfolio Finance 5 LP",
+   "idx": 8,
+   "owner": "SELF",
+   "tx_date": "2026-02-26",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "NFP Continuation Partners LP",
+   "idx": 9,
+   "owner": "SELF",
+   "tx_date": "2026-02-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SRP Continuation Partners LP",
+   "idx": 10,
+   "owner": "SELF",
+   "tx_date": "2026-02-06",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "RCG Ventures Fund VIII",
+   "idx": 11,
+   "owner": "SELF",
+   "tx_date": "2026-02-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "RCG Momentum LP",
+   "idx": 12,
+   "owner": "SELF",
+   "tx_date": "2026-02-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "Caden Opportunity Fund",
+   "idx": 13,
+   "owner": "SELF",
+   "tx_date": "2026-02-19",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/A3B6063812E5B0AE85258DE4002DC573/$FILE/John-Phelan-03.12.2026-278T.pdf"
+}

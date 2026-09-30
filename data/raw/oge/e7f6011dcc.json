@@ -1,0 +1,128 @@
+{
+ "added": "2021-08-31",
+ "agency": "Department of State",
+ "amended": false,
+ "doc": "e7f6011dcc",
+ "kind": "278 Transaction",
+ "name": "Sherman, Wendy R",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Deputy Secretary",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Champlain Mid Cap Fund Institutional Shares (CIPIX)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "CIPIX",
+   "tx_date": "2021-08-17",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "WCM Focused Intl Gwth Inst",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2021-08-17",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Vanguard Dividend Appreciation xx",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2021-08-17",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "IShares Edge MSCI US Momentum xx",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2021-08-17",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Matthews Asia Dividend Inst xx",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2021-08-17",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Vanguard Dividend Appreciation xx",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2021-08-17",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "IShares Russell Midcap V ETF",
+   "asset_type": "EF",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2021-08-17",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Schwab US DVD Equity ETF",
+   "asset_type": "EF",
+   "idx": 7,
+   "owner": "SELF",
+   "tx_date": "2021-08-17",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "WCM Focused Intl Gwth Inst",
+   "idx": 8,
+   "owner": "SELF",
+   "tx_date": "2021-08-17",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "IShares Edge MSCI Min Vol Emer",
+   "idx": 9,
+   "owner": "SELF",
+   "tx_date": "2021-08-17",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "WCM Focused Intl Grth Inst",
+   "idx": 10,
+   "owner": "SELF",
+   "tx_date": "2021-08-17",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "IShares Edge MSCI Min Vol Emer",
+   "idx": 11,
+   "owner": "SELF",
+   "tx_date": "2021-08-17",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/3901FD3C2867378785258742002E5B72/$FILE/Wendy-R-Sherman-08.22.2021-278T.pdf"
+}

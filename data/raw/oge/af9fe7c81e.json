@@ -1,0 +1,126 @@
+{
+ "added": "2025-12-31",
+ "agency": "Office of Personnel Management",
+ "amended": false,
+ "doc": "af9fe7c81e",
+ "kind": "278 Transaction",
+ "name": "Kupor, Scott A",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Wise plc (WISE) distribution See Endnote",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "WISE",
+   "tx_date": "2025-07-17",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Airbnb Inc. (ABNB) call option exercise 1",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "ABNB",
+   "tx_date": "2025-07-19",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Airbnb Inc. (ABNB) call option exercise 2",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "ABNB",
+   "tx_date": "2025-07-19",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Airbnb Inc. (ABNB) call option exercise 3",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "ABNB",
+   "tx_date": "2025-07-19",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Coinbase Global Inc. (COIN) call option exercise 1",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "COIN",
+   "tx_date": "2025-07-19",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Coinbase Global Inc. (COIN) call option exercise 2",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "COIN",
+   "tx_date": "2025-07-19",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Coinbase Global Inc. (COIN) call option exercise 3",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "COIN",
+   "tx_date": "2025-07-19",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Coinbase Global Inc. (COIN) call option exercise 4",
+   "asset_type": "ST",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "COIN",
+   "tx_date": "2025-07-19",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Coinbase Global Inc. (COIN) call option exercise 5",
+   "asset_type": "ST",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": "COIN",
+   "tx_date": "2025-07-19",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Coinbase Global Inc. (COIN) call option exercise 6",
+   "asset_type": "ST",
+   "idx": 9,
+   "owner": "SELF",
+   "ticker": "COIN",
+   "tx_date": "2025-07-19",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/FEB1C36F302B4E7385258D7100345286/$FILE/Scott-A-Kupor-07.28.2025-278T.pdf"
+}

@@ -1,0 +1,56 @@
+{
+ "added": "2024-03-22",
+ "agency": "Department of Transportation",
+ "amended": false,
+ "doc": "c289f540dd",
+ "kind": "278 Transaction",
+ "name": "Whitaker, Michael",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Aviation Administration",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Microsoft Corp. (MSFT)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "MSFT",
+   "tx_date": "2024-01-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Alphabet, Inc. Class A (GOOGL)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "GOOGL",
+   "tx_date": "2024-01-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ANRA Technologies",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2024-01-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ANRA Technologies",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2024-01-08",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/9FE9B64160567BA585258AE8002F0EEE/$FILE/Michael-Whitaker-01.24.2024-278T.pdf"
+}

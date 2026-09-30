@@ -1,0 +1,735 @@
+{
+ "added": "2025-12-20",
+ "agency": "White House Office",
+ "amended": false,
+ "doc": "7475a1baba",
+ "kind": "278 Transaction",
+ "name": "Trump, Donald J",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "paper",
+ "title": "President",
+ "transactions": [
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "LEE CNTY FIA SCH BR 5% DUE 08/01/36",
+   "asset_type": "GS",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2025-11-05",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "CENTRAL FIA TOURISM 5% DUE 10/01/41",
+   "asset_type": "GS",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2025-11-05",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Sl 000 001 • SS 000 000 4 CONCORD IND CMNlY S 5\" DUE 07/15/37",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2025-10-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "nnn 5 MIAMI-DADE CNTY 5,259' CUE 04/01/39",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2025-10-27",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "NEW JERSEY ST TRANS 5% DUE 06/15/42",
+   "asset_type": "GS",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2025-10-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NORTH EASTTEX REGLS% DUE 01/01/40",
+   "asset_type": "GS",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2025-10-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "COOIC CNlY ILLS ALES 59' DUE 11/15/49",
+   "idx": 6,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-10-20",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "� •••CQlY INC SENIOR SECURED NOTES REGS DUE 01/15/2029 04.750% JJ 15 DISCRETIONARY ORDER IF THIS CONFIRMATOI N IS IN CONNECTION WITH A SALE PURSUANT TO REG. S",
+   "asset_type": "CS",
+   "idx": 7,
+   "owner": "SELF",
+   "tx_date": "2025-11-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "GENERAL MTRS FINL CO INC CUE 03/01/2026 OS.2509' MS 01 DISCRETIONARY ORDER YlELD 3.937 % TO PAR CALL YIELD 4Jl70 9' TO MATURllY CALLABLE 12/05/25 AT 100.000 TIME OF EXECUTION 15:57:38",
+   "asset_type": "CS",
+   "idx": 8,
+   "owner": "SELF",
+   "tx_date": "2025-11-04",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "NEWELL RUBBERMAID INC SENIOR UNSECURED NOTIS DUE 09/15/2029 06.6259' MS 15 DISCRETIONARY ORDER YIELD 7.607 9' TO MATURITY YIELD 7.671 % TO PAR CALL CALLABLE 06/15/29 AT 100.000",
+   "asset_type": "CS",
+   "idx": 9,
+   "owner": "SELF",
+   "tx_date": "2025-11-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ODO 15 BALL CORP SENIOR U NSECUREO NOTIS DUE 03/15/2028 D6.87S% JJ 01 DISCRETIONARY ORDER YIELD 2.888 \"TO CALL YIELD 4.975 9' TO PAR CALL YIELD 6.009 % TOMATURllY",
+   "asset_type": "CS",
+   "idx": 10,
+   "owner": "SELF",
+   "tx_date": "2025-11-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "UNITED RENTALS NORTH AMER INC SENIOR SECURED NOTES REGS DUE 12/15/2029 06.000% JO 1S DISCRETIONARY ORDER IF THIS CONFIRMATION IS IN . CONNECTION WITH A SALE PURSUANT TO REG",
+   "asset_type": "CS",
+   "idx": 11,
+   "owner": "SELF",
+   "tx_date": "2025-11-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "WHIRLPOOL CORP DEB SENIOR NOTES DUE 02/26/2029 04.750% FA 26 DISCRETIONARY ORDER YIELD 5355 \"TO MATURllY YlELD 5.404 % TO PAR CALL CALLABLE 11/26/'lB AT 100.000",
+   "asset_type": "CS",
+   "idx": 12,
+   "owner": "SELF",
+   "tx_date": "2025-11-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NETFUX INC REGS DUE 11/15/2029 05.3759' JD 15 DISCRETIONARY ORDER IF THIS CONFIRMATION IS IN CONNECTION WITH A SALE PURSUANTTO REG. S",
+   "idx": 13,
+   "owner": "SELF",
+   "tx_date": "2025-11-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SIRIUS XM RADIO INC SENIOR NOTES REGS CUE 07/01/2029 OS.SOD% JJ 01 DISCRETIONARY ORDER IF THIS CONFIRMATION IS IN CONNECTION WITH A SALE PURSUANTTO REG.S",
+   "idx": 14,
+   "owner": "SELF",
+   "tx_date": "2025-11-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "OUN CORP CUE 08/01/2029 OS.6259' FA Cl DISCRETIONARY ORDER YIELD 5563 9' TO PAR CALL YIELD 26.606 % TO CALL YIELD 5,594\" TO MATURllY CALLABLE 08/01/27 AT 100.000",
+   "asset_type": "CS",
+   "idx": 15,
+   "owner": "SELF",
+   "tx_date": "2025-11-04",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "DISCOVERY COMMUNICATIONS LLC SENIOR UNSECURED DUE OS/15/2030 03.625% MN 15 DISCRETIONARY ORDER YIELD 6.S96 % TO MATURITY YIELD 6.758 % TO PAR CALL CALLABLE 02/15/30 AT 100.000",
+   "asset_type": "CS",
+   "idx": 16,
+   "owner": "SELF",
+   "tx_date": "2025-11-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "FIRST HORIZON BK MEMPHIS TENN DUE 05/01/2030 05.750% MN 01 DISCRETIONARY ORDER YIELD 4.829 9' TO PAR CALL YIELD 4.873 % TO MATURITY CALLABLE 02/01/30 AT 100.000 TIME OF EXECUTION 15:50:43",
+   "asset_type": "GS",
+   "idx": 17,
+   "owner": "SELF",
+   "tx_date": "2025-11-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "THE BOEING COMPANY SENIOR UNSECURED NOTE CUE 05/01/2027 05.040% MN 01 DISCRETIONARY ORDER YIELD4.238 9' TO PAR CALL YIELD 4.321 % TO MATURITY CALLABLE 03/01/27 AT 100.000",
+   "asset_type": "GS",
+   "idx": 18,
+   "owner": "SELF",
+   "tx_date": "2025-11-04",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "BLOCK ANL LLC SENIOR UNSECURED NOTE DUE 08/15/2030 03.8759' FA 15 DISCRETIONARY ORDER YIELD 4.685 9' TO MATURITY YIELD 4.n7 % TO PAR CALL CALLABLE 05/15/30 AT 100.000",
+   "asset_type": "CS",
+   "idx": 19,
+   "owner": "SELF",
+   "tx_date": "2025-11-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "UWDQlllllJ 11 yoy Q01ld mam PPSlD rouow lbas tmlQIC'\"9M Nqtp; You musttdd �\"' oaumoa jnfQQ1Wllon, FllefsName I .,__ Donald J TNmp I o----:i. ,.,f� • Trwn■■cllona �lvacl0wlr30 Daya.Ago 2S OCCIDENTAL PETE SR DEBS.REG SENIOR NOTES DUE 09/01/2030 06.625'6 MS 01 DISCRETIONARY ORDER YIELD 4.709 \"TO PAR CA",
+   "idx": 20,
+   "owner": "SELF",
+   "tx_date": "2025-11-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "XT ... COREWEAVE INC REGS DUE 06/01/2030 09.250'l6JD 01 DISCREllONARY ORDER IF THIS CONFIRMATION IS IN CONNECTION WITH A SALE PURSUANT TO REG. S",
+   "idx": 21,
+   "owner": "SELF",
+   "tx_date": "2025-11-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "vtCTORIAS SECRET CO REGS DUE 07/15/2029 04.625\" JJ 15 DISCRETIONARY ORDER IF THIS CONFIRMATION IS IN CONNECTION WITH A SALE PURSUANT TO REG.S",
+   "idx": 22,
+   "owner": "SELF",
+   "tx_date": "2025-11-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "WELLS FARGO & CO NTS B/E 04.900% 012428 DTD012425",
+   "asset_type": "CS",
+   "idx": 23,
+   "owner": "SELF",
+   "tx_date": "2025-11-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "AIR LEASE CORP NTS B/E 05.300% 062526 DTD082524",
+   "asset_type": "CS",
+   "idx": 24,
+   "owner": "SELF",
+   "tx_date": "2025-11-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "FISERV INC B/E 5.600% 030233 DTD030223",
+   "asset_type": "CS",
+   "idx": 25,
+   "owner": "SELF",
+   "tx_date": "2025-11-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SAN DIEGO G & E B/E 05.400% 041535 DTD032825",
+   "asset_type": "GS",
+   "idx": 26,
+   "owner": "SELF",
+   "tx_date": "2025-11-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MORGAN STANLEY 05.173% 011630 DT0011824",
+   "asset_type": "GS",
+   "idx": 27,
+   "owner": "SELF",
+   "tx_date": "2025-11-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ROYAL CARIBBEAN CRUISES 03.700% 031528 OTD112817",
+   "asset_type": "GS",
+   "idx": 28,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "META PLATFORMS INC NTS 04.600% 111532 DTD110325",
+   "asset_type": "CS",
+   "idx": 29,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CITIGROUP INC NTS BIE 05.174% 021330 OT0021324",
+   "asset_type": "CS",
+   "idx": 30,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MERCK & CO INC B/E 04.950% 091535 OTD090925",
+   "asset_type": "CS",
+   "idx": 31,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "BAKER HUGHES LLC/CO-OBL 03.337% 121527 om121111",
+   "asset_type": "CS",
+   "idx": 32,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "HCA INC B/E 05.450% 091534 010081224",
+   "asset_type": "CS",
+   "idx": 33,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ROYAL BANK OF CANADA NTS 04.510% 101827 OT0101824",
+   "asset_type": "GS",
+   "idx": 34,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "PAYPAL HOLDINGS INC NTS 02.850% 100129 DT0092619",
+   "asset_type": "CS",
+   "idx": 35,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "PFIZER INVT ENTER NTS 04.750% 051933 DT0051923",
+   "asset_type": "GS",
+   "idx": 36,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "AMERICAN HONDA FIN NTS 05.050\"/o 071031 OTD071024",
+   "idx": 37,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ORACLE CORP NTS B/E 05.200% 092635 OT0092625",
+   "asset_type": "CS",
+   "idx": 38,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "GOLOM.AN SACHS GROUP INC 01.431% 030927 OT0030621",
+   "asset_type": "CS",
+   "idx": 39,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "CANADIAN IMPERIAL BANK 04.580% 090831 OT0090825",
+   "asset_type": "GS",
+   "idx": 40,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "AMERICAN EXPRESS CO B/E 05.284% 072635 OTD072624",
+   "asset_type": "CS",
+   "idx": 41,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "VIRGINIA ELEC & PWR CO 03.750% 051527 DT0053122",
+   "asset_type": "CS",
+   "idx": 42,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "AIR LEASE CORP NTS B/E 05.850% 121527 OT0120522",
+   "asset_type": "CS",
+   "idx": 43,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "VICI PROPERTIES LP NTS 05.125% 051532 OT0042922",
+   "asset_type": "GS",
+   "idx": 44,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "BK OF AMER CORP 8/E 02.972% 020433 DTD020422",
+   "asset_type": "CS",
+   "idx": 45,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "US BANCORP B/E 3.000% 073029 DT0072919",
+   "asset_type": "GS",
+   "idx": 46,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NATL RURAL UTILS COOP 04.850% 020729 010020524",
+   "asset_type": "GS",
+   "idx": 47,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CITIGROUP INC NTS 8/E 4.412% 033131 OT0033120",
+   "asset_type": "CS",
+   "idx": 48,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "BROADCOM INC NTS BIE 04.750% 041529 OT0041520",
+   "asset_type": "CS",
+   "idx": 49,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "·N a $100.001 -$250,000 . 11 'i9Y DPlld.. mom A111tS folJow!IJese ro::tM3Hm, N0\\l/; You mv,t add Jl3903 bQlore ooi,ring lfl!orma11on. Neto· Thb 1\"\" rt nublic 'a.rm Co nat •ne:udo :.eeount nombors. �t:ool Addre��s. ot !nmll11 mombOr n�mn.. �c ac, lnstru.c:llon� fer rcoul·co in'orm.:>lion FilefsN■me P",
+   "asset_type": "CS",
+   "idx": 50,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "GENL MOTORS FINL CO INC 6.100% 010734 DT0120723",
+   "asset_type": "CS",
+   "idx": 51,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CAPITAL ONE FINANCIAL CO 04.493% 091131 DTD091125",
+   "asset_type": "CS",
+   "idx": 52,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "ODO 81 NEW YORK NY CITY MUN WTR RN AUTH WTR & SWR SYS REV FORIS SUES DATED PRIOR TO 6/29/2012 2ND GEN RES BDS DD 2 DUE",
+   "idx": 53,
+   "owner": "SELF",
+   "tx_date": "2025-11-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "DATED 11118110 VAR REV 62 CONNECTICUT ST HEALT H & EDL FACS AUTH REV VAR REV BDS YAL UNIV 2001 V-2 DUE 7/1/2036 DATED 711/2001",
+   "idx": 54,
+   "owner": "SELF",
+   "tx_date": "2025-11-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "PENNSYLVANIA ST GO FIRST REF BOS 2025 A DUE 8/15/29 DATED 6/13125",
+   "idx": 55,
+   "owner": "SELF",
+   "tx_date": "2025-11-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "OMAHA PUB PWR DIST NEB ELEC REV SYS BOS 2025B DUE 211/2031 DATED 12110125",
+   "idx": 56,
+   "owner": "SELF",
+   "tx_date": "2025-11-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "REV",
+   "idx": 57,
+   "owner": "SELF",
+   "tx_date": "2025-11-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "VIRGINIA COLLEGE BLD AUTH VA EDL FACS REV 21ST CENTY COLLEGE & EQUIP PROG FOR ISSUES OTO PRIOR T05116/14 SEE 927781",
+   "idx": 58,
+   "owner": "SELF",
+   "tx_date": "2025-11-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "REF BOS 2017 E DUE 21112030 DATED 12121/2017 2.57% o1 KENTUCKY ST PPTY & SLOGS COMMN REVS ISSUES OTO PRIOR TO 11/15111 SEE 49151E ETC BOS PROJ 131 A DUE 1011/27 DATED",
+   "asset_type": "GS",
+   "idx": 59,
+   "owner": "SELF",
+   "tx_date": "2025-01-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "CnlriiAIPIIA ,;Cl£. 68 GREGORY PROTLAND TEX INDPT SCH DIST UNLTD TAX SCH BLOG BOS 2025 PERMANENT SCHOOL FUND GUARANTY DUE 2115/34",
+   "idx": 60,
+   "owner": "SELF",
+   "tx_date": "2025-11-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "DATED 811125 5% 69 MINNESOTA ST FOR PREVIOUS ISSUES SEE 604129 VAR PURP GO BOS 2024A DUE 8/112B DATED 8120/24",
+   "asset_type": "GS",
+   "idx": 61,
+   "owner": "SELF",
+   "tx_date": "2025-11-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "PENNSYLVANIA ST GO FIRST REV BOS 2025 A DUE 8/15129 DATED 6/13/25 5% INT",
+   "asset_type": "GS",
+   "idx": 62,
+   "owner": "SELF",
+   "tx_date": "2025-11-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "LEE CNTY FLA SCH BRO CTFS PARTN COPS 2025 A DUE B/1/2033 DATED 11114125",
+   "idx": 63,
+   "owner": "SELF",
+   "tx_date": "2025-11-05",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "I 72 AUSTIN TEX ELEC UTIL SYS REV REF BOS 2025 DUE 11115/2034 DATED 12103/2025 5% INTEREST REV",
+   "asset_type": "GS",
+   "idx": 64,
+   "owner": "SELF",
+   "tx_date": "2025-11-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "HUNTSVILLE ALA HEATH CAREAUTH BOS 20258 DUE 611/35 DATED 111131255% INT",
+   "asset_type": "GS",
+   "idx": 65,
+   "owner": "SELF",
+   "tx_date": "2025-11-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "ILLINOIS FIN AUTH REV RUSH UNIV SYS HEALTH 2025 DUE 11115/2032 DATED 11118125",
+   "idx": 66,
+   "owner": "SELF",
+   "tx_date": "2025-11-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "NY CITY MUN WTR RN AUlli WTR & SWR SYS REV FOR ISSUES DATED PRIOR TO 6129112 SECOND GEN RES BOS DD 2 DUE 6115/43",
+   "idx": 67,
+   "owner": "SELF",
+   "tx_date": "2025-11-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "NORTH CAROLINA ST GEN OBUG REF BOS 2025C DUE 611128 DATED 11/19125 5% INTEREST GENERAL OBLIGATION FIRST INT PAYMENT",
+   "asset_type": "GS",
+   "idx": 68,
+   "owner": "SELF",
+   "tx_date": "2025-01-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "UNLIMITED TAX 1 % n CONNECTICUT ST HEALTH & EDL FACS AUTH REV VAR REV BOS YALE UNIV 2001 V-2 7/1136 DATED 7/12101 VAR REV",
+   "asset_type": "GS",
+   "idx": 69,
+   "owner": "SELF",
+   "tx_date": "2025-11-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "PENNSYLVANIA ST TPK COMMN OIL FRANCHISE TAX REV SUB BOS 2021 B DUE 12/01/26",
+   "idx": 70,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "MIAMI-DADE CNTY FLA SCH DIST Account 38 15070 TAX ANTIC NTS 2025 Trade date 10131/25 DUE 01/07/2026",
+   "idx": 71,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "ALLEN TEX INDPT SCH DIST Acoount 38 15070 Quantity 695,000 UNLTD TAX REF BOS 2025A PERMANENT SCHOOL FUND GUARANTY DUE",
+   "idx": 72,
+   "owner": "SELF",
+   "tx_date": "2025-10-31",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "purchase No PLAZA AT NOAHS ARK CMNTY IMPT DIST MO TAX INCRMT & IMPT DIST DB B/E 3.00 % Due Mav 1. 2026 10/3112025 $100.0D1-$25000D 108 Yea TEXAS ST AFFORDABLE HSG CORP MLTIFAM HSG REV JUNIPER CREEK APTS B/E 3.75 % Due Jul 1",
+   "asset_type": "GS",
+   "idx": 73,
+   "owner": "SELF",
+   "tx_date": "2025-10-23",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/87BFE542A2751E0285258D6600346FCD/$FILE/Donald%20J.%20Trump%2012.18.2025%20278-T.pdf"
+}

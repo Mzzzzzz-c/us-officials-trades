@@ -1,0 +1,27 @@
+{
+ "added": "2021-03-11",
+ "agency": "Department of The Treasury",
+ "amended": false,
+ "doc": "8add038c07",
+ "kind": "278 Transaction",
+ "name": "Yellen, Janet L",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Vanguard 500 Index Fund Admiral Shares (VFIAX)",
+   "asset_type": "EF",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "VFIAX",
+   "tx_date": "2021-02-19",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/C6ECAB5C658BC11E85258695003439E6/$FILE/Janet-L-Yellen-02.20.2021-278T.pdf"
+}

@@ -1,0 +1,71 @@
+{
+ "added": "2022-12-09",
+ "agency": "Department of Transportation",
+ "amended": false,
+ "doc": "c42f85c5f5",
+ "kind": "278 Transaction",
+ "name": "Fernandez, Nuria",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Transit Administration",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BlackRock, Inc. (BLK)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "BLK",
+   "tx_date": "2022-09-28",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Intuit, Inc. (INTU)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "INTU",
+   "tx_date": "2022-09-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Becton, Dickinson and Company (BDX)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "BDX",
+   "tx_date": "2022-09-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Medtronic Plc (MDT)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "MDT",
+   "tx_date": "2022-09-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Texas Instruments Incorporated (TXN)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "TXN",
+   "tx_date": "2022-08-31",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/AF140C79FB5CEE348525891300728D15/$FILE/Nuria-Fernandez-09.30.2022-278T.pdf"
+}

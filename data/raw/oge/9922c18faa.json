@@ -1,0 +1,26 @@
+{
+ "added": "2023-12-22",
+ "agency": "Department of State",
+ "amended": false,
+ "doc": "9922c18faa",
+ "kind": "278 Transaction",
+ "name": "Sherman, Wendy R",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Deputy Secretary",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Massachusetts St WtrRes Auth Green",
+   "idx": 0,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2023-04-20",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/18C827DE79A3FF1A85258A8D003481B5/$FILE/Wendy-R-Sherman-08.11.2023-278.pdf"
+}

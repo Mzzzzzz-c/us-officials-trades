@@ -1,0 +1,38 @@
+{
+ "added": "2021-08-31",
+ "agency": "Department of Transportation",
+ "amended": false,
+ "doc": "f9b9bcb448",
+ "kind": "278 Transaction",
+ "name": "Fernandez, Nuria",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Transit Administration",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Tencent Holdings Limited (TCEHY)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "TCEHY",
+   "tx_date": "2021-07-28",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Mastercard, Inc. (MA)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "MA",
+   "tx_date": "2021-07-22",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/C829902794BE0A4A85258742002E554A/$FILE/Nuria-Fernandez-07.29.2021-278T.pdf"
+}

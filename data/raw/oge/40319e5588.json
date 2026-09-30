@@ -1,0 +1,28 @@
+{
+ "added": "2021-07-13",
+ "agency": "Department of The Treasury",
+ "amended": false,
+ "doc": "40319e5588",
+ "kind": "278 Transaction",
+ "name": "Adeyemo, Adewale",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Deputy Secretary",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "BlackRock, Inc. (BLK) See Endnote",
+   "asset_type": "ST",
+   "idx": 0,
+   "late_notice": true,
+   "owner": "SELF",
+   "ticker": "BLK",
+   "tx_date": "2021-04-21",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/ED2CFB66004BF9D085258711002E41EB/$FILE/Adewale-Adeyemo-05.31.2021-278T.pdf"
+}

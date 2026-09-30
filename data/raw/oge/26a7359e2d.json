@@ -1,0 +1,25 @@
+{
+ "added": "2022-12-23",
+ "agency": "Department of State",
+ "amended": false,
+ "doc": "26a7359e2d",
+ "kind": "278 Transaction",
+ "name": "Sherman, Wendy R",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Deputy Secretary",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Massachusetts St Consolidated LN Genl Oblig Ser- C",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2022-11-29",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/0EC7965654D638118525892100344046/$FILE/Wendy-R-Sherman-12.15.2022-278T.pdf"
+}

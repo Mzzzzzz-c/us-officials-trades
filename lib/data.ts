@@ -32,7 +32,7 @@ export interface Entry {
 export interface Trade {
   id: string;
   m: string;
-  ch: "H" | "S";
+  ch: "H" | "S" | "E";
   doc?: string;
   src: string;
   tx?: string;
@@ -61,10 +61,14 @@ export interface MemberRow {
   name: string;
   zh?: string;
   party: string;
-  chamber: "H" | "S";
+  chamber: "H" | "S" | "E";
   state: string;
   district?: number;
   current?: boolean;
+  title?: string;
+  agency?: string;
+  title_zh?: string;
+  agency_zh?: string;
   n: number;
   nb: number;
   ns: number;
@@ -111,7 +115,7 @@ export interface PerfCell {
 
 export interface ScannedFiling {
   m: string;
-  ch: "H" | "S";
+  ch: "H" | "S" | "E";
   doc?: string;
   fil?: string;
   url: string;
@@ -126,12 +130,19 @@ export interface MemberPage {
     first?: string;
     last?: string;
     party: string;
-    chamber: "H" | "S";
+    chamber: "H" | "S" | "E";
     state: string;
     district?: number;
     current?: boolean;
     since?: string;
     committees: Committee[];
+    title?: string;
+    agency?: string;
+    title_zh?: string;
+    agency_zh?: string;
+    docs?: { kind: string; added: string; url: string | null; title: string; agency: string }[];
+    on_request?: number;
+    congress?: string;
   };
   summary: MemberRow;
   perf: { buy?: Record<string, PerfCell>; sell?: Record<string, PerfCell> };

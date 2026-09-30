@@ -1,0 +1,38 @@
+{
+ "added": "2026-01-30",
+ "agency": "Office of Personnel Management",
+ "amended": false,
+ "doc": "fae3bcf640",
+ "kind": "278 Transaction",
+ "name": "Kupor, Scott A",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Alphabet, Inc. (GOOG) (sale of stock per required See Endnote CD) $250,000",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "GOOG",
+   "tx_date": "2025-10-01",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Southern Company (SO) (required sale pursuant to See Endnote CD) $250,000",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "SO",
+   "tx_date": "2025-10-01",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/E0F6CD03D5B35F9785258D8F003461CE/$FILE/Scott-A-Kupor-10.08.2025-278T.pdf"
+}

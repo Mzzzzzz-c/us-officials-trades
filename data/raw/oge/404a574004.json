@@ -1,0 +1,140 @@
+{
+ "added": "2023-10-26",
+ "agency": "Department of Transportation",
+ "amended": false,
+ "doc": "404a574004",
+ "kind": "278 Transaction",
+ "name": "Fernandez, Nuria",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Transit Administration",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Johnson & Johnson (JNJ)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "JNJ",
+   "tx_date": "2023-08-29",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "KVUE - KENVUE INC",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2023-08-29",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Johnson & Johnson (JNJ)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "JNJ",
+   "tx_date": "2023-08-29",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "KVUE - KENVUE INC",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2023-08-25",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AbbVie, Inc. (ABBV)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "ABBV",
+   "tx_date": "2023-08-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Raytheon Technologies Corporation Common Stock (RTX)",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "RTX",
+   "tx_date": "2023-08-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Raytheon Technologies Corporation Common Stock (RTX)",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "RTX",
+   "tx_date": "2023-08-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Union Pacific Corp. (UNP)",
+   "asset_type": "ST",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "UNP",
+   "tx_date": "2023-08-08",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ICON plc Ordinary Shares (ICLR)",
+   "asset_type": "ST",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": "ICLR",
+   "tx_date": "2023-08-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AAGIY - AIA GROUP LTD",
+   "idx": 9,
+   "owner": "SELF",
+   "tx_date": "2023-08-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Canadian Pacific Railway Limited Common Stock (CP)",
+   "asset_type": "ST",
+   "idx": 10,
+   "owner": "SELF",
+   "ticker": "CP",
+   "tx_date": "2023-08-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CSLLY - CSL LTD",
+   "idx": 11,
+   "owner": "SELF",
+   "tx_date": "2023-08-04",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/A4B9E9A9005757CE85258A54002EECB5/$FILE/Nuria-Fernandez-08.30.2023-278T.pdf"
+}

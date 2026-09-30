@@ -1,0 +1,232 @@
+{
+ "added": "2025-09-06",
+ "agency": "Department of The Interior",
+ "amended": false,
+ "doc": "e89ebacb72",
+ "kind": "278 Transaction",
+ "name": "MacGregor, Katharine",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Deputy Secretary 2",
+ "transactions": [
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "NextEra Energy, Inc. (NEE)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "NEE",
+   "tx_date": "2025-07-14",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "NextEra Energy, Inc. (NEE) (option strike price $57.27) $100,000",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "NEE",
+   "tx_date": "2025-07-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NextEra Energy, Inc. (NEE)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "NEE",
+   "tx_date": "2025-07-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NextEra Energy, Inc. (NEE) (option strike price $73.12) $250,000",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "NEE",
+   "tx_date": "2025-07-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NextEra Energy, Inc. (NEE)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "NEE",
+   "tx_date": "2025-07-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NextEra Energy, Inc. (NEE) (option strike price $75.38) $250,000",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "NEE",
+   "tx_date": "2025-07-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NextEra Energy, Inc. (NEE)",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "NEE",
+   "tx_date": "2025-07-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NextEra Energy, Inc. (NEE) (option strike price $75.69) $250,000",
+   "asset_type": "ST",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "NEE",
+   "tx_date": "2025-07-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NextEra Energy, Inc. (NEE)",
+   "asset_type": "ST",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": "NEE",
+   "tx_date": "2025-07-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "NextEra Energy Stock ESOP Units; Vested balance",
+   "idx": 9,
+   "owner": "SELF",
+   "tx_date": "2025-07-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Vanguard Target Retirement 2045 Fund Investor Class Shares (VTIVX) $100,000",
+   "asset_type": "EF",
+   "idx": 10,
+   "owner": "SELF",
+   "ticker": "VTIVX",
+   "tx_date": "2025-07-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "XPLR Infrastructure LP (XIFR - Formerly NextEra Energy Partners - NEP)",
+   "idx": 11,
+   "owner": "SELF",
+   "tx_date": "2025-07-11",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Fidelity 500 Index Fund (FXAIX) See Endnote",
+   "asset_type": "ST",
+   "idx": 12,
+   "owner": "SELF",
+   "ticker": "FXAIX",
+   "tx_date": "2025-07-18",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Vanguard 500 Index Fund Admiral Shares (VFIAX) See Endnote",
+   "asset_type": "EF",
+   "idx": 13,
+   "owner": "SELF",
+   "ticker": "VFIAX",
+   "tx_date": "2025-07-18",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Vanguard 500 Index Fund Admiral Shares (VFIAX) See Endnote",
+   "asset_type": "EF",
+   "idx": 14,
+   "owner": "SELF",
+   "ticker": "VFIAX",
+   "tx_date": "2025-07-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Amazon.com, Inc. (AMZN)",
+   "asset_type": "ST",
+   "idx": 15,
+   "owner": "SELF",
+   "ticker": "AMZN",
+   "tx_date": "2025-07-31",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Fidelity 500 Index Fund (FXAIX) See Endnote",
+   "asset_type": "ST",
+   "idx": 16,
+   "owner": "SELF",
+   "ticker": "FXAIX",
+   "tx_date": "2025-08-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Apple, Inc. (AAPL)",
+   "asset_type": "ST",
+   "idx": 17,
+   "owner": "SELF",
+   "ticker": "AAPL",
+   "tx_date": "2025-08-06",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Netflix, Inc. (NFLX)",
+   "asset_type": "ST",
+   "idx": 18,
+   "owner": "SELF",
+   "ticker": "NFLX",
+   "tx_date": "2025-08-06",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Fidelity 500 Index Fund (FXAIX) See Endnote",
+   "asset_type": "ST",
+   "idx": 19,
+   "owner": "SELF",
+   "ticker": "FXAIX",
+   "tx_date": "2025-08-06",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/E7B021C3112F2B3485258CFD002C03E5/$FILE/Katharine-MacGregor-08.07.2025-278T.pdf"
+}

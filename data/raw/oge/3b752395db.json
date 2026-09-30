@@ -1,0 +1,71 @@
+{
+ "added": "2024-04-04",
+ "agency": "Department of Energy",
+ "amended": false,
+ "doc": "3b752395db",
+ "kind": "278 Transaction",
+ "name": "Granholm, Jennifer",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Invesco S&P 500 Equal Weight ETF (RSP)",
+   "asset_type": "EF",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "RSP",
+   "tx_date": "2024-01-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Invesco S&P 500 Equal Weight ETF (RSP)",
+   "asset_type": "EF",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "RSP",
+   "tx_date": "2024-01-19",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Janus Henderson Research Fund (JNRFX)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "JNRFX",
+   "tx_date": "2024-01-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Janus Henderson Overseas Fund (JNOSX)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "JNOSX",
+   "tx_date": "2024-01-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Vanguard Short-Term Corporate Bond Index Fund ETF Class Shares (VCSH) $100,000",
+   "asset_type": "EF",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "VCSH",
+   "tx_date": "2024-02-05",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/746DA9904D1173FA85258AF5002EFE15/$FILE/Jennifer-Granholm-02.28.2024-278T.pdf"
+}

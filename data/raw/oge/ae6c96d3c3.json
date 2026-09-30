@@ -1,0 +1,36 @@
+{
+ "added": "2021-08-28",
+ "agency": "Agency for International Development (AID)",
+ "amended": false,
+ "doc": "ae6c96d3c3",
+ "kind": "278 Transaction",
+ "name": "Power, Samantha",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Johnson & Johnson (JNJ)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "JNJ",
+   "tx_date": "2021-06-21",
+   "type": "S"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "The Social+Capital Partnership GP III, L.P. Partnership Percentage $5,000,000",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2021-06-28",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/911F5BE8526F535E8525873F002E5981/$FILE/Samantha-Powers-07.29.2021-278T.pdf"
+}

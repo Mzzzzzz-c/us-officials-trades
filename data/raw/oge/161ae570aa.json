@@ -1,0 +1,58 @@
+{
+ "added": "2020-12-04",
+ "agency": "Department of The Air Force",
+ "amended": false,
+ "doc": "161ae570aa",
+ "kind": "278 Transaction",
+ "name": "Barrett, Barbara M",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Impele Holdings LLC",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2020-10-06",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "iShares Transportation Average ETF (IYT)",
+   "asset_type": "EF",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "IYT",
+   "tx_date": "2020-10-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "iShares Transportation Average ETF (IYT)",
+   "asset_type": "EF",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "IYT",
+   "tx_date": "2020-10-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "iShares US Technology ETF (IYW)",
+   "asset_type": "EF",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "IYW",
+   "tx_date": "2020-10-30",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/E85E1702AC4B6AA485258634002D5998/$FILE/Barbara-M-Barrett-11.06.2020-278T.pdf"
+}

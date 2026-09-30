@@ -1,0 +1,9279 @@
+{
+ "added": "2026-08-22",
+ "agency": "White House Office",
+ "amended": false,
+ "doc": "7ea5a3052e",
+ "kind": "278 Transaction",
+ "name": "Trump, Donald J",
+ "ocr": true,
+ "parser": 4,
+ "status": "ok",
+ "style": "paper",
+ "title": "President",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Goldman Sachs Group Inc",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Ametek Inc",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "International Flavors & Fragrances Inc",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Allstate Corp",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Howmet Aerospace Inc",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Verisk Analytics Inc",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Kla Corp",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Emerson Elec Co",
+   "idx": 7,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Caterpillar Inc",
+   "idx": 8,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "S&p Global Inc",
+   "idx": 9,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Apollo Global Mgmt Ing",
+   "idx": 10,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Centerpo int Ing",
+   "idx": 11,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Progressive Corp Oh",
+   "idx": 12,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Hewlett Packard Enterprise Co",
+   "idx": 13,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Intuitive Surgical Inc",
+   "idx": 14,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Space Exp! Technologies Corp",
+   "idx": 15,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Nvidia Corp",
+   "idx": 16,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Simon Ppty Group inc",
+   "idx": 17,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "a ccc cc ccc",
+   "idx": 18,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Pnc Finl Svcs Group Inc",
+   "idx": 19,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Kimberly-clark Corp 7",
+   "idx": 20,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Apple Inc",
+   "idx": 21,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Cognizant Technology",
+   "idx": 22,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Godaddy Inc",
+   "idx": 23,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Intuit",
+   "idx": 24,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Snap On Inc",
+   "idx": 25,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Trane Technologies Plc",
+   "idx": 26,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Huntington Bancshares Inc",
+   "idx": 27,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Goldman Sachs Group Inc",
+   "idx": 28,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Broadcom Inc",
+   "idx": 29,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Federated Hermes Government Obligations Fund",
+   "idx": 30,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Broadcom Inc Com",
+   "idx": 31,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-02",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "GE AEROSPACE",
+   "idx": 32,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "HOME DEPOT INC",
+   "idx": 33,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "WELLS FARGO & CO",
+   "idx": 34,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MCDONALDS CORP",
+   "idx": 35,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ELI LILLY & CO",
+   "idx": 36,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "META PLATFORMS INC",
+   "idx": 37,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "AT&T INC",
+   "idx": 38,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "VISA INC",
+   "idx": 39,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MASTERCARD INCORPORATED",
+   "idx": 40,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ABBOTT LABORATORIES",
+   "idx": 41,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "INTUITIVE SURGICAL INC",
+   "idx": 42,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "RTX CORPORATION",
+   "idx": 43,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "JOHNSON & JOHNSON",
+   "idx": 44,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "STRYKER CORP",
+   "idx": 45,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ACCENTURE PLC IRELAND",
+   "idx": 46,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MEDTRONIC PLC",
+   "idx": 47,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "HONEYWELL INTL INC",
+   "idx": 48,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MCKESSON CORP",
+   "idx": 49,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "PROCTER & GAMBLE CO",
+   "idx": 50,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "WASTE MANAGEMENT INC",
+   "idx": 51,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MERCK & CO INC",
+   "idx": 52,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "JOHNSON CONTROLS INTERNATIONAL PLC",
+   "idx": 53,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "SHERWIN WILLIAMS CO",
+   "idx": 54,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "BOSTON SCIENTIFIC CORP",
+   "idx": 55,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CINTAS CORP",
+   "idx": 56,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "DOORDASH INC",
+   "idx": 57,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CENCORA INC",
+   "idx": 58,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "AMGEN INC",
+   "idx": 59,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BANK OF AMERICA CORP",
+   "idx": 60,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "GENERAL DYNAMICS CORP",
+   "idx": 61,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "REPUBLIC SERVICES INC",
+   "idx": 62,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CHIPOTLE MEXICAN GRILL INC",
+   "idx": 63,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MICROSOFT CORP",
+   "idx": 64,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "PAYPAL HOLDINGS INC",
+   "idx": 65,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "PG&E CORP",
+   "idx": 66,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "UNITED AIRLINES HOLDINGS INC",
+   "idx": 67,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ROPER TECHNOLOGIES INC",
+   "idx": 68,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "KIMBERLY CLARK CORPORATION",
+   "idx": 69,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ZOETIS INC",
+   "idx": 70,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "NRG ENERGY INC",
+   "idx": 71,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "WILLIS TOWERS WATSON PUBLIC LIMITED COMPANY",
+   "idx": 72,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "AMERICAN WTR WKS CO INC",
+   "idx": 73,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "FIRSTENERGY CORP",
+   "idx": 74,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SMURFIT WESTROCK PL",
+   "idx": 75,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CMS ENERGY CORP",
+   "idx": 76,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "T MOBILE US INC",
+   "idx": 77,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "DEERE & CO",
+   "idx": 78,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "PACKAGING CORP AMER",
+   "idx": 79,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ALLIANT ENERGY CORPORATION",
+   "idx": 80,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BRISTOL MYERS SQUIBB CO",
+   "idx": 81,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ABBVIE INC AVG",
+   "idx": 82,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "LYONDELLBASELL INDUSTRIES NV",
+   "idx": 83,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "JPMORGAN CHASE & CO",
+   "idx": 84,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CARDINAL HEALTH INC",
+   "idx": 85,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "MOTOROLA SOLUTIONS INC",
+   "idx": 86,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ROYAL CARIBBEAN GROUP",
+   "idx": 87,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "WILLIAMS COMPANIES INC",
+   "idx": 88,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "KINDER MORGAN INC",
+   "idx": 89,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "DOLLAR GENERAL CORPORATION",
+   "idx": 90,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "YUM BRANDS INC _",
+   "idx": 91,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "AMAZON.COM INC",
+   "idx": 92,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CROWN CASTLE INC",
+   "idx": 93,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SLB LIMITED",
+   "idx": 94,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "L3HARRIS TECHNOLOGIES INC",
+   "idx": 95,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "S&P GLOBAL INC",
+   "idx": 96,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "VERTEX PHARMACEUTICALS INC",
+   "idx": 97,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CHEVRON CORPORATION",
+   "idx": 98,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CHUBB LTD COM",
+   "idx": 99,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CONOCOPHILLIPS",
+   "idx": 100,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "O REILLY AUTOMOTIVE INC",
+   "idx": 101,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CORTEVA INC",
+   "idx": 102,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "EQT CORPORATION",
+   "idx": 103,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AMERICAN INTERNATIONAL GROUP INC",
+   "idx": 104,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "WABTEC CORP",
+   "idx": 105,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "IDEXXLABORATORIESCORP a",
+   "idx": 106,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "EXXON MOBIL CORP",
+   "idx": 107,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BIOGEN INC",
+   "idx": 108,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BAKER HUGHES COMPANY",
+   "idx": 109,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PPL CORPORATION",
+   "idx": 110,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "DEVON ENERGY CORPORATION",
+   "idx": 111,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NISOURCE INC",
+   "idx": 112,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "OMNICOM GROUP INC",
+   "idx": 113,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PFIZER INC",
+   "idx": 114,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "COSTCO WHOLESALE CORP",
+   "idx": 115,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "GILEAD SCIENCES IINC",
+   "idx": 116,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SOUTHERN CO",
+   "idx": 117,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NEWMONT CORPORATION",
+   "idx": 118,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "XCEL ENERGY INC",
+   "idx": 119,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ZIMMER BIOMET HOLDINGS INC",
+   "idx": 120,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AKAMAI TECHNOLOGIES INC",
+   "idx": 121,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "HASBRO INC",
+   "idx": 122,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ARCH CAPITAL GROUP LTD",
+   "idx": 123,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NORTHROP GRUMMAN CORP",
+   "idx": 124,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "WELLTOWER INC",
+   "idx": 125,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "INTL FLAVORS & FRAGRANCES INC",
+   "idx": 126,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "QUEST DIAGNOSTICS INC",
+   "idx": 127,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ILLINOIS TOOL WORKS INC",
+   "idx": 128,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "PARKER HANNIFIN CORP",
+   "idx": 129,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "WATERS CORP",
+   "idx": 130,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ELECTRONIC ARTS INC",
+   "idx": 131,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ALBEMARLE CORPORATION",
+   "idx": 132,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "AVALONBAY COMMUNITIES INC",
+   "idx": 133,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "INGERSOLL RAND INC",
+   "idx": 134,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "XYLEM INC",
+   "idx": 135,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "EVEREST GROUP LTD",
+   "idx": 136,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "HCA HEALTHCARE INC",
+   "idx": 137,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ATMOS ENERGY CORP",
+   "idx": 138,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "OTIS WORLDWIDE CORPORATION",
+   "idx": 139,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "VERALTO CORPORATION",
+   "idx": 140,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "FISERV INC",
+   "idx": 141,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BECTON DICKINSON & CO",
+   "idx": 142,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "TESLA INC",
+   "idx": 143,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "VICI PROPERTIES INC",
+   "idx": 144,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MARTIN MARIETTA MATERIALS INC",
+   "idx": 145,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "EXPAND ENERGY CORPORATION",
+   "idx": 146,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "COINBASE GLOBAL INC",
+   "idx": 147,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ARCHER-DANIELS-MIDLAND CO",
+   "idx": 148,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CBRE GROUP INC",
+   "idx": 149,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "AUTODESK INC",
+   "idx": 150,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "TRADE DESK INC",
+   "idx": 151,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MSCI INC",
+   "idx": 152,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "PHILIP MORRIS INTERNATIONAL INC",
+   "idx": 153,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "VEEVA SYSTEMS INC",
+   "idx": 154,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CARVANA CO",
+   "idx": 155,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "BOEING CO",
+   "idx": 156,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MOODYS CORP",
+   "idx": 157,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "AUTOZONE INC",
+   "idx": 158,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "TRANE TECHNOLOGIES",
+   "idx": 159,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "AIRBNB INC",
+   "idx": 160,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "HARTFORD INSURANCE GROUP INC",
+   "idx": 161,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "THE TRAVELERS COMPANIES INC",
+   "idx": 162,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "TYSON FOODS INC",
+   "idx": 163,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CIENA CORPORATION",
+   "idx": 164,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "NETFLIX INC",
+   "idx": 165,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "NORFOLK SOUTHERN CORP",
+   "idx": 166,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CRH PUBLIC LIMITED COMPANY",
+   "idx": 167,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "COPART INC",
+   "idx": 168,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "INTERCONTINENTAL EXCHANGE INC",
+   "idx": 169,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ADOBE INC",
+   "idx": 170,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "SYNOPSYS INC",
+   "idx": 171,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "COLGATE PALMOLIVE COMPANY",
+   "idx": 172,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "KROGER CO",
+   "idx": 173,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "INTUIT INC",
+   "idx": 174,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CONSOLIDATED EDISON INC",
+   "idx": 175,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CONSTELLATION ENERGY CORPORATION",
+   "idx": 176,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "TEXAS PACIFIC LAND CORPORATION",
+   "idx": 177,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "LOWES COMPANIES INC",
+   "idx": 178,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "BERKSHIRE HATHAWAY INC",
+   "idx": 179,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NVIDIA CORP",
+   "idx": 180,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "WALMART INC",
+   "idx": 181,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "UBER TECHNOLOGIES INC",
+   "idx": 182,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "VERIZON COMMUNICATIONS",
+   "idx": 183,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "LULULEMON ATHLETICA INC",
+   "idx": 184,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SALESFORCE INC",
+   "idx": 185,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CME GROUP INC",
+   "idx": 186,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "PROGRESSIVE CORP",
+   "idx": 187,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "REGENERON PHARMACEUTICALS INC",
+   "idx": 188,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "ADOBE INC",
+   "idx": 189,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "BERKSHIRE HATHAWAY INC-CL B",
+   "idx": 190,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "CINTAS CORP",
+   "idx": 191,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "VISA INC-CLASS A SHARES",
+   "idx": 192,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "MASTERCARD INCORPORATED",
+   "idx": 193,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "REPUBLIC SVCS INC",
+   "idx": 194,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "MOODYS CORP",
+   "idx": 195,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "T-MOBILE US INC USD0.001",
+   "idx": 196,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "HOME DEPOT INC",
+   "idx": 197,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "BOEING PANY",
+   "idx": 198,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "TYLER TECHNOLOGIES INC",
+   "idx": 199,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "PAYCHEX INC",
+   "idx": 200,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "STRYKER CORP",
+   "idx": 201,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "PROCTER & GAMBLE PANY",
+   "idx": 202,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "LENNOX INTL INC",
+   "idx": 203,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "INTUIT",
+   "idx": 204,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "FACTSET RESH SYS INC",
+   "idx": 205,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "FORTINET INC",
+   "idx": 206,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CROWDSTRIKE HLDGS INC",
+   "idx": 207,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SCHWAB CHARLES CORP PERP SUB 4.0000%",
+   "idx": 208,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "PALO ALTO NETWORKS INC",
+   "idx": 209,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SERVICENOW INC",
+   "idx": 210,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CLOROX PANY",
+   "idx": 211,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ROYAL CARIBBEAN GROUP",
+   "idx": 212,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "QUALM INC",
+   "idx": 213,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ECOLAB INC",
+   "idx": 214,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "PERP GLBL 3.7000%",
+   "idx": 215,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MORGAN STANLEY PERP JR GLBL 5.8750%",
+   "idx": 216,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BANK OF AMERICA CORPORATION",
+   "idx": 217,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "WELLS FARGO & CO",
+   "idx": 218,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-01",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "QNITY ELECTRONICS INC MON STOCK",
+   "idx": 219,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "VERTIV HOLDINGS CO",
+   "idx": 220,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Crh Plc",
+   "idx": 221,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AMCOR PLC",
+   "idx": 222,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "INTERNATIONAL PAPER",
+   "idx": 223,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "AT & T INC",
+   "idx": 224,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "LULULEMON ATHLETICA INC",
+   "idx": 225,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "FIDELITY NATL INFORMATION SVCS INC",
+   "idx": 226,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "TRIMBLE NAV LTD",
+   "idx": 227,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BUNGE GLOBAL SA SHS",
+   "idx": 228,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MOLSON COORS BEVERAGE PANY",
+   "idx": 229,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "GARTNER GROUP INC",
+   "idx": 230,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "HENRY JACK & ASSOC INC",
+   "idx": 231,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "GLOBAL PMTS INC",
+   "idx": 232,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "KKR & CO INC",
+   "idx": 233,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CONSTELLATION ENERGY CORP",
+   "idx": 234,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SBA COMMUNICATION CORP",
+   "idx": 235,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "VICI Properties Inc",
+   "idx": 236,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "EQT CORP",
+   "idx": 237,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "COSTAR GROUP INC",
+   "idx": 238,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "COINBASE GLOBAL INC",
+   "idx": 239,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Paypal Hidgs Inc",
+   "idx": 240,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "BOOKING HLDGS INC",
+   "idx": 241,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "JPMORGAN CHASE & CO ALT TIER 3.6500%",
+   "idx": 242,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-01",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "THE HERSHEY COM PANY",
+   "idx": 243,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "THERMO FISHER CORP",
+   "idx": 244,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "AUTOZONE INC",
+   "idx": 245,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "ABBOTT LABS INC",
+   "idx": 246,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "NETFLIX INC",
+   "idx": 247,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "MARSH",
+   "idx": 248,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "O REILLY AUTOMOTIVE INC",
+   "idx": 249,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "FISERV INC",
+   "idx": 250,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "S&P GLOBAL INC",
+   "idx": 251,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "MCDONALDS CORP",
+   "idx": 252,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "CME GROUP INC",
+   "idx": 253,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "ROPER TECHNOLOGIES, INC",
+   "idx": 254,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "PALANTIR TECHNOLOGIES INC",
+   "idx": 255,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "MOTOROLA SOLUTIONS INC",
+   "idx": 256,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "Meta Platforms, Inc",
+   "idx": 257,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "CARROLL CNTY KY POLLTN CTL REV RFDG KY UTILS CO 2016 A B/E 1.55 % Due Sep 1, 2042",
+   "asset_type": "GS",
+   "idx": 258,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "BRACKEN CNTY KY PUB PPTYS CORP 1ST MTG REV RFDG COURT FACS B/E B/Q 3.00 % Due Aug 1, 2027",
+   "asset_type": "GS",
+   "idx": 259,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "PENNSYLVANIA ST AGM B/E 4.00 % Due Mar 1, 2034",
+   "asset_type": "GS",
+   "idx": 260,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "JOHNSON CNTY KS PUB BLDG COMM LSE PURCH REV CRTHSE MED EXAMINER B/E 5.00 % Due Sep 1, 2026",
+   "asset_type": "GS",
+   "idx": 261,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "LOUISIANA HSG CORP MLTIFAM HSG REV LOOP COMS PJ SER B B/E 3.75 % Due Feb 1, 2028",
+   "asset_type": "GS",
+   "idx": 262,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "TEXAS TRANSN COMMN HWY IMPT RFDG B/E 5.00 % Due Apr 1, 2036",
+   "asset_type": "GS",
+   "idx": 263,
+   "owner": "SELF",
+   "tx_date": "2026-06-26",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "FORT WORTH TX WTR & SWR REV SYS RFDG IMPT 2021 B/E 3.00 % Due Feb 15, 2035",
+   "asset_type": "GS",
+   "idx": 264,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-17",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "GAS REV SR LIEN SER D B/E OID @95.780 6.25 % Due Dec 15, 2026",
+   "asset_type": "GS",
+   "idx": 265,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "MARSHALLTOWN IA CMNTY SCH DIST 2026 AGI SER B B/E 4.00 % Due Jun 1, 2027",
+   "asset_type": "GS",
+   "idx": 266,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "GLASGOW KY INDPT SCH DIST FIN CORP BLDG REV RFDG B/E B/QST INTRCPT 3.00 % Due Apr 1, 2027",
+   "asset_type": "GS",
+   "idx": 267,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "OHIO HSG FIN AGY MLTIFAM HSG REV CEDAR REDEV PHASE IV LLC B/E 3.60 % Due Jun 1, 2045",
+   "asset_type": "GS",
+   "idx": 268,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "TEXAS HM COLLABORATIVE MLTIFAM HSG REV 1518 APTS LTD B/E 5.00 % Due Oct 1, 2041",
+   "asset_type": "GS",
+   "idx": 269,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "WARRINGTON TWP PA B/E B/Q PTC 2.00 % Due Dec 1, 2026",
+   "asset_type": "GS",
+   "idx": 270,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "KENTUCKY ASSN CNTYS FIN CORP FING PG 1ST SER C REV B/E 5.00 % Due Feb 1, 2027",
+   "asset_type": "GS",
+   "idx": 271,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "RURAL WTR FING AGY KY PUB PJ REV CONSTR NT SER A B/E 3.70 % Due May 1, 2027",
+   "asset_type": "GS",
+   "idx": 272,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NVIDIA CORP",
+   "idx": 273,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "META PLATFORMS INC CLA",
+   "idx": 274,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NORTH JUDSON SAN PIERRE IN MLTI SCH BLDG CORP AD VALOREM 1ST MTG REV B/E 4.00 % Due Jan 15, 2027",
+   "asset_type": "GS",
+   "idx": 275,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "PULASKI CNTY AR HOSP RFDG AR CHLDRNS HOSP REV B/E PTC 5.00 % Due Mar 1, 2031",
+   "asset_type": "GS",
+   "idx": 276,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "JEFFERSON CNTY WA FIRE PROTN DIST 1 EAST RSCUE RFDG 2019 B/E B/Q 1.35 % Due Dec 1, 2026",
+   "asset_type": "GS",
+   "idx": 277,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MISSISSIPPI DEV BK SPL OBLIG MS GULF COAST CMNTY CLLG REV B/E 5.00 % Due Dec 1, 2026",
+   "asset_type": "GS",
+   "idx": 278,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "LEHIGH CNTY PA IDA POLLTN CTL REV RFDG PPL ELEC UTIL CORP SER B B/E 2.625 % Due Feb 15, 2027",
+   "asset_type": "GS",
+   "idx": 279,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "RURAL WTR FING AGY KY PUB PJS REV CONSTR NT 20248 B/E 3.05 % Due May 1, 2027",
+   "asset_type": "GS",
+   "idx": 280,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CEDAR HILL TX INDPT SCH DIST BLDG 2024 B/E PSF GTD 5.00 % Due Feb 15, 2027",
+   "asset_type": "GS",
+   "idx": 281,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ST ANTHONY NEW BRIGHTON ISD 282 MN CTF PARTN A REV B/E 4.00 % Due Feb 1, 2027",
+   "asset_type": "GS",
+   "idx": 282,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ANKENY IA SER A B/E 5.00 % Due Jun 1, 2027",
+   "asset_type": "GS",
+   "idx": 283,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SPIRIT LAKE IA CAP LN NOTE B/E B/Q 5.00 % Due Jun 1, 2027",
+   "asset_type": "GS",
+   "idx": 284,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MORRISTOWN TN REDG B/E 5.00 % Due Sep 1, 2026",
+   "asset_type": "GS",
+   "idx": 285,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "TESLA INC",
+   "idx": 286,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "INTL BUSINESS MACHINES CORP",
+   "idx": 287,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NEW HAMPSHIRE MUN BD BK 2019 B REV B/E 5.00 % Due Aug 15, 2026",
+   "asset_type": "GS",
+   "idx": 288,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CUMBERLAND CNTY PA MUN AUTH REV PENN ST HLTH B/E 5.00 % Due Nov 1, 2026",
+   "asset_type": "GS",
+   "idx": 289,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "UNIVERSITY AR UNIV REV VARIOUS FAC FAYETTEVILLE CAMPUS B/E 5.00 % Due Nov 1, 2026",
+   "asset_type": "GS",
+   "idx": 290,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "FINNEY CNTY KS UNI SCH DIST 457 RFDG GARDEN CITY SER A B/E 4.00 % Due Sep 1, 2030",
+   "asset_type": "GS",
+   "idx": 291,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "OVERLAND PK KS INTERNAL IMPT 20244 B/E 5.00 % Due Sep 1, 2026",
+   "asset_type": "GS",
+   "idx": 292,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MONTGOMERY CNTY MD CONS PUB IMPT RFDG SER C B/E 4.00 % Due Oct 1, 2030",
+   "asset_type": "GS",
+   "idx": 293,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-29",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CHARLOTTE MECKLENBERG HOSP AUTH NC HLTHCARE REV ATRIUM HLTH D B/E 3.625 % Due Jan 15, 2048",
+   "asset_type": "GS",
+   "idx": 294,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SOUTHEAST OVERTOWN PK WEST CMNTY REDEV AGY FL TAX INCRMT REV B AGI B/E 5.00 % Due Mar 1, 2027",
+   "asset_type": "GS",
+   "idx": 295,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "O FALLON MO SPL OBLIG 2025 A REV B/E 5.00 % Due Nov 1, 2026",
+   "asset_type": "GS",
+   "idx": 296,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "RAPID CITY SD SALES TAX REV B/E PTC 5.00 % Due Dec 1, 2035",
+   "asset_type": "GS",
+   "idx": 297,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "STARKVILLE OKTIBBEHA MS CONS SCH DIST B/E BAM 3.00 % Due Mar 1, 2027",
+   "asset_type": "GS",
+   "idx": 298,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "LOUISVILLE & JEFFERSON CNTY KY METRO GOVT SER A B/E 5.00 % Due Dec 1, 2026",
+   "asset_type": "GS",
+   "idx": 299,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "BENTON AR PUB UTILS REV RFDG AGM B/E PTC 5.00 % Due Sep 1, 2035",
+   "asset_type": "GS",
+   "idx": 300,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "QUALCOMM INC",
+   "idx": 301,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "PITTSBURGH & ALLEGHENY CNTY PA SPORTS & EXHIB AUTH REV AGM B/E 5.00 % Due Feb 1, 2027",
+   "asset_type": "GS",
+   "idx": 302,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "HAYS TX CONS INDPT SCH DIST RFDG B/E PSF GTD 5.00 % Due Aug 15, 2026",
+   "asset_type": "GS",
+   "idx": 303,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MISSOURI ST BRD PUB BLDGS SPL OBLIG RFDG SER B REV B/E 5.00 % Due Oct 1, 2026",
+   "asset_type": "GS",
+   "idx": 304,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "GEISINGER AUTH PA HLTH SYS REV SER A2 B/E 5.00 % Due Feb 15, 2027",
+   "asset_type": "GS",
+   "idx": 305,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SOUTH CAROLINA ST HSG FIN & DEV AUTH REV MFHR POPLAR SQUARE B/E PTC 5.00 % Due Apr 1, 2028",
+   "asset_type": "GS",
+   "idx": 306,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MILWAUKEE WI SWR REV SYS SER S2 GREEN BD B/E SBJ ST TAX 5.00 % Due Jun 1, 2027",
+   "asset_type": "GS",
+   "idx": 307,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NORWALK IA CORP PURP SER A B/E B/Q. 5.00 % Due Jun 1, 2027",
+   "asset_type": "CS",
+   "idx": 308,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CONNECTICUT ST SER D B/E 5.00 % Due Aug 15, 2027",
+   "asset_type": "GS",
+   "idx": 309,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "KENDALL CNTY IL FST PRESV DIST RFDG BAM B/E 8/Q.4.00 % Due Jan 1, 2027",
+   "asset_type": "GS",
+   "idx": 310,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "FORT WORTH TX RFDG & IMPT GENL PURP SER A B/E PTC 5.00 % Due Mar 1, 2027",
+   "asset_type": "GS",
+   "idx": 311,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ARIZONA ST INDL DEV AUTH MLTIFAM HSG REV RANCHES AT GUNSMOKE APT B/E PTC 5.00 % Due Mar 1, 2058",
+   "asset_type": "GS",
+   "idx": 312,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "DAHLONEGA GA WTR & SEW REV RFDG AGM B/E OID @98.849 3.71% 3.625 % Due Sep 1, 2034",
+   "asset_type": "GS",
+   "idx": 313,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "BROOKE CNTY WV BRD ED PUB SCHS B/E ST AID PG 3,00 % Due Jun 1, 2027",
+   "asset_type": "GS",
+   "idx": 314,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CHEVRON CORP",
+   "idx": 315,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ACCENTURE PLC IRELAND CLA",
+   "idx": 316,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "JOHNSON & MIAMI CNTYS KS UNI SCH DIST 230 CROSSOVER RFDG B/E 5.00 % Due Sep 1, 2026",
+   "asset_type": "GS",
+   "idx": 317,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "NEW YORK NY CITY TRANSL FIN AUTH REV FUTURE TAX SECD SER A SUB A1 B/E 5.00 % Due Nov 1, 2026",
+   "asset_type": "GS",
+   "idx": 318,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "WEST FARGO ND PK DIST SPL ASSMT PREPAYMENT 2020 A B/E B/Q 3.00 % Due Mar 1, 2027",
+   "asset_type": "GS",
+   "idx": 319,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "CLEVELAND CNTY OK EDL FACS AUTH LSE REV MOORE PUB SCHS PJ B/E 4.00 % Due Jun 1, 2027",
+   "asset_type": "GS",
+   "idx": 320,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "PENN HILLS PA B/E 5.00 % Due Dec 1, 2026",
+   "asset_type": "GS",
+   "idx": 321,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "PEPSICO INC",
+   "idx": 322,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MIAMI BEACH FL REDEV AGY TAX INCRMT REV RFDG CITY CTR HIST CONVNTN AGI B/E 5.00 % Due Feb 1, 2027",
+   "asset_type": "GS",
+   "idx": 323,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "BLACK BELT ENERGY GAS DIST AL GAS SPLY REV SUB SER D1 B/E GTD 4.00 % Due Jul 1, 2052",
+   "asset_type": "GS",
+   "idx": 324,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "METLIFE INC",
+   "idx": 325,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "COCA-COLA COMPANY",
+   "idx": 326,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "OREGON ST HIGH ED SER L B/E 5.00 % Due Aug 1, 2026",
+   "asset_type": "GS",
+   "idx": 327,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MEDTRONIC PLC",
+   "idx": 328,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "PAYCHEX INC",
+   "idx": 329,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "NIKE INC CLB",
+   "idx": 330,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ARLINGTON TX WTR & WSTEWTR SYS REV SER A B/E OID @98.996 3.101% 3.00 % Due Jun 1, 2027",
+   "asset_type": "GS",
+   "idx": 331,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MERCK & COMPANY INC",
+   "idx": 332,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "PROCTER & GAMBLE CO",
+   "idx": 333,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "INTL BUSINESS MACHINES CORP",
+   "idx": 334,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ABBVIE INC",
+   "idx": 335,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "STATE PUB SCH BLDG AUTH PA CLLG REV NORTHHAMPTON CNTY AREA CMNTY BAM B/E 5.00 % Due Mar 1, 2027",
+   "asset_type": "GS",
+   "idx": 336,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "KANSAS ST DEV FIN AUTH REV RFDG ST KS PJ R B/E 5.00 % Due Nov 1, 2026",
+   "asset_type": "GS",
+   "idx": 337,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "BLACK BELT ENERGY GAS DIST AL GAS REV PJ 6 SER B B/E 4.00 % Due Oct 1, 2052",
+   "asset_type": "GS",
+   "idx": 338,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "PROLOGIS INC",
+   "idx": 339,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "DOUGLAS CNTY NE SCH DIST 1 OMAHA PUB B/E 5.00 % Due Dec 15, 2026",
+   "asset_type": "GS",
+   "idx": 340,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "WILLIAMSON CNTY TX RD B/E 5.00 % Due Feb 15, 2027",
+   "asset_type": "GS",
+   "idx": 341,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "WOODLANDS TWP TX SALES & HOTEL OCCUP TAX RFDG REV B/E 5.00 % Due Mar 1, 2027",
+   "asset_type": "GS",
+   "idx": 342,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MARYLAND ST DEPT TRANSN CONS TRANSN RFDG 2025 C REV B/E 5.00 % Due Nov 1, 2026",
+   "asset_type": "GS",
+   "idx": 343,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "JOHNSON CITY TN HLTH & EDL FACS BRD MLTIFAM REV COLLTZD HSG TAPESTRY B/E 3.60 % Due Dec 1, 2027",
+   "asset_type": "GS",
+   "idx": 344,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "SOUTHFIELD MI LIBR BLDG AUTH REV RFDG B/E OID @97.400 3.26% 3.00 % Due May 1, 2027",
+   "asset_type": "GS",
+   "idx": 345,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "QUALCOMM INC",
+   "idx": 346,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BROADCOM INC",
+   "idx": 347,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "OLDHAM CNTY KY SCH DIST FIN CORP SCH BLDG REV RFDG B/E ST INTRCPT 5.00 % Due Jun 1, 2027",
+   "asset_type": "GS",
+   "idx": 348,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "NEW HOPE CULTURAL ED FACS FIN CORP STDNT HSG REV TX A&M UNIV B/E 5.00 % Due Apr 1, 2031",
+   "asset_type": "GS",
+   "idx": 349,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "GAINESVILLE FL UTIL SYS REV SER A B/E ETM 5.00 % Due Oct 1, 2026",
+   "asset_type": "GS",
+   "idx": 350,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ALPHABET INC CLC",
+   "idx": 351,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MEDTRONIC PLC",
+   "idx": 352,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "JPMORGAN CHASE & CO",
+   "idx": 353,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "QUALCOMM INC",
+   "idx": 354,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "APPLE INC",
+   "idx": 355,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MEMPHIS TN GENL IMPT B/E 3.45 % Due Jun 1, 2035",
+   "asset_type": "GS",
+   "idx": 356,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "META PLATFORMS INC CLA",
+   "idx": 357,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "VERIZON COMMUNICATIONS INC",
+   "idx": 358,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BLACKSTONE INC",
+   "idx": 359,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "DOW INC ‘",
+   "idx": 360,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "FORD MOTOR CO",
+   "idx": 361,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ARES MANAGEMENT CORP CLA",
+   "idx": 362,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BOOKING HOLDINGS INC",
+   "idx": 363,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MICROSOFT CORP",
+   "idx": 364,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BLACKSTONE INC 7",
+   "idx": 365,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "INTUIT INC",
+   "idx": 366,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "APPLE INC",
+   "idx": 367,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ADOBE INC",
+   "idx": 368,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BLUE OWL CAPITAL INC CLA",
+   "idx": 369,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "PFIZER INC",
+   "idx": 370,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "WILLIAMS COS INC DEL",
+   "idx": 371,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "HOME DEPOT INC",
+   "idx": 372,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "TAKE-TWO INTERACTIVE SOFTWARE INC",
+   "idx": 373,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "AMAZON.COM INC",
+   "idx": 374,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "TESLA INC",
+   "idx": 375,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "IDEXX LABORATORIES INC",
+   "idx": 376,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BROADCOM INC",
+   "idx": 377,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PEPSICO INC",
+   "idx": 378,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "FIDELITY NATIONAL INFORMATION SERVICES INC",
+   "idx": 379,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ALPHABET INC CLA",
+   "idx": 380,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NXP SEMICONDUCTORS N V",
+   "idx": 381,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SYNOPSYS INC",
+   "idx": 382,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "TRACTOR SUPPLY CO",
+   "idx": 383,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "WORKDAY INC CLA",
+   "idx": 384,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BECTON DICKINSON & CO",
+   "idx": 385,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NVIDIA CORP",
+   "idx": 386,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "REVOLUTION MEDICINES INC",
+   "idx": 387,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "WALMART INC",
+   "idx": 388,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PTC INC",
+   "idx": 389,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CADENCE DESIGN SYSTEMS INC",
+   "idx": 390,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "DOORDASH INC CLA",
+   "idx": 391,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "FIDELITY NATIONAL INFORMATION SERVICES INC",
+   "idx": 392,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "WARNER BROS DISCOVERY INC SERA",
+   "idx": 393,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "UNITED THERAPEUTICS CORP",
+   "idx": 394,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "VERTEX PHARMACEUTICALS INC",
+   "idx": 395,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "GILEAD SCIENCES INC",
+   "idx": 396,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "LOCKHEED MARTIN CORP",
+   "idx": 397,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "JOHNSON & JOHNSON",
+   "idx": 398,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "MCDONALDS CORP",
+   "idx": 399,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ULTA BEAUTY INC",
+   "idx": 400,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CEREBRAS SYSTEMS INC CLA",
+   "idx": 401,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "TPG INCCLA",
+   "idx": 402,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "COSTCO WHOLESALE CORP",
+   "idx": 403,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NATERA INC",
+   "idx": 404,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "COPART INC",
+   "idx": 405,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ENTEGRIS INC",
+   "idx": 406,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SEMTECH CORP",
+   "idx": 407,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SANMINA CORP",
+   "idx": 408,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "VIAVI SOLUTIONS INC",
+   "idx": 409,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "FORMFACTOR INC",
+   "idx": 410,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "MICROSOFT CORP",
+   "idx": 411,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ELEMENT SOLUTIONS INC",
+   "idx": 412,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "MOLINA HEALTHCARE INC",
+   "idx": 413,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ARGAN INC",
+   "idx": 414,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "STONEX GROUP INC",
+   "idx": 415,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ESCO TECHNOLOGIES INC",
+   "idx": 416,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "KRYSTAL BIOTECH INC",
+   "idx": 417,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BRIGHTSPRING HEALTH SERVICES INC",
+   "idx": 418,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "VIASAT INC",
+   "idx": 419,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "EASTMAN CHEMICAL CO",
+   "idx": 420,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "QORVO INC",
+   "idx": 421,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "POWELL INDUSTRIES INC",
+   "idx": 422,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "MATCH GROUP INC",
+   "idx": 423,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PLEXUS CORP",
+   "idx": 424,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "RALLIANT CORP",
+   "idx": 425,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "VISHAY INTERTECHNOLOGY INC",
+   "idx": 426,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "EVERUS CONSTRUCTION GROUP INC",
+   "idx": 427,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CORCEPT THERAPEUTICS INC",
+   "idx": 428,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ENPRO INC",
+   "idx": 429,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CARMAX INC",
+   "idx": 430,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "DEXCOM INC",
+   "idx": 431,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ZURN ELKAY WATER SOLUTIONS CORP",
+   "idx": 432,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "GLAUKOS CORP",
+   "idx": 433,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "TERRENO REALTY CORP",
+   "idx": 434,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ETSY INC",
+   "idx": 435,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ALKERMES PLC",
+   "idx": 436,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SKYWORKS SOLUTIONS INC",
+   "idx": 437,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "FOX CORP CLA",
+   "idx": 438,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "VERISIGN INC",
+   "idx": 439,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CHARTER COMMUNICATIONS INC NEW CLA",
+   "idx": 440,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "FOX CORP CL B",
+   "idx": 441,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "DIAMONDBACK ENERGY INC",
+   "idx": 442,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "DOW INC",
+   "idx": 443,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CONSTELLATION BRANDS INC CLA",
+   "idx": 444,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "DEVON ENERGY CORP",
+   "idx": 445,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "VALERO ENERGY CORP",
+   "idx": 446,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "MC CORMICK & CO INC NON VOTING",
+   "idx": 447,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "EXXON MOBIL CORP",
+   "idx": 448,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AST SPACEMOBILE INC CLA",
+   "idx": 449,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AIRBNB INC CLA",
+   "idx": 450,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ENTERGY CORP",
+   "idx": 451,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "VERIZON COMMUNICATIONS INC",
+   "idx": 452,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "APPLOVIN CORP CLA",
+   "idx": 453,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "COMCAST CORP CLA",
+   "idx": 454,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "REGENERON PHARMACEUTICALS INC",
+   "idx": 455,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "O REILLY AUTOMOTIVE INC",
+   "idx": 456,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "INSMED INC PAR $.01",
+   "idx": 457,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "LOCKHEED MARTIN CORP",
+   "idx": 458,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ALNYLAM PHARMACEUTICALS INC",
+   "idx": 459,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "NETFLIX INC",
+   "idx": 460,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "LYONDELLBASELL INDUSTRIES N V ORD SHS CLA",
+   "idx": 461,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "GENERAL MILLS INC",
+   "idx": 462,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CONOCOPHILLIPS",
+   "idx": 463,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "AMCOR PLC",
+   "idx": 464,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "PALANTIR TECHNOLOGIES INC CLA",
+   "idx": 465,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ZSCALER INC",
+   "idx": 466,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-15",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CATERPILLAR INC",
+   "idx": 467,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "INTUITIVE SURGICAL INC",
+   "idx": 468,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ROPER TECHNOLOGIES INC",
+   "idx": 469,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "GE HEALTHCARE TECHNOLOGIES INC",
+   "idx": 470,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "JOHNSON & JOHNSON",
+   "idx": 471,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "STELLANTIS N V",
+   "idx": 472,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "COGNIZANT TECHNOLOGY SOLUTIONS CORP CLA",
+   "idx": 473,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CORNING INC",
+   "idx": 474,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "STATE STREET SPDR S&P DIVIDEND ETF",
+   "asset_type": "EF",
+   "idx": 475,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MICROSOFT CORP",
+   "idx": 476,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "VERIZON COMMUNICATIONS",
+   "idx": 477,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "HOME DEPOT INC",
+   "idx": 478,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SALESFORCE INC",
+   "idx": 479,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ACCENTURE PLC IRELAND F CLASS A",
+   "idx": 480,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NETFLIX INC",
+   "idx": 481,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "MARSH & MCLENNAN COS INC",
+   "idx": 482,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "FIDELITY NATL INFORMATIO",
+   "idx": 483,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "INTUITIVE SURGICAL INC",
+   "idx": 484,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "STRYKER CORP",
+   "idx": 485,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "HENRY JACK & ASSOC INC",
+   "idx": 486,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SHERWIN-WILLIAMS CO",
+   "idx": 487,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BERKSHIRE HATHAWAY CLASS B",
+   "idx": 488,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ZILLOW GROUP INC CLASS CLASS C",
+   "idx": 489,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ZOETIS INC CLASS A",
+   "idx": 490,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BOOKING HLDGS INC",
+   "idx": 491,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "MCDONALDS CORP",
+   "idx": 492,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ALPHABET INC CLASS A",
+   "idx": 493,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "EXXON MOBIL CORP",
+   "idx": 494,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ROLLINS INC",
+   "idx": 495,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "EQUIFAX INC",
+   "idx": 496,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NIKE INC CLASS B",
+   "idx": 497,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BENTLEY SYS INC CLASS CLASS B",
+   "idx": 498,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "TYLER TECHNOLOGIES INC",
+   "idx": 499,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "OCCIDENTAL PETE CORP",
+   "idx": 500,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "GLOBAL PMTS INC",
+   "idx": 501,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "RESMED INC",
+   "idx": 502,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NORTHROP GRUMMAN CORP",
+   "idx": 503,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CONSTELLATION ENERGY COR",
+   "idx": 504,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CHEVRON CORP NEW",
+   "idx": 505,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AMAZON.COM INC",
+   "idx": 506,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ALBERTSONS CO SHS CLA CLASS A",
+   "idx": 507,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SLB LIMITED F",
+   "idx": 508,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NTNL FUEL GAS CO",
+   "idx": 509,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AMGEN INC",
+   "idx": 510,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BOOZ ALLEN HAMILTON HLDG CLASS CLASS A",
+   "idx": 511,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "GILEAD SCIENCES INC",
+   "idx": 512,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "LOWES COS INC",
+   "idx": 513,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "FOX CORP CLASS CLASS B",
+   "idx": 514,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PROCTER & GAMBLE CO",
+   "idx": 515,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "MERCK & CO. INC",
+   "idx": 516,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ROCKET COMPANIES CLA A CLASS A",
+   "idx": 517,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "GE HEALTHCARE TECHNOLOGI",
+   "idx": 518,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CLASS A",
+   "idx": 519,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NASDAQ INC",
+   "idx": 520,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BJS WHSL CLUB HLDGS INC",
+   "idx": 521,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PHILIP MORRIS INTL INC",
+   "idx": 522,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "FLUTTER ENTMT PLC F",
+   "idx": 523,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ZSCALER INC",
+   "idx": 524,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ATLASSIAN CORP CLASS CLASS A",
+   "idx": 525,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AMPHENOL CORP NEW CLASS A",
+   "idx": 526,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "LOCKHEED MARTIN CORP",
+   "idx": 527,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ABBVIE INC",
+   "idx": 528,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "HCA HEALTHCARE INC",
+   "idx": 529,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "FAIR ISAAC CORP",
+   "idx": 530,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "UNIVERSAL HEALTH SVCS IN CLASS CLASS B",
+   "idx": 531,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "TRIMBLE INC",
+   "idx": 532,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "EXLSERVICE HLDGS INC",
+   "idx": 533,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "TELEDYNE TECHNOLOGIES IN",
+   "idx": 534,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CNH INDLN VF",
+   "idx": 535,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AMERICAN TOWER CORP NEW REIT",
+   "idx": 536,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "REPUBLIC SVCS INC",
+   "idx": 537,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "VEEVA SYS INC CLASS A",
+   "idx": 538,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "GRACO INC",
+   "idx": 539,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "lQVIA HLDGS INC",
+   "idx": 540,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "COINBASE GLOBAL INC CLASS A",
+   "idx": 541,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "FASTENAL CO",
+   "idx": 542,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "TRANSUNION",
+   "idx": 543,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "TRACTOR SUPPLY CO",
+   "idx": 544,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "GARTNER INC",
+   "idx": 545,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ALBEMARLE CORP",
+   "idx": 546,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "MEDTRONIC PLC F",
+   "idx": 547,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PROCORE TECHNOLOGIES INC",
+   "idx": 548,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "LYONDELLBASELL INDUSTR F CLASS A",
+   "idx": 549,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "THE TRADE DESK INC CLASS A",
+   "idx": 550,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ZIMMER BIOMET HLDGS INC",
+   "idx": 551,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "GODADDY INC CLASS CLASS A",
+   "idx": 552,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SEMPRA",
+   "idx": 553,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PEPSICO INC",
+   "idx": 554,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "HARTFORD INS GROUP INC",
+   "idx": 555,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BLACKROCK INC NEW",
+   "idx": 556,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AMDOCS LTD F",
+   "idx": 557,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "MOODYS CORP",
+   "idx": 558,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "VICI PPTYS INC REIT",
+   "idx": 559,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "MOTOROLA SOLUTIONS INC",
+   "idx": 560,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "LIBERTY MEDIA CORP DEL CLASS SERIES C",
+   "idx": 561,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "GENERAL DYNAMICS CORP",
+   "idx": 562,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "EQT CORP",
+   "idx": 563,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AON PLC F CLASS CLASS A",
+   "idx": 564,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "EOG RES INC",
+   "idx": 565,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "COSTAR GROUP INC",
+   "idx": 566,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "STRATEGY INC CLASS A",
+   "idx": 567,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CONOCOPHILLIPS",
+   "idx": 568,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ROYAL GOLD INC",
+   "idx": 569,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "VISA INC CLASS A",
+   "idx": 570,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "OTIS WORLOWIDE CORP",
+   "idx": 571,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "GUIDEWIRE SOFTWARE INC",
+   "idx": 572,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CME GROUP INC CLASS A",
+   "idx": 573,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AUTODESK INC",
+   "idx": 574,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CARLYLE GROUP INC",
+   "idx": 575,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PAYPAL HLDGS INC",
+   "idx": 576,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "COPART INC",
+   "idx": 577,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "IDEXX LABS INC",
+   "idx": 578,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "TYSON FOODS INC CLASS A",
+   "idx": 579,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PERMIAN RES CORP CLASS CLASS A",
+   "idx": 580,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PTC INC",
+   "idx": 581,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CINTAS CORP",
+   "idx": 582,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "DOMINOS PIZZA INC",
+   "idx": 583,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "TIX COS INC NEW",
+   "idx": 584,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CHUBB LTD F",
+   "idx": 585,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "COGNIZANT TECHNOLOGY SOL CLASS A",
+   "idx": 586,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "INTUIT",
+   "idx": 587,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CROWN CASTLE INC REIT REIT",
+   "idx": 588,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "COSTCO WHSL CORP NEW",
+   "idx": 589,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "STERIS PLC F",
+   "idx": 590,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BRISTOL MYERS SQUIBB CO",
+   "idx": 591,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "WALMART INC",
+   "idx": 592,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "FISERV INC",
+   "idx": 593,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SERVICENOW INC",
+   "idx": 594,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "INTERCONTINENTAL EXCHANG",
+   "idx": 595,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BOSTON SCIENTIFIC CORP",
+   "idx": 596,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "MASTERCARD INC CLASS A",
+   "idx": 597,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "S&P GLOBAL INC",
+   "idx": 598,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ABBOTT LABS",
+   "idx": 599,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "THERMO FISHER SCIENTIFIC",
+   "idx": 600,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "WORKDAY INC CLASS CLASS A",
+   "idx": 601,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ADOBE INC",
+   "idx": 602,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AT&T INC",
+   "idx": 603,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "COMCAST CORP NEW CLASS A",
+   "idx": 604,
+   "owner": "SELF",
+   "tx_date": "2026-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "LOWER COLO RIV AUTH 5% ELEC UTIL DUE 05/15/33",
+   "asset_type": "GS",
+   "idx": 605,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-05",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "HOME DEPOT INC",
+   "idx": 606,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BERKSHIRE HATHAWAY CLASS B",
+   "idx": 607,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MARSH & MCLENNAN COS INC",
+   "idx": 608,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CINTAS CORP",
+   "idx": 609,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BOSTON SCIENTIFIC CORP",
+   "idx": 610,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SERVICENOW INC",
+   "idx": 611,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "IBM CORP",
+   "idx": 612,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ACCENTURE PLC IRELAND F CLASS CLASS A",
+   "idx": 613,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "STERIS PLC F",
+   "idx": 614,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "RESMED INC",
+   "idx": 615,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "REPUBLIC SVCS INC",
+   "idx": 616,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "VERIZON COMMUNICATIONS",
+   "idx": 617,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "COSTAR GROUP INC",
+   "idx": 618,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PUBLIC SVC ENTERPRISE GR",
+   "idx": 619,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "GE HEALTHCARE TECHNOLOGI",
+   "idx": 620,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "KKR & CO INC",
+   "idx": 621,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BOOKING HLDGS INC",
+   "idx": 622,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PILGRIMS PRIDE CORP NEW",
+   "idx": 623,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ERIE INDTY CO CLASS A",
+   "idx": 624,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "VISTRA CORP",
+   "idx": 625,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "VISA INC CLASS A",
+   "idx": 626,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PINTEREST INC CLASS A",
+   "idx": 627,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CLASS A",
+   "idx": 628,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SNOWFLAKE INC CLASS A",
+   "idx": 629,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ROYAL CARIBBEAN GROU F",
+   "idx": 630,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "DISNEY WALT CO",
+   "idx": 631,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "XYLEM INC",
+   "idx": 632,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "VERTEX PHARMACEUTICALS",
+   "idx": 633,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "TRACTOR SUPPLY CO",
+   "idx": 634,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ELF BEAUTY INC",
+   "idx": 635,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AMERICAN INTL GROUP INC",
+   "idx": 636,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AXON ENTERPRISE INC",
+   "idx": 637,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "APPLOVIN CORP CLASS CLASS A",
+   "idx": 638,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "IDEXX LABS INC",
+   "idx": 639,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "VERALTO CORP",
+   "idx": 640,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "WILLIS TOWERS WATSON P F",
+   "idx": 641,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "DOORDASH INC CLASS CLASS A",
+   "idx": 642,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CLOUDFLARE INC CLASS CLASS A",
+   "idx": 643,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ROBINHOOD MKTS INC CLASS CLASS A",
+   "idx": 644,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "QxXO INC",
+   "idx": 645,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CHEWY INC CLASS CLASS A",
+   "idx": 646,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "WHIRLPOOL CORP",
+   "idx": 647,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PALANTIR TECHNOLOGIES IN CLASS A",
+   "idx": 648,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "HENRY JACK & ASSOC INC",
+   "idx": 649,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "LIBERTY BROADBAND CORP CLASS SERIES C",
+   "idx": 650,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AMAZON.COM INC",
+   "idx": 651,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ELI LILLY AND CO",
+   "idx": 652,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "MICRON TECHNOLOGY INC",
+   "idx": 653,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "HUBSPOT INC",
+   "idx": 654,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "LEIDOS HLDGS INC",
+   "idx": 655,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "MEDTRONIC PLC F",
+   "idx": 656,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "DOXIMITY INC CLASS A",
+   "idx": 657,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SERVICE CORP INTL",
+   "idx": 658,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ULTA BEAUTY INC",
+   "idx": 659,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "KROGER CO",
+   "idx": 660,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CHURCHILL DOWNS INC",
+   "idx": 661,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ESSENTIAL UTILS INC",
+   "idx": 662,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "GENUINE PARTS CO",
+   "idx": 663,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "DOLLAR GEN CORP NEW",
+   "idx": 664,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CRH PUBLIC LIMITED CO F",
+   "idx": 665,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "FNF GROUP CLASS CLASS A",
+   "idx": 666,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BRIGHT HORIZONS FAMILY S",
+   "idx": 667,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "POOL CORP",
+   "idx": 668,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ZSCALER INC",
+   "idx": 669,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ROBLOX CORP CLASS A",
+   "idx": 670,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "THE TRADE DESK INC CLASS A",
+   "idx": 671,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "UBER TECHNOLOGIES INC",
+   "idx": 672,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "MCCORMICK & CO INC CLASS N",
+   "idx": 673,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AECOM",
+   "idx": 674,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "O REILLY AUTOMOTIVE INC",
+   "idx": 675,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "REALTY INCOME CORP REIT",
+   "idx": 676,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SS&C TECHNOLOGIES HLDGS",
+   "idx": 677,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "YUM BRANDS INC",
+   "idx": 678,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "LULULEMON ATHLETICA INC",
+   "idx": 679,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PAYPAL HLDGS INC",
+   "idx": 680,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "FIDELITY NATL INFORMATIO",
+   "idx": 681,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CBRE GROUP INC CLASS CLASS A",
+   "idx": 682,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "COUPANG INC CLASS CLASS A",
+   "idx": 683,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BOEING CO",
+   "idx": 684,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CONSTELLATION ENERGY COR",
+   "idx": 685,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CME GROUP INC CLASS CLASS A",
+   "idx": 686,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "LENNAR CORP CLASS A",
+   "idx": 687,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "FLUTTER ENTMT PLC F",
+   "idx": 688,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SHERWIN-WILLIAMS CO",
+   "idx": 689,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "OTIS WORLDWIDE CORP",
+   "idx": 690,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ZOETIS INC CLASS A",
+   "idx": 691,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "GODADDY INC CLASS CLASS A",
+   "idx": 692,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "INTERCONTINENTAL EXCHANG",
+   "idx": 693,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "MCDONALDS CORP",
+   "idx": 694,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BROWN & BROWN INC",
+   "idx": 695,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "STRYKER CORP",
+   "idx": 696,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "DELL TECHNOLOGIES INC CLASS C",
+   "idx": 697,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ABBOTT LABS",
+   "idx": 698,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "COMCAST CORP NEW CLASS CLASS A",
+   "idx": 699,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "LOWES COS INC",
+   "idx": 700,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "INTUITIVE SURGICAL INC",
+   "idx": 701,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PROGRESSIVE CORP OH",
+   "idx": 702,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "INTUIT",
+   "idx": 703,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "COPART INC",
+   "idx": 704,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "META PLATFORMS INC CLASS CLASS A",
+   "idx": 705,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "MICROSOFT CORP",
+   "idx": 706,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "PROCTER & GAMBLE CO",
+   "idx": 707,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MASTERCARD INC CLASS CLASS A",
+   "idx": 708,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "ISHARES INTERNATIONAL TREASURY BOND ETF",
+   "asset_type": "GS",
+   "idx": 709,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "ISHARES GSCI COMMODITY DYNAMIC ROLL STRATEGY ETF",
+   "asset_type": "EF",
+   "idx": 710,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "STATE STREET INDUSTRIAL SELECT SECTOR SPDR ETF",
+   "asset_type": "EF",
+   "idx": 711,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "STATE STREET SPDR S&P 500 ETF TRUST",
+   "asset_type": "EF",
+   "idx": 712,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "STATE STREET TECHNOLOGY SELECT SECTOR SPDR ETF",
+   "asset_type": "EF",
+   "idx": 713,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "VANGUARD FTSE EUROPE ETF",
+   "asset_type": "EF",
+   "idx": 714,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-02",
+   "type": "S"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "STATE STREET SPDR BLOOMBERG INTERNATIONAL TREASURY BOND ETF",
+   "asset_type": "GS",
+   "idx": 715,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "DALLAS CNTY TEX 5% DB LTX DUE 08/15/56",
+   "asset_type": "GS",
+   "idx": 716,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "KENTUCKY ST PPTY & 5% LEAS BLDG DUE 03/01/46",
+   "asset_type": "GS",
+   "idx": 717,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "JEFFERSON CNTY MO C 5% GO UTX DUE 03/01/46",
+   "asset_type": "GS",
+   "idx": 718,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "SHELBY CNTY TENN HE 5% SYST HLTH DUE 09/01/46",
+   "asset_type": "GS",
+   "idx": 719,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "ROSEVILLE MICH CMNT 5% DUE 05/01/56",
+   "asset_type": "GS",
+   "idx": 720,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "UNIVERSITY SOUTH AL 5% PUB EDUC DUE 11/01/51",
+   "asset_type": "GS",
+   "idx": 721,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "FIDELITY NATL INFORMATIO",
+   "idx": 722,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "HOME DEPOT INC",
+   "idx": 723,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "ABBOTT LABS",
+   "idx": 724,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "ACCENTURE PLC IRELAND F CLASS CLASS A",
+   "idx": 725,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "NIKE INC CLASS CLASS B",
+   "idx": 726,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "GENUINE PARTS CO",
+   "idx": 727,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 25000000,
+   "amount_min": 5000001,
+   "asset": "VANGUARD DIVIDEND APPRECIATION INDEX FUND ETF SHARES",
+   "asset_type": "EF",
+   "idx": 728,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ASBURY AUTOMOTIVE GROUP",
+   "idx": 729,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "EPAM SYS INC",
+   "idx": 730,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "POOL CORP",
+   "idx": 731,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "LIQUIDIA CORP",
+   "idx": 732,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "FLOWERS FOODS INC",
+   "idx": 733,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "THE CAMPBELL'S CO",
+   "idx": 734,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "LKQ CORP",
+   "idx": 735,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "PENNYMAC MTG INVT TR REIT",
+   "idx": 736,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "PRIMORIS SVCS CORP",
+   "idx": 737,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "DAVE INC CLASS A",
+   "idx": 738,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ETHAN ALLEN INTERIORS IN",
+   "idx": 739,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MARKETAXESS HLDGS INC",
+   "idx": 740,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "PELOTON INTERACTIVE INC CLASS A",
+   "idx": 741,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "FRESH DEL MONTE PRODUC F",
+   "idx": 742,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "REMITLY GLOBAL INC",
+   "idx": 743,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "LAZARD INC",
+   "idx": 744,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CONMED CORP",
+   "idx": 745,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "EXP WORLD HLDGS INC",
+   "idx": 746,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ULTRA CLEAN HLDGS INC",
+   "idx": 747,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "NICOLET BANKSHARES INC",
+   "idx": 748,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "OTTER TAIL CORP",
+   "idx": 749,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "HAWAIIAN ELEC INDS INC",
+   "idx": 750,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "WARBY PARKER INC CLASS A",
+   "idx": 751,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "F&G ANNUITIES & LIFE INC",
+   "idx": 752,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "STEWART INFORMATION SVCS",
+   "idx": 753,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "LAUREATE ED INC",
+   "idx": 754,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "TRUPANION INC",
+   "idx": 755,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "INDIVIOR PHARMACEUTICALS",
+   "idx": 756,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CALIFORNIA WTR SVC GROUP",
+   "idx": 757,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "PTC THERAPEUTICS INC",
+   "idx": 758,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SPHERE ENTERTAINMENT A CLASS CLASS A",
+   "idx": 759,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "UNIVERSAL TECHNICAL INST",
+   "idx": 760,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "RUSH STREET INTERACT A CLASS A",
+   "idx": 761,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "WESTERN UN CO",
+   "idx": 762,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ADMA BIOLOGICS INC",
+   "idx": 763,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ULTRA CLEAN HLDGS INC",
+   "idx": 764,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ARGAN INC",
+   "idx": 765,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ICHOR HLDGS LTD F",
+   "idx": 766,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "PATHWARD FINL INC",
+   "idx": 767,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "WESBANCO INC",
+   "idx": 768,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ENERGIZER HLDGS INC NEW",
+   "idx": 769,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "UNIVERSAL CORP VA",
+   "idx": 770,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "UNDER ARMOUR INC CLASS C",
+   "idx": 771,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MAXLINEAR INC CLASS CLASS A",
+   "idx": 772,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "POWELL INDS INC",
+   "idx": 773,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "NEOGENOMICS INC",
+   "idx": 774,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MONRO INC",
+   "idx": 775,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ADVANCE AUTO PTS INC",
+   "idx": 776,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ARGAN INC",
+   "idx": 777,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BEACON FINL CORP",
+   "idx": 778,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "FORMFACTOR INC",
+   "idx": 779,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "RALLIANT CORP",
+   "idx": 780,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "PTC THERAPEUTICS INC",
+   "idx": 781,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "JBT MAREL CORP",
+   "idx": 782,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ATMUS FILTRATION TECHNOL",
+   "idx": 783,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "VERSIGENT LTD F",
+   "idx": 784,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "VIASAT INC",
+   "idx": 785,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "DIEBOLD NIXDORF INC",
+   "idx": 786,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "LIFESTANCE HEALTH GROUP",
+   "idx": 787,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "LINCOLN NATL CORP IND",
+   "idx": 788,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "EVERFORTH INC",
+   "idx": 789,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BLACKLINE INC",
+   "idx": 790,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "N-ABLE INC",
+   "idx": 791,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PAPA JOHNS INTL INC",
+   "idx": 792,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ARTIVION INC",
+   "idx": 793,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "VERRA MOBILITY CORP CLASS A",
+   "idx": 794,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "GOGO INC",
+   "idx": 795,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PATRICK INDS INC",
+   "idx": 796,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "MERIT MED SYS INC",
+   "idx": 797,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PERRIGO CO PLC F",
+   "idx": 798,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "GIBRALTAR INDS INC",
+   "idx": 799,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NAVIENT CORP",
+   "idx": 800,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ALARM COM HLDGS INC",
+   "idx": 801,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "LYFT INC CLASS CLASS A",
+   "idx": 802,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BADGER METER INC",
+   "idx": 803,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BANCFIRST CORP",
+   "idx": 804,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CARGURUS INC CLASS A",
+   "idx": 805,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NMI HLDGS INC",
+   "idx": 806,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "FOUR CORNERS PPTY TR INC",
+   "idx": 807,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ACI WORLDWIDE INC",
+   "idx": 808,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AMERISAFE INC",
+   "idx": 809,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ENOVIS CORP",
+   "idx": 810,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "FRANKLIN BSP REALTY",
+   "idx": 811,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ITRON INC EQUITY CLASS EQUITY",
+   "idx": 812,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SPS COMM INC",
+   "idx": 813,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SKYWEST INC",
+   "idx": 814,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CAL MAINE FOODS INC",
+   "idx": 815,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SHAKE SHACK INC CLASS CLASS A",
+   "idx": 816,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "LAMB WESTON HLDGS INC",
+   "idx": 817,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "GOOSEHEAD INS INC CLASS A",
+   "idx": 818,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "INSPIRE MED SYS INC",
+   "idx": 819,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "KADANT INC",
+   "idx": 820,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "PALOMAR HLDGS INC",
+   "idx": 821,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "FRESHPET INC",
+   "idx": 822,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BRINKER INTL INC",
+   "idx": 823,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "WENDYS CO CLASS A",
+   "idx": 824,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CHESAPEAKE UTILS CORP",
+   "idx": 825,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SAREPTA THERAPEUTICS INC",
+   "idx": 826,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ABM INDS INC",
+   "idx": 827,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "EVERTEC INC F",
+   "idx": 828,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CALIX INC",
+   "idx": 829,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MGE ENERGY INC",
+   "idx": 830,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Q2 HLDGS INC",
+   "idx": 831,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "STEPSTONE GROUP INC CLASS A",
+   "idx": 832,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "KEMPER CORP DEL",
+   "idx": 833,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "RITHM CAPITAL CORP REIT",
+   "idx": 834,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "BRIGHT HORIZONS FAMILY S",
+   "idx": 835,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ENERPAC TOOL GROUP CORP CLASS A",
+   "idx": 836,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "GROUP 1 AUTOMOTIVE INC",
+   "idx": 837,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2026-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "VIAVI SOLUTIONS INC",
+   "idx": 838,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "SANMINA CORP",
+   "idx": 839,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "SEMTECH CORP",
+   "idx": 840,
+   "owner": "SELF",
+   "tx_date": "2026-06-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "MICROSOFT CORP",
+   "idx": 841,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "HOME DEPOT INC",
+   "idx": 842,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SALESFORCE INC",
+   "idx": 843,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "AT&T INC",
+   "idx": 844,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ABBOTT LABS",
+   "idx": 845,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MASTERCARD INC CLASS A",
+   "idx": 846,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "STRYKER CORP",
+   "idx": 847,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ACCENTURE PLC IRELAND F CLASS A",
+   "idx": 848,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "INTUITIVE SURGICAL INC",
+   "idx": 849,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "BOOKING HLDGS INC",
+   "idx": 850,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "META PLATFORMS INC CLASS A",
+   "idx": 851,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "FIDELITY NATL INFORMATIO",
+   "idx": 852,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "PALANTIR TECHNOLOGIES IN CLASS A",
+   "idx": 853,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "KKR & CO INC",
+   "idx": 854,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ROPER TECHNOLOGIES INC",
+   "idx": 855,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "S&P GLOBAL INC",
+   "idx": 856,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "IBM CORP",
+   "idx": 857,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "SHERWIN-WILLIAMS CO",
+   "idx": 858,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "AMERICAN TOWER CORP NEW REIT",
+   "idx": 859,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "LULULEMON ATHLETICA INC",
+   "idx": 860,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "COINBASE GLOBAL INC CLASS A",
+   "idx": 861,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ZOETIS INC CLASS A",
+   "idx": 862,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "KROGER CO",
+   "idx": 863,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "BROADRIDGE FINL SOLUTION",
+   "idx": 864,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CONAGRA BRANDS INC",
+   "idx": 865,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "DELL TECHNOLOGIES INC CLASS C",
+   "idx": 866,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "BROWN & BROWN INC",
+   "idx": 867,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MCCORMICK & CO INC CLASS N",
+   "idx": 868,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "VERIZON COMMUNICATIONS",
+   "idx": 869,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "TRANSDIGM GROUP INC",
+   "idx": 870,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "THE TRADE DESK INC CLASS A",
+   "idx": 871,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CHIPOTLE MEXICAN GRILL I",
+   "idx": 872,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "JPMORGAN CHASE & CO",
+   "idx": 873,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CLASS A",
+   "idx": 874,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "KIMBERLY CLARK CORP",
+   "idx": 875,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "LUCID GROUP INC",
+   "idx": 876,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "COREWEAVE INC CLASS A",
+   "idx": 877,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MARVELL TECHNOLOGY INC",
+   "idx": 878,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CREDO TECHNOLOGY GROUP F",
+   "idx": 879,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "FOX CORP CLASS CLASS B",
+   "idx": 880,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "OLIN CORP",
+   "idx": 881,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BOOZ ALLEN HAMILTON HLDG CLASS CLASS A",
+   "idx": 882,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "MARSH & MCLENNAN COS INC",
+   "idx": 883,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PARSONS CORP DEL",
+   "idx": 884,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "FOX CORP CLASS A",
+   "idx": 885,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ASTERA LABS INC",
+   "idx": 886,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "LOWES COS INC",
+   "idx": 887,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "WESTLAKE CORP",
+   "idx": 888,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PEGASYSTEMS INC",
+   "idx": 889,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BLACKSTONE INC",
+   "idx": 890,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "THE CIGNA GROUP",
+   "idx": 891,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "EQUIFAX INC",
+   "idx": 892,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "MSA SAFETY INC",
+   "idx": 893,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CBRE GROUP INC CLASS CLASS A",
+   "idx": 894,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "NORTHROP GRUMMAN CORP",
+   "idx": 895,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "HOULIHAN LOKEY INC CLASS CLASS A",
+   "idx": 896,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "EXLSERVICE HLDGS INC",
+   "idx": 897,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BENTLEY SYS INC CLASS CLASS B",
+   "idx": 898,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ROBLOX CORP CLASS A",
+   "idx": 899,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CLOROX CO",
+   "idx": 900,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SNAP INC CLASS A",
+   "idx": 901,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CROWN CASTLE INC REIT REIT",
+   "idx": 902,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "APPLOVIN CORP CLASS A",
+   "idx": 903,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SHIFT4 PMTS INC CLASS A",
+   "idx": 904,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "GLOBAL PMTS INC",
+   "idx": 905,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SBA COMMUNICATIONS CORP REIT",
+   "idx": 906,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "EQT CORP",
+   "idx": 907,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "PTC INC",
+   "idx": 908,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "AUTOZONE INC",
+   "idx": 909,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ERIE INDTY CO CLASS A",
+   "idx": 910,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "EPAM SYS INC",
+   "idx": 911,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ORACLE CORP",
+   "idx": 912,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SERVICENOW INC",
+   "idx": 913,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "GARTNER INC",
+   "idx": 914,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "HAMILTON LANE INC CLASS CLASS A",
+   "idx": 915,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "PILGRIMS PRIDE CORP NEW",
+   "idx": 916,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "HUBSPOT INC",
+   "idx": 917,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "FAIR ISAAC CORP",
+   "idx": 918,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CHEWY INC CLASS CLASS A",
+   "idx": 919,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CME GROUP INC",
+   "idx": 920,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "VICI PPTYS INC REIT",
+   "idx": 921,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "GE HEALTHCARE TECHNOLOGI",
+   "idx": 922,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "TYLER TECHNOLOGIES INC",
+   "idx": 923,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "AUTODESK INC",
+   "idx": 924,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "STRATEGY INC CLASS A",
+   "idx": 925,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CINTAS CORP",
+   "idx": 926,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "COGNIZANT TECHNOLOGY SOL CLASS A",
+   "idx": 927,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "COSTAR GROUP INC",
+   "idx": 928,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "PFIZER INC",
+   "idx": 929,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "TRACTOR SUPPLY CO",
+   "idx": 930,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MORNINGSTAR INC",
+   "idx": 931,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "RESMED INC",
+   "idx": 932,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "NASDAQ INC",
+   "idx": 933,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "DOCUSIGN INC",
+   "idx": 934,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ZSCALER INC",
+   "idx": 935,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "NETFLIX INC",
+   "idx": 936,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MCDONALDS CORP",
+   "idx": 937,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "STERIS PLC F",
+   "idx": 938,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "COPART INC",
+   "idx": 939,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "BERKSHIRE HATHAWAY CLASS B",
+   "idx": 940,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "WORKDAY INC CLASS CLASS A",
+   "idx": 941,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "T-MOBILE US INC",
+   "idx": 942,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "NIKE INC CLASS B",
+   "idx": 943,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "INSULET CORP",
+   "idx": 944,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "FISERV INC",
+   "idx": 945,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "AMAZON.COM INC",
+   "idx": 946,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "TESLA INC",
+   "idx": 947,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "INTUIT",
+   "idx": 948,
+   "owner": "SELF",
+   "tx_date": "2026-06-24",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/2BF91F890F718ACB85258E5B002DE16B/$FILE/Donald-J-Trump-08.12.2026-278T.pdf"
+}

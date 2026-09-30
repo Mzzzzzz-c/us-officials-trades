@@ -1,0 +1,71 @@
+{
+ "added": "2022-02-01",
+ "agency": "Department of Homeland Security",
+ "amended": false,
+ "doc": "5a351b112c",
+ "kind": "278 Transaction",
+ "name": "Criswell, Deanne",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Emergency Management Agency",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Vanguard Total Bond Market Index Fund ETF Shares (BND)",
+   "asset_type": "EF",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "BND",
+   "tx_date": "2022-01-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "iShares Broad USD Investment Grade Corporate Bond ETF (USIG)",
+   "asset_type": "EF",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "USIG",
+   "tx_date": "2022-01-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Apple, Inc. (AAPL)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "AAPL",
+   "tx_date": "2022-01-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Amazon.com, Inc. (AMZN)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "AMZN",
+   "tx_date": "2022-01-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Microsoft Corp. (MSFT)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "MSFT",
+   "tx_date": "2022-01-12",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/3909A58D046FDEEA852587DC0033C377/$FILE/Deanne-Criswell-01.20.2022-278T.pdf"
+}

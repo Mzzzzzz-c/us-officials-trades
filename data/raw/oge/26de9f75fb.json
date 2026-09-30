@@ -1,0 +1,27 @@
+{
+ "added": "2024-10-11",
+ "agency": "Department of Transportation",
+ "amended": false,
+ "doc": "26de9f75fb",
+ "kind": "278 Transaction",
+ "name": "Whitaker, Michael",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Aviation Administration",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Texas Instruments Incorporated (TXN)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "TXN",
+   "tx_date": "2024-08-21",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/5869AEBEFF9021F185258BB3002DE6F6/$FILE/Michael-Whitaker-09.04.2024-278T.pdf"
+}

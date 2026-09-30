@@ -1,0 +1,54 @@
+{
+ "added": "2022-10-21",
+ "agency": "Department of Transportation",
+ "amended": false,
+ "doc": "820278ec80",
+ "kind": "278 Transaction",
+ "name": "Fernandez, Nuria",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Transit Administration",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "EPAM Systems, Inc. (EPAM)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "EPAM",
+   "tx_date": "2022-08-19",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Taiwan Semiconductor Mfg",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2022-08-19",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Shopify Inc",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2022-08-15",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ATLASSIAN Corporation",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2022-08-12",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/7C0B52F950403C51852588E2002EC2F7/$FILE/Nuria-Fernandez-08.30.2022-278T.pdf"
+}

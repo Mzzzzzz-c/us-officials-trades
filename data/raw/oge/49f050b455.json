@@ -1,0 +1,38 @@
+{
+ "added": "2026-07-25",
+ "agency": "Office of Personnel Management",
+ "amended": false,
+ "doc": "49f050b455",
+ "kind": "278 Transaction",
+ "name": "Kupor, Scott A",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Okta, Inc. (OKTA) See Endnote",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "OKTA",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Okta, Inc. (OKTA) See Endnote",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "OKTA",
+   "tx_date": "2026-06-18",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/73A4FAE1704F806F85258E3F002DA96E/$FILE/Scott-A-Kupor-06.22.2026-278T.pdf"
+}

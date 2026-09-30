@@ -1,0 +1,25 @@
+{
+ "added": "2025-02-19",
+ "agency": "Department of Transportation",
+ "amended": false,
+ "doc": "1c3ec44237",
+ "kind": "278 Transaction",
+ "name": "Whitaker, Michael",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Aviation Administration",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AT&T Inc",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2024-12-18",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/6FD7FCF61FFBC2E585258C36003206A2/$FILE/Michael-Whitaker-01.02.2025-278T.pdf"
+}

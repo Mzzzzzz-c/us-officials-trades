@@ -1,0 +1,134 @@
+{
+ "added": "2021-07-22",
+ "agency": "Department of Justice",
+ "amended": false,
+ "doc": "853c6f737f",
+ "kind": "278 Transaction",
+ "name": "Garland, Merrick B",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Attorney General",
+ "transactions": [
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Bristol-Myers Squibb (BMY)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "BMY",
+   "tx_date": "2021-06-02",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "General Mills, Inc. (GIS)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "GIS",
+   "tx_date": "2021-06-02",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "The J. M. Smucker Co. (SJM)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "SJM",
+   "tx_date": "2021-06-02",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Procter & Gamble Co. (PG)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "PG",
+   "tx_date": "2021-06-02",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Pfizer Inc. (PFE)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "PFE",
+   "tx_date": "2021-06-02",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Viatris Inc",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2021-06-02",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "University of Maryland Bond",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2021-06-02",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "University of Michigan Bond",
+   "idx": 7,
+   "owner": "SELF",
+   "tx_date": "2021-06-02",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Baltimore County, MD Bond",
+   "idx": 8,
+   "owner": "SELF",
+   "tx_date": "2021-06-02",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Maryland State Community Develop. Rev. Bond",
+   "idx": 9,
+   "owner": "SELF",
+   "tx_date": "2021-06-02",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Montgomery County, MD Bond",
+   "idx": 10,
+   "owner": "SELF",
+   "tx_date": "2021-06-02",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Prince George's County, MD Bond",
+   "idx": 11,
+   "owner": "SELF",
+   "tx_date": "2021-06-02",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/E83DB6D3037FB0858525871A002E45CF/$FILE/Merrick-B-Garland-07.02.2021-278T.pdf"
+}

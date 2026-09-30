@@ -1,0 +1,25 @@
+{
+ "added": "2021-04-10",
+ "agency": "Federal Reserve System Board of Governors",
+ "amended": false,
+ "doc": "2b9a55a00d",
+ "kind": "278 Transaction",
+ "name": "Quarles, Randal K",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Governor & Vice Chairman for Supervision",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Cynosure Partners 2020 LP See Endnote",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2021-02-12",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/550DBA30FCE1ED86852586B3002ECD88/$FILE/Randal-K-Quarles-03.14.2021-278T.pdf"
+}

@@ -1,0 +1,93 @@
+{
+ "added": "2026-04-17",
+ "agency": "Office of Science and Technology Policy",
+ "amended": false,
+ "doc": "d49d7460df",
+ "kind": "278 Transaction",
+ "name": "Kratsios, Michael J",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "iShares National Muni Bond ETF (MUB)",
+   "asset_type": "EF",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "MUB",
+   "tx_date": "2026-03-27",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "iShares National Muni Bond ETF (MUB)",
+   "asset_type": "EF",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "MUB",
+   "tx_date": "2026-03-20",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Vanguard Tax-Exempt Bond Index Fund ETF Shares (VTEB)",
+   "asset_type": "EF",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "VTEB",
+   "tx_date": "2026-03-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Vanguard Dividend Appreciation Index Fund ETF Class Shares (VIG)",
+   "asset_type": "EF",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "VIG",
+   "tx_date": "2026-03-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "iShares Core Dividend Growth ETF (DGRO)",
+   "asset_type": "EF",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "DGRO",
+   "tx_date": "2026-03-09",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "iShares National Muni Bond ETF (MUB)",
+   "asset_type": "EF",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "MUB",
+   "tx_date": "2026-03-27",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Vanguard Tax-Exempt Bond Index Fund ETF Shares (VTEB)",
+   "asset_type": "EF",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "VTEB",
+   "tx_date": "2026-03-27",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/C4BF8463CF0AE7AE85258DDC002DBBFB/$FILE/Michael-J-Kratsios-03.29.2026-278T.pdf"
+}

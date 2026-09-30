@@ -1,0 +1,27 @@
+{
+ "added": "2026-08-08",
+ "agency": "Office of Science and Technology Policy",
+ "amended": false,
+ "doc": "a9e34c7cd4",
+ "kind": "278 Transaction",
+ "name": "Kratsios, Michael J",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Vanguard Tax-Exempt Bond Index Fund ETF Shares (VTEB)",
+   "asset_type": "EF",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "VTEB",
+   "tx_date": "2026-07-01",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/24F079312783534385258E4D002DAB10/$FILE/Michael-J-Kratsios-07.09.2026-278T.pdf"
+}

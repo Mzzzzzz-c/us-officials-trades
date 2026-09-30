@@ -1,0 +1,71 @@
+{
+ "added": "2024-08-01",
+ "agency": "Office of National Drug Control Policy",
+ "amended": false,
+ "doc": "50db2692e0",
+ "kind": "278 Transaction",
+ "name": "Gupta, Rahul",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Amazon.com, Inc. (AMZN)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "AMZN",
+   "tx_date": "2024-05-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Amazon.com, Inc. (AMZN)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "AMZN",
+   "tx_date": "2024-05-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "General Electric Co. (GE)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "GE",
+   "tx_date": "2024-05-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "3M Co. (MMM)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "MMM",
+   "tx_date": "2024-05-02",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Tesla, Inc. (TSLA)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "TSLA",
+   "tx_date": "2024-04-25",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/EB9294C01736DA2A85258B6C002DE502/$FILE/Rahul-Gupta-06.27.2024-278T.pdf"
+}

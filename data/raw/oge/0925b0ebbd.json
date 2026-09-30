@@ -1,0 +1,25 @@
+{
+ "added": "2021-01-19",
+ "agency": "Department of The Air Force",
+ "amended": false,
+ "doc": "0925b0ebbd",
+ "kind": "278 Transaction",
+ "name": "Barrett, Barbara M",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Impele Holdings LLC",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2020-12-04",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/BA07E219180513AD8525866200317B4B/$FILE/Barbara-M-Barrett-01.04.2021-278T.pdf"
+}

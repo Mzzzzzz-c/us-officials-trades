@@ -1,0 +1,25 @@
+{
+ "added": "2021-06-02",
+ "agency": "Department of Veterans Affairs",
+ "amended": false,
+ "doc": "4c887793ee",
+ "kind": "278 Transaction",
+ "name": "McDonough, Denis R",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Divestiture of Stock Options in Catalyte per Ethics Agreement $250,000",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2021-05-07",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/32A371DBD8A3C54C852586E8002E4AAB/$FILE/Denis-R-McDonough-05.14.2021-278T.pdf"
+}

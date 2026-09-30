@@ -1,0 +1,38 @@
+{
+ "added": "2026-09-30",
+ "agency": "Office of Personnel Management",
+ "amended": false,
+ "doc": "f91b957f40",
+ "kind": "278 Transaction",
+ "name": "Kupor, Scott A",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Erasca Inc. Common Stock (ERAS)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "ERAS",
+   "tx_date": "2026-07-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Revolution Medicines Inc. Common Stock (RVMD)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "RVMD",
+   "tx_date": "2026-07-30",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/B157175D415FEC4685258E82002DBEBE/$FILE/Scott-A-Kupor-07.31.2026-278T.pdf"
+}

@@ -37,6 +37,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
   const nav = [
     { href: L(""), label: t.nav.home, match: [""] },
     { href: L("/members"), label: t.nav.members, match: ["members", "member"] },
+    { href: L("/executive"), label: t.nav.executive, match: ["executive"] },
     { href: L("/tickers"), label: t.nav.tickers, match: ["tickers", "ticker"] },
     { href: L("/investors"), label: t.nav.investors, match: ["investors", "investor"] },
     { href: L("/methodology"), label: t.nav.methodology, match: ["methodology", "unparsed"] },
@@ -68,6 +69,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
               <a className="link" href="https://disclosures-clerk.house.gov/FinancialDisclosure" target="_blank" rel="noopener noreferrer">{locale === "zh" ? "众议院书记官办公室" : "Clerk of the House"}</a> ·{" "}
               <a className="link" href="https://efdsearch.senate.gov/search/" target="_blank" rel="noopener noreferrer">{locale === "zh" ? "参议院 eFD 电子披露系统" : "Senate eFD"}</a> ·{" "}
               <a className="link" href="https://www.sec.gov/edgar/search/" target="_blank" rel="noopener noreferrer">{locale === "zh" ? "美国证监会 EDGAR" : "SEC EDGAR"}</a> ·{" "}
+              <a className="link" href="https://www.oge.gov/web/oge.nsf/Officials%20Individual%20Disclosures%20Search%20Collection?OpenForm" target="_blank" rel="noopener noreferrer">{locale === "zh" ? "美国政府道德办公室 OGE" : "Office of Government Ethics"}</a> ·{" "}
               <a className="link" href="https://github.com/unitedstates/congress-legislators" target="_blank" rel="noopener noreferrer">congress-legislators</a>
             </p>
             <p>

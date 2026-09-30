@@ -1,0 +1,36 @@
+{
+ "added": "2022-12-23",
+ "agency": "Office of Science and Technology Policy",
+ "amended": false,
+ "doc": "c467e53a43",
+ "kind": "278 Transaction",
+ "name": "Prabhakar, Arati",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Inari Medical, Inc. See Endnote",
+   "idx": 0,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2022-10-21",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "AirBNB, inc. See Endnote",
+   "idx": 1,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2022-10-21",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/62C04622D9DA0BEA8525892100343F31/$FILE/Arati-Prabhakar-12.05.2022-278T.pdf"
+}

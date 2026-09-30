@@ -1,0 +1,131 @@
+{
+ "added": "2022-06-28",
+ "agency": "Department of Transportation",
+ "amended": false,
+ "doc": "f655cdf750",
+ "kind": "278 Transaction",
+ "name": "Fernandez, Nuria",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Transit Administration",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Lam Research Corp. (LRCX)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "LRCX",
+   "tx_date": "2022-05-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "The PNC Financial Services Group, Inc. (PNC)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "PNC",
+   "tx_date": "2022-05-02",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ASMIY ASM International",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2022-04-26",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BlackRock, Inc. (BLK)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "BLK",
+   "tx_date": "2022-05-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Air Products and Chemicals, Inc. (APD)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "APD",
+   "tx_date": "2022-04-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BlackRock, Inc. (BLK)",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "BLK",
+   "tx_date": "2022-04-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "ConocoPhillips (COP)",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "COP",
+   "tx_date": "2022-04-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NVO Novo Nordisk",
+   "idx": 7,
+   "owner": "SELF",
+   "tx_date": "2022-04-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SBGSY SCHNEIDER ELECTRIC",
+   "idx": 8,
+   "owner": "SELF",
+   "tx_date": "2022-04-08",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Air Products and Chemicals, Inc. (APD)",
+   "asset_type": "ST",
+   "idx": 9,
+   "owner": "SELF",
+   "ticker": "APD",
+   "tx_date": "2022-03-31",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Philip Morris International, Inc. (PM)",
+   "asset_type": "ST",
+   "idx": 10,
+   "owner": "SELF",
+   "ticker": "PM",
+   "tx_date": "2022-03-31",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/15FA57FEA3BD1A048525886F002EC606/$FILE/Nuri-Fernandez-05.07.2022-278T.pdf"
+}

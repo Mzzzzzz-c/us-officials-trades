@@ -1,0 +1,27 @@
+{
+ "added": "2024-06-27",
+ "agency": "Department of Energy",
+ "amended": false,
+ "doc": "0711d9e732",
+ "kind": "278 Transaction",
+ "name": "Granholm, Jennifer",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Invesco S&P 500 Equal Weight ETF (RSP)",
+   "asset_type": "EF",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "RSP",
+   "tx_date": "2024-04-24",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/AC541B7CF56E2CB885258B49002DDBE3/$FILE/Jennifer-Granholm-05.02.2024-278T.pdf"
+}

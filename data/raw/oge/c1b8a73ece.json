@@ -1,0 +1,49 @@
+{
+ "added": "2024-02-09",
+ "agency": "Department of Energy",
+ "amended": false,
+ "doc": "c1b8a73ece",
+ "kind": "278 Transaction",
+ "name": "Granholm, Jennifer",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Vanguard Short-Term Corporate Bond Index Fund ETF Class Shares (VCSH) $100,000",
+   "asset_type": "EF",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "VCSH",
+   "tx_date": "2023-12-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "iShares Core S&P Mid-Cap ETF (IJH)",
+   "asset_type": "EF",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "IJH",
+   "tx_date": "2023-12-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "iShares Core S&P Small-Cap ETF (IJR)",
+   "asset_type": "EF",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "IJR",
+   "tx_date": "2023-12-22",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/AD1B1BB896ECC21E85258ABE003477AA/$FILE/Jennifer-Granholm-01.19.2024-278T.pdf"
+}

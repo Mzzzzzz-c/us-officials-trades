@@ -1,0 +1,193 @@
+{
+ "added": "2021-09-14",
+ "agency": "Office of the National Cyber Director",
+ "amended": false,
+ "doc": "b3338fe694",
+ "kind": "278 Transaction",
+ "name": "Inglis, John C",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Vanguard Energy Fund Investor Shares (VGENX)",
+   "asset_type": "EF",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "VGENX",
+   "tx_date": "2021-07-26",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Blackpoint Cyber Options",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2021-07-27",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Duke Energy Corp. (DUK)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "DUK",
+   "tx_date": "2021-07-27",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "AT&T Stock (T)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "T",
+   "tx_date": "2021-07-27",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Phillip Morris Stock (PM)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "PM",
+   "tx_date": "2021-07-27",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Enbridge Stock (ENB)",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "ENB",
+   "tx_date": "2021-07-27",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Under Armour, Inc. (UAA)",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "UAA",
+   "tx_date": "2021-07-29",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Under Armour, Inc. (UA)",
+   "asset_type": "ST",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "UA",
+   "tx_date": "2021-07-27",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Verizon Communications, Inc. (VZ)",
+   "asset_type": "ST",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": "VZ",
+   "tx_date": "2021-07-29",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Apple, Inc. (AAPL)",
+   "asset_type": "ST",
+   "idx": 9,
+   "owner": "SELF",
+   "ticker": "AAPL",
+   "tx_date": "2021-07-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Walmart, Inc. (WMT)",
+   "asset_type": "ST",
+   "idx": 10,
+   "owner": "SELF",
+   "ticker": "WMT",
+   "tx_date": "2021-07-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Walmart, Inc. (WMT)",
+   "asset_type": "ST",
+   "idx": 11,
+   "owner": "SELF",
+   "ticker": "WMT",
+   "tx_date": "2021-07-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "USAA Precious Metals & Minerals Fund Fund Class Shares (USAGX)",
+   "asset_type": "ST",
+   "idx": 12,
+   "owner": "SELF",
+   "ticker": "USAGX",
+   "tx_date": "2021-07-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "Securonix Shares",
+   "idx": 13,
+   "owner": "SELF",
+   "tx_date": "2021-08-05",
+   "type": "S"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "Securonix",
+   "idx": 14,
+   "owner": "SELF",
+   "tx_date": "2021-08-05",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Vequrity (dba Range Force)",
+   "idx": 15,
+   "owner": "SELF",
+   "tx_date": "2021-08-19",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Hawkeye 360",
+   "idx": 16,
+   "owner": "SELF",
+   "tx_date": "2021-08-10",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/FFA1CDBFB3B9E0BE85258750002E5621/$FILE/John-C-Inglis-09.08.2021-278T.pdf"
+}

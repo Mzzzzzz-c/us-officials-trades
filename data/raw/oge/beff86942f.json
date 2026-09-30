@@ -1,0 +1,38 @@
+{
+ "added": "2025-05-16",
+ "agency": "Office of Science and Technology Policy",
+ "amended": false,
+ "doc": "beff86942f",
+ "kind": "278 Transaction",
+ "name": "Kratsios, Michael J",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Schwab US TIPS ETF (SCHP)",
+   "asset_type": "EF",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "SCHP",
+   "tx_date": "2025-04-21",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Vanguard Dividend Appreciation Index Fund ETF Class Shares (VIG)",
+   "asset_type": "EF",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "VIG",
+   "tx_date": "2025-04-21",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/369A503ADD28202C85258C8C002C7CE7/$FILE/Michael-J-Kratsios-05.11.2025-278T.pdf"
+}

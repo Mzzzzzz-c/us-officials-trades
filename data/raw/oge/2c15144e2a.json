@@ -1,0 +1,142 @@
+{
+ "added": "2023-01-27",
+ "agency": "Department of Transportation",
+ "amended": false,
+ "doc": "2c15144e2a",
+ "kind": "278 Transaction",
+ "name": "Fernandez, Nuria",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Transit Administration",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AbbVie, Inc. (ABBV)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "ABBV",
+   "tx_date": "2022-11-29",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Medtronic Plc (MDT)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "MDT",
+   "tx_date": "2022-11-29",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SHZHY - SHENZHOU ITL Group HLDGS LTD",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2022-11-29",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AbbVie, Inc. (ABBV)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "ABBV",
+   "tx_date": "2022-11-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Intuit, Inc. (INTU)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "INTU",
+   "tx_date": "2022-11-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Medtronic Plc (MDT)",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "MDT",
+   "tx_date": "2022-11-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SBGSY -SCHNEIDER ELECTRIC SE",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2022-11-18",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AAGIY - AIA GROUP LTD",
+   "idx": 7,
+   "owner": "SELF",
+   "tx_date": "2022-11-15",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AbbVie, Inc. (ABBV)",
+   "asset_type": "ST",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": "ABBV",
+   "tx_date": "2022-11-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Comcast Corp. (CMCSA)",
+   "asset_type": "ST",
+   "idx": 9,
+   "owner": "SELF",
+   "ticker": "CMCSA",
+   "tx_date": "2022-11-15",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Target Corp. (TGT)",
+   "asset_type": "ST",
+   "idx": 10,
+   "owner": "SELF",
+   "ticker": "TGT",
+   "tx_date": "2022-11-10",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "U.S. Bancorp (USB)",
+   "asset_type": "ST",
+   "idx": 11,
+   "owner": "SELF",
+   "ticker": "USB",
+   "tx_date": "2022-11-10",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/59977FA2604BC58485258944003446A7/$FILE/Nuria-Fernandez-11.30.2022-278T.pdf"
+}

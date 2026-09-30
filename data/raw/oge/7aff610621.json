@@ -1,0 +1,25 @@
+{
+ "added": "2025-07-16",
+ "agency": "Office of Science and Technology Policy",
+ "amended": false,
+ "doc": "7aff610621",
+ "kind": "278 Transaction",
+ "name": "Kratsios, Michael J",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "Scale AI, Inc. Stock",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2025-06-23",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/25B7D3B2253E46BB85258CC9002C84A3/$FILE/Michael-J-Kratsios-06.24.2025-278T.pdf"
+}

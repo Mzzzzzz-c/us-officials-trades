@@ -1,0 +1,49 @@
+{
+ "added": "2026-09-19",
+ "agency": "Office of Personnel Management",
+ "amended": false,
+ "doc": "0657cfdea9",
+ "kind": "278 Transaction",
+ "name": "Kupor, Scott A",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Baron Growth Fund Retail Shares (BGRFX)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "BGRFX",
+   "tx_date": "2026-08-07",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Cambiar Opportunity Fund Investor Class Shares (CAMOX)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "CAMOX",
+   "tx_date": "2026-08-07",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Gabelli Utilities Fund Class AAA Shares (GABUX)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "GABUX",
+   "tx_date": "2026-08-07",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/42300720A4227E9E85258E77002DD1B3/$FILE/Scott-A-Kupor-08.07.2026-278T(1).pdf"
+}

@@ -1,0 +1,27 @@
+{
+ "added": "2023-06-10",
+ "agency": "Department of The Navy",
+ "amended": false,
+ "doc": "53d1434ec2",
+ "kind": "278 Transaction",
+ "name": "Del Toro, Carlos",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Warner Bros. Discovery Inc. Series A Common See Endnote Stock (WBD)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "WBD",
+   "tx_date": "2022-06-17",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/4568A12C9C0816CC852589CA002EEE07/$FILE/Carlos-Del-Toro-05.16.2023-278T(1).pdf"
+}

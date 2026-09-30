@@ -1,0 +1,93 @@
+{
+ "added": "2024-01-12",
+ "agency": "Department of Transportation",
+ "amended": false,
+ "doc": "fca3c0ebd1",
+ "kind": "278 Transaction",
+ "name": "Whitaker, Michael",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Aviation Administration",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Amazon.com, Inc. (AMZN)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "AMZN",
+   "tx_date": "2023-11-07",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Broadcom, Inc. (AVGO)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "AVGO",
+   "tx_date": "2023-11-14",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "JPMorgan Chase & Co. (JPM)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "JPM",
+   "tx_date": "2023-11-14",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "The PNC Financial Services Group, Inc. (PNC)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "PNC",
+   "tx_date": "2023-11-14",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Target Corp. (TGT)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "TGT",
+   "tx_date": "2023-11-14",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Truist Financial Corporation Common Stock (TFC)",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "TFC",
+   "tx_date": "2023-11-14",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Pfizer Inc. (PFE)",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "PFE",
+   "tx_date": "2023-11-14",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/9AA54EBCD9524B2785258AA2003493CD/$FILE/Michael-Whitaker-12.05.2023-278T.pdf"
+}

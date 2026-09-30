@@ -1,0 +1,214 @@
+{
+ "added": "2022-07-21",
+ "agency": "Federal Reserve System Board of Governors",
+ "amended": false,
+ "doc": "ef6ad56562",
+ "kind": "278 Transaction",
+ "name": "Powell, Jerome H",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Governor & Chairman",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "TRIBOROUGH BRDG & TUNL AUTH N REV See Endnote BONDS $100,000",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2022-06-30",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "BALTIMORE CNTY MD CTFS PARTN BONDS See Endnote",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2022-06-30",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "WIS ST HEALTH & EDL FACS AUTH REV BONDS See Endnote",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2022-06-30",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "CENTRAL FLA EXPWY AUTH SR REV BONDS See Endnote",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2022-06-30",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "NEW YORK CITY TRANS FIN AUTH REV BONDS See Endnote",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2022-06-30",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "CONROE TEX INDPT SCH DIST BONDS See Endnote",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2022-06-30",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "MARYLAND WATER QUALITY REV BONDS See Endnote",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2022-06-30",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "NEW YORK NY BONDS See Endnote",
+   "idx": 7,
+   "owner": "SELF",
+   "tx_date": "2022-06-30",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "SPRINGFIELD ILL ELEC REV BONDS See Endnote",
+   "idx": 8,
+   "owner": "SELF",
+   "tx_date": "2022-06-30",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "DENVER COLO CITY & CNTY ARPT REV BONDS See Endnote",
+   "idx": 9,
+   "owner": "SELF",
+   "tx_date": "2022-06-30",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "ALABAMA FED AID HWY FIN AUTH REV BONDS See Endnote",
+   "idx": 10,
+   "owner": "SELF",
+   "tx_date": "2022-06-30",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "MASSACHUSETTS ST BONDS See Endnote",
+   "idx": 11,
+   "owner": "SELF",
+   "tx_date": "2022-06-30",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "MIAMI-DADE CNTY FLA WTR & SWR REV See Endnote BONDS $100,000",
+   "idx": 12,
+   "owner": "SELF",
+   "tx_date": "2022-06-30",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "PRINCE GEORGES CNTY MD BONDS See Endnote",
+   "idx": 13,
+   "owner": "SELF",
+   "tx_date": "2022-06-30",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "MARYLAND WATER QUALITY REV BONDS See Endnote",
+   "idx": 14,
+   "owner": "SELF",
+   "tx_date": "2022-06-30",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "BALTIMORE MD REV REV BONDS See Endnote",
+   "idx": 15,
+   "owner": "SELF",
+   "tx_date": "2022-06-30",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "JEFFERSON PARISH LA SCH BRD REV BONDS See Endnote",
+   "idx": 16,
+   "owner": "SELF",
+   "tx_date": "2022-06-30",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "OHIO ST MAJOR NEW ST REV BONDS See Endnote",
+   "idx": 17,
+   "owner": "SELF",
+   "tx_date": "2022-06-30",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "CAMDEN CNTY N J IMPT AUTH REV BONDS See Endnote",
+   "idx": 18,
+   "owner": "SELF",
+   "tx_date": "2022-06-30",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "MARYLAND ST BONDS See Endnote",
+   "idx": 19,
+   "owner": "SELF",
+   "tx_date": "2022-06-30",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "TEXAS TRANSN COMMN ST HWY FD REV See Endnote BONDS $100,000",
+   "idx": 20,
+   "owner": "SELF",
+   "tx_date": "2022-06-30",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "MARYLAND ST DEPT TRANSN CONS REV See Endnote BONDS $100,000",
+   "idx": 21,
+   "owner": "SELF",
+   "tx_date": "2022-06-30",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/56F642D0F9B84D2985258886002ED470/$FILE/Jerome-H-Powell-07.01.2022-278T.pdf"
+}

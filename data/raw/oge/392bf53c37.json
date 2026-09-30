@@ -1,0 +1,2366 @@
+{
+ "added": "2021-09-08",
+ "agency": "Office of Science and Technology Policy",
+ "amended": false,
+ "doc": "392bf53c37",
+ "kind": "278 Transaction",
+ "name": "Lander, Eric S",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BLUEBIRD BIO INC",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ACCELERON PHARMA INC COM",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SAGE THERAPEUTICS",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "VERASTEM INC",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "AGIOS PHARMACEUTICALS INC",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "BLUEPRINT MEDICINES CORP",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "GLOBAL BLOOD THERAPEUTICS",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CYTOMX THERAPEUTICS INC",
+   "idx": 7,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "RHYTHM PHARMACEUTICALS INC",
+   "idx": 8,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "KALA PHARMACEUTICALS INC",
+   "idx": 9,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CONSTELLATION PHARMACEUTIC",
+   "idx": 10,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "REVOLUTION MEDICINES INC",
+   "idx": 11,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "LARIMAR THERAPEUTICS INC",
+   "idx": 12,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "RELAY THERAPEUTICS INC",
+   "idx": 13,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ABBVIE INC",
+   "idx": 14,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ALPHABET INC",
+   "idx": 15,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "WALGREENS BOOTS ALLIANCE",
+   "idx": 16,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "DUPONT DE NEMOURS INC",
+   "idx": 17,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "COVETRUS INC",
+   "idx": 18,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "DOW INC",
+   "idx": 19,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CORTEVA INC",
+   "idx": 20,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NOV INC",
+   "idx": 21,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ABBOTT LABORATORIES",
+   "idx": 22,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ACCO BRANDS CORP",
+   "idx": 23,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "AT&T INC",
+   "idx": 24,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "BANK OF AMERICA CORP",
+   "idx": 25,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "BIOGEN INC",
+   "idx": 26,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "BOEING COMPANY",
+   "idx": 27,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "BOSTON SCIENTIFIC CORP",
+   "idx": 28,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "CHARLES RIVER LABS",
+   "idx": 29,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CME GROUP INC",
+   "idx": 30,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CURTISS WRIGHT CORP",
+   "idx": 31,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ESTEE LAUDER COS INC CL A",
+   "idx": 32,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "EXXON MOBIL CORP",
+   "idx": 33,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ALPHABET INC",
+   "idx": 34,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "HENRY SCHEIN INC",
+   "idx": 35,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "JOHNSON & JOHNSON",
+   "idx": 36,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "JUNIPER NETWORKS",
+   "idx": 37,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "LILLY ELI & CO",
+   "idx": 38,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MARRIOTT INTL INC NEW CL A",
+   "idx": 39,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "MOODYS CORP",
+   "idx": 40,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ORACLE CORP",
+   "idx": 41,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SEMPRA COM",
+   "idx": 42,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "TEXAS ROADHOUSE INC",
+   "idx": 43,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "UNITEDHEALTH GROUP INC",
+   "idx": 44,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "VERISIGN INC",
+   "idx": 45,
+   "owner": "SELF",
+   "tx_date": "2021-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SAGE THERAPEUTICS",
+   "idx": 46,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "VERASTEM INC",
+   "idx": 47,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "VERASTEM INC",
+   "idx": 48,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "RELAY THERAPEUTICS INC",
+   "idx": 49,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "RELAY THERAPEUTICS INC",
+   "idx": 50,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "AMERICAN WATER WORKS CO",
+   "idx": 51,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "AMERICAN TOWER CORP",
+   "idx": 52,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "FACEBOOK INC-A",
+   "idx": 53,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "HEICO CORPORATION",
+   "idx": 54,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ZOETIS INC",
+   "idx": 55,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "SERVICENOW INC",
+   "idx": 56,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "IQVIA HOLDINGS INC",
+   "idx": 57,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "ALPHABET INC",
+   "idx": 58,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "BURLINGTON STORES INC",
+   "idx": 59,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SS&C TECHNOLOGIES HOLDINGS",
+   "idx": 60,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CDW CORP/DE",
+   "idx": 61,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "HILTON WORLDWIDE HOLDINGS",
+   "idx": 62,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "PAYCOM SOFTWARE INC",
+   "idx": 63,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "PAYPAL HOLDINGS INC",
+   "idx": 64,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CATALENT INC",
+   "idx": 65,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SQUARE INC",
+   "idx": 66,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CHARTER COMMUNICATIONS INC",
+   "idx": 67,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "US FOODS HOLDING CORP",
+   "idx": 68,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "FORTIVE CO",
+   "idx": 69,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "WYNDHAM HOTELS & RESORTS",
+   "idx": 70,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "IAA INC",
+   "idx": 71,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "AON PLC",
+   "idx": 72,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MATCH GROUP INC",
+   "idx": 73,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CMC MATERIALS INC",
+   "idx": 74,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ADOBE INC",
+   "idx": 75,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "AIR PRODUCTS & CHEMICALS",
+   "idx": 76,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ADVANCE AUTO PARTS",
+   "idx": 77,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "AMEREN CORP",
+   "idx": 78,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "AMAZON.COM INC",
+   "idx": 79,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "AMPHENOL CORP",
+   "idx": 80,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ANSYS INC",
+   "idx": 81,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "APTARGROUP INC",
+   "idx": 82,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "APPLE INC",
+   "idx": 83,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ASPEN TECHNOLOGY",
+   "idx": 84,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "BANK OF AMERICA CORP",
+   "idx": 85,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "BLACKSTONE INC",
+   "idx": 86,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CINTAS CORP",
+   "idx": 87,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CITIGROUP INC",
+   "idx": 88,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CONOCOPHILLIPS",
+   "idx": 89,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "COOPER COS INC",
+   "idx": 90,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "DANAHER CORP",
+   "idx": 91,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "DOVER CORP",
+   "idx": 92,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "EQUIFAX INC",
+   "idx": 93,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "L3 HARRIS TECHNOLOGIES INC",
+   "idx": 94,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "HOME DEPOT",
+   "idx": 95,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "JPMORGAN CHASE & CO",
+   "idx": 96,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "JONES LANG LASALLE INC COM",
+   "idx": 97,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "LAB CORP OF AMER HLDGS NEW",
+   "idx": 98,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "S&P GLOBAL INC",
+   "idx": 99,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "MICROSOFT CORP",
+   "idx": 100,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MSCI INC",
+   "idx": 101,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "NASDAQ INC",
+   "idx": 102,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NIKE INC CL B",
+   "idx": 103,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "PEPSICO INC",
+   "idx": 104,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "PIONEER NATURAL RESOURCES",
+   "idx": 105,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ROSS STORES INC",
+   "idx": 106,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SCHWAB CHARLES CORP NEW",
+   "idx": 107,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SYNOPSYS INC",
+   "idx": 108,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SMITH A O CORP",
+   "idx": 109,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "TELEFLEX INC",
+   "idx": 110,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "TEXAS INSTRUMENTS INC",
+   "idx": 111,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "THERMO FISHER SCIENTIFIC",
+   "idx": 112,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "UNITEDHEALTH GROUP INC",
+   "idx": 113,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "UNION PACIFIC CORP",
+   "idx": 114,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "VISA INC",
+   "idx": 115,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "WEX INC",
+   "idx": 116,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "DOLLARAMA INC",
+   "idx": 117,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "SAFRAN SA",
+   "idx": 118,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "APTIV PLC",
+   "idx": 119,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "STERIS PLC",
+   "idx": 120,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SEA LTD ADR",
+   "idx": 121,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "NICE LTD ADR",
+   "idx": 122,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "RENTOKIL INITIAL PLC",
+   "idx": 123,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "LVMH MOET HENNESSY VUITTON",
+   "idx": 124,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ASML HOLDING",
+   "idx": 125,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "VERASTEM INC",
+   "idx": 126,
+   "owner": "SELF",
+   "tx_date": "2021-06-14",
+   "type": "S"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "BIONTECH SE ADR",
+   "idx": 127,
+   "owner": "SELF",
+   "tx_date": "2021-06-14",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "TENCENT HOLDINGS LTD",
+   "idx": 128,
+   "owner": "SELF",
+   "tx_date": "2021-06-15",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "JOUNCE THERAPEUTICS INC",
+   "idx": 129,
+   "owner": "SELF",
+   "tx_date": "2021-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "NURIX THERAPEUTICS INC",
+   "idx": 130,
+   "owner": "SELF",
+   "tx_date": "2021-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 131,
+   "owner": "SELF",
+   "tx_date": "2021-06-17",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 132,
+   "owner": "SELF",
+   "tx_date": "2021-06-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 133,
+   "owner": "SELF",
+   "tx_date": "2021-06-21",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 134,
+   "owner": "SELF",
+   "tx_date": "2021-06-21",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 135,
+   "owner": "SELF",
+   "tx_date": "2021-06-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 136,
+   "owner": "SELF",
+   "tx_date": "2021-06-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 137,
+   "owner": "SELF",
+   "tx_date": "2021-06-22",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 138,
+   "owner": "SELF",
+   "tx_date": "2021-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 139,
+   "owner": "SELF",
+   "tx_date": "2021-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 140,
+   "owner": "SELF",
+   "tx_date": "2021-06-23",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 141,
+   "owner": "SELF",
+   "tx_date": "2021-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 142,
+   "owner": "SELF",
+   "tx_date": "2021-06-24",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 143,
+   "owner": "SELF",
+   "tx_date": "2021-06-25",
+   "type": "S"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 144,
+   "owner": "SELF",
+   "tx_date": "2021-06-25",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "JOUNCE THERAPEUTICS INC",
+   "idx": 145,
+   "owner": "SELF",
+   "tx_date": "2021-06-25",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 146,
+   "owner": "SELF",
+   "tx_date": "2021-06-28",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 147,
+   "owner": "SELF",
+   "tx_date": "2021-06-28",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 148,
+   "owner": "SELF",
+   "tx_date": "2021-06-29",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 149,
+   "owner": "SELF",
+   "tx_date": "2021-06-29",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 150,
+   "owner": "SELF",
+   "tx_date": "2021-06-29",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 151,
+   "owner": "SELF",
+   "tx_date": "2021-06-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 152,
+   "owner": "SELF",
+   "tx_date": "2021-06-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 153,
+   "owner": "SELF",
+   "tx_date": "2021-06-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 154,
+   "owner": "SELF",
+   "tx_date": "2021-07-01",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 155,
+   "owner": "SELF",
+   "tx_date": "2021-07-01",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 156,
+   "owner": "SELF",
+   "tx_date": "2021-07-02",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 157,
+   "owner": "SELF",
+   "tx_date": "2021-07-06",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 158,
+   "owner": "SELF",
+   "tx_date": "2021-07-06",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 159,
+   "owner": "SELF",
+   "tx_date": "2021-07-07",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 160,
+   "owner": "SELF",
+   "tx_date": "2021-07-07",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 161,
+   "owner": "SELF",
+   "tx_date": "2021-07-07",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 162,
+   "owner": "SELF",
+   "tx_date": "2021-07-08",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 163,
+   "owner": "SELF",
+   "tx_date": "2021-07-08",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 164,
+   "owner": "SELF",
+   "tx_date": "2021-07-08",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 165,
+   "owner": "SELF",
+   "tx_date": "2021-07-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 166,
+   "owner": "SELF",
+   "tx_date": "2021-07-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 167,
+   "owner": "SELF",
+   "tx_date": "2021-07-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 168,
+   "owner": "SELF",
+   "tx_date": "2021-07-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 169,
+   "owner": "SELF",
+   "tx_date": "2021-07-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 170,
+   "owner": "SELF",
+   "tx_date": "2021-07-14",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 171,
+   "owner": "SELF",
+   "tx_date": "2021-07-14",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 172,
+   "owner": "SELF",
+   "tx_date": "2021-07-14",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 173,
+   "owner": "SELF",
+   "tx_date": "2021-07-15",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 174,
+   "owner": "SELF",
+   "tx_date": "2021-07-15",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 175,
+   "owner": "SELF",
+   "tx_date": "2021-07-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 176,
+   "owner": "SELF",
+   "tx_date": "2021-07-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 177,
+   "owner": "SELF",
+   "tx_date": "2021-07-19",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CODIAK BIOSCIENCES INC",
+   "idx": 178,
+   "owner": "SELF",
+   "tx_date": "2021-07-20",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "CODIAK BIOSCIENCES INC (option exercise)",
+   "idx": 179,
+   "owner": "SELF",
+   "tx_date": "2021-07-28",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "EXACT SCIENCES CORP",
+   "idx": 180,
+   "owner": "SELF",
+   "tx_date": "2021-07-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "BIONTECH SE ADR",
+   "idx": 181,
+   "owner": "SELF",
+   "tx_date": "2021-08-05",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "INFINITY PHARMACEUTICALS",
+   "idx": 182,
+   "owner": "SELF",
+   "tx_date": "2021-08-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "INFINITY PHARMACEUTICALS",
+   "idx": 183,
+   "owner": "SELF",
+   "tx_date": "2021-08-12",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "TEXAS ST GO VET SER D WKLY 0.040% 06/01/2045 $250,000",
+   "asset_type": "GS",
+   "idx": 184,
+   "owner": "SELF",
+   "tx_date": "2021-08-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "AMERICAN WATER WORKS CO",
+   "idx": 185,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "AMERICAN TOWER CORP",
+   "idx": 186,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "FACEBOOK INC-A",
+   "idx": 187,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "HEICO CORPORATION",
+   "idx": 188,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ZOETIS INC",
+   "idx": 189,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SERVICENOW INC",
+   "idx": 190,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "IQVIA HOLDINGS INC",
+   "idx": 191,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "ALPHABET INC",
+   "idx": 192,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BURLINGTON STORES INC",
+   "idx": 193,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SS&C TECHNOLOGIES HOLDINGS",
+   "idx": 194,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CDW CORP/DE",
+   "idx": 195,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "HILTON WORLDWIDE HOLDINGS",
+   "idx": 196,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "PAYCOM SOFTWARE INC",
+   "idx": 197,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "PAYPAL HOLDINGS INC",
+   "idx": 198,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CATALENT INC",
+   "idx": 199,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SQUARE INC",
+   "idx": 200,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "CHARTER COMMUNICATIONS INC",
+   "idx": 201,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "US FOODS HOLDING CORP",
+   "idx": 202,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "FORTIVE CO",
+   "idx": 203,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "WYNDHAM HOTELS & RESORTS",
+   "idx": 204,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "IAA INC",
+   "idx": 205,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "AON PLC",
+   "idx": 206,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MATCH GROUP INC",
+   "idx": 207,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CMC MATERIALS INC",
+   "idx": 208,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ADOBE INC",
+   "idx": 209,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "AIR PRODUCTS & CHEMICALS",
+   "idx": 210,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ADVANCE AUTO PARTS",
+   "idx": 211,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "AMEREN CORP",
+   "idx": 212,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "AMAZON.COM INC",
+   "idx": 213,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "AMPHENOL CORP",
+   "idx": 214,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ANSYS INC",
+   "idx": 215,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "APTARGROUP INC",
+   "idx": 216,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "APPLE INC",
+   "idx": 217,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ASPEN TECHNOLOGY",
+   "idx": 218,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "BANK OF AMERICA CORP",
+   "idx": 219,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "BLACKSTONE INC",
+   "idx": 220,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CINTAS CORP",
+   "idx": 221,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CITIGROUP INC",
+   "idx": 222,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "CONOCOPHILLIPS",
+   "idx": 223,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "COOPER COS INC",
+   "idx": 224,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "DANAHER CORP",
+   "idx": 225,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "DOVER CORP",
+   "idx": 226,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "EQUIFAX INC",
+   "idx": 227,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "L3 HARRIS TECHNOLOGIES INC",
+   "idx": 228,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "HOME DEPOT",
+   "idx": 229,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "JPMORGAN CHASE & CO",
+   "idx": 230,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "JONES LANG LASALLE INC COM",
+   "idx": 231,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "LAB CORP OF AMER HLDGS NEW",
+   "idx": 232,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "S&P GLOBAL INC",
+   "idx": 233,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "MICROSOFT CORP",
+   "idx": 234,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "MSCI INC",
+   "idx": 235,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "NASDAQ INC",
+   "idx": 236,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "NIKE INC CL B",
+   "idx": 237,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "PEPSICO INC",
+   "idx": 238,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "PIONEER NATURAL RESOURCES",
+   "idx": 239,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ROSS STORES INC",
+   "idx": 240,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SCHWAB CHARLES CORP NEW",
+   "idx": 241,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SYNOPSYS INC",
+   "idx": 242,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SMITH A O CORP",
+   "idx": 243,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "TELEFLEX INC",
+   "idx": 244,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "TEXAS INSTRUMENTS INC",
+   "idx": 245,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "THERMO FISHER SCIENTIFIC",
+   "idx": 246,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "UNITEDHEALTH GROUP INC",
+   "idx": 247,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "UNION PACIFIC CORP",
+   "idx": 248,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "VISA INC",
+   "idx": 249,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "WEX INC",
+   "idx": 250,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "DOLLARAMA INC",
+   "idx": 251,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "SAFRAN SA",
+   "idx": 252,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "APTIV PLC",
+   "idx": 253,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "STERIS PLC",
+   "idx": 254,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "SEA LTD ADR",
+   "idx": 255,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "NICE LTD ADR",
+   "idx": 256,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "RENTOKIL INITIAL PLC",
+   "idx": 257,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "LVMH MOET HENNESSY VUITTON",
+   "idx": 258,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ASML HOLDING",
+   "idx": 259,
+   "owner": "SELF",
+   "tx_date": "2021-06-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "TENCENT HOLDINGS LTD",
+   "idx": 260,
+   "owner": "SELF",
+   "tx_date": "2021-06-15",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/56E9925D4A691F508525874A002E586E/$FILE/Eric-S-Lander-08.25.2021-278T.pdf"
+}

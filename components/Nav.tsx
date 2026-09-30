@@ -5,7 +5,9 @@ import { usePathname } from "next/navigation";
 
 export default function Nav({ items }: { items: { href: string; label: string; match: string[] }[] }) {
   const path = usePathname() || "";
-  const seg = path.split("/")[2] ?? "";
+  const parts = path.split("/");
+  // executive officials share the member page but belong to the "Executive" tab
+  const seg = parts[2] === "member" && (parts[3] ?? "").startsWith("E-") ? "executive" : parts[2] ?? "";
   return (
     <nav className="flex gap-1 overflow-x-auto text-sm">
       {items.map((it) => {

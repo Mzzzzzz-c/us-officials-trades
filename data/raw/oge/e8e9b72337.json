@@ -1,0 +1,649 @@
+{
+ "added": "2025-09-06",
+ "agency": "Council of Economic Advisers",
+ "amended": false,
+ "doc": "e8e9b72337",
+ "kind": "278 Transaction",
+ "name": "Miran, Stephen I",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Member & Chairman",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Abbott Laboratories",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Adobe Inc",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Advanced Drainage System Inc",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Alcon Inc",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Alphabet Inc",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Amazon.com Inc",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Applied Materials Inc",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "AptaraGroup Inc",
+   "idx": 7,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Arista Networks Inc",
+   "idx": 8,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Arthur J. Gallagher & Co",
+   "idx": 9,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Automatic Data Processing Inc",
+   "idx": 10,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Berkshire Hathaway Inc",
+   "idx": 11,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Booking Holdings Inc",
+   "idx": 12,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Bright Horizons Family Solutions",
+   "idx": 13,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Brown & Brown Inc",
+   "idx": 14,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Bruker Corp",
+   "idx": 15,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Cadence Design Systems Inc",
+   "idx": 16,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "CBRE Group",
+   "idx": 17,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Costco Whotesale Corp",
+   "idx": 18,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Darling Ingredients Inc",
+   "idx": 19,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Entegris Inc",
+   "idx": 20,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "GFL Environmental",
+   "idx": 21,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Globant SA",
+   "idx": 22,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Guidewire Software Inc",
+   "idx": 23,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "GXO Logistics Incorporated",
+   "idx": 24,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Heico Corp",
+   "idx": 25,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Icon PLC",
+   "idx": 26,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "KLA Corporation",
+   "idx": 27,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Linde PLC",
+   "idx": 28,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "LPL Financial Holdings Inc",
+   "idx": 29,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Mastercard Incorporated",
+   "idx": 30,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Microsoft Corp",
+   "idx": 31,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Nike Inc",
+   "idx": 32,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Oracle Corp",
+   "idx": 33,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Otis Worldwide Corporation",
+   "idx": 34,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Progressive Corp Ohio",
+   "idx": 35,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "S&P Global Inc",
+   "idx": 36,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Shift4 Payments Inc",
+   "idx": 37,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Take-Two Interactive Software",
+   "idx": 38,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Texas Instruments Inc",
+   "idx": 39,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Thermo Fisher Scientific Inc",
+   "idx": 40,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Toro Co",
+   "idx": 41,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "ULSolutions Inc",
+   "idx": 42,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Unlted Health Group",
+   "idx": 43,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Vulcan Materials Co",
+   "idx": 44,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Waste Management Inc",
+   "idx": 45,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Watsco Inc",
+   "idx": 46,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "West Pharmaceutical Services Inc",
+   "idx": 47,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Willscot Mobile Mini Holdings Co",
+   "idx": 48,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Wyndham Hotels & Resorts Inc",
+   "idx": 49,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Zebra Technologies Corp",
+   "idx": 50,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Zoetis lnc",
+   "idx": 51,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Eli Lilly & Co",
+   "idx": 52,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Keysight Technologies Inc",
+   "idx": 53,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Novo Nordisk",
+   "idx": 54,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NVR Inc",
+   "idx": 55,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Proctor & Gamble",
+   "idx": 56,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "VanEck Vectors Short High-Yield Municipal Index ETF (SHYD) $250,000",
+   "asset_type": "EF",
+   "idx": 57,
+   "owner": "SELF",
+   "ticker": "SHYD",
+   "tx_date": "2025-06-13",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Financial Select Sector SPDR Fund (XLF)",
+   "asset_type": "EF",
+   "idx": 58,
+   "owner": "SELF",
+   "ticker": "XLF",
+   "tx_date": "2025-06-05",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "iShares Transportation Average ETF (IYT)",
+   "asset_type": "EF",
+   "idx": 59,
+   "owner": "SELF",
+   "ticker": "IYT",
+   "tx_date": "2025-06-05",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "FNMA (Fannie Mae)",
+   "idx": 60,
+   "owner": "SELF",
+   "tx_date": "2025-06-05",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "iShares 20+ Year Treasury Bond ETF (TLT)",
+   "asset_type": "GS",
+   "idx": 61,
+   "owner": "SELF",
+   "tx_date": "2025-05-20",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "VanEck Vectors Short High-Yield Municipal Index ETF (SHYD) $250,000",
+   "asset_type": "EF",
+   "idx": 62,
+   "owner": "SELF",
+   "ticker": "SHYD",
+   "tx_date": "2025-04-15",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Financial Select Sector SPDR Fund (XLF)",
+   "asset_type": "EF",
+   "idx": 63,
+   "owner": "SELF",
+   "ticker": "XLF",
+   "tx_date": "2025-05-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "iShares 20+ Year Treasury Bond ETF (TLT)",
+   "asset_type": "GS",
+   "idx": 64,
+   "owner": "SELF",
+   "tx_date": "2025-05-16",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "FNMA (Fannie Mae)",
+   "idx": 65,
+   "owner": "SELF",
+   "tx_date": "2025-05-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "S&P 500 Future, closed",
+   "idx": 66,
+   "owner": "SELF",
+   "tx_date": "2025-05-02",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "S&P 500 futures option, opened",
+   "idx": 67,
+   "owner": "SELF",
+   "tx_date": "2025-03-05",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "S&P 500 future, opened",
+   "idx": 68,
+   "owner": "SELF",
+   "tx_date": "2025-03-05",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/2C347E1E940D65A885258CFD002C0504/$FILE/Stephen-I-Miran-07.21.2025-278T.pdf"
+}

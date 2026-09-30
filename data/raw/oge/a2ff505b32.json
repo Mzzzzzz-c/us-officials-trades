@@ -1,0 +1,116 @@
+{
+ "added": "2025-12-10",
+ "agency": "Department of Commerce",
+ "amended": false,
+ "doc": "a2ff505b32",
+ "kind": "278 Transaction",
+ "name": "Lutnick, Howard",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Cantor Fitzgerald, L.P See Endnote",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2025-10-06",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "CF Group Management, Inc. See Endnote",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2025-10-06",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "BGC Group, Inc. (BGC) Class B See Endnote",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "BGC",
+   "tx_date": "2025-10-06",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Tangible Benefits, LLC See Endnote",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2025-10-06",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "KBCR Management Partners, LLC See Endnote",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2025-10-06",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "LFA, LLC See Endnote",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2025-10-06",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Shares in Retirement Accounts (BGC) See Endnote",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "BGC",
+   "tx_date": "2025-10-06",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Shares in Retirement Accounts (NMRK) See Endnote",
+   "asset_type": "ST",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "NMRK",
+   "tx_date": "2025-10-06",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Shares in Retirement Accounts (BGC) See Endnote",
+   "asset_type": "ST",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": "BGC",
+   "tx_date": "2025-10-06",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Shares in Retirement Accounts (NMRK) See Endnote",
+   "asset_type": "ST",
+   "idx": 9,
+   "owner": "SELF",
+   "ticker": "NMRK",
+   "tx_date": "2025-10-06",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/8C12E5475578E84385258D5C00345940/$FILE/Howard-Lutnick-11.05.2025-278T.pdf"
+}

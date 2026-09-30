@@ -1,0 +1,47 @@
+{
+ "added": "2022-08-03",
+ "agency": "Department of Transportation",
+ "amended": false,
+ "doc": "54daa0d0f7",
+ "kind": "278 Transaction",
+ "name": "Fernandez, Nuria",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Transit Administration",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Bank of America Corp. (BAC)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "BAC",
+   "tx_date": "2022-05-17",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "DSDVY - DSV A S American Depository Receipts",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2022-05-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BlackRock, Inc. (BLK)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "BLK",
+   "tx_date": "2022-05-17",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/D2F318F5577B091585258893002ECE02/$FILE/Nuria-Fernandez-06.01.2022-278T.pdf"
+}

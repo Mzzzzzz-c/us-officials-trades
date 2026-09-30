@@ -1,0 +1,157 @@
+# Executive branch officials (OGE filings). Keys are "lastname-firstname" as built from OGE's
+# "Last, First M" names. `zh`: Chinese name; `party`: R / D / I when the office is political;
+# `bioguide`: their Congress ID if they also served in Congress (links the two pages).
+# Anyone who files a public 278-T is included automatically; entries here only add details.
+people:
+  trump-donald: {zh: "唐纳德·特朗普", en: "Donald J. Trump", party: R}
+  vance-jd: {zh: "J·D·万斯", en: "JD Vance", party: R, bioguide: V000137, always: true}
+  bessent-scott: {zh: "斯科特·贝森特", party: R}
+  lutnick-howard: {zh: "霍华德·卢特尼克", party: R}
+  hegseth-pete: {zh: "皮特·赫格塞斯", party: R}
+  kennedy-robert: {zh: "小罗伯特·F·肯尼迪", en: "Robert F. Kennedy Jr.", party: R}
+  bondi-pam: {zh: "帕姆·邦迪", party: R}
+  noem-kristi: {zh: "克里斯蒂·诺姆", party: R}
+  gabbard-tulsi: {zh: "图尔西·加巴德", party: R, bioguide: G000571}
+  burgum-douglas: {zh: "道格·伯古姆", en: "Doug Burgum", party: R}
+  duffy-sean: {zh: "肖恩·达菲", party: R, bioguide: D000614}
+  wright-christopher: {zh: "克里斯·赖特", en: "Chris Wright", party: R}
+  mcmahon-linda: {zh: "琳达·麦克马洪", party: R}
+  turner-eric: {zh: "斯科特·特纳", en: "Scott Turner", party: R}
+  zeldin-lee: {zh: "李·泽尔丁", party: R, bioguide: Z000017}
+  chavez-deremer-lori: {zh: "洛丽·查韦斯-德雷默", party: R, bioguide: C001135}
+  mullin-markwayne: {zh: "马克韦恩·马林", party: R, bioguide: M001190}
+  isaacman-jared: {zh: "贾里德·艾萨克曼"}
+  kupor-scott: {zh: "斯科特·库珀"}
+  phelan-john: {zh: "约翰·费伦"}
+  kratsios-michael: {zh: "迈克尔·克拉西奥斯"}
+  mcmaster-sean: {zh: "肖恩·麦克马斯特"}
+  bisignano-frank: {zh: "弗兰克·比西尼亚诺"}
+  bedford-bryan: {zh: "布莱恩·贝德福德"}
+  warsh-kevin: {zh: "凯文·沃什"}
+  miran-stephen: {zh: "斯蒂芬·米兰"}
+  faulkender-michael: {zh: "迈克尔·福尔肯德"}
+  macgregor-katharine: {zh: "凯瑟琳·麦格雷戈"}
+  landau-christopher: {zh: "克里斯托弗·兰道"}
+  blanche-todd: {zh: "托德·布兰奇"}
+  lawrence-paul: {zh: "保罗·劳伦斯"}
+  sonderling-keith: {zh: "基思·松德林"}
+  edgar-troy: {zh: "特洛伊·埃德加"}
+  ueland-eric: {zh: "埃里克·尤兰"}
+  bailey-sara: {zh: "萨拉·贝利"}
+  vaden-stephen: {zh: "斯蒂芬·韦登"}
+  mody-arjun: {zh: "阿尔琼·莫迪"}
+  # Biden administration
+  granholm-jennifer: {zh: "詹妮弗·格兰霍姆", party: D}
+  yellen-janet: {zh: "珍妮特·耶伦", party: D}
+  blinken-antony: {zh: "安东尼·布林肯", party: D}
+  austin-lloyd: {zh: "劳埃德·奥斯汀", party: D}
+  garland-merrick: {zh: "梅里克·加兰", party: D}
+  raimondo-gina: {zh: "吉娜·雷蒙多", party: D}
+  haaland-debra: {zh: "黛布·哈兰", en: "Deb Haaland", party: D, bioguide: H001080}
+  vilsack-thomas: {zh: "汤姆·维尔萨克", en: "Tom Vilsack", party: D}
+  mcdonough-denis: {zh: "丹尼斯·麦克多诺", party: D}
+  fernandez-nuria: {zh: "努里亚·费尔南德斯"}
+  criswell-deanne: {zh: "迪安娜·克里斯韦尔"}
+  sherman-wendy: {zh: "温迪·舍曼"}
+  gupta-rahul: {zh: "拉胡尔·古普塔"}
+  remy-donald: {zh: "唐纳德·雷米"}
+  whitaker-michael: {zh: "迈克尔·惠特克"}
+  del-toro-carlos: {zh: "卡洛斯·德尔托罗"}
+  palm-andrea: {zh: "安德烈娅·帕姆"}
+  inglis-john: {zh: "约翰·英格利斯", en: "Chris Inglis"}
+  dixon-stacey: {zh: "斯泰西·迪克森"}
+  abizaid-christine: {zh: "克里斯汀·阿比扎伊德"}
+  lander-eric: {zh: "埃里克·兰德"}
+  kugler-adriana: {zh: "阿德里安娜·库格勒"}
+  beaudreau-tommy: {zh: "汤米·博德罗"}
+  adeyemo-adewale: {zh: "阿德瓦莱·阿德耶莫"}
+  burns-william: {zh: "威廉·伯恩斯"}
+  albright-alice: {zh: "爱丽丝·奥尔布赖特"}
+  nelson-clarence: {zh: "比尔·纳尔逊", en: "Bill Nelson", party: D, bioguide: N000032}
+  bhatt-shailen: {zh: "沙伦·巴特"}
+  prabhakar-arati: {zh: "阿拉蒂·普拉巴卡尔"}
+  powell-jerome: {zh: "杰罗姆·鲍威尔"}
+  jefferson-philip: {zh: "菲利普·杰斐逊"}
+  coloretti-nani: {zh: "娜尼·科洛雷蒂"}
+  kendall-frank: {zh: "弗兰克·肯德尔"}
+  power-samantha: {zh: "萨曼莎·鲍尔"}
+  monaco-lisa: {zh: "丽莎·摩纳哥"}
+  miller-jason: {zh: "杰森·米勒"}
+  rouse-cecilia: {zh: "塞西莉亚·劳斯"}
+  panchanathan-sethuraman: {zh: "塞图拉曼·潘查纳坦"}
+  quarles-randal: {zh: "兰德尔·夸尔斯"}
+  # first Trump administration
+  saul-andrew: {zh: "安德鲁·索尔"}
+  barrett-barbara: {zh: "芭芭拉·巴雷特"}
+  menezes-mark: {zh: "马克·梅内塞斯"}
+  devos-elisabeth: {zh: "贝琪·德沃斯", en: "Betsy DeVos", party: R}
+  ross-wilbur: {zh: "威尔伯·罗斯", party: R}
+  chao-elaine: {zh: "赵小兰", party: R}
+  zais-mitchell: {zh: "米切尔·蔡斯"}
+
+# Job titles as OGE writes them -> Chinese
+titles_zh:
+  President: "总统"
+  Vice President: "副总统"
+  Secretary: "部长"
+  Secretary 2: "部长"
+  Deputy Secretary: "常务副部长"
+  Deputy Secretary 2: "常务副部长"
+  Under Secretary: "副部长"
+  Under Secretary for Benefits: "负责福利事务的副部长"
+  Attorney General: "司法部长"
+  Deputy Attorney General: "常务副司法部长"
+  Administrator: "局长"
+  "Administrator, Federal Aviation Administration": "联邦航空管理局局长"
+  "Administrator, Federal Emergency Management Agency": "联邦紧急事务管理署署长"
+  "Administrator, Federal Highway Administration": "联邦公路管理局局长"
+  "Administrator, Federal Transit Administration": "联邦公共交通管理局局长"
+  Director: "主任"
+  "Director, National Counterterrorism Center": "国家反恐中心主任"
+  Deputy Director: "副主任"
+  Deputy Director for Management: "负责管理事务的副主任"
+  Principal Deputy Director of National Intelligence: "国家情报首席副总监"
+  Commissioner: "局长"
+  Deputy Commissioner: "副局长"
+  Governor: "理事"
+  Governor & Chairman: "理事兼主席"
+  Governor & Vice Chairman: "理事兼副主席"
+  Governor & Vice Chairman for Supervision: "理事兼负责监管的副主席"
+  Member & Chairman: "主席"
+  Chief Executive Officer: "首席执行官"
+
+agencies_zh:
+  White House Office: "白宫"
+  Office of the Vice President: "副总统办公室"
+  Department of The Treasury: "财政部"
+  Department of Commerce: "商务部"
+  Department of Defense/Office of The Secretary: "国防部"
+  Department of State: "国务院（外交部）"
+  Department of Justice: "司法部"
+  Department of Health and Human Services: "卫生与公众服务部"
+  Department of Homeland Security: "国土安全部"
+  Department of The Interior: "内政部"
+  Department of Transportation: "交通部"
+  Department of Energy: "能源部"
+  Department of Education: "教育部"
+  Department of Housing and Urban Development: "住房和城市发展部"
+  Department of Labor: "劳工部"
+  Department of Agriculture: "农业部"
+  Department of Veterans Affairs: "退伍军人事务部"
+  Department of The Navy: "海军部"
+  Department of The Air Force: "空军部"
+  Environmental Protection Agency: "环境保护署"
+  National Aeronautics and Space Administration: "美国国家航空航天局（NASA）"
+  Office of Personnel Management: "人事管理局"
+  Office of Science and Technology Policy: "白宫科技政策办公室"
+  Office of Management and Budget: "白宫管理和预算办公室"
+  Office of National Drug Control Policy: "国家毒品管制政策办公室"
+  Office of Director of National Intelligence: "国家情报总监办公室"
+  Office of the National Cyber Director: "国家网络总监办公室"
+  Federal Reserve System Board of Governors: "美联储理事会"
+  Council of Economic Advisers: "白宫经济顾问委员会"
+  Social Security Administration: "社会保障局"
+  Central Intelligence Agency: "中央情报局"
+  Agency for International Development (AID): "美国国际开发署"
+  Millennium Challenge Corporation: "千年挑战公司"
+  National Science Foundation: "国家科学基金会"

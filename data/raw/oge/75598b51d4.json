@@ -1,0 +1,152 @@
+{
+ "added": "2025-11-27",
+ "agency": "Department of The Interior",
+ "amended": false,
+ "doc": "75598b51d4",
+ "kind": "278 Transaction",
+ "name": "Burgum, Douglas J",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures V, LP See Endnote",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2025-09-04",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures V, LP See Endnote",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2025-09-04",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures Growth IV, LP See Endnote",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2025-08-21",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures Growth IV, LP See Endnote",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2025-08-21",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures V, LP - Zizzle Health See Endnote",
+   "idx": 4,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-07-25",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures V, LP - Senior Sign See Endnote",
+   "idx": 5,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-07-25",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures Growth IV, LP - Giving Data See Endnote Holdings, Inc. $250,000",
+   "idx": 6,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-07-25",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures Growth IV, LP - Giving Data See Endnote Holdings, Inc",
+   "idx": 7,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-07-25",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures Growth IV, LP - Foundant See Endnote Technologies $250,000",
+   "idx": 8,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-07-25",
+   "type": "E"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures Growth IV, LP - Foundant See Endnote Technologies",
+   "idx": 9,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-07-25",
+   "type": "E"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures Growth IV, LP - Office Puzzle See Endnote Holdings, Inc. $250,000",
+   "idx": 10,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-07-25",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures Growth IV, LP - Office Puzzle See Endnote Holdings, Inc",
+   "idx": 11,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-07-25",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures Growth IV, LP - CertifID, Inc. See Endnote",
+   "idx": 12,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-07-25",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures Growth IV, LP - CertifID, Inc. See Endnote",
+   "idx": 13,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-07-25",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/7C0B79B66E94715885258D4F00317C5D/$FILE/Doug-Burgum-09.18.2025-278T.pdf"
+}

@@ -1,0 +1,25 @@
+{
+ "added": "2022-12-09",
+ "agency": "Department of Health and Human Services",
+ "amended": false,
+ "doc": "6811adbad7",
+ "kind": "278 Transaction",
+ "name": "Palm, Andrea",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Deputy Secretary",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Wisconsin Retirement System, 401(a) plan: The See Endnote Core Fund",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2022-11-15",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/EC948FCCABEA0BE58525891300729712/$FILE/Andrea-Palm-11.22.2022-278T.pdf"
+}

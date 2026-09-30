@@ -68,6 +68,8 @@ SEC 要求自动抓取时留联系邮箱。邮箱放在私密的 Secret 里，�
 | --- | --- |
 | 增删知名投资人 | `config/investors.yaml`（在 SEC EDGAR 查到机构的 CIK 编号，照格式加一条） |
 | 官员中文译名 | `config/names_zh.yaml`（格式：`BioGuide编号: "中文名"`；编号可在官员页网址里看到） |
+| 行政官员中文名、党派 | `config/executive.yaml`（格式：`姓-名: {zh: "中文名", party: R}`；新官员有交易报告时会自动出现，这里只补充中文信息） |
+| 总统报告里公司名匹配错误 | `config/oge_tickers.yaml`（格式：`"报告里的公司名": 股票代码`） |
 | 公司中文名 | `config/tickers_zh.yaml`（格式：`股票代码: "中文名"`；没列的显示英文名） |
 | 收录起始年份、收益窗口、行情源 | `config/settings.yaml` |
 | 某位官员匹配错误 | 查看 `data/review.json` 里未匹配的申报人，在 `config/name_matches.yaml` 里手动指定 |

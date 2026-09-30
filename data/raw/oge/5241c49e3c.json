@@ -1,0 +1,126 @@
+{
+ "added": "2026-04-09",
+ "agency": "Department of Transportation",
+ "amended": false,
+ "doc": "5241c49e3c",
+ "kind": "278 Transaction",
+ "name": "Bedford, Bryan",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Aviation Administration",
+ "transactions": [
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "Republic Airways Holdings Inc",
+   "idx": 0,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-10-21",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Republic Airways Holdings Inc. (RJET) See Endnote",
+   "asset_type": "ST",
+   "idx": 1,
+   "late_notice": true,
+   "owner": "SELF",
+   "ticker": "RJET",
+   "tx_date": "2026-01-20",
+   "type": "E"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Republic Airways Holdings Inc. (RJET)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "RJET",
+   "tx_date": "2026-02-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Republic Airways Holdings Inc. (RJET)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "RJET",
+   "tx_date": "2026-02-17",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Republic Airways Holdings Inc. (RJET)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "RJET",
+   "tx_date": "2026-02-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Republic Airways Holdings Inc. (RJET)",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "RJET",
+   "tx_date": "2026-02-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Republic Airways Holdings Inc. (RJET)",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "RJET",
+   "tx_date": "2026-02-19",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Republic Airways Holdings Inc. (RJET)",
+   "asset_type": "ST",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "RJET",
+   "tx_date": "2026-02-19",
+   "type": "S"
+  },
+  {
+   "amount_max": 25000000,
+   "amount_min": 5000001,
+   "asset": "Republic Airways Holdings Inc. (RJET)",
+   "asset_type": "ST",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": "RJET",
+   "tx_date": "2026-02-20",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Republic Airways Holdings Inc. (RJET)",
+   "asset_type": "ST",
+   "idx": 9,
+   "owner": "SELF",
+   "ticker": "RJET",
+   "tx_date": "2026-02-20",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/EC797C6A3CC5ABA085258DD4002D9D81/$FILE/Bryan-Bedford-02.27.2026-278T.pdf"
+}

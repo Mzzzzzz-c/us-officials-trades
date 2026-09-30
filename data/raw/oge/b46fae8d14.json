@@ -1,0 +1,148 @@
+{
+ "added": "2025-06-03",
+ "agency": "Office of Director of National Intelligence",
+ "amended": false,
+ "doc": "b46fae8d14",
+ "kind": "278 Transaction",
+ "name": "Gabbard, Tulsi",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Crypto: CRO",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2025-05-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Crypto: SOL",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2025-05-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Crypto: ETH",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2025-05-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Crypto: BTC",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2025-05-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Apple",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2025-05-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "NVIDIA Corp. (NVDA)",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "NVDA",
+   "tx_date": "2025-05-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BTC ETF",
+   "asset_type": "EF",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2025-05-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "RumbleOn Inc. Class B Common Stock (RMBL)",
+   "asset_type": "ST",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "RMBL",
+   "tx_date": "2025-05-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Tesla, Inc. (TSLA)",
+   "asset_type": "ST",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": "TSLA",
+   "tx_date": "2025-05-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Vanguard 500 Index Fund ETF Shares (VOO)",
+   "asset_type": "EF",
+   "idx": 9,
+   "owner": "SELF",
+   "ticker": "VOO",
+   "tx_date": "2025-05-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Vanguard Extended Market Index Fund ETF Shares (VXF) $100,000",
+   "asset_type": "EF",
+   "idx": 10,
+   "owner": "SELF",
+   "ticker": "VXF",
+   "tx_date": "2025-05-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Vanguard Total Stock Market Index Fund ETF Class Shares (VTI) $100,000",
+   "asset_type": "EF",
+   "idx": 11,
+   "owner": "SELF",
+   "ticker": "VTI",
+   "tx_date": "2025-05-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Vanguard Total International Stock Index Fund ETF Shares (VXUS) $100,000",
+   "asset_type": "EF",
+   "idx": 12,
+   "owner": "SELF",
+   "ticker": "VXUS",
+   "tx_date": "2025-05-14",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/B4CE0F89A53C856485258C9E002C8AF2/$FILE/Tulsi-Gabbard-05.21.2025-278T.pdf"
+}

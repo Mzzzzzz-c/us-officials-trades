@@ -1,0 +1,47 @@
+{
+ "added": "2021-10-01",
+ "agency": "Social Security Administration",
+ "amended": false,
+ "doc": "ce6f6bb767",
+ "kind": "278 Transaction",
+ "name": "Saul, Andrew",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Commissioner",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Prosus NV Bearer (PROSF See Endnote",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2021-07-07",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Prosus NV Bearer (PROSF) See Endnote",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "PROSF",
+   "tx_date": "2021-07-07",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Prosus NV Bearer (PROSF) See Endnote",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "PROSF",
+   "tx_date": "2021-07-08",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/3ED1E4FDFC6C216285258761002E59E5/$FILE/Andrew-Saul-08.12.2021-278T.pdf"
+}

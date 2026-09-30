@@ -1,0 +1,198 @@
+{
+ "added": "2026-05-21",
+ "agency": "Department of The Interior",
+ "amended": false,
+ "doc": "0c6e156f4d",
+ "kind": "278 Transaction",
+ "name": "Burgum, Douglas J",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures IV, LP See Endnote",
+   "idx": 0,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-12-22",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures IV, LP See Endnote",
+   "idx": 1,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-12-22",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures III, LP - PureSpectrum (market See Endnote research platform) $5,000,000",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2026-01-22",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures Growth IV, LP - PureSpectrum See Endnote (market research platform) $250,000",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2026-01-22",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures Growth III, LP - PureSpectrum See Endnote (market research platform) $500,000",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2026-01-22",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures Growth III, LP - PureSpectrum See Endnote (market research platform) (Roth IRA) $250,000",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2026-01-22",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures Growth IV, LP - PureSpectrum See Endnote (market research platform)",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2026-01-22",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures V, LP - Opterrix (Risk intelligence See Endnote platform)",
+   "idx": 7,
+   "owner": "SELF",
+   "tx_date": "2026-01-27",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures V, LP - Opterrix (Risk intelligence See Endnote platform)",
+   "idx": 8,
+   "owner": "SELF",
+   "tx_date": "2026-01-27",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures V, LP - Aqua (Turnkey alternative See Endnote investment platform)",
+   "idx": 9,
+   "owner": "SELF",
+   "tx_date": "2026-01-27",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures V, LP - Aqua (Turnkey alternative See Endnote investment platform)",
+   "idx": 10,
+   "owner": "SELF",
+   "tx_date": "2026-01-27",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures V, LP - Streamline (platform See Endnote services) $100,000",
+   "idx": 11,
+   "owner": "SELF",
+   "tx_date": "2026-01-27",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures V, LP - Streamline (platform See Endnote services)",
+   "idx": 12,
+   "owner": "SELF",
+   "tx_date": "2026-01-27",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures V, LP - CivicPlus (Software See Endnote solutions) $100,000",
+   "idx": 13,
+   "owner": "SELF",
+   "tx_date": "2026-01-27",
+   "type": "E"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures V, LP - CivicPlus (Software See Endnote solutions)",
+   "idx": 14,
+   "owner": "SELF",
+   "tx_date": "2026-01-27",
+   "type": "E"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures V, LP - Payroll Integrations See Endnote (employee benefits recordkeeper)",
+   "idx": 15,
+   "owner": "SELF",
+   "tx_date": "2026-01-27",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures V, LP - Payroll Integrations See Endnote (employee benefits recordkeeper)",
+   "idx": 16,
+   "owner": "SELF",
+   "tx_date": "2026-01-27",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures V, LP - Circadian Risk (Security See Endnote risk assessment software)",
+   "idx": 17,
+   "owner": "SELF",
+   "tx_date": "2026-01-27",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures IV, LP - Gridbase (formerly See Endnote IamGIS) (software)",
+   "idx": 18,
+   "owner": "SELF",
+   "tx_date": "2026-01-27",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures IV, LP - Gridbase (formerly See Endnote IamGIS) (software) (Roth IRA)",
+   "idx": 19,
+   "owner": "SELF",
+   "tx_date": "2026-01-27",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/4AFD3C0AAAA300E285258DFE002D984E/$FILE/Douglas-J-Burgum-02.27.2026-278T.pdf"
+}

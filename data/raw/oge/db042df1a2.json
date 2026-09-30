@@ -1,0 +1,27 @@
+{
+ "added": "2022-03-08",
+ "agency": "Office of National Drug Control Policy",
+ "amended": false,
+ "doc": "db042df1a2",
+ "kind": "278 Transaction",
+ "name": "Gupta, Rahul",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Walmart, Inc. (WMT)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "WMT",
+   "tx_date": "2022-01-26",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/C2202539AAD78BD0852587FF0033C425/$FILE/Rahul-Gupta-02.02.2022-278T.pdf"
+}

@@ -1,0 +1,27 @@
+{
+ "added": "2023-08-15",
+ "agency": "Department of Homeland Security",
+ "amended": false,
+ "doc": "a69d13a502",
+ "kind": "278 Transaction",
+ "name": "Criswell, Deanne",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Emergency Management Agency",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "NVIDIA Corp. (NVDA)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "NVDA",
+   "tx_date": "2023-06-09",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/9186734EDFB39F6085258A0C002EF245/$FILE/Deanne-Criswell-06.09.2023-278T.pdf"
+}

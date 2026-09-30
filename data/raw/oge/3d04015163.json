@@ -1,0 +1,88 @@
+{
+ "added": "2026-03-26",
+ "agency": "Department of The Navy",
+ "amended": false,
+ "doc": "3d04015163",
+ "kind": "278 Transaction",
+ "name": "Phelan, John",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "MSD Real Estate Credit Opportunity Fund II",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2025-08-20",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "HealthQuest Tactical Opportunities Fund",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2025-08-26",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "RCP GP Fund II LP",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2025-08-14",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Turnbridge Real Estate Fund II",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2025-08-12",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Dawson Portfolio Finance 5 LP",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2025-08-29",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SRP Continuation Partners LP",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2025-08-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "RCG Momentum LP",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2025-08-14",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "RCG Ventures Fund VIII",
+   "idx": 7,
+   "owner": "SELF",
+   "tx_date": "2025-08-01",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/F6D5E76DFD84296785258DC6002DC61D/$FILE/John-Phelan-10.02.2025-278T(2).pdf"
+}

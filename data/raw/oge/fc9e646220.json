@@ -1,0 +1,27 @@
+{
+ "added": "2021-12-28",
+ "agency": "Department of The Interior",
+ "amended": false,
+ "doc": "fc9e646220",
+ "kind": "278 Transaction",
+ "name": "Haaland, Debra A",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PlayAGS, Inc. (AGS)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "AGS",
+   "tx_date": "2021-11-02",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/7DBFEF2C8DD162CD852587B90033C782/$FILE/Debra-A-Haaland-12.07.2021-278T.pdf"
+}

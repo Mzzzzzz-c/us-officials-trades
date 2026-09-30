@@ -1,0 +1,27 @@
+{
+ "added": "2026-04-01",
+ "agency": "Department of Education",
+ "amended": false,
+ "doc": "4665c91ffb",
+ "kind": "278 Transaction",
+ "name": "McMahon, Linda E",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Trump Media & Tech Group Corp (DJT)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "DJT",
+   "tx_date": "2025-06-12",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/6439C8BBFB85065585258DCC002DC69B/$FILE/Linda-McMahon-07.02.2025-278T.pdf"
+}

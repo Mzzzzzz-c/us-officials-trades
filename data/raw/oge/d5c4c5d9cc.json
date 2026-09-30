@@ -1,0 +1,79 @@
+{
+ "added": "2022-11-22",
+ "agency": "Millennium Challenge Corporation",
+ "amended": false,
+ "doc": "d5c4c5d9cc",
+ "kind": "278 Transaction",
+ "name": "Albright, Alice",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Chief Executive Officer",
+ "transactions": [
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "DELAWARE VALUE FUND CL A",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2022-09-29",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "BLACKROCK GLOBALAL LOCATION FD INC A",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2022-09-29",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ALGER SPECTRA FUND CL A",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2022-09-29",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "AMERICAN BALANCED FUND INC CL A",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2022-09-29",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "INVESCO GLOBAL FUND CL A",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2022-09-29",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "LORD ABBETT MID CAP STOCK FUND CL A",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2022-09-29",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "AMERICAN GROWTH FUND OF AMERICA CL A",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2022-09-29",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/AC7744B00F48FC8385258902003439F9/$FILE/Alice-Albright-10.24..2022-278T.pdf"
+}

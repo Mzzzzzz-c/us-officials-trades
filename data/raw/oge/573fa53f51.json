@@ -1,0 +1,49 @@
+{
+ "added": "2026-08-21",
+ "agency": "Office of Personnel Management",
+ "amended": false,
+ "doc": "573fa53f51",
+ "kind": "278 Transaction",
+ "name": "Kupor, Scott A",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Okta, Inc. (OKTA) See Endnote",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "OKTA",
+   "tx_date": "2026-07-17",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Okta, Inc. (OKTA) See Endnote",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "OKTA",
+   "tx_date": "2026-07-17",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Robinhood Markets Inc. Class A Common Stock See Endnote (HOOD) $250,000",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "HOOD",
+   "tx_date": "2026-07-17",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/7B58D078A7F838FE85258E5A002DB8C1/$FILE/Scott-A-Kupor-07.20.2026-278T.pdf"
+}

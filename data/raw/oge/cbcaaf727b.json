@@ -1,0 +1,35 @@
+{
+ "added": "2026-04-01",
+ "agency": "Department of Energy",
+ "amended": false,
+ "doc": "cbcaaf727b",
+ "kind": "278 Transaction",
+ "name": "Wright, Christopher A",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "GS Three, LLC See Endnote",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2026-01-02",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Westside Link LLC See Endnote",
+   "idx": 1,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-12-01",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/22F95E0EAFBF6F1D85258DCC002DDF75/$FILE/Christopher-A-Wright-01.13.2026-278T.pdf"
+}

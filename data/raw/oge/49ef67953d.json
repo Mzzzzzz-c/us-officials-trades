@@ -1,0 +1,26 @@
+{
+ "added": "2021-11-23",
+ "agency": "Office of the National Cyber Director",
+ "amended": false,
+ "doc": "49ef67953d",
+ "kind": "278 Transaction",
+ "name": "Inglis, John C",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "Schwab Treasury Inflation Protected Securities Index Fund (SWRSX) $5,000,000",
+   "asset_type": "GS",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2021-10-13",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/CC6AD5C9FD56AC7F852587960033D1F6/$FILE/John-C-Inglis-11.14.2021-278T.pdf"
+}

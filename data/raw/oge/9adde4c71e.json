@@ -1,0 +1,181 @@
+{
+ "added": "2021-03-11",
+ "agency": "Department of The Treasury",
+ "amended": false,
+ "doc": "9adde4c71e",
+ "kind": "278 Transaction",
+ "name": "Yellen, Janet L",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "AT&T (T)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "T",
+   "tx_date": "2021-02-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Corteva, Inc. (CTVA)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "CTVA",
+   "tx_date": "2021-02-08",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Conoco Phillips (COP)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "COP",
+   "tx_date": "2021-02-08",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "The Chemours Co. (CC)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "CC",
+   "tx_date": "2021-02-08",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Dow, Inc. (DOW)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "DOW",
+   "tx_date": "2021-02-08",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "DuPont de Nemours, Inc. (DD)",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "DD",
+   "tx_date": "2021-02-08",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NCR Corp. (NCR)",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "NCR",
+   "tx_date": "2021-02-08",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Norfolk Southern Corp. (NSC)",
+   "asset_type": "ST",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "NSC",
+   "tx_date": "2021-02-08",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Office Depot, Inc. (ODP) See Endnote",
+   "asset_type": "ST",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": "ODP",
+   "tx_date": "2021-02-08",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Phillips 66 (PSX)",
+   "asset_type": "ST",
+   "idx": 9,
+   "owner": "SELF",
+   "ticker": "PSX",
+   "tx_date": "2021-02-08",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Pfizer Inc. (PFE)",
+   "asset_type": "ST",
+   "idx": 10,
+   "owner": "SELF",
+   "ticker": "PFE",
+   "tx_date": "2021-02-08",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Terradata (TDC)",
+   "asset_type": "ST",
+   "idx": 11,
+   "owner": "SELF",
+   "ticker": "TDC",
+   "tx_date": "2021-02-08",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Raytheon Co. (RTN)",
+   "asset_type": "ST",
+   "idx": 12,
+   "owner": "SELF",
+   "ticker": "RTN",
+   "tx_date": "2021-02-08",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Viatris (VTRS)",
+   "asset_type": "ST",
+   "idx": 13,
+   "owner": "SELF",
+   "ticker": "VTRS",
+   "tx_date": "2021-02-08",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BNY Mellon Dynamic Value Fund Class I Shares (DRGVX)",
+   "asset_type": "ST",
+   "idx": 14,
+   "owner": "SELF",
+   "ticker": "DRGVX",
+   "tx_date": "2021-02-08",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/BF7C42E603E505EE85258695003439E4/$FILE/Janet-L-Yellen-02.13.2021-278T.pdf"
+}

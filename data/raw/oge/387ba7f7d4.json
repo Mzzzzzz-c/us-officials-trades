@@ -1,0 +1,181 @@
+{
+ "added": "2021-12-07",
+ "agency": "Office of the National Cyber Director",
+ "amended": false,
+ "doc": "387ba7f7d4",
+ "kind": "278 Transaction",
+ "name": "Inglis, John C",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "Schwab Target 2030 Index Fund (SWYEX)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "SWYEX",
+   "tx_date": "2021-10-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "SPDRNuveen Bloomberg Barclays Short Term Municipal Bond ETF (SHM) $250,000",
+   "asset_type": "EF",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "SHM",
+   "tx_date": "2021-10-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "dimensional U S Targeted Value ETF (DFAT)",
+   "asset_type": "EF",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "DFAT",
+   "tx_date": "2021-10-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "iShares National Muni Bond ETF (MUB)",
+   "asset_type": "EF",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "MUB",
+   "tx_date": "2021-10-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "iShares Select Dividend ETF (DVY)",
+   "asset_type": "EF",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "DVY",
+   "tx_date": "2021-10-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "iShares Russell 1000 Growth ETF (IWF)",
+   "asset_type": "EF",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "IWF",
+   "tx_date": "2021-10-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "iShares Edge MSCI USA Momentum Factor ETF (MTUM) $250,000",
+   "asset_type": "EF",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "MTUM",
+   "tx_date": "2021-10-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "iShares Edge MSCI USA Value Factor ETF (VLUE)",
+   "asset_type": "EF",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "VLUE",
+   "tx_date": "2021-10-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "ISHARES MSCI USA QLTY FACT ETF IV (QUAL)",
+   "asset_type": "EF",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": "QUAL",
+   "tx_date": "2021-10-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "iShares Edge MSCI Intl Quality Factor ETF (IQLT)",
+   "asset_type": "EF",
+   "idx": 9,
+   "owner": "SELF",
+   "ticker": "IQLT",
+   "tx_date": "2021-10-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "iShares Edge MSCI Intl Momentum Factor ETF (IMTM) $100,000",
+   "asset_type": "EF",
+   "idx": 10,
+   "owner": "SELF",
+   "ticker": "IMTM",
+   "tx_date": "2021-10-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Vanguard International High Dividend Yield Index Fund ETF Shares (VYMI) $250,000",
+   "asset_type": "EF",
+   "idx": 11,
+   "owner": "SELF",
+   "ticker": "VYMI",
+   "tx_date": "2021-10-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "US Large Company Portfolio Institutional Class Shares (DFUSX) $250,000",
+   "asset_type": "ST",
+   "idx": 12,
+   "owner": "SELF",
+   "ticker": "DFUSX",
+   "tx_date": "2021-10-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Vanguard Limited-Term Tax-Exempt Fund Admiral Shares (VMLUX) $500,000",
+   "asset_type": "EF",
+   "idx": 13,
+   "owner": "SELF",
+   "ticker": "VMLUX",
+   "tx_date": "2021-10-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Vanguard Intermediate-Term Tax-Exempt Fund Admiral Shares (VWIUX) $500,000",
+   "asset_type": "EF",
+   "idx": 14,
+   "owner": "SELF",
+   "ticker": "VWIUX",
+   "tx_date": "2021-10-22",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/60E8916FDA18DBE2852587A40033CEE8/$FILE/John-C-Inglis-11.29.2021-278T.pdf"
+}

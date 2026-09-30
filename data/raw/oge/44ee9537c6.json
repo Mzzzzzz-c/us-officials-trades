@@ -1,0 +1,45 @@
+{
+ "added": "2023-03-25",
+ "agency": "Department of Veterans Affairs",
+ "amended": false,
+ "doc": "44ee9537c6",
+ "kind": "278 Transaction",
+ "name": "Remy, Donald",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Deputy Secretary",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "MARICOPA CNTY ARIZ UNI SCH GO 5% 07/01/28 See Endnote JJ",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2023-01-04",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "CROWN POINT IND MULTI-SCH BLDG REV 5% See Endnote 07/15/33-CA JJ",
+   "asset_type": "GS",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2023-01-04",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "CHICAGO ILL O HARE INTL ARPT REV 5.0000% See Endnote 01/01/24-CA JJ CHICAGO O'HARE INTERNATIONAL AIRPORT AMBT BEO SR LIEN Distribution of funds and removal of securities resulting from full call",
+   "asset_type": "GS",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2023-01-03",
+   "type": "E"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/E3D9AC99F31187EF8525897D002EC222/$FILE/Donald-Remy-02.09.2023-278T.pdf"
+}

@@ -1,0 +1,152 @@
+{
+ "added": "2025-07-15",
+ "agency": "Social Security Administration",
+ "amended": false,
+ "doc": "7d391b7a4b",
+ "kind": "278 Transaction",
+ "name": "Bisignano, Frank J",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Commissioner",
+ "transactions": [
+  {
+   "amount_max": 25000000,
+   "amount_min": 5000001,
+   "asset": "Fiserv",
+   "idx": 0,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2025-05-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000000,
+   "amount_min": 25000001,
+   "asset": "Fiserv",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2025-05-19",
+   "type": "S"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "Fiserv Option contract sale",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2025-05-19",
+   "type": "S"
+  },
+  {
+   "amount_max": 25000000,
+   "amount_min": 5000001,
+   "asset": "Fiserv",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2025-05-20",
+   "type": "S"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "Fiserv",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2025-05-27",
+   "type": "S"
+  },
+  {
+   "amount_max": 25000000,
+   "amount_min": 5000001,
+   "asset": "Fiserv",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2025-05-29",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000000,
+   "amount_min": 25000001,
+   "asset": "Fiserv",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2025-05-30",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000000,
+   "amount_min": 25000001,
+   "asset": "Fiserv",
+   "idx": 7,
+   "owner": "SELF",
+   "tx_date": "2025-06-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 25000000,
+   "amount_min": 5000001,
+   "asset": "Fiserv",
+   "idx": 8,
+   "owner": "SELF",
+   "tx_date": "2025-06-05",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000000,
+   "amount_min": 25000001,
+   "asset": "Fiserv",
+   "idx": 9,
+   "owner": "SELF",
+   "tx_date": "2025-06-06",
+   "type": "S"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "Fiserv Option contract sale",
+   "idx": 10,
+   "owner": "SELF",
+   "tx_date": "2025-06-06",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000000,
+   "amount_min": 25000001,
+   "asset": "Fiserv",
+   "idx": 11,
+   "owner": "SELF",
+   "tx_date": "2025-06-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Fiserv",
+   "idx": 12,
+   "owner": "SELF",
+   "tx_date": "2025-06-10",
+   "type": "S"
+  },
+  {
+   "amount_max": 25000000,
+   "amount_min": 5000001,
+   "asset": "Fiserv",
+   "idx": 13,
+   "owner": "SELF",
+   "tx_date": "2025-06-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 25000000,
+   "amount_min": 5000001,
+   "asset": "Fiserv",
+   "idx": 14,
+   "owner": "SELF",
+   "tx_date": "2025-06-17",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/9A2C2ECDD1FAECA185258CC8002C7D03/$FILE/Frank-J-Bisignano-06.26.2025-278T.pdf"
+}

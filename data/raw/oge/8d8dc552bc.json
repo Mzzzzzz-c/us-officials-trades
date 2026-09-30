@@ -1,0 +1,123 @@
+{
+ "added": "2021-01-05",
+ "agency": "Department of Commerce",
+ "amended": false,
+ "doc": "8d8dc552bc",
+ "kind": "278 Transaction",
+ "name": "Ross, Wilbur L",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "Charlotte-Mecklenburg NC RV",
+   "idx": 0,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2020-09-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "Illinois Fin Auth RV",
+   "idx": 1,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2020-09-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "Massachusetts Water Reso A-3-R RV",
+   "idx": 2,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2020-09-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "New York St Hsg Fin Ag RV",
+   "idx": 3,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2020-09-02",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "Charlotte-Mecklenburg NC RV",
+   "idx": 4,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2020-09-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "Florida Keys Aqued Auth RV",
+   "idx": 5,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2020-09-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "Illinois Fin Auth RV",
+   "idx": 6,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2020-09-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 1000000,
+   "amount_min": 500001,
+   "asset": "Massachusetts Water Reso A-3-R RV",
+   "idx": 7,
+   "late_notice": true,
+   "owner": "SELF",
+   "tx_date": "2020-09-03",
+   "type": "P"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "Albemarle Cnty VA Econom RV",
+   "idx": 8,
+   "owner": "SELF",
+   "tx_date": "2020-09-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Florida Keys Aqued Auth RV",
+   "idx": 9,
+   "owner": "SELF",
+   "tx_date": "2020-09-11",
+   "type": "P"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Florida Keys Aqued Auth RV",
+   "idx": 10,
+   "owner": "SELF",
+   "tx_date": "2020-09-11",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/055CB92B0D3597A98525865400317E5F/$FILE/Wilbur-L-Ross-12.23.2020-278T.pdf"
+}

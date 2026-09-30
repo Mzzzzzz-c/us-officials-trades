@@ -1,0 +1,70 @@
+{
+ "added": "2026-08-05",
+ "agency": "Department of The Interior",
+ "amended": false,
+ "doc": "d2d82de4d3",
+ "kind": "278 Transaction",
+ "name": "Burgum, Douglas J",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures V, LP - Hudu Technologies, Inc See Endnote",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2026-04-08",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures V, LP - zizzl Health See Endnote",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2026-04-08",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures Growth IV, LP - Nucleus Security, See Endnote Inc. $250,000",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2026-04-08",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures Growth IV, LP - Nucleus Security, See Endnote Inc",
+   "idx": 3,
+   "owner": "SELF",
+   "tx_date": "2026-04-08",
+   "type": "P"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures IV, LP - Decimal Technologies, Inc. See Endnote",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2026-04-08",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Arthur Ventures IV, LP - Decimal Technologies, Inc. See Endnote",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2026-04-08",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/B215A2D9D7B0CC0E85258E4A002D8CC2/$FILE/Douglas-J-Burgum-05.12.2026-278T.pdf"
+}

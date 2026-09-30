@@ -1,0 +1,25 @@
+{
+ "added": "2021-01-28",
+ "agency": "Department of Education",
+ "amended": false,
+ "doc": "557272cd18",
+ "kind": "278 Transaction",
+ "name": "DeVos, Elisabeth (Betsy) P",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Cortec Group Fund IV, LP",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2020-12-31",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/D1AE7C921D86457F8525866B0032DE36/$FILE/Elisabeth-Betsy-P-DeVos-01.13.2021-278T.pdf"
+}

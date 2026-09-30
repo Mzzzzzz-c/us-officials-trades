@@ -1,0 +1,120 @@
+{
+ "added": "2025-07-16",
+ "agency": "Department of Commerce",
+ "amended": false,
+ "doc": "84b4ca3a71",
+ "kind": "278 Transaction",
+ "name": "Lutnick, Howard",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Secretary",
+ "transactions": [
+  {
+   "amount_max": null,
+   "amount_min": 50000001,
+   "asset": "Newmark Group, Inc. (NMRK)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "NMRK",
+   "tx_date": "2025-05-16",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": 50000001,
+   "asset": "BGC Group, Inc. (BGC)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "BGC",
+   "tx_date": "2025-05-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "Nasdaq, Inc. (NDAQ)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "NDAQ",
+   "tx_date": "2025-05-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "The Walt Disney Co. (DIS)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "DIS",
+   "tx_date": "2025-05-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Kimberly Akimbo LLC",
+   "idx": 4,
+   "owner": "SELF",
+   "tx_date": "2025-05-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Kiajia, LLC",
+   "idx": 5,
+   "owner": "SELF",
+   "tx_date": "2025-05-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 250000,
+   "amount_min": 100001,
+   "asset": "Structured Services Investor, LLC",
+   "idx": 6,
+   "owner": "SELF",
+   "tx_date": "2025-05-16",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "GE Healthcare Technologies Inc. (GEHC)",
+   "asset_type": "ST",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "GEHC",
+   "tx_date": "2025-03-07",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "GE Vernova LLC (GEV)",
+   "asset_type": "ST",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": "GEV",
+   "tx_date": "2025-03-07",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "GE Aerospace (GE)",
+   "asset_type": "ST",
+   "idx": 9,
+   "owner": "SELF",
+   "ticker": "GE",
+   "tx_date": "2025-03-07",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/66A69EB879848CF885258CC9002C8582/$FILE/Howard-Lutnick-06.17.2025-278T.pdf"
+}

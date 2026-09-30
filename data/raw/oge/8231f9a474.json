@@ -1,0 +1,45 @@
+{
+ "added": "2023-07-18",
+ "agency": "Department of Transportation",
+ "amended": false,
+ "doc": "8231f9a474",
+ "kind": "278 Transaction",
+ "name": "Fernandez, Nuria",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Transit Administration",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Accenture Plc (ACN)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "ACN",
+   "tx_date": "2023-05-26",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "LSRCY - Lasertec Corporation",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2023-05-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "BAESY - BAE Systems",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2023-05-09",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/229FBA014D76EB07852589F0002EF1FF/$FILE/Nuria-Fernandez-05.20.2023-278T.pdf"
+}

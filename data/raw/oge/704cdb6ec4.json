@@ -1,0 +1,25 @@
+{
+ "added": "2021-09-30",
+ "agency": "Department of The Interior",
+ "amended": false,
+ "doc": "704cdb6ec4",
+ "kind": "278 Transaction",
+ "name": "Beaudreau, Tommy",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Deputy Secretary",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "VP Fund Investments 2018 LLC",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2021-06-30",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/9232F06CF01FD62985258760002E510D/$FILE/Tommy-Beaudreau-09.14.2021-278T.pdf"
+}

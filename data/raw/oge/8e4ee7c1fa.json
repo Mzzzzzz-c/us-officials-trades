@@ -1,0 +1,363 @@
+{
+ "added": "2021-02-17",
+ "agency": "National Science Foundation",
+ "amended": false,
+ "doc": "8e4ee7c1fa",
+ "kind": "278 Transaction",
+ "name": "Panchanathan, Sethuraman",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Accenture Plc (ACN)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "ACN",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Liberty Global Plc (LBTYK)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "LBTYK",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Medtronic Plc (MDT)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "MDT",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Affiliated Managers Group, Inc. (AMG)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "AMG",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Alphabet, Inc. (GOOG)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "GOOG",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Apple, Inc. (AAPL)",
+   "asset_type": "ST",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "AAPL",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Becton, Dickinson and Company (BDX)",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "BDX",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Biogen Inc. (BIIB)",
+   "asset_type": "ST",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "BIIB",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "C.H. Robinson Worldwide, Inc. (CHRW)",
+   "asset_type": "ST",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": "CHRW",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Chevron Corp. (CVX)",
+   "asset_type": "ST",
+   "idx": 9,
+   "owner": "SELF",
+   "ticker": "CVX",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Cisco Systems, Inc. (CSCO)",
+   "asset_type": "ST",
+   "idx": 10,
+   "owner": "SELF",
+   "ticker": "CSCO",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Citigroup, Inc. (C)",
+   "asset_type": "ST",
+   "idx": 11,
+   "owner": "SELF",
+   "ticker": "C",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Danone Sponsored France ADR",
+   "idx": 12,
+   "owner": "SELF",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "The Walt Disney Co. (DIS)",
+   "asset_type": "ST",
+   "idx": 13,
+   "owner": "SELF",
+   "ticker": "DIS",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Expeditors International of Washington, Inc. (EXPD)",
+   "asset_type": "ST",
+   "idx": 14,
+   "owner": "SELF",
+   "ticker": "EXPD",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "General Dynamics Corp. (GD)",
+   "asset_type": "ST",
+   "idx": 15,
+   "owner": "SELF",
+   "ticker": "GD",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "International Flavors & Fragrances",
+   "idx": 16,
+   "owner": "SELF",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "JP Morgan Chase",
+   "idx": 17,
+   "owner": "SELF",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Johnson & Johnson Com",
+   "idx": 18,
+   "owner": "SELF",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Magna Intl Inc",
+   "idx": 19,
+   "owner": "SELF",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Microsoft Corp. (MSFT)",
+   "asset_type": "ST",
+   "idx": 20,
+   "owner": "SELF",
+   "ticker": "MSFT",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "NIKE, Inc. (NKE)",
+   "asset_type": "ST",
+   "idx": 21,
+   "owner": "SELF",
+   "ticker": "NKE",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Novo Nordisk A/S ADR",
+   "idx": 22,
+   "owner": "SELF",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Oracle Corp. (ORCL)",
+   "asset_type": "ST",
+   "idx": 23,
+   "owner": "SELF",
+   "ticker": "ORCL",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "PepsiCo, Inc. (PEP)",
+   "asset_type": "ST",
+   "idx": 24,
+   "owner": "SELF",
+   "ticker": "PEP",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Procter & Gamble Co. (PG)",
+   "asset_type": "ST",
+   "idx": 25,
+   "owner": "SELF",
+   "ticker": "PG",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Raytheon Technologies Corp RTX",
+   "idx": 26,
+   "owner": "SELF",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Reckitt Benckiser Group PLC RBGLY",
+   "idx": 27,
+   "owner": "SELF",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "SPX Flow, Inc. (FLOW)",
+   "asset_type": "ST",
+   "idx": 28,
+   "owner": "SELF",
+   "ticker": "FLOW",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Starbucks Corp. (SBUX)",
+   "asset_type": "ST",
+   "idx": 29,
+   "owner": "SELF",
+   "ticker": "SBUX",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Varian Medical Systems, Inc. (VAR)",
+   "asset_type": "ST",
+   "idx": 30,
+   "owner": "SELF",
+   "ticker": "VAR",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Walmart, Inc. (WMT)",
+   "asset_type": "ST",
+   "idx": 31,
+   "owner": "SELF",
+   "ticker": "WMT",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Whirlpool Corp. (WHR)",
+   "asset_type": "ST",
+   "idx": 32,
+   "owner": "SELF",
+   "ticker": "WHR",
+   "tx_date": "2021-01-04",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/FEDE08322D6E7C988525867F0032DA25/$FILE/Sethuraman-Panchanathan-02.03.2021-278T.pdf"
+}

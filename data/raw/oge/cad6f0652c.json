@@ -1,0 +1,158 @@
+{
+ "added": "2023-12-13",
+ "agency": "Department of The Treasury",
+ "amended": false,
+ "doc": "cad6f0652c",
+ "kind": "278 Transaction",
+ "name": "Adeyemo, Adewale",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Deputy Secretary",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Alphabet, Inc. (GOOG)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "GOOG",
+   "tx_date": "2023-09-11",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SPDR S&P 500 Fossil Fuel Reserves Free ETF (SPYX)",
+   "asset_type": "EF",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "SPYX",
+   "tx_date": "2023-09-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Engine No. 1 Transform 500 ETF Engine No. 1",
+   "asset_type": "EF",
+   "idx": 2,
+   "owner": "SELF",
+   "tx_date": "2023-09-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "iShares MSCI ACWI Low Carbon Target ETF (CRBN)",
+   "asset_type": "EF",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "CRBN",
+   "tx_date": "2023-09-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SPDR MSCI EAFE Fossil Fuel Reserves Free ETF (EFAX)",
+   "asset_type": "EF",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "EFAX",
+   "tx_date": "2023-09-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "iShares ESG MSCI EAFE ETF (ESGD)",
+   "asset_type": "EF",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "ESGD",
+   "tx_date": "2023-09-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SPDR MSCIEmerging Markets Fossil Fuel Reserves Free ETF (EEMX)",
+   "asset_type": "EF",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "EEMX",
+   "tx_date": "2023-09-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "iShares ESG Aware MSCI EM ETF (ESGE)",
+   "asset_type": "EF",
+   "idx": 7,
+   "owner": "SELF",
+   "ticker": "ESGE",
+   "tx_date": "2023-09-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "iShares National Muni Bond ETF (MUB)",
+   "asset_type": "EF",
+   "idx": 8,
+   "owner": "SELF",
+   "ticker": "MUB",
+   "tx_date": "2023-09-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "SPDRNuveen Bloomberg Barclays Municipal Bond ETF (TFI)",
+   "asset_type": "EF",
+   "idx": 9,
+   "owner": "SELF",
+   "ticker": "TFI",
+   "tx_date": "2023-09-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "iSharesJPMorgan USDEmerging Markets Bond ETF (EMB)",
+   "asset_type": "EF",
+   "idx": 10,
+   "owner": "SELF",
+   "ticker": "EMB",
+   "tx_date": "2023-09-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "iShares Global Green Bond ETF (BGRN)",
+   "asset_type": "EF",
+   "idx": 11,
+   "owner": "SELF",
+   "ticker": "BGRN",
+   "tx_date": "2023-09-13",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "VanguardEmerging Markets Government Bond Index Fund ETF Shares (VWOB)",
+   "asset_type": "EF",
+   "idx": 12,
+   "owner": "SELF",
+   "ticker": "VWOB",
+   "tx_date": "2023-09-13",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/C4E71C4B7B921CEB85258A8400346EF1/$FILE/Adewale-Adeyemo-10.09.2023-278T.pdf"
+}

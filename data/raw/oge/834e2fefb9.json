@@ -1,0 +1,91 @@
+{
+ "added": "2022-06-28",
+ "agency": "Department of Housing and Urban Development",
+ "amended": false,
+ "doc": "834e2fefb9",
+ "kind": "278 Transaction",
+ "name": "Coloretti, Nani A",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Deputy Secretary",
+ "transactions": [
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "FDENX (Fidelity Select Energy Fund)",
+   "idx": 0,
+   "owner": "SELF",
+   "tx_date": "2022-05-03",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Edison International (EIX)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "EIX",
+   "tx_date": "2022-05-06",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Edison International (EIX)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "EIX",
+   "tx_date": "2022-05-09",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Exelon Corp. (EXC)",
+   "asset_type": "ST",
+   "idx": 3,
+   "owner": "SELF",
+   "ticker": "EXC",
+   "tx_date": "2022-05-18",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Edison International (EIX)",
+   "asset_type": "ST",
+   "idx": 4,
+   "owner": "SELF",
+   "ticker": "EIX",
+   "tx_date": "2022-05-27",
+   "type": "S"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Vanguard 500 Index Fund Admiral Shares (VFIAX)",
+   "asset_type": "EF",
+   "idx": 5,
+   "owner": "SELF",
+   "ticker": "VFIAX",
+   "tx_date": "2022-05-22",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Fidelity Mid-Cap Stock Fund (FMCSX)",
+   "asset_type": "ST",
+   "idx": 6,
+   "owner": "SELF",
+   "ticker": "FMCSX",
+   "tx_date": "2022-05-17",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/518C99278C9FF2F18525886F002EC524/$FILE/Nani-A-Coloretti-06.02.2022-278T.pdf"
+}

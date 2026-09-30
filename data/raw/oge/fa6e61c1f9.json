@@ -1,0 +1,49 @@
+{
+ "added": "2023-10-26",
+ "agency": "Department of Homeland Security",
+ "amended": false,
+ "doc": "fa6e61c1f9",
+ "kind": "278 Transaction",
+ "name": "Criswell, Deanne",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Administrator, Federal Emergency Management Agency",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Palantir Technologies Inc. Class A Common Stock (PLTR)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "PLTR",
+   "tx_date": "2023-08-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NIO Inc. American depositary shares each representing one Class A ordinary share (NIO)",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "NIO",
+   "tx_date": "2023-08-25",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Schwab Value Advantage Money Fund Investor Class Shares (SWVXX)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "SWVXX",
+   "tx_date": "2023-08-25",
+   "type": "P"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/651911337FC85C0085258A54002EEBC8/$FILE/Deanne-Criswell-09.08.2023-278T.pdf"
+}

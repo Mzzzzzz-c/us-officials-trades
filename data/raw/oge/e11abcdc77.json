@@ -1,0 +1,49 @@
+{
+ "added": "2026-03-07",
+ "agency": "Office of Personnel Management",
+ "amended": false,
+ "doc": "e11abcdc77",
+ "kind": "278 Transaction",
+ "name": "Kupor, Scott A",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Director",
+ "transactions": [
+  {
+   "amount_max": 500000,
+   "amount_min": 250001,
+   "asset": "Omada Health Inc. (OMDA)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "OMDA",
+   "tx_date": "2025-12-19",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "Coinbase Global Inc. Class A Common Stock See Endnote (COIN) $500,000",
+   "asset_type": "ST",
+   "idx": 1,
+   "owner": "SELF",
+   "ticker": "COIN",
+   "tx_date": "2025-12-19",
+   "type": "S"
+  },
+  {
+   "amount_max": 5000000,
+   "amount_min": 1000001,
+   "asset": "Samsara Inc. Class A Common Stock (IOT)",
+   "asset_type": "ST",
+   "idx": 2,
+   "owner": "SELF",
+   "ticker": "IOT",
+   "tx_date": "2025-12-23",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/3B5D301E5EACE5C885258DB300345F78/$FILE/Scott-A-Kupor-01.09.2026-278T.pdf"
+}

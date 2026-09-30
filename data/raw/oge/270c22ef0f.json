@@ -1,0 +1,36 @@
+{
+ "added": "2022-07-21",
+ "agency": "Federal Reserve System Board of Governors",
+ "amended": false,
+ "doc": "270c22ef0f",
+ "kind": "278 Transaction",
+ "name": "Jefferson, Philip",
+ "ocr": false,
+ "parser": 4,
+ "status": "ok",
+ "style": "integrity",
+ "title": "Governor",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Sprott Gold Equity Fund Investor Class Shares (SGDLX)",
+   "asset_type": "ST",
+   "idx": 0,
+   "owner": "SELF",
+   "ticker": "SGDLX",
+   "tx_date": "2022-05-31",
+   "type": "S"
+  },
+  {
+   "amount_max": null,
+   "amount_min": null,
+   "asset": "OnPace Plus bond See Endnote",
+   "idx": 1,
+   "owner": "SELF",
+   "tx_date": "2022-05-31",
+   "type": "S"
+  }
+ ],
+ "url": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/C46F482BD75B013D85258886002ED055/$FILE/Philip-Jefferson-06.24.2022-278T.pdf"
+}
