@@ -15,7 +15,7 @@ export default function TickerList({ locale, rows }: { locale: Locale; rows: Tic
   const [limit, setLimit] = useState(150);
   const list = useMemo(() => {
     const n = q.trim().toLowerCase();
-    const out = rows.filter((r) => (!sec || r.sec === sec) && (!n || r.sym.toLowerCase().startsWith(n) || r.name.toLowerCase().includes(n)));
+    const out = rows.filter((r) => (!sec || r.sec === sec) && (!n || r.sym.toLowerCase().startsWith(n) || r.name.toLowerCase().includes(n) || (r.zh ?? "").includes(n)));
     const key = (r: TickerRow) => (sort === "last" ? r.last ?? "" : r[sort] ?? 0);
     return out.sort((a, b) => (key(a) < key(b) ? 1 : key(a) > key(b) ? -1 : a.sym < b.sym ? -1 : 1));
   }, [rows, q, sec, sort]);
@@ -63,7 +63,7 @@ export default function TickerList({ locale, rows }: { locale: Locale; rows: Tic
                     {r.sym}
                   </Link>
                 </td>
-                <td className="max-w-72 truncate" title={r.name}>{r.name}</td>
+                <td className="max-w-72 truncate" title={r.name}>{locale === "zh" && r.zh ? r.zh : r.name}</td>
                 <td className="whitespace-nowrap text-muted">{t.sectors[r.sec as keyof typeof t.sectors] ?? r.sec}</td>
                 <td className="r num">{r.n}</td>
                 <td className="r num">{r.nm}</td>

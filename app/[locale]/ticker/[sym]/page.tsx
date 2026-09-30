@@ -23,7 +23,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const d = getTicker(decodeURIComponent(sym));
   if (!d) return {};
   const t = dict(locale);
-  return { title: `${d.sym} ${d.name}`, description: `${d.sym} · ${d.name} · ${d.trades.length} ${t.home.trades}` };
+  const nm = locale === "zh" && d.zh ? `${d.zh}（${d.name}）` : d.name;
+  return { title: `${d.sym} ${locale === "zh" && d.zh ? d.zh : d.name}`, description: `${d.sym} · ${nm} · ${d.trades.length} ${t.home.trades}` };
 }
 
 export default async function TickerPage({ params }: { params: Promise<{ locale: string; sym: string }> }) {
@@ -60,12 +61,13 @@ export default async function TickerPage({ params }: { params: Promise<{ locale:
       <div className="flex flex-wrap items-end justify-between gap-3">
         <div>
           <h1 className="text-2xl font-semibold">
-            {d.sym} <span className="text-lg font-normal text-muted">{d.name}</span>
+            {d.sym} <span className="text-lg font-normal text-muted">{locale === "zh" && d.zh ? d.zh : d.name}</span>
           </h1>
+          {locale === "zh" && d.zh ? <div className="text-xs text-faint">{d.name}</div> : null}
           <div className="mt-1 flex flex-wrap gap-x-3 text-sm text-muted">
             <span>{t.sectors[d.sec as keyof typeof t.sectors] ?? d.sec}</span>
             {d.exch ? <span>· {t.ticker.exchange}: {d.exch}</span> : null}
-            {d.sic ? <span>· {t.ticker.industry}: {d.sic}</span> : null}
+            {d.sic && locale === "en" ? <span>· {t.ticker.industry}: {d.sic}</span> : null}
           </div>
         </div>
         {px[sym] != null && (

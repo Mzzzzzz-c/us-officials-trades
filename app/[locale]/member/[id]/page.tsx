@@ -7,7 +7,7 @@ import { Note, PartyBadge, Pct, Section, Stat } from "@/components/ui";
 import { getLatestPrices, getMember, getMembers, getTickers, slim } from "@/lib/data";
 import { amountRange } from "@/lib/format";
 import { dict, fmt, isLocale } from "@/lib/i18n";
-import { committeeName, stateName } from "@/lib/labels";
+import { committeeName, committeeTitle, stateName } from "@/lib/labels";
 
 export const dynamicParams = true;
 
@@ -40,7 +40,7 @@ export default async function MemberPage({ params }: { params: Promise<{ locale:
   for (const tr of data.trades) if (tr.sym && px[tr.sym] != null) pxSub[tr.sym] = px[tr.sym];
   const names: Record<string, string> = {};
   const want = new Set(data.positions.map((x) => x.sym));
-  for (const tk of getTickers()) if (want.has(tk.sym)) names[tk.sym] = tk.name;
+  for (const tk of getTickers()) if (want.has(tk.sym)) names[tk.sym] = (locale === "zh" && tk.zh) || tk.name;
   const member = { [p.id]: { name: p.name, zh: p.zh, party: p.party, chamber: p.chamber, state: p.state } };
   const partyLabel = t.party[p.party as keyof typeof t.party] ?? p.party;
   const horizons = ["30", "90", "180", "365"];
@@ -61,7 +61,11 @@ export default async function MemberPage({ params }: { params: Promise<{ locale:
             <span>·</span>
             <span>
               {stateName(p.state, locale)}
-              {p.chamber === "H" && p.district != null ? ` ${p.district === 0 ? "AL" : p.district}` : ""}
+              {p.chamber === "H" && p.district != null
+                ? locale === "zh"
+                  ? p.district === 0 ? " 全州选区" : ` 第${p.district}选区`
+                  : p.district === 0 ? " at-large" : ` district ${p.district}`
+                : ""}
             </span>
             <span>·</span>
             <span>{p.current ? t.common.current : t.common.former}</span>
@@ -84,7 +88,7 @@ export default async function MemberPage({ params }: { params: Promise<{ locale:
             {p.committees.map((c) => (
               <span key={c.id} className="rounded-full border border-line bg-surface px-2.5 py-1 text-xs">
                 {committeeName(c.id, c.name, locale)}
-                {c.title ? <span className="text-faint"> · {c.title}</span> : null}
+                {c.title ? <span className="text-faint"> · {committeeTitle(c.title, locale)}</span> : null}
               </span>
             ))}
           </div>

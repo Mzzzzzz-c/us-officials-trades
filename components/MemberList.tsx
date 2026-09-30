@@ -89,7 +89,7 @@ export default function MemberList({ locale, rows }: { locale: Locale; rows: Mem
                 <td className="whitespace-nowrap">{t.chamber[m.chamber]}</td>
                 <td className="whitespace-nowrap">
                   {m.state}
-                  {m.chamber === "H" && m.district != null ? `-${m.district || "AL"}` : ""}
+                  {m.chamber === "H" && m.district != null ? `-${m.district || (locale === "zh" ? "全州" : "AL")}` : ""}
                 </td>
                 <td className="r num">{m.n}</td>
                 <td className="r num whitespace-nowrap">

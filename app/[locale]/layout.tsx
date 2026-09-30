@@ -65,9 +65,9 @@ export default async function LocaleLayout({ children, params }: { children: Rea
             <p>{t.footer.legal}</p>
             <p>
               {t.footer.sources}:{" "}
-              <a className="link" href="https://disclosures-clerk.house.gov/FinancialDisclosure" target="_blank" rel="noopener noreferrer">Clerk of the House</a> ·{" "}
-              <a className="link" href="https://efdsearch.senate.gov/search/" target="_blank" rel="noopener noreferrer">Senate eFD</a> ·{" "}
-              <a className="link" href="https://www.sec.gov/edgar/search/" target="_blank" rel="noopener noreferrer">SEC EDGAR</a> ·{" "}
+              <a className="link" href="https://disclosures-clerk.house.gov/FinancialDisclosure" target="_blank" rel="noopener noreferrer">{locale === "zh" ? "众议院书记官办公室" : "Clerk of the House"}</a> ·{" "}
+              <a className="link" href="https://efdsearch.senate.gov/search/" target="_blank" rel="noopener noreferrer">{locale === "zh" ? "参议院 eFD 电子披露系统" : "Senate eFD"}</a> ·{" "}
+              <a className="link" href="https://www.sec.gov/edgar/search/" target="_blank" rel="noopener noreferrer">{locale === "zh" ? "美国证监会 EDGAR" : "SEC EDGAR"}</a> ·{" "}
               <a className="link" href="https://github.com/unitedstates/congress-legislators" target="_blank" rel="noopener noreferrer">congress-legislators</a>
             </p>
             <p>

@@ -387,6 +387,7 @@ def export(trades, scanned, unknown, review, series, pos, directory: Directory, 
     for p in pos:
         pos_by_sym[p["sym"]].append(p)
     tick_list = []
+    tickers_zh = load_yaml(CONFIG / "tickers_zh.yaml") or {}
     all_syms = set(by_sym) | set(inv_by_sym)
     for sym in sorted(all_syms):
         ts = by_sym.get(sym, [])
@@ -408,7 +409,7 @@ def export(trades, scanned, unknown, review, series, pos, directory: Directory, 
         held = {p["m"]: p["held"] for p in pos_by_sym.get(sym, [])}
         members = sorted(({**v, "held": held.get(k)} for k, v in mem.items()), key=lambda m: -(m["nb"] + m["ns"]))
         row = {
-            "sym": sym, "name": name, "sec": sec,
+            "sym": sym, "name": name, "zh": tickers_zh.get(sym), "sec": sec,
             "n": len(ts), "nm": len(mem),
             "nb": sum(1 for t in ts if t["type"] == "P"),
             "ns": sum(1 for t in ts if t["type"] in ("SF", "SP", "S")),
@@ -417,7 +418,7 @@ def export(trades, scanned, unknown, review, series, pos, directory: Directory, 
         }
         tick_list.append({k: v for k, v in row.items() if v is not None})
         write_json(tmp / "ticker" / f"{sym}.json", {
-            "sym": sym, "name": name, "sec": sec, "type": meta.get("type"), "exch": meta.get("exchange"),
+            "sym": sym, "name": name, "zh": tickers_zh.get(sym), "sec": sec, "type": meta.get("type"), "exch": meta.get("exchange"),
             "sic": c.get("sicd"), "trades": ts, "members": members, "investors": inv_by_sym.get(sym, []),
         })
         if s:

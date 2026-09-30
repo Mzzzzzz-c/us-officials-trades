@@ -37,7 +37,10 @@ export default async function InvestorPage({ params }: { params: Promise<{ local
   const t = dict(locale);
   const p = d.profile;
   const { px } = getLatestPrices();
-  const known = new Set(getTickers().map((x) => x.sym));
+  const tickers = getTickers();
+  const known = new Set(tickers.map((x) => x.sym));
+  const zhNames: Record<string, string> = {};
+  if (locale === "zh") for (const x of tickers) if (x.zh) zhNames[x.sym] = x.zh;
   const latest = d.quarters[0];
   const note = locale === "zh" ? p.note_zh : p.note_en;
 
@@ -67,13 +70,13 @@ export default async function InvestorPage({ params }: { params: Promise<{ local
       )}
 
       <Section title={t.investors.holdingsTitle}>
-        <HoldingTable locale={locale} rows={d.holdings} px={px} known={known} />
+        <HoldingTable locale={locale} rows={d.holdings} px={px} known={known} zh={zhNames} />
         <Note>{t.investors.costNote}</Note>
       </Section>
 
       {d.exits.length > 0 && (
         <Section title={t.investors.exitsTitle}>
-          <HoldingTable locale={locale} rows={d.exits} px={px} known={known} exits />
+          <HoldingTable locale={locale} rows={d.exits} px={px} known={known} zh={zhNames} exits />
         </Section>
       )}
 
@@ -120,7 +123,7 @@ export default async function InvestorPage({ params }: { params: Promise<{ local
                   </span>
                 </summary>
                 <div className="border-t border-line">
-                  <HoldingTable locale={locale} rows={a.items} px={px} known={known} compact />
+                  <HoldingTable locale={locale} rows={a.items} px={px} known={known} zh={zhNames} compact />
                 </div>
               </details>
             ))}
@@ -131,7 +134,7 @@ export default async function InvestorPage({ params }: { params: Promise<{ local
   );
 }
 
-function HoldingTable({ locale, rows, px, known, exits = false, compact = false }: { locale: Locale; rows: InvestorHolding[]; px: Record<string, number>; known: Set<string>; exits?: boolean; compact?: boolean }) {
+function HoldingTable({ locale, rows, px, known, zh, exits = false, compact = false }: { locale: Locale; rows: InvestorHolding[]; px: Record<string, number>; known: Set<string>; zh: Record<string, string>; exits?: boolean; compact?: boolean }) {
   const t = dict(locale);
   return (
     <div className={compact ? "scroll-x" : "card scroll-x"}>
@@ -166,7 +169,7 @@ function HoldingTable({ locale, rows, px, known, exits = false, compact = false 
                   {h.pc ? <span className="ml-1 rounded bg-surface-2 px-1 text-[10px] text-muted">{h.pc}</span> : null}
                 </td>
                 <td className="hidden max-w-64 truncate text-muted sm:table-cell" title={`${h.name} ${h.cls ?? ""}`}>
-                  {h.name}
+                  {(h.sym && zh[h.sym]) || h.name}
                 </td>
                 <td className="r num">{exits ? shares(-(h.dsh ?? 0)) : shares(h.sh)}</td>
                 {!exits && <td className="r num">{usdShort(h.val)}</td>}

@@ -78,3 +78,19 @@ export function stateName(code: string | undefined, locale: Locale): string {
   const s = STATES[code];
   return s ? (locale === "zh" ? s[0] : s[1]) : code;
 }
+
+const TITLES_ZH: Record<string, string> = {
+  Chair: "主席",
+  Chairman: "主席",
+  Chairwoman: "主席",
+  Cochairman: "联合主席",
+  "Co-Chair": "联合主席",
+  "Vice Chair": "副主席",
+  "Vice Chairman": "副主席",
+  "Ranking Member": "首席少数党成员",
+  "Ex Officio": "当然成员",
+};
+
+export function committeeTitle(title: string, locale: Locale): string {
+  return locale === "zh" ? TITLES_ZH[title] ?? title : title;
+}

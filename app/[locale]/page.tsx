@@ -57,12 +57,12 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           <div className="mt-6 grid gap-4 md:grid-cols-3">
             <Board title={fmt(t.home.topBought, { d: stats.window })}>
               {stats.top_bought.map((x) => (
-                <Chip key={x.sym} href={L(`/ticker/${x.sym}`)} main={x.sym} sub={fmt(t.home.membersCount, { n: x.nm })} title={tickerName(x.sym)} tone="pos" />
+                <Chip key={x.sym} href={L(`/ticker/${x.sym}`)} main={x.sym} sub={fmt(t.home.membersCount, { n: x.nm })} title={tickerName(x.sym, locale)} tone="pos" />
               ))}
             </Board>
             <Board title={fmt(t.home.topSold, { d: stats.window })}>
               {stats.top_sold.map((x) => (
-                <Chip key={x.sym} href={L(`/ticker/${x.sym}`)} main={x.sym} sub={fmt(t.home.membersCount, { n: x.nm })} title={tickerName(x.sym)} tone="neg" />
+                <Chip key={x.sym} href={L(`/ticker/${x.sym}`)} main={x.sym} sub={fmt(t.home.membersCount, { n: x.nm })} title={tickerName(x.sym, locale)} tone="neg" />
               ))}
             </Board>
             <Board title={fmt(t.home.mostActive, { d: stats.window })}>

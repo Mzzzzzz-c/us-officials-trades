@@ -144,6 +144,7 @@ export interface MemberPage {
 export interface TickerRow {
   sym: string;
   name: string;
+  zh?: string;
   sec: string;
   n: number;
   nm: number;
@@ -172,6 +173,7 @@ export interface InvestorHolding {
 export interface TickerPage {
   sym: string;
   name: string;
+  zh?: string | null;
   sec: string;
   type?: string;
   exch?: string;
@@ -277,8 +279,9 @@ export function investorMap(): Map<string, InvestorRow> {
   return investorIndex;
 }
 
-export function tickerName(sym: string): string | undefined {
-  return getTickers().find((t) => t.sym === sym)?.name;
+export function tickerName(sym: string, locale?: "zh" | "en"): string | undefined {
+  const r = getTickers().find((t) => t.sym === sym);
+  return locale === "zh" && r?.zh ? r.zh : r?.name;
 }
 
 /** Fields the client-side trade table needs (keeps page payloads small). */
