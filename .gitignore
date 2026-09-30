@@ -1,0 +1,21 @@
+# dependencies / build
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# large caches rebuilt by the pipeline (kept in the GitHub Actions cache instead)
+data/cache/
+data/site.tmp/
+
+# local
+.env*
+.DS_Store

@@ -1,0 +1,157 @@
+# Well-known investors tracked through SEC Form 13F / 通过 SEC 13F 追踪的知名投资人
+#
+# To add one: find the filing entity's CIK on https://www.sec.gov/cgi-bin/browse-edgar
+# (search the fund name, form type 13F-HR) and add an entry below.
+# 新增投资人：在 SEC EDGAR 搜索基金名称找到 CIK，按下面格式添加一条即可。
+#
+# inferred: true  = the link between the person and the filing entity is a
+#                   market inference, not stated in the filing. The site labels it.
+#                   表示“人—机构”对应关系是市场推断，文件本身未署名，网站会标注。
+
+investors:
+  - id: buffett
+    zh: 沃伦·巴菲特
+    en: Warren Buffett
+    firm_zh: 伯克希尔·哈撒韦
+    firm_en: Berkshire Hathaway Inc.
+    cik: 1067983
+
+  - id: duan-yongping
+    zh: 段永平
+    en: Duan Yongping
+    firm_zh: H&H International Investment
+    firm_en: H&H International Investment, LLC
+    cik: 1759760
+    inferred: true
+    note_zh: 市场普遍认为该机构由段永平管理，13F 文件本身未署其名。
+    note_en: Widely believed to be managed by Duan Yongping; the filing does not name him.
+
+  - id: li-lu
+    zh: 李录
+    en: Li Lu
+    firm_zh: 喜马拉雅资本
+    firm_en: Himalaya Capital Management LLC
+    cik: 1709323
+
+  - id: ackman
+    zh: 比尔·阿克曼
+    en: Bill Ackman
+    firm_zh: 潘兴广场资本
+    firm_en: Pershing Square Capital Management
+    cik: 1336528
+
+  - id: burry
+    zh: 迈克尔·伯里
+    en: Michael Burry
+    firm_zh: Scion 资产管理
+    firm_en: Scion Asset Management, LLC
+    cik: 1649339
+    note_zh: 最后一份 13F 为 2025 年第三季度，此后停止申报。
+    note_en: Last 13F covers Q3 2025; no filings since.
+
+  - id: klarman
+    zh: 塞斯·卡拉曼
+    en: Seth Klarman
+    firm_zh: Baupost 集团
+    firm_en: The Baupost Group
+    cik: 1061768
+
+  - id: marks
+    zh: 霍华德·马克斯
+    en: Howard Marks
+    firm_zh: 橡树资本
+    firm_en: Oaktree Capital Management
+    cik: 949509
+
+  - id: dalio
+    zh: 瑞·达利欧（创始人）
+    en: Ray Dalio (founder)
+    firm_zh: 桥水基金
+    firm_en: Bridgewater Associates
+    cik: 1350694
+    note_zh: 达利欧已不再管理桥水，持仓反映的是桥水整体的决定。
+    note_en: Dalio no longer runs Bridgewater; holdings reflect the firm, not him personally.
+
+  - id: druckenmiller
+    zh: 斯坦利·德鲁肯米勒
+    en: Stanley Druckenmiller
+    firm_zh: 杜肯家族办公室
+    firm_en: Duquesne Family Office
+    cik: 1536411
+
+  - id: cathie-wood
+    zh: 凯茜·伍德
+    en: Cathie Wood
+    firm_zh: 方舟投资（ARK）
+    firm_en: ARK Investment Management
+    cik: 1697748
+
+  - id: tepper
+    zh: 大卫·泰珀
+    en: David Tepper
+    firm_zh: Appaloosa
+    firm_en: Appaloosa LP
+    cik: 1656456
+
+  - id: icahn
+    zh: 卡尔·伊坎
+    en: Carl Icahn
+    firm_zh: 伊坎
+    firm_en: Icahn Carl C
+    cik: 921669
+
+  - id: gates-foundation
+    zh: 盖茨基金会信托
+    en: Gates Foundation Trust
+    firm_zh: 盖茨基金会信托
+    firm_en: Gates Foundation Trust
+    cik: 1166559
+
+  - id: soros
+    zh: 乔治·索罗斯
+    en: George Soros
+    firm_zh: 索罗斯基金管理
+    firm_en: Soros Fund Management
+    cik: 1029160
+
+  - id: loeb
+    zh: 丹尼尔·勒布
+    en: Daniel Loeb
+    firm_zh: 第三点（Third Point）
+    firm_en: Third Point LLC
+    cik: 1040273
+
+  - id: zhang-lei
+    zh: 张磊
+    en: Zhang Lei
+    firm_zh: 高瓴（HHLR Advisors）
+    firm_en: HHLR Advisors, Ltd.
+    cik: 1762304
+
+  - id: pabrai
+    zh: 莫尼什·帕伯莱
+    en: Mohnish Pabrai
+    firm_zh: Dalal Street
+    firm_en: Dalal Street, LLC
+    cik: 1549575
+
+  - id: terry-smith
+    zh: 特里·史密斯
+    en: Terry Smith
+    firm_zh: Fundsmith
+    firm_en: Fundsmith LLP
+    cik: 1569205
+
+  - id: coleman
+    zh: 蔡斯·科尔曼
+    en: Chase Coleman
+    firm_zh: 老虎环球
+    firm_en: Tiger Global Management
+    cik: 1167483
+
+  - id: akre
+    zh: 查克·阿克雷
+    en: Chuck Akre
+    firm_zh: Akre 资本
+    firm_en: Akre Capital Management
+    cik: 1112520

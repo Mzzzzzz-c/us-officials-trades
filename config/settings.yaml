@@ -1,0 +1,23 @@
+# Data pipeline settings / 数据管道设置
+
+# First year of congressional filings to collect / 从哪一年开始收录国会披露
+start_year: 2020
+
+# Daily price source / 行情来源:
+#   yahoo         free, no key (default) / 免费、无需密钥（默认）
+#   alphavantage  needs the ALPHAVANTAGE_API_KEY secret; full history needs a premium plan
+#                 需要 ALPHAVANTAGE_API_KEY；完整历史需付费套餐
+price_provider: yahoo
+price_start: "2019-12-01"
+
+# Benchmark for every return figure / 所有收益的对比基准
+benchmark: SPY
+
+# Fixed return windows in calendar days / 固定收益窗口（自然日）
+horizons: [30, 90, 180, 365]
+
+# How many recent quarters of 13F to keep per investor / 每位投资人保留最近多少个季度的 13F
+investor_quarters: 12
+
+# Home page shows filings from the last N days / 首页显示最近 N 天的披露
+recent_days: 90

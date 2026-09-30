@@ -1,0 +1,9 @@
+# Manual filer -> BioGuide ID matches, for filers the automatic matching gets wrong or misses.
+# 手动指定申报人对应的官员 BioGuide 编号（自动匹配失败时使用，见 data/review.json）。
+#
+# House key:  "H|<first name>|<last name>|<StateDst>"   (names lower-case, as in data/review.json)
+# Senate key: "S|<first name>|<last name>"
+#
+# Example / 示例:
+# "H|richard w|allen|GA12": A000372
+{}

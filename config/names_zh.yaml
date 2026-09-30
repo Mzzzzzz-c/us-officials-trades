@@ -1,0 +1,87 @@
+# BioGuide ID -> Chinese display name / 官员中文译名（按 BioGuide 编号）
+# Add or correct names here; the site shows 中文名 + English name. 可自行增补。
+
+S001150: "亚当·希夫"  # Adam B. Schiff
+O000172: "亚历山德里娅·奥卡西奥-科尔特斯"  # Alexandria Ocasio-Cortez
+K000367: "艾米·克洛布彻"  # Amy Klobuchar
+B001302: "安迪·比格斯"  # Andy Biggs
+K000394: "金安迪"  # Andy Kim
+K000383: "安格斯·金"  # Angus S. King, Jr.
+S000033: "伯尼·桑德斯"  # Bernard Sanders
+M001242: "伯尼·莫雷诺"  # Bernie Moreno
+H000601: "比尔·哈格蒂"  # Bill Hagerty
+D000032: "拜伦·唐纳兹"  # Byron Donalds
+S000148: "查克·舒默"  # Charles E. Schumer
+R000614: "奇普·罗伊"  # Chip Roy
+C001088: "克里斯·库恩斯"  # Christopher A. Coons
+M001169: "克里斯·墨菲"  # Christopher Murphy
+F000110: "克莱奥·菲尔兹"  # Cleo Fields
+L000571: "辛西娅·鲁米斯"  # Cynthia M. Lummis
+C001120: "丹·克伦肖"  # Dan Crenshaw
+M001243: "戴夫·麦考密克"  # David McCormick
+P000612: "戴维·珀杜"  # David Perdue
+W000797: "黛比·沃瑟曼·舒尔茨"  # Debbie Wasserman Schultz
+F000062: "范士丹"  # Dianne Feinstein
+B000574: "厄尔·布卢梅纳尔"  # Earl Blumenauer
+S001196: "埃莉斯·斯特凡尼克"  # Elise M. Stefanik
+W000817: "伊丽莎白·沃伦"  # Elizabeth Warren
+P000595: "加里·彼得斯"  # Gary C. Peters
+M001188: "孟昭文"  # Grace Meng
+J000294: "哈基姆·杰弗里斯"  # Hakeem S. Jeffries
+V000137: "J·D·万斯"  # J.D. Vance
+J000312: "吉姆·贾斯蒂斯"  # James C. Justice
+R000606: "杰米·拉斯金"  # Jamie Raskin
+M001217: "贾里德·莫斯科维茨"  # Jared Moskowitz
+J000289: "吉姆·乔丹"  # Jim Jordan
+B001261: "约翰·巴拉索"  # John Barrasso
+F000479: "约翰·费特曼"  # John Fetterman
+M001194: "约翰·穆勒纳尔"  # John R. Moolenaar
+T000250: "约翰·图恩"  # John Thune
+O000174: "乔恩·奥索夫"  # Jon Ossoff
+G000583: "乔什·戈特海默"  # Josh Gottheimer
+H001089: "乔希·霍利"  # Josh Hawley
+C001080: "赵美心"  # Judy Chu
+C001101: "凯瑟琳·克拉克"  # Katherine M. Clark
+L000594: "凯莉·洛夫勒"  # Kelly Loeffler
+H001082: "凯文·赫恩"  # Kevin Hern
+M001165: "凯文·麦卡锡"  # Kevin McCarthy
+G000555: "陆天娜"  # Kirsten E. Gillibrand
+B000825: "劳伦·博伯特"  # Lauren Boebert
+G000359: "林赛·格雷厄姆"  # Lindsey Graham
+M001153: "莉萨·穆尔科斯基"  # Lisa Murkowski
+R000595: "马可·卢比奥"  # Marco Rubio
+G000596: "玛乔丽·泰勒·格林"  # Marjorie Taylor Greene
+K000377: "马克·凯利"  # Mark Kelly
+W000805: "马克·华纳"  # Mark R. Warner
+M001190: "马克韦恩·马林"  # Markwayne Mullin
+G000578: "马特·盖茨"  # Matt Gaetz
+W000187: "玛克辛·沃特斯"  # Maxine Waters
+M001157: "迈克尔·麦考尔"  # Michael T. McCaul
+J000299: "迈克·约翰逊"  # Mike Johnson
+M000355: "米奇·麦康奈尔"  # Mitch McConnell
+M000194: "南希·梅斯"  # Nancy Mace
+P000197: "南希·佩洛西"  # Nancy Pelosi
+T000461: "帕特·图米"  # Patrick J. Toomey
+M001156: "帕特里克·麦克亨利"  # Patrick T. McHenry
+A000371: "皮特·阿吉拉尔"  # Pete Aguilar
+K000391: "拉贾·克里希纳穆尔蒂"  # Raja Krishnamoorthi
+P000603: "兰德·保罗"  # Rand Paul
+W000790: "拉斐尔·沃诺克"  # Raphael G. Warnock
+B001277: "理查德·布卢门撒尔"  # Richard Blumenthal
+B001135: "理查德·伯尔"  # Richard Burr
+D000563: "迪克·德宾"  # Richard J. Durbin
+S001217: "里克·斯科特"  # Rick Scott
+K000389: "罗·卡纳"  # Ro Khanna
+B001327: "罗伯·布雷斯纳汉"  # Robert P. Bresnahan, Jr.
+M001198: "罗杰·马歇尔"  # Roger Marshall
+W000802: "谢尔登·怀特豪斯"  # Sheldon Whitehouse
+C001047: "谢利·穆尔·卡皮托"  # Shelley Moore Capito
+S001176: "史蒂夫·斯卡利斯"  # Steve Scalise
+C001035: "苏珊·柯林斯"  # Susan M. Collins
+D000622: "谭美·达克沃斯"  # Tammy Duckworth
+C001098: "特德·克鲁兹"  # Ted Cruz
+L000582: "刘云平"  # Ted Lieu
+S001184: "蒂姆·斯科特"  # Tim Scott
+C001095: "汤姆·科顿"  # Tom Cotton
+E000294: "汤姆·埃默"  # Tom Emmer
+T000278: "汤米·图伯维尔"  # Tommy Tuberville

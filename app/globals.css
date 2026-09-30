@@ -1,0 +1,202 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #f7f7f5;
+  --surface: #ffffff;
+  --surface-2: #f1f1ee;
+  --text: #1c1d1f;
+  --muted: #62656b;
+  --faint: #8d9096;
+  --border: #e3e3de;
+  --accent: #1f5fbf;
+  --accent-soft: #e8effa;
+  --dem: #2159c4;
+  --rep: #c8322b;
+  --ind: #7a4fb8;
+  --pos: #16803c; /* gains / buys - swapped for zh below */
+  --neg: #c8322b;
+  --pos-soft: #e6f4ea;
+  --neg-soft: #fbe9e7;
+  --warn: #9a6200;
+  --warn-soft: #fdf3e0;
+}
+
+/* Chinese convention: red = up / buy, green = down / sell */
+:root[lang="zh-CN"] {
+  --pos: #c8322b;
+  --neg: #16803c;
+  --pos-soft: #fbe9e7;
+  --neg-soft: #e6f4ea;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111214;
+    --surface: #1a1b1e;
+    --surface-2: #232428;
+    --text: #e8e8e6;
+    --muted: #a3a6ac;
+    --faint: #7c7f86;
+    --border: #2e3035;
+    --accent: #7eaaf0;
+    --accent-soft: #1d2a40;
+    --dem: #7ea6f2;
+    --rep: #f08a82;
+    --ind: #b99aea;
+    --pos: #4cc27a;
+    --neg: #f08a82;
+    --pos-soft: #16301f;
+    --neg-soft: #3a1d1b;
+    --warn: #e0b35c;
+    --warn-soft: #33290f;
+  }
+  :root[lang="zh-CN"] {
+    --pos: #f08a82;
+    --neg: #4cc27a;
+    --pos-soft: #3a1d1b;
+    --neg-soft: #16301f;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--text);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-line: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-dem: var(--dem);
+  --color-rep: var(--rep);
+  --color-ind: var(--ind);
+  --color-pos: var(--pos);
+  --color-neg: var(--neg);
+  --color-pos-soft: var(--pos-soft);
+  --color-neg-soft: var(--neg-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --font-sans: ui-sans-serif, -apple-system, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    "Noto Sans SC", "Noto Sans CJK SC", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+
+html {
+  background: var(--bg);
+  color: var(--text);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--bg);
+  font-feature-settings: "tnum" 1;
+}
+
+a {
+  color: inherit;
+}
+
+.num {
+  font-variant-numeric: tabular-nums;
+}
+
+.link {
+  color: var(--accent);
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+.tbl {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+}
+.tbl th {
+  text-align: left;
+  font-weight: 500;
+  color: var(--muted);
+  font-size: 12px;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+  background: var(--surface);
+  position: sticky;
+  top: 0;
+}
+.tbl td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+.tbl tr:last-child td {
+  border-bottom: 0;
+}
+.tbl td.r,
+.tbl th.r {
+  text-align: right;
+}
+.tbl tbody tr:hover {
+  background: var(--surface-2);
+}
+
+.scroll-x {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+details > summary {
+  cursor: pointer;
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.input {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 14px;
+  color: var(--text);
+}
+.input:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: -1px;
+}
+
+.prose-page h2 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 1.8rem 0 0.6rem;
+}
+.prose-page p,
+.prose-page li {
+  line-height: 1.75;
+  color: var(--text);
+}
+.prose-page ul {
+  list-style: disc;
+  padding-left: 1.3rem;
+}
+.prose-page ol {
+  list-style: decimal;
+  padding-left: 1.3rem;
+}
+.prose-page code,
+.prose-page .formula {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  background: var(--surface-2);
+  padding: 1px 5px;
+  border-radius: 4px;
+}
