@@ -42,7 +42,7 @@ def test_estimate_skips_options_and_unknowns():
 
 
 def _t(i, tx, typ, smin, smax, own="SELF", sub=None):
-    return {"id": f"X-H1-{i}", "m": "X", "sym": "ABC", "tx": tx, "fil": tx, "type": typ, "own": own, "sub": sub,
+    return {"id": f"X-H1-{i}", "m": "X", "sym": "ABC", "at": "ST", "tx": tx, "fil": tx, "type": typ, "own": own, "sub": sub,
             "est": {"smin": smin, "smax": smax}}
 
 
@@ -74,3 +74,9 @@ def test_stated_share_count_is_used():
     tx = {"sym": "NVDA", "at": "ST", "tx": "2024-06-07", "amin": 1001, "amax": 15000, "reported": {"shares": 10}}
     e = estimate(tx, series())
     assert e["smin"] == e["smax"] == 10 and e["sh_rep"] is True
+
+
+def test_options_are_not_share_positions():
+    t = _t(1, "2024-01-02", "P", 10, 100)
+    t["at"] = "OP"
+    assert build([t]) == []

@@ -13,6 +13,7 @@ from __future__ import annotations
 from collections import defaultdict
 
 BUY, FULL, PARTIAL, SALE, EXCH = "P", "SF", "SP", "S", "E"
+STOCKLIKE = {"ST", "EF", "OT", "RS", "ET", None}
 
 
 def _add(a, b):
@@ -31,7 +32,8 @@ def build(trades: list[dict]) -> list[dict]:
     """Annotate trades with `act` and return one timeline per (member, symbol)."""
     groups: dict[tuple, list[dict]] = defaultdict(list)
     for t in trades:
-        if t.get("sym") and not t.get("option") and t.get("tx"):
+        # shares only: option contracts, bonds and funds are not share positions
+        if t.get("sym") and t.get("tx") and not t.get("opt") and t.get("at") in STOCKLIKE:
             groups[(t["m"], t["sym"])].append(t)
 
     out = []
