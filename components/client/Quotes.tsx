@@ -14,6 +14,8 @@ export interface LiveQuote {
   t: number;
   st: "open" | "pre" | "post" | "closed";
   spark?: number[];
+  xp?: number;
+  xch?: number;
 }
 
 interface Ctx {
@@ -219,5 +221,21 @@ export function QuoteRanges({ sym, labels }: { sym: string; labels: { day: strin
         {bar(q.l52, q.h52)}
       </div>
     </div>
+  );
+}
+
+/** Pre-market or after-hours price, shown under the regular price while those sessions trade. */
+export function ExtendedPrice({ sym, labels }: { sym: string; labels: { pre: string; post: string } }) {
+  const q = useQuote(sym);
+  if (!q || q.xp == null || (q.st !== "pre" && q.st !== "post")) return null;
+  const ch = q.xch ?? 0;
+  return (
+    <span className="num text-xs text-muted">
+      {q.st === "pre" ? labels.pre : labels.post} {fmtPrice(q.xp)}{" "}
+      <span className={ch > 0.00005 ? "text-pos" : ch < -0.00005 ? "text-neg" : ""}>
+        {ch >= 0 ? "+" : ""}
+        {(ch * 100).toFixed(2)}%
+      </span>
+    </span>
   );
 }

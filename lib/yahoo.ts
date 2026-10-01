@@ -31,6 +31,8 @@ export interface Quote {
   t: number; // unix seconds of the last trade
   st: "open" | "pre" | "post" | "closed";
   spark?: number[]; // intraday closes (5-minute)
+  xp?: number; // pre- or after-market price
+  xch?: number; // its change from the regular close (fraction)
 }
 
 interface SparkMeta {

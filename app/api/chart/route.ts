@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { cnbcChart } from "@/lib/cnbc";
 import { yahooJson, yahooSymbol } from "@/lib/yahoo";
 
 const RANGES: Record<string, { range: string; interval: string; ttl: number }> = {
@@ -23,6 +24,14 @@ export async function GET(req: Request) {
   const sym = (url.searchParams.get("s") ?? "").toUpperCase();
   const r = RANGES[url.searchParams.get("r") ?? "1y"] ?? RANGES["1y"];
   if (!/^[A-Z0-9.^-]{1,12}$/.test(sym)) return NextResponse.json({ error: "bad symbol" }, { status: 400 });
+  const rk = url.searchParams.get("r") ?? "1y";
+  const cn = await cnbcChart(sym, rk, r.ttl);
+  if (cn) {
+    return NextResponse.json(
+      { r: rk, tz: cn.tz, bars: cn.bars, src: "cnbc" },
+      { headers: { "Cache-Control": `public, s-maxage=${r.ttl}, stale-while-revalidate=${r.ttl * 4}` } },
+    );
+  }
   const d = (await yahooJson(`/v8/finance/chart/${yahooSymbol(sym)}?range=${r.range}&interval=${r.interval}`, r.ttl)) as {
     chart?: { result?: ChartResult[] };
   } | null;

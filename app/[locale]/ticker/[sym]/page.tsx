@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { LivePrice, QuoteRanges } from "@/components/client/Quotes";
+import { ExtendedPrice, LivePrice, QuoteRanges } from "@/components/client/Quotes";
 import Reveal from "@/components/client/Reveal";
 import StockChart, { type TradeMark } from "@/components/client/StockChart";
 import { Container, Metric, SectionHead } from "@/components/layout";
@@ -84,6 +84,9 @@ export default async function TickerPage({ params }: { params: Promise<{ locale:
             <div className="fade-up text-right" style={{ animationDelay: "80ms" }}>
               <div className="eyebrow mb-1">{t.x.livePrice}</div>
               <LivePrice sym={d.sym} fallback={px[d.sym]} fallbackPrev={pc[d.sym]} size="xl" />
+              <div>
+                <ExtendedPrice sym={d.sym} labels={{ pre: t.x.extPre, post: t.x.extPost }} />
+              </div>
               <div className="num mt-1 text-[11px] text-faint">{t.common.pricesAsOf} {asof}</div>
             </div>
           </div>

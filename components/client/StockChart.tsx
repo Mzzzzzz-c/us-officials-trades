@@ -39,6 +39,7 @@ export default function StockChart({
   const [range, setRange] = useState<Range>("1y");
   const [kind, setKind] = useState<"area" | "candle">("area");
   const [bars, setBars] = useState<Bar[] | null>(null);
+  const [tz, setTz] = useState(0);
   const [err, setErr] = useState(false);
   const [hover, setHover] = useState<{ t: string; p: number; b: number; s: number } | null>(null);
 
@@ -48,7 +49,11 @@ export default function StockChart({
     setErr(false);
     fetch(`/api/chart?s=${encodeURIComponent(sym)}&r=${range}`)
       .then((r) => (r.ok ? r.json() : Promise.reject()))
-      .then((d) => !dead && setBars(d.bars))
+      .then((d) => {
+        if (dead) return;
+        setTz(d.tz ?? 0);
+        setBars(d.bars);
+      })
       .catch(() => {
         if (dead) return;
         setErr(true);
@@ -107,7 +112,7 @@ export default function StockChart({
       });
       const up = bars[bars.length - 1][4] >= bars[0][1];
       const line = up ? pos : neg;
-      const tz = 0;
+      // intraday bars are shown in New York time (the offset comes with the data)
       const time = (t: number) => (intraday ? ((t + tz) as import("lightweight-charts").UTCTimestamp) : (new Date(t * 1000).toISOString().slice(0, 10) as unknown as import("lightweight-charts").Time));
       let series: import("lightweight-charts").ISeriesApi<"Area"> | import("lightweight-charts").ISeriesApi<"Candlestick">;
       if (kind === "candle") {
@@ -131,7 +136,13 @@ export default function StockChart({
       if (!intraday && marks.length) {
         // group trades so markers stay readable: by day (1 month), week (up to a year) or month (longer)
         const days = bars.map((b) => new Date(b[0] * 1000).toISOString().slice(0, 10));
-        const bucket = range === "1m" ? 1 : range === "6m" || range === "1y" ? 5 : 21;
+        const span = range === "1m" ? 1 : range === "6m" || range === "1y" ? 7 : 30;
+        const bucketOf = (i: number) => Math.floor(bars[i][0] / 86400 / span);
+        const firstOf = new Map<number, string>();
+        days.forEach((d, i) => {
+          const b = bucketOf(i);
+          if (!firstOf.has(b)) firstOf.set(b, d);
+        });
         for (const m of marks) {
           if (m.d < days[0]) continue;
           let lo = 0;
@@ -141,7 +152,7 @@ export default function StockChart({
             if (days[mid] <= m.d) lo = mid;
             else hi = mid - 1;
           }
-          const k = days[Math.max(0, lo - (lo % bucket))];
+          const k = firstOf.get(bucketOf(lo)) ?? days[lo];
           const a = agg.get(k) ?? { b: 0, s: 0 };
           a.b += m.b;
           a.s += m.s;
@@ -172,7 +183,7 @@ export default function StockChart({
       ro?.disconnect();
       chart?.remove();
     };
-  }, [bars, kind, marks, range, buyLabel, sellLabel, locale]);
+  }, [bars, kind, marks, range, buyLabel, sellLabel, locale, tz]);
 
   const chg = bars && bars.length > 1 ? bars[bars.length - 1][4] / bars[0][1] - 1 : null;
   return (
