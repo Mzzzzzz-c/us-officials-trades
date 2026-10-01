@@ -69,6 +69,7 @@ export async function cnbcQuotes(symbols: string[]): Promise<Record<string, Quot
 }
 
 const RANGE: Record<string, string> = { "1d": "1D", "5d": "5D", "1m": "1M", "6m": "6M", "1y": "1Y", "5y": "5Y", max: "ALL" };
+const WINDOW: Record<string, number> = { "5d": 7, "1m": 31, "6m": 183, "1y": 366, "5y": 5 * 365.25 };
 
 /** Price bars [unixSeconds, o, h, l, c, v]; intraday times are shifted to New York wall-clock time. */
 export async function cnbcChart(sym: string, range: string, ttl: number): Promise<{ bars: number[][]; tz: number } | null> {
@@ -90,9 +91,17 @@ export async function cnbcChart(sym: string, range: string, ttl: number): Promis
       bars.push([Math.floor(b.tradeTimeinMills / 1000), rd(o), rd(h), rd(l), rd(c), b.volume ?? 0]);
     }
     if (!bars.length) return null;
-    // CNBC's "5Y" chart reaches further back; keep five years
-    const keep = range === "5y" ? bars.filter((x) => x[0] >= Date.now() / 1000 - 5 * 365.25 * 86400) : bars;
-    return { bars: keep, tz: nyOffset(keep[keep.length - 1][0]) };
+    // CNBC's charts reach a little further back than their names say: trim to the asked window
+    const last = bars[bars.length - 1][0];
+    const tz = nyOffset(last);
+    let keep = bars;
+    if (range === "1d") {
+      const day = (t: number) => Math.floor((t + tz) / 86400);
+      keep = bars.filter((x) => day(x[0]) === day(last));
+    } else if (WINDOW[range]) {
+      keep = bars.filter((x) => x[0] >= last - WINDOW[range] * 86400);
+    }
+    return { bars: keep.length ? keep : bars, tz };
   } catch {
     return null;
   }
