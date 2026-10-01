@@ -12,6 +12,7 @@ const config: NextConfig = {
     "/\\[locale\\]/investor/\\[id\\]": [`${SITE}/investor/**/*`, `${SITE}/*.json`],
     // share images read portraits, logos and the bundled fallback font
     "/\\[locale\\]/**/opengraph-image*": [`${SITE}/member/**/*`, `${SITE}/ticker/**/*`, `${SITE}/investor/**/*`, `${SITE}/*.json`, "./public/media/**/*", "./assets/og/**/*"],
+    "/\\[locale\\]/poster/**": [`${SITE}/member/**/*`, `${SITE}/*.json`, "./public/media/**/*", "./assets/og/**/*"],
     "/feed/\\[file\\]": [`${SITE}/member/**/*`, `${SITE}/ticker/**/*`, `${SITE}/*.json`],
   },
   outputFileTracingExcludes: {

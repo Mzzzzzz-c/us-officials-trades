@@ -63,10 +63,16 @@ export async function memberCard(locale: Locale, id: string) {
   const role = roleShort(row, locale);
   const photo = await photoPng(id, 460);
   const host = siteHost(siteUrl());
-  const stats: [string, string][] = [
+  const nav = d.nav && d.nav.pts?.length > 10 ? d.nav : null;
+  const hero = nav ? (nav.cagr != null ? nav.cagr : nav.total) : null;
+  const bench = nav ? (nav.cagr != null ? nav.bcagr : nav.bench) : null;
+  const pc = (x: number) => `${x >= 0 ? "+" : "−"}${Math.abs(x * 100).toFixed(1)}%`;
+  const heroLabel = nav ? (locale === "zh" ? `${nav.cagr != null ? "跟单年化" : "跟单累计"} · 标普 ${pc(bench!)}` : `${nav.cagr != null ? "copy CAGR" : "copy total"} · S&P ${pc(bench!)}`) : "";
+  const stats: [string, string, string?][] = [
+    ...(hero != null ? ([[pc(hero), heroLabel, hero >= 0 ? upDown(locale).up : upDown(locale).down]] as [string, string, string][]) : []),
     [s.n.toLocaleString("en-US"), l.trades],
     [`${s.nb} / ${s.ns}`, l.buysSells],
-    [amountRange(s.vmin, s.vmax), l.volume],
+    ...(hero == null ? ([[amountRange(s.vmin, s.vmax), l.volume]] as [string, string][]) : []),
   ];
   const node = (
     <Frame brand={t.siteName} site={host}>
@@ -77,15 +83,15 @@ export async function memberCard(locale: Locale, id: string) {
           <span style={{ fontSize: 80, fontWeight: 700, letterSpacing: -2, lineHeight: 1.1, marginTop: 6 }}>{name}</span>
           {locale === "zh" && d.profile.zh ? <span style={{ fontSize: 32, color: C.muted, fontWeight: 500 }}>{d.profile.name}</span> : null}
           <div style={{ display: "flex", gap: 48, marginTop: 36 }}>
-            {stats.map(([v, k]) => (
-              <Stat key={k} value={v} label={k} size={42} />
+            {stats.map(([v, k, col]) => (
+              <Stat key={k} value={v} label={k} size={42} color={col} />
             ))}
           </div>
         </div>
       </div>
     </Frame>
   );
-  return render(node, [t.siteName, host, name, d.profile.name, party, role, ...stats.flat()].join(""));
+  return render(node, [t.siteName, host, name, d.profile.name, party, role, ...stats.flat().filter((x): x is string => !!x)].join(""));
 }
 
 export async function tradeCard(locale: Locale, id: string) {

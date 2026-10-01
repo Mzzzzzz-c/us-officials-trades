@@ -1,8 +1,16 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 
 interface Labels {
+  poster?: string;
+  posterTitle?: string;
+  posterSave?: string;
+  posterShare?: string;
+  posterHint?: string;
+  posterLoading?: string;
+  close?: string;
   share: string;
   copyLink: string;
   copied: string;
@@ -14,8 +22,9 @@ interface Labels {
 }
 
 /** Share menu: the system share sheet where there is one, copy link, X, Telegram, Weibo and the share image. */
-export default function Share({ path, text, image, labels, compact = false }: { path: string; text: string; image: string; labels: Labels; compact?: boolean }) {
+export default function Share({ path, text, image, poster, labels, compact = false }: { path: string; text: string; image: string; poster?: string; labels: Labels; compact?: boolean }) {
   const [open, setOpen] = useState(false);
+  const [showPoster, setShowPoster] = useState(false);
   const [copied, setCopied] = useState(false);
   const [canNative, setCanNative] = useState(false);
   const box = useRef<HTMLDivElement>(null);
@@ -40,7 +49,17 @@ export default function Share({ path, text, image, labels, compact = false }: { 
     window.open(href, "_blank", "noopener,noreferrer,width=640,height=560");
     setOpen(false);
   };
-  const items: { label: string; icon: React.ReactNode; run: () => void | Promise<void>; show?: boolean }[] = [
+  const items: { label: string; icon: React.ReactNode; run: () => void | Promise<void>; show?: boolean; strong?: boolean }[] = [
+    {
+      label: labels.poster ?? "Poster",
+      show: !!poster,
+      strong: true,
+      icon: <Icon d="M5 2.5h10A1.5 1.5 0 0 1 16.5 4v12a1.5 1.5 0 0 1-1.5 1.5H5A1.5 1.5 0 0 1 3.5 16V4A1.5 1.5 0 0 1 5 2.5zM3.5 13l4-4 3 3 2-2 4 4" />,
+      run: () => {
+        setOpen(false);
+        setShowPoster(true);
+      },
+    },
     {
       label: labels.native,
       show: canNative,
@@ -109,13 +128,100 @@ export default function Share({ path, text, image, labels, compact = false }: { 
           {items
             .filter((i) => i.show !== false)
             .map((i) => (
-              <button key={i.label} type="button" role="menuitem" onClick={() => void i.run()} className="flex w-full items-center gap-3 rounded-xl px-3 py-2.5 text-left text-[14px] hover:bg-surface-2">
-                <span className="flex size-5 items-center justify-center text-muted">{i.icon}</span>
+              <button key={i.label} type="button" role="menuitem" onClick={() => void i.run()} className={`flex w-full items-center gap-3 rounded-xl px-3 py-2.5 text-left text-[14px] hover:bg-surface-2 ${i.strong ? "font-semibold text-accent" : ""}`}>
+                <span className={`flex size-5 items-center justify-center ${i.strong ? "text-accent" : "text-muted"}`}>{i.icon}</span>
                 {i.label}
               </button>
             ))}
         </div>
       ) : null}
+      {/* portal: an animated (transformed) ancestor would otherwise trap the fixed overlay */}
+      {showPoster && poster ? createPortal(<PosterSheet src={poster} path={path} text={text} labels={labels} onClose={() => setShowPoster(false)} />, document.body) : null}
+    </div>
+  );
+}
+
+function PosterSheet({ src, path, text, labels, onClose }: { src: string; path: string; text: string; labels: Labels; onClose: () => void }) {
+  const [blob, setBlob] = useState<Blob | null>(null);
+  const [failed, setFailed] = useState(false);
+  const [canShareFile, setCanShareFile] = useState(false);
+  const name = `${path.split("/").filter(Boolean).slice(1).join("-") || "poster"}-poster.png`;
+  useEffect(() => {
+    let live = true;
+    fetch(src)
+      .then((r) => (r.ok ? r.blob() : Promise.reject(new Error(String(r.status)))))
+      .then((b) => {
+        if (!live) return;
+        setBlob(b);
+        try {
+          const f = new File([b], name, { type: "image/png" });
+          setCanShareFile(typeof navigator.canShare === "function" && navigator.canShare({ files: [f] }));
+        } catch {
+          setCanShareFile(false);
+        }
+      })
+      .catch(() => live && setFailed(true));
+    const esc = (e: KeyboardEvent) => e.key === "Escape" && onClose();
+    document.addEventListener("keydown", esc);
+    document.body.style.overflow = "hidden";
+    return () => {
+      live = false;
+      document.removeEventListener("keydown", esc);
+      document.body.style.overflow = "";
+    };
+  }, [src, name, onClose]);
+  const url = useMemo(() => (blob ? URL.createObjectURL(blob) : null), [blob]);
+  useEffect(() => () => void (url && URL.revokeObjectURL(url)), [url]);
+
+  const saveIt = () => {
+    if (!url) return;
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = name;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+  };
+  const shareIt = async () => {
+    if (!blob) return;
+    try {
+      await navigator.share({ files: [new File([blob], name, { type: "image/png" })], title: text, text: `${text} ${window.location.origin}${path}` });
+    } catch {
+      // dismissed
+    }
+  };
+
+  return (
+    <div className="fixed inset-0 z-[60] flex items-center justify-center bg-black/55 p-4 backdrop-blur-sm" role="dialog" aria-modal="true" aria-label={labels.posterTitle} onMouseDown={(e) => e.target === e.currentTarget && onClose()}>
+      <div className="fade-up flex max-h-full w-full max-w-[440px] flex-col overflow-hidden rounded-3xl bg-[var(--bg-elev)] shadow-[0_24px_80px_rgba(0,0,0,0.35)]">
+        <div className="flex items-center justify-between px-5 pt-4 pb-3">
+          <h2 className="text-[17px] font-semibold">{labels.posterTitle}</h2>
+          <button type="button" onClick={onClose} aria-label={labels.close} className="flex size-8 items-center justify-center rounded-full bg-surface-2 text-muted hover:bg-surface-3">
+            <svg width="12" height="12" viewBox="0 0 10 10" aria-hidden="true">
+              <path d="M2 2l6 6M8 2 2 8" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+            </svg>
+          </button>
+        </div>
+        <div className="min-h-0 flex-1 overflow-y-auto px-5">
+          {url ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src={url} alt={text} width={1080} height={1440} className="aspect-[3/4] w-full rounded-2xl border border-hair object-contain" />
+          ) : (
+            <div className="flex aspect-[3/4] w-full items-center justify-center rounded-2xl bg-surface-2 text-[14px] text-muted">{failed ? "—" : labels.posterLoading}</div>
+          )}
+          <p className="mt-3 text-[12px] leading-relaxed text-faint">{labels.posterHint}</p>
+        </div>
+        <div className="flex gap-2 p-5 pt-4">
+          {canShareFile ? (
+            <button type="button" className="btn btn-primary flex-1 justify-center" disabled={!blob} onClick={() => void shareIt()}>
+              {labels.posterShare}
+            </button>
+          ) : null}
+          <button type="button" className={`btn flex-1 justify-center ${canShareFile ? "btn-quiet" : "btn-primary"}`} disabled={!blob} onClick={saveIt}>
+            {labels.posterSave}
+          </button>
+        </div>
+      </div>
     </div>
   );
 }

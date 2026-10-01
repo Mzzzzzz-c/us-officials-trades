@@ -110,7 +110,7 @@ export default async function MemberPage({ params }: { params: Promise<{ locale:
               <div className="mt-2 text-[17px] text-muted">{place}</div>
               <div className="mt-5 flex flex-wrap justify-center gap-2 sm:justify-start">
                 <FollowButton kind="m" id={p.id} labels={t.follow} />
-                <Share path={`/${locale}/member/${p.id}`} image={`/${locale}/member/${p.id}/opengraph-image`} text={`${title} · ${t.siteName}`} labels={t.share} />
+                <Share path={`/${locale}/member/${p.id}`} image={`/${locale}/member/${p.id}/opengraph-image`} poster={`/${locale}/poster/member/${p.id}`} text={`${title} · ${t.siteName}`} labels={t.share} />
               </div>
             </div>
           </div>
