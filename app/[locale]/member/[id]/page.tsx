@@ -355,7 +355,7 @@ export default async function MemberPage({ params }: { params: Promise<{ locale:
           </section>
         ) : null}
 
-        {media.wiki[p.id] ? (
+        {media.wiki[p.id] || media.files?.[p.id] ? (
           <p className="mt-10 text-[11px] text-faint">
             {t.x.photo}:{" "}
             <a
@@ -363,7 +363,7 @@ export default async function MemberPage({ params }: { params: Promise<{ locale:
               href={
                 media.files?.[p.id]
                   ? `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(media.files[p.id].replace(/ /g, "_"))}`
-                  : `https://en.wikipedia.org/wiki/${media.wiki[p.id].replace(/ /g, "_")}`
+                  : `https://en.wikipedia.org/wiki/${(media.wiki[p.id] ?? "").replace(/ /g, "_")}`
               }
               target="_blank"
               rel="noopener noreferrer"
