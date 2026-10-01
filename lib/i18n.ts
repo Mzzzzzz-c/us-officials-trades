@@ -339,7 +339,7 @@ const zh = {
     jump: "跳转",
     photoCredit: "照片来源：美国国会官方照片（unitedstates/images 项目整理）与维基百科/维基共享资源；公司标志来自 Parqet 与 Financial Modeling Prep。",
     note: "说明",
-    liveNote: "股价来自 Yahoo Finance 免费行情，可能有延迟。",
+    liveNote: "实时股价与走势图来自 CNBC 公开行情（Yahoo Finance 备用），盘中约每 30 秒刷新；历史收益按每日收盘价计算。",
     labTitle: "策略实验室",
     labSub: "换一种跟单规则，结果会怎样？每条规则只用当时已经公开的信息，没有“事后诸葛亮”。点选一行查看收益曲线。",
     labRules: {
@@ -772,7 +772,7 @@ const en: Dict = {
     jump: "Jump to",
     photoCredit: "Photos: official Congressional portraits (collected by the unitedstates/images project) and Wikipedia / Wikimedia Commons. Logos: Parqet and Financial Modeling Prep.",
     note: "Note",
-    liveNote: "Prices from Yahoo Finance's free feed; may be delayed.",
+    liveNote: "Live prices and charts come from CNBC's public quotes (Yahoo Finance as a fallback) and refresh about every 30 seconds while markets trade; historical returns use daily closes.",
     labTitle: "Strategy lab",
     labSub: "What if you copied with a different rule? Every rule uses only what was public at the time, so there is no hindsight. Pick a row to see its curve.",
     labRules: {

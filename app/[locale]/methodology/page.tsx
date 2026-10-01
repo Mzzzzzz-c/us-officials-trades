@@ -108,7 +108,7 @@ function Zh({ meta, c }: P) {
 
       <h2>照片、标志与实时股价</h2>
       <p>
-        国会议员照片来自国会官方照片（由 unitedstates/images 项目整理，属公共领域）；行政官员与知名投资人的照片来自维基百科/维基共享资源（各人页面底部附原图链接，可查看作者与授权），个别来自所在部门官网的官方照片。公司标志来自 Parqet 与 Financial Modeling Prep。实时股价来自 Yahoo Finance 的免费行情，约每 30 秒刷新，可能有延迟；页面上的历史收益使用每日收盘数据。
+        国会议员照片来自国会官方照片（由 unitedstates/images 项目整理，属公共领域）；行政官员与知名投资人的照片来自维基百科/维基共享资源（各人页面底部附原图链接，可查看作者与授权），个别来自所在部门官网的官方照片。公司标志来自 Parqet 与 Financial Modeling Prep。实时股价（含盘前盘后）和走势图来自 CNBC 的公开行情，Yahoo Finance 作为备用，盘中约每 30 秒刷新；页面上的历史收益与回测使用每日收盘数据（来自 Yahoo Finance）。
       </p>
 
       <h2>申报延迟</h2>
@@ -215,7 +215,7 @@ function En({ meta, c }: P) {
 
       <h2>Photos, logos and live prices</h2>
       <p>
-        Congressional portraits are the official public-domain photos collected by the unitedstates/images project; executive officials&apos; and investors&apos; photos come from Wikipedia / Wikimedia Commons (each page links the original file with its author and licence), a few from official agency portraits. Logos come from Parqet and Financial Modeling Prep. Live prices come from Yahoo Finance&apos;s free feed, refresh about every 30 seconds and may be delayed; historical returns use daily closes.
+        Congressional portraits are the official public-domain photos collected by the unitedstates/images project; executive officials&apos; and investors&apos; photos come from Wikipedia / Wikimedia Commons (each page links the original file with its author and licence), a few from official agency portraits. Logos come from Parqet and Financial Modeling Prep. Live prices (including pre- and after-market) and charts come from CNBC&apos;s public quotes with Yahoo Finance as a fallback, refreshing about every 30 seconds; historical returns and backtests use daily closes (from Yahoo Finance).
       </p>
 
       <h2>Filing delay</h2>
