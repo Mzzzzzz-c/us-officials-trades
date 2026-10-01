@@ -1,3 +1,4 @@
+import { PosterButton } from "@/components/client/Share";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -29,7 +30,11 @@ export default async function LatestPage({ params }: { params: Promise<{ locale:
   const unparsed = getUnparsed().length;
   return (
     <div>
-      <PageHeader title={t.x.latestFeed} sub={t.home.intro} />
+      <PageHeader
+        title={t.x.latestFeed}
+        sub={t.home.intro}
+        right={<PosterButton src={`/${locale}/poster/week`} path={`/${locale}/latest`} text={`${t.x.latestFeed} · ${t.siteName}`} labels={t.share} label={t.share.posterWeek} />}
+      />
       <Container>
         <TradeTable locale={locale} trades={recent} members={members} px={pxSub} filters media={media} />
         {unparsed > 0 && (

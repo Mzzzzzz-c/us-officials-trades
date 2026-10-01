@@ -62,6 +62,7 @@ export default async function TradePage({ params }: { params: Promise<{ locale: 
           compact
           path={`/${locale}/trade/${encodeURIComponent(tr.id)}`}
           image={`/${locale}/trade/${encodeURIComponent(tr.id)}/opengraph-image`}
+          poster={`/${locale}/poster/trade/${encodeURIComponent(tr.id)}`}
           text={`${who} · ${t.types[tr.type]} ${tr.sym ?? tr.asset ?? ""} ${amountRange(tr.amin, tr.amax)} · ${t.siteName}`}
           labels={t.share}
         />

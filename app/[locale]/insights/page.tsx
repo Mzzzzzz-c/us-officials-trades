@@ -1,3 +1,4 @@
+import { PosterButton } from "@/components/client/Share";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -182,6 +183,10 @@ export default async function InsightsPage({ params }: { params: Promise<{ local
       <Band alt id="leaders">
         <Reveal>
           <SectionHead title={t.x.leaderboard} sub={t.x.leaderboardSub} />
+          <div className="-mt-2 mb-6 flex flex-wrap gap-2">
+            <PosterButton src={`/${locale}/poster/leaderboard`} path={`/${locale}/insights#leaders`} text={`${t.x.leaderboard} · ${t.siteName}`} labels={t.share} label={t.share.posterLeaderboard} />
+            <PosterButton src={`/${locale}/poster/leaderboard?k=worst`} path={`/${locale}/insights#leaders`} text={`${t.x.laggards} · ${t.siteName}`} labels={t.share} label={t.share.posterWorst} />
+          </div>
         </Reveal>
         <Reveal className="card scroll-x overflow-hidden">
           <table className="tbl">
@@ -437,6 +442,9 @@ export default async function InsightsPage({ params }: { params: Promise<{ local
       <Band alt id="party">
         <Reveal>
           <SectionHead title={t.x.partyTitle} sub={t.x.partySub} />
+          <div className="-mt-2 mb-6 flex">
+            <PosterButton src={`/${locale}/poster/party`} path={`/${locale}/insights#party`} text={`${t.x.partyTitle} · ${t.siteName}`} labels={t.share} label={t.share.posterParty} />
+          </div>
         </Reveal>
         <div className="grid gap-6 md:grid-cols-2">
           {(["D", "R"] as const).map((k) => {

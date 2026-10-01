@@ -6,6 +6,7 @@ import { amountRange, usdShort } from "./format";
 import { dict, type Locale } from "./i18n";
 import { C, Frame, LogoTile, logoPng, OG_SIZE, ogFonts, partyColor, photoPng, Portrait, siteHost, Stat, upDown } from "./og";
 import { roleShort } from "./people";
+import { QrCode } from "./poster-kit";
 import { siteUrl } from "./site";
 
 const L = {
@@ -33,7 +34,7 @@ export async function siteCard(locale: Locale) {
   const host = siteHost(siteUrl());
   const stats: [string, string][] = c ? [[c.trades.toLocaleString("en-US"), l.trades], [String(c.members), t.x.statOfficials], [c.tickers.toLocaleString("en-US"), l.stocks]] : [];
   const node = (
-    <Frame brand={brand} site={host}>
+    <Frame brand={brand} site={host} qr={<QrCode url={`${siteUrl()}${`/${locale}`}`} size={96} />}>
       <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", gap: 36 }}>
         <div style={{ display: "flex", flexDirection: "column", fontSize: 76, fontWeight: 700, letterSpacing: -2, lineHeight: 1.1 }}>
           <span>{t.x.heroTitle1}</span>
@@ -75,7 +76,7 @@ export async function memberCard(locale: Locale, id: string) {
     ...(hero == null ? ([[amountRange(s.vmin, s.vmax), l.volume]] as [string, string][]) : []),
   ];
   const node = (
-    <Frame brand={t.siteName} site={host}>
+    <Frame brand={t.siteName} site={host} qr={<QrCode url={`${siteUrl()}${`/${locale}/member/${id}`}`} size={96} />}>
       <div style={{ display: "flex", alignItems: "center", gap: 56, width: "100%" }}>
         <Portrait src={photo} name={name} size={250} ring={partyColor(d.profile.party)} />
         <div style={{ display: "flex", flexDirection: "column", flex: 1, minWidth: 0 }}>
@@ -120,7 +121,7 @@ export async function tradeCard(locale: Locale, id: string) {
   ];
   const headline = tr.sym ?? (tr.asset ?? "").slice(0, 28);
   const node = (
-    <Frame brand={t.siteName} site={host}>
+    <Frame brand={t.siteName} site={host} qr={<QrCode url={`${siteUrl()}${`/${locale}/trade/${encodeURIComponent(id)}`}`} size={96} />}>
       <div style={{ display: "flex", flexDirection: "column", width: "100%", justifyContent: "space-between" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 22 }}>
           <Portrait src={photo} name={name} size={96} ring={partyColor(d.profile.party)} />
@@ -174,7 +175,7 @@ export async function tickerCard(locale: Locale, sym: string) {
   ];
   const names = top.map((m) => { const p = people.get(m.id); return p ? nm(p.zh, p.name, locale) : m.id; });
   const node = (
-    <Frame brand={t.siteName} site={host}>
+    <Frame brand={t.siteName} site={host} qr={<QrCode url={`${siteUrl()}${`/${locale}/ticker/${encodeURIComponent(d.sym)}`}`} size={96} />}>
       <div style={{ display: "flex", flexDirection: "column", width: "100%", justifyContent: "space-between" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 36 }}>
           <LogoTile src={logo} sym={d.sym} size={170} dark={getMedia().logos[d.sym] === 3} />
@@ -221,7 +222,7 @@ export async function investorCard(locale: Locale, id: string) {
     [row.period, l.period],
   ];
   const node = (
-    <Frame brand={t.siteName} site={host}>
+    <Frame brand={t.siteName} site={host} qr={<QrCode url={`${siteUrl()}${`/${locale}/investor/${id}`}`} size={96} />}>
       <div style={{ display: "flex", alignItems: "center", gap: 56, width: "100%" }}>
         <Portrait src={photo} name={name} size={230} ring={photo ? undefined : C.accent} />
         <div style={{ display: "flex", flexDirection: "column", flex: 1 }}>

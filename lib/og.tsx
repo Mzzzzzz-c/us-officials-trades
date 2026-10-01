@@ -97,7 +97,7 @@ export const C = {
 export const upDown = (locale: Locale) => (locale === "zh" ? { up: "#e0352b", down: "#1f9d55" } : { up: "#1f9d55", down: "#e0352b" });
 export const partyColor = (p?: string | null) => (p === "D" ? C.dem : p === "R" ? C.rep : C.ind);
 
-export function Frame({ children, brand, site }: { children: ReactNode; brand: string; site: string }) {
+export function Frame({ children, brand, site, qr }: { children: ReactNode; brand: string; site: string; qr?: ReactNode }) {
   return (
     <div style={{ width: "100%", height: "100%", display: "flex", flexDirection: "column", background: C.bg, fontFamily: "SC", color: C.text, padding: "44px 56px" }}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", fontSize: 24, color: C.muted, fontWeight: 500 }}>
@@ -109,7 +109,10 @@ export function Frame({ children, brand, site }: { children: ReactNode; brand: s
         </div>
         <span>{site}</span>
       </div>
-      <div style={{ display: "flex", flex: 1, marginTop: 32, background: C.card, borderRadius: 36, padding: "48px 56px", boxShadow: "0 10px 40px rgba(0,0,0,0.06)" }}>{children}</div>
+      <div style={{ display: "flex", flex: 1, marginTop: 32, background: C.card, borderRadius: 36, padding: "48px 56px", boxShadow: "0 10px 40px rgba(0,0,0,0.06)", position: "relative" }}>
+        {children}
+        {qr ? <div style={{ position: "absolute", right: 28, top: 28, display: "flex" }}>{qr}</div> : null}
+      </div>
     </div>
   );
 }

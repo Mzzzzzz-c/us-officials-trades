@@ -83,7 +83,7 @@ export default async function TickerPage({ params }: { params: Promise<{ locale:
                 {locale === "zh" && d.zh ? <div className="text-xs text-faint">{d.name}</div> : null}
                 <div className="mt-3 flex flex-wrap gap-2">
                   <FollowButton kind="s" id={d.sym} labels={t.follow} compact />
-                  <Share compact path={`/${locale}/ticker/${encodeURIComponent(d.sym)}`} image={`/${locale}/ticker/${encodeURIComponent(d.sym)}/opengraph-image`} text={`${d.sym} ${name} · ${t.siteName}`} labels={t.share} />
+                  <Share compact path={`/${locale}/ticker/${encodeURIComponent(d.sym)}`} image={`/${locale}/ticker/${encodeURIComponent(d.sym)}/opengraph-image`} poster={`/${locale}/poster/ticker/${encodeURIComponent(d.sym)}`} text={`${d.sym} ${name} · ${t.siteName}`} labels={t.share} />
                 </div>
               </div>
             </div>

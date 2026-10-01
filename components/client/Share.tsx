@@ -141,11 +141,28 @@ export default function Share({ path, text, image, poster, labels, compact = fal
   );
 }
 
+/** A button that opens the poster sheet directly (for pages about many officials). */
+export function PosterButton({ src, path, text, labels, label }: { src: string; path: string; text: string; labels: Labels; label?: string }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <>
+      <button type="button" onClick={() => setOpen(true)} className="inline-flex items-center gap-1.5 rounded-full bg-accent-soft px-3.5 py-1.5 text-[13px] font-semibold text-accent transition-colors hover:brightness-95">
+        <svg width="14" height="14" viewBox="0 0 20 20" aria-hidden="true">
+          <path d="M5 2.5h10A1.5 1.5 0 0 1 16.5 4v12a1.5 1.5 0 0 1-1.5 1.5H5A1.5 1.5 0 0 1 3.5 16V4A1.5 1.5 0 0 1 5 2.5zM3.5 13l4-4 3 3 2-2 4 4" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+        {label ?? labels.poster}
+      </button>
+      {open ? createPortal(<PosterSheet src={src} path={path} text={text} labels={labels} onClose={() => setOpen(false)} />, document.body) : null}
+    </>
+  );
+}
+
 function PosterSheet({ src, path, text, labels, onClose }: { src: string; path: string; text: string; labels: Labels; onClose: () => void }) {
   const [blob, setBlob] = useState<Blob | null>(null);
   const [failed, setFailed] = useState(false);
   const [canShareFile, setCanShareFile] = useState(false);
-  const name = `${path.split("/").filter(Boolean).slice(1).join("-") || "poster"}-poster.png`;
+  // e.g. /zh/poster/leaderboard?k=worst -> poster-leaderboard-worst.png
+  const name = `poster-${(src.split("/poster/")[1] ?? "share").replace(/[?=&]k?=?/g, "-").replace(/[^A-Za-z0-9._-]+/g, "-").replace(/-+/g, "-").replace(/-$/, "")}.png`;
   useEffect(() => {
     let live = true;
     fetch(src)

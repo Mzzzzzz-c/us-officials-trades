@@ -317,6 +317,10 @@ const zh = {
     posterShare: "分享图片",
     posterHint: "手机上也可以长按图片保存，适合发朋友圈、小红书、微博。",
     posterLoading: "正在生成海报…",
+    posterLeaderboard: "生成排行榜海报",
+    posterWorst: "生成最亏榜海报",
+    posterParty: "生成两党对比海报",
+    posterWeek: "生成速报海报",
     close: "关闭",
   },
   x: {
@@ -840,6 +844,10 @@ const en: Dict = {
     posterShare: "Share image",
     posterHint: "On a phone you can also press and hold the image to save it. Sized for Instagram, X and Xiaohongshu.",
     posterLoading: "Drawing the poster…",
+    posterLeaderboard: "Leaderboard poster",
+    posterWorst: "Worst-to-copy poster",
+    posterParty: "Party poster",
+    posterWeek: "Roundup poster",
     close: "Close",
   },
   x: {

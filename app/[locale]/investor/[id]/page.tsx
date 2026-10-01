@@ -86,7 +86,7 @@ export default async function InvestorPage({ params }: { params: Promise<{ local
                 </a>
               </div>
               <div className="mt-4 flex justify-center sm:justify-start">
-                <Share compact path={`/${locale}/investor/${p.id}`} image={`/${locale}/investor/${p.id}/opengraph-image`} text={`${name} · ${firm} · ${t.siteName}`} labels={t.share} />
+                <Share compact path={`/${locale}/investor/${p.id}`} image={`/${locale}/investor/${p.id}/opengraph-image`} poster={`/${locale}/poster/investor/${p.id}`} text={`${name} · ${firm} · ${t.siteName}`} labels={t.share} />
               </div>
             </div>
           </div>

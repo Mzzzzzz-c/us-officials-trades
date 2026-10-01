@@ -1,3 +1,4 @@
+import { PosterButton } from "@/components/client/Share";
 import Link from "next/link";
 import { FollowStrip } from "@/components/client/Follow";
 import { notFound } from "next/navigation";
@@ -210,6 +211,9 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       <Band>
         <Reveal>
           <SectionHead title={t.x.latestFeed} href={L("/latest")} more={t.x.viewAll} />
+          <div className="-mt-2 mb-6 flex">
+            <PosterButton src={L("/poster/week")} path={L("/latest")} text={`${t.x.latestFeed} · ${t.siteName}`} labels={t.share} label={t.share.posterWeek} />
+          </div>
         </Reveal>
         <Reveal className="card divide-y divide-hair overflow-hidden">
           {feed.map((tr) => (

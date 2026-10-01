@@ -2,20 +2,13 @@ import "server-only";
 // Portrait posters (1080x1440, 3:4) for sharing on Xiaohongshu, WeChat Moments, Weibo, Instagram, X.
 // One official per poster: the copy-trading result against the S&P 500, the estimated top-10
 // holdings as a donut with logos, the best trade, filing habits, and a QR code back to the site.
-import { ImageResponse } from "next/og";
-import QRCode from "qrcode";
+import { donut, fill, OTHER, pct, posterResponse, QrFooter, short, SLICE } from "./poster-kit";
 import { getLatestPrices, getMedia, getMember, getMembers, getTickers } from "./data";
 import { amountRange } from "./format";
 import { dict, type Locale } from "./i18n";
-import { C, logoPng, ogFonts, partyColor, photoPng, siteHost, upDown } from "./og";
+import { C, logoPng, partyColor, photoPng, siteHost, upDown } from "./og";
 import { roleShort } from "./people";
 import { siteUrl } from "./site";
-
-export const POSTER = { width: 1080, height: 1440 };
-
-// ten categorical hues that stay apart on white, then grey for "other"
-const SLICE = ["#0a84ff", "#ff9f0a", "#30b0c7", "#bf5af2", "#ff375f", "#34c759", "#5e5ce6", "#a2845e", "#ffd60a", "#64d2ff"];
-const OTHER = "#d1d1d6";
 
 const T = {
   zh: {
@@ -77,57 +70,6 @@ const T = {
     spy: "S&P 500",
   },
 };
-
-/** Company names cut to fit: no open brackets, and Latin names end on a whole word. */
-function short(n: string, max = 13): string {
-  if ([...n].length <= max) return n;
-  const noParen = n.replace(/\s*[（(][^）)]*[）)]?\s*$/, "").trim();
-  if (noParen && [...noParen].length <= max) return noParen;
-  const s = noParen || n;
-  if (/^[\x00-\x7f]+$/.test(s)) {
-    const words = s.split(/\s+/);
-    let out = "";
-    for (const w of words) {
-      if ((out ? out.length + 1 : 0) + w.length > max) break;
-      out = out ? `${out} ${w}` : w;
-    }
-    return out.replace(/[,&-]+$/, "") || s.slice(0, max);
-  }
-  return [...s].slice(0, max).join("");
-}
-
-const pct = (x: number, d = 1) => `${x >= 0 ? "+" : "−"}${Math.abs(x * 100).toFixed(d)}%`;
-const fill = (s: string, v: Record<string, string>) => s.replace(/\{(\w+)\}/g, (_, k) => v[k] ?? "");
-
-function qrPath(text: string): { d: string; n: number } {
-  const q = QRCode.create(text, { errorCorrectionLevel: "M" });
-  const n = q.modules.size;
-  let d = "";
-  for (let y = 0; y < n; y++) for (let x = 0; x < n; x++) if (q.modules.get(x, y)) d += `M${x} ${y}h1v1h-1z`;
-  return { d, n };
-}
-
-function donut(slices: { v: number; color: string }[], r: number, w: number): string[] {
-  const total = slices.reduce((a, s) => a + s.v, 0) || 1;
-  let a0 = -Math.PI / 2;
-  const out: string[] = [];
-  for (const s of slices) {
-    const a1 = a0 + (s.v / total) * Math.PI * 2;
-    // keep a hairline gap between slices; a lone slice is a full ring
-    const gap = slices.length > 1 ? 0.012 : 0;
-    const s0 = a0 + gap, s1 = Math.max(s0 + 0.001, a1 - gap);
-    const large = s1 - s0 > Math.PI ? 1 : 0;
-    const R = r, r2 = r - w;
-    const p = (a: number, rr: number) => `${(r + rr * Math.cos(a)).toFixed(2)} ${(r + rr * Math.sin(a)).toFixed(2)}`;
-    if (slices.length === 1) {
-      out.push(`M${r} ${r - R}A${R} ${R} 0 1 1 ${r - 0.01} ${r - R}ZM${r} ${r - r2}A${r2} ${r2} 0 1 0 ${r - 0.01} ${r - r2}Z`);
-    } else {
-      out.push(`M${p(s0, R)}A${R} ${R} 0 ${large} 1 ${p(s1, R)}L${p(s1, r2)}A${r2} ${r2} 0 ${large} 0 ${p(s0, r2)}Z`);
-    }
-    a0 = a1;
-  }
-  return out;
-}
 
 export async function memberPoster(locale: Locale, id: string): Promise<Response> {
   const d = getMember(id);
@@ -192,7 +134,6 @@ export async function memberPoster(locale: Locale, id: string): Promise<Response
   const [photo, logos] = await Promise.all([photoPng(id, 420), Promise.all(pie.map((p) => (p.sym ? logoPng(p.sym, 96) : Promise.resolve(null))))]);
   const site = siteUrl();
   const host = siteHost(site);
-  const qr = qrPath(`${site}/${locale}/member/${id}`);
 
   // chart geometry
   const CW = 400, CH = 150;
@@ -341,24 +282,7 @@ export async function memberPoster(locale: Locale, id: string): Promise<Response
           ))}
         </div>
 
-        {/* footer */}
-        <div style={{ display: "flex", alignItems: "center", gap: 26, borderTop: "2px solid #f0f0f3", paddingTop: 20 }}>
-          <svg width={116} height={116} viewBox={`-2 -2 ${qr.n + 4} ${qr.n + 4}`} style={{ background: "#fff", flexShrink: 0 }}>
-            <path d={qr.d} fill="#1d1d1f" />
-          </svg>
-          <div style={{ display: "flex", flexDirection: "column", flex: 1, gap: 6 }}>
-            <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-              <svg width="30" height="30" viewBox="0 0 24 24">
-                <path d="M3 9.5 12 4l9 5.5M5 10v8m4.7-8v8m4.6-8v8M19 10v8M3.5 20.5h17" stroke={C.accent} strokeWidth="1.9" fill="none" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-              <span style={{ fontSize: 28, fontWeight: 700 }}>{t.siteName}</span>
-            </div>
-            <span style={{ fontSize: 22, color: C.muted, fontWeight: 500 }}>
-              {l.scan} · {host}
-            </span>
-            <span style={{ fontSize: 17, color: C.faint, fontWeight: 500, lineHeight: 1.35 }}>{l.foot}</span>
-          </div>
-        </div>
+        <QrFooter locale={locale} path={`/${locale}/member/${id}`} scan={l.scan} />
       </div>
     </div>
   );
@@ -370,9 +294,5 @@ export async function memberPoster(locale: Locale, id: string): Promise<Response
     best ? `${best.act}${best.sym}` : "",
     nav?.from ?? "", "个百分点", "pts",
   ].join("");
-  return new ImageResponse(node, {
-    ...POSTER,
-    fonts: await ogFonts(text),
-    headers: { "Cache-Control": "public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800" },
-  });
+  return posterResponse(node, text, locale);
 }
