@@ -52,7 +52,7 @@ write("officials", offCols, members.map((m) => {
 
 // ---------------------------------------------------------------- stocks
 const tickers = read("tickers.json");
-const { px, pc, asof } = read("latest-prices.json");
+const { px } = read("latest-prices.json");
 const stats = {};
 for (const t of tickers) {
   try {
@@ -61,11 +61,12 @@ for (const t of tickers) {
     stats[t.sym] = {};
   }
 }
-const tkCols = ["sym", "name", "zh", "sec", "n", "nb", "ns", "nm", "inv", "last", "px", "chg", "pxd", "b90", "s90", "b365", "s365", "win", "x90"];
+// No raw market prices in the downloads: the quotes come from a provider (Yahoo Finance) whose
+// terms forbid redistributing its data. Returns computed from them are this site's own analysis.
+const tkCols = ["sym", "name", "zh", "sec", "n", "nb", "ns", "nm", "inv", "last", "b90", "s90", "b365", "s365", "win", "x90"];
 write("tickers", tkCols, tickers.map((t) => {
   const s = stats[t.sym];
-  const p = px?.[t.sym] ?? null, c = pc?.[t.sym] ?? null;
-  return [t.sym, t.name ?? null, t.zh ?? null, t.sec ?? null, t.n, t.nb, t.ns, t.nm ?? null, t.inv ?? null, t.last ?? null, p, p != null && c ? r4(p / c - 1) : null, p != null ? asof ?? null : null,
+  return [t.sym, t.name ?? null, t.zh ?? null, t.sec ?? null, t.n, t.nb, t.ns, t.nm ?? null, t.inv ?? null, t.last ?? null,
     s.b90 ?? null, s.s90 ?? null, s.b365 ?? null, s.s365 ?? null, r4(s.win), r4(s.x90)];
 }));
 
@@ -101,11 +102,11 @@ const sig = [];
 for (const g of ["proven", "big", "cluster", "ov"]) {
   for (const c of ins.signals?.[g] ?? []) {
     const rec = Array.isArray(c.rec) ? c.rec : [];
-    sig.push([g, c.id, c.m, c.sym, c.type, c.act ?? null, c.tx ?? null, c.fil ?? null, c.amin ?? null, c.amax ?? null, c.fol ?? null, px?.[c.sym] ?? null,
+    sig.push([g, c.id, c.m, c.sym, c.type, c.act ?? null, c.tx ?? null, c.fil ?? null, c.amin ?? null, c.amax ?? null,
       c.fol && px?.[c.sym] ? r4(px[c.sym] / c.fol - 1) : null, rec[0] ?? null, r4(rec[1]), r4(rec[2])]);
   }
 }
-write("signals", ["grp", "id", "m", "sym", "type", "act", "tx", "fil", "amin", "amax", "fol", "px", "since", "rec_n", "rec_x", "rec_win"], sig);
+write("signals", ["grp", "id", "m", "sym", "type", "act", "tx", "fil", "amin", "amax", "since", "rec_n", "rec_x", "rec_win"], sig);
 
 fs.writeFileSync(path.join(OUT, "index.json"), JSON.stringify(index, null, 1));
 console.log("exports:", Object.entries(index.sets).map(([k, v]) => `${k} ${v.rows} rows ${(v.bytes / 1e6).toFixed(1)}MB`).join(", "));

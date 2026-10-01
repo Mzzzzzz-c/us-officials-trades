@@ -81,6 +81,9 @@ const TXT = {
     legalTitle: "使用说明",
     legal:
       "数据来自美国众议院、参议院、政府道德办公室（OGE）与 SEC 的公开披露，按原样整理，可能存在错误或遗漏。根据 5 U.S.C. §13107，官员财务披露报告不得用于商业目的（新闻与传播媒体向公众传播除外）、信用评级或募款。本站不构成任何投资建议。",
+    pricesTitle: "为什么下载文件里没有股价",
+    prices:
+      "网站上的股价和走势图来自第三方行情服务（Yahoo Finance、CNBC），它们的服务条款允许在网页上显示，但禁止把行情数据批量转发给他人。因此下载文件不含收盘价、当日涨跌等原始价格；由价格计算出的超额收益、跑赢比例、回测收益和公开以来涨跌幅是本站自己的分析结果，照常提供。需要原始价格时，请在各股票页面查看，或从你有权使用的行情来源获取。",
     updated: "数据截至",
     mb: (b: number) => (b > 1e6 ? `${(b / 1e6).toFixed(1)} MB` : `${Math.max(1, Math.round(b / 1e3))} KB`),
   },
@@ -135,6 +138,9 @@ const TXT = {
     legalTitle: "Terms of use",
     legal:
       "Compiled as-is from public disclosures by the House, the Senate, the Office of Government Ethics and the SEC; it may contain errors or omissions. Under 5 U.S.C. §13107, officials' financial disclosure reports may not be used for commercial purposes (other than by news and communications media for dissemination to the public), credit ratings or solicitation. Nothing here is investment advice.",
+    pricesTitle: "Why the downloads have no stock prices",
+    prices:
+      "The prices and charts on this site come from third-party market-data services (Yahoo Finance, CNBC) whose terms allow showing them on a web page but forbid passing the data on in bulk. So the files leave out closing prices, daily changes and other raw quotes. Figures this site computes from prices (excess returns, win rates, backtest returns, change since disclosure) are its own analysis and are included. For raw prices, see each stock's page or a data source you are licensed to use.",
     updated: "Data through",
     mb: (b: number) => (b > 1e6 ? `${(b / 1e6).toFixed(1)} MB` : `${Math.max(1, Math.round(b / 1e3))} KB`),
   },
@@ -460,9 +466,15 @@ export default function DataCenter({ locale, index, enums }: { locale: "zh" | "e
         </div>
       </section>
 
-      <section className="well rounded-2xl p-5 text-[13px] leading-relaxed text-muted">
-        <h3 className="mb-1.5 font-semibold text-text">{T.legalTitle}</h3>
-        {T.legal}
+      <section className="well flex flex-col gap-4 rounded-2xl p-5 text-[13px] leading-relaxed text-muted">
+        <div>
+          <h3 className="mb-1.5 font-semibold text-text">{T.legalTitle}</h3>
+          {T.legal}
+        </div>
+        <div>
+          <h3 className="mb-1.5 font-semibold text-text">{T.pricesTitle}</h3>
+          {T.prices}
+        </div>
       </section>
     </div>
   );
@@ -700,7 +712,7 @@ function readme(zh: boolean, stamp: string): string {
     for (const c of s.cols) lines.push(`  - ${zh ? c.zh : c.en}`);
     lines.push("");
   }
-  lines.push(TXT[zh ? "zh" : "en"].legal, "");
+  lines.push(TXT[zh ? "zh" : "en"].legal, "", TXT[zh ? "zh" : "en"].pricesTitle, TXT[zh ? "zh" : "en"].prices, "");
   return lines.join("\r\n");
 }
 
