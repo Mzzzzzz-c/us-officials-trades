@@ -38,6 +38,20 @@ for (const f of list("member")) {
 trades.sort((a, b) => (b[5] ?? "").localeCompare(a[5] ?? "") || (b[3] ?? "").localeCompare(a[3] ?? ""));
 write("trades", tradeCols, trades);
 
+// a light feed of the last year's disclosures, for the follow list and the holdings check
+{
+  const meta = read("meta.json");
+  const end = meta.data_through ?? new Date().toISOString().slice(0, 10);
+  const cut = new Date(Date.parse(end) - 365 * 864e5).toISOString().slice(0, 10);
+  const I = Object.fromEntries(tradeCols.map((k, i) => [k, i]));
+  const feedCols = ["id", "m", "ch", "sym", "asset", "type", "act", "fil", "tx", "amin", "amax"];
+  const feed = trades
+    .filter((t) => (t[I.fil] ?? "") >= cut)
+    .map((t) => [t[I.id], t[I.m], t[I.ch], t[I.sym], t[I.sym] ? null : String(t[I.asset] ?? "").slice(0, 60) || null, t[I.type], t[I.act], t[I.fil], t[I.tx], t[I.amin], t[I.amax]]);
+  write("feed", feedCols, feed);
+  index.feed = { from: cut, to: end };
+}
+
 // ---------------------------------------------------------------- officials
 const offCols = ["id", "name", "zh", "ch", "party", "state", "district", "title", "title_zh", "agency", "agency_zh", "current", "n", "nb", "ns", "vmin", "vmax", "last", "lastf", "late",
   "cagr", "b90_off", "b90_fol", "b90_win", "b90_n", "b365_off", "b365_fol", "b365_win", "s90_off", "opt", "fam", "med", "hold"];

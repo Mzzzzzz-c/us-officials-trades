@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FollowStrip } from "@/components/client/Follow";
 import { notFound } from "next/navigation";
 import { StockTile, TradeRow } from "@/components/cards";
 import CountUp from "@/components/client/CountUp";
@@ -97,6 +98,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 
       {/* ---------------------------------------------------------------- market strip */}
       <Container className="-mt-px">
+        <FollowStrip href={L("/following")} text={t.follow.stripText} cta={`${t.follow.stripCta} ›`} />
         <div className="mt-6 grid grid-cols-2 gap-3 lg:grid-cols-4">
           {MARKETS.map(([sym, zh, en]) => (
             <Link key={sym} prefetch={false} href={L(`/ticker/${sym}`)} className="tile flex flex-col gap-2 px-4 py-3 sm:flex-row sm:items-center sm:justify-between">

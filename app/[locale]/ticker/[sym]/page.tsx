@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import Share from "@/components/client/Share";
+import { FollowButton } from "@/components/client/Follow";
 import { ExtendedPrice, LivePrice, QuoteRanges } from "@/components/client/Quotes";
 import Reveal from "@/components/client/Reveal";
 import StockChart, { type TradeMark } from "@/components/client/StockChart";
@@ -79,6 +81,10 @@ export default async function TickerPage({ params }: { params: Promise<{ locale:
                 <h1 className="headline">{d.sym}</h1>
                 <div className="text-[17px] text-muted">{name}</div>
                 {locale === "zh" && d.zh ? <div className="text-xs text-faint">{d.name}</div> : null}
+                <div className="mt-3 flex flex-wrap gap-2">
+                  <FollowButton kind="s" id={d.sym} labels={t.follow} compact />
+                  <Share compact path={`/${locale}/ticker/${encodeURIComponent(d.sym)}`} image={`/${locale}/ticker/${encodeURIComponent(d.sym)}/opengraph-image`} text={`${d.sym} ${name} · ${t.siteName}`} labels={t.share} />
+                </div>
               </div>
             </div>
             <div className="fade-up text-right" style={{ animationDelay: "80ms" }}>

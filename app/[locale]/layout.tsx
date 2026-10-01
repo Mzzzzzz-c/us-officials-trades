@@ -6,6 +6,7 @@ import "../globals.css";
 import LangSwitch from "@/components/LangSwitch";
 import Nav from "@/components/Nav";
 import { MarketState, QuoteProvider } from "@/components/client/Quotes";
+import { FollowNav } from "@/components/client/Follow";
 import SearchPalette, { SearchButton } from "@/components/client/SearchPalette";
 import { getMeta } from "@/lib/data";
 import { dict, isLocale, LOCALES } from "@/lib/i18n";
@@ -26,8 +27,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     metadataBase: new URL(siteUrl()),
     title: { default: `${t.siteName} - ${t.siteTagline}`, template: `%s · ${t.siteName}` },
     description: t.home.intro,
-    alternates: { languages: { "zh-CN": "/zh", en: "/en" } },
+    alternates: { languages: { "zh-CN": "/zh", en: "/en" }, types: { "application/rss+xml": [{ url: `/feed/${locale}.xml`, title: t.follow.feedTitle }] } },
     openGraph: { siteName: t.siteName, type: "website", locale: locale === "zh" ? "zh_CN" : "en_US" },
+    twitter: { card: "summary_large_image" },
   };
 }
 
@@ -44,6 +46,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
     { href: L("/tickers"), label: t.nav.tickers, match: ["tickers", "ticker"] },
     { href: L("/insights"), label: t.nav.insights, match: ["insights"] },
     { href: L("/investors"), label: t.nav.investors, match: ["investors", "investor"] },
+    { href: L("/portfolio"), label: t.nav.portfolio, match: ["portfolio"] },
     { href: L("/data"), label: t.nav.data, match: ["data"] },
     { href: L("/methodology"), label: t.nav.methodology, match: ["methodology", "unparsed", "trade"] },
   ];
@@ -65,6 +68,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
                   <MarketState labels={t.x.market} />
                 </span>
                 <SearchButton label={t.x.searchOpen} />
+                <FollowNav href={L("/following")} label={t.follow.navLabel} />
                 <LangSwitch locale={locale} label={t.langSwitch} title={t.langSwitchLabel} />
               </>
             }

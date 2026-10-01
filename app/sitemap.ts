@@ -15,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/latest",
     "/investors",
     "/data",
+    "/portfolio",
     "/methodology",
     ...getMembers().map((m) => `/member/${m.id}`),
     ...getTickers().map((t) => `/ticker/${t.sym}`),

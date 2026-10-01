@@ -1,3 +1,4 @@
+import Share from "@/components/client/Share";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -56,6 +57,15 @@ export default async function TradePage({ params }: { params: Promise<{ locale: 
         ) : null}
         <span className="text-base font-normal text-muted">{tr.asset}</span>
       </h1>
+      <div className="mt-4 flex gap-2">
+        <Share
+          compact
+          path={`/${locale}/trade/${encodeURIComponent(tr.id)}`}
+          image={`/${locale}/trade/${encodeURIComponent(tr.id)}/opengraph-image`}
+          text={`${who} · ${t.types[tr.type]} ${tr.sym ?? tr.asset ?? ""} ${amountRange(tr.amin, tr.amax)} · ${t.siteName}`}
+          labels={t.share}
+        />
+      </div>
 
       <div className="mt-5 card divide-y divide-line">
         <Row k={t.table.tx} v={tr.tx ?? "—"} />

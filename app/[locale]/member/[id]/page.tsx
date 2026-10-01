@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import Share from "@/components/client/Share";
+import { FollowButton } from "@/components/client/Follow";
 import LineChart from "@/components/client/LineChart";
 import Reveal from "@/components/client/Reveal";
 import { Container, Metric, SectionHead } from "@/components/layout";
@@ -106,6 +108,10 @@ export default async function MemberPage({ params }: { params: Promise<{ locale:
               <h1 className="headline mt-2">{title}</h1>
               {locale === "zh" && p.zh ? <div className="mt-1 text-lg text-muted">{p.name}</div> : null}
               <div className="mt-2 text-[17px] text-muted">{place}</div>
+              <div className="mt-5 flex flex-wrap justify-center gap-2 sm:justify-start">
+                <FollowButton kind="m" id={p.id} labels={t.follow} />
+                <Share path={`/${locale}/member/${p.id}`} image={`/${locale}/member/${p.id}/opengraph-image`} text={`${title} · ${t.siteName}`} labels={t.share} />
+              </div>
             </div>
           </div>
 

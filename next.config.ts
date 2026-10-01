@@ -10,6 +10,9 @@ const config: NextConfig = {
     "/\\[locale\\]/member/\\[id\\]": [`${SITE}/member/**/*`, `${SITE}/*.json`],
     "/\\[locale\\]/trade/\\[id\\]": [`${SITE}/member/**/*`, `${SITE}/*.json`],
     "/\\[locale\\]/investor/\\[id\\]": [`${SITE}/investor/**/*`, `${SITE}/*.json`],
+    // share images read portraits, logos and the bundled fallback font
+    "/\\[locale\\]/**/opengraph-image*": [`${SITE}/member/**/*`, `${SITE}/ticker/**/*`, `${SITE}/investor/**/*`, `${SITE}/*.json`, "./public/media/**/*", "./assets/og/**/*"],
+    "/feed/\\[file\\]": [`${SITE}/member/**/*`, `${SITE}/ticker/**/*`, `${SITE}/*.json`],
   },
   outputFileTracingExcludes: {
     "*": ["./data/raw/**/*", "./data/cache/**/*", "./data/ref/**/*", "./pipeline/**/*"],

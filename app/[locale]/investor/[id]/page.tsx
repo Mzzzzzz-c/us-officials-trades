@@ -1,3 +1,4 @@
+import Share from "@/components/client/Share";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -83,6 +84,9 @@ export default async function InvestorPage({ params }: { params: Promise<{ local
                 <a className="link" href={`https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${p.cik}&type=13F-HR`} target="_blank" rel="noopener noreferrer">
                   SEC 13F ↗
                 </a>
+              </div>
+              <div className="mt-4 flex justify-center sm:justify-start">
+                <Share compact path={`/${locale}/investor/${p.id}`} image={`/${locale}/investor/${p.id}/opengraph-image`} text={`${name} · ${firm} · ${t.siteName}`} labels={t.share} />
               </div>
             </div>
           </div>
