@@ -1,1 +1,1 @@
-{"exch":"NasdaqGS","investors":[{"chg":"add","id":"cathie-wood","period":"2026-06-30","sh":50621,"val":4600436,"w":0.0003}],"members":[],"name":"JFrog Ltd.","sec":"other","sic":null,"stats":{"b365":0,"b90":0,"s365":0,"s90":0},"sym":"FROG","trades":[],"type":"EQUITY","zh":null}
+{"exch":"NasdaqGS","investors":[{"chg":"add","id":"cathie-wood","period":"2026-06-30","sh":50621,"val":4600436,"w":0.0003}],"members":[],"name":"JFrog Ltd.","sec":"tech","sic":"Services-Prepackaged Software","stats":{"b365":0,"b90":0,"s365":0,"s90":0},"sym":"FROG","trades":[],"type":"EQUITY","zh":null}

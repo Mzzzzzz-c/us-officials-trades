@@ -361,6 +361,13 @@
   "sic": 2836,
   "sicd": "Biological Products, (No Diagnostic Substances)"
  },
+ "ADNT": {
+  "cik": 1670541,
+  "exch": "NYSE",
+  "name": "Adient plc",
+  "sic": 3714,
+  "sicd": "Motor Vehicle Parts & Accessories"
+ },
  "ADP": {
   "cik": 8670,
   "exch": "Nasdaq",
@@ -418,6 +425,13 @@
  },
  "ADYEY": {
   "sic": null
+ },
+ "ADYYF": {
+  "cik": 1788707,
+  "exch": "OTC",
+  "name": "Adyen N.V./ADR",
+  "sic": null,
+  "sicd": ""
  },
  "AE": {
   "sic": null
@@ -909,6 +923,13 @@
  "ALLK": {
   "sic": null
  },
+ "ALLT": {
+  "cik": 1365767,
+  "exch": "Nasdaq",
+  "name": "Allot Ltd.",
+  "sic": 3576,
+  "sicd": "Computer Communications Equipment"
+ },
  "ALLY": {
   "cik": 40729,
   "exch": "NYSE",
@@ -1137,6 +1158,13 @@
   "name": "Ameresco, Inc.",
   "sic": 1700,
   "sicd": "Construction - Special Trade Contractors"
+ },
+ "AMRZ": {
+  "cik": 2035989,
+  "exch": "NYSE",
+  "name": "Amrize Ltd",
+  "sic": 3241,
+  "sicd": "Cement, Hydraulic"
  },
  "AMSF": {
   "cik": 1018979,
@@ -1655,6 +1683,13 @@
   "sic": 2834,
   "sicd": "Pharmaceutical Preparations"
  },
+ "ARX": {
+  "cik": 1997350,
+  "exch": "NYSE",
+  "name": "Accelerant Holdings",
+  "sic": 6411,
+  "sicd": "Insurance Agents, Brokers & Service"
+ },
  "ARXS": {
   "cik": 2093536,
   "exch": "Nasdaq",
@@ -1783,6 +1818,13 @@
   "sic": 7011,
   "sicd": "Hotels & Motels"
  },
+ "ATEC": {
+  "cik": 1350653,
+  "exch": "Nasdaq",
+  "name": "Alphatec Holdings, Inc.",
+  "sic": 3841,
+  "sicd": "Surgical & Medical Instruments & Apparatus"
+ },
  "ATEYY": {
   "cik": 1158838,
   "exch": "OTC",
@@ -1880,6 +1922,13 @@
   "name": "Atlantic Union Bankshares Corp",
   "sic": 6022,
   "sicd": "State Commercial Banks"
+ },
+ "AUDC": {
+  "cik": 1086434,
+  "exch": "Nasdaq",
+  "name": "AUDIOCODES LTD",
+  "sic": 3661,
+  "sicd": "Telephone & Telegraph Apparatus"
  },
  "AULGF": {
   "sic": null
@@ -2373,6 +2422,13 @@
   "sic": 3510,
   "sicd": "Engines & Turbines"
  },
+ "BCAB": {
+  "cik": 1826892,
+  "exch": "OTC",
+  "name": "BioAtla, Inc.",
+  "sic": 2836,
+  "sicd": "Biological Products, (No Diagnostic Substances)"
+ },
  "BCAX": {
   "cik": 2023658,
   "exch": "Nasdaq",
@@ -2674,6 +2730,13 @@
   "sic": 1000,
   "sicd": "Metal Mining"
  },
+ "BHVN": {
+  "cik": 1935979,
+  "exch": "NYSE",
+  "name": "Biohaven Ltd.",
+  "sic": 2834,
+  "sicd": "Pharmaceutical Preparations"
+ },
  "BIDU": {
   "cik": 1329099,
   "exch": "Nasdaq",
@@ -2741,6 +2804,13 @@
   "name": "Brookfield Infrastructure Corp",
   "sic": 4923,
   "sicd": "Natural Gas Transmisison & Distribution"
+ },
+ "BIRK": {
+  "cik": 1977102,
+  "exch": "NYSE",
+  "name": "Birkenstock Holding plc",
+  "sic": 3140,
+  "sicd": "Footwear, (No Rubber)"
  },
  "BITB": {
   "cik": 1763415,
@@ -2914,6 +2984,13 @@
   "name": "Blink Charging Co.",
   "sic": 3690,
   "sicd": "Miscellaneous Electrical Machinery, Equipment & Supplies"
+ },
+ "BLSH": {
+  "cik": 1872195,
+  "exch": "NYSE",
+  "name": "Bullish",
+  "sic": 6199,
+  "sicd": "Finance Services"
  },
  "BLTE": {
   "cik": 1889109,
@@ -3603,6 +3680,13 @@
  "CAMOX": {
   "sic": null
  },
+ "CAMT": {
+  "cik": 1109138,
+  "exch": "Nasdaq",
+  "name": "CAMTEK LTD",
+  "sic": 3827,
+  "sicd": "Optical Instruments & Lenses"
+ },
  "CANO": {
   "sic": null
  },
@@ -4110,6 +4194,13 @@
  },
  "CGEMY": {
   "sic": null
+ },
+ "CGEN": {
+  "cik": 1119774,
+  "exch": "Nasdaq",
+  "name": "COMPUGEN LTD",
+  "sic": 2836,
+  "sicd": "Biological Products, (No Diagnostic Substances)"
  },
  "CGNT": {
   "cik": 1824814,
@@ -5128,6 +5219,13 @@
   "sic": 8071,
   "sicd": "Services-Medical Laboratories"
  },
+ "CSTM": {
+  "cik": 1563411,
+  "exch": "NYSE",
+  "name": "CONSTELLIUM SE",
+  "sic": 3341,
+  "sicd": "Secondary Smelting & Refining of  Nonferrous Metals"
+ },
  "CSW": {
   "cik": 1624794,
   "exch": "NYSE",
@@ -5463,6 +5561,13 @@
   "sic": 4911,
   "sicd": "Electric Services"
  },
+ "DAC": {
+  "cik": 1369241,
+  "exch": "NYSE",
+  "name": "Danaos Corp",
+  "sic": 4412,
+  "sicd": "Deep Sea Foreign Transportation of  Freight"
+ },
  "DAIUF": {
   "cik": 1762831,
   "exch": "OTC",
@@ -5768,6 +5873,13 @@
  "DHS": {
   "sic": null
  },
+ "DHT": {
+  "cik": 1331284,
+  "exch": "NYSE",
+  "name": "DHT Holdings, Inc.",
+  "sic": 4412,
+  "sicd": "Deep Sea Foreign Transportation of  Freight"
+ },
  "DIA": {
   "cik": 1041130,
   "exch": "NYSE",
@@ -6034,6 +6146,13 @@
   "name": "AMDOCS LTD",
   "sic": 7371,
   "sicd": "Services-Computer Programming Services"
+ },
+ "DPC": {
+  "cik": 2107018,
+  "exch": "NYSE",
+  "name": "DPC Holdings PLC",
+  "sic": 3360,
+  "sicd": "Nonferrous Foundries (Castings)"
  },
  "DPSGY": {
   "sic": null
@@ -6676,6 +6795,13 @@
  },
  "ENLC": {
   "sic": null
+ },
+ "ENLV": {
+  "cik": 1596812,
+  "exch": "Nasdaq",
+  "name": "Enlivex Ltd.",
+  "sic": 2834,
+  "sicd": "Pharmaceutical Preparations"
  },
  "ENOB": {
   "sic": null
@@ -8103,6 +8229,13 @@
   "sic": 4412,
   "sicd": "Deep Sea Foreign Transportation of  Freight"
  },
+ "FROG": {
+  "cik": 1800667,
+  "exch": "Nasdaq",
+  "name": "JFrog Ltd",
+  "sic": 7372,
+  "sicd": "Services-Prepackaged Software"
+ },
  "FROGX": {
   "sic": null
  },
@@ -8236,6 +8369,13 @@
  },
  "FTHSX": {
   "sic": null
+ },
+ "FTI": {
+  "cik": 1681459,
+  "exch": "NYSE",
+  "name": "TechnipFMC plc",
+  "sic": 3533,
+  "sicd": "Oil & Gas Field Machinery & Equipment"
  },
  "FTNT": {
   "cik": 1262039,
@@ -9125,6 +9265,13 @@
   "sic": 3812,
   "sicd": "Search, Detection, Navigation, Guidance, Aeronautical Sys"
  },
+ "GRPN": {
+  "cik": 1490281,
+  "exch": "Nasdaq",
+  "name": "Groupon, Inc.",
+  "sic": 7311,
+  "sicd": "Services-Advertising Agencies"
+ },
  "GRUB": {
   "sic": null
  },
@@ -9286,6 +9433,13 @@
   "name": "HAEMONETICS CORP",
   "sic": 3841,
   "sicd": "Surgical & Medical Instruments & Apparatus"
+ },
+ "HAFN": {
+  "cik": 1815779,
+  "exch": "NYSE",
+  "name": "Hafnia Ltd",
+  "sic": 4700,
+  "sicd": "Transportation Services"
  },
  "HAIN": {
   "cik": 910406,
@@ -9491,6 +9645,13 @@
   "sic": 3634,
   "sicd": "Electric Housewares & Fans"
  },
+ "HELP": {
+  "cik": 1833141,
+  "exch": "Nasdaq",
+  "name": "CYBIN INC.",
+  "sic": 2834,
+  "sicd": "Pharmaceutical Preparations"
+ },
  "HENKY": {
   "sic": null
  },
@@ -9617,6 +9778,13 @@
  },
  "HLDCY": {
   "sic": null
+ },
+ "HLF": {
+  "cik": 1180262,
+  "exch": "NYSE",
+  "name": "HERBALIFE LTD.",
+  "sic": 5122,
+  "sicd": "Wholesale-Drugs, Proprietaries & Druggists' Sundries"
  },
  "HLI": {
   "cik": 1302215,
@@ -10593,6 +10761,13 @@
   "sic": 2040,
   "sicd": "Grain Mill Products"
  },
+ "INIO": {
+  "cik": 2109150,
+  "exch": "Nasdaq",
+  "name": "INNIO N.V.",
+  "sic": 3621,
+  "sicd": "Motors & Generators"
+ },
  "INMD": {
   "cik": 1742692,
   "exch": "Nasdaq",
@@ -11422,6 +11597,13 @@
   "sic": 6199,
   "sicd": "Finance Services"
  },
+ "KEN": {
+  "cik": 1611005,
+  "exch": "NYSE",
+  "name": "Kenon Holdings Ltd.",
+  "sic": 4911,
+  "sicd": "Electric Services"
+ },
  "KEX": {
   "cik": 56047,
   "exch": "NYSE",
@@ -11517,6 +11699,13 @@
   "sic": 3827,
   "sicd": "Optical Instruments & Lenses"
  },
+ "KLAR": {
+  "cik": 2003292,
+  "exch": "NYSE",
+  "name": "Klarna Group plc",
+  "sic": 6199,
+  "sicd": "Finance Services"
+ },
  "KLC": {
   "cik": 1873529,
   "exch": "NYSE",
@@ -11544,6 +11733,13 @@
   "name": "KIMBERLY CLARK CORP",
   "sic": 2670,
   "sicd": "Converted Paper & Paperboard Prods (No Contaners/Boxes)"
+ },
+ "KMDA": {
+  "cik": 1567529,
+  "exch": "Nasdaq",
+  "name": "KAMADA LTD",
+  "sic": 2834,
+  "sicd": "Pharmaceutical Preparations"
  },
  "KMI": {
   "cik": 1506307,
@@ -12173,6 +12369,13 @@
  },
  "LITP": {
   "sic": null
+ },
+ "LIVN": {
+  "cik": 1639691,
+  "exch": "Nasdaq",
+  "name": "LivaNova PLC",
+  "sic": 3845,
+  "sicd": "Electromedical & Electrotherapeutic Apparatus"
  },
  "LKQ": {
   "cik": 1065696,
@@ -12860,6 +13063,13 @@
   "sic": 1400,
   "sicd": "Mining & Quarrying of  Nonmetallic Minerals (No Fuels)"
  },
+ "MDWD": {
+  "cik": 1593984,
+  "exch": "Nasdaq",
+  "name": "MediWound Ltd.",
+  "sic": 2833,
+  "sicd": "Medicinal Chemicals & Botanical Products"
+ },
  "MDXG": {
   "cik": 1376339,
   "exch": "Nasdaq",
@@ -13267,6 +13477,13 @@
  "MNK": {
   "sic": null
  },
+ "MNKD": {
+  "cik": 899460,
+  "exch": "Nasdaq",
+  "name": "MANNKIND CORP",
+  "sic": 2834,
+  "sicd": "Pharmaceutical Preparations"
+ },
  "MNRL": {
   "sic": null
  },
@@ -13414,6 +13631,13 @@
   "sic": 3674,
   "sicd": "Semiconductors & Related Devices"
  },
+ "MQ": {
+  "cik": 1522540,
+  "exch": "Nasdaq",
+  "name": "Marqeta, Inc.",
+  "sic": 7372,
+  "sicd": "Services-Prepackaged Software"
+ },
  "MQBKY": {
   "sic": null
  },
@@ -13483,6 +13707,13 @@
  },
  "MRWSY": {
   "sic": null
+ },
+ "MRX": {
+  "cik": 1997464,
+  "exch": "Nasdaq",
+  "name": "Marex Group Ltd",
+  "sic": 6200,
+  "sicd": "Security & Commodity Brokers, Dealers, Exchanges & Services"
  },
  "MS": {
   "cik": 895421,
@@ -14580,6 +14811,13 @@
  "NVIGF": {
   "sic": null
  },
+ "NVMI": {
+  "cik": 1109345,
+  "exch": "Nasdaq",
+  "name": "NOVA LTD.",
+  "sic": 3827,
+  "sicd": "Optical Instruments & Lenses"
+ },
  "NVO": {
   "cik": 353278,
   "exch": "NYSE",
@@ -14593,6 +14831,13 @@
   "name": "NVR INC",
   "sic": 1531,
   "sicd": "Operative Builders"
+ },
+ "NVRI": {
+  "cik": 2104052,
+  "exch": "NYSE",
+  "name": "Enviri Corp",
+  "sic": 4953,
+  "sicd": "Refuse Systems"
  },
  "NVS": {
   "cik": 1114448,
@@ -14725,6 +14970,13 @@
  },
  "NXTG": {
   "sic": null
+ },
+ "NYAX": {
+  "cik": 1901279,
+  "exch": "Nasdaq",
+  "name": "Nayax Ltd.",
+  "sic": 7372,
+  "sicd": "Services-Prepackaged Software"
  },
  "NYCB": {
   "sic": null
@@ -16860,6 +17112,13 @@
   "sic": 2834,
   "sicd": "Pharmaceutical Preparations"
  },
+ "RDCM": {
+  "cik": 1016838,
+  "exch": "Nasdaq",
+  "name": "RADCOM LTD",
+  "sic": 3577,
+  "sicd": "Computer Peripheral Equipment, NEC"
+ },
  "RDDT": {
   "cik": 1713445,
   "exch": "NYSE",
@@ -16872,6 +17131,13 @@
  },
  "RDFN": {
   "sic": null
+ },
+ "RDGT": {
+  "cik": 1856084,
+  "exch": "Nasdaq",
+  "name": "Ridgetech Inc.",
+  "sic": 5912,
+  "sicd": "Retail-Drug Stores and Proprietary Stores"
  },
  "RDN": {
   "cik": 890926,
@@ -16901,6 +17167,13 @@
  },
  "RDUS": {
   "sic": null
+ },
+ "RDWR": {
+  "cik": 1094366,
+  "exch": "Nasdaq",
+  "name": "RADWARE LTD",
+  "sic": 7389,
+  "sicd": "Services-Business Services, NEC"
  },
  "REA": {
   "cik": 2095743,
@@ -17058,6 +17331,13 @@
  },
  "RHT": {
   "sic": null
+ },
+ "RIG": {
+  "cik": 1451505,
+  "exch": "NYSE",
+  "name": "Transocean Ltd.",
+  "sic": 1381,
+  "sicd": "Drilling Oil & Gas Wells"
  },
  "RILY": {
   "cik": 1464790,
@@ -17377,6 +17657,13 @@
   "name": "Rush Street Interactive, Inc.",
   "sic": 7990,
   "sicd": "Services-Miscellaneous Amusement & Recreation"
+ },
+ "RSKD": {
+  "cik": 1851112,
+  "exch": "NYSE",
+  "name": "RISKIFIED LTD.",
+  "sic": 7389,
+  "sicd": "Services-Business Services, NEC"
  },
  "RSNHF": {
   "cik": 1447391,
@@ -18215,6 +18502,13 @@
  "SIL": {
   "sic": null
  },
+ "SILC": {
+  "cik": 916793,
+  "exch": "Nasdaq",
+  "name": "SILICOM LTD.",
+  "sic": 3576,
+  "sicd": "Computer Communications Equipment"
+ },
  "SILK": {
   "sic": null
  },
@@ -18404,6 +18698,13 @@
   "sic": 6141,
   "sicd": "Personal Credit Institutions"
  },
+ "SLMT": {
+  "cik": 1939965,
+  "exch": "Nasdaq",
+  "name": "Brera Holdings PLC",
+  "sic": 6199,
+  "sicd": "Finance Services"
+ },
  "SLN": {
   "cik": 1479615,
   "exch": "Nasdaq",
@@ -18560,6 +18861,13 @@
   "name": "SUMITOMO ELECTRIC INDUSTRIES LTD/ADR/",
   "sic": 8880,
   "sicd": "American Depositary Receipts"
+ },
+ "SMWB": {
+  "cik": 1842731,
+  "exch": "NYSE",
+  "name": "SIMILARWEB LTD.",
+  "sic": 7370,
+  "sicd": "Services-Computer Programming, Data Processing, Etc."
  },
  "SN": {
   "cik": 1957132,
@@ -18872,6 +19180,13 @@
  "SPN": {
   "sic": null
  },
+ "SPNT": {
+  "cik": 1576018,
+  "exch": "NYSE",
+  "name": "SiriusPoint Ltd",
+  "sic": 6331,
+  "sicd": "Fire, Marine & Casualty Insurance"
+ },
  "SPOT": {
   "cik": 1639920,
   "exch": "NYSE",
@@ -18957,6 +19272,13 @@
   "name": "SPIRE INC",
   "sic": 4924,
   "sicd": "Natural Gas Distribution"
+ },
+ "SRAD": {
+  "cik": 1836470,
+  "exch": "Nasdaq",
+  "name": "Sportradar Group AG",
+  "sic": 7370,
+  "sicd": "Services-Computer Programming, Data Processing, Etc."
  },
  "SRC": {
   "sic": null
@@ -19094,6 +19416,13 @@
   "sic": 3842,
   "sicd": "Orthopedic, Prosthetic & Surgical Appliances & Supplies"
  },
+ "STEM": {
+  "cik": 1758766,
+  "exch": "NYSE",
+  "name": "STEM, INC.",
+  "sic": 7373,
+  "sicd": "Services-Computer Integrated Systems Design"
+ },
  "STEP": {
   "cik": 1796022,
   "exch": "Nasdaq",
@@ -19138,6 +19467,13 @@
   "name": "STANTEC INC",
   "sic": 8711,
   "sicd": "Services-Engineering Services"
+ },
+ "STNE": {
+  "cik": 1745431,
+  "exch": "Nasdaq",
+  "name": "StoneCo Ltd.",
+  "sic": 7374,
+  "sicd": "Services-Computer Processing & Data Preparation"
  },
  "STNG": {
   "cik": 1483934,
@@ -19381,6 +19717,13 @@
   "sic": 3569,
   "sicd": "General Industrial Machinery & Equipment, NEC"
  },
+ "SYNA": {
+  "cik": 817720,
+  "exch": "Nasdaq",
+  "name": "SYNAPTICS Inc",
+  "sic": 3674,
+  "sicd": "Semiconductors & Related Devices"
+ },
  "SYNH": {
   "sic": null
  },
@@ -19486,6 +19829,13 @@
   "name": "Bancorp, Inc.",
   "sic": 6021,
   "sicd": "National Commercial Banks"
+ },
+ "TBLA": {
+  "cik": 1840502,
+  "exch": "Nasdaq",
+  "name": "Taboola.com Ltd.",
+  "sic": 7370,
+  "sicd": "Services-Computer Programming, Data Processing, Etc."
  },
  "TBLL": {
   "sic": null
@@ -20161,6 +20511,13 @@
   "sic": 3829,
   "sicd": "Measuring & Controlling Devices, NEC"
  },
+ "TRMD": {
+  "cik": 1655891,
+  "exch": "Nasdaq",
+  "name": "TORM plc",
+  "sic": 4412,
+  "sicd": "Deep Sea Foreign Transportation of  Freight"
+ },
  "TRMIX": {
   "sic": null
  },
@@ -20191,6 +20548,13 @@
   "name": "PRICE T ROWE GROUP INC",
   "sic": 6282,
   "sicd": "Investment Advice"
+ },
+ "TROX": {
+  "cik": 1530804,
+  "exch": "NYSE",
+  "name": "Tronox Holdings plc",
+  "sic": 2810,
+  "sicd": "Industrial Inorganic Chemicals"
  },
  "TRP": {
   "cik": 1232384,
@@ -20334,6 +20698,13 @@
   "name": "TETRA TECH INC",
   "sic": 8711,
   "sicd": "Services-Engineering Services"
+ },
+ "TTGT": {
+  "cik": 2018064,
+  "exch": "Nasdaq",
+  "name": "TechTarget, Inc.",
+  "sic": 4822,
+  "sicd": "Telegraph & Other Message Communications"
  },
  "TTMI": {
   "cik": 1116942,
@@ -21114,6 +21485,13 @@
  },
  "VEOEY": {
   "sic": null
+ },
+ "VERX": {
+  "cik": 1806837,
+  "exch": "Nasdaq",
+  "name": "Vertex, Inc.",
+  "sic": 7372,
+  "sicd": "Services-Prepackaged Software"
  },
  "VEVRX": {
   "sic": null
