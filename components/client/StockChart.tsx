@@ -101,7 +101,7 @@ export default function StockChart({
                   const d = typeof t === "number" ? new Date(t * 1000) : new Date(String(t));
                   if (kind === 0) return `${d.getUTCFullYear()}年`;
                   if (kind === 1) return `${d.getUTCMonth() + 1}月`;
-                  if (kind === 2) return `${d.getUTCDate()}日`;
+                  if (kind === 2) return `${d.getUTCMonth() + 1}月${d.getUTCDate()}日`;
                   return `${String(d.getUTCHours()).padStart(2, "0")}:${String(d.getUTCMinutes()).padStart(2, "0")}`;
                 }
               : undefined,
