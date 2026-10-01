@@ -44,6 +44,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
     { href: L("/tickers"), label: t.nav.tickers, match: ["tickers", "ticker"] },
     { href: L("/insights"), label: t.nav.insights, match: ["insights"] },
     { href: L("/investors"), label: t.nav.investors, match: ["investors", "investor"] },
+    { href: L("/data"), label: t.nav.data, match: ["data"] },
     { href: L("/methodology"), label: t.nav.methodology, match: ["methodology", "unparsed", "trade"] },
   ];
   return (

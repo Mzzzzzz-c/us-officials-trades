@@ -4,15 +4,19 @@
   "private": true,
   "description": "Bilingual (zh/en) tracker of US officials' disclosed stock trades and famous investors' 13F holdings",
   "scripts": {
+    "predev": "node scripts/build-exports.mjs",
     "dev": "next dev",
+    "prebuild": "node scripts/build-exports.mjs",
     "build": "next build",
     "start": "next start",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "exports": "node scripts/build-exports.mjs"
   },
   "engines": {
     "node": ">=20"
   },
   "dependencies": {
+    "fflate": "^0.8.3",
     "lightweight-charts": "^5.2.1",
     "next": "^16.3.7",
     "react": "^19.3.0",

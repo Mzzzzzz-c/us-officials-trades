@@ -8,7 +8,7 @@ export function isLocale(x: string): x is Locale {
 const zh = {
   siteName: "美国官员交易追踪",
   siteTagline: "美国国会议员、总统及内阁官员的股票交易披露与知名投资人持仓，每日自动更新",
-  nav: { home: "首页", members: "国会议员", executive: "行政官员", tickers: "股票", insights: "数据洞察", investors: "投资人", methodology: "方法" },
+  nav: { home: "首页", members: "国会议员", executive: "行政官员", tickers: "股票", insights: "数据洞察", investors: "投资人", data: "数据下载", methodology: "方法" },
   langSwitch: "EN",
   langSwitchLabel: "Switch to English",
   common: {
@@ -441,7 +441,7 @@ export type Dict = typeof zh;
 const en: Dict = {
   siteName: "US Officials Trade Tracker",
   siteTagline: "Stock trades disclosed by Congress, the President and Cabinet, plus famous investors' holdings, updated daily",
-  nav: { home: "Home", members: "Congress", executive: "Executive", tickers: "Stocks", insights: "Insights", investors: "Investors", methodology: "Methodology" },
+  nav: { home: "Home", members: "Congress", executive: "Executive", tickers: "Stocks", insights: "Insights", investors: "Investors", data: "Data", methodology: "Methodology" },
   langSwitch: "中文",
   langSwitchLabel: "切换到中文",
   common: {
