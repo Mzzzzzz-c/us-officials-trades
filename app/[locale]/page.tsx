@@ -1,6 +1,7 @@
 import { PosterButton } from "@/components/client/Share";
 import Link from "next/link";
 import { FollowStrip } from "@/components/client/Follow";
+import { updatedAt } from "@/lib/format";
 import { notFound } from "next/navigation";
 import { StockTile, TradeRow } from "@/components/cards";
 import CountUp from "@/components/client/CountUp";
@@ -93,7 +94,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               ))}
             </div>
           ) : null}
-          {meta ? <div className="mt-3 text-xs text-faint">{fmt(t.x.statSince, { y: meta.start_year })} · {t.common.dataThrough} {meta.data_through}</div> : null}
+          {meta ? <div className="mt-3 text-xs text-faint">{fmt(t.x.statSince, { y: meta.start_year })} · {t.common.dataThrough} {meta.data_through} · {t.common.updatedAt} {updatedAt(meta.generated, locale)}</div> : null}
         </Container>
       </section>
 

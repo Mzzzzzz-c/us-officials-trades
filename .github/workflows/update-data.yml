@@ -4,9 +4,12 @@ name: Update data
 
 on:
   schedule:
-    # 22:17 UTC = 6:17 pm US Eastern (after the market close) = 6:17 am Beijing
+    # Filings are published during the US working day, so check through it (times are UTC):
+    # 13:17 = 9:17 am US Eastern / 9:17 pm Beijing, 17:47 = 1:47 pm ET, 22:17 = 6:17 pm ET (after the close)
+    - cron: "17 13 * * *"
+    - cron: "47 17 * * *"
     - cron: "17 22 * * *"
-    # a second, later run: GitHub sometimes skips scheduled runs at busy times (it is cheap when nothing changed)
+    # a late catch-up: GitHub sometimes delays or skips scheduled runs at busy times (cheap when nothing changed)
     - cron: "47 3 * * *"
   workflow_dispatch:
     inputs:

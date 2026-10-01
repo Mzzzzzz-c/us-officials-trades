@@ -9,6 +9,7 @@ import { MarketState, QuoteProvider } from "@/components/client/Quotes";
 import { FollowNav } from "@/components/client/Follow";
 import SearchPalette, { SearchButton } from "@/components/client/SearchPalette";
 import { getMeta } from "@/lib/data";
+import { updatedAt } from "@/lib/format";
 import { dict, isLocale, LOCALES } from "@/lib/i18n";
 import { REPO_URL, siteUrl } from "@/lib/site";
 
@@ -104,7 +105,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
               <span>
                 {meta ? (
                   <>
-                    {t.common.dataThrough} {meta.data_through} · {t.common.pricesAsOf} {meta.price_asof} · {t.common.updatedDaily}
+                    {t.common.dataThrough} {meta.data_through} · {t.common.pricesAsOf} {meta.price_asof} · {t.common.updatedAt} {updatedAt(meta.generated, locale)} · {t.common.updatedDaily}
                   </>
                 ) : null}
               </span>

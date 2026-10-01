@@ -12,7 +12,8 @@ const zh = {
   langSwitch: "EN",
   langSwitchLabel: "Switch to English",
   common: {
-    dataThrough: "数据截至",
+    dataThrough: "最新申报",
+    updatedAt: "上次更新",
     pricesAsOf: "行情日期",
     updatedDaily: "每日自动更新",
     source: "原始文件",
@@ -539,7 +540,8 @@ const en: Dict = {
   langSwitch: "中文",
   langSwitchLabel: "切换到中文",
   common: {
-    dataThrough: "Data through",
+    dataThrough: "Latest filing",
+    updatedAt: "Updated",
     pricesAsOf: "Prices as of",
     updatedDaily: "Updated daily",
     source: "Source filing",

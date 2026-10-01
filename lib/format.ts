@@ -80,3 +80,15 @@ export function since(entry?: number | null, now?: number | null): number | null
   if (!entry || !now) return null;
   return now / entry - 1;
 }
+
+/** When the data was last rebuilt: Beijing time for Chinese readers, US Eastern for English ones. */
+export function updatedAt(iso: string | null | undefined, locale: Locale): string {
+  if (!iso) return "";
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return "";
+  if (locale === "zh") {
+    const s = new Intl.DateTimeFormat("zh-CN", { timeZone: "Asia/Shanghai", month: "long", day: "numeric", hour: "2-digit", minute: "2-digit", hour12: false }).format(d);
+    return `${s}（北京时间）`;
+  }
+  return `${new Intl.DateTimeFormat("en-US", { timeZone: "America/New_York", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }).format(d)} ET`;
+}
