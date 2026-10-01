@@ -8,7 +8,8 @@ import { amountRange, price, priceRange, shareRange, shares, since } from "@/lib
 import { dict, fmt, isLocale } from "@/lib/i18n";
 
 function load(id: string) {
-  const mid = id.split("-")[0];
+  // trade ids are "{memberId}-{doc}-{row}"; member ids can contain "-" (e.g. "E-trump-donald")
+  const mid = decodeURIComponent(id).replace(/-[^-]+-[^-]+$/, "");
   const page = getMember(mid);
   const tr = page?.trades.find((t) => t.id === id);
   return page && tr ? { page, tr } : null;

@@ -11,7 +11,8 @@ import { getMeta } from "@/lib/data";
 import { dict, isLocale, LOCALES } from "@/lib/i18n";
 import { REPO_URL, siteUrl } from "@/lib/site";
 
-export const dynamicParams = false;
+// No dynamicParams=false here: child segments inherit it, which 404s every stock page not
+// pre-rendered at build time. Unknown locales are rejected below with notFound().
 
 export function generateStaticParams() {
   return LOCALES.map((locale) => ({ locale }));
