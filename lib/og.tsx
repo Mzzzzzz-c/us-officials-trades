@@ -47,7 +47,7 @@ function bundledFont(): ArrayBuffer {
 
 /** Fonts for every character that will appear on the card. */
 export async function ogFonts(text: string) {
-  const chars = [...new Set(text + "0123456789$%+-.,·–—/ ")].join("");
+  const chars = [...new Set(text + "0123456789$%+-−.,·–—/×()KMB: ")].join("");
   const [regular, bold] = await Promise.all([googleFont(chars, 500), googleFont(chars, 700)]);
   if (regular && bold)
     return [

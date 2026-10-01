@@ -42,11 +42,16 @@ export function qrPath(text: string): { d: string; n: number } {
   return { d, n };
 }
 
+/** QR code drawn on a whole-pixel grid with the standard 4-module quiet zone, so phones read it reliably. */
 export function QrCode({ url, size }: { url: string; size: number }) {
   const qr = qrPath(url);
+  const span = qr.n + 8;
+  const px = Math.max(3, Math.round(size / span));
+  const side = px * span;
   return (
-    <svg width={size} height={size} viewBox={`-2 -2 ${qr.n + 4} ${qr.n + 4}`} style={{ background: "#fff", flexShrink: 0 }}>
-      <path d={qr.d} fill="#1d1d1f" />
+    <svg width={side} height={side} viewBox={`-4 -4 ${span} ${span}`} shapeRendering="crispEdges" style={{ background: "#fff", flexShrink: 0 }}>
+      <rect x={-4} y={-4} width={span} height={span} fill="#fff" />
+      <path d={qr.d} fill="#000" />
     </svg>
   );
 }
@@ -94,7 +99,7 @@ export function QrFooter({ locale, path, scan }: { locale: Locale; path: string;
   const site = siteUrl();
   return (
     <div style={{ display: "flex", alignItems: "center", gap: 26, borderTop: "2px solid #f0f0f3", paddingTop: 20 }}>
-      <QrCode url={`${site}${path}`} size={116} />
+      <QrCode url={`${site}${path}`} size={136} />
       <div style={{ display: "flex", flexDirection: "column", flex: 1, gap: 6 }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
           <BrandMark />
@@ -131,7 +136,9 @@ export function PosterPage({ children }: { children: ReactNode }) {
 /** Render with fonts for every character used; `text` must include all strings on the poster. */
 export async function posterResponse(node: React.ReactElement, text: string, locale: Locale) {
   const t = dict(locale);
-  const all = [text, t.siteName, siteHost(siteUrl()), FOOT[locale]].join("");
+  // digits and symbols every poster may print (a glyph missing from the subset falls back to a
+  // font with different metrics, which throws the layout off)
+  const all = [text, t.siteName, siteHost(siteUrl()), FOOT[locale], "0123456789+−-–—.,%·×()/$KMB:：#"].join("");
   return new ImageResponse(node, {
     ...POSTER,
     fonts: await ogFonts(all),
