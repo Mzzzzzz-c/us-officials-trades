@@ -185,7 +185,9 @@ def load(cik: int, quarters: int) -> list[dict]:
 
 
 _DROP = {"INC", "CORP", "CORPORATION", "CO", "LTD", "PLC", "LLC", "LP", "HOLDINGS", "HOLDING", "HLDGS", "HLDG", "GROUP",
-         "GRP", "THE", "NV", "SA", "AG", "SE", "CL", "CLASS", "COM", "NEW", "DEL", "ADR", "SPONSORED", "ORD", "SHS"}
+         "GRP", "THE", "NV", "SA", "AG", "SE", "CL", "CLASS", "COM", "NEW", "DEL", "ADR", "SPONSORED", "ORD", "SHS",
+         "LIMITED", "COMPANY", "INCORPORATED", "N", "V", "A", "B", "C", "SHARES", "COMMON", "STOCK"}
+NAME_MATCH_VERSION = 3
 
 
 def _norm_co(name: str) -> list[str]:
@@ -212,8 +214,13 @@ def _name_fallback(cache: dict, names: dict[str, str]) -> None:
             titles.append((_norm_co(str(rec["name"])), t))
     for c in todo:
         key = _norm_co(names[c])
-        if len(key) < 2:
+        if not key:
             cache[c] = ""
+            continue
+        if len(key) < 2:
+            # one distinctive word ("CHUBB"): only an exact, unique company name will do
+            hits = {t for words, t in titles if words == key}
+            cache[c] = hits.pop() if len(hits) == 1 else ""
             continue
         hits = {t for words, t in titles if words[: len(key)] == key or (len(words) >= 2 and key[: len(words)] == words)}
         # several share classes of one company (GOOG/GOOGL) are ambiguous: leave unresolved
@@ -227,6 +234,12 @@ def map_cusips(cusips: set[str], names: dict[str, str] | None = None) -> dict[st
     """
     path = REF / "cusip.json"
     cache: dict = read_json(path, {}) or {}
+    if cache.get("_v") != NAME_MATCH_VERSION:
+        # the name matcher improved: give earlier misses another try
+        for k, v in list(cache.items()):
+            if v == "":
+                cache[k] = None
+        cache["_v"] = NAME_MATCH_VERSION
     todo = sorted(c for c in cusips if c and c not in cache)
     if todo:
         s = http.session()
@@ -261,4 +274,4 @@ def map_cusips(cusips: set[str], names: dict[str, str] | None = None) -> dict[st
         _name_fallback(cache, names)
         if before != sum(1 for v in cache.values() if v is None):
             write_json(path, cache, pretty=True)
-    return {k: (v or None) for k, v in cache.items()}
+    return {k: (v or None) for k, v in cache.items() if not k.startswith("_")}

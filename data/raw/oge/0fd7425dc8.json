@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Albright, Alice",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Chief Executive Officer",
@@ -59,7 +59,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "NY CT TRANSITIONAL FIN AUTH REV 5% 11/01/29 MN $100,000",
+   "asset": "NY CT TRANSITIONAL FIN AUTH REV 5% 11/01/29 MN",
    "asset_type": "GS",
    "idx": 5,
    "owner": "SELF",

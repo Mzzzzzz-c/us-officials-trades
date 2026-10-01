@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Burgum, Douglas J",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Secretary",
@@ -34,7 +34,7 @@
   {
    "amount_max": null,
    "amount_min": null,
-   "asset": "Arthur Ventures III, LP - PureSpectrum (market See Endnote research platform) $5,000,000",
+   "asset": "Arthur Ventures III, LP - PureSpectrum (market See Endnote research platform)",
    "idx": 2,
    "owner": "SELF",
    "tx_date": "2026-01-22",
@@ -43,7 +43,7 @@
   {
    "amount_max": null,
    "amount_min": null,
-   "asset": "Arthur Ventures Growth IV, LP - PureSpectrum See Endnote (market research platform) $250,000",
+   "asset": "Arthur Ventures Growth IV, LP - PureSpectrum See Endnote (market research platform)",
    "idx": 3,
    "owner": "SELF",
    "tx_date": "2026-01-22",
@@ -52,7 +52,7 @@
   {
    "amount_max": null,
    "amount_min": null,
-   "asset": "Arthur Ventures Growth III, LP - PureSpectrum See Endnote (market research platform) $500,000",
+   "asset": "Arthur Ventures Growth III, LP - PureSpectrum See Endnote (market research platform)",
    "idx": 4,
    "owner": "SELF",
    "tx_date": "2026-01-22",
@@ -61,7 +61,7 @@
   {
    "amount_max": null,
    "amount_min": null,
-   "asset": "Arthur Ventures Growth III, LP - PureSpectrum See Endnote (market research platform) (Roth IRA) $250,000",
+   "asset": "Arthur Ventures Growth III, LP - PureSpectrum See Endnote (market research platform) (Roth IRA)",
    "idx": 5,
    "owner": "SELF",
    "tx_date": "2026-01-22",
@@ -115,7 +115,7 @@
   {
    "amount_max": null,
    "amount_min": null,
-   "asset": "Arthur Ventures V, LP - Streamline (platform See Endnote services) $100,000",
+   "asset": "Arthur Ventures V, LP - Streamline (platform See Endnote services)",
    "idx": 11,
    "owner": "SELF",
    "tx_date": "2026-01-27",
@@ -133,7 +133,7 @@
   {
    "amount_max": null,
    "amount_min": null,
-   "asset": "Arthur Ventures V, LP - CivicPlus (Software See Endnote solutions) $100,000",
+   "asset": "Arthur Ventures V, LP - CivicPlus (Software See Endnote solutions)",
    "idx": 13,
    "owner": "SELF",
    "tx_date": "2026-01-27",

@@ -6,6 +6,8 @@ on:
   schedule:
     # 22:17 UTC = 6:17 pm US Eastern (after the market close) = 6:17 am Beijing
     - cron: "17 22 * * *"
+    # a second, later run: GitHub sometimes skips scheduled runs at busy times (it is cheap when nothing changed)
+    - cron: "47 3 * * *"
   workflow_dispatch:
     inputs:
       limit:
@@ -78,7 +80,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/raw data/ref data/site data/review.json
+          git add data/raw data/ref data/site data/review.json public/media
           if git diff --cached --quiet; then
             echo "No changes."
           else

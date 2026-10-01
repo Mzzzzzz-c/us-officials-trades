@@ -22,8 +22,8 @@ type P = { meta: ReturnType<typeof getMeta>; c: Record<string, number> };
 
 function Zh({ meta, c }: P) {
   return (
-    <article className="prose-page max-w-3xl">
-      <h1 className="text-2xl font-semibold">方法与声明</h1>
+    <article className="prose-page mx-auto w-full max-w-[1100px] px-5 pt-12 sm:pt-16 max-w-3xl">
+      <h1 className="headline">方法与声明</h1>
       <p className="mt-3 text-muted">
         本站免费、非商业，目的是让公众更容易读懂美国官员依法公开的财务披露。数据每天自动更新
         {meta ? `，当前收录 ${meta.start_year} 年以来 ${c.trades?.toLocaleString() ?? "—"} 笔交易、${c.members ?? "—"} 位官员、${c.investors ?? "—"} 位投资人` : ""}。
@@ -93,6 +93,24 @@ function Zh({ meta, c }: P) {
         <li>估算成本 = 该季度内每日典型价的平均值，区间为季度最低价至最高价。</li>
       </ul>
 
+      <h2>数据洞察怎么算</h2>
+      <ul>
+        <li>跟单回测：把每一笔股票买入，在报告公开后第一个交易日的开盘价买入、持有 90 天；所有持仓等权重，每日按平均收益复利计算，与同期标普 500 ETF（SPY）比较。“官员自己的时点”用同样方法，但从估算的成交价开始。只用股价收益，不含股息、手续费和税。</li>
+        <li>官员排行：至少 20 笔可评估买入的官员，按跟单者 90 天平均超额收益排序；样本少的官员波动很大，仅供参考。</li>
+        <li>集中买入：近 12 个月内，30 天窗口里有 3 位以上官员买入同一只股票。</li>
+        <li>职权相关交易：按公司的 SEC 行业代码（SIC），对照议员现任委员会（如军事委员会—国防、金融服务委员会—金融）或官员所在部门的管辖范围。委员会任职按现任计算，过去的交易可能发生在不同任职期间；标记只提示值得关注，不代表违规。</li>
+        <li>资金流向：按每笔交易金额档位的中值估算。</li>
+        <li>策略实验室：同一套回测换不同的跟单规则（持有期、金额、群体、信号）。“过往表现好的官员”和“集中买入”只用该笔买入公开当天已知的信息判断：官员此前已有 10 笔以上满 90 天的买入、平均跑赢标普 500 且胜率过半；或 30 天内已有 3 位以上官员公开买入同一只股票。不足一年的组合只显示累计收益，不做年化。</li>
+        <li>最新值得关注：近 45 天公开的股票买入中，属于上述信号、或金额 25 万美元以上的交易；每位官员每类最多列 2 笔。</li>
+        <li>交易风格：单笔金额按档位中值取中位数；持有时间是从建仓到清仓的完整周期取中位数。</li>
+        <li>改名的股票代码（如 FB→META、SQ→XYZ）统一按现在的代码计算，以便取得完整行情。申报日期早于交易日期的明显笔误不参与估算，表格中以 * 标出。</li>
+      </ul>
+
+      <h2>照片、标志与实时股价</h2>
+      <p>
+        国会议员照片来自国会官方照片（由 unitedstates/images 项目整理，属公共领域）；行政官员与知名投资人的照片来自维基百科/维基共享资源（各人页面底部附原图链接，可查看作者与授权），个别来自所在部门官网的官方照片。公司标志来自 Parqet 与 Financial Modeling Prep。实时股价来自 Yahoo Finance 的免费行情，约每 30 秒刷新，可能有延迟；页面上的历史收益使用每日收盘数据。
+      </p>
+
       <h2>申报延迟</h2>
       <p>《STOCK法案》要求在知悉交易后 30 天内、最迟交易后 45 天内申报。本站把交易日到公开日超过 45 天的记为逾期（部分延迟可能来自知悉日期较晚，属正常情况）。</p>
 
@@ -111,8 +129,8 @@ function Zh({ meta, c }: P) {
 
 function En({ meta, c }: P) {
   return (
-    <article className="prose-page max-w-3xl">
-      <h1 className="text-2xl font-semibold">Methodology &amp; notices</h1>
+    <article className="prose-page mx-auto w-full max-w-[1100px] px-5 pt-12 sm:pt-16 max-w-3xl">
+      <h1 className="headline">Methodology &amp; notices</h1>
       <p className="mt-3 text-muted">
         A free, non-commercial site that makes officials&apos; legally required financial disclosures easier to read. Data refreshes daily
         {meta ? `; it currently covers ${c.trades?.toLocaleString() ?? "—"} trades by ${c.members ?? "—"} officials since ${meta.start_year}, plus ${c.investors ?? "—"} investors` : ""}.
@@ -181,6 +199,24 @@ function En({ meta, c }: P) {
         <li>Some person-to-fund links are market inferences (e.g. H&amp;H International Investment is widely believed to be managed by Duan Yongping) and are labelled &ldquo;Inferred&rdquo;.</li>
         <li>Estimated cost = the average daily typical price during the quarter; the range is the quarter&apos;s low to high.</li>
       </ul>
+
+      <h2>How the insights are computed</h2>
+      <ul>
+        <li>Copy-trade backtest: every stock buy is bought at the open of the first trading day after the report became public and held 90 days; open positions are equal-weighted and the daily average return is compounded, against the S&amp;P 500 ETF (SPY) over the same days. &ldquo;At the officials&apos; own timing&rdquo; is the same, starting from the estimated trade price. Price returns only: no dividends, fees or taxes.</li>
+        <li>Leaderboard: officials with at least 20 scorable buys, ranked by a copier&apos;s average 90-day excess return; small samples are noisy.</li>
+        <li>Cluster buys: three or more officials buying the same stock within a 30-day window in the last 12 months.</li>
+        <li>Oversight flags: the company&apos;s SEC industry code (SIC) against the remit of the member&apos;s current committees (e.g. Armed Services and defense, Financial Services and finance) or the official&apos;s department. Committee seats are current ones, so older trades may date from other assignments; a flag invites a closer look and is not an accusation.</li>
+        <li>Money flows: estimated from the midpoint of each amount band.</li>
+        <li>Strategy lab: the same backtest under different copy rules (holding period, size, group, signal). &ldquo;Good copy record&rdquo; and &ldquo;cluster buys&rdquo; use only what was known the day the buy went public: the official already had 10+ buys with a finished 90-day result that beat the S&amp;P 500 on average and won more than half the time; or 3+ officials had publicly bought the same stock within 30 days. Portfolios with under a year of history show cumulative returns, not annualised ones.</li>
+        <li>Worth a look now: stock buys made public in the last 45 days that match those signals or exceed $250,000; at most two per official in each list.</li>
+        <li>Trading style: median trade size from band midpoints; holding period is the median length of complete open-to-close round trips.</li>
+        <li>Renamed tickers (FB to META, SQ to XYZ, …) are tracked under today&apos;s symbol so the full price history is available. Trade dates that come after their own filing date are typos; they are left out of estimates and marked with * in tables.</li>
+      </ul>
+
+      <h2>Photos, logos and live prices</h2>
+      <p>
+        Congressional portraits are the official public-domain photos collected by the unitedstates/images project; executive officials&apos; and investors&apos; photos come from Wikipedia / Wikimedia Commons (each page links the original file with its author and licence), a few from official agency portraits. Logos come from Parqet and Financial Modeling Prep. Live prices come from Yahoo Finance&apos;s free feed, refresh about every 30 seconds and may be delayed; historical returns use daily closes.
+      </p>
 
       <h2>Filing delay</h2>
       <p>The STOCK Act requires a report within 30 days of learning of a trade and no later than 45 days after it. Trades made public more than 45 days after the trade date are marked late (some delays reflect a late notification and are legitimate).</p>

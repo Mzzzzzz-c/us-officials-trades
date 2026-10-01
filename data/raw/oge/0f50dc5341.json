@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Granholm, Jennifer",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Secretary",
@@ -25,7 +25,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "iShares 0-3 Month Treasury Bond ETF iShares 0-3 Month Treasury Bond ETF (SGOV) $100,000",
+   "asset": "iShares 0-3 Month Treasury Bond ETF iShares 0-3 Month Treasury Bond ETF (SGOV)",
    "asset_type": "GS",
    "idx": 1,
    "owner": "SELF",

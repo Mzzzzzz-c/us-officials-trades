@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Kendall, Frank",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Secretary",
@@ -146,7 +146,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Vanguard Target Retirement 2025 Fund Investor Class Shares (VTTVX) $100,000",
+   "asset": "Vanguard Target Retirement 2025 Fund Investor Class Shares (VTTVX)",
    "asset_type": "EF",
    "idx": 12,
    "owner": "SELF",
@@ -157,7 +157,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Vanguard Total Bond Market Index Fund Institutional Plus Shares (VBMPX) $100,000",
+   "asset": "Vanguard Total Bond Market Index Fund Institutional Plus Shares (VBMPX)",
    "asset_type": "EF",
    "idx": 13,
    "owner": "SELF",
@@ -168,7 +168,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "Vanguard Extended Market Index Fund Institutional Plus Shares (VEMPX) $250,000",
+   "asset": "Vanguard Extended Market Index Fund Institutional Plus Shares (VEMPX)",
    "asset_type": "EF",
    "idx": 14,
    "owner": "SELF",

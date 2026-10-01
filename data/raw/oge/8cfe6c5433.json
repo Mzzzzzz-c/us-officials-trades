@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Trump, Donald J",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "paper",
  "title": "President",
@@ -6876,7 +6876,7 @@
   },
   {
    "amount_max": null,
-   "amount_min": 50000001,
+   "amount_min": null,
    "asset": "UBER TECHNOLOGIES INC UNSOLICITED",
    "idx": 682,
    "late_notice": true,
@@ -8592,7 +8592,7 @@
   },
   {
    "amount_max": null,
-   "amount_min": 50000001,
+   "amount_min": null,
    "asset": "ARCH CAPITAL GROUP LTD /BERMUDA! UNSOLICITED",
    "idx": 854,
    "late_notice": true,

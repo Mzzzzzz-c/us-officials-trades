@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Granholm, Jennifer",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Secretary",
@@ -14,7 +14,7 @@
   {
    "amount_max": null,
    "amount_min": null,
-   "asset": "JPMorgan BetaBuilders USD High Yield Corporate See Endnote Bond ETF (BBHY) $100,000",
+   "asset": "JPMorgan BetaBuilders USD High Yield Corporate See Endnote Bond ETF (BBHY)",
    "asset_type": "EF",
    "idx": 0,
    "owner": "SELF",

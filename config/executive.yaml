@@ -3,8 +3,8 @@
 # `bioguide`: their Congress ID if they also served in Congress (links the two pages).
 # Anyone who files a public 278-T is included automatically; entries here only add details.
 people:
-  trump-donald: {zh: "唐纳德·特朗普", en: "Donald J. Trump", party: R}
-  vance-jd: {zh: "J·D·万斯", en: "JD Vance", party: R, bioguide: V000137, always: true}
+  trump-donald: {zh: "唐纳德·特朗普", en: "Donald J. Trump", party: R, wiki: Donald_Trump}
+  vance-jd: {zh: "J·D·万斯", en: "JD Vance", party: R, bioguide: V000137, always: true, wiki: JD_Vance}
   bessent-scott: {zh: "斯科特·贝森特", party: R}
   lutnick-howard: {zh: "霍华德·卢特尼克", party: R}
   hegseth-pete: {zh: "皮特·赫格塞斯", party: R}
@@ -23,23 +23,23 @@ people:
   isaacman-jared: {zh: "贾里德·艾萨克曼"}
   kupor-scott: {zh: "斯科特·库珀"}
   phelan-john: {zh: "约翰·费伦"}
-  kratsios-michael: {zh: "迈克尔·克拉西奥斯"}
-  mcmaster-sean: {zh: "肖恩·麦克马斯特"}
+  kratsios-michael: {zh: "迈克尔·克拉西奥斯", wiki: Michael_Kratsios}
+  mcmaster-sean: {zh: "肖恩·麦克马斯特", photo: "https://highways.dot.gov/sites/fhwa.dot.gov/files/inline-images/McMaster-Sean-Official-Photo-2025.jpg"}
   bisignano-frank: {zh: "弗兰克·比西尼亚诺"}
-  bedford-bryan: {zh: "布莱恩·贝德福德"}
+  bedford-bryan: {zh: "布莱恩·贝德福德", wiki: Bryan_Bedford}
   warsh-kevin: {zh: "凯文·沃什"}
   miran-stephen: {zh: "斯蒂芬·米兰"}
-  faulkender-michael: {zh: "迈克尔·福尔肯德"}
-  macgregor-katharine: {zh: "凯瑟琳·麦格雷戈"}
+  faulkender-michael: {zh: "迈克尔·福尔肯德", wiki: Michael_Faulkender}
+  macgregor-katharine: {zh: "凯瑟琳·麦格雷戈", wiki: Katharine_MacGregor}
   landau-christopher: {zh: "克里斯托弗·兰道"}
   blanche-todd: {zh: "托德·布兰奇"}
   lawrence-paul: {zh: "保罗·劳伦斯"}
   sonderling-keith: {zh: "基思·松德林"}
   edgar-troy: {zh: "特洛伊·埃德加"}
   ueland-eric: {zh: "埃里克·尤兰"}
-  bailey-sara: {zh: "萨拉·贝利"}
+  bailey-sara: {zh: "萨拉·卡特", wiki: "Sara_Carter_(journalist)", en: "Sara Carter"}
   vaden-stephen: {zh: "斯蒂芬·韦登"}
-  mody-arjun: {zh: "阿尔琼·莫迪"}
+  mody-arjun: {zh: "阿尔琼·莫迪", photo: "https://www.ssa.gov/agency/commissioner/assets/images/mody-arjun.avif"}
   # Biden administration
   granholm-jennifer: {zh: "詹妮弗·格兰霍姆", party: D}
   yellen-janet: {zh: "珍妮特·耶伦", party: D}

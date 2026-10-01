@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Bisignano, Frank J",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Commissioner",
@@ -14,7 +14,7 @@
   {
    "amount_max": 25000000,
    "amount_min": 5000001,
-   "asset": "Vanguard Russell 1000 Growth Index Fund ETF Shares (VONG) $25,000,000",
+   "asset": "Vanguard Russell 1000 Growth Index Fund ETF Shares (VONG)",
    "asset_type": "EF",
    "idx": 0,
    "owner": "SELF",
@@ -58,7 +58,7 @@
   {
    "amount_max": 500000,
    "amount_min": 250001,
-   "asset": "iShares Broad USD High Yield Corporate Bond ETF (USHY) $500,000",
+   "asset": "iShares Broad USD High Yield Corporate Bond ETF (USHY)",
    "asset_type": "EF",
    "idx": 4,
    "owner": "SELF",
@@ -112,7 +112,7 @@
   {
    "amount_max": 500000,
    "amount_min": 250001,
-   "asset": "iShares Broad USD High Yield Corporate Bond ETF (USHY) $500,000",
+   "asset": "iShares Broad USD High Yield Corporate Bond ETF (USHY)",
    "asset_type": "EF",
    "idx": 9,
    "owner": "SELF",
@@ -165,7 +165,7 @@
   {
    "amount_max": 500000,
    "amount_min": 250001,
-   "asset": "iShares Broad USD High Yield Corporate Bond ETF (USHY) $500,000",
+   "asset": "iShares Broad USD High Yield Corporate Bond ETF (USHY)",
    "asset_type": "EF",
    "idx": 14,
    "owner": "SELF",
@@ -209,7 +209,7 @@
   {
    "amount_max": 1000000,
    "amount_min": 500001,
-   "asset": "Vanguard High Dividend Yield Index Fund ETF Shares (VYM) $1,000,000",
+   "asset": "Vanguard High Dividend Yield Index Fund ETF Shares (VYM)",
    "asset_type": "EF",
    "idx": 18,
    "owner": "SELF",
@@ -220,7 +220,7 @@
   {
    "amount_max": 1000000,
    "amount_min": 500001,
-   "asset": "Vanguard Dividend Appreciation Index Fund ETF Class Shares (VIG) $1,000,000",
+   "asset": "Vanguard Dividend Appreciation Index Fund ETF Class Shares (VIG)",
    "asset_type": "EF",
    "idx": 19,
    "owner": "SELF",
@@ -231,7 +231,7 @@
   {
    "amount_max": 1000000,
    "amount_min": 500001,
-   "asset": "Vanguard Russell 1000 Growth Index Fund ETF Shares (VONG) $1,000,000",
+   "asset": "Vanguard Russell 1000 Growth Index Fund ETF Shares (VONG)",
    "asset_type": "EF",
    "idx": 20,
    "owner": "SELF",
@@ -242,7 +242,7 @@
   {
    "amount_max": 500000,
    "amount_min": 250001,
-   "asset": "Vanguard High Dividend Yield Index Fund ETF Shares (VYM) $500,000",
+   "asset": "Vanguard High Dividend Yield Index Fund ETF Shares (VYM)",
    "asset_type": "EF",
    "idx": 21,
    "owner": "SELF",
@@ -253,7 +253,7 @@
   {
    "amount_max": 1000000,
    "amount_min": 500001,
-   "asset": "Vanguard High Dividend Yield Index Fund ETF Shares (VYM) $1,000,000",
+   "asset": "Vanguard High Dividend Yield Index Fund ETF Shares (VYM)",
    "asset_type": "EF",
    "idx": 22,
    "owner": "SELF",
@@ -297,7 +297,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Vanguard Tax-Exempt Bond Index Fund ETF Shares (VTEB) $100,000",
+   "asset": "Vanguard Tax-Exempt Bond Index Fund ETF Shares (VTEB)",
    "asset_type": "EF",
    "idx": 26,
    "owner": "SELF",
@@ -406,7 +406,7 @@
   {
    "amount_max": 50000000,
    "amount_min": 25000001,
-   "asset": "Vanguard Tax-Exempt Bond Index Fund ETF Shares (VTEB) $50,000,000",
+   "asset": "Vanguard Tax-Exempt Bond Index Fund ETF Shares (VTEB)",
    "asset_type": "EF",
    "idx": 36,
    "owner": "SELF",
@@ -417,7 +417,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "iShares 0-5 Year High Yield Corporate Bond ETF (SHYG) $5,000,000",
+   "asset": "iShares 0-5 Year High Yield Corporate Bond ETF (SHYG)",
    "asset_type": "EF",
    "idx": 37,
    "owner": "SELF",
@@ -428,7 +428,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "Janus Henderson AAA CLO ETF Janus Henderson AAA CLO ETF (JAAA) $5,000,000",
+   "asset": "Janus Henderson AAA CLO ETF Janus Henderson AAA CLO ETF (JAAA)",
    "asset_type": "EF",
    "idx": 38,
    "owner": "SELF",
@@ -538,7 +538,7 @@
   {
    "amount_max": 50000000,
    "amount_min": 25000001,
-   "asset": "Vanguard Tax-Exempt Bond Index Fund ETF Shares (VTEB) $50,000,000",
+   "asset": "Vanguard Tax-Exempt Bond Index Fund ETF Shares (VTEB)",
    "asset_type": "EF",
    "idx": 48,
    "owner": "SELF",
@@ -549,7 +549,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "iShares 0-5 Year High Yield Corporate Bond ETF (SHYG) $5,000,000",
+   "asset": "iShares 0-5 Year High Yield Corporate Bond ETF (SHYG)",
    "asset_type": "EF",
    "idx": 49,
    "owner": "SELF",
@@ -560,7 +560,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "Janus Henderson AAA CLO ETF Janus Henderson AAA CLO ETF (JAAA) $5,000,000",
+   "asset": "Janus Henderson AAA CLO ETF Janus Henderson AAA CLO ETF (JAAA)",
    "asset_type": "EF",
    "idx": 50,
    "owner": "SELF",
@@ -670,7 +670,7 @@
   {
    "amount_max": 25000000,
    "amount_min": 5000001,
-   "asset": "Vanguard Tax-Exempt Bond Index Fund ETF Shares (VTEB) $25,000,000",
+   "asset": "Vanguard Tax-Exempt Bond Index Fund ETF Shares (VTEB)",
    "asset_type": "EF",
    "idx": 60,
    "owner": "SELF",
@@ -681,7 +681,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "iShares 0-5 Year High Yield Corporate Bond ETF (SHYG) $5,000,000",
+   "asset": "iShares 0-5 Year High Yield Corporate Bond ETF (SHYG)",
    "asset_type": "EF",
    "idx": 61,
    "owner": "SELF",
@@ -692,7 +692,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "Janus Henderson AAA CLO ETF Janus Henderson AAA CLO ETF (JAAA) $5,000,000",
+   "asset": "Janus Henderson AAA CLO ETF Janus Henderson AAA CLO ETF (JAAA)",
    "asset_type": "EF",
    "idx": 62,
    "owner": "SELF",
@@ -780,7 +780,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "BrandywineGLOBAL - HIGH YIELD FUND Class A (BGHAX) $5,000,000",
+   "asset": "BrandywineGLOBAL - HIGH YIELD FUND Class A (BGHAX)",
    "asset_type": "ST",
    "idx": 70,
    "owner": "SELF",
@@ -802,7 +802,7 @@
   {
    "amount_max": 25000000,
    "amount_min": 5000001,
-   "asset": "Vanguard Tax-Exempt Bond Index Fund ETF Shares (VTEB) $25,000,000",
+   "asset": "Vanguard Tax-Exempt Bond Index Fund ETF Shares (VTEB)",
    "asset_type": "EF",
    "idx": 72,
    "owner": "SELF",
@@ -813,7 +813,7 @@
   {
    "amount_max": 1000000,
    "amount_min": 500001,
-   "asset": "iShares 0-5 Year High Yield Corporate Bond ETF (SHYG) $1,000,000",
+   "asset": "iShares 0-5 Year High Yield Corporate Bond ETF (SHYG)",
    "asset_type": "EF",
    "idx": 73,
    "owner": "SELF",
@@ -824,7 +824,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "Janus Henderson AAA CLO ETF Janus Henderson AAA CLO ETF (JAAA) $5,000,000",
+   "asset": "Janus Henderson AAA CLO ETF Janus Henderson AAA CLO ETF (JAAA)",
    "asset_type": "EF",
    "idx": 74,
    "owner": "SELF",

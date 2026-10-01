@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Powell, Jerome H",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Governor & Chairman",
@@ -14,7 +14,7 @@
   {
    "amount_max": null,
    "amount_min": null,
-   "asset": "TRIBOROUGH BRDG & TUNL AUTH N REV See Endnote BONDS $100,000",
+   "asset": "TRIBOROUGH BRDG & TUNL AUTH N REV See Endnote BONDS",
    "idx": 0,
    "owner": "SELF",
    "tx_date": "2022-06-30",
@@ -122,7 +122,7 @@
   {
    "amount_max": null,
    "amount_min": null,
-   "asset": "MIAMI-DADE CNTY FLA WTR & SWR REV See Endnote BONDS $100,000",
+   "asset": "MIAMI-DADE CNTY FLA WTR & SWR REV See Endnote BONDS",
    "idx": 12,
    "owner": "SELF",
    "tx_date": "2022-06-30",
@@ -194,7 +194,7 @@
   {
    "amount_max": null,
    "amount_min": null,
-   "asset": "TEXAS TRANSN COMMN ST HWY FD REV See Endnote BONDS $100,000",
+   "asset": "TEXAS TRANSN COMMN ST HWY FD REV See Endnote BONDS",
    "idx": 20,
    "owner": "SELF",
    "tx_date": "2022-06-30",
@@ -203,7 +203,7 @@
   {
    "amount_max": null,
    "amount_min": null,
-   "asset": "MARYLAND ST DEPT TRANSN CONS REV See Endnote BONDS $100,000",
+   "asset": "MARYLAND ST DEPT TRANSN CONS REV See Endnote BONDS",
    "idx": 21,
    "owner": "SELF",
    "tx_date": "2022-06-30",

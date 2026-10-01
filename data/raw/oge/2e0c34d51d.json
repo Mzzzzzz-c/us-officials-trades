@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Granholm, Jennifer",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Secretary",
@@ -14,7 +14,7 @@
   {
    "amount_max": 1000000,
    "amount_min": 500001,
-   "asset": "Exercised vested stock options to purchase Proterra Inc. stock $1,000,000",
+   "asset": "Exercised vested stock options to purchase Proterra Inc. stock",
    "idx": 0,
    "owner": "SELF",
    "tx_date": "2021-05-12",

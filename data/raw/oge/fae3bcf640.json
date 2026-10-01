@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Kupor, Scott A",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Director",
@@ -14,7 +14,7 @@
   {
    "amount_max": null,
    "amount_min": null,
-   "asset": "Alphabet, Inc. (GOOG) (sale of stock per required See Endnote CD) $250,000",
+   "asset": "Alphabet, Inc. (GOOG) (sale of stock per required See Endnote CD)",
    "asset_type": "ST",
    "idx": 0,
    "owner": "SELF",
@@ -25,7 +25,7 @@
   {
    "amount_max": null,
    "amount_min": null,
-   "asset": "Southern Company (SO) (required sale pursuant to See Endnote CD) $250,000",
+   "asset": "Southern Company (SO) (required sale pursuant to See Endnote CD)",
    "asset_type": "ST",
    "idx": 1,
    "owner": "SELF",

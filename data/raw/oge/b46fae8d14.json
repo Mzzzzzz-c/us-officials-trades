@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Gabbard, Tulsi",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Director",
@@ -113,7 +113,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Vanguard Extended Market Index Fund ETF Shares (VXF) $100,000",
+   "asset": "Vanguard Extended Market Index Fund ETF Shares (VXF)",
    "asset_type": "EF",
    "idx": 10,
    "owner": "SELF",
@@ -124,7 +124,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Vanguard Total Stock Market Index Fund ETF Class Shares (VTI) $100,000",
+   "asset": "Vanguard Total Stock Market Index Fund ETF Class Shares (VTI)",
    "asset_type": "EF",
    "idx": 11,
    "owner": "SELF",
@@ -135,7 +135,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Vanguard Total International Stock Index Fund ETF Shares (VXUS) $100,000",
+   "asset": "Vanguard Total International Stock Index Fund ETF Shares (VXUS)",
    "asset_type": "EF",
    "idx": 12,
    "owner": "SELF",

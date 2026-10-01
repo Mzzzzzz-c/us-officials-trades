@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Wright, Christopher A",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Secretary",
@@ -293,7 +293,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "EMX Royalty Corporation Common Shares (Canada) (EMX) $250,000",
+   "asset": "EMX Royalty Corporation Common Shares (Canada) (EMX)",
    "asset_type": "ST",
    "idx": 29,
    "late_notice": true,
@@ -358,7 +358,7 @@
   {
    "amount_max": 500000,
    "amount_min": 250001,
-   "asset": "Crescent Energy Company Class A Common Stock (CRGY) $500,000",
+   "asset": "Crescent Energy Company Class A Common Stock (CRGY)",
    "asset_type": "ST",
    "idx": 35,
    "owner": "SELF",
@@ -369,7 +369,7 @@
   {
    "amount_max": 500000,
    "amount_min": 250001,
-   "asset": "EMX Royalty Corporation Common Shares (Canada) (EMX) $500,000",
+   "asset": "EMX Royalty Corporation Common Shares (Canada) (EMX)",
    "asset_type": "ST",
    "idx": 36,
    "owner": "SELF",
@@ -391,7 +391,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "Enterprise Products Partners L.P. Common Stock (EPD) $5,000,000",
+   "asset": "Enterprise Products Partners L.P. Common Stock (EPD)",
    "asset_type": "ST",
    "idx": 38,
    "owner": "SELF",
@@ -464,7 +464,7 @@
   {
    "amount_max": 1000000,
    "amount_min": 500001,
-   "asset": "Plains All American Pipeline L.P. Common Units representing Limited Partner Interests (PAA) $1,000,000",
+   "asset": "Plains All American Pipeline L.P. Common Units representing Limited Partner Interests (PAA)",
    "asset_type": "ST",
    "idx": 45,
    "owner": "SELF",
@@ -506,7 +506,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Goldman Sachs Dynamic Municipal Income Fund Class P Shares (GAJPX) $100,000",
+   "asset": "Goldman Sachs Dynamic Municipal Income Fund Class P Shares (GAJPX)",
    "asset_type": "ST",
    "idx": 49,
    "owner": "SELF",
@@ -517,7 +517,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Goldman Sachs High Yield Municipal Fund Class P Shares (GGLPX) $100,000",
+   "asset": "Goldman Sachs High Yield Municipal Fund Class P Shares (GGLPX)",
    "asset_type": "ST",
    "idx": 50,
    "owner": "SELF",
@@ -561,7 +561,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Goldman Sachs Dynamic Municipal Income Fund Class P Shares (GAJPX) $100,000",
+   "asset": "Goldman Sachs Dynamic Municipal Income Fund Class P Shares (GAJPX)",
    "asset_type": "ST",
    "idx": 54,
    "owner": "SELF",
@@ -572,7 +572,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Goldman Sachs High Yield Municipal Fund Class P Shares (GGLPX) $100,000",
+   "asset": "Goldman Sachs High Yield Municipal Fund Class P Shares (GGLPX)",
    "asset_type": "ST",
    "idx": 55,
    "owner": "SELF",
@@ -616,7 +616,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Goldman Sachs Dynamic Municipal Income Fund Class P Shares (GAJPX) $100,000",
+   "asset": "Goldman Sachs Dynamic Municipal Income Fund Class P Shares (GAJPX)",
    "asset_type": "ST",
    "idx": 59,
    "owner": "SELF",
@@ -627,7 +627,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Goldman Sachs High Yield Municipal Fund Class P Shares (GGLPX) $100,000",
+   "asset": "Goldman Sachs High Yield Municipal Fund Class P Shares (GGLPX)",
    "asset_type": "ST",
    "idx": 60,
    "owner": "SELF",
@@ -671,7 +671,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Goldman Sachs Dynamic Municipal Income Fund Class P Shares (GAJPX) $100,000",
+   "asset": "Goldman Sachs Dynamic Municipal Income Fund Class P Shares (GAJPX)",
    "asset_type": "ST",
    "idx": 64,
    "owner": "SELF",
@@ -682,7 +682,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Goldman Sachs High Yield Municipal Fund Class P Shares (GGLPX) $100,000",
+   "asset": "Goldman Sachs High Yield Municipal Fund Class P Shares (GGLPX)",
    "asset_type": "ST",
    "idx": 65,
    "owner": "SELF",
@@ -726,7 +726,7 @@
   {
    "amount_max": 500000,
    "amount_min": 250001,
-   "asset": "Goldman Sachs Dynamic Municipal Income Fund Class P Shares (GAJPX) $500,000",
+   "asset": "Goldman Sachs Dynamic Municipal Income Fund Class P Shares (GAJPX)",
    "asset_type": "ST",
    "idx": 69,
    "owner": "SELF",
@@ -737,7 +737,7 @@
   {
    "amount_max": 500000,
    "amount_min": 250001,
-   "asset": "Goldman Sachs High Yield Municipal Fund Class P Shares (GGLPX) $500,000",
+   "asset": "Goldman Sachs High Yield Municipal Fund Class P Shares (GGLPX)",
    "asset_type": "ST",
    "idx": 70,
    "owner": "SELF",
@@ -781,7 +781,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "Goldman Sachs Dynamic Municipal Income Fund Class P Shares (GAJPX) $250,000",
+   "asset": "Goldman Sachs Dynamic Municipal Income Fund Class P Shares (GAJPX)",
    "asset_type": "ST",
    "idx": 74,
    "owner": "SELF",
@@ -792,7 +792,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "Goldman Sachs High Yield Municipal Fund Class P Shares (GGLPX) $250,000",
+   "asset": "Goldman Sachs High Yield Municipal Fund Class P Shares (GGLPX)",
    "asset_type": "ST",
    "idx": 75,
    "owner": "SELF",
@@ -836,7 +836,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "Goldman Sachs Dynamic Municipal Income Fund Class P Shares (GAJPX) $250,000",
+   "asset": "Goldman Sachs Dynamic Municipal Income Fund Class P Shares (GAJPX)",
    "asset_type": "ST",
    "idx": 79,
    "owner": "SELF",
@@ -847,7 +847,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "Goldman Sachs High Yield Municipal Fund Class P Shares (GGLPX) $250,000",
+   "asset": "Goldman Sachs High Yield Municipal Fund Class P Shares (GGLPX)",
    "asset_type": "ST",
    "idx": 80,
    "owner": "SELF",
@@ -891,7 +891,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "Goldman Sachs Dynamic Municipal Income Fund Class P Shares (GAJPX) $250,000",
+   "asset": "Goldman Sachs Dynamic Municipal Income Fund Class P Shares (GAJPX)",
    "asset_type": "ST",
    "idx": 84,
    "owner": "SELF",
@@ -902,7 +902,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "Goldman Sachs High Yield Municipal Fund Class P Shares (GGLPX) $250,000",
+   "asset": "Goldman Sachs High Yield Municipal Fund Class P Shares (GGLPX)",
    "asset_type": "ST",
    "idx": 85,
    "owner": "SELF",
@@ -946,7 +946,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "Goldman Sachs Dynamic Municipal Income Fund Class P Shares (GAJPX) $250,000",
+   "asset": "Goldman Sachs Dynamic Municipal Income Fund Class P Shares (GAJPX)",
    "asset_type": "ST",
    "idx": 89,
    "owner": "SELF",
@@ -957,7 +957,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "Goldman Sachs High Yield Municipal Fund Class P Shares (GGLPX) $250,000",
+   "asset": "Goldman Sachs High Yield Municipal Fund Class P Shares (GGLPX)",
    "asset_type": "ST",
    "idx": 90,
    "owner": "SELF",
@@ -1001,7 +1001,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Goldman Sachs Dynamic Municipal Income Fund Class P Shares (GAJPX) $100,000",
+   "asset": "Goldman Sachs Dynamic Municipal Income Fund Class P Shares (GAJPX)",
    "asset_type": "ST",
    "idx": 94,
    "owner": "SELF",
@@ -1012,7 +1012,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Goldman Sachs High Yield Municipal Fund Class P Shares (GGLPX) $100,000",
+   "asset": "Goldman Sachs High Yield Municipal Fund Class P Shares (GGLPX)",
    "asset_type": "ST",
    "idx": 95,
    "owner": "SELF",
@@ -1055,7 +1055,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "Goldman Sachs Dynamic Municipal Income Fund Class P Shares (GAJPX) $250,000",
+   "asset": "Goldman Sachs Dynamic Municipal Income Fund Class P Shares (GAJPX)",
    "asset_type": "ST",
    "idx": 99,
    "owner": "SELF",
@@ -1066,7 +1066,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "Goldman Sachs High Yield Municipal Fund Class P Shares (GGLPX) $250,000",
+   "asset": "Goldman Sachs High Yield Municipal Fund Class P Shares (GGLPX)",
    "asset_type": "ST",
    "idx": 100,
    "owner": "SELF",
@@ -1110,7 +1110,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Goldman Sachs Dynamic Municipal Income Fund Class P Shares (GAJPX) $100,000",
+   "asset": "Goldman Sachs Dynamic Municipal Income Fund Class P Shares (GAJPX)",
    "asset_type": "ST",
    "idx": 104,
    "owner": "SELF",
@@ -1121,7 +1121,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Goldman Sachs High Yield Municipal Fund Class P Shares (GGLPX) $100,000",
+   "asset": "Goldman Sachs High Yield Municipal Fund Class P Shares (GGLPX)",
    "asset_type": "ST",
    "idx": 105,
    "owner": "SELF",
@@ -1164,7 +1164,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Goldman Sachs Dynamic Municipal Income Fund Class P Shares (GAJPX) $100,000",
+   "asset": "Goldman Sachs Dynamic Municipal Income Fund Class P Shares (GAJPX)",
    "asset_type": "ST",
    "idx": 109,
    "owner": "SELF",
@@ -1175,7 +1175,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Goldman Sachs High Yield Municipal Fund Class P Shares (GGLPX) $100,000",
+   "asset": "Goldman Sachs High Yield Municipal Fund Class P Shares (GGLPX)",
    "asset_type": "ST",
    "idx": 110,
    "owner": "SELF",

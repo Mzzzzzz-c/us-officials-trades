@@ -17,8 +17,8 @@ export default async function Unparsed({ params }: { params: Promise<{ locale: s
   const mm = memberMap();
   const rows = getUnparsed();
   return (
-    <div>
-      <h1 className="text-2xl font-semibold">{t.unparsed.title}</h1>
+    <div className="mx-auto w-full max-w-[1100px] px-5 pt-12 sm:pt-16">
+      <h1 className="headline">{t.unparsed.title}</h1>
       <p className="mt-1 mb-5 max-w-3xl text-sm text-muted">{t.unparsed.intro}</p>
       <div className="card scroll-x">
         <table className="tbl">

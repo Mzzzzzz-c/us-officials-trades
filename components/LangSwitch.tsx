@@ -9,7 +9,7 @@ export default function LangSwitch({ locale, label, title }: { locale: Locale; l
   const other: Locale = locale === "zh" ? "en" : "zh";
   const href = path.replace(/^\/(zh|en)(?=\/|$)/, `/${other}`);
   return (
-    <a href={href} title={title} hrefLang={other === "zh" ? "zh-CN" : "en"} className="rounded-md border border-line px-2.5 py-1 text-xs hover:bg-surface-2">
+    <a href={href} title={title} hrefLang={other === "zh" ? "zh-CN" : "en"} className="rounded-full px-2.5 py-1 text-xs font-medium text-muted ring-1 ring-hair transition-colors hover:text-ink">
       {label}
     </a>
   );

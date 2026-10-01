@@ -39,7 +39,7 @@ export default async function TradePage({ params }: { params: Promise<{ locale: 
   const who = locale === "zh" && p.zh ? p.zh : p.name;
 
   return (
-    <div className="max-w-4xl">
+    <div className="mx-auto w-full max-w-[1100px] px-5 pt-12 sm:pt-16 max-w-4xl">
       <div className="text-sm text-muted">
         <Link prefetch={false} className="link" href={`/${locale}/member/${p.id}`}>
           <PartyDot party={p.party} /> {who}

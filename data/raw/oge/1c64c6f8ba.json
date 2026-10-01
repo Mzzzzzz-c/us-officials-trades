@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Barrett, Barbara M",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Secretary",
@@ -32,7 +32,7 @@
   {
    "amount_max": 25000000,
    "amount_min": 5000001,
-   "asset": "BLACKSTONE REAL ESTATE INCOME TRUST INC ESCROW MFQGIE $25,000,000",
+   "asset": "BLACKSTONE REAL ESTATE INCOME TRUST INC ESCROW MFQGIE",
    "idx": 2,
    "owner": "SELF",
    "tx_date": "2020-02-21",
@@ -95,7 +95,7 @@
   {
    "amount_max": 25000000,
    "amount_min": 5000001,
-   "asset": "ISHARES EDGE MSCI MIN VOL EAFE ETF (EFAV) $25,000,000",
+   "asset": "ISHARES EDGE MSCI MIN VOL EAFE ETF (EFAV)",
    "asset_type": "EF",
    "idx": 8,
    "owner": "SELF",
@@ -106,7 +106,7 @@
   {
    "amount_max": 25000000,
    "amount_min": 5000001,
-   "asset": "ISHARES INTERMEDIATE TERM CORP BND ETF (IGIB) $25,000,000",
+   "asset": "ISHARES INTERMEDIATE TERM CORP BND ETF (IGIB)",
    "asset_type": "EF",
    "idx": 9,
    "owner": "SELF",

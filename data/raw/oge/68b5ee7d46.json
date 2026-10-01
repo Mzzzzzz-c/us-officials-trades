@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Burgum, Douglas J",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Secretary",
@@ -691,7 +691,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "Atlassian Corporation Plc Class A Ordinary Shares (TEAM) $5,000,000",
+   "asset": "Atlassian Corporation Plc Class A Ordinary Shares (TEAM)",
    "asset_type": "ST",
    "idx": 58,
    "late_notice": true,
@@ -787,7 +787,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Enterprise Products Partners L.P. Common Stock (EPD) $100,000",
+   "asset": "Enterprise Products Partners L.P. Common Stock (EPD)",
    "asset_type": "ST",
    "idx": 67,
    "late_notice": true,

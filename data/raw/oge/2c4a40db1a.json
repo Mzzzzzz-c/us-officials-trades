@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Isaacman, Jared",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Administrator",
@@ -14,7 +14,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR) $5,000,000",
+   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR)",
    "asset_type": "ST",
    "idx": 0,
    "owner": "SELF",
@@ -25,7 +25,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR) $5,000,000",
+   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR)",
    "asset_type": "ST",
    "idx": 1,
    "owner": "SELF",
@@ -36,7 +36,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR) $5,000,000",
+   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR)",
    "asset_type": "ST",
    "idx": 2,
    "owner": "SELF",
@@ -47,7 +47,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR) $5,000,000",
+   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR)",
    "asset_type": "ST",
    "idx": 3,
    "owner": "SELF",
@@ -58,7 +58,7 @@
   {
    "amount_max": 500000,
    "amount_min": 250001,
-   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR) $500,000",
+   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR)",
    "asset_type": "ST",
    "idx": 4,
    "owner": "SELF",
@@ -69,7 +69,7 @@
   {
    "amount_max": 1000000,
    "amount_min": 500001,
-   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR) $1,000,000",
+   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR)",
    "asset_type": "ST",
    "idx": 5,
    "owner": "SELF",
@@ -80,7 +80,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR) $5,000,000",
+   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR)",
    "asset_type": "ST",
    "idx": 6,
    "owner": "SELF",
@@ -91,7 +91,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR) $5,000,000",
+   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR)",
    "asset_type": "ST",
    "idx": 7,
    "owner": "SELF",
@@ -102,7 +102,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR) $5,000,000",
+   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR)",
    "asset_type": "ST",
    "idx": 8,
    "owner": "SELF",
@@ -113,7 +113,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR) $5,000,000",
+   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR)",
    "asset_type": "ST",
    "idx": 9,
    "owner": "SELF",
@@ -124,7 +124,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR) $5,000,000",
+   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR)",
    "asset_type": "ST",
    "idx": 10,
    "owner": "SELF",
@@ -135,7 +135,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR) $5,000,000",
+   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR)",
    "asset_type": "ST",
    "idx": 11,
    "owner": "SELF",
@@ -146,7 +146,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR) $5,000,000",
+   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR)",
    "asset_type": "ST",
    "idx": 12,
    "owner": "SELF",
@@ -157,7 +157,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR) $5,000,000",
+   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR)",
    "asset_type": "ST",
    "idx": 13,
    "owner": "SELF",
@@ -168,7 +168,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR) $5,000,000",
+   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR)",
    "asset_type": "ST",
    "idx": 14,
    "owner": "SELF",
@@ -179,7 +179,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR) $5,000,000",
+   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR)",
    "asset_type": "ST",
    "idx": 15,
    "owner": "SELF",
@@ -190,7 +190,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR) $5,000,000",
+   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR)",
    "asset_type": "ST",
    "idx": 16,
    "owner": "SELF",

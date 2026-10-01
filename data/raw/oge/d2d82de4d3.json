@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Burgum, Douglas J",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Secretary",
@@ -32,7 +32,7 @@
   {
    "amount_max": null,
    "amount_min": null,
-   "asset": "Arthur Ventures Growth IV, LP - Nucleus Security, See Endnote Inc. $250,000",
+   "asset": "Arthur Ventures Growth IV, LP - Nucleus Security, See Endnote Inc.",
    "idx": 2,
    "owner": "SELF",
    "tx_date": "2026-04-08",

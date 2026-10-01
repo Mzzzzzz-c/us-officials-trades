@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Phelan, John",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Secretary",
@@ -14,7 +14,7 @@
   {
    "amount_max": 25000000,
    "amount_min": 5000001,
-   "asset": "Blue Owl Capital Inc. Class A Common Stock (OWL) $25,000,000",
+   "asset": "Blue Owl Capital Inc. Class A Common Stock (OWL)",
    "asset_type": "ST",
    "idx": 0,
    "late_notice": true,

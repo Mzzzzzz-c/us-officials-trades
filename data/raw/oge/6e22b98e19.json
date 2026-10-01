@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Kennedy, Robert F",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Secretary",
@@ -95,7 +95,7 @@
   {
    "amount_max": 15000,
    "amount_min": 1001,
-   "asset": "NIKE, Inc. (NKE) 9 NIKE, Inc. (NKE) Sale 04/04/2225 No $1,001 - $15,000",
+   "asset": "NIKE, Inc. (NKE) 9 NIKE, Inc. (NKE) Sale 04/04/2225 No $1,001 -",
    "asset_type": "ST",
    "idx": 7,
    "late_notice": true,

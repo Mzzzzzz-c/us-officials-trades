@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Bisignano, Frank J",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Commissioner",
@@ -25,7 +25,7 @@
   {
    "amount_max": 500000,
    "amount_min": 250001,
-   "asset": "Vanguard Russell 1000 Growth Index Fund ETF Shares (VONG) $500,000",
+   "asset": "Vanguard Russell 1000 Growth Index Fund ETF Shares (VONG)",
    "asset_type": "EF",
    "idx": 1,
    "owner": "SELF",
@@ -36,7 +36,7 @@
   {
    "amount_max": 500000,
    "amount_min": 250001,
-   "asset": "Vanguard Dividend Appreciation Index Fund ETF Class Shares (VIG) $500,000",
+   "asset": "Vanguard Dividend Appreciation Index Fund ETF Class Shares (VIG)",
    "asset_type": "EF",
    "idx": 2,
    "owner": "SELF",
@@ -47,7 +47,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "Vanguard High Dividend Yield Index Fund ETF Shares (VYM) $250,000",
+   "asset": "Vanguard High Dividend Yield Index Fund ETF Shares (VYM)",
    "asset_type": "EF",
    "idx": 3,
    "owner": "SELF",
@@ -58,7 +58,7 @@
   {
    "amount_max": 500000,
    "amount_min": 250001,
-   "asset": "Vanguard Russell 1000 Growth Index Fund ETF Shares (VONG) $500,000",
+   "asset": "Vanguard Russell 1000 Growth Index Fund ETF Shares (VONG)",
    "asset_type": "EF",
    "idx": 4,
    "owner": "SELF",
@@ -69,7 +69,7 @@
   {
    "amount_max": 500000,
    "amount_min": 250001,
-   "asset": "Vanguard Dividend Appreciation Index Fund ETF Class Shares (VIG) $500,000",
+   "asset": "Vanguard Dividend Appreciation Index Fund ETF Class Shares (VIG)",
    "asset_type": "EF",
    "idx": 5,
    "owner": "SELF",
@@ -80,7 +80,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "Vanguard High Dividend Yield Index Fund ETF Shares (VYM) $250,000",
+   "asset": "Vanguard High Dividend Yield Index Fund ETF Shares (VYM)",
    "asset_type": "EF",
    "idx": 6,
    "owner": "SELF",
@@ -91,7 +91,7 @@
   {
    "amount_max": 500000,
    "amount_min": 250001,
-   "asset": "Vanguard Russell 1000 Growth Index Fund ETF Shares (VONG) $500,000",
+   "asset": "Vanguard Russell 1000 Growth Index Fund ETF Shares (VONG)",
    "asset_type": "EF",
    "idx": 7,
    "owner": "SELF",
@@ -102,7 +102,7 @@
   {
    "amount_max": 500000,
    "amount_min": 250001,
-   "asset": "Vanguard Dividend Appreciation Index Fund ETF Class Shares (VIG) $500,000",
+   "asset": "Vanguard Dividend Appreciation Index Fund ETF Class Shares (VIG)",
    "asset_type": "EF",
    "idx": 8,
    "owner": "SELF",
@@ -113,7 +113,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "Vanguard High Dividend Yield Index Fund ETF Shares (VYM) $250,000",
+   "asset": "Vanguard High Dividend Yield Index Fund ETF Shares (VYM)",
    "asset_type": "EF",
    "idx": 9,
    "owner": "SELF",
@@ -124,7 +124,7 @@
   {
    "amount_max": 500000,
    "amount_min": 250001,
-   "asset": "Vanguard Russell 1000 Growth Index Fund ETF Shares (VONG) $500,000",
+   "asset": "Vanguard Russell 1000 Growth Index Fund ETF Shares (VONG)",
    "asset_type": "EF",
    "idx": 10,
    "owner": "SELF",
@@ -135,7 +135,7 @@
   {
    "amount_max": 500000,
    "amount_min": 250001,
-   "asset": "Vanguard Dividend Appreciation Index Fund ETF Class Shares (VIG) $500,000",
+   "asset": "Vanguard Dividend Appreciation Index Fund ETF Class Shares (VIG)",
    "asset_type": "EF",
    "idx": 11,
    "owner": "SELF",
@@ -146,7 +146,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "Vanguard High Dividend Yield Index Fund ETF Shares (VYM) $250,000",
+   "asset": "Vanguard High Dividend Yield Index Fund ETF Shares (VYM)",
    "asset_type": "EF",
    "idx": 12,
    "owner": "SELF",

@@ -27,7 +27,7 @@ from .util import CACHE, RAW, REF, clean_ticker, norm_name, read_json, write_jso
 log = logging.getLogger(__name__)
 
 API = "https://extapps2.oge.gov/201/Presiden.nsf/API.xsp/v2/rest"
-PARSER_VERSION = 4
+PARSER_VERSION = 5
 http.HOST_DELAY.setdefault("extapps2.oge.gov", 0.5)
 
 # OGE amount bands (lower bound -> upper bound; None = open-ended)
@@ -520,11 +520,16 @@ def parse_278t(content: bytes, filed: str | None = None) -> dict:
         date = max(r["dates"], key=lambda d: (sure.get(d, 0), -r["dates"].index(d)))
         desc = re.sub(r"\s+", " ", r["desc"]).strip(" ,.;:-•")
         desc = re.sub(r"\s*\(\d+\)\s*$", "", desc)
+        desc = re.sub(r"\s*\$[\d,]{5,}\s*$", "", desc)  # a wrapped upper bound that landed in the description
         if not desc:
             continue
         tk, at = classify(desc)
+        amin, amax = r["amin"], r["amax"]
+        if style == "paper" and amin and amin > 5000001:
+            # OCR merges digits ("$50,001" -> "$50,000,001"); the President's single trades rarely exceed $5M
+            amin, amax = None, None
         t = {"idx": len(txs), "asset": desc[:300], "type": r["type"], "tx_date": date,
-             "amount_min": r["amin"], "amount_max": r["amax"], "owner": "SELF"}
+             "amount_min": amin, "amount_max": amax, "owner": "SELF"}
         if tk:
             t["ticker"] = tk
         if at:

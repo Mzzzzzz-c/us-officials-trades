@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Trump, Donald J",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "paper",
  "title": "President",
@@ -304,8 +304,8 @@
    "type": "P"
   },
   {
-   "amount_max": 50000000,
-   "amount_min": 25000001,
+   "amount_max": null,
+   "amount_min": null,
    "asset": "WEUS FARGO & CO PERPGG NT 6.1250% 12/31/49",
    "idx": 29,
    "owner": "SELF",

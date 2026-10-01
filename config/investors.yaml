@@ -15,6 +15,7 @@ investors:
     firm_zh: 伯克希尔·哈撒韦
     firm_en: Berkshire Hathaway Inc.
     cik: 1067983
+    wiki: Warren_Buffett
 
   - id: duan-yongping
     zh: 段永平
@@ -22,6 +23,7 @@ investors:
     firm_zh: H&H International Investment
     firm_en: H&H International Investment, LLC
     cik: 1759760
+    wiki: Duan_Yongping
     inferred: true
     note_zh: 市场普遍认为该机构由段永平管理，13F 文件本身未署其名。
     note_en: Widely believed to be managed by Duan Yongping; the filing does not name him.
@@ -32,6 +34,7 @@ investors:
     firm_zh: 喜马拉雅资本
     firm_en: Himalaya Capital Management LLC
     cik: 1709323
+    wiki: Li_Lu
 
   - id: ackman
     zh: 比尔·阿克曼
@@ -39,6 +42,7 @@ investors:
     firm_zh: 潘兴广场资本
     firm_en: Pershing Square Capital Management
     cik: 1336528
+    wiki: Bill_Ackman
 
   - id: burry
     zh: 迈克尔·伯里
@@ -46,6 +50,7 @@ investors:
     firm_zh: Scion 资产管理
     firm_en: Scion Asset Management, LLC
     cik: 1649339
+    wiki: Michael_Burry
     note_zh: 最后一份 13F 为 2025 年第三季度，此后停止申报。
     note_en: Last 13F covers Q3 2025; no filings since.
 
@@ -55,6 +60,7 @@ investors:
     firm_zh: Baupost 集团
     firm_en: The Baupost Group
     cik: 1061768
+    wiki: Seth_Klarman
 
   - id: marks
     zh: 霍华德·马克斯
@@ -62,6 +68,7 @@ investors:
     firm_zh: 橡树资本
     firm_en: Oaktree Capital Management
     cik: 949509
+    wiki: Howard_Marks_(investor)
 
   - id: dalio
     zh: 瑞·达利欧（创始人）
@@ -69,6 +76,7 @@ investors:
     firm_zh: 桥水基金
     firm_en: Bridgewater Associates
     cik: 1350694
+    wiki: Ray_Dalio
     note_zh: 达利欧已不再管理桥水，持仓反映的是桥水整体的决定。
     note_en: Dalio no longer runs Bridgewater; holdings reflect the firm, not him personally.
 
@@ -78,6 +86,7 @@ investors:
     firm_zh: 杜肯家族办公室
     firm_en: Duquesne Family Office
     cik: 1536411
+    wiki: Stanley_Druckenmiller
 
   - id: cathie-wood
     zh: 凯茜·伍德
@@ -85,6 +94,7 @@ investors:
     firm_zh: 方舟投资（ARK）
     firm_en: ARK Investment Management
     cik: 1697748
+    wiki: Cathie_Wood
 
   - id: tepper
     zh: 大卫·泰珀
@@ -92,6 +102,7 @@ investors:
     firm_zh: Appaloosa
     firm_en: Appaloosa LP
     cik: 1656456
+    wiki: David_Tepper
 
   - id: icahn
     zh: 卡尔·伊坎
@@ -99,6 +110,7 @@ investors:
     firm_zh: 伊坎
     firm_en: Icahn Carl C
     cik: 921669
+    wiki: Carl_Icahn
 
   - id: gates-foundation
     zh: 盖茨基金会信托
@@ -113,6 +125,7 @@ investors:
     firm_zh: 索罗斯基金管理
     firm_en: Soros Fund Management
     cik: 1029160
+    wiki: George_Soros
 
   - id: loeb
     zh: 丹尼尔·勒布
@@ -120,6 +133,7 @@ investors:
     firm_zh: 第三点（Third Point）
     firm_en: Third Point LLC
     cik: 1040273
+    wiki: Daniel_S._Loeb
 
   - id: zhang-lei
     zh: 张磊
@@ -127,6 +141,7 @@ investors:
     firm_zh: 高瓴（HHLR Advisors）
     firm_en: HHLR Advisors, Ltd.
     cik: 1762304
+    wiki: Zhang_Lei_(investor)
 
   - id: pabrai
     zh: 莫尼什·帕伯莱
@@ -134,6 +149,7 @@ investors:
     firm_zh: Dalal Street
     firm_en: Dalal Street, LLC
     cik: 1549575
+    wiki: Mohnish_Pabrai
 
   - id: terry-smith
     zh: 特里·史密斯
@@ -141,6 +157,7 @@ investors:
     firm_zh: Fundsmith
     firm_en: Fundsmith LLP
     cik: 1569205
+    wiki: Terry_Smith_(fund_manager)
 
   - id: coleman
     zh: 蔡斯·科尔曼
@@ -148,6 +165,7 @@ investors:
     firm_zh: 老虎环球
     firm_en: Tiger Global Management
     cik: 1167483
+    wiki: Chase_Coleman_III
 
   - id: akre
     zh: 查克·阿克雷
@@ -155,3 +173,4 @@ investors:
     firm_zh: Akre 资本
     firm_en: Akre Capital Management
     cik: 1112520
+    wiki: Chuck_Akre

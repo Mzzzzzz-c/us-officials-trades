@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Wright, Christopher A",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Secretary",
@@ -14,7 +14,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "GAJPX (Goldman Sachs Dynamic Municipal Income Fund) $100,000",
+   "asset": "GAJPX (Goldman Sachs Dynamic Municipal Income Fund)",
    "idx": 0,
    "owner": "SELF",
    "tx_date": "2025-03-17",
@@ -23,7 +23,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "GGLPX (Goldman Sachs High Yield Municipal Fund) $100,000",
+   "asset": "GGLPX (Goldman Sachs High Yield Municipal Fund)",
    "idx": 1,
    "owner": "SELF",
    "tx_date": "2025-03-17",
@@ -61,7 +61,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "GAJPX (Goldman Sachs Dynamic Municipal Income Fund) $100,000",
+   "asset": "GAJPX (Goldman Sachs Dynamic Municipal Income Fund)",
    "idx": 5,
    "owner": "SELF",
    "tx_date": "2025-03-18",
@@ -70,7 +70,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "GGLPX (Goldman Sachs High Yield Municipal Fund) $100,000",
+   "asset": "GGLPX (Goldman Sachs High Yield Municipal Fund)",
    "idx": 6,
    "owner": "SELF",
    "tx_date": "2025-03-18",
@@ -108,7 +108,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "GAJPX (Goldman Sachs Dynamic Municipal Income Fund) $100,000",
+   "asset": "GAJPX (Goldman Sachs Dynamic Municipal Income Fund)",
    "idx": 10,
    "owner": "SELF",
    "tx_date": "2025-03-19",
@@ -117,7 +117,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "GGLPX (Goldman Sachs High Yield Municipal Fund) $100,000",
+   "asset": "GGLPX (Goldman Sachs High Yield Municipal Fund)",
    "idx": 11,
    "owner": "SELF",
    "tx_date": "2025-03-19",
@@ -155,7 +155,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "GAJPX (Goldman Sachs Dynamic Municipal Income Fund) $100,000",
+   "asset": "GAJPX (Goldman Sachs Dynamic Municipal Income Fund)",
    "idx": 15,
    "owner": "SELF",
    "tx_date": "2025-03-20",
@@ -164,7 +164,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "GGLPX (Goldman Sachs High Yield Municipal Fund) $100,000",
+   "asset": "GGLPX (Goldman Sachs High Yield Municipal Fund)",
    "idx": 16,
    "owner": "SELF",
    "tx_date": "2025-03-20",
@@ -202,7 +202,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "GAJPX (Goldman Sachs Dynamic Municipal Income Fund) $100,000",
+   "asset": "GAJPX (Goldman Sachs Dynamic Municipal Income Fund)",
    "idx": 20,
    "owner": "SELF",
    "tx_date": "2025-03-21",
@@ -211,7 +211,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "GGLPX (Goldman Sachs High Yield Municipal Fund) $100,000",
+   "asset": "GGLPX (Goldman Sachs High Yield Municipal Fund)",
    "idx": 21,
    "owner": "SELF",
    "tx_date": "2025-03-21",
@@ -249,7 +249,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "GAJPX (Goldman Sachs Dynamic Municipal Income Fund) $250,000",
+   "asset": "GAJPX (Goldman Sachs Dynamic Municipal Income Fund)",
    "idx": 25,
    "owner": "SELF",
    "tx_date": "2025-04-02",
@@ -258,7 +258,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "GGLPX (Goldman Sachs High Yield Municipal Fund) $100,000",
+   "asset": "GGLPX (Goldman Sachs High Yield Municipal Fund)",
    "idx": 26,
    "owner": "SELF",
    "tx_date": "2025-04-02",
@@ -296,7 +296,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "GAJPX (Goldman Sachs Dynamic Municipal Income Fund) $100,000",
+   "asset": "GAJPX (Goldman Sachs Dynamic Municipal Income Fund)",
    "idx": 30,
    "owner": "SELF",
    "tx_date": "2025-04-04",
@@ -305,7 +305,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "GGLPX (Goldman Sachs High Yield Municipal Fund) $100,000",
+   "asset": "GGLPX (Goldman Sachs High Yield Municipal Fund)",
    "idx": 31,
    "owner": "SELF",
    "tx_date": "2025-04-04",
@@ -343,7 +343,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "GAJPX (Goldman Sachs Dynamic Municipal Income Fund) $100,000",
+   "asset": "GAJPX (Goldman Sachs Dynamic Municipal Income Fund)",
    "idx": 35,
    "owner": "SELF",
    "tx_date": "2025-04-14",
@@ -352,7 +352,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "GGLPX (Goldman Sachs High Yield Municipal Fund) $100,000",
+   "asset": "GGLPX (Goldman Sachs High Yield Municipal Fund)",
    "idx": 36,
    "owner": "SELF",
    "tx_date": "2025-04-14",
@@ -390,7 +390,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "GAJPX (Goldman Sachs Dynamic Municipal Income Fund) $100,000",
+   "asset": "GAJPX (Goldman Sachs Dynamic Municipal Income Fund)",
    "idx": 40,
    "owner": "SELF",
    "tx_date": "2025-04-15",
@@ -399,7 +399,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "GGLPX (Goldman Sachs High Yield Municipal Fund) $100,000",
+   "asset": "GGLPX (Goldman Sachs High Yield Municipal Fund)",
    "idx": 41,
    "owner": "SELF",
    "tx_date": "2025-04-15",
@@ -437,7 +437,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "GAJPX (Goldman Sachs Dynamic Municipal Income Fund) $100,000",
+   "asset": "GAJPX (Goldman Sachs Dynamic Municipal Income Fund)",
    "idx": 45,
    "owner": "SELF",
    "tx_date": "2025-04-22",
@@ -446,7 +446,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "GGLPX (Goldman Sachs High Yield Municipal Fund) $100,000",
+   "asset": "GGLPX (Goldman Sachs High Yield Municipal Fund)",
    "idx": 46,
    "owner": "SELF",
    "tx_date": "2025-04-22",
@@ -679,7 +679,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "Schwab Value Advantage Money Fund Investor Class Shares (SWVXX) $5,000,000",
+   "asset": "Schwab Value Advantage Money Fund Investor Class Shares (SWVXX)",
    "asset_type": "ST",
    "idx": 70,
    "owner": "SELF",
@@ -699,7 +699,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "Schwab Value Advantage Money Fund Investor Class Shares (SWVXX) $5,000,000",
+   "asset": "Schwab Value Advantage Money Fund Investor Class Shares (SWVXX)",
    "asset_type": "ST",
    "idx": 72,
    "owner": "SELF",
@@ -710,7 +710,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "Schwab Value Advantage Money Fund Investor Class Shares (SWVXX) $5,000,000",
+   "asset": "Schwab Value Advantage Money Fund Investor Class Shares (SWVXX)",
    "asset_type": "ST",
    "idx": 73,
    "owner": "SELF",

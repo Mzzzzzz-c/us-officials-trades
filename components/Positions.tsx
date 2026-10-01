@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { LivePrice } from "./client/Quotes";
+import { Logo } from "./media";
 import type { Position, PositionStep } from "@/lib/data";
 import { shareRange } from "@/lib/format";
 import { dict, type Locale } from "@/lib/i18n";
@@ -13,28 +15,30 @@ const ACT_TONE: Record<string, string> = {
   other: "bg-surface-2 text-muted",
 };
 
-export default function Positions({ locale, positions, names }: { locale: Locale; positions: Position[]; names: Record<string, string> }) {
+export default function Positions({ locale, positions, names, kinds = {}, px = {}, pc = {} }: { locale: Locale; positions: Position[]; names: Record<string, string>; kinds?: Record<string, 1 | 2 | 3>; px?: Record<string, number>; pc?: Record<string, number> }) {
   const t = dict(locale);
   const L = (p: string) => `/${locale}${p}`;
   const list = [...positions].sort((a, b) => Number(b.held) - Number(a.held) || (a.last < b.last ? 1 : -1));
   const head = list.slice(0, 24);
   const rest = list.slice(24);
   const render = (p: Position) => (
-    <div key={p.sym} className="card p-3">
-      <div className="flex flex-wrap items-baseline justify-between gap-2">
-        <div className="min-w-0">
-          <Link prefetch={false} href={L(`/ticker/${p.sym}`)} className="font-semibold link">
-            {p.sym}
-          </Link>
-          <span className="ml-2 text-xs text-faint truncate">{names[p.sym] ?? ""}</span>
-        </div>
-        <div className="flex gap-1.5 text-[11px]">
+    <div key={p.sym} className="card p-4">
+      <div className="flex items-center gap-3">
+        <Link prefetch={false} href={L(`/ticker/${p.sym}`)} className="flex min-w-0 flex-1 items-center gap-3">
+          <Logo sym={p.sym} kind={kinds[p.sym]} size={36} />
+          <span className="min-w-0">
+            <span className="block font-semibold">{p.sym}</span>
+            <span className="block truncate text-xs text-muted">{names[p.sym] ?? ""}</span>
+          </span>
+        </Link>
+        {p.held ? <LivePrice sym={p.sym} fallback={px[p.sym]} fallbackPrev={pc[p.sym]} /> : null}
+      </div>
+      <div className="mt-2 flex flex-wrap gap-1.5 text-[11px]">
           {p.flags.includes("held_before_data") && <span className="rounded bg-warn-soft px-1.5 py-0.5 text-warn">{t.member.heldBefore}</span>}
           {p.flags.includes("unknown_size") && <span className="rounded bg-surface-2 px-1.5 py-0.5 text-muted">{t.member.unknownSize}</span>}
           <span className={`rounded px-1.5 py-0.5 ${p.held ? "bg-accent-soft text-accent" : "bg-surface-2 text-muted"}`}>
             {p.held ? t.member.stillHeld : t.member.closed}
           </span>
-        </div>
       </div>
       <Steps locale={locale} steps={p.steps} />
     </div>

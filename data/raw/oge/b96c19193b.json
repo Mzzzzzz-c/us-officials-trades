@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Lander, Eric S",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Director",
@@ -14,7 +14,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "CINCINNATI OH WTR SYS REV 5.000% 12/01/2023 $250,000",
+   "asset": "CINCINNATI OH WTR SYS REV 5.000% 12/01/2023",
    "asset_type": "GS",
    "idx": 0,
    "owner": "SELF",
@@ -34,7 +34,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "HAMPTON ROADS VA SANTN 0.030% 08/01/2046 $100,000",
+   "asset": "HAMPTON ROADS VA SANTN 0.030% 08/01/2046",
    "asset_type": "GS",
    "idx": 2,
    "owner": "SELF",

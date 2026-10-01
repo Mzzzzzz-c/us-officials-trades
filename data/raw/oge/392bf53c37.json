@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Lander, Eric S",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Director",
@@ -1670,7 +1670,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "TEXAS ST GO VET SER D WKLY 0.040% 06/01/2045 $250,000",
+   "asset": "TEXAS ST GO VET SER D WKLY 0.040% 06/01/2045",
    "asset_type": "GS",
    "idx": 184,
    "owner": "SELF",

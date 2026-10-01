@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Remy, Donald",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Deputy Secretary",
@@ -14,7 +14,7 @@
   {
    "amount_max": 500000,
    "amount_min": 250001,
-   "asset": "Divestiture and Resignation from Omega Investment Partners, LLC $500,000",
+   "asset": "Divestiture and Resignation from Omega Investment Partners, LLC",
    "idx": 0,
    "owner": "SELF",
    "tx_date": "2021-10-13",

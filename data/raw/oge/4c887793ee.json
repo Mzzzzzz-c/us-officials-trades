@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "McDonough, Denis R",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Secretary",
@@ -14,7 +14,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "Divestiture of Stock Options in Catalyte per Ethics Agreement $250,000",
+   "asset": "Divestiture of Stock Options in Catalyte per Ethics Agreement",
    "idx": 0,
    "owner": "SELF",
    "tx_date": "2021-05-07",

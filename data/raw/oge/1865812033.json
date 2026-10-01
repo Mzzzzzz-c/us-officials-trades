@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Abizaid, Christine",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Director, National Counterterrorism Center",
@@ -14,7 +14,7 @@
   {
    "amount_max": 1000000,
    "amount_min": 500001,
-   "asset": "Schwab Government Money Fund Sweep Class Shares (SWGXX) $1,000,000",
+   "asset": "Schwab Government Money Fund Sweep Class Shares (SWGXX)",
    "asset_type": "ST",
    "idx": 0,
    "owner": "SELF",
@@ -47,7 +47,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "USAA International Fund Institutional Class Shares (UIIFX) $250,000",
+   "asset": "USAA International Fund Institutional Class Shares (UIIFX)",
    "asset_type": "ST",
    "idx": 3,
    "owner": "SELF",
@@ -58,7 +58,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "USAAEmerging Markets Fund Institutional Class Shares (UIEMX) $100,000",
+   "asset": "USAAEmerging Markets Fund Institutional Class Shares (UIEMX)",
    "asset_type": "ST",
    "idx": 4,
    "owner": "SELF",
@@ -69,7 +69,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "USAA Income Stock Fund Institutional Class Shares (UIISX) $250,000",
+   "asset": "USAA Income Stock Fund Institutional Class Shares (UIISX)",
    "asset_type": "ST",
    "idx": 5,
    "owner": "SELF",
@@ -80,7 +80,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "USAA Growth Fund Institutional Class Shares (UIGRX) $250,000",
+   "asset": "USAA Growth Fund Institutional Class Shares (UIGRX)",
    "asset_type": "ST",
    "idx": 6,
    "owner": "SELF",

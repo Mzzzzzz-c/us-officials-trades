@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Kupor, Scott A",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Director",
@@ -58,7 +58,7 @@
   {
    "amount_max": null,
    "amount_min": null,
-   "asset": "Robinhood Markets Inc. Class A Common Stock See Endnote (HOOD) $250,000",
+   "asset": "Robinhood Markets Inc. Class A Common Stock See Endnote (HOOD)",
    "asset_type": "ST",
    "idx": 4,
    "owner": "SELF",
@@ -69,7 +69,7 @@
   {
    "amount_max": null,
    "amount_min": null,
-   "asset": "Robinhood Markets Inc. Class A Common Stock See Endnote (HOOD) $1,000,000",
+   "asset": "Robinhood Markets Inc. Class A Common Stock See Endnote (HOOD)",
    "asset_type": "ST",
    "idx": 5,
    "owner": "SELF",
@@ -80,7 +80,7 @@
   {
    "amount_max": null,
    "amount_min": null,
-   "asset": "Robinhood Markets Inc. Class A Common Stock See Endnote (HOOD) $250,000",
+   "asset": "Robinhood Markets Inc. Class A Common Stock See Endnote (HOOD)",
    "asset_type": "ST",
    "idx": 6,
    "owner": "SELF",
@@ -91,7 +91,7 @@
   {
    "amount_max": null,
    "amount_min": null,
-   "asset": "Robinhood Markets Inc. Class A Common Stock See Endnote (HOOD) $1,000,000",
+   "asset": "Robinhood Markets Inc. Class A Common Stock See Endnote (HOOD)",
    "asset_type": "ST",
    "idx": 7,
    "owner": "SELF",
@@ -102,7 +102,7 @@
   {
    "amount_max": null,
    "amount_min": null,
-   "asset": "Robinhood Markets Inc. Class A Common Stock See Endnote (HOOD) $1,000,000",
+   "asset": "Robinhood Markets Inc. Class A Common Stock See Endnote (HOOD)",
    "asset_type": "ST",
    "idx": 8,
    "owner": "SELF",

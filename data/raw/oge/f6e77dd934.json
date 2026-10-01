@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Bedford, Bryan",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Administrator, Federal Aviation Administration",
@@ -14,7 +14,7 @@
   {
    "amount_max": 25000000,
    "amount_min": 5000001,
-   "asset": "JPMorgan Liquid Assets Money Market Fund Institutional Shares (IJLXX) $25,000,000",
+   "asset": "JPMorgan Liquid Assets Money Market Fund Institutional Shares (IJLXX)",
    "asset_type": "ST",
    "idx": 0,
    "owner": "SELF",
@@ -25,7 +25,7 @@
   {
    "amount_max": 25000000,
    "amount_min": 5000001,
-   "asset": "JPMorgan Equity Premium Income ETF JPMorgan Equity Premium Income ETF (JEPI) $25,000,000",
+   "asset": "JPMorgan Equity Premium Income ETF JPMorgan Equity Premium Income ETF (JEPI)",
    "asset_type": "EF",
    "idx": 1,
    "owner": "SELF",
@@ -36,7 +36,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "JPMorgan Nasdaq Equity Premium Income ETF (JEPQ) $5,000,000",
+   "asset": "JPMorgan Nasdaq Equity Premium Income ETF (JEPQ)",
    "asset_type": "EF",
    "idx": 2,
    "owner": "SELF",
@@ -135,7 +135,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Roche Holdings AG Basel ADR Common Stock (RHHBY) $100,000",
+   "asset": "Roche Holdings AG Basel ADR Common Stock (RHHBY)",
    "asset_type": "ST",
    "idx": 11,
    "owner": "SELF",
@@ -443,7 +443,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Communication Services Select Sector SPDR Fund (XLC) $100,000",
+   "asset": "Communication Services Select Sector SPDR Fund (XLC)",
    "asset_type": "EF",
    "idx": 39,
    "owner": "SELF",
@@ -509,7 +509,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "CrowdStrike Holdings Inc. Class A Common Stock (CRWD) $100,000",
+   "asset": "CrowdStrike Holdings Inc. Class A Common Stock (CRWD)",
    "asset_type": "ST",
    "idx": 45,
    "owner": "SELF",

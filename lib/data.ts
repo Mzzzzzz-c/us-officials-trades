@@ -36,6 +36,8 @@ export interface Trade {
   doc?: string;
   src: string;
   tx?: string;
+  /** the trade date as written when it is impossible (after the filing date): a typo in the report */
+  txr?: string;
   fil?: string;
   nd?: string;
   own: "SELF" | "SP" | "JT" | "DC";
@@ -54,6 +56,7 @@ export interface Trade {
   ent?: Entry;
   h?: Record<string, [number | null, number | null, number | null, number | null]>;
   act?: string;
+  ov?: string; // committee id / "agency" whose remit covers this company
 }
 
 export interface MemberRow {
@@ -78,6 +81,8 @@ export interface MemberRow {
   vmax: number;
   late: number;
   scanned: number;
+  ov?: number; // trades in industries the official oversees
+  cagr?: number; // copy-this-official backtest, annualised
 }
 
 export interface Committee {
@@ -150,6 +155,10 @@ export interface MemberPage {
   trades: Trade[];
   positions: Position[];
   scanned: ScannedFiling[];
+  nav?: Pick<Strategy, "n" | "from" | "to" | "total" | "bench" | "cagr" | "bcagr" | "mdd" | "pts" | "years"> | null;
+  /** opt: share of option trades, fam: share in spouse/joint/child accounts, med: median trade size (band midpoint),
+   *  hold: median days from opening to closing a position (nhold round trips), top: most traded stocks */
+  style?: { opt: number; fam: number; med: number | null; hold: number | null; nhold: number; top: [string, number][] } | null;
 }
 
 export interface TickerRow {
@@ -192,6 +201,7 @@ export interface TickerPage {
   trades: Trade[];
   members: { id: string; nb: number; ns: number; vmin: number; vmax: number; held?: boolean }[];
   investors: { id: string; sh: number; val: number; w: number; chg?: string | null; period: string }[];
+  stats?: { x90?: number; xo90?: number; win?: number; nx?: number; b90: number; s90: number; b365: number; s365: number };
 }
 
 export interface InvestorProfile {
@@ -236,9 +246,102 @@ export interface Stats {
   window: number;
   since: string;
   last30: { trades: number; members: number; buys: number; sells: number; late: number };
-  top_bought: { sym: string; nm: number }[];
-  top_sold: { sym: string; nm: number }[];
+  top_bought: { sym: string; nm: number; ms?: string[] }[];
+  top_sold: { sym: string; nm: number; ms?: string[] }[];
   active: { id: string; n: number }[];
+}
+
+export interface MediaManifest {
+  people: Record<string, 1>;
+  logos: Record<string, 1 | 2 | 3>;
+  wiki: Record<string, string>;
+  /** Wikimedia Commons file behind a portrait (its page names the author and licence) */
+  files?: Record<string, string>;
+}
+export interface MediaSubset {
+  p: Record<string, 1>;
+  l: Record<string, 1 | 2 | 3>;
+}
+
+export interface Strategy {
+  n: number;
+  from: string;
+  to: string;
+  total: number;
+  bench: number;
+  /** null when there is less than a year of history (annualising would exaggerate) */
+  cagr: number | null;
+  bcagr: number | null;
+  mdd: number;
+  bmdd?: number;
+  x?: number;
+  hit?: number;
+  nx?: number;
+  vol?: number | null;
+  years: { y: string; s: number; b: number }[];
+  pts: [string, number, number][];
+}
+export interface TradeCard {
+  id: string;
+  m: string;
+  sym?: string;
+  tx?: string;
+  fil?: string;
+  type: TradeType;
+  amin?: number;
+  amax?: number;
+  x?: number;
+  ov?: string;
+  act?: string;
+  /** copier's entry price (first open after the report became public) */
+  fol?: number;
+  /** the official's copy-trade record when this card was made: [n, mean 90-day excess, win rate] */
+  rec?: [number, number, number];
+  /** part of a cluster buy */
+  cl?: 1;
+}
+
+export interface LabRow {
+  k: string;
+  hold: number;
+  n: number;
+  nx?: number;
+  from: string;
+  to: string;
+  cagr: number | null;
+  bcagr: number | null;
+  total: number;
+  bench: number;
+  mdd: number;
+  x?: number;
+  hit?: number;
+  pts: [string, number, number][];
+}
+export interface Flow {
+  sec: string;
+  buy: number;
+  sell: number;
+  nb: number;
+  ns: number;
+}
+export interface Insights {
+  generated: string;
+  hold: number;
+  strategies: Record<string, Strategy>;
+  leaderboard: { id: string; n: number; x90: number; win: number; x365: number | null; cagr: number | null; bcagr: number | null; spark: number[] }[];
+  laggards: Insights["leaderboard"];
+  activity: [string, number, number, number, number][];
+  flows90: Flow[];
+  flows365: Flow[];
+  flows90_exec: Flow[];
+  clusters: { sym: string; nm: number; members: string[]; from: string; to: string; pub: string; fol: number | null; vol: number }[];
+  oversight: { count: [string, number][]; recent: TradeCard[]; total: number };
+  best: TradeCard[];
+  worst: TradeCard[];
+  delay: { buckets: [number, number | null, number][]; median: number | null; late: [string, number][]; by_year: [string, number, number][] };
+  party: Record<string, { members: number; trades: number; buys: number; sells: number; x90: number | null; win: number | null; sectors: [string, number][]; cagr: number | null; pts: [string, number, number][] }>;
+  lab?: LabRow[];
+  signals?: { since: string; proven: TradeCard[]; big: TradeCard[]; cluster: TradeCard[]; ov: TradeCard[] };
 }
 
 // ---------------------------------------------------------------- readers
@@ -271,7 +374,20 @@ export const getTickers = () => read<TickerRow[]>("tickers.json") ?? [];
 export const getInvestors = () => read<InvestorRow[]>("investors.json") ?? [];
 export const getRecent = () => read<Trade[]>("recent.json") ?? [];
 export const getUnparsed = () => read<ScannedFiling[]>("unparsed.json") ?? [];
-export const getLatestPrices = () => read<{ asof: string; px: Record<string, number> }>("latest-prices.json") ?? { asof: "", px: {} };
+export const getLatestPrices = () =>
+  read<{ asof: string; px: Record<string, number>; pc?: Record<string, number> }>("latest-prices.json") ?? { asof: "", px: {}, pc: {} };
+export const getInsights = () => read<Insights>("insights.json");
+export const getMedia = () => read<MediaManifest>("media.json") ?? { people: {}, logos: {}, wiki: {} };
+
+/** Which portraits and logos exist, for passing to client components. */
+export function mediaFor(ids: Iterable<string>, syms: Iterable<string>): MediaSubset {
+  const m = getMedia();
+  const p: Record<string, 1> = {};
+  const l: Record<string, 1 | 2 | 3> = {};
+  for (const id of ids) if (m.people[id]) p[id] = 1;
+  for (const s of syms) if (s && m.logos[s]) l[s] = m.logos[s];
+  return { p, l };
+}
 
 export const getMember = (id: string) => (safe(id) ? read<MemberPage>(`member/${id}.json`) : null);
 export const getTicker = (sym: string) => (safe(sym) ? read<TickerPage>(`ticker/${sym}.json`) : null);

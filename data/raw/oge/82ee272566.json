@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Mody, Arjun",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Deputy Commissioner",
@@ -387,7 +387,7 @@
   {
    "amount_max": 15000,
    "amount_min": 1001,
-   "asset": "The Bank of New York Mellon Corporation (BK) 36 BlackRock, Inc. (BLK) 01/30/2026 No $1,001 - $15,000",
+   "asset": "The Bank of New York Mellon Corporation (BK) 36 BlackRock, Inc. (BLK) 01/30/2026 No $1,001 -",
    "asset_type": "ST",
    "idx": 34,
    "owner": "SELF",
@@ -508,7 +508,7 @@
   {
    "amount_max": 15000,
    "amount_min": 1001,
-   "asset": "Charter Communications, Inc. (CHTR) 48 Cigna Corp. (CI) Sale No $1,001 - $15,000",
+   "asset": "Charter Communications, Inc. (CHTR) 48 Cigna Corp. (CI) Sale No $1,001 -",
    "asset_type": "ST",
    "idx": 45,
    "owner": "SELF",
@@ -1619,7 +1619,7 @@
   {
    "amount_max": 15000,
    "amount_min": 1001,
-   "asset": "Newmont Corp. (NEM) 150 Netflix, Inc. (NFLX) Sale No $1,001 - $15,000",
+   "asset": "Newmont Corp. (NEM) 150 Netflix, Inc. (NFLX) Sale No $1,001 -",
    "asset_type": "ST",
    "idx": 146,
    "owner": "SELF",
@@ -1751,7 +1751,7 @@
   {
    "amount_max": 15000,
    "amount_min": 1001,
-   "asset": "Otis Worldwide Corporation Common Stock (OTIS) 163 Paycom Software, Inc. (PAYC) Sale No $1,001 - $15,000",
+   "asset": "Otis Worldwide Corporation Common Stock (OTIS) 163 Paycom Software, Inc. (PAYC) Sale No $1,001 -",
    "asset_type": "ST",
    "idx": 158,
    "owner": "SELF",
@@ -1828,7 +1828,7 @@
   {
    "amount_max": 15000,
    "amount_min": 1001,
-   "asset": "PPL Corp. (PPL) 171 Primo Brands Corp (PRMB) Sale No $1,001 - $15,000",
+   "asset": "PPL Corp. (PPL) 171 Primo Brands Corp (PRMB) Sale No $1,001 -",
    "asset_type": "ST",
    "idx": 165,
    "owner": "SELF",
@@ -2431,7 +2431,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Vanguard Information Technology Index Fund ETF Class Shares (VGT) $100,000",
+   "asset": "Vanguard Information Technology Index Fund ETF Class Shares (VGT)",
    "asset_type": "EF",
    "idx": 220,
    "owner": "SELF",
@@ -2519,7 +2519,7 @@
   {
    "amount_max": 500000,
    "amount_min": 250001,
-   "asset": "Vanguard Total Stock Market Index Fund ETF Class Shares (VTI) $500,000",
+   "asset": "Vanguard Total Stock Market Index Fund ETF Class Shares (VTI)",
    "asset_type": "EF",
    "idx": 228,
    "owner": "SELF",
@@ -2530,7 +2530,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "Vanguard Total Stock Market Index Fund ETF Class Shares (VTI) $250,000",
+   "asset": "Vanguard Total Stock Market Index Fund ETF Class Shares (VTI)",
    "asset_type": "EF",
    "idx": 229,
    "owner": "SELF",
@@ -2541,7 +2541,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "Vanguard Total Stock Market Index Fund ETF Class Shares (VTI) $250,000",
+   "asset": "Vanguard Total Stock Market Index Fund ETF Class Shares (VTI)",
    "asset_type": "EF",
    "idx": 230,
    "owner": "SELF",
@@ -2552,7 +2552,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "Vanguard Total Stock Market Index Fund ETF Class Shares (VTI) $250,000",
+   "asset": "Vanguard Total Stock Market Index Fund ETF Class Shares (VTI)",
    "asset_type": "EF",
    "idx": 231,
    "owner": "SELF",
@@ -2607,7 +2607,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Vanguard Total International Stock Index Fund ETF Shares (VXUS) $100,000",
+   "asset": "Vanguard Total International Stock Index Fund ETF Shares (VXUS)",
    "asset_type": "EF",
    "idx": 236,
    "owner": "SELF",
@@ -2904,7 +2904,7 @@
   {
    "amount_max": 500000,
    "amount_min": 250001,
-   "asset": "Vanguard Total Stock Market Index Fund ETF Class Shares (VTI) $500,000",
+   "asset": "Vanguard Total Stock Market Index Fund ETF Class Shares (VTI)",
    "asset_type": "EF",
    "idx": 263,
    "owner": "SELF",

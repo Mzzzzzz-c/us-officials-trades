@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Miran, Stephen I",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Member & Chairman",
@@ -527,7 +527,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "VanEck Vectors Short High-Yield Municipal Index ETF (SHYD) $250,000",
+   "asset": "VanEck Vectors Short High-Yield Municipal Index ETF (SHYD)",
    "asset_type": "EF",
    "idx": 57,
    "owner": "SELF",
@@ -579,7 +579,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "VanEck Vectors Short High-Yield Municipal Index ETF (SHYD) $250,000",
+   "asset": "VanEck Vectors Short High-Yield Municipal Index ETF (SHYD)",
    "asset_type": "EF",
    "idx": 62,
    "owner": "SELF",

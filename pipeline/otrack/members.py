@@ -80,6 +80,7 @@ def refresh(start_year: int) -> None:
             "last": n.get("last", ""),
             "nick": n.get("nickname"),
             "full": n.get("official_full") or f"{n.get('first', '')} {n.get('last', '')}",
+            "wiki": p["id"].get("wikipedia"),
             "terms": [
                 {k: t.get(k) for k in ("type", "start", "end", "state", "district", "party")} for t in p["terms"]
             ],

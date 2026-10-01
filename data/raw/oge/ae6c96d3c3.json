@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Power, Samantha",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Administrator",
@@ -25,7 +25,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "The Social+Capital Partnership GP III, L.P. Partnership Percentage $5,000,000",
+   "asset": "The Social+Capital Partnership GP III, L.P. Partnership Percentage",
    "idx": 1,
    "owner": "SELF",
    "tx_date": "2021-06-28",

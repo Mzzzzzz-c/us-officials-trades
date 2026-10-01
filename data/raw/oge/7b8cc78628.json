@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Inglis, John C",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Director",
@@ -14,7 +14,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "Schwab Treasury Inflation Protected Securities Index Fund (SWRSX) $5,000,000",
+   "asset": "Schwab Treasury Inflation Protected Securities Index Fund (SWRSX)",
    "asset_type": "GS",
    "idx": 0,
    "owner": "SELF",

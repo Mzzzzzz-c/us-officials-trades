@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Inglis, John C",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Director",
@@ -25,7 +25,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "SPDRNuveen Bloomberg Barclays Short Term Municipal Bond ETF (SHM) $250,000",
+   "asset": "SPDRNuveen Bloomberg Barclays Short Term Municipal Bond ETF (SHM)",
    "asset_type": "EF",
    "idx": 1,
    "owner": "SELF",
@@ -80,7 +80,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "iShares Edge MSCI USA Momentum Factor ETF (MTUM) $250,000",
+   "asset": "iShares Edge MSCI USA Momentum Factor ETF (MTUM)",
    "asset_type": "EF",
    "idx": 6,
    "owner": "SELF",
@@ -124,7 +124,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "iShares Edge MSCI Intl Momentum Factor ETF (IMTM) $100,000",
+   "asset": "iShares Edge MSCI Intl Momentum Factor ETF (IMTM)",
    "asset_type": "EF",
    "idx": 10,
    "owner": "SELF",
@@ -135,7 +135,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "Vanguard International High Dividend Yield Index Fund ETF Shares (VYMI) $250,000",
+   "asset": "Vanguard International High Dividend Yield Index Fund ETF Shares (VYMI)",
    "asset_type": "EF",
    "idx": 11,
    "owner": "SELF",
@@ -146,7 +146,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "US Large Company Portfolio Institutional Class Shares (DFUSX) $250,000",
+   "asset": "US Large Company Portfolio Institutional Class Shares (DFUSX)",
    "asset_type": "ST",
    "idx": 12,
    "owner": "SELF",
@@ -157,7 +157,7 @@
   {
    "amount_max": 500000,
    "amount_min": 250001,
-   "asset": "Vanguard Limited-Term Tax-Exempt Fund Admiral Shares (VMLUX) $500,000",
+   "asset": "Vanguard Limited-Term Tax-Exempt Fund Admiral Shares (VMLUX)",
    "asset_type": "EF",
    "idx": 13,
    "owner": "SELF",
@@ -168,7 +168,7 @@
   {
    "amount_max": 500000,
    "amount_min": 250001,
-   "asset": "Vanguard Intermediate-Term Tax-Exempt Fund Admiral Shares (VWIUX) $500,000",
+   "asset": "Vanguard Intermediate-Term Tax-Exempt Fund Admiral Shares (VWIUX)",
    "asset_type": "EF",
    "idx": 14,
    "owner": "SELF",

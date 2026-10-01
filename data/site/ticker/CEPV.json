@@ -1,1 +1,1 @@
-{"exch":"NasdaqGM","investors":[{"chg":"same","id":"soros","period":"2026-06-30","sh":100000,"val":1031250,"w":0.00013}],"members":[],"name":"Cantor Equity Partners V, Inc.","sec":"fin","sic":"Blank Checks","sym":"CEPV","trades":[],"type":"EQUITY","zh":null}
+{"exch":"NasdaqGM","investors":[{"chg":"add","id":"soros","period":"2026-06-30","sh":100000,"val":1031250,"w":0.00013}],"members":[],"name":"Cantor Equity Partners V, Inc.","sec":"fin","sic":"Blank Checks","stats":{"b365":0,"b90":0,"s365":0,"s90":0},"sym":"CEPV","trades":[],"type":"EQUITY","zh":null}

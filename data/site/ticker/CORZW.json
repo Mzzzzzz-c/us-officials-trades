@@ -1,1 +1,1 @@
-{"exch":null,"investors":[{"chg":"add","id":"soros","period":"2026-06-30","sh":2235000,"val":42018000,"w":0.00516}],"members":[],"name":"Core Scientific, Inc./tx","sec":"fin","sic":"Finance Services","sym":"CORZW","trades":[],"type":null,"zh":null}
+{"exch":"NasdaqGS","investors":[{"chg":"add","id":"soros","period":"2026-06-30","sh":2235000,"val":42018000,"w":0.00516}],"members":[],"name":"Core Scientific, Inc.","sec":"fin","sic":"Finance Services","stats":{"b365":0,"b90":0,"s365":0,"s90":0},"sym":"CORZW","trades":[],"type":"EQUITY","zh":null}

@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Kratsios, Michael J",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Director",
@@ -25,7 +25,7 @@
   {
    "amount_max": 500000,
    "amount_min": 250001,
-   "asset": "iShares Core S&P Total US Stock Market ETF (ITOT) $500,000",
+   "asset": "iShares Core S&P Total US Stock Market ETF (ITOT)",
    "asset_type": "EF",
    "idx": 1,
    "owner": "SELF",
@@ -36,7 +36,7 @@
   {
    "amount_max": 500000,
    "amount_min": 250001,
-   "asset": "Vanguard Total Stock Market Index Fund ETF Class Shares (VTI) $500,000",
+   "asset": "Vanguard Total Stock Market Index Fund ETF Class Shares (VTI)",
    "asset_type": "EF",
    "idx": 2,
    "owner": "SELF",

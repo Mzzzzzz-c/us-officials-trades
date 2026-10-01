@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Trump, Donald J",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "paper",
  "title": "President",
@@ -434,8 +434,8 @@
    "type": "P"
   },
   {
-   "amount_max": 50000000,
-   "amount_min": 25000001,
+   "amount_max": null,
+   "amount_min": null,
    "asset": "eo US BANCORP TIER I PERP GLBL 3.7000% I",
    "idx": 45,
    "late_notice": true,
@@ -484,7 +484,7 @@
   {
    "amount_max": null,
    "amount_min": null,
-   "asset": "PAR VALUE OF, AIR LEASE CORP TIER I PERP G 4.6500% 12/31/49 IP<m:huo 5/13/2025 ... $100,001 • $250,000",
+   "asset": "PAR VALUE OF, AIR LEASE CORP TIER I PERP G 4.6500% 12/31/49 IP<m:huo 5/13/2025 ... $100,001 •",
    "idx": 50,
    "owner": "SELF",
    "tx_date": "2025-06-05",
@@ -493,7 +493,7 @@
   {
    "amount_max": null,
    "amount_min": null,
-   "asset": "PAR VALUE OF, AMERICAN EXPRESS CO ALT TIER 3.5500% lourehuo 5/13/2025 -· $50 001 -$100,000",
+   "asset": "PAR VALUE OF, AMERICAN EXPRESS CO ALT TIER 3.5500% lourehuo 5/13/2025 -· $50 001 -",
    "idx": 51,
    "owner": "SELF",
    "tx_date": "2025-10-01",

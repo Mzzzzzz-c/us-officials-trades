@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Bisignano, Frank J",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Commissioner",
@@ -80,7 +80,7 @@
   {
    "amount_max": 5000000,
    "amount_min": 1000001,
-   "asset": "BrandywineGLOBAL - HIGH YIELD FUND Class A (BGHAX) $5,000,000",
+   "asset": "BrandywineGLOBAL - HIGH YIELD FUND Class A (BGHAX)",
    "asset_type": "ST",
    "idx": 6,
    "owner": "SELF",
@@ -102,7 +102,7 @@
   {
    "amount_max": 25000000,
    "amount_min": 5000001,
-   "asset": "anguard Tax-Exempt Bond Index Fund ETF Shares (VTEB) $25,000,000",
+   "asset": "anguard Tax-Exempt Bond Index Fund ETF Shares (VTEB)",
    "asset_type": "EF",
    "idx": 8,
    "owner": "SELF",
@@ -113,7 +113,7 @@
   {
    "amount_max": 1000000,
    "amount_min": 500001,
-   "asset": "iShares 0-5 Year High Yield Corporate Bond ETF (SHYG) $1,000,000",
+   "asset": "iShares 0-5 Year High Yield Corporate Bond ETF (SHYG)",
    "asset_type": "EF",
    "idx": 9,
    "owner": "SELF",

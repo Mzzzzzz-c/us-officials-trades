@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Isaacman, Jared",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Administrator",
@@ -14,7 +14,7 @@
   {
    "amount_max": 25000000,
    "amount_min": 5000001,
-   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR) $25,000,000",
+   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR)",
    "asset_type": "ST",
    "idx": 0,
    "owner": "SELF",
@@ -25,7 +25,7 @@
   {
    "amount_max": 25000000,
    "amount_min": 5000001,
-   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR) $25,000,000",
+   "asset": "Shift4 Payments Inc. Class A Common Stock (FOUR)",
    "asset_type": "ST",
    "idx": 1,
    "owner": "SELF",

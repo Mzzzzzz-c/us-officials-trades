@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Landau, Christopher",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Deputy Secretary",
@@ -47,7 +47,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Municipal Total Return Managed Accounts Portfolio Common Shares (NMTRX) $100,000",
+   "asset": "Municipal Total Return Managed Accounts Portfolio Common Shares (NMTRX)",
    "asset_type": "ST",
    "idx": 3,
    "owner": "SELF",
@@ -79,7 +79,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Meta Platforms Inc. Class A Common Stock (META) $100,000",
+   "asset": "Meta Platforms Inc. Class A Common Stock (META)",
    "asset_type": "ST",
    "idx": 6,
    "owner": "SELF",
@@ -130,7 +130,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "Royalty Pharma plc Class A Ordinary Shares (RPRX) $250,000",
+   "asset": "Royalty Pharma plc Class A Ordinary Shares (RPRX)",
    "asset_type": "ST",
    "idx": 11,
    "owner": "SELF",
@@ -655,7 +655,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Taiwan Semiconductor Manufacturing Company Limited (TSM) $100,000",
+   "asset": "Taiwan Semiconductor Manufacturing Company Limited (TSM)",
    "asset_type": "ST",
    "idx": 59,
    "owner": "SELF",
@@ -776,7 +776,7 @@
   {
    "amount_max": 500000,
    "amount_min": 250001,
-   "asset": "Westinghouse Air Brake Technologies Corporation (WAB) $500,000",
+   "asset": "Westinghouse Air Brake Technologies Corporation (WAB)",
    "asset_type": "ST",
    "idx": 70,
    "owner": "SELF",
@@ -809,7 +809,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "Fomento Económico Mexicano, S.A.B. de C.V. (FMX) $100,000",
+   "asset": "Fomento Económico Mexicano, S.A.B. de C.V. (FMX)",
    "asset_type": "ST",
    "idx": 73,
    "owner": "SELF",
@@ -895,7 +895,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "WELLS FARGO & COM 4.25% SER-DD VPF20250408094013390625 $250,000",
+   "asset": "WELLS FARGO & COM 4.25% SER-DD VPF20250408094013390625",
    "asset_type": "GS",
    "idx": 81,
    "owner": "SELF",
@@ -958,7 +958,7 @@
   {
    "amount_max": 100000,
    "amount_min": 50001,
-   "asset": "BUILDERS FIRSTSOURCE INC REGS RATE:BA2/BB- 4.250% DUE:2032-02-01 $100,000",
+   "asset": "BUILDERS FIRSTSOURCE INC REGS RATE:BA2/BB- 4.250% DUE:2032-02-01",
    "asset_type": "CS",
    "idx": 87,
    "owner": "SELF",

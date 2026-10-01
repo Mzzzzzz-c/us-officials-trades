@@ -6,7 +6,7 @@
  "kind": "278 Transaction",
  "name": "Miran, Stephen I",
  "ocr": false,
- "parser": 4,
+ "parser": 5,
  "status": "ok",
  "style": "integrity",
  "title": "Governor",
@@ -23,7 +23,7 @@
   {
    "amount_max": null,
    "amount_min": null,
-   "asset": "BBH Wealth Strategies, LLC - CLARKSTON See Endnote CAPITAL PARTNERS SMALL/MID CAP SERIES $250,000",
+   "asset": "BBH Wealth Strategies, LLC - CLARKSTON See Endnote CAPITAL PARTNERS SMALL/MID CAP SERIES",
    "idx": 1,
    "owner": "SELF",
    "tx_date": "2026-01-21",
@@ -32,7 +32,7 @@
   {
    "amount_max": null,
    "amount_min": null,
-   "asset": "BBH Wealth Strategies, LLC - CLARKSTON See Endnote CAPITAL PARTNERS SMALL/MID CAP SERIES $250,000",
+   "asset": "BBH Wealth Strategies, LLC - CLARKSTON See Endnote CAPITAL PARTNERS SMALL/MID CAP SERIES",
    "idx": 2,
    "owner": "SELF",
    "tx_date": "2026-01-30",
@@ -41,7 +41,7 @@
   {
    "amount_max": null,
    "amount_min": null,
-   "asset": "BBH Wealth Strategies, LLC - CLARKSTON See Endnote CAPITAL PARTNERS SMALL/MID CAP SERIES $250,000",
+   "asset": "BBH Wealth Strategies, LLC - CLARKSTON See Endnote CAPITAL PARTNERS SMALL/MID CAP SERIES",
    "idx": 3,
    "owner": "SELF",
    "tx_date": "2026-02-06",
@@ -50,7 +50,7 @@
   {
    "amount_max": null,
    "amount_min": null,
-   "asset": "BBH Wealth Strategies, LLC - CLARKSTON See Endnote CAPITAL PARTNERS SMALL/MID CAP SERIES $250,000",
+   "asset": "BBH Wealth Strategies, LLC - CLARKSTON See Endnote CAPITAL PARTNERS SMALL/MID CAP SERIES",
    "idx": 4,
    "owner": "SELF",
    "tx_date": "2026-02-20",
@@ -68,7 +68,7 @@
   {
    "amount_max": 250000,
    "amount_min": 100001,
-   "asset": "BBH Wealth Strategies, LLC - CLARKSTON CAPITAL PARTNERS SMALL/MID CAP SERIES $250,000",
+   "asset": "BBH Wealth Strategies, LLC - CLARKSTON CAPITAL PARTNERS SMALL/MID CAP SERIES",
    "idx": 6,
    "owner": "SELF",
    "tx_date": "2026-03-02",

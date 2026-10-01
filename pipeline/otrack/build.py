@@ -8,9 +8,9 @@ import re
 import shutil
 from collections import Counter, defaultdict
 
-from . import companies, estimate, executive, house, oge, performance, positions, prices, sec13f, senate
+from . import companies, estimate, executive, house, insights, media, oge, performance, positions, prices, sec13f, senate
 from .members import Directory
-from .util import CONFIG, SITE, days_between, load_yaml, norm_name, read_json, settings, today_iso, write_json
+from .util import CONFIG, REF, SITE, days_between, load_yaml, norm_name, read_json, settings, today_iso, write_json
 
 log = logging.getLogger(__name__)
 
@@ -86,6 +86,11 @@ def clean_asset(name: str | None) -> str | None:
     return f"{base} · {desc.group(1).strip()}" if desc else base
 
 
+# Tickers that companies have since changed: the new symbol carries the full price history
+# (and the old one may now belong to something else - "FB" is an ETF today).
+RENAMED = {"FB": "META", "ANTM": "ELV", "SQ": "XYZ", "UTX": "RTX", "CTL": "LUMN"}
+
+
 def _trade(mid: str, ch: str, doc: str, filed: str | None, url: str, t: dict) -> dict:
     tr = {
         "id": f"{mid}-{doc}-{t['idx']}",
@@ -97,7 +102,7 @@ def _trade(mid: str, ch: str, doc: str, filed: str | None, url: str, t: dict) ->
         "fil": filed,
         "own": t.get("owner", "SELF"),
         "asset": clean_asset(t.get("asset")),
-        "sym": t.get("ticker"),
+        "sym": RENAMED.get(t.get("ticker") or "", t.get("ticker")),
         "at": t.get("asset_type"),
         "type": t.get("type"),
         "amin": t.get("amount_min"),
@@ -120,6 +125,10 @@ def _trade(mid: str, ch: str, doc: str, filed: str | None, url: str, t: dict) ->
         n = house.reported_shares(desc)
         if n:
             tr["reported"] = {"shares": n}
+    if tr["tx"] and filed and tr["tx"] > filed:
+        # a typo in the filing (e.g. "3031" for "2021"): a trade cannot come after its report
+        tr["txr"] = tr["tx"]
+        tr["tx"] = None
     if tr["tx"] and filed:
         tr["delay"] = days_between(tr["tx"], filed)
     return tr
@@ -331,6 +340,12 @@ def export(trades, scanned, unknown, review, series, pos, directory: Directory, 
     for s in scanned:
         scanned_by_member[s["m"]].append(s)
 
+    # cross-cutting analysis (also flags trades in industries the official oversees)
+    spy = prices.load(cfg["benchmark"])
+    ins, extras = insights.build(trades, prof, series, spy, comp, companies.sector_of,
+                                 f"{cfg['start_year']}-01-01", today_iso())
+    write_json(tmp / "insights.json", ins)
+
     members_list = []
     for mid in sorted(mids):
         p = prof.get(mid)
@@ -353,9 +368,12 @@ def export(trades, scanned, unknown, review, series, pos, directory: Directory, 
             "lastf": max((t["fil"] for t in ts if t.get("fil")), default=None),
             "vmin": vmin, "vmax": vmax, "late": late,
             "scanned": len(scanned_by_member.get(mid, [])),
+            "ov": (extras.get(mid) or {}).get("ov"),
+            "cagr": ((extras.get(mid) or {}).get("nav") or {}).get("cagr"),
         }
         members_list.append({k: v for k, v in row.items() if v is not None})
         page = {
+            "nav": (extras.get(mid) or {}).get("nav"),
             "profile": {k: v for k, v in p.items() if v is not None},
             "summary": row,
             "perf": performance.summarize(ts, cfg["horizons"]),
@@ -366,6 +384,7 @@ def export(trades, scanned, unknown, review, series, pos, directory: Directory, 
                 "n": len(delays),
             },
             "trades": ts,
+            "style": _style(ts, pos_by_member.get(mid, [])),
             "positions": sorted(pos_by_member.get(mid, []), key=lambda x: x["last"], reverse=True),
             "scanned": sorted(scanned_by_member.get(mid, []), key=lambda s: s.get("fil") or "", reverse=True),
         }
@@ -402,6 +421,9 @@ def export(trades, scanned, unknown, review, series, pos, directory: Directory, 
     tick_list = []
     tickers_zh = load_yaml(CONFIG / "tickers_zh.yaml") or {}
     all_syms = set(by_sym) | set(inv_by_sym)
+    newest_tx = max((t["tx"] for t in trades if t.get("tx")), default=today_iso())
+    cut90 = (dt.date.fromisoformat(newest_tx) - dt.timedelta(days=90)).isoformat()
+    cut365 = (dt.date.fromisoformat(newest_tx) - dt.timedelta(days=365)).isoformat()
     for sym in sorted(all_syms):
         ts = by_sym.get(sym, [])
         s = series.get(sym)
@@ -433,6 +455,7 @@ def export(trades, scanned, unknown, review, series, pos, directory: Directory, 
         write_json(tmp / "ticker" / f"{sym}.json", {
             "sym": sym, "name": name, "zh": tickers_zh.get(sym), "sec": sec, "type": meta.get("type"), "exch": meta.get("exchange"),
             "sic": c.get("sicd"), "trades": ts, "members": members, "investors": inv_by_sym.get(sym, []),
+            "stats": _ticker_stats(ts, cut90, cut365),
         })
         if s:
             write_json(tmp / "series" / f"{sym}.json", {"w": weekly(s, f"{cfg['start_year']}-01-01")})
@@ -440,14 +463,18 @@ def export(trades, scanned, unknown, review, series, pos, directory: Directory, 
     write_json(tmp / "tickers.json", tick_list)
 
     # --- latest prices (the only file that changes every day)
-    px = {}
+    px, pc = {}, {}
     for sym, s in series.items():
         if s and s.rows:
             px[sym] = s.rows[-1][4]
+            if len(s.rows) > 1:
+                pc[sym] = s.rows[-2][4]
     spy = prices.load(cfg["benchmark"])
     px[cfg["benchmark"]] = spy.rows[-1][4]
     asof = spy.rows[-1][0]
-    write_json(tmp / "latest-prices.json", {"asof": asof, "px": px})
+    if len(spy.rows) > 1:
+        pc[cfg["benchmark"]] = spy.rows[-2][4]
+    write_json(tmp / "latest-prices.json", {"asof": asof, "px": px, "pc": pc})
 
     # --- recent filings (home page)
     newest = max((t["fil"] for t in trades if t.get("fil")), default=today_iso())
@@ -479,8 +506,8 @@ def export(trades, scanned, unknown, review, series, pos, directory: Directory, 
             "sells": sum(1 for t in last30 if t["type"] in ("SF", "SP", "S")),
             "late": sum(1 for t in last30 if (t.get("delay") or 0) > 45 and t["ch"] != "E"),
         },
-        "top_bought": [{"sym": k, "nm": len(v)} for k, v in sorted(buyers.items(), key=lambda kv: (-len(kv[1]), kv[0]))[:12]],
-        "top_sold": [{"sym": k, "nm": len(v)} for k, v in sorted(sellers.items(), key=lambda kv: (-len(kv[1]), kv[0]))[:12]],
+        "top_bought": [{"sym": k, "nm": len(v), "ms": sorted(v)[:8]} for k, v in sorted(buyers.items(), key=lambda kv: (-len(kv[1]), kv[0]))[:12]],
+        "top_sold": [{"sym": k, "nm": len(v), "ms": sorted(v)[:8]} for k, v in sorted(sellers.items(), key=lambda kv: (-len(kv[1]), kv[0]))[:12]],
         "active": [{"id": k, "n": v} for k, v in active.most_common(12)],
     })
 
@@ -507,9 +534,55 @@ def export(trades, scanned, unknown, review, series, pos, directory: Directory, 
     return meta
 
 
+def _style(ts: list[dict], pos: list[dict]) -> dict | None:
+    """How an official trades: options, family accounts, typical size, how long positions are held, favourite stocks."""
+    if not ts:
+        return None
+    n = len(ts)
+    mids = sorted(((t.get("amin") or 0) + (t.get("amax") or t.get("amin") or 0)) / 2 for t in ts if t.get("amin"))
+    own = Counter(t.get("own") or "SELF" for t in ts)
+    # holding periods: from opening a position to closing it out, for completed round trips
+    holds = []
+    for p in pos:
+        start = None
+        for st in p["steps"]:
+            if st["act"] == "open":
+                start = st["tx"]
+            elif st["act"] == "close" and start:
+                holds.append(days_between(start, st["tx"]))
+                start = None
+    top = Counter(t["sym"] for t in ts if t.get("sym") and not t.get("opt"))
+    out = {
+        "opt": round(sum(1 for t in ts if t.get("opt")) / n, 3),
+        "fam": round(1 - own.get("SELF", 0) / n, 3),
+        "med": round(mids[len(mids) // 2]) if mids else None,
+        "hold": round(sorted(holds)[len(holds) // 2]) if holds else None,
+        "nhold": len(holds),
+        "top": [[s, c] for s, c in top.most_common(8)],
+    }
+    return out
+
+
+def _ticker_stats(ts: list[dict], cut90: str, cut365: str) -> dict:
+    """How officials' buys of this stock went, and who is buying or selling it lately."""
+    buys = [t for t in ts if t["type"] == "P" and not t.get("opt")]
+    fol = [t["h"]["90"][1] - t["h"]["90"][3] for t in buys if "90" in t.get("h", {}) and t["h"]["90"][1] is not None]
+    off = [t["h"]["90"][0] - t["h"]["90"][2] for t in buys if "90" in t.get("h", {}) and t["h"]["90"][0] is not None]
+    out: dict = {}
+    if fol:
+        out.update(x90=round(sum(fol) / len(fol), 4), win=round(sum(1 for x in fol if x > 0) / len(fol), 3), nx=len(fol))
+    if off:
+        out["xo90"] = round(sum(off) / len(off), 4)
+    for key, cut in (("90", cut90), ("365", cut365)):
+        win = [t for t in ts if (t.get("tx") or "") >= cut and not t.get("opt")]
+        out["b" + key] = len({t["m"] for t in win if t["type"] == "P"})
+        out["s" + key] = len({t["m"] for t in win if t["type"] in ("SF", "SP", "S")})
+    return out
+
+
 def _card(t: dict) -> dict:
     """The fields the home-page table needs."""
-    keys = ("id", "m", "ch", "tx", "fil", "own", "asset", "sym", "type", "amin", "amax", "delay", "act", "opt")
+    keys = ("id", "m", "ch", "tx", "fil", "own", "asset", "sym", "type", "amin", "amax", "delay", "act", "opt", "ov")
     out = {k: t[k] for k in keys if t.get(k) is not None}
     est = t.get("est") or {}
     if est.get("d"):
@@ -581,4 +654,29 @@ def run(fetch: bool = True, limit: int | None = None, skip_prices: bool = False,
     series, pos = analyse(trades, cfg)
     guard_coverage(trades)
     report["meta"] = export(trades, scanned, unknown, review, series, pos, directory, cfg, with_investors=not skip_sec)
+    report["media"] = update_media(fetch)
     return report
+
+
+def update_media(fetch: bool = True) -> dict:
+    """Portraits and logos for everyone and everything on the site, then the manifest the pages read."""
+    rep = {}
+    if fetch:
+        try:
+            ms = read_json(SITE / "members.json", []) or []
+            people_cfg = {executive.ID_PREFIX + k: v for k, v in (executive.config().get("people") or {}).items()}
+            for m in ms:
+                extra = people_cfg.get(m["id"]) or {}
+                # an article to take the portrait from, or an official portrait URL on the agency's site
+                for key in ("wiki", "photo"):
+                    if extra.get(key):
+                        m[key] = extra[key]
+            leg = (read_json(REF / "legislators.json") or {}).get("people", [])
+            rep["people"] = media.fetch_people(ms, leg)
+            rep["investors"] = media.fetch_investors(sec13f.investors())
+            tk = read_json(SITE / "tickers.json", []) or []
+            rep["logos"] = media.fetch_logos([t["sym"] for t in tk])
+        except Exception as e:  # noqa: BLE001
+            log.warning("media update failed: %s", e)
+    write_json(SITE / "media.json", media.manifest())
+    return rep
