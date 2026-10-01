@@ -24,7 +24,7 @@ people:
   kupor-scott: {zh: "斯科特·库珀"}
   phelan-john: {zh: "约翰·费伦"}
   kratsios-michael: {zh: "迈克尔·克拉西奥斯", wiki: Michael_Kratsios}
-  mcmaster-sean: {zh: "肖恩·麦克马斯特", photo: "https://highways.dot.gov/sites/fhwa.dot.gov/files/inline-images/McMaster-Sean-Official-Photo-2025.jpg"}
+  mcmaster-sean: {zh: "肖恩·麦克马斯特", photo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/Sean_McMaster.jpg"}
   bisignano-frank: {zh: "弗兰克·比西尼亚诺"}
   bedford-bryan: {zh: "布莱恩·贝德福德", wiki: Bryan_Bedford}
   warsh-kevin: {zh: "凯文·沃什"}
@@ -39,7 +39,7 @@ people:
   ueland-eric: {zh: "埃里克·尤兰"}
   bailey-sara: {zh: "萨拉·卡特", wiki: "Sara_Carter_(journalist)", en: "Sara Carter"}
   vaden-stephen: {zh: "斯蒂芬·韦登"}
-  mody-arjun: {zh: "阿尔琼·莫迪", photo: "https://www.ssa.gov/agency/commissioner/assets/images/mody-arjun.avif"}
+  mody-arjun: {zh: "阿尔琼·莫迪", photo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/Arjun_Mody_DeputySSA2026.jpg"}
   # Biden administration
   granholm-jennifer: {zh: "詹妮弗·格兰霍姆", party: D}
   yellen-janet: {zh: "珍妮特·耶伦", party: D}

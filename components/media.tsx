@@ -3,7 +3,18 @@
 
 const PARTY_RING: Record<string, string> = { D: "var(--dem)", R: "var(--rep)", I: "var(--ind)" };
 
+// people without a photo and without a party (the 13F investors) get a steady colour of their own
+const TINTS = ["#0a84ff", "#5e5ce6", "#bf5af2", "#ff375f", "#ff9f0a", "#30b0c7", "#34c759", "#a2845e"];
+function tint(id: string): string {
+  let h = 0;
+  for (const c of id) h = (h * 31 + c.charCodeAt(0)) >>> 0;
+  return TINTS[h % TINTS.length];
+}
+
 function initials(name: string): string {
+  // Chinese names: the surname character (段, 李) rather than Latin initials
+  const cjk = name.match(/[\u3400-\u9fff]/);
+  if (cjk) return cjk[0];
   const parts = name.replace(/[.,]/g, " ").split(/\s+/).filter(Boolean);
   if (!parts.length) return "?";
   const first = parts[0][0] ?? "";
@@ -28,7 +39,7 @@ export function Avatar({
   ring?: boolean;
   className?: string;
 }) {
-  const color = PARTY_RING[party ?? ""] ?? "var(--faint)";
+  const color = PARTY_RING[party ?? ""] ?? (id.startsWith("inv-") ? tint(id) : "var(--faint)");
   const style = {
     width: size,
     height: size,

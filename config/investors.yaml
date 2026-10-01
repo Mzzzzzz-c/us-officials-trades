@@ -118,6 +118,8 @@ investors:
     firm_zh: 盖茨基金会信托
     firm_en: Gates Foundation Trust
     cik: 1166559
+    # the trust has no portrait of its own: its co-founder and trustee Bill Gates (CC BY 4.0, European Union)
+    photo: "https://upload.wikimedia.org/wikipedia/commons/8/88/Bill_Gates_at_the_European_Commission_-_2025_-_P067383-987995_%28cropped%29.jpg"
 
   - id: soros
     zh: 乔治·索罗斯

@@ -23964,9 +23964,12 @@
    "tried": "2026-10-01"
   },
   "E-mcmaster-sean": {
-   "cfg": "https://highways.dot.gov/sites/fhwa.dot.gov/files/inline-images/McMaster-Sean-Official-Photo-2025.jpg",
-   "ok": false,
-   "tried": "2026-10-01"
+   "cfg": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Sean_McMaster.jpg",
+   "file": "Sean_McMaster.jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-01",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Sean_McMaster.jpg"
   },
   "E-menezes-mark": {
    "ok": true,
@@ -23987,9 +23990,12 @@
    "tried": "2026-10-01"
   },
   "E-mody-arjun": {
-   "cfg": "https://www.ssa.gov/agency/commissioner/assets/images/mody-arjun.avif",
-   "ok": false,
-   "tried": "2026-10-01"
+   "cfg": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Arjun_Mody_DeputySSA2026.jpg",
+   "file": "Arjun_Mody_DeputySSA2026.jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-01",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Arjun_Mody_DeputySSA2026.jpg"
   },
   "E-monaco-lisa": {
    "ok": true,
@@ -25503,6 +25509,14 @@
    "ok": false,
    "tried": "2026-10-01"
   },
+  "inv-gates-foundation": {
+   "cfg": "https://upload.wikimedia.org/wikipedia/commons/8/88/Bill_Gates_at_the_European_Commission_-_2025_-_P067383-987995_%28cropped%29.jpg",
+   "file": "Bill_Gates_at_the_European_Commission_-_2025_-_P067383-987995_(cropped).jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-01",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Bill_Gates_at_the_European_Commission_-_2025_-_P067383-987995_%28cropped%29.jpg"
+  },
   "inv-icahn": {
    "cfg": "Carl_Icahn",
    "file": "Carl_Icahn,_1980s.jpg",
@@ -25526,6 +25540,7 @@
   },
   "inv-loeb": {
    "cfg": "Daniel_S._Loeb",
+   "note": "Commons has only a caricature drawing",
    "ok": false,
    "tried": "2026-10-01"
   },
@@ -25539,6 +25554,7 @@
   },
   "inv-pabrai": {
    "cfg": "Mohnish_Pabrai",
+   "note": "Commons has only a caricature drawing",
    "ok": false,
    "tried": "2026-10-01"
   },

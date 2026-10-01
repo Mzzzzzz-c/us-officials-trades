@@ -70,7 +70,7 @@ export default async function InvestorPage({ params }: { params: Promise<{ local
       <section className="bg-elev">
         <Container className="pt-12 pb-10 sm:pt-16">
           <div className="fade-up flex flex-col gap-6 sm:flex-row sm:items-center">
-            <Avatar id={pid} name={p.en} has={!!media.people[pid]} size={104} ring={false} className="shadow-[0_8px_30px_rgba(0,0,0,0.12)]" />
+            <Avatar id={pid} name={locale === "zh" ? p.zh ?? p.en : p.en} has={!!media.people[pid]} size={104} ring={false} className="shadow-[0_8px_30px_rgba(0,0,0,0.12)]" />
             <div className="min-w-0">
               <div className="eyebrow flex flex-wrap items-center gap-2">
                 {t.investors.title}

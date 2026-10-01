@@ -276,7 +276,7 @@ function StockHit({ r }: { r: S }) {
 function InvestorHit({ r }: { r: I }) {
   return (
     <>
-      <Avatar id={`inv-${r[0]}`} name={r[3] || r[1]} has={r[4] === 1} size={32} ring={false} />
+      <Avatar id={`inv-${r[0]}`} name={r[1] || r[3]} has={r[4] === 1} size={32} ring={false} />
       <div className="min-w-0 flex-1">
         <div className="truncate text-[15px] font-medium">{r[1]}</div>
         <div className="truncate text-xs text-muted">{r[2]}</div>

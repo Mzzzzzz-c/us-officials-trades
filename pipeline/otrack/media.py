@@ -105,6 +105,29 @@ def _commons_file(url: str) -> str | None:
     return unquote(m.group(1)) if m else None
 
 
+def _photo_from_url(s, url: str, out: Path) -> dict:
+    """A portrait from a direct image URL: an agency site, or an upload.wikimedia.org original
+    (then credited to its Commons file page)."""
+    r = http.get(s, url, timeout=30)
+    if r.status_code == 200 and _to_webp(r.content, out, (180, 220), cover=True):
+        f = _commons_file(url) if "wikimedia.org" in url else None
+        return {"ok": True, "src": "commons" if f else "agency", "url": url, **({"file": f} if f else {})}
+    return {}
+
+
+def save_local_photo(pid: str, content: bytes, url: str) -> bool:
+    """Record a portrait downloaded by other means (e.g. when this machine is rate-limited)."""
+    st = _state()
+    out = PEOPLE_DIR / f"{pid}.webp"
+    if not _to_webp(content, out, (180, 220), cover=True):
+        return False
+    f = _commons_file(url) if "wikimedia.org" in url else None
+    st.setdefault("people", {})[pid] = {"tried": dt.date.today().isoformat(), "ok": True, "cfg": url, "src": "commons" if f else "agency",
+                                       "url": url, **({"file": f} if f else {})}
+    _save_state(st)
+    return True
+
+
 def fetch_investors(investors: list[dict]) -> dict:
     """Portraits of the 13F investors from their Wikipedia articles (config/investors.yaml `wiki`)."""
     st = _state()
@@ -112,7 +135,7 @@ def fetch_investors(investors: list[dict]) -> dict:
     ws = http.session(WIKI_UA)
     done = 0
     for inv in investors:
-        title = inv.get("wiki")
+        title = inv.get("photo") or inv.get("wiki")
         if not title:
             continue
         pid = f"inv-{inv['id']}"
@@ -125,11 +148,14 @@ def fetch_investors(investors: list[dict]) -> dict:
         done += 1
         new = {"tried": dt.date.today().isoformat(), "ok": False, "cfg": title}
         try:
-            img, _ = _wiki_lead_image(ws, title)
-            if img:
-                r = http.get(ws, img, timeout=30)
-                if r.status_code == 200 and _to_webp(r.content, out, (180, 220), cover=True):
-                    new.update(ok=True, src="wikipedia", page=title, file=_commons_file(img))
+            if inv.get("photo"):
+                new.update(_photo_from_url(ws, inv["photo"], out))
+            else:
+                img, _ = _wiki_lead_image(ws, title)
+                if img:
+                    r = http.get(ws, img, timeout=30)
+                    if r.status_code == 200 and _to_webp(r.content, out, (180, 220), cover=True):
+                        new.update(ok=True, src="wikipedia", page=inv.get("wiki"), file=_commons_file(img))
         except Exception as e:  # noqa: BLE001
             log.warning("photo %s: %s", pid, e)
         people[pid] = new
@@ -190,10 +216,8 @@ def fetch_people(members: list[dict], legislators: list[dict], limit: int | None
                         if r.status_code == 200 and _to_webp(r.content, out, (180, 220), cover=True):
                             new.update(ok=True, src="wikipedia", page=wiki_of[mid], file=_commons_file(img))
             elif m.get("photo"):
-                # an official portrait published by the agency (US government work, public domain)
-                r = http.get(ws, m["photo"], timeout=30)
-                if r.status_code == 200 and _to_webp(r.content, out, (180, 220), cover=True):
-                    new.update(ok=True, src="agency", url=m["photo"])
+                # an official portrait (agency site or its copy on Wikimedia Commons)
+                new.update(_photo_from_url(ws, m["photo"], out))
             else:
                 title = m.get("wiki")
                 cands = [title] if title else _wiki_search(ws, f'{m["name"]} {m.get("title", "")} {m.get("agency", "")}')[:3]

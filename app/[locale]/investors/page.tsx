@@ -30,7 +30,7 @@ export default async function InvestorsPage({ params }: { params: Promise<{ loca
               <Reveal key={iv.id} delay={Math.min(i, 9) * 40}>
                 <Link prefetch={false} href={`/${locale}/investor/${iv.id}`} className="tile flex h-full flex-col p-5">
                   <div className="flex items-center gap-4">
-                    <Avatar id={pid} name={iv.en} has={!!media.people[pid]} size={60} ring={false} />
+                    <Avatar id={pid} name={locale === "zh" ? iv.zh : iv.en} has={!!media.people[pid]} size={60} ring={false} />
                     <div className="min-w-0 flex-1">
                       <div className="flex items-center gap-2">
                         <span className="truncate text-[17px] font-semibold tracking-tight">{locale === "zh" ? iv.zh : iv.en}</span>

@@ -178,7 +178,7 @@ export default async function TickerPage({ params }: { params: Promise<{ locale:
                       <tr key={iv.id}>
                         <td>
                           <Link prefetch={false} className="flex items-center gap-3" href={`/${locale}/investor/${iv.id}`}>
-                            <Avatar id={`inv-${iv.id}`} name={p?.en ?? iv.id} has={!!media.people[`inv-${iv.id}`]} size={34} ring={false} />
+                            <Avatar id={`inv-${iv.id}`} name={(locale === "zh" ? p?.zh : p?.en) ?? iv.id} has={!!media.people[`inv-${iv.id}`]} size={34} ring={false} />
                             <span className="min-w-0">
                               <span className="block font-medium hover:underline">{p ? (locale === "zh" ? p.zh : p.en) : iv.id}</span>
                               {p ? <span className="block truncate text-[11px] text-faint">{locale === "zh" ? p.firm_zh : p.firm_en}</span> : null}
