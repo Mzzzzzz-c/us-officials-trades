@@ -42,7 +42,10 @@ export default function StockChart({
   insiders = [],
   events = [],
   layers,
+  initialRange = "1y",
 }: {
+  /** the range shown first (a page whose marks are older than a year starts wider) */
+  initialRange?: Range;
   /** company insiders' open-market buys and sells per day (SEC Form 4) */
   insiders?: TradeMark[];
   events?: ChartEvent[];
@@ -57,7 +60,7 @@ export default function StockChart({
   locale?: string;
 }) {
   const el = useRef<HTMLDivElement | null>(null);
-  const [range, setRange] = useState<Range>("1y");
+  const [range, setRange] = useState<Range>(initialRange);
   const [kind, setKind] = useState<"area" | "candle">("area");
   const [bars, setBars] = useState<Bar[] | null>(null);
   const [tz, setTz] = useState(0);

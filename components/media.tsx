@@ -39,7 +39,7 @@ export function Avatar({
   ring?: boolean;
   className?: string;
 }) {
-  const color = PARTY_RING[party ?? ""] ?? (id.startsWith("inv-") ? tint(id) : "var(--faint)");
+  const color = PARTY_RING[party ?? ""] ?? (/^in[vs]-/.test(id) ? tint(id) : "var(--faint)");
   const style = {
     width: size,
     height: size,

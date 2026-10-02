@@ -179,7 +179,7 @@ export default async function TickerPage({ params }: { params: Promise<{ locale:
         {ins ? (
           <Reveal className="mt-14">
             <SectionHead title={t.insider.title} sub={t.insider.sub} id="insiders" />
-            <InsiderSection locale={locale} ins={ins} officials={off90} earn={earnStat} today={insIndex?.asof ?? new Date().toISOString().slice(0, 10)} bulkEnd={insIndex?.bulk_end ?? null} />
+            <InsiderSection locale={locale} symbol={d.sym} ins={ins} officials={off90} earn={earnStat} today={insIndex?.asof ?? new Date().toISOString().slice(0, 10)} bulkEnd={insIndex?.bulk_end ?? null} />
           </Reveal>
         ) : null}
 

@@ -63,6 +63,14 @@ def _num(s: str | None) -> float | None:
         return None
 
 
+def _cik(s) -> int:
+    """The reporting owner's SEC number: what tells two people with the same name apart (0 if absent)."""
+    try:
+        return int(str(s).strip())
+    except (TypeError, ValueError):
+        return 0
+
+
 def _rel(text: str) -> str:
     """Relationship letters: D director, O officer, T ten-percent owner, X other."""
     low = (text or "").lower()
@@ -117,7 +125,7 @@ def parse_dataset(content: bytes) -> list[dict]:
     for r in _tsv(z, "REPORTINGOWNER.tsv"):
         acc = r["ACCESSION_NUMBER"]
         if acc in subs and acc not in owners:
-            owners[acc] = (r.get("RPTOWNERNAME") or "").strip(), _rel(r.get("RPTOWNER_RELATIONSHIP", "")), (r.get("RPTOWNER_TITLE") or "").strip()
+            owners[acc] = (r.get("RPTOWNERNAME") or "").strip(), _rel(r.get("RPTOWNER_RELATIONSHIP", "")), (r.get("RPTOWNER_TITLE") or "").strip(), _cik(r.get("RPTOWNERCIK"))
     rows = []
     for r in _tsv(z, "NONDERIV_TRANS.tsv"):
         code = r.get("TRANS_CODE")
@@ -128,17 +136,20 @@ def parse_dataset(content: bytes) -> list[dict]:
         td = _iso(r.get("TRANS_DATE"))
         if not sh or not px or not td:
             continue
-        who, rel, title = owners.get(acc, ("", "X", ""))
+        who, rel, title, oc = owners.get(acc, ("", "X", "", 0))
         sub = subs[acc]
         rows.append({"cik": sub["cik"], "acc": acc, "fd": sub["fd"], "td": td, "who": who, "rel": rel, "title": title, "code": code,
-                     "sh": sh, "px": px, "plan": sub["plan"]})
+                     "sh": sh, "px": px, "plan": sub["plan"], "oc": oc})
     return rows
 
 
 def load_bulk(s, fetch: bool) -> tuple[list[dict], str | None]:
     """(rows of the last QUARTERS data sets, end date of the newest one)."""
     BULK_DIR.mkdir(parents=True, exist_ok=True)
-    have = sorted((p.stem for p in BULK_DIR.glob("*.json")), reverse=True)
+    cached = {p.stem: (read_json(p, []) or []) for p in BULK_DIR.glob("*.json")}
+    # quarters parsed before owner ids were kept are downloaded and parsed again
+    have = sorted((q for q, rows in cached.items() if not rows or "oc" in rows[0]), reverse=True)
+    stale = sorted((q for q in cached if q not in have), reverse=True)
     if fetch:
         try:
             for q, url in _dataset_urls(s)[:QUARTERS]:
@@ -149,14 +160,16 @@ def load_bulk(s, fetch: bool) -> tuple[list[dict], str | None]:
                 if r.status_code != 200:
                     log.warning("insiders: %s -> %s", url, r.status_code)
                     continue
-                write_json(BULK_DIR / f"{q}.json", parse_dataset(r.content))
+                cached[q] = parse_dataset(r.content)
+                write_json(BULK_DIR / f"{q}.json", cached[q])
                 have.append(q)
         except Exception as e:  # noqa: BLE001
             log.warning("insiders: data set index failed (using cached quarters): %s", e)
-    have = sorted(set(have), reverse=True)[:QUARTERS]
+    # a quarter that could not be parsed again is still better than a hole in the history
+    have = sorted(set(have) | set(stale), reverse=True)[:QUARTERS]
     rows: list[dict] = []
     for q in have:
-        rows.extend(read_json(BULK_DIR / f"{q}.json", []) or [])
+        rows.extend(cached[q])
     return rows, (_quarter_end(have[0]) if have else None)
 
 
@@ -182,6 +195,7 @@ def _form4(xml: bytes) -> tuple[int | None, list[dict]]:
 
     owner = root.find("reportingOwner")
     who = text(owner, "reportingOwnerId/rptOwnerName")
+    oc = _cik(text(owner, "reportingOwnerId/rptOwnerCik"))
     relnode = owner.find("reportingOwnerRelationship") if owner is not None else None
     truthy = lambda v: v.lower() in ("1", "true")  # noqa: E731
     rel = ""
@@ -203,7 +217,7 @@ def _form4(xml: bytes) -> tuple[int | None, list[dict]]:
         td = _iso(text(tx, "transactionDate/value"))
         if not sh or not px or not td:
             continue
-        out.append({"td": td, "who": who, "rel": rel or "X", "title": title, "code": code, "sh": sh, "px": px, "plan": plan})
+        out.append({"td": td, "who": who, "rel": rel or "X", "title": title, "code": code, "sh": sh, "px": px, "plan": plan, "oc": oc})
     try:
         issuer = int(text(root, "issuer/issuerCik"))
     except ValueError:
@@ -292,6 +306,60 @@ def update_recent(s, ciks: list[int], bulk_end: str | None, budget: int) -> dict
     return {"requests": used, "new_filings": new, "companies_checked": len(checked)}
 
 
+def fill_owner_ids(s, bulk: list[dict], budget: int) -> dict:
+    """Filings stored before owner ids were kept: take the id from another filing by the same person
+    at the same company, or read it from the filing itself."""
+    state = read_json(REF / "insiders_recent.json", {}) or {}
+    filings: dict = state.get("filings", {})
+    known = {(r["cik"], r["who"]): r["oc"] for r in bulk if r.get("oc")}
+    for f in filings.values():
+        for r in f.get("rows", []):
+            if r.get("oc"):
+                known[(f["cik"], r["who"])] = r["oc"]
+    todo, matched = [], 0
+    for acc, f in filings.items():
+        rows = [r for r in f.get("rows", []) if "oc" not in r]
+        if not rows:
+            continue
+        for r in rows:
+            if (f["cik"], r["who"]) in known:
+                r["oc"] = known[(f["cik"], r["who"])]
+                matched += 1
+        if any("oc" not in r for r in rows):
+            todo.append(acc)
+    fetched = 0
+    if s is not None and todo:
+        lock = threading.Lock()
+
+        def one(acc: str) -> None:
+            nonlocal fetched
+            f = filings[acc]
+            url = f"https://www.sec.gov/Archives/edgar/data/{f['cik']}/{acc.replace('-', '')}/{acc}.txt"
+            try:
+                x = http.get(s, url, timeout=60)
+                m = re.search(rb"<rptOwnerCik>\s*(\d+)", x.content) if x.status_code == 200 else None
+            except Exception as e:  # noqa: BLE001
+                log.warning("insiders: %s: %s", url, e)
+                return
+            with lock:
+                # 0 = looked and found nothing: do not ask again
+                oc = int(m.group(1)) if m else 0
+                for r in f["rows"]:
+                    r.setdefault("oc", oc)
+                    if oc:
+                        known[(f["cik"], r["who"])] = oc
+                fetched += 1
+                if fetched % 1000 == 0:
+                    write_json(REF / "insiders_recent.json", state)
+                    log.info("insiders: owner ids %d/%d", fetched, len(todo))
+
+        with ThreadPoolExecutor(max_workers=4) as pool:
+            list(pool.map(one, todo[:budget]))
+    if matched or fetched:
+        write_json(REF / "insiders_recent.json", state)
+    return {"matched": matched, "fetched": fetched, "left": max(0, len(todo) - fetched)}
+
+
 # ---------------------------------------------------------------- site files
 
 
@@ -305,6 +373,23 @@ def summarise(rows: list[dict], today: str) -> dict:
             out[f"{k}{days}"] = len(sel)
             out[f"v{k}{days}"] = round(sum(r["sh"] * r["px"] for r in sel))
             out[f"n{k}{days}"] = len({r["who"] for r in sel})
+    return out
+
+
+def fix_prices(rows: list[dict], market: float | None = None) -> list[dict]:
+    """Some filers type the total proceeds into the price-per-share box, which turns a $2M sale into
+    billions. A price more than 20 times what the company's other trades (or the market) show is
+    read as the total when that gives a sensible price, and the row is dropped otherwise."""
+    prices = sorted(r["px"] for r in rows)
+    ref = prices[len(prices) // 2] if len(prices) >= 5 else market
+    if not ref:
+        return rows
+    out = []
+    for r in rows:
+        if r["px"] <= 20 * ref:
+            out.append(r)
+        elif ref / 3 <= r["px"] / r["sh"] <= ref * 3:
+            out.append({**r, "px": r["px"] / r["sh"]})
     return out
 
 
@@ -340,17 +425,35 @@ def export_site(bulk: list[dict], trades: list[dict], companies: dict, symbols: 
             off_n[t["sym"]] += 1
 
     both, top, written = [], [], 0
+    people: dict[int, dict] = {}
+    people_done: set[int] = set()
+    fixed: set[int] = set()
+    market = (read_json(SITE / "latest-prices.json", {}) or {}).get("px", {})
     for sym in symbols:
         cik = (companies.get(sym) or {}).get("cik")
         if not cik:
             continue
+        if int(cik) not in fixed:
+            fixed.add(int(cik))
+            by_cik[int(cik)] = fix_prices(by_cik.get(int(cik), []), market.get(sym))
         rows = sorted(by_cik.get(int(cik), []), key=lambda r: (r["td"], r["fd"] or ""), reverse=True)
         dates = [d for d in earn.get(str(cik), []) if d >= "2019-06-01"]
         if not rows and not dates:
             continue
         summ = summarise(rows, today)
-        tx = [[r["td"], r["fd"], r["who"], r["rel"], r["title"], r["code"], round(r["sh"]), round(r["px"], 2), round(r["sh"] * r["px"]), 1 if r.get("plan") else 0, r["acc"]]
+        tx = [[r["td"], r["fd"], r["who"], r["rel"], r["title"], r["code"], round(r["sh"]), round(r["px"], 2), round(r["sh"] * r["px"]), 1 if r.get("plan") else 0, r["acc"], r.get("oc") or 0]
               for r in rows[:MAX_ROWS]]
+        if int(cik) not in people_done:  # a company with two share classes is counted once
+            people_done.add(int(cik))
+            for r in rows[:MAX_ROWS]:
+                oc = r.get("oc")
+                if not oc:
+                    continue
+                p = people.setdefault(oc, {"name": r["who"], "cos": {}})
+                c = p["cos"].setdefault(sym, {"rel": r["rel"], "title": r["title"], "b": 0, "s": 0, "vb": 0, "vs": 0, "last": r["td"]})
+                k = "b" if r["code"] == "P" else "s"
+                c[k] += 1
+                c["v" + k] += round(r["sh"] * r["px"])
         # Only things that change when something is filed go in the per-stock file (rolling totals are
         # worked out by the page), so the daily commit touches few files.
         write_json(out_dir / f"{sym}.json", {
@@ -367,7 +470,7 @@ def export_site(bulk: list[dict], trades: list[dict], companies: dict, symbols: 
         by_who: dict[str, dict] = {}
         for r in rows:
             if r["code"] == "P" and r["td"] >= cut30:
-                b = by_who.setdefault(r["who"], {"sym": sym, "who": r["who"], "rel": r["rel"], "title": r["title"], "td": r["td"], "fd": r["fd"], "val": 0, "n": 0, "acc": r["acc"], "cik": int(cik)})
+                b = by_who.setdefault(r["who"], {"sym": sym, "who": r["who"], "rel": r["rel"], "title": r["title"], "td": r["td"], "fd": r["fd"], "val": 0, "n": 0, "acc": r["acc"], "cik": int(cik), "oc": r.get("oc") or 0})
                 b["val"] += round(r["sh"] * r["px"])
                 b["n"] += 1
         top.extend(b for b in by_who.values() if b["val"] >= 100_000)
@@ -380,8 +483,19 @@ def export_site(bulk: list[dict], trades: list[dict], companies: dict, symbols: 
             seen_top.add(k)
             uniq.append(b)
     top = uniq
-    write_json(SITE / "insiders.json", {"asof": today, "bulk_end": bulk_end, "both": both[:60], "top": top[:40], "stocks": written})
-    return {"stocks": written, "both": len(both), "top_buys": len(top)}
+    write_json(SITE / "insiders.json", {"asof": today, "bulk_end": bulk_end, "both": both[:60], "top": top[:40], "stocks": written, "people": len(people)})
+    # One line per insider for the list and profile pages; their trades stay in the per-stock files.
+    # [id, name, relationship, title, stocks (largest first), buys, sells, bought $, sold $, last trade]
+    index = []
+    for oc, p in people.items():
+        cos = sorted(p["cos"].items(), key=lambda kv: kv[1]["vb"] + kv[1]["vs"], reverse=True)
+        main = cos[0][1]
+        index.append([oc, p["name"], "".join(c for c in "DOT" if any(c in v["rel"] for _, v in cos)) or "X", main["title"], [k for k, _ in cos],
+                      sum(v["b"] for _, v in cos), sum(v["s"] for _, v in cos), sum(v["vb"] for _, v in cos), sum(v["vs"] for _, v in cos),
+                      max(v["last"] for _, v in cos)])
+    index.sort(key=lambda r: (r[9], r[7] + r[8]), reverse=True)
+    write_json(SITE / "insider-people.json", {"asof": today, "people": index})
+    return {"stocks": written, "both": len(both), "top_buys": len(top), "people": len(index)}
 
 
 def update(trades: list[dict], fetch: bool = True) -> dict:
@@ -406,5 +520,6 @@ def update(trades: list[dict], fetch: bool = True) -> dict:
                 seen.add(cik)
                 ciks.append(int(cik))
         report["recent"] = update_recent(s, ciks, bulk_end, int(os.environ.get("INSIDER_BUDGET", "5000")))
+    report["owner_ids"] = fill_owner_ids(s, bulk, int(os.environ.get("INSIDER_BUDGET", "5000")))
     report["site"] = export_site(bulk, trades, companies, symbols, bulk_end)
     return report

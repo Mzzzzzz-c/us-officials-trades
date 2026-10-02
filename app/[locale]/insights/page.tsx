@@ -11,7 +11,7 @@ import { LivePrice, LiveSince } from "@/components/client/Quotes";
 import Reveal from "@/components/client/Reveal";
 import { Band, Container, Metric, PageHeader, SectionHead } from "@/components/layout";
 import { Avatar, AvatarStack, Logo, Sparkline } from "@/components/media";
-import { getInsiders, getInsights, getLatestPrices, type Strategy, type TradeCard } from "@/lib/data";
+import { getInsiders, insiderName, getInsights, getLatestPrices, type Strategy, type TradeCard } from "@/lib/data";
 import { amountRange, usdShort } from "@/lib/format";
 import { dict, fmt, isLocale, type Dict, type Locale } from "@/lib/i18n";
 import { person, stock } from "@/lib/people";
@@ -398,7 +398,13 @@ export default async function InsightsPage({ params }: { params: Promise<{ local
                             </Link>
                           </td>
                           <td>
-                            <div className="font-medium">{r.who.toLowerCase().replace(/\b[a-z]/g, (c) => c.toUpperCase())}</div>
+                            {r.oc ? (
+                              <Link prefetch={false} href={`/${locale}/insider/${r.oc}`} className="font-medium hover:underline">
+                                {insiderName(r.who)}
+                              </Link>
+                            ) : (
+                              <div className="font-medium">{insiderName(r.who)}</div>
+                            )}
                             <div className="max-w-[220px] truncate text-[11px] text-faint">{(r.title && !/^see remarks?/i.test(r.title) ? r.title : "") || [...r.rel].map((c) => t.insider.rel[c as keyof typeof t.insider.rel] ?? "").join(" · ")}</div>
                           </td>
                           <td className="r num">
@@ -418,7 +424,12 @@ export default async function InsightsPage({ params }: { params: Promise<{ local
               </div>
             </Reveal>
           ) : null}
-          <p className="mt-4 text-xs text-faint">{fmt(t.insider.coverage, { n: insiders.stocks.toLocaleString("en-US") })}</p>
+          <p className="mt-4 text-xs text-faint">
+            {fmt(t.insider.coverage, { n: insiders.stocks.toLocaleString("en-US") })}{" "}
+            <Link prefetch={false} className="link" href={`/${locale}/insiders`}>
+              {t.insider.listLink} ›
+            </Link>
+          </p>
         </Band>
       ) : null}
 

@@ -1,8 +1,8 @@
-import { type InsiderFile, insiderSum } from "@/lib/data";
+import Link from "next/link";
+import { type InsiderFile, insiderName, insiderSum } from "@/lib/data";
 import { usdShort } from "@/lib/format";
 import { dict, fmt, type Locale } from "@/lib/i18n";
 
-const title = (s: string) => s.toLowerCase().replace(/\b[a-z]/g, (c) => c.toUpperCase()).replace(/\b(Ii|Iii|Iv|Llc|Lp|Jr|Sr)\b/g, (m) => (m.length <= 3 && m !== "Jr" && m !== "Sr" ? m.toUpperCase() : m));
 
 /** Company insiders' open-market trades next to what officials did, plus the timing-vs-earnings note. */
 export default function InsiderSection({
@@ -12,7 +12,10 @@ export default function InsiderSection({
   earn,
   today,
   bulkEnd,
+  symbol,
 }: {
+  /** ticker, for the link to this company's insiders */
+  symbol?: string;
   /** the day the data was last rebuilt, and the end of the last quarterly data set */
   today: string;
   bulkEnd: string | null;
@@ -72,7 +75,13 @@ export default function InsiderSection({
                 <tr key={k}>
                   <td className="num whitespace-nowrap">{r[0]}</td>
                   <td>
-                    <div className="font-medium">{title(r[2])}</div>
+                    {r[11] ? (
+                      <Link prefetch={false} href={`/${locale}/insider/${r[11]}`} className="font-medium hover:underline">
+                        {insiderName(r[2])}
+                      </Link>
+                    ) : (
+                      <div className="font-medium">{insiderName(r[2])}</div>
+                    )}
                     <div className="max-w-[240px] truncate text-[11px] text-faint">{role(r[3], r[4])}</div>
                   </td>
                   <td className="whitespace-nowrap">
@@ -109,7 +118,17 @@ export default function InsiderSection({
           <p className="mt-1.5 text-xs text-faint">{fmt(i.earnNote, { n: earn.releases })}</p>
         </div>
       ) : null}
-      <p className="mt-3 text-xs text-faint">{ins.full ? fmt(i.through, { d: today }) : fmt(i.partial, { d: bulkEnd ?? "—" })}</p>
+      <p className="mt-3 text-xs text-faint">
+        {ins.full ? fmt(i.through, { d: today }) : fmt(i.partial, { d: bulkEnd ?? "—" })}
+        {symbol ? (
+          <>
+            {" · "}
+            <Link prefetch={false} className="link" href={`/${locale}/insiders?q=${encodeURIComponent(symbol)}`}>
+              {i.listLink} ›
+            </Link>
+          </>
+        ) : null}
+      </p>
     </div>
   );
 }

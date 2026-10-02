@@ -87,3 +87,29 @@ def test_issuer_comes_from_the_document():
     issuer, rows = insiders._form4(FORM4)
     assert issuer == 1045810 and len(rows) == 2
     assert insiders._form4(b"<x/>") == (None, [])
+
+
+def test_form4_keeps_owner_id():
+    xml = b"""<ownershipDocument><issuer><issuerCik>0000320193</issuerCik></issuer>
+    <reportingOwner><reportingOwnerId><rptOwnerCik>0001214156</rptOwnerCik><rptOwnerName>Doe Jane</rptOwnerName></reportingOwnerId>
+    <reportingOwnerRelationship><isOfficer>1</isOfficer><officerTitle>CFO</officerTitle></reportingOwnerRelationship></reportingOwner>
+    <nonDerivativeTable><nonDerivativeTransaction><transactionDate><value>2026-08-03</value></transactionDate>
+    <transactionCoding><transactionCode>P</transactionCode></transactionCoding>
+    <transactionAmounts><transactionShares><value>100</value></transactionShares>
+    <transactionPricePerShare><value>10</value></transactionPricePerShare></transactionAmounts>
+    </nonDerivativeTransaction></nonDerivativeTable></ownershipDocument>"""
+    issuer, rows = insiders._form4(xml)
+    assert issuer == 320193
+    assert rows[0]["oc"] == 1214156
+
+
+def test_fix_prices_reads_total_in_price_box():
+    base = [{"sh": 100.0, "px": 50.0 + k} for k in range(6)]
+    total = {"sh": 15000.0, "px": 780000.0}  # 15,000 shares at $52: the total was typed as the price
+    junk = {"sh": 1000.0, "px": 1000000.0}
+    out = insiders.fix_prices(base + [total, junk])
+    assert len(out) == 7
+    assert out[-1]["px"] == 52.0
+    # too few trades to compare with: the market price is the reference
+    assert insiders.fix_prices([junk], 40.0) == []
+    assert insiders.fix_prices([junk]) == [junk]

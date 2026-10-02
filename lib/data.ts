@@ -395,8 +395,8 @@ export const getSeries = (sym: string) => (safe(sym) ? read<{ w: [string, number
 /** Company insiders' open-market trades (SEC Form 4) and earnings-release dates for one stock. */
 export interface InsiderFile {
   cik: number;
-  /** [trade date, filed, name, relationship letters (D director, O officer, T 10% owner), title, P|S, shares, price, value, 10b5-1 plan, accession] */
-  tx: [string, string, string, string, string, "P" | "S", number, number, number, 0 | 1, string][];
+  /** [trade date, filed, name, relationship letters (D director, O officer, T 10% owner), title, P|S, shares, price, value, 10b5-1 plan, accession, the person's SEC number (0 if unknown)] */
+  tx: [string, string, string, string, string, "P" | "S", number, number, number, 0 | 1, string, number?][];
   earn: string[];
   /** false until the company's own filing index has been read (recent months may be missing) */
   full: boolean;
@@ -421,10 +421,38 @@ export interface InsidersIndex {
   bulk_end: string | null;
   stocks: number;
   both: { sym: string; off: string[]; nob: number; ins: number; nib: number; vb: number; last: string }[];
-  top: { sym: string; who: string; rel: string; title: string; td: string; fd: string; val: number; n: number; acc: string; cik: number }[];
+  top: { sym: string; who: string; rel: string; title: string; td: string; fd: string; val: number; n: number; acc: string; cik: number; oc?: number }[];
+  people?: number;
 }
 export const getInsider = (sym: string) => (safe(sym) ? read<InsiderFile>(`insider/${sym}.json`) : null);
 export const getInsiders = () => read<InsidersIndex>("insiders.json");
+/** One company insider: [SEC number, name as filed, relationship letters, title, stocks (largest first), buys, sells, bought $, sold $, last trade]. */
+export type InsiderPerson = [number, string, string, string, string[], number, number, number, number, string];
+let insiderPeople: { asof: string; people: InsiderPerson[]; byId: Map<number, InsiderPerson> } | null = null;
+export function getInsiderPeople() {
+  if (!insiderPeople) {
+    const d = read<{ asof: string; people: InsiderPerson[] }>("insider-people.json");
+    const people = d?.people ?? [];
+    insiderPeople = { asof: d?.asof ?? "", people, byId: new Map(people.map((p) => [p[0], p])) };
+  }
+  return insiderPeople;
+}
+/** Names are filed in capitals, surname first ("COOK TIMOTHY D"); shown as filed, in title case. */
+export const insiderName = (s: string) =>
+  s
+    .toLowerCase()
+    .replace(/(^|[\s.,&/(-])([a-z])/g, (_, a: string, b: string) => a + b.toUpperCase())
+    .replace(/\b(Ii|Iii|Iv|Llc|Lp|Llp|Gp|Plc|Sa|Ag|Nv|Usa|Lllp)\b/g, (m) => m.toUpperCase())
+    .replace(/\bL\.l\.c\./g, "L.L.C.")
+    .replace(/\bL\.p\./g, "L.P.");
+/** A title worth showing ("See Remarks" is what filers type when theirs did not fit the form). */
+export function insiderTitle(ttl: string): string {
+  const s = (ttl ?? "").trim();
+  if (!s || /^see remarks?/i.test(s)) return "";
+  // titles typed in capitals read better in title case; short all-capital words are abbreviations (CEO, EVP)
+  if (s !== s.toUpperCase() || !/[A-Z]{5}/.test(s)) return s;
+  return s.replace(/[A-Z]+/g, (w) => (/^(AND|OF|THE|FOR|IN|TO)$/.test(w) ? w.toLowerCase() : w.length <= 3 ? w : w[0] + w.slice(1).toLowerCase())).replace(/^[a-z]/, (c) => c.toUpperCase());
+}
 export const getInvestor = (id: string) => (safe(id) ? read<InvestorPage>(`investor/${id}.json`) : null);
 
 let memberIndex: Map<string, MemberRow> | null = null;

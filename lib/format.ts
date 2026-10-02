@@ -9,9 +9,10 @@ export function usd(n: number | null | undefined, digits = 0): string {
 export function usdShort(n: number | null | undefined): string {
   if (n === null || n === undefined) return "—";
   const a = Math.abs(n);
-  if (a >= 1e9) return `$${trim(n / 1e9)}B`;
-  if (a >= 1e6) return `$${trim(n / 1e6)}M`;
-  if (a >= 1e3) return `$${trim(n / 1e3)}K`;
+  // the thresholds sit where rounding would otherwise print "$1000M"
+  if (a >= 999.5e6) return `$${trim(n / 1e9)}B`;
+  if (a >= 999.5e3) return `$${trim(n / 1e6)}M`;
+  if (a >= 999.5) return `$${trim(n / 1e3)}K`;
   return `$${Math.round(n)}`;
 }
 
