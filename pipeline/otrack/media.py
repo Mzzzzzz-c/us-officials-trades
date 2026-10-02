@@ -133,16 +133,18 @@ def fetch_insider_photos(limit: int = 25) -> dict:
     """Portraits of the company insiders matched in Wikidata (data/ref/insider_names.json), a few per
     run: Wikimedia throttles thumbnail downloads, so this stops at the first refusal."""
     names = read_json(REF / "insider_names.json", {}) or {}
-    s = http.session(WIKI_UA)
+    # no automatic retries: a refusal means "come back later", and the next run does
+    s = http.session(WIKI_UA, retry_429=False)
     done = 0
+    began = time.monotonic()
     for oc, h in names.items():
         pid = f"ins-{oc}"
-        if done >= limit:
+        if done >= limit or time.monotonic() - began > 240:
             break
         if not h.get("img") or (PEOPLE_DIR / f"{pid}.webp").exists():
             continue
         try:
-            r = s.get(h["img"].replace("http://", "https://"), params={"width": 500}, timeout=60)
+            r = s.get(h["img"].replace("http://", "https://"), params={"width": 500}, timeout=30)
         except Exception:  # noqa: BLE001
             break
         if r.status_code == 429:
