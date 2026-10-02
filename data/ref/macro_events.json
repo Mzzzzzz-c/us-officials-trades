@@ -1,0 +1,531 @@
+{
+ "fomc": [
+  {
+   "d": "2020-01-29",
+   "lo": 1.5,
+   "hi": 1.75,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200129a.htm"
+  },
+  {
+   "d": "2020-03-03",
+   "lo": 1.0,
+   "hi": 1.25,
+   "chg": -50,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200303a.htm"
+  },
+  {
+   "d": "2020-03-15",
+   "lo": 0,
+   "hi": 0.25,
+   "chg": -100,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm"
+  },
+  {
+   "d": "2020-04-29",
+   "lo": 0,
+   "hi": 0.25,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200429a.htm"
+  },
+  {
+   "d": "2020-06-10",
+   "lo": 0,
+   "hi": 0.25,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200610a.htm"
+  },
+  {
+   "d": "2020-07-29",
+   "lo": 0,
+   "hi": 0.25,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200729a.htm"
+  },
+  {
+   "d": "2020-09-16",
+   "lo": 0,
+   "hi": 0.25,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200916a.htm"
+  },
+  {
+   "d": "2020-11-05",
+   "lo": 0,
+   "hi": 0.25,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20201105a.htm"
+  },
+  {
+   "d": "2020-12-16",
+   "lo": 0,
+   "hi": 0.25,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20201216a.htm"
+  },
+  {
+   "d": "2021-01-27",
+   "lo": 0,
+   "hi": 0.25,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20210127a.htm"
+  },
+  {
+   "d": "2021-03-17",
+   "lo": 0,
+   "hi": 0.25,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20210317a.htm"
+  },
+  {
+   "d": "2021-04-28",
+   "lo": 0,
+   "hi": 0.25,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20210428a.htm"
+  },
+  {
+   "d": "2021-06-16",
+   "lo": 0,
+   "hi": 0.25,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20210616a.htm"
+  },
+  {
+   "d": "2021-07-28",
+   "lo": 0,
+   "hi": 0.25,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20210728a.htm"
+  },
+  {
+   "d": "2021-09-22",
+   "lo": 0,
+   "hi": 0.25,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20210922a.htm"
+  },
+  {
+   "d": "2021-11-03",
+   "lo": 0,
+   "hi": 0.25,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20211103a.htm"
+  },
+  {
+   "d": "2021-12-15",
+   "lo": 0,
+   "hi": 0.25,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20211215a.htm"
+  },
+  {
+   "d": "2022-01-26",
+   "lo": 0,
+   "hi": 0.25,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220126a.htm"
+  },
+  {
+   "d": "2022-03-16",
+   "lo": 0.25,
+   "hi": 0.5,
+   "chg": 25,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220316a.htm"
+  },
+  {
+   "d": "2022-05-04",
+   "lo": 0.75,
+   "hi": 1,
+   "chg": 50,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220504a.htm"
+  },
+  {
+   "d": "2022-06-15",
+   "lo": 1.5,
+   "hi": 1.75,
+   "chg": 75,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220615a.htm"
+  },
+  {
+   "d": "2022-07-27",
+   "lo": 2.25,
+   "hi": 2.5,
+   "chg": 75,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220727a.htm"
+  },
+  {
+   "d": "2022-09-21",
+   "lo": 3,
+   "hi": 3.25,
+   "chg": 75,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220921a.htm"
+  },
+  {
+   "d": "2022-11-02",
+   "lo": 3.75,
+   "hi": 4,
+   "chg": 75,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20221102a.htm"
+  },
+  {
+   "d": "2022-12-14",
+   "lo": 4.25,
+   "hi": 4.5,
+   "chg": 50,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20221214a.htm"
+  },
+  {
+   "d": "2023-02-01",
+   "lo": 4.5,
+   "hi": 4.75,
+   "chg": 25,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230201a.htm"
+  },
+  {
+   "d": "2023-03-22",
+   "lo": 4.75,
+   "hi": 5,
+   "chg": 25,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230322a.htm"
+  },
+  {
+   "d": "2023-05-03",
+   "lo": 5,
+   "hi": 5.25,
+   "chg": 25,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230503a.htm"
+  },
+  {
+   "d": "2023-06-14",
+   "lo": 5,
+   "hi": 5.25,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230614a.htm"
+  },
+  {
+   "d": "2023-07-26",
+   "lo": 5.25,
+   "hi": 5.5,
+   "chg": 25,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm"
+  },
+  {
+   "d": "2023-09-20",
+   "lo": 5.25,
+   "hi": 5.5,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230920a.htm"
+  },
+  {
+   "d": "2023-11-01",
+   "lo": 5.25,
+   "hi": 5.5,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20231101a.htm"
+  },
+  {
+   "d": "2023-12-13",
+   "lo": 5.25,
+   "hi": 5.5,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20231213a.htm"
+  },
+  {
+   "d": "2024-01-31",
+   "lo": 5.25,
+   "hi": 5.5,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240131a.htm"
+  },
+  {
+   "d": "2024-03-20",
+   "lo": 5.25,
+   "hi": 5.5,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240320a.htm"
+  },
+  {
+   "d": "2024-05-01",
+   "lo": 5.25,
+   "hi": 5.5,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240501a.htm"
+  },
+  {
+   "d": "2024-06-12",
+   "lo": 5.25,
+   "hi": 5.5,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240612a.htm"
+  },
+  {
+   "d": "2024-07-31",
+   "lo": 5.25,
+   "hi": 5.5,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240731a.htm"
+  },
+  {
+   "d": "2024-09-18",
+   "lo": 4.75,
+   "hi": 5,
+   "chg": -50,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm"
+  },
+  {
+   "d": "2024-11-07",
+   "lo": 4.5,
+   "hi": 4.75,
+   "chg": -25,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241107a.htm"
+  },
+  {
+   "d": "2024-12-18",
+   "lo": 4.25,
+   "hi": 4.5,
+   "chg": -25,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241218a.htm"
+  },
+  {
+   "d": "2025-01-29",
+   "lo": 4.25,
+   "hi": 4.5,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250129a.htm"
+  },
+  {
+   "d": "2025-03-19",
+   "lo": 4.25,
+   "hi": 4.5,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250319a.htm"
+  },
+  {
+   "d": "2025-05-07",
+   "lo": 4.25,
+   "hi": 4.5,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250507a.htm"
+  },
+  {
+   "d": "2025-06-18",
+   "lo": 4.25,
+   "hi": 4.5,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250618a.htm"
+  },
+  {
+   "d": "2025-07-30",
+   "lo": 4.25,
+   "hi": 4.5,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250730a.htm"
+  },
+  {
+   "d": "2025-09-17",
+   "lo": 4,
+   "hi": 4.25,
+   "chg": -25,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250917a.htm"
+  },
+  {
+   "d": "2025-10-29",
+   "lo": 3.75,
+   "hi": 4,
+   "chg": -25,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251029a.htm"
+  },
+  {
+   "d": "2025-12-10",
+   "lo": 3.5,
+   "hi": 3.75,
+   "chg": -25,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251210a.htm"
+  },
+  {
+   "d": "2026-01-28",
+   "lo": 3.5,
+   "hi": 3.75,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128a.htm"
+  },
+  {
+   "d": "2026-03-18",
+   "lo": 3.5,
+   "hi": 3.75,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm"
+  },
+  {
+   "d": "2026-04-29",
+   "lo": 3.5,
+   "hi": 3.75,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm"
+  },
+  {
+   "d": "2026-06-17",
+   "lo": 3.5,
+   "hi": 3.75,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+  },
+  {
+   "d": "2026-07-29",
+   "lo": 3.5,
+   "hi": 3.75,
+   "chg": 0,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
+  },
+  {
+   "d": "2026-09-16",
+   "lo": 3.75,
+   "hi": 4,
+   "chg": 25,
+   "src": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+  }
+ ],
+ "fomc_future": [
+  "2026-10-28",
+  "2026-12-09",
+  "2027-01-27",
+  "2027-03-17",
+  "2027-04-28",
+  "2027-06-09",
+  "2027-07-28",
+  "2027-09-15",
+  "2027-10-27",
+  "2027-12-08"
+ ],
+ "cpi": [
+  "2023-01-12",
+  "2023-02-14",
+  "2023-03-14",
+  "2023-04-12",
+  "2023-05-10",
+  "2023-06-13",
+  "2023-07-12",
+  "2023-08-10",
+  "2023-09-13",
+  "2023-10-12",
+  "2023-11-14",
+  "2023-12-12",
+  "2024-01-11",
+  "2024-02-13",
+  "2024-03-12",
+  "2024-04-10",
+  "2024-05-15",
+  "2024-06-12",
+  "2024-07-11",
+  "2024-08-14",
+  "2024-09-11",
+  "2024-10-10",
+  "2024-11-13",
+  "2024-12-11",
+  "2025-01-15",
+  "2025-02-12",
+  "2025-03-12",
+  "2025-04-10",
+  "2025-05-13",
+  "2025-06-11",
+  "2025-07-15",
+  "2025-08-12",
+  "2025-09-11",
+  "2025-10-24",
+  "2025-12-18",
+  "2026-01-13",
+  "2026-02-13",
+  "2026-03-11",
+  "2026-04-10",
+  "2026-05-12",
+  "2026-06-10",
+  "2026-07-14",
+  "2026-08-12",
+  "2026-09-11",
+  "2026-10-14",
+  "2026-11-10",
+  "2026-12-10"
+ ],
+ "jobs": [
+  "2023-01-06",
+  "2023-02-03",
+  "2023-03-10",
+  "2023-04-07",
+  "2023-05-05",
+  "2023-06-02",
+  "2023-07-07",
+  "2023-08-04",
+  "2023-09-01",
+  "2023-10-06",
+  "2023-11-03",
+  "2023-12-08",
+  "2024-01-05",
+  "2024-02-02",
+  "2024-03-08",
+  "2024-04-05",
+  "2024-05-03",
+  "2024-06-07",
+  "2024-07-05",
+  "2024-08-02",
+  "2024-09-06",
+  "2024-10-04",
+  "2024-11-01",
+  "2024-12-06",
+  "2025-01-10",
+  "2025-02-07",
+  "2025-03-07",
+  "2025-04-04",
+  "2025-05-02",
+  "2025-06-06",
+  "2025-07-03",
+  "2025-08-01",
+  "2025-09-05",
+  "2025-11-20",
+  "2025-12-16",
+  "2026-01-09",
+  "2026-02-11",
+  "2026-03-06",
+  "2026-04-03",
+  "2026-05-08",
+  "2026-06-05",
+  "2026-07-02",
+  "2026-08-07",
+  "2026-09-04",
+  "2026-10-02",
+  "2026-11-06",
+  "2026-12-04"
+ ],
+ "gdp": [
+  "2023-01-26",
+  "2023-04-27",
+  "2023-07-27",
+  "2023-10-26",
+  "2024-01-25",
+  "2024-04-25",
+  "2024-07-25",
+  "2024-10-30",
+  "2025-01-30",
+  "2025-04-30",
+  "2025-07-30",
+  "2025-12-23",
+  "2026-02-20",
+  "2026-04-30",
+  "2026-07-30",
+  "2026-10-29"
+ ],
+ "sources": [
+  "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+  "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+  "https://www.federalreserve.gov/monetarypolicy/fomchistorical2020.htm",
+  "https://www.bls.gov/bls/news-release/cpi.htm",
+  "https://www.bls.gov/bls/news-release/empsit.htm",
+  "https://www.bls.gov/schedule/news_release/cpi.htm",
+  "https://www.bls.gov/schedule/news_release/empsit.htm",
+  "https://fred.stlouisfed.org/releases/calendar?rid=10&y=2025&view=year",
+  "https://fred.stlouisfed.org/releases/calendar?rid=50&y=2025&view=year",
+  "https://www.bea.gov/news/archive?field_related_product_target_id=451",
+  "https://www.bea.gov/news/schedule"
+ ],
+ "notes": "FOMC: d is the statement day; every statement page was fetched and the range cross-checked against the Fed open market table (which lists the effective date, one day later). 2020-03-03 and 2020-03-15 were unscheduled meetings (the Fed historical page labels the first 'March 2'; the statement is dated March 3); the scheduled 17-18 March 2020 meeting was cancelled; notation votes without a rate change (19, 23, 31 March 2020; 27 Aug 2020; 22 Aug 2025) are omitted. 2027 FOMC dates are tentative per the Fed. CPI/jobs: actual dates from the BLS release archives through the August 2026 reference month; 2026-10-14, 2026-11-10, 2026-12-10 (CPI) and 2026-10-02, 2026-11-06, 2026-12-04 (jobs) are scheduled dates from the BLS schedule pages; the 2026-10-02 jobs release was scheduled but not yet seen in the BLS archive when checked. BLS has not published a 2027 schedule (bls.gov/schedule/2027/home.htm returned 404). 2025 shutdown: October 2025 CPI and October 2025 Employment Situation releases were not published; September 2025 CPI came 2025-10-24, November 2025 CPI 2025-12-18, September 2025 jobs 2025-11-20, November 2025 jobs 2025-12-16; there was no CPI release in November 2025 and no jobs release in October 2025. GDP: advance-estimate dates from the BEA news archive; 2025-12-23 is the Q3 2025 'initial estimate' that replaced the advance estimate after the shutdown; 2026-10-29 is scheduled (Q3 2026); BEA has not published 2027 dates."
+}

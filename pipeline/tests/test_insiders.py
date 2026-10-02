@@ -113,3 +113,10 @@ def test_fix_prices_reads_total_in_price_box():
     # too few trades to compare with: the market price is the reference
     assert insiders.fix_prices([junk], 40.0) == []
     assert insiders.fix_prices([junk]) == [junk]
+
+
+def test_project_earnings_uses_last_years_rhythm():
+    dates = ["2025-07-30", "2025-10-29", "2026-01-28", "2026-04-29", "2026-07-29"]
+    assert insiders.project_earnings(dates, "2026-10-02") == "2026-10-28"
+    assert insiders.project_earnings(dates, "2026-11-15") is None  # the estimate is already past
+    assert insiders.project_earnings(dates[:3], "2026-10-02") is None

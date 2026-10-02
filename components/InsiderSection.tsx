@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { type InsiderFile, insiderName, insiderSum } from "@/lib/data";
+import { type InsiderFile, insiderLabel, insiderSum } from "@/lib/data";
 import { usdShort } from "@/lib/format";
 import { dict, fmt, type Locale } from "@/lib/i18n";
 
@@ -77,10 +77,10 @@ export default function InsiderSection({
                   <td>
                     {r[11] ? (
                       <Link prefetch={false} href={`/${locale}/insider/${r[11]}`} className="font-medium hover:underline">
-                        {insiderName(r[2])}
+                        {insiderLabel(r[11], r[2], locale)}
                       </Link>
                     ) : (
-                      <div className="font-medium">{insiderName(r[2])}</div>
+                      <div className="font-medium">{insiderLabel(r[11], r[2], locale)}</div>
                     )}
                     <div className="max-w-[240px] truncate text-[11px] text-faint">{role(r[3], r[4])}</div>
                   </td>

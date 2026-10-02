@@ -7,13 +7,15 @@ export interface Watch {
   m: string[];
   /** followed stocks (symbols) */
   s: string[];
+  /** followed company insiders (SEC numbers) */
+  i: string[];
   /** newest filing date already seen on the following page */
   seen: string;
 }
 
 const KEY = "otw:v1";
 const EVENT = "otw-change";
-const EMPTY: Watch = { m: [], s: [], seen: "" };
+const EMPTY: Watch = { m: [], s: [], i: [], seen: "" };
 let cache: Watch | null = null;
 let raw: string | null = null;
 
@@ -29,7 +31,7 @@ function read(): Watch {
   raw = r;
   try {
     const v = r ? (JSON.parse(r) as Partial<Watch>) : {};
-    cache = { m: Array.isArray(v.m) ? v.m : [], s: Array.isArray(v.s) ? v.s : [], seen: typeof v.seen === "string" ? v.seen : "" };
+    cache = { m: Array.isArray(v.m) ? v.m : [], s: Array.isArray(v.s) ? v.s : [], i: Array.isArray(v.i) ? v.i : [], seen: typeof v.seen === "string" ? v.seen : "" };
   } catch {
     cache = EMPTY;
   }
@@ -64,7 +66,7 @@ export function useWatch(): Watch {
   return useSyncExternalStore(subscribe, read, () => EMPTY);
 }
 
-export function toggleWatch(kind: "m" | "s", id: string): boolean {
+export function toggleWatch(kind: "m" | "s" | "i", id: string): boolean {
   const w = read();
   const on = w[kind].includes(id);
   write({ ...w, [kind]: on ? w[kind].filter((x) => x !== id) : [id, ...w[kind]] });

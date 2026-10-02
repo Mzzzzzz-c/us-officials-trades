@@ -398,6 +398,10 @@ export interface InsiderFile {
   /** [trade date, filed, name, relationship letters (D director, O officer, T 10% owner), title, P|S, shares, price, value, 10b5-1 plan, accession, the person's SEC number (0 if unknown)] */
   tx: [string, string, string, string, string, "P" | "S", number, number, number, 0 | 1, string, number?][];
   earn: string[];
+  /** major 8-K announcements: [date, item numbers, accession] */
+  ev?: [string, string, string][];
+  /** the next earnings date: [date, "pre" | "post" | "", "cal" (announced) | "est" (projected from last year)] */
+  next?: [string, string, "cal" | "est"] | null;
   /** false until the company's own filing index has been read (recent months may be missing) */
   full: boolean;
 }
@@ -423,11 +427,24 @@ export interface InsidersIndex {
   both: { sym: string; off: string[]; nob: number; ins: number; nib: number; vb: number; last: string }[];
   top: { sym: string; who: string; rel: string; title: string; td: string; fd: string; val: number; n: number; acc: string; cik: number; oc?: number }[];
   people?: number;
+  /** next earnings dates, soonest first: [date, symbol, "pre" | "post" | "", "cal" | "est"] */
+  upcoming?: [string, string, string, "cal" | "est"][];
 }
 export const getInsider = (sym: string) => (safe(sym) ? read<InsiderFile>(`insider/${sym}.json`) : null);
+export interface SiteEvents {
+  macro: {
+    fomc?: { d: string; lo: number; hi: number; chg: number; src: string }[];
+    fomc_future?: string[];
+    cpi?: string[];
+    jobs?: string[];
+    gdp?: string[];
+  };
+  company: { d: string; syms: string[]; kind: "antitrust" | "subsidy" | "export" | "stake"; en: string; zh: string; src: string }[];
+}
+export const getEvents = () => read<SiteEvents>("events.json") ?? { macro: {}, company: [] };
 export const getInsiders = () => read<InsidersIndex>("insiders.json");
-/** One company insider: [SEC number, name as filed, relationship letters, title, stocks (largest first), buys, sells, bought $, sold $, last trade]. */
-export type InsiderPerson = [number, string, string, string, string[], number, number, number, number, string];
+/** One company insider: [SEC number, name as filed, relationship letters, title, stocks (largest first), buys, sells, bought $, sold $, last trade, everyday name, Chinese name]. The last two exist only for people matched in Wikidata. */
+export type InsiderPerson = [number, string, string, string, string[], number, number, number, number, string, string?, string?];
 let insiderPeople: { asof: string; people: InsiderPerson[]; byId: Map<number, InsiderPerson> } | null = null;
 export function getInsiderPeople() {
   if (!insiderPeople) {
@@ -445,6 +462,11 @@ export const insiderName = (s: string) =>
     .replace(/\b(Ii|Iii|Iv|Llc|Lp|Llp|Gp|Plc|Sa|Ag|Nv|Usa|Lllp)\b/g, (m) => m.toUpperCase())
     .replace(/\bL\.l\.c\./g, "L.L.C.")
     .replace(/\bL\.p\./g, "L.P.");
+/** The name to show: the Chinese or everyday name when the person is known, else the name as filed. */
+export function insiderLabel(oc: number | undefined, filed: string, locale?: "zh" | "en"): string {
+  const p = oc ? getInsiderPeople().byId.get(oc) : undefined;
+  return (locale === "zh" && p?.[11]) || p?.[10] || insiderName(filed);
+}
 /** A title worth showing ("See Remarks" is what filers type when theirs did not fit the form). */
 export function insiderTitle(ttl: string): string {
   const s = (ttl ?? "").trim();

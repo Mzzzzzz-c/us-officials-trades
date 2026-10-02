@@ -39,6 +39,10 @@ BULK_DIR = CACHE / "form345"
 QUARTERS = 8  # two years of history
 KEEP_DAYS = 730
 MAX_ROWS = 600  # per stock on the site
+# 8-K items worth a mark on a stock's timeline (earnings, item 2.02, are kept separately)
+KEY_ITEMS = {"1.01", "1.02", "1.03", "2.01", "2.05", "2.06", "3.01", "4.01", "4.02", "5.01", "5.02"}
+EVENTS_SINCE = "2023-01-01"
+NASDAQ_CAL = "https://api.nasdaq.com/api/calendar/earnings?date={d}"
 MONTHS = {m: i + 1 for i, m in enumerate("JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC".split())}
 
 csv.field_size_limit(10_000_000)
@@ -239,6 +243,7 @@ def update_recent(s, ciks: list[int], bulk_end: str | None, budget: int) -> dict
     filings: dict = state.setdefault("filings", {})
     checked: dict = state.setdefault("checked", {})
     earn = read_json(REF / "earnings.json", {}) or {}
+    ev8: dict = read_json(REF / "company_8k.json", {}) or {}
     today = today_iso()
     since = bulk_end or (dt.date.today() - dt.timedelta(days=120)).isoformat()
     # filings now covered by a quarterly data set are no longer needed here
@@ -257,7 +262,8 @@ def update_recent(s, ciks: list[int], bulk_end: str | None, budget: int) -> dict
     def company(job: tuple[int, int]) -> None:
         rank, cik = job
         key = str(cik)
-        if not _due(checked.get(key), rank, today) or not spend():
+        # a company never read for its 8-K events is read once more
+        if not (_due(checked.get(key), rank, today) or key not in ev8) or not spend():
             return
         try:
             r = http.get(s, f"https://data.sec.gov/submissions/CIK{cik:010d}.json", timeout=60)
@@ -269,6 +275,11 @@ def update_recent(s, ciks: list[int], bulk_end: str | None, budget: int) -> dict
             return
         forms, dates, accs, docs, items = (rec.get(k, []) for k in ("form", "filingDate", "accessionNumber", "primaryDocument", "items"))
         got = {d for f, d, it in zip(forms, dates, items) if f == "8-K" and "2.02" in (it or "")}
+        major = []
+        for f, d, a, it in zip(forms, dates, accs, items):
+            keep = sorted(KEY_ITEMS & set((it or "").split(",")))
+            if f == "8-K" and keep and d >= EVENTS_SINCE:
+                major.append([d, ",".join(keep), a])
         todo = [(a, d, doc) for f, d, a, doc in zip(forms, dates, accs, docs) if f == "4" and d > since and a not in filings][:150]
         parsed, complete = {}, True
         for acc, fd, doc in todo:
@@ -286,6 +297,9 @@ def update_recent(s, ciks: list[int], bulk_end: str | None, budget: int) -> dict
         with lock:
             if got:
                 earn[key] = sorted(set(earn.get(key, [])) | got)
+            old = {e[2]: e for e in ev8.get(key, [])}
+            old.update({e[2]: e for e in major})
+            ev8[key] = sorted(old.values())
             filings.update(parsed)
             count["new"] += len(parsed)
             if complete:
@@ -295,6 +309,7 @@ def update_recent(s, ciks: list[int], bulk_end: str | None, budget: int) -> dict
                 count["saved"] = time.monotonic()
                 write_json(REF / "insiders_recent.json", state)
                 write_json(REF / "earnings.json", earn)
+                write_json(REF / "company_8k.json", ev8)
                 log.info("insiders: %d requests, %d filings, %d companies", count["used"], len(filings), len(checked))
 
     # a few workers overlap the network waits; http.polite() still spaces requests to each host
@@ -303,7 +318,65 @@ def update_recent(s, ciks: list[int], bulk_end: str | None, budget: int) -> dict
     used, new = count["used"], count["new"]
     write_json(REF / "insiders_recent.json", state)
     write_json(REF / "earnings.json", earn)
+    write_json(REF / "company_8k.json", ev8)
     return {"requests": used, "new_filings": new, "companies_checked": len(checked)}
+
+
+def update_calendar(days: int = 75) -> dict:
+    """Announced earnings dates for the coming weeks from Nasdaq's public calendar (dates only).
+    {sym: [date, "pre" | "post" | ""]}; dates already past are dropped, the rest kept if a day fails."""
+    import requests
+
+    cal = read_json(REF / "earnings_next.json", {}) or {}
+    today = dt.date.fromisoformat(today_iso())
+    dates: dict = {k: v for k, v in (cal.get("dates") or {}).items() if v[0] >= today.isoformat()}
+    s = requests.Session()
+    s.headers.update({"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36", "Accept": "application/json"})
+    ok = fail = 0
+    seen: set[str] = set()
+    for k in range(days):
+        day = today + dt.timedelta(days=k)
+        if day.weekday() >= 5:
+            continue
+        try:
+            r = http.get(s, NASDAQ_CAL.format(d=day.isoformat()), timeout=20)
+            rows = ((r.json().get("data") or {}).get("rows") or []) if r.status_code == 200 else None
+        except Exception:  # noqa: BLE001
+            rows = None
+        if rows is None:
+            fail += 1
+            if fail >= 4 and not ok:
+                break  # blocked from here: keep what we have
+            continue
+        ok += 1
+        for row in rows:
+            sym = (row.get("symbol") or "").strip().upper().replace("/", ".")
+            if not sym or sym in seen:
+                continue
+            seen.add(sym)
+            when = {"time-pre-market": "pre", "time-after-hours": "post"}.get(row.get("time") or "", "")
+            dates[sym] = [day.isoformat(), when]
+    if ok:
+        # a company the calendar no longer lists on its old date has moved or reported
+        first, last = today.isoformat(), (today + dt.timedelta(days=days)).isoformat()
+        dates = {k: v for k, v in dates.items() if k in seen or not (first <= v[0] <= last) or fail}
+        write_json(REF / "earnings_next.json", {"asof": today.isoformat(), "dates": dates})
+    return {"days_ok": ok, "days_failed": fail, "companies": len(dates)}
+
+
+def project_earnings(dates: list[str], today: str) -> str | None:
+    """Next release estimated from the same quarter a year earlier (companies report on a steady
+    yearly rhythm); None when there is too little history or the estimate is already past."""
+    if len(dates) < 4:
+        return None
+    last = dt.date.fromisoformat(dates[-1])
+    # the release that followed the latest one, a year ago: the first date more than 45 days
+    # after (latest - 1 year)
+    for d in dates:
+        guess = dt.date.fromisoformat(d) + dt.timedelta(days=364)
+        if guess > last + dt.timedelta(days=45):
+            return guess.isoformat() if guess.isoformat() > today and guess < last + dt.timedelta(days=150) else None
+    return None
 
 
 def fill_owner_ids(s, bulk: list[dict], budget: int) -> dict:
@@ -397,6 +470,8 @@ def export_site(bulk: list[dict], trades: list[dict], companies: dict, symbols: 
     recent = (read_json(REF / "insiders_recent.json", {}) or {}).get("filings", {})
     checked = (read_json(REF / "insiders_recent.json", {}) or {}).get("checked", {})
     earn = read_json(REF / "earnings.json", {}) or {}
+    ev8 = read_json(REF / "company_8k.json", {}) or {}
+    upcoming = (read_json(REF / "earnings_next.json", {}) or {}).get("dates", {})
     today = today_iso()
     floor = (dt.date.fromisoformat(today) - dt.timedelta(days=KEEP_DAYS)).isoformat()
 
@@ -428,6 +503,7 @@ def export_site(bulk: list[dict], trades: list[dict], companies: dict, symbols: 
     people: dict[int, dict] = {}
     people_done: set[int] = set()
     fixed: set[int] = set()
+    coming: list[list] = []
     market = (read_json(SITE / "latest-prices.json", {}) or {}).get("px", {})
     for sym in symbols:
         cik = (companies.get(sym) or {}).get("cik")
@@ -438,7 +514,15 @@ def export_site(bulk: list[dict], trades: list[dict], companies: dict, symbols: 
             by_cik[int(cik)] = fix_prices(by_cik.get(int(cik), []), market.get(sym))
         rows = sorted(by_cik.get(int(cik), []), key=lambda r: (r["td"], r["fd"] or ""), reverse=True)
         dates = [d for d in earn.get(str(cik), []) if d >= "2019-06-01"]
-        if not rows and not dates:
+        events = ev8.get(str(cik), [])
+        nxt = None
+        if sym in upcoming and upcoming[sym][0] >= today:
+            nxt = [upcoming[sym][0], upcoming[sym][1], "cal"]
+        elif (guess := project_earnings(dates, today)):
+            nxt = [guess, "", "est"]
+        if nxt:
+            coming.append([nxt[0], sym, nxt[1], nxt[2]])
+        if not rows and not dates and not events:
             continue
         summ = summarise(rows, today)
         tx = [[r["td"], r["fd"], r["who"], r["rel"], r["title"], r["code"], round(r["sh"]), round(r["px"], 2), round(r["sh"] * r["px"]), 1 if r.get("plan") else 0, r["acc"], r.get("oc") or 0]
@@ -458,6 +542,9 @@ def export_site(bulk: list[dict], trades: list[dict], companies: dict, symbols: 
         # worked out by the page), so the daily commit touches few files.
         write_json(out_dir / f"{sym}.json", {
             "cik": int(cik), "tx": tx, "earn": dates,
+            # major 8-K announcements [date, items, accession] and the next earnings date
+            # [date, pre|post, cal (announced) | est (projected from last year)]
+            "ev": events, "next": nxt,
             # false until this company's own index has been read: the months after the last
             # quarterly data set are then still missing
             "full": str(cik) in checked,
@@ -483,16 +570,21 @@ def export_site(bulk: list[dict], trades: list[dict], companies: dict, symbols: 
             seen_top.add(k)
             uniq.append(b)
     top = uniq
-    write_json(SITE / "insiders.json", {"asof": today, "bulk_end": bulk_end, "both": both[:60], "top": top[:40], "stocks": written, "people": len(people)})
+    write_json(SITE / "insiders.json", {"asof": today, "bulk_end": bulk_end, "both": both[:60], "top": top[:40], "stocks": written, "people": len(people),
+                                        # next earnings dates [date, symbol, pre|post, cal|est], soonest first
+                                        "upcoming": sorted(coming)})
+    write_json(SITE / "events.json", {"macro": read_json(REF / "macro_events.json", {}) or {}, "company": read_json(REF / "company_events.json", []) or []})
     # One line per insider for the list and profile pages; their trades stay in the per-stock files.
     # [id, name, relationship, title, stocks (largest first), buys, sells, bought $, sold $, last trade]
+    # [..., everyday name, Chinese name] for the few hundred people Wikidata knows (scripts/insider_wikidata.py)
+    known = read_json(REF / "insider_names.json", {}) or {}
     index = []
     for oc, p in people.items():
         cos = sorted(p["cos"].items(), key=lambda kv: kv[1]["vb"] + kv[1]["vs"], reverse=True)
         main = cos[0][1]
         index.append([oc, p["name"], "".join(c for c in "DOT" if any(c in v["rel"] for _, v in cos)) or "X", main["title"], [k for k, _ in cos],
                       sum(v["b"] for _, v in cos), sum(v["s"] for _, v in cos), sum(v["vb"] for _, v in cos), sum(v["vs"] for _, v in cos),
-                      max(v["last"] for _, v in cos)])
+                      max(v["last"] for _, v in cos), known.get(str(oc), {}).get("en", ""), known.get(str(oc), {}).get("zh", "")])
     index.sort(key=lambda r: (r[9], r[7] + r[8]), reverse=True)
     write_json(SITE / "insider-people.json", {"asof": today, "people": index})
     return {"stocks": written, "both": len(both), "top_buys": len(top), "people": len(index)}
@@ -520,6 +612,11 @@ def update(trades: list[dict], fetch: bool = True) -> dict:
                 seen.add(cik)
                 ciks.append(int(cik))
         report["recent"] = update_recent(s, ciks, bulk_end, int(os.environ.get("INSIDER_BUDGET", "5000")))
+    if fetch:
+        try:
+            report["calendar"] = update_calendar()
+        except Exception as e:  # noqa: BLE001
+            log.warning("insiders: earnings calendar: %s", e)
     report["owner_ids"] = fill_owner_ids(s, bulk, int(os.environ.get("INSIDER_BUDGET", "5000")))
     report["site"] = export_site(bulk, trades, companies, symbols, bulk_end)
     return report

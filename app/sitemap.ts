@@ -17,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/investors",
     "/data",
     "/weekly",
+    "/calendar",
     "/committees",
     "/insiders",
     // the insiders with the largest trades; the rest are reachable from the list and the stock pages

@@ -10,6 +10,8 @@ import { Note, Pct, Section, Stat } from "@/components/ui";
 import { getInvestor, getInvestors, getLatestPrices, getMedia, getTickers, type InvestorHolding } from "@/lib/data";
 import { priceRange, quarterLabel, shares, since, usdShort } from "@/lib/format";
 import { dict, isLocale, type Locale } from "@/lib/i18n";
+import Timeline from "@/components/client/Timeline";
+import { investorItems, stockChips, tlLabels } from "@/lib/timeline";
 import { tickerRow } from "@/lib/people";
 
 export const dynamicParams = true;
@@ -40,6 +42,7 @@ export default async function InvestorPage({ params }: { params: Promise<{ local
   if (!isLocale(locale)) notFound();
   const d = getInvestor(id);
   if (!d) notFound();
+  const tlItems = investorItems(d.activity, locale);
   const t = dict(locale);
   const p = d.profile;
   const { px, pc = {} } = getLatestPrices();
@@ -214,6 +217,15 @@ export default async function InvestorPage({ params }: { params: Promise<{ local
           </table>
         </div>
       </Section>
+
+      {tlItems.length > 0 && (
+        <Section title={t.tl.title} id="timeline">
+          <p className="mb-4 max-w-2xl text-[15px] text-muted">{t.tl.sub}</p>
+          <div className="card p-4 sm:p-6">
+            <Timeline items={tlItems} lanes={[t.tl.lanes.trades]} stocks={stockChips(tlItems, locale)} labels={tlLabels(locale)} locale={locale} today={new Date().toISOString().slice(0, 10)} poster={{ src: `/${locale}/poster/timeline/investor/${d.profile.id}`, path: `/${locale}/investor/${d.profile.id}`, text: `${locale === "zh" ? d.profile.zh : d.profile.en} · ${t.tl.title} · ${t.siteName}`, label: t.tl.poster, labels: t.share }} />
+          </div>
+        </Section>
+      )}
 
       {d.activity.length > 0 && (
         <Section title={t.investors.activityTitle}>

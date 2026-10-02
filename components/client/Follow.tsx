@@ -19,8 +19,8 @@ export function StarIcon({ filled, size = 16 }: { filled?: boolean; size?: numbe
   );
 }
 
-/** Follow / Following toggle for an official ("m") or a stock ("s"). */
-export function FollowButton({ kind, id, labels, compact = false }: { kind: "m" | "s"; id: string; labels: { follow: string; following: string; unfollow: string }; compact?: boolean }) {
+/** Follow / Following toggle for an official ("m"), a stock ("s") or a company insider ("i"). */
+export function FollowButton({ kind, id, labels, compact = false }: { kind: "m" | "s" | "i"; id: string; labels: { follow: string; following: string; unfollow: string }; compact?: boolean }) {
   const w = useWatch();
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);

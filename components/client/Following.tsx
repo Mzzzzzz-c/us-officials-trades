@@ -9,6 +9,20 @@ import { feedUrl, markSeen, toggleWatch, useWatch } from "@/lib/watch";
 import { FollowButton, followedRows, StarIcon } from "./Follow";
 
 type L = Record<string, string>;
+interface Insider {
+  id: number;
+  filed: string;
+  en: string;
+  zh: string;
+  title: string;
+  rel: string;
+  syms: string[];
+  logo: number;
+  photo: number;
+  /** [trade date, filed, symbol, P|S, shares, price, value] */
+  tx: [string, string, string, "P" | "S", number, number, number][];
+}
+const money = (n: number) => (n >= 999.5e6 ? `$${(n / 1e9).toFixed(2)}B` : n >= 999.5e3 ? `$${(n / 1e6).toFixed(n >= 1e7 ? 1 : 2)}M` : n >= 1000 ? `$${Math.round(n / 1e3)}K` : `$${Math.round(n)}`);
 
 export default function Following({
   locale,
@@ -29,10 +43,26 @@ export default function Following({
   const [idx, setIdx] = useState<{ p: Map<string, P>; s: Map<string, S> } | null>(null);
   const [failed, setFailed] = useState(false);
   const [limit, setLimit] = useState(40);
+  const [ins, setIns] = useState<Insider[] | null>(null);
   // what counted as "seen" when the page opened; marking seen below must not hide the badges
   const seenAtOpen = useRef<string | null>(null);
 
   useEffect(() => setMounted(true), []);
+  const insiderKey = w.i.join(",");
+  useEffect(() => {
+    if (!insiderKey) {
+      setIns([]);
+      return;
+    }
+    let live = true;
+    fetch(`/api/insiders?ids=${insiderKey}`)
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then((d: { people: Insider[] }) => live && setIns(d.people))
+      .catch(() => live && setIns([]));
+    return () => {
+      live = false;
+    };
+  }, [insiderKey]);
   useEffect(() => {
     Promise.all([loadFeed(), loadIndex(locale)])
       .then(([f, i]) => {
@@ -51,7 +81,7 @@ export default function Following({
   }, [mounted, feed, rows, w.seen]);
 
   const L = (p: string) => `/${locale}${p}`;
-  const any = w.m.length + w.s.length > 0;
+  const any = w.m.length + w.s.length + w.i.length > 0;
   if (!mounted) return <div className="skeleton h-40 rounded-2xl" />;
 
   const person = (id: string) => idx?.p.get(id);
@@ -96,7 +126,51 @@ export default function Following({
         </section>
       )}
 
-      {any ? (
+      {w.i.length ? (
+        <section>
+          <h2 className="title-1">{t.insiders}</h2>
+          <p className="mt-2 mb-6 text-[15px] text-muted">{t.insidersSub}</p>
+          {!ins ? (
+            <div className="skeleton h-[120px] rounded-2xl" />
+          ) : (
+            <div className="grid gap-4 lg:grid-cols-2">
+              {ins.map((p) => {
+                const name = (locale === "zh" && p.zh) || p.en || p.filed;
+                return (
+                  <div key={p.id} className="card p-4">
+                    <div className="flex items-center gap-3">
+                      <Avatar id={`ins-${p.id}`} name={p.filed} has={p.photo === 1} size={44} />
+                      <Link prefetch={false} href={L(`/insider/${p.id}`)} className="min-w-0 flex-1">
+                        <div className="truncate font-semibold">{name}</div>
+                        <div className="truncate text-xs text-muted">
+                          {p.syms.join(" · ")}
+                          {p.title ? ` · ${p.title}` : ""}
+                        </div>
+                      </Link>
+                      <FollowButton kind="i" id={String(p.id)} labels={{ follow: t.follow, following: t.following, unfollow: t.unfollow }} compact />
+                    </div>
+                    <ul className="mt-3 divide-y divide-hair text-[13px]">
+                      {p.tx.map((r, k) => (
+                        <li key={k} className="flex items-center gap-3 py-1.5">
+                          <span className="num w-[84px] shrink-0 text-muted">{r[0]}</span>
+                          <span className={`shrink-0 rounded-full px-2 py-0.5 text-[11px] font-semibold ${r[3] === "P" ? "bg-pos-soft text-pos" : "bg-neg-soft text-neg"}`}>{r[3] === "P" ? types.P : types.S}</span>
+                          <Link prefetch={false} href={L(`/ticker/${encodeURIComponent(r[2])}#insiders`)} className="font-semibold">
+                            {r[2]}
+                          </Link>
+                          <span className="num ml-auto font-medium">{money(r[6])}</span>
+                          {r[1] > seen ? <span className="size-1.5 shrink-0 rounded-full bg-accent" /> : null}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </section>
+      ) : null}
+
+      {w.m.length + w.s.length > 0 ? (
         <section>
           <h2 className="title-1">{t.updates}</h2>
           <p className="mt-2 mb-6 text-[15px] text-muted">{t.updatesSub}</p>

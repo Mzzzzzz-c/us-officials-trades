@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Container, PageHeader } from "@/components/layout";
 import { Avatar, Logo } from "@/components/media";
-import { getInsiderPeople, getMedia, insiderName, insiderTitle, type InsiderPerson } from "@/lib/data";
+import { getInsiderPeople, getMedia, insiderName, insiderTitle, tickerName, type InsiderPerson } from "@/lib/data";
 import { usdShort } from "@/lib/format";
 import { dict, fmt, isLocale } from "@/lib/i18n";
 
@@ -30,12 +30,24 @@ export default async function InsidersPage({ params, searchParams }: { params: P
   const sort: Sort = (SORTS as readonly string[]).includes(one(sp.sort)) ? (one(sp.sort) as Sort) : "recent";
   const role = ["D", "O", "T"].includes(one(sp.role)) ? one(sp.role) : "";
   const { people } = getInsiderPeople();
-  const logos = getMedia().logos;
+  const media = getMedia();
+  const logos = media.logos;
+  const nameOf = (p: InsiderPerson) => (locale === "zh" && p[11]) || p[10] || insiderName(p[1]);
+  const company = (sym: string) => tickerName(sym, locale) ?? "";
 
   const needle = q.toLowerCase();
   const ticker = q.toUpperCase();
   let list = people.filter(
-    (p) => (!role || p[2].includes(role)) && (!needle || p[1].toLowerCase().includes(needle) || p[3].toLowerCase().includes(needle) || p[4].includes(ticker)),
+    (p) =>
+      (!role || p[2].includes(role)) &&
+      (!needle ||
+        p[1].toLowerCase().includes(needle) ||
+        (p[10] ?? "").toLowerCase().includes(needle) ||
+        (p[11] ?? "").includes(q) ||
+        p[3].toLowerCase().includes(needle) ||
+        p[4].includes(ticker) ||
+        // a company name, in either language
+        (needle.length >= 2 && p[4].some((s) => (tickerName(s, "zh") ?? "").toLowerCase().includes(needle) || (tickerName(s, "en") ?? "").toLowerCase().includes(needle)))),
   );
   // the file is ordered by latest trade already
   const key = (p: InsiderPerson) => (sort === "buy" ? p[7] : sort === "sell" ? p[8] : p[5] + p[6]);
@@ -107,15 +119,19 @@ export default async function InsidersPage({ params, searchParams }: { params: P
             {shown.map((p) => (
               <Link key={p[0]} prefetch={false} href={`/${locale}/insider/${p[0]}`} className="tile flex flex-col items-center px-4 pt-6 pb-4 text-center">
                 <div className="relative">
-                  <Avatar id={`ins-${p[0]}`} name={insiderName(p[1])} size={88} />
+                  <Avatar id={`ins-${p[0]}`} name={p[10] || insiderName(p[1])} has={!!media.people[`ins-${p[0]}`]} size={88} />
                   <span className="absolute -right-1.5 -bottom-1.5 rounded-[10px] shadow-[0_0_0_3px_var(--surface)]">
                     <Logo sym={p[4][0]} kind={logos[p[4][0]]} size={32} />
                   </span>
                 </div>
-                <div className="mt-4 line-clamp-1 text-[16px] font-semibold tracking-tight">{insiderName(p[1])}</div>
-                <div className="mt-1 line-clamp-2 min-h-[2.5em] text-xs leading-snug text-muted">
-                  {p[4].slice(0, 3).join(" · ")}
-                  {p[4].length > 3 ? ` +${p[4].length - 3}` : ""} · {roleText(p)}
+                <div className="mt-4 line-clamp-1 text-[16px] font-semibold tracking-tight">{nameOf(p)}</div>
+                {locale === "zh" && p[11] ? <div className="line-clamp-1 text-[11px] text-faint">{p[10]}</div> : null}
+                <div className="mt-1 line-clamp-1 text-[13px] font-medium">
+                  {company(p[4][0]) || p[4][0]}
+                  {p[4].length > 1 ? <span className="text-faint"> +{p[4].length - 1}</span> : null}
+                </div>
+                <div className="line-clamp-1 text-xs leading-snug text-muted">
+                  {p[4][0]} · {roleText(p)}
                 </div>
                 <div className="mt-4 grid w-full grid-cols-3 gap-1 border-t border-hair pt-3">
                   <Mini label={i.bought} value={p[5] ? <span className="text-pos">{usdShort(p[7])}</span> : <span className="text-faint">—</span>} />

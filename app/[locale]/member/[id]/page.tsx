@@ -9,8 +9,10 @@ import { Container, Metric, SectionHead } from "@/components/layout";
 import { Avatar, Logo } from "@/components/media";
 import Positions from "@/components/Positions";
 import TradeTable from "@/components/TradeTable";
+import Timeline from "@/components/client/Timeline";
+import { officialItems, stockChips, tlLabels } from "@/lib/timeline";
 import { Note, Pct } from "@/components/ui";
-import { getLatestPrices, getMedia, getMember, getMembers, getTickers, slim } from "@/lib/data";
+import { getLatestPrices, getMedia, getMember, getMembers, getTickers, slim, getMeta } from "@/lib/data";
 import { amountRange, usdShort } from "@/lib/format";
 import { dict, fmt, isLocale } from "@/lib/i18n";
 import { committeeName, committeeTitle, roleLabel, stateName } from "@/lib/labels";
@@ -20,6 +22,7 @@ export const dynamicParams = true;
 
 // keeps the page light for the few filers with thousands of lines (the President reports ~9,000)
 const MAX_TRADES = 600;
+const TL_MAX = 500;
 // the President has ~800 reconstructed positions: show the ones still held, then the most recent
 const MAX_POSITIONS = 60;
 
@@ -64,6 +67,9 @@ export default async function MemberPage({ params }: { params: Promise<{ locale:
   for (const tr of shown) if (tr.sym && media.logos[tr.sym]) tradeMedia.l[tr.sym] = media.logos[tr.sym];
   const member = { [p.id]: { name: p.name, zh: p.zh, party: p.party, chamber: p.chamber, state: p.state, agency: p.agency, agency_zh: p.agency_zh } };
   const exec = p.chamber === "E";
+  const today = getMeta()?.generated?.slice(0, 10) ?? new Date().toISOString().slice(0, 10);
+  const dated = data.trades.filter((x) => x.tx);
+  const tlItems = officialItems([...dated].sort((a, b) => (a.tx! < b.tx! ? 1 : -1)).slice(0, TL_MAX), locale, "person");
   const partyLabel = t.party[p.party as keyof typeof t.party] ?? p.party;
   const horizons = ["30", "90", "180", "365"];
   const buy = data.perf.buy ?? {};
@@ -309,6 +315,17 @@ export default async function MemberPage({ params }: { params: Promise<{ locale:
             {data.positions.length > posShown.length ? <Note>{fmt(t.x.positionsCapped, { n: posShown.length, total: data.positions.length })}</Note> : null}
           </Reveal>
         )}
+
+        {/* ---------------------------------------------------------------- timeline */}
+        {tlItems.length ? (
+          <Reveal className="mt-14">
+            <SectionHead title={t.tl.title} sub={t.tl.sub} id="timeline" />
+            <div className="card p-4 sm:p-6">
+              <Timeline items={tlItems} lanes={[t.tl.lanes.trades]} stocks={stockChips(tlItems, locale)} labels={tlLabels(locale)} locale={locale} today={today} poster={{ src: `/${locale}/poster/timeline/member/${p.id}`, path: `/${locale}/member/${p.id}`, text: `${title} · ${t.tl.title} · ${t.siteName}`, label: t.tl.poster, labels: t.share }} />
+            </div>
+            {dated.length > TL_MAX ? <Note>{fmt(t.member.tradesCapped, { n: TL_MAX, total: dated.length })}</Note> : null}
+          </Reveal>
+        ) : null}
 
         {/* ---------------------------------------------------------------- trades */}
         {exec && data.trades.length === 0 ? null : (

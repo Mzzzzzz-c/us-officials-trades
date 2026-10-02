@@ -112,6 +112,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
               </span>
               <span className="flex flex-wrap gap-x-4 gap-y-1">
                 <Link className="hover:text-ink" prefetch={false} href={L("/weekly")}>{t.weekly.title}</Link>
+                <Link className="hover:text-ink" prefetch={false} href={L("/calendar")}>{t.cal.link}</Link>
                 <Link className="hover:text-ink" prefetch={false} href={L("/committees")}>{t.committee.listTitle}</Link>
                 <Link className="hover:text-ink" href={L("/methodology")}>{t.nav.methodology}</Link>
                 <a className="hover:text-ink" href={`${REPO_URL}/issues`} target="_blank" rel="noopener noreferrer">

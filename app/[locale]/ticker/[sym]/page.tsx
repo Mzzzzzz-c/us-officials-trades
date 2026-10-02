@@ -7,6 +7,9 @@ import { ExtendedPrice, LivePrice, QuoteRanges } from "@/components/client/Quote
 import Reveal from "@/components/client/Reveal";
 import StockChart, { type ChartEvent, type TradeMark } from "@/components/client/StockChart";
 import InsiderSection from "@/components/InsiderSection";
+import Timeline, { type TLEvent } from "@/components/client/Timeline";
+import { insiderItems, officialItems, tlLabels } from "@/lib/timeline";
+import { stockEvents } from "@/lib/timeline-events";
 import { Container, Metric, SectionHead } from "@/components/layout";
 import { Avatar, Logo } from "@/components/media";
 import TradeTable, { type MemberLite } from "@/components/TradeTable";
@@ -90,6 +93,13 @@ export default async function TickerPage({ params }: { params: Promise<{ locale:
     const k = txs.filter((x) => es.some((e) => e - x > 0 && e - x <= 30)).length;
     earnStat = { n: txs.length, k, base: Math.min(1, (30 * es.length) / Math.max(1, hi - lo)), releases: es.length };
   }
+  // the interactive timeline: officials in one lane, the company's insiders in the next
+  const today = insIndex?.asof ?? new Date().toISOString().slice(0, 10);
+  const offItems = officialItems(d.trades.filter((x) => x.tx).slice(0, 500), locale, "stock", 0);
+  const insItems = ins?.tx.length ? insiderItems(ins.tx.slice(0, 350), d.sym, ins.cik, locale, "stock", 1) : [];
+  const tlLanes = insItems.length ? [t.tl.lanes.officials, t.tl.lanes.insiders] : [t.tl.lanes.officials];
+  const tlItems = [...offItems, ...insItems];
+  const tlEvents: TLEvent[] = stockEvents(d.sym, d.sec, ins, locale);
   const cut90 = new Date(Date.now() - 90 * 864e5).toISOString().slice(0, 10);
   const off90 = {
     b: d.trades.filter((x) => x.type === "P" && (x.fil ?? "") >= cut90).length,
@@ -151,6 +161,15 @@ export default async function TickerPage({ params }: { params: Promise<{ locale:
             locale={locale}
           />
         </Reveal>
+
+        {tlItems.length ? (
+          <Reveal className="mt-14">
+            <SectionHead title={fmt(t.tl.stockTitle, { sym: d.sym })} sub={t.tl.stockSub} id="timeline" />
+            <div className="card p-4 sm:p-6">
+              <Timeline items={tlItems} events={tlEvents} lanes={tlLanes} price={series} priceSym={d.sym} labels={tlLabels(locale)} locale={locale} today={today} poster={{ src: `/${locale}/poster/timeline/ticker/${encodeURIComponent(d.sym)}`, path: `/${locale}/ticker/${encodeURIComponent(d.sym)}`, text: `${d.sym} ${name} · ${t.tl.title} · ${t.siteName}`, label: t.tl.poster, labels: t.share }} />
+            </div>
+          </Reveal>
+        ) : null}
 
         <div className="mt-10 grid grid-cols-2 gap-6 sm:grid-cols-4">
           <Metric label={t.ticker.trades} value={d.trades.length.toLocaleString()} />

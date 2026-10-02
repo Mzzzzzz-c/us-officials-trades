@@ -217,6 +217,9 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             <Link prefetch={false} href={L("/weekly")} className="ml-2 inline-flex items-center rounded-full bg-surface-2 px-3.5 py-1.5 text-[13px] font-semibold transition-colors hover:bg-surface-3">
               {t.weekly.home} ›
             </Link>
+            <Link prefetch={false} href={L("/calendar")} className="ml-2 inline-flex items-center rounded-full bg-surface-2 px-3.5 py-1.5 text-[13px] font-semibold transition-colors hover:bg-surface-3">
+              {t.cal.link} ›
+            </Link>
           </div>
         </Reveal>
         <Reveal className="card divide-y divide-hair overflow-hidden">

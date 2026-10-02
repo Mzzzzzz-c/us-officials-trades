@@ -2,12 +2,15 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Share from "@/components/client/Share";
+import { FollowButton } from "@/components/client/Follow";
 import Reveal from "@/components/client/Reveal";
-import StockChart, { type TradeMark } from "@/components/client/StockChart";
+import Timeline, { type TLEvent } from "@/components/client/Timeline";
 import { Container, Metric, SectionHead } from "@/components/layout";
 import { Avatar, Logo } from "@/components/media";
-import { getInsider, getInsiderPeople, getMedia, getSeries, getTicker, insiderName, insiderTitle, tickerName } from "@/lib/data";
+import { getInsider, getInsiderPeople, getMedia, getSeries, getTicker, insiderLabel, insiderName, insiderTitle, tickerName } from "@/lib/data";
 import { usdShort } from "@/lib/format";
+import { insiderItems, stockChips, tlLabels } from "@/lib/timeline";
+import { stockEvents } from "@/lib/timeline-events";
 import { dict, fmt, isLocale, type Locale } from "@/lib/i18n";
 
 // Tens of thousands of people: every page renders on first visit and is then cached.
@@ -42,7 +45,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const d = load(id);
   if (!d) return {};
   const t = dict(locale);
-  const name = insiderName(d.p[1]);
+  const name = (locale === "zh" && d.p[11]) || d.p[10] || insiderName(d.p[1]);
   return {
     title: `${name} · ${d.p[4][0]} ${t.insider.eyebrow}`,
     description: `${name} · ${d.p[4].slice(0, 4).join(", ")} · ${roleOf(d.p[2], d.p[3], locale)} · ${t.insider.bought} ${usdShort(d.p[7])} · ${t.insider.sold} ${usdShort(d.p[8])}`,
@@ -58,7 +61,9 @@ export default async function InsiderPage({ params }: { params: Promise<{ locale
   const i = t.insider;
   const { p, stocks } = d;
   const logos = getMedia().logos;
-  const name = insiderName(p[1]);
+  const media = getMedia();
+  const name = (locale === "zh" && p[11]) || p[10] || insiderName(p[1]);
+  const known = !!p[10];
   const main = stocks[0];
   const rows = stocks
     .flatMap((s) => s.tx.map((r) => ({ r, sym: s.sym, cik: s.cik })))
@@ -68,18 +73,9 @@ export default async function InsiderPage({ params }: { params: Promise<{ locale
   const net = p[7] - p[8];
   const first = rows.length ? rows[rows.length - 1].r[0] : "";
 
-  // this person's buys and sells per day, for the chart of the stock they traded most
-  const byDay = new Map<string, TradeMark>();
-  for (const r of main.tx) {
-    const mk = byDay.get(r[0]) ?? { d: r[0], b: 0, s: 0 };
-    if (r[5] === "P") mk.b += 1;
-    else mk.s += 1;
-    byDay.set(r[0], mk);
-  }
-  const marks = Array.from(byDay.values()).sort((a, b) => (a.d < b.d ? -1 : 1));
-  // trades older than a year would fall outside the default one-year view
-  const yearAgo = new Date(Date.parse(d.asof || new Date().toISOString()) - 365 * 864e5).toISOString().slice(0, 10);
-  const wide = marks.length > 0 && marks.filter((m) => m.d >= yearAgo).length < marks.length / 2;
+  const tlItems = stocks.flatMap((x) => insiderItems(x.tx, x.sym, x.cik, locale, "person"));
+  // earnings releases of the one company, so the timing of trades against results is visible
+  const tlEvents: TLEvent[] = stocks.length === 1 ? stockEvents(main.sym, undefined, main.file ?? null, locale, false).filter((e) => e.d >= (tlItems.length ? tlItems[tlItems.length - 1].d.slice(0, 4) : "2020")) : [];
   const series = getSeries(main.sym)?.w ?? [];
   const officialTrades = getTicker(main.sym)?.trades.length ?? 0;
 
@@ -102,7 +98,12 @@ export default async function InsiderPage({ params }: { params: Promise<{ locale
       <section className="bg-elev">
         <Container className="pt-12 pb-10 sm:pt-16">
           <div className="fade-up flex flex-wrap items-center gap-6">
-            <Avatar id={`ins-${p[0]}`} name={name} size={104} />
+            <div className="relative shrink-0">
+              <Avatar id={`ins-${p[0]}`} name={p[10] || insiderName(p[1])} has={!!media.people[`ins-${p[0]}`]} size={known ? 132 : 104} />
+              <span className="absolute -right-1.5 -bottom-1.5 rounded-[12px] shadow-[0_0_0_3px_var(--bg-elev)]">
+                <Logo sym={main.sym} kind={logos[main.sym]} size={40} />
+              </span>
+            </div>
             <div className="min-w-0 flex-1">
               <div className="eyebrow">{i.eyebrow}</div>
               <h1 className="headline break-words">{name}</h1>
@@ -112,7 +113,7 @@ export default async function InsiderPage({ params }: { params: Promise<{ locale
                   {main.sym} {tickerName(main.sym, locale) ?? ""}
                 </Link>
               </div>
-              <div className="mt-1 text-xs text-faint">{i.asFiled}</div>
+              <div className="mt-1 text-xs text-faint">{known ? `${locale === "zh" && p[11] ? `${p[10]} · ` : ""}${fmt(i.filedAs, { name: insiderName(p[1]) })}` : i.asFiled}</div>
               <div className="mt-3 flex flex-wrap items-center gap-2">
                 {[...p[2]].map((c) =>
                   i.rel[c as keyof typeof i.rel] ? (
@@ -121,7 +122,8 @@ export default async function InsiderPage({ params }: { params: Promise<{ locale
                     </span>
                   ) : null,
                 )}
-                <Share compact path={path} image={`/${locale}/opengraph-image`} text={`${name} · ${main.sym} ${i.eyebrow} · ${t.siteName}`} labels={t.share} />
+                <FollowButton kind="i" id={String(p[0])} labels={t.follow} compact />
+                <Share compact path={path} image={`/${locale}/opengraph-image`} poster={`/${locale}/poster/timeline/insider/${p[0]}`} text={`${name} · ${main.sym} ${i.eyebrow} · ${t.siteName}`} labels={t.share} />
                 <a className="btn btn-quiet text-[13px]" href={`https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${String(p[0]).padStart(10, "0")}&type=4&dateb=&owner=include&count=40`} target="_blank" rel="noopener noreferrer">
                   {i.secAll} ↗
                 </a>
@@ -138,21 +140,30 @@ export default async function InsiderPage({ params }: { params: Promise<{ locale
       </section>
 
       <Container>
-        {series.length ? (
-          <Reveal className="mt-10">
-            <SectionHead title={fmt(i.chartTitle, { sym: main.sym })} sub={i.chartSub} href={`/${locale}/ticker/${encodeURIComponent(main.sym)}`} more={fmt(i.viewStock, { sym: main.sym })} />
-            <div className="card p-4 sm:p-6">
-              <StockChart sym={main.sym} initialRange={wide ? "5y" : "1y"} marks={marks} fallback={series} labels={t.x.chartRange} buyLabel={t.x.buy} sellLabel={t.x.sell} locale={locale} />
-            </div>
-            {officialTrades ? (
-              <p className="mt-3 text-[13px] text-muted">
-                <Link prefetch={false} className="link" href={`/${locale}/ticker/${encodeURIComponent(main.sym)}`}>
-                  {fmt(i.officialsToo, { sym: main.sym, n: officialTrades.toLocaleString("en-US") })} ›
-                </Link>
-              </p>
-            ) : null}
-          </Reveal>
-        ) : null}
+        <Reveal className="mt-10">
+          <SectionHead title={t.tl.title} sub={t.tl.sub} id="timeline" />
+          <div className="card p-4 sm:p-6">
+            <Timeline
+              items={tlItems}
+              events={tlEvents}
+              lanes={[t.tl.lanes.trades]}
+              price={stocks.length === 1 ? series : undefined}
+              priceSym={main.sym}
+              stocks={stocks.length > 1 ? stockChips(tlItems, locale) : undefined}
+              labels={tlLabels(locale)}
+              locale={locale}
+              today={d.asof}
+              poster={{ src: `/${locale}/poster/timeline/insider/${p[0]}`, path, text: `${name} · ${main.sym} · ${t.tl.title} · ${t.siteName}`, label: t.tl.poster, labels: t.share }}
+            />
+          </div>
+          {officialTrades ? (
+            <p className="mt-3 text-[13px] text-muted">
+              <Link prefetch={false} className="link" href={`/${locale}/ticker/${encodeURIComponent(main.sym)}#timeline`}>
+                {fmt(i.officialsToo, { sym: main.sym, n: officialTrades.toLocaleString("en-US") })} ›
+              </Link>
+            </p>
+          ) : null}
+        </Reveal>
 
         {stocks.length > 1 ? (
           <Reveal className="mt-14">
@@ -238,9 +249,9 @@ export default async function InsiderPage({ params }: { params: Promise<{ locale
             <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
               {peerList.map((c) => (
                 <Link key={c.id} prefetch={false} href={`/${locale}/insider/${c.id}`} className="tile flex items-center gap-3 p-4">
-                  <Avatar id={`ins-${c.id}`} name={insiderName(c.who)} size={44} />
+                  <Avatar id={`ins-${c.id}`} name={insiderName(c.who)} has={!!media.people[`ins-${c.id}`]} size={44} />
                   <div className="min-w-0 flex-1">
-                    <div className="truncate text-sm font-semibold">{insiderName(c.who)}</div>
+                    <div className="truncate text-sm font-semibold">{insiderLabel(c.id, c.who, locale)}</div>
                     <div className="truncate text-[11px] text-muted">{roleOf(c.rel, c.title, locale)}</div>
                     <div className="num mt-1 text-xs">
                       <span className="text-pos">{i.buys} {c.b}</span> · <span className="text-neg">{i.sells} {c.s}</span>

@@ -11,7 +11,7 @@ import { LivePrice, LiveSince } from "@/components/client/Quotes";
 import Reveal from "@/components/client/Reveal";
 import { Band, Container, Metric, PageHeader, SectionHead } from "@/components/layout";
 import { Avatar, AvatarStack, Logo, Sparkline } from "@/components/media";
-import { getInsiders, insiderName, getInsights, getLatestPrices, type Strategy, type TradeCard } from "@/lib/data";
+import { getInsiders, insiderLabel, getInsights, getLatestPrices, type Strategy, type TradeCard } from "@/lib/data";
 import { amountRange, usdShort } from "@/lib/format";
 import { dict, fmt, isLocale, type Dict, type Locale } from "@/lib/i18n";
 import { person, stock } from "@/lib/people";
@@ -400,10 +400,10 @@ export default async function InsightsPage({ params }: { params: Promise<{ local
                           <td>
                             {r.oc ? (
                               <Link prefetch={false} href={`/${locale}/insider/${r.oc}`} className="font-medium hover:underline">
-                                {insiderName(r.who)}
+                                {insiderLabel(r.oc, r.who, locale)}
                               </Link>
                             ) : (
-                              <div className="font-medium">{insiderName(r.who)}</div>
+                              <div className="font-medium">{insiderLabel(r.oc, r.who, locale)}</div>
                             )}
                             <div className="max-w-[220px] truncate text-[11px] text-faint">{(r.title && !/^see remarks?/i.test(r.title) ? r.title : "") || [...r.rel].map((c) => t.insider.rel[c as keyof typeof t.insider.rel] ?? "").join(" · ")}</div>
                           </td>
