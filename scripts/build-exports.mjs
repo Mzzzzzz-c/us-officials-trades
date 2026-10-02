@@ -210,5 +210,23 @@ for (const g of ["proven", "big", "cluster", "ov"]) {
 }
 write("signals", ["grp", "id", "m", "sym", "type", "act", "tx", "fil", "amin", "amax", "since", "rec_n", "rec_x", "rec_win"], sig);
 
+// ---------------------------------------------------------------- company insiders (SEC Form 4, public records)
+{
+  const rows = [];
+  let files = [];
+  try {
+    files = list("insider");
+  } catch {
+    // no insider data yet
+  }
+  for (const f of files) {
+    const sym = f.replace(/\.json$/, "");
+    const d = read(`insider/${f}`);
+    for (const r of d.tx ?? []) rows.push([sym, r[0], r[1], r[2], r[3], r[4] || null, r[5], r[6], r[7], r[8], r[9] ? true : false, `${d.cik}/${String(r[10]).replace(/-/g, "")}`]);
+  }
+  rows.sort((a, b) => b[1].localeCompare(a[1]) || a[0].localeCompare(b[0]));
+  write("insiders", ["sym", "tx", "fil", "who", "rel", "title", "type", "sh", "px", "val", "plan", "src"], rows);
+}
+
 fs.writeFileSync(path.join(OUT, "index.json"), JSON.stringify(index, null, 1));
 console.log("exports:", Object.entries(index.sets).map(([k, v]) => `${k} ${v.rows} rows ${(v.bytes / 1e6).toFixed(1)}MB`).join(", "));

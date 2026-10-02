@@ -41,6 +41,7 @@ export default async function DataPage({ params }: { params: Promise<{ locale: s
     sectors: t.sectors,
     lab: t.x.labRules,
     sig: { proven: t.x.sigProven, big: t.x.sigBig, cluster: t.x.sigCluster, ov: t.x.sigOv },
+    rel: t.insider.rel,
     yes: t.common.yes,
   };
   return (

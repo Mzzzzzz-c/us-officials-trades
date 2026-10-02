@@ -2,7 +2,7 @@
 // joined columns are filled. Raw files come from scripts/build-exports.mjs as { cols, rows }.
 import type { Cell, Kind } from "./exportkit";
 
-export type SetKey = "trades" | "officials" | "tickers" | "holdings" | "changes" | "quarters" | "investors" | "lab" | "signals";
+export type SetKey = "trades" | "officials" | "tickers" | "holdings" | "changes" | "quarters" | "investors" | "lab" | "signals" | "insiders";
 export type FilterKey = "chamber" | "party" | "side" | "dates" | "who" | "syms" | "minAmt" | "current" | "sector" | "investor" | "chg" | "minN";
 
 export interface Raw {
@@ -21,6 +21,7 @@ export interface Enums {
   sectors: Record<string, string>;
   lab: Record<string, string>;
   sig: Record<string, string>;
+  rel: Record<string, string>;
   yes: string;
 }
 
@@ -307,6 +308,29 @@ export const SETS: SetDef[] = [
       { k: "rec_x", zh: "该官员历史平均超额", en: "Official's avg excess", kind: "pct" },
       { k: "rec_win", zh: "该官员历史跑赢比例", en: "Official's hit rate", kind: "pct" },
       { k: "id", zh: "交易 ID", en: "Trade ID", kind: "text" },
+    ],
+  },
+  {
+    key: "insiders",
+    zh: "公司内部人交易",
+    en: "Company insiders' trades",
+    dzh: "公司高管、董事和大股东在公开市场买卖自家股票的记录（SEC Form 4，近两年）。",
+    den: "Open-market buys and sells of a company's own stock by its officers, directors and large holders (SEC Form 4, last two years).",
+    needs: [],
+    filters: ["syms", "side", "dates"],
+    cols: [
+      { k: "sym", zh: "股票代码", en: "Ticker", kind: "text", def: true },
+      { k: "tx", zh: "交易日期", en: "Traded", kind: "date", def: true },
+      { k: "fil", zh: "申报日期", en: "Filed", kind: "date", def: true },
+      { k: "who", zh: "内部人", en: "Insider", kind: "text", def: true },
+      { k: "rel", zh: "身份", en: "Relationship", kind: "text", def: true, get: (r, c) => [...String(r.rel ?? "")].map((x) => c.enums.rel[x] ?? x).join(c.zh ? "、" : ", ") },
+      { k: "title", zh: "职务", en: "Title", kind: "text", def: true },
+      { k: "type", zh: "方向", en: "Side", kind: "text", def: true, get: (r, c) => (r.type === "P" ? c.enums.types.P : c.enums.types.S) },
+      { k: "sh", zh: "股数", en: "Shares", kind: "int", def: true },
+      { k: "px", zh: "成交价（美元，申报值）", en: "Price (USD, as filed)", kind: "price", def: true },
+      { k: "val", zh: "金额（美元）", en: "Value (USD)", kind: "usd", def: true },
+      { k: "plan", zh: "10b5-1 预设计划", en: "10b5-1 plan", kind: "bool" },
+      { k: "src", zh: "SEC 申报文件", en: "SEC filing", kind: "url", def: true, get: (r) => (r.src ? `https://www.sec.gov/Archives/edgar/data/${r.src}/` : null) },
     ],
   },
 ];

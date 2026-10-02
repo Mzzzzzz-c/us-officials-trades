@@ -60,6 +60,9 @@ def session(user_agent: str = BROWSER_UA, retry_429: bool = True) -> requests.Se
 
 def polite(url: str) -> None:
     host = urlparse(url).netloc
+    if host.endswith("sec.gov"):
+        # SEC's fair-access limit (10 requests a second) counts all of its hosts together
+        host = "www.sec.gov"
     delay = HOST_DELAY.get(host, 0.2)
     with _lock:
         now = time.monotonic()

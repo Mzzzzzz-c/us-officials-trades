@@ -32,7 +32,7 @@ const EMPTY: Filters = { chamber: [], party: [], side: [], dateField: "fil", fro
 const TXT = {
   zh: {
     allTitle: "一次下载全部数据",
-    allSub: "9 个数据集，含完整字段与数据说明（README）。",
+    allSub: "10 个数据集，含完整字段与数据说明（README）。",
     zipCsv: "全部 CSV（ZIP）",
     zipXlsx: "全部 Excel 工作簿",
     sets: "数据集",
@@ -89,7 +89,7 @@ const TXT = {
   },
   en: {
     allTitle: "Download everything",
-    allSub: "All 9 datasets with every field, plus a README describing them.",
+    allSub: "All 10 datasets with every field, plus a README describing them.",
     zipCsv: "All as CSV (ZIP)",
     zipXlsx: "All as one Excel workbook",
     sets: "Datasets",
