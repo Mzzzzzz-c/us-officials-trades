@@ -2,8 +2,9 @@
 
 An insider is matched only when Wikidata links a person to the same company (by the company's SEC
 number) and the surname and a given name agree with the name on the Form 4. Writes
-data/ref/insider_names.json {sec number: {q, en, zh}} and saves Commons portraits as
-public/media/people/ins-<sec number>.webp (credited through the media manifest).
+data/ref/insider_names.json {sec number: {q, en, zh, img}} and, with --photos, saves the Commons
+portraits as public/media/people/ins-<sec number>.webp (credited through the media manifest).
+The daily pipeline downloads the portraits still missing, a few per run (media.fetch_insider_photos).
 
     python scripts/insider_wikidata.py [--photos]
 """
@@ -37,15 +38,20 @@ def same_person(filed: list[str], names: list[str]) -> bool:
     """Form 4 names are "SURNAME GIVEN MIDDLE". The surname must agree, and a given name must agree
     with one of the person's names on Wikidata, allowing a short form (Jeff / Jeffrey)."""
     given = filed[1:]
+    short = lambda a, b: a == b or (min(len(a), len(b)) >= 3 and (a.startswith(b) or b.startswith(a)))  # noqa: E731
     for name in names:
         e = tokens(name)
         if len(e) < 2 or filed[0] != e[-1]:
             continue
-        for g in given:
-            for w in e[:-1]:
-                if g == w or (min(len(g), len(w)) >= 3 and (g.startswith(w) or w.startswith(g))):
-                    return True
-        # given names written as one word on one side: "jen hsun" / "jensen" is not caught, "jenhsun" is
+        first, rest = e[0], e[1:-1]
+        hit = next((g for g in given if short(g, first)), None)
+        if hit:
+            # further given names on both sides must not contradict each other
+            # ("Chih-Ho" is not "Chi-Ren", "David Tsung-Hung" is not "Ting Tsung")
+            others = [g for g in given if g != hit]
+            if rest and others and not any(short(g, w) for g in others for w in rest):
+                continue
+            return True
         if "".join(given) == "".join(e[:-1]):
             return True
     return False
@@ -97,9 +103,18 @@ def main() -> None:
                 if h.get("en") and same_person(t, [h["en"], *h.get("alts", ())]):
                     hits[str(oc)] = {"q": q, "en": h["en"], **({"zh": t2s(h["zh"])} if h.get("zh") else {}), **({"img": h["img"]} if h.get("img") else {})}
                     break
-    out = {k: {x: v[x] for x in ("q", "en", "zh") if x in v} for k, v in sorted(hits.items(), key=lambda kv: int(kv[0]))}
+    out = {k: {x: v[x] for x in ("q", "en", "zh", "img") if x in v} for k, v in sorted(hits.items(), key=lambda kv: int(kv[0]))}
     (ROOT / "data/ref/insider_names.json").write_text(json.dumps(out, ensure_ascii=False, indent=0, sort_keys=True))
     print("matched", len(hits), "with zh", sum("zh" in v for v in hits.values()), "with image", sum("img" in v for v in hits.values()))
+    # portraits saved for a match that no longer holds are removed
+    keep = {f"ins-{oc}" for oc, h in hits.items() if h.get("img")}
+    st = media._state()
+    for f in media.PEOPLE_DIR.glob("ins-*.webp"):
+        if f.stem not in keep:
+            f.unlink()
+            st.get("people", {}).pop(f.stem, None)
+            print("removed", f.stem)
+    media._save_state(st)
     if "--photos" not in sys.argv:
         return
     s = requests.Session()
@@ -110,7 +125,11 @@ def main() -> None:
         if not h.get("img") or (media.PEOPLE_DIR / f"{pid}.webp").exists():
             continue
         for attempt in range(4):
-            r = s.get(h["img"].replace("http://", "https://"), params={"width": 500}, timeout=60)
+            try:
+                r = s.get(h["img"].replace("http://", "https://"), params={"width": 500}, timeout=60)
+            except requests.RequestException:
+                time.sleep(10)
+                continue
             if r.status_code == 429:
                 time.sleep(20 * (attempt + 1))
                 continue

@@ -16,6 +16,7 @@ import datetime as dt
 import io
 import logging
 import re
+import time
 from pathlib import Path
 
 from . import http
@@ -126,6 +127,31 @@ def save_local_photo(pid: str, content: bytes, url: str) -> bool:
                                        "url": url, **({"file": f} if f else {})}
     _save_state(st)
     return True
+
+
+def fetch_insider_photos(limit: int = 25) -> dict:
+    """Portraits of the company insiders matched in Wikidata (data/ref/insider_names.json), a few per
+    run: Wikimedia throttles thumbnail downloads, so this stops at the first refusal."""
+    names = read_json(REF / "insider_names.json", {}) or {}
+    s = http.session(WIKI_UA)
+    done = 0
+    for oc, h in names.items():
+        pid = f"ins-{oc}"
+        if done >= limit:
+            break
+        if not h.get("img") or (PEOPLE_DIR / f"{pid}.webp").exists():
+            continue
+        try:
+            r = s.get(h["img"].replace("http://", "https://"), params={"width": 500}, timeout=60)
+        except Exception:  # noqa: BLE001
+            break
+        if r.status_code == 429:
+            break
+        if r.status_code == 200 and save_local_photo(pid, r.content, r.url.split("?")[0]):
+            done += 1
+        time.sleep(3)
+    left = sum(1 for oc, h in names.items() if h.get("img") and not (PEOPLE_DIR / f"ins-{oc}.webp").exists())
+    return {"saved": done, "left": left}
 
 
 def fetch_investors(investors: list[dict]) -> dict:

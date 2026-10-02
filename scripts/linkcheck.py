@@ -60,7 +60,7 @@ with ThreadPoolExecutor(24) as ex:
                 if not n:
                     continue
                 refs[n].add(path)
-                if "/trade/" in n:
+                if "/trade/" in n or "/insider/" in n:  # too many to crawl: status only
                     trade_links.add(n)
                 elif n.startswith("/api/"):
                     api_links.add(n)

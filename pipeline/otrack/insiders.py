@@ -617,6 +617,13 @@ def update(trades: list[dict], fetch: bool = True) -> dict:
             report["calendar"] = update_calendar()
         except Exception as e:  # noqa: BLE001
             log.warning("insiders: earnings calendar: %s", e)
+    if fetch:
+        try:
+            from . import media
+
+            report["photos"] = media.fetch_insider_photos()
+        except Exception as e:  # noqa: BLE001
+            log.warning("insiders: portraits: %s", e)
     report["owner_ids"] = fill_owner_ids(s, bulk, int(os.environ.get("INSIDER_BUDGET", "5000")))
     report["site"] = export_site(bulk, trades, companies, symbols, bulk_end)
     return report

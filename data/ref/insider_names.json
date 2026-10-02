@@ -5,22 +5,29 @@
 },
 "1008463": {
 "en": "Lip-Bu Tan",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Intel%20CEO%20Lip-Bu%20Tan%20%282025%29%20%28cropped%29.jpg",
 "q": "Q19561225",
 "zh": "陈立武"
 },
+"1012998": {
+"en": "Giorgos Zoley",
+"q": "Q5546647"
+},
 "1015013": {
 "en": "Steven Rales",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Steven%20Rales.jpg",
 "q": "Q7615005",
 "zh": "史蒂文·雷尔斯"
 },
 "1015014": {
 "en": "Mitchell Rales",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mitchell%20Rales%202018.jpg",
 "q": "Q6881360",
 "zh": "米切尔·莱尔斯"
 },
 "1019032": {
-"en": "John H. Tyson",
-"q": "Q6237128"
+"en": "John R. Tyson",
+"q": "Q115129580"
 },
 "1024547": {
 "en": "Alan McKim",
@@ -28,6 +35,7 @@
 },
 "1024835": {
 "en": "Rupert Murdoch",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Rupert%20Murdoch%20-%20Flickr%20-%20Eva%20Rinaldi%20Celebrity%20and%20Live%20Music%20Photographer.jpg",
 "q": "Q53944",
 "zh": "鲁珀特·默多克"
 },
@@ -37,6 +45,7 @@
 },
 "1031530": {
 "en": "Thomas Siebel",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tom%20Siebel%202013.png",
 "q": "Q2427296",
 "zh": "托马斯·西贝尔"
 },
@@ -47,17 +56,34 @@
 },
 "1033331": {
 "en": "Reed Hastings",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Reed%20Hastings%2C%20Web%202.0%20Conference.jpg",
 "q": "Q7306657",
 "zh": "里德·哈斯廷斯"
 },
+"1034312": {
+"en": "Tim Leach",
+"q": "Q114762581"
+},
 "1035440": {
 "en": "Paul Sagan",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Sagan.jpg",
 "q": "Q7153404"
 },
 "1040545": {
 "en": "Ralph Lauren",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ralph%20Lauren%202013.jpg",
 "q": "Q296647",
 "zh": "拉尔夫·劳伦"
+},
+"1043298": {
+"en": "Jeff Bezos",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jeff%20Bezos%20at%20Amazon%20Spheres%20Grand%20Opening%20in%20Seattle%20-%202018%20%2839074799225%29%20%28cropped%29.jpg",
+"q": "Q312556",
+"zh": "杰夫·贝索斯"
+},
+"1050985": {
+"en": "Lynn Forester de Rothschild",
+"q": "Q6709020"
 },
 "1055352": {
 "en": "John W. Casella",
@@ -65,8 +91,13 @@
 },
 "1063948": {
 "en": "Brian L. Roberts",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Brian%20Roberts%20Comcast.jpg",
 "q": "Q4964404",
 "zh": "布莱恩·L·罗勃兹"
+},
+"1066061": {
+"en": "Andy Florance",
+"q": "Q115145722"
 },
 "1068045": {
 "en": "Michael David Capellas",
@@ -74,10 +105,12 @@
 },
 "1078095": {
 "en": "Christopher J. Nassetta",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Chris%20Nassetta%20President%20%26%20CEO%2C%20Hilton%20Worldwide%20%2826279837295%29.jpg",
 "q": "Q52084464"
 },
 "1081714": {
 "en": "Henry Kravis",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Henry%20Kravis.png",
 "q": "Q933721",
 "zh": "亨利·克拉维斯"
 },
@@ -98,16 +131,23 @@
 },
 "1106231": {
 "en": "George Conrades",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/George%20Conrades.jpg",
 "q": "Q18719428",
 "zh": "乔治·康拉德斯"
 },
 "1106232": {
 "en": "F. Thomson Leighton",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tom%20Leighton%2C%20CEO%2C%20Akamai.jpg",
 "q": "Q5424058",
 "zh": "法兰克·汤姆森·雷顿"
 },
+"1110750": {
+"en": "Chris Coughlin",
+"q": "Q114561973"
+},
 "1116268": {
 "en": "Kristina M. Johnson",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kristina%20M.%20Johnson%20official%20portrait.jpg",
 "q": "Q41651",
 "zh": "克莉丝蒂娜·M·约翰逊"
 },
@@ -121,13 +161,19 @@
 },
 "1160077": {
 "en": "Marc Andreessen",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Marc%20Andreessen-9%20%28cropped%29.jpg",
 "q": "Q62882",
 "zh": "马克·安德生"
 },
 "1162125": {
 "en": "Evan G. Greenberg",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Evan%20Greenberg%20in%202024.jpg",
 "q": "Q5415394",
 "zh": "埃文·格林伯格"
+},
+"1164027": {
+"en": "Greg Brenneman",
+"q": "Q5605326"
 },
 "1180162": {
 "en": "Stephen J. Hemsley",
@@ -136,20 +182,24 @@
 },
 "1180495": {
 "en": "Ronald P. O'Hanley",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ronald%20P.%20O%27Hanley%20%28born%20c.%201957%29%20at%20World%20Economic%20Forum%20Annual%20Meeting%202025.png",
 "q": "Q113558297"
 },
 "1180524": {
 "en": "Kenneth Chenault",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kenneth%20Chenault.jpg",
 "q": "Q516550",
 "zh": "肯尼斯·钱纳特"
 },
 "1180592": {
 "en": "Robert K. Steel",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/RobertKSteel.jpg",
 "q": "Q7346235",
 "zh": "罗伯特·斯蒂尔"
 },
 "1181218": {
 "en": "Robert M. Kimmitt",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Robert%20Kimmitt%2C%20official%20Treasury%20photo.jpg",
 "q": "Q822657",
 "zh": "劳勃·M·金密特"
 },
@@ -162,18 +212,39 @@
 "q": "Q28402108",
 "zh": "史蒂夫·桑希"
 },
+"1182438": {
+"en": "Mike Sievert",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mike%20Sievert.jpg",
+"q": "Q79960347"
+},
+"1183251": {
+"en": "Jim Teague",
+"q": "Q114878465"
+},
 "1183474": {
 "en": "David Farr",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/David%20N%20Farr.jpg",
 "q": "Q4481302"
+},
+"1184230": {
+"en": "Rich Barton",
+"q": "Q7323183",
+"zh": "理查德·巴顿"
 },
 "1184231": {
 "en": "Julius Genachowski",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Julius%20Genachowski.jpg",
 "q": "Q6309812"
 },
 "1184237": {
 "en": "Dara Khosrowshahi",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/CEO%20of%20Uber%20Technologies%20Dara%20Khosrowshahi%20in%20New%20York%20-%202019%20%28cropped%29.jpg",
 "q": "Q5221979",
 "zh": "达拉·科斯罗萨西"
+},
+"1184244": {
+"en": "Jonathan Miller",
+"q": "Q6273922"
 },
 "1184493": {
 "en": "Richard Galanti",
@@ -182,6 +253,10 @@
 "1185166": {
 "en": "Alan M. Bennett",
 "q": "Q114729342"
+},
+"1185527": {
+"en": "Jeff Kelly",
+"q": "Q114795291"
 },
 "1186073": {
 "en": "Charles Moorman",
@@ -199,9 +274,23 @@
 "en": "Kathryn B. McQuade",
 "q": "Q125697071"
 },
+"1187725": {
+"en": "Richard Carrión",
+"q": "Q7324637",
+"zh": "理查德·卡里翁"
+},
 "1189403": {
 "en": "Steven C. Mizell",
 "q": "Q125568327"
+},
+"1189713": {
+"en": "André Calantzopoulos",
+"q": "Q18352285",
+"zh": "谭崇博"
+},
+"1190466": {
+"en": "Tom Wilson",
+"q": "Q7791174"
 },
 "1190767": {
 "en": "Clyde Moore",
@@ -217,12 +306,24 @@
 },
 "1192486": {
 "en": "Mary Lovelace Schapiro",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/SchapiroMary.jpg",
 "q": "Q2635773",
 "zh": "玛丽·沙皮诺"
 },
 "1192761": {
 "en": "Naomi O. Seligman",
 "q": "Q6964675"
+},
+"1193119": {
+"en": "Brad Smith",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Brad%20Smith%20-%20Microsoft%20-%2001.jpg",
+"q": "Q50300377",
+"zh": "布拉德·史密斯"
+},
+"1193470": {
+"en": "Rich Templeton",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Rich%20Templeton%20%2851134333225%29%20%28cropped%29.jpg",
+"q": "Q7323455"
 },
 "1193791": {
 "en": "Raymond E. Scott",
@@ -232,18 +333,36 @@
 "en": "Linda Bammann",
 "q": "Q109596276"
 },
+"1195345": {
+"en": "Jamie Dimon",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jamie%20Dimon%2C%20CEO%20of%20JPMorgan%20Chase.jpg",
+"q": "Q922169",
+"zh": "杰米·戴蒙"
+},
 "1196484": {
 "en": "James Cracchiolo",
 "q": "Q6131851"
 },
+"1196985": {
+"en": "Al Zollar",
+"q": "Q109752708"
+},
 "1197611": {
 "en": "Frederick W. Smith",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/DHS%20Secretary%20Kristi%20Noem%20Meets%20with%20FedEx%20%2854427415512%29%20%28cropped%29.jpg",
 "q": "Q324086",
 "zh": "弗雷德里克·W·史密斯"
 },
 "1197616": {
 "en": "Paul S. Walsh",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Corporate-headshot-Paul-S-Walsh.jpg",
 "q": "Q7153399"
+},
+"1197649": {
+"en": "Jensen Huang",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jen-Hsun%20Huang%202025.jpg",
+"q": "Q305177",
+"zh": "黄仁勋"
 },
 "1197650": {
 "en": "Harvey C. Jones",
@@ -255,12 +374,17 @@
 },
 "1198046": {
 "en": "John L. Hennessy",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20L%20Hennessy.jpg",
 "q": "Q92854",
 "zh": "约翰·轩尼诗"
 },
 "1198053": {
 "en": "William S. Demchak",
 "q": "Q21062806"
+},
+"1198113": {
+"en": "Tricia Griffith",
+"q": "Q28062340"
 },
 "1198753": {
 "en": "Douglas M. Baker, Jr",
@@ -272,6 +396,7 @@
 },
 "1199039": {
 "en": "Mark Stevens",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mark%20Stevens%2C%202017.jpg",
 "q": "Q6769848"
 },
 "1199101": {
@@ -287,13 +412,19 @@
 "en": "Marilyn Spiegel",
 "q": "Q58495296"
 },
+"1201232": {
+"en": "Greg Brown",
+"q": "Q5605358"
+},
 "1201236": {
 "en": "Dominic Ng",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dominic%20Ng%2C%20Chairman%20and%20CEO%20of%20East%20West%20Bank.png",
 "q": "Q5290609",
 "zh": "吴建民"
 },
 "1201633": {
 "en": "Henry Samueli",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Henry%20Samueli%2C%20Bush%20and%20Anaheim%20Ducks%20%28cropped%29.jpg",
 "q": "Q944937",
 "zh": "亨利·萨穆埃利"
 },
@@ -307,6 +438,7 @@
 },
 "1202958": {
 "en": "Susan Schwab",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Susan%20Schwab%2C%20USTR%20official%20photo.jpg",
 "q": "Q441879",
 "zh": "苏珊·施瓦布"
 },
@@ -316,6 +448,7 @@
 },
 "1204424": {
 "en": "Lloyd Carney",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Lloydcarneyportrait.jpg",
 "q": "Q16727839"
 },
 "1204816": {
@@ -324,6 +457,7 @@
 },
 "1205005": {
 "en": "Safra Catz",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Safra%20Catz%202014%20%28cropped%29.jpg",
 "q": "Q450628",
 "zh": "凯芝"
 },
@@ -331,23 +465,47 @@
 "en": "Jeffrey O. Henley",
 "q": "Q6176194"
 },
+"1206104": {
+"en": "Jeff Berg",
+"q": "Q114880923"
+},
 "1206994": {
 "en": "Judith Sprieser",
 "q": "Q114683241"
+},
+"1207394": {
+"en": "Bob Iger",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/2018%20Bob%20Iger%20%28cropped%29.jpg",
+"q": "Q532423",
+"zh": "罗伯特·艾格"
 },
 "1208529": {
 "en": "Amy Lane",
 "q": "Q114377240"
 },
+"1209522": {
+"en": "Jon Rubinstein",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jon%20Rubinstein%20%282011%29.jpg",
+"q": "Q869322",
+"zh": "乔恩·鲁宾斯坦"
+},
 "1210527": {
 "en": "Leon Panetta",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Leon%20Panetta%2C%20official%20DoD%20photo%20portrait%2C%202011.jpg",
 "q": "Q244631",
 "zh": "莱昂·爱德华·帕内塔"
 },
 "1211060": {
 "en": "Peter Thiel",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Peter%20Thiel%20by%20Gage%20Skidmore.jpg",
 "q": "Q705525",
 "zh": "彼得·泰尔"
+},
+"1211588": {
+"en": "Tan Hock Eng",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hock%20Tan%202022.png",
+"q": "Q47672827",
+"zh": "陈福阳"
 },
 "1213991": {
 "en": "Stephen D. Steinour",
@@ -357,6 +515,12 @@
 "en": "Arthur D. Levinson",
 "q": "Q709063",
 "zh": "阿瑟·莱文森"
+},
+"1214156": {
+"en": "Tim Cook",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tim%20Cook%20in%20New%20York%20City%20-%202026%20%28cropped%29.jpg",
+"q": "Q265852",
+"zh": "提摩西·唐纳德·库克"
 },
 "1214686": {
 "en": "Ronald E. Blaylock",
@@ -369,6 +533,10 @@
 "1216135": {
 "en": "Carol Meyrowitz",
 "q": "Q5044471"
+},
+"1216838": {
+"en": "Sam Hazen",
+"q": "Q114643405"
 },
 "1216931": {
 "en": "Robert E. Sanchez",
@@ -388,6 +556,7 @@
 },
 "1222012": {
 "en": "Noubar Afeyan",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Noubar%20Afeyan%20at%20Global%20Innovation%20Forum%202022%2C%20Yerevan%2C%20Armenia%20by%20Xelgen.jpg",
 "q": "Q14949405",
 "zh": "努巴·阿费扬"
 },
@@ -397,21 +566,34 @@
 },
 "1222287": {
 "en": "Roelof Botha",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Roelof%20Botha.jpg",
 "q": "Q7357593",
 "zh": "鲁洛夫·博塔"
 },
 "1223489": {
 "en": "Strauss Zelnick",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Strauss%20Zelnick%2C%202015%20%2816339090774%29.jpg",
 "q": "Q61756286",
 "zh": "施特劳斯·泽尔尼克"
 },
 "1224154": {
 "en": "Shantanu Narayen",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Adobe%20CEO%20Shantanu%20Narayen.jpg",
 "q": "Q2622748",
 "zh": "山塔努·纳拉延"
 },
+"1224298": {
+"en": "Mike Todman",
+"q": "Q114573673"
+},
+"1225946": {
+"en": "Greg Hayes",
+"q": "Q28922190",
+"zh": "格雷戈里∙海耶斯"
+},
 "1230846": {
 "en": "William Clay Ford",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bill%20Ford%202011.jpg",
 "q": "Q321698",
 "zh": "小威廉·克莱·福特"
 },
@@ -425,10 +607,17 @@
 },
 "1234655": {
 "en": "Susan Decker",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Susan%20Decker.jpg",
 "q": "Q7647752"
+},
+"1234658": {
+"en": "Dan Rosensweig",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dan%20Rosensweig%20%28153327510%29%20%28cropped%29.jpg",
+"q": "Q5214311"
 },
 "1234998": {
 "en": "Daniel Hesse",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dan%20hesse%202011%20%28cropped%29.jpg",
 "q": "Q5217482"
 },
 "1236626": {
@@ -437,6 +626,7 @@
 },
 "1236641": {
 "en": "Mark Parker",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mark%20Parker%20-%20World%20Economic%20Forum%202008.jpg",
 "q": "Q1900344",
 "zh": "马克·帕克"
 },
@@ -446,6 +636,7 @@
 },
 "1237858": {
 "en": "Dwight Merriman",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dwight-merriman.jpg",
 "q": "Q5318215"
 },
 "1238032": {
@@ -459,20 +650,24 @@
 },
 "1240169": {
 "en": "Adena Friedman",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Adena%20Friedman%2C%20President%2C%20NASDAQ%20%2840040735371%29.jpg",
 "q": "Q17003309"
 },
 "1242782": {
 "en": "Robyn Denholm",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/2018-05-16-cebit-robyn-m-denholm-portrait.jpg",
 "q": "Q58345040",
 "zh": "罗宾·德诺姆"
 },
 "1242818": {
 "en": "Lachlan Murdoch",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Lachlan%20Murdoch%20in%20May%202013.jpg",
 "q": "Q3215817",
 "zh": "拉克兰·梅铎"
 },
 "1242825": {
 "en": "Jeffrey Leiden",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jeffrey%20Leiden%20Portrait.jpg",
 "q": "Q53568191"
 },
 "1244892": {
@@ -482,6 +677,7 @@
 },
 "1248260": {
 "en": "Stephen J. Luczo",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Stephen%20J.%20Luczo%20from%20acrofan.jpg",
 "q": "Q7609568"
 },
 "1250261": {
@@ -496,6 +692,14 @@
 "en": "David Merritt",
 "q": "Q114692826"
 },
+"1254779": {
+"en": "Ken Denman",
+"q": "Q109566991"
+},
+"1256465": {
+"en": "Rob Falzon",
+"q": "Q114571929"
+},
 "1262388": {
 "en": "Gabrielle Sulzberger",
 "q": "Q125024606"
@@ -504,9 +708,17 @@
 "en": "Asuka Nakahara",
 "q": "Q109674328"
 },
+"1264714": {
+"en": "Dan Dickinson",
+"q": "Q114621187"
+},
 "1278231": {
 "en": "Richard Dahl",
 "q": "Q31184025"
+},
+"1284967": {
+"en": "Susan L. Main",
+"q": "Q125568277"
 },
 "1286199": {
 "en": "Joseph K. Belanoff",
@@ -514,21 +726,38 @@
 },
 "1287920": {
 "en": "Gail Boudreaux",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Gail%20Boudreaux%20headshot.jpg",
 "q": "Q5517112"
 },
 "1288709": {
 "en": "Brian Cornell",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Target%20Corporation%20CEO%20Brian%20Cornell%20%2853892295360%29.jpg",
 "q": "Q20857886"
+},
+"1289431": {
+"en": "Tom Rutledge",
+"q": "Q25929583"
+},
+"1289878": {
+"en": "Ed Bastian",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ed%20Bastian%20Delta%20CEO.jpg",
+"q": "Q32374551"
 },
 "1294693": {
 "en": "Marc Benioff",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Marc%20Benioff.jpg",
 "q": "Q1521908",
 "zh": "马尔克·贝尼奥夫"
 },
 "1295084": {
 "en": "Ram Shriram",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/RamShriramBio.jpg",
 "q": "Q12988436",
 "zh": "拉姆·施里拉姆"
+},
+"1296187": {
+"en": "Tim Gokey",
+"q": "Q125650679"
 },
 "1296466": {
 "en": "Richard McVey",
@@ -536,6 +765,7 @@
 },
 "1299634": {
 "en": "Charles Giancarlo",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/CHG.png",
 "q": "Q5078017"
 },
 "1299914": {
@@ -550,26 +780,40 @@
 "en": "Ralph Alvarez",
 "q": "Q7287163"
 },
+"1316331": {
+"en": "Pat Gelsinger",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Pat%20Gelsinger.jpg",
+"q": "Q7143480",
+"zh": "帕特里克·格尔辛格"
+},
 "1316987": {
 "en": "Richard D. Fain",
 "q": "Q63040003"
 },
 "1317345": {
 "en": "Arne Wilhelmsen",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ingrid-Bergman-1970%20%28NordicPrince%29.jpg",
 "q": "Q11959103"
 },
 "1318285": {
 "en": "David Zaslav",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/David%20Zaslav%20LQ%202026.jpg",
 "q": "Q4377226",
 "zh": "大卫·扎斯拉夫"
 },
 "1318751": {
 "en": "David Cordani",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Cordani%20Cropped.jpg",
 "q": "Q5232570"
 },
 "1319245": {
 "en": "Laura Schumacher",
 "q": "Q114899492"
+},
+"1324069": {
+"en": "Joe Mansueto",
+"q": "Q6211110",
+"zh": "乔·曼索托"
 },
 "1324953": {
 "en": "James Dallas",
@@ -581,6 +825,7 @@
 },
 "1331983": {
 "en": "Mark Hoplamazian",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Readiness%2C%20resilience%2C%20recovery%20%2827688256568%29.jpg",
 "q": "Q6768102",
 "zh": "马克·霍普拉马赞"
 },
@@ -592,12 +837,19 @@
 "en": "Mary Anne Citrino",
 "q": "Q114601101"
 },
+"1335782": {
+"en": "Doug McMillon",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Doug%20McMillon%20Profile%20Photo.png",
+"q": "Q16196595",
+"zh": "董明伦"
+},
 "1338351": {
 "en": "Tracy Atkinson",
 "q": "Q27924267"
 },
 "1340406": {
 "en": "Mauricio Ramos",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mauricio%20Ramos.jpg",
 "q": "Q25189462"
 },
 "1340962": {
@@ -606,10 +858,12 @@
 },
 "1343564": {
 "en": "Erik Fyrwald",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Erik%20Fyrwald%2C%20Syngenta.jpg",
 "q": "Q61471321"
 },
 "1343882": {
 "en": "Jeffrey Sprecher",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jeffrey%20Sprecher.jpg",
 "q": "Q6175884"
 },
 "1346240": {
@@ -633,13 +887,25 @@
 "en": "W. Nicholas Howley",
 "q": "Q117323781"
 },
+"1354590": {
+"en": "Mike Wirth",
+"q": "Q48562446"
+},
 "1359561": {
 "en": "Justine F. Page",
 "q": "Q125055414"
 },
+"1363076": {
+"en": "Rob Davis",
+"q": "Q114706038"
+},
 "1366574": {
 "en": "Carl Ledbetter",
 "q": "Q102277008"
+},
+"1366770": {
+"en": "Josh James",
+"q": "Q16214460"
 },
 "1369322": {
 "en": "William R. Wagner",
@@ -648,6 +914,12 @@
 "1371578": {
 "en": "Elliott Hill",
 "q": "Q130612644"
+},
+"1374545": {
+"en": "Andy Jassy",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Andy%20Jassy.jpg",
+"q": "Q41812531",
+"zh": "安迪·贾西"
 },
 "1378514": {
 "en": "Carlos Rodriguez",
@@ -667,8 +939,15 @@
 },
 "1390276": {
 "en": "Rona Fairhead",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/RonaFairhead.jpg",
 "q": "Q17712328",
 "zh": "罗纳·费尔克"
+},
+"1393838": {
+"en": "Ted Sarandos",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ted%20Sarandos%202024.jpg",
+"q": "Q19661212",
+"zh": "泰德·沙朗达斯"
 },
 "1396061": {
 "en": "Stuart Burgdoerfer",
@@ -680,6 +959,7 @@
 },
 "1397350": {
 "en": "Alan Schnitzer",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Alan%20Schnitzer.png",
 "q": "Q20687084"
 },
 "1398905": {
@@ -688,10 +968,12 @@
 },
 "1402348": {
 "en": "Frank Slootman",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Frank%20Slootman%20Snowflake.jpg",
 "q": "Q123573828"
 },
 "1405109": {
 "en": "Lisa Su",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/SXSW-2024-alih-OB7A0861-Lisa%20Su.jpg",
 "q": "Q18207172",
 "zh": "苏姿丰"
 },
@@ -701,6 +983,7 @@
 },
 "1411359": {
 "en": "Scott Gottlieb",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Scott%20Gottlieb%20official%20portrait.jpg",
 "q": "Q28229066",
 "zh": "斯科特·戈特利布"
 },
@@ -714,6 +997,7 @@
 },
 "1418280": {
 "en": "William G. Parrett",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/William%20G.Parrett.jpg",
 "q": "Q8009564",
 "zh": "白礼德"
 },
@@ -723,11 +1007,13 @@
 },
 "1420590": {
 "en": "James Murdoch",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/James%20Murdoch%202008-%20NRKbeta%20%28cropped%29.jpg",
 "q": "Q471851",
 "zh": "詹姆斯·默多克"
 },
 "1428849": {
 "en": "Peter Zaffino",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Zaffino-currentheadshot.jpg",
 "q": "Q20687650"
 },
 "1428855": {
@@ -770,14 +1056,17 @@
 },
 "1452606": {
 "en": "Bracken Darrell",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bracken%20Darrell%20%2812324104245%29.jpg",
 "q": "Q124125049"
 },
 "1460059": {
 "en": "Jacek Olczak",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/NYCW%202025%20-%20Jacek%20Olczak%2002%20%28cropped%29.jpg",
 "q": "Q106755529"
 },
 "1461446": {
 "en": "Jeffrey W. Martin",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jeffrey%20W.%20Martin%20.jpg",
 "q": "Q63383058"
 },
 "1461996": {
@@ -794,24 +1083,29 @@
 },
 "1464560": {
 "en": "Ryan Lance",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/ConocoPhillips%20CEO%20Ryan%20Lance%20%28cropped%29.jpg",
 "q": "Q7384237"
 },
 "1468233": {
 "en": "Nikesh Arora",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nikesh%20Arora%28cropped%29.jpg",
 "q": "Q7034852",
 "zh": "尼科什·阿罗拉"
 },
 "1473446": {
 "en": "Mary Callahan Erdoes",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mary%20Callahan%20Erdoes%20%282018%29.png",
 "q": "Q513770"
 },
 "1475587": {
 "en": "Ken Xie",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ken%20Xie%20%28born%201963%29%20at%20World%20Economic%20Forum%20Davos%202021.png",
 "q": "Q16924425",
 "zh": "谢青"
 },
 "1479258": {
 "en": "Ruth Porat",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/RuthPorat2016.jpg",
 "q": "Q14946714",
 "zh": "露丝·波拉特"
 },
@@ -833,6 +1127,7 @@
 },
 "1487630": {
 "en": "Julie Sweet",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Julie%20Sweet%20at%20the%20World%20Economic%20Forum.jpg",
 "q": "Q65515703",
 "zh": "茱莉·史威特"
 },
@@ -846,20 +1141,24 @@
 },
 "1492154": {
 "en": "Mary Barra",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mary%20Barra%2C%20official%20portrait%2C%20Homeland%20Security%20Council.jpg",
 "q": "Q6779013",
 "zh": "玛丽·特蕾莎·芭拉"
 },
 "1492362": {
 "en": "Mark Reuss",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/New%20York%20Auto%20Show%20Mark%20Reuss%20-%20Chevrolet%20Malibu%20Reveal%20Press%20Conference%20%285654115101%29.jpg",
 "q": "Q16735139"
 },
 "1494730": {
 "en": "Elon Musk",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Elon%20Musk%20%2854816836217%29%20%28cropped%202%29%20%28b%29.jpg",
 "q": "Q317521",
 "zh": "伊隆·马斯克"
 },
 "1494731": {
 "en": "Kimbal Musk",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/KIMBAL%20MUSK%20OFFICIAL%20HEADSHOT.jpg",
 "q": "Q6409751",
 "zh": "金巴尔·马斯克"
 },
@@ -867,9 +1166,19 @@
 "en": "Jamie Iannone",
 "q": "Q90569739"
 },
+"1496686": {
+"en": "Jeff Williams",
+"q": "Q18612622",
+"zh": "杰夫·威廉姆斯"
+},
 "1498535": {
 "en": "David MacLennan",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mauricio%20Macri%20%26%20David%20W.%20MacLennan%20Davos%202018%20%28cropped%29.jpg",
 "q": "Q18169810"
+},
+"1498992": {
+"en": "Ken Burdick",
+"q": "Q114561555"
 },
 "1502248": {
 "en": "John Rutherford",
@@ -881,6 +1190,7 @@
 },
 "1511491": {
 "en": "Anne Finucane",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Anne%20Finucane%20in%20Berlin%2C%20April%202017%20%28crop%29.jpg",
 "q": "Q42571366"
 },
 "1512629": {
@@ -889,11 +1199,13 @@
 },
 "1513142": {
 "en": "Satya Nadella",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/MS-Exec-Nadella-Satya-2017-08-31-22%20%28cropped%29.jpg",
 "q": "Q7426870",
 "zh": "萨蒂亚·纳德拉"
 },
 "1513315": {
 "en": "Peter Henry",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Peter%20Blair%20Henry.jpg",
 "q": "Q7172847"
 },
 "1513362": {
@@ -903,10 +1215,12 @@
 },
 "1515154": {
 "en": "Blake Moret",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Blake%20Moret%20at%20World%20Economic%20Forum%20Davos%202021.png",
 "q": "Q107177100"
 },
 "1517277": {
 "en": "John F.W. Rogers",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Portraits%20of%20Assistants%20to%20President%20Ronald%20Reagan%20%28cropped3%29.jpg",
 "q": "Q6232143"
 },
 "1517890": {
@@ -915,6 +1229,7 @@
 },
 "1519406": {
 "en": "Joshua Cooper Ramo",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/JoshuaRamoJI1.jpg",
 "q": "Q6289742",
 "zh": "乔舒亚·库珀·雷默"
 },
@@ -924,6 +1239,7 @@
 },
 "1520135": {
 "en": "Evan Bayh",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Evan%20Bayh%20official%20portrait.jpg",
 "q": "Q344930",
 "zh": "埃文·贝赫"
 },
@@ -937,6 +1253,7 @@
 },
 "1525358": {
 "en": "Josh Silverman",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Josh%20Silverman%202014%20%28cropped%29.jpg",
 "q": "Q110415258"
 },
 "1529495": {
@@ -947,12 +1264,17 @@
 "en": "Sue H. Rataj",
 "q": "Q125490745"
 },
+"1530818": {
+"en": "Bill Montgomery",
+"q": "Q114877899"
+},
 "1534511": {
 "en": "Teresa Wynn Roseborough",
 "q": "Q7702240"
 },
 "1534753": {
 "en": "Sundar Pichai",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sundar%20Pichai%20-%202023%20%28cropped%29.jpg",
 "q": "Q3503829",
 "zh": "桑达·皮采"
 },
@@ -974,20 +1296,24 @@
 },
 "1538580": {
 "en": "Brian Krzanich",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Brian%20Krzanich%2C%20Intel%20Chief%20Executive%20Officer.jpg",
 "q": "Q12572999",
 "zh": "布莱恩·科兹安尼克"
 },
 "1538604": {
 "en": "David A. Ricks",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/David%20A.%20Ricks%202025.jpg",
 "q": "Q118706826"
 },
 "1539853": {
 "en": "Max Levchin",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Max%20Levchin.jpg",
 "q": "Q93014",
 "zh": "马克斯·列夫琴"
 },
 "1541476": {
 "en": "Jeremy Stoppelman",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jeremy%20Stoppelman%20LeWeb%20conference.jpg",
 "q": "Q16216779",
 "zh": "杰里米·斯托普尔曼"
 },
@@ -1001,6 +1327,7 @@
 },
 "1543895": {
 "en": "David Rubenstein",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/NBF2024-david-rubenstein.jpg",
 "q": "Q3018737",
 "zh": "大卫·鲁宾斯坦"
 },
@@ -1010,6 +1337,7 @@
 },
 "1548760": {
 "en": "Mark Zuckerberg",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mark%20Zuckerberg%20F8%202019%20Keynote%20%2832830578717%29%20%28cropped%29.jpg",
 "q": "Q36215",
 "zh": "马克·扎克伯格"
 },
@@ -1023,11 +1351,18 @@
 },
 "1550395": {
 "en": "David Altshuler",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/David%20Altshuler.jpg",
 "q": "Q5230746"
 },
 "1551504": {
 "en": "Amy Chang",
 "q": "Q109773654"
+},
+"1554088": {
+"en": "Charlie Baker",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Charlie%20Baker%20official%20photo%20%28cropped%29.jpg",
+"q": "Q5076629",
+"zh": "查利·贝克"
 },
 "1556144": {
 "en": "John May",
@@ -1037,6 +1372,11 @@
 "en": "Sumedh Thakar",
 "q": "Q113997343"
 },
+"1558667": {
+"en": "Jeff Miller",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Halliburton%20CEO%20Jeff%20Miller.jpg",
+"q": "Q30981158"
+},
 "1558755": {
 "en": "Stefan Larsson",
 "q": "Q21075696",
@@ -1044,19 +1384,28 @@
 },
 "1559112": {
 "en": "Kathy J. Warden",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kathy%20Warden%20%2854075793969%29%20%28cropped%29.jpg",
 "q": "Q60445729"
 },
 "1559405": {
 "en": "Bradley E. Lerman",
 "q": "Q107763923"
 },
+"1559655": {
+"en": "Chuck Robbins",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Charles%20H.%20Robbins.jpg",
+"q": "Q21041473",
+"zh": "查克·罗宾斯"
+},
 "1559665": {
 "en": "Cristiano Amon",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/CristianoAmon.jpeg",
 "q": "Q110471964",
 "zh": "克里斯蒂亚诺·艾蒙"
 },
 "1561264": {
 "en": "James Quincey",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Macri%20%26%20Quincey%20Davos%202018%2001%20%28cropped%29.jpg",
 "q": "Q27839505"
 },
 "1564533": {
@@ -1089,11 +1438,17 @@
 },
 "1576843": {
 "en": "Amy Hood",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Amy%20Hood.jpg",
 "q": "Q16499756"
 },
 "1576905": {
 "en": "Robert D. Blumofe",
 "q": "Q26252013"
+},
+"1577544": {
+"en": "Mike Roman",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Michael%20Roman%2C%20CEO%20of%203M%20%2849651820963%29%20%28cropped%29.jpg",
+"q": "Q94016219"
 },
 "1578261": {
 "en": "Ryan McInerney",
@@ -1101,11 +1456,13 @@
 },
 "1581262": {
 "en": "Douglas L. Peterson",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Fullsizedouglas%20peterson.jpg",
 "q": "Q17514596",
 "zh": "道格拉斯·彼得森"
 },
 "1584102": {
 "en": "David Lauren",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/David%20Lauren%202012%20Shankbone.JPG",
 "q": "Q5236362",
 "zh": "大卫·劳伦"
 },
@@ -1123,6 +1480,7 @@
 },
 "1591933": {
 "en": "Anirudh Devgan",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Anirudh%20Devgan.jpg",
 "q": "Q84747997"
 },
 "1594487": {
@@ -1131,12 +1489,23 @@
 },
 "1595703": {
 "en": "Albert Bourla",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Albert%20Bourla.jpg",
 "q": "Q63400080",
 "zh": "阿尔伯特·博尔拉"
+},
+"1597870": {
+"en": "Steve Sarowitz",
+"q": "Q63456277"
 },
 "1597949": {
 "en": "Steven H. Gunby",
 "q": "Q19803807"
+},
+"1598115": {
+"en": "Chris Kempczinski",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Chris%20Kempczinski%2C%20McDonald%E2%80%99s%20President%20and%20CEO.jpg",
+"q": "Q73426541",
+"zh": "克里斯·坎普斯基"
 },
 "1601813": {
 "en": "Jamere Jackson",
@@ -1144,11 +1513,17 @@
 },
 "1603527": {
 "en": "Brian Halligan",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Brian%20Halligan%20head%20shot.jpg",
 "q": "Q4963923"
 },
 "1604685": {
 "en": "Navid Mahmoodzadegan",
 "q": "Q133444999"
+},
+"1604686": {
+"en": "Ken Moelis",
+"q": "Q6388176",
+"zh": "肯·莫里斯"
 },
 "1604691": {
 "en": "Jeffrey Raich",
@@ -1156,6 +1531,7 @@
 },
 "1606525": {
 "en": "Aaron Levie",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Aaron%20Levie.jpg",
 "q": "Q4662199",
 "zh": "亚伦·莱维"
 },
@@ -1169,6 +1545,7 @@
 },
 "1612571": {
 "en": "Robert Ford",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Robert%20B%20Ford.jpg",
 "q": "Q95569597",
 "zh": "罗赋德"
 },
@@ -1176,8 +1553,13 @@
 "en": "Scott A. Smith",
 "q": "Q117387338"
 },
+"1615935": {
+"en": "Ted Decker",
+"q": "Q113632708"
+},
 "1618434": {
 "en": "Eric Cantor",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Headshot%20of%20Eric%20Cantor.jpg",
 "q": "Q497271",
 "zh": "埃里克·坎托"
 },
@@ -1191,10 +1573,12 @@
 },
 "1625579": {
 "en": "Elder Granger",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Elder%20Granger%20in%202024.jpg",
 "q": "Q109552147"
 },
 "1626201": {
 "en": "Tony West",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/TonyWest-Official%20DOJ%20Portrait.jpg",
 "q": "Q16196331",
 "zh": "托尼·韦斯特"
 },
@@ -1202,8 +1586,13 @@
 "en": "Gunjan Kedia",
 "q": "Q117249105"
 },
+"1630117": {
+"en": "Jeff Schomburger",
+"q": "Q114819227"
+},
 "1630253": {
 "en": "Ramon Laguarta",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ramon%20Laguarta.jpg",
 "q": "Q56042353",
 "zh": "龙嘉德"
 },
@@ -1238,10 +1627,12 @@
 },
 "1648401": {
 "en": "Antonio Neri",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Antonio%20Neri%2C%20Hewlett%20Packard%20Enterprise.jpg",
 "q": "Q51841506"
 },
 "1649101": {
 "en": "Revathi Advaithi",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Flex%20Revathi%200033-Peter-Prato-Retouched.jpg",
 "q": "Q99880011"
 },
 "1651403": {
@@ -1258,10 +1649,12 @@
 },
 "1654739": {
 "en": "Barry C. McCarthy",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Barry%20C.%20McCarthy.jpg",
 "q": "Q135108193"
 },
 "1656242": {
 "en": "Enrique Lores",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Enrique%20Lores%20%28cropped%29.jpg",
 "q": "Q73185799"
 },
 "1657568": {
@@ -1270,8 +1663,13 @@
 },
 "1659719": {
 "en": "Keith B. Alexander",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/General%20Keith%20B.%20Alexander%20in%20service%20uniform.jpg",
 "q": "Q1360488",
 "zh": "基斯·亚历山大"
+},
+"1662205": {
+"en": "Lynn Vojvodich",
+"q": "Q109566909"
 },
 "1662448": {
 "en": "Kathleen Oberg",
@@ -1279,15 +1677,18 @@
 },
 "1665419": {
 "en": "Frances Arnold",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Frances%20Arnold%20in%202021%20at%20Caltech%2001%20%28cropped%29.jpg",
 "q": "Q4273363",
 "zh": "弗朗西丝·阿诺德"
 },
 "1666121": {
 "en": "Scott Farquhar",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Scott%20Farquhar.png",
 "q": "Q23939847"
 },
 "1669213": {
 "en": "Patrice Louvet",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Patrice%20Louvet%20%28born%201964%29%20at%20World%20Economic%20Forum%20Annual%20Meeting%202025.png",
 "q": "Q29973720"
 },
 "1671250": {
@@ -1300,6 +1701,7 @@
 },
 "1673401": {
 "en": "Joaquin Duato",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/JnJ%20Duato%20cropped.jpg",
 "q": "Q113356474",
 "zh": "杜安卿"
 },
@@ -1307,34 +1709,52 @@
 "en": "Corie Barry",
 "q": "Q114688961"
 },
+"1677721": {
+"en": "Christopher J. Diorio",
+"q": "Q78061701"
+},
 "1677874": {
 "en": "Logan Green",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Logan%20Green.jpg",
 "q": "Q16731590"
 },
 "1681266": {
 "en": "Peter Wall",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/General%20Sir%20Peter%20Wall%20in%20No%201%20uniform.jpg",
 "q": "Q7177564"
 },
 "1687544": {
 "en": "Diane Bryant",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Diane%20Bryant%20at%20SemiAccurate%20%28cropped%29.jpg",
 "q": "Q27449970"
 },
 "1687858": {
 "en": "Jason Hollar",
 "q": "Q114395111"
 },
+"1688276": {
+"en": "Ted Samuels",
+"q": "Q114562026"
+},
 "1692554": {
 "en": "Mark Welsh",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Gen%20Mark%20A.%20Welsh%20III%20CSAF.jpg",
 "q": "Q4391764",
 "zh": "马克·威尔什三世"
 },
+"1692615": {
+"en": "Low Check Kian",
+"q": "Q125055360"
+},
 "1693709": {
 "en": "David M. Solomon",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/David%20Solomon.jpg",
 "q": "Q29641838",
 "zh": "苏德巍"
 },
 "1695566": {
 "en": "James A. Winnefeld, Jr.",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Admiral%20James%20A.%20Winnefeld%2C%20Jr.jpg",
 "q": "Q6128328",
 "zh": "詹姆斯·温尼菲尔德二世"
 },
@@ -1348,11 +1768,19 @@
 },
 "1699293": {
 "en": "Evan Spiegel",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Evan%20Spiegel%2C%20founder%20of%20Snapchat.jpg",
 "q": "Q15439301",
 "zh": "伊万·斯皮格"
 },
+"1699322": {
+"en": "Bobby Murphy",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Robert%20%28Bobby%29%20Murphy.jpg",
+"q": "Q19663471",
+"zh": "鲍比·墨菲"
+},
 "1702684": {
 "en": "Hans Vestberg",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hans%20Vestberg.jpg",
 "q": "Q1582880"
 },
 "1706490": {
@@ -1365,18 +1793,27 @@
 },
 "1706596": {
 "en": "John H. Noseworthy",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Noseworthy%20at%20Spotlight%20Health%20Aspen%20Ideas%20Festival%202015.JPG",
 "q": "Q55975958"
+},
+"1712444": {
+"en": "Tom D'Agostino",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tom%20D%27Agostino.jpg",
+"q": "Q61819977"
 },
 "1716837": {
 "en": "Anthony Wood",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Anthony%20Wood%20at%20Collision%20Conference%202016%20%28cropped%29.jpg",
 "q": "Q47005455"
 },
 "1718909": {
 "en": "John Dugan",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dugan%20john%20sm.jpg",
 "q": "Q6224386"
 },
 "1719138": {
 "en": "Langley Steinert",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Langley%20Steinert%20in%202005.jpg",
 "q": "Q110462879"
 },
 "1719411": {
@@ -1403,6 +1840,12 @@
 "en": "Nathan Meisgeier",
 "q": "Q140775167"
 },
+"1734563": {
+"en": "Drew Houston",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Drew%20Houston.jpg",
+"q": "Q5307199",
+"zh": "德鲁·休斯顿"
+},
 "1735944": {
 "en": "Reshma Kewalramani",
 "q": "Q75692161"
@@ -1413,6 +1856,7 @@
 },
 "1738248": {
 "en": "Melody Birmingham",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Melody%20Birmingham%20at%20Essence%20Festival%20of%20Culture%2C%20Global%20Black%20Economic%20Forum%202025.jpg",
 "q": "Q136812402"
 },
 "1739859": {
@@ -1429,6 +1873,7 @@
 },
 "1753445": {
 "en": "Shay Banon",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Shay%20Banon%20talking%20about%20Elasticsearch%20at%20Berlin%20Buzzwords%202010.jpg",
 "q": "Q57675956"
 },
 "1753662": {
@@ -1437,11 +1882,13 @@
 },
 "1754953": {
 "en": "William H. McRaven",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/ADM%20William%20H.%20McRaven%202012.jpg",
 "q": "Q522205",
 "zh": "威廉·麦克雷文"
 },
 "1758614": {
 "en": "Ethan Brown",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ethan%20Brown%20Headshot%20White%20%28cropped%29.jpg",
 "q": "Q48609449"
 },
 "1765417": {
@@ -1450,6 +1897,7 @@
 },
 "1766269": {
 "en": "John Zimmer",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20Zimmer.jpg",
 "q": "Q6265329"
 },
 "1767094": {
@@ -1462,11 +1910,13 @@
 },
 "1768956": {
 "en": "Gwynne Shotwell",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Gwynne%20Shotwell%20at%20pre-launch%20briefing%20for%20CRS-2%20mission%20%28KSC-2013-1704%29.jpg",
 "q": "Q1557944",
 "zh": "格温·肖特韦尔"
 },
 "1769389": {
 "en": "Michelle J. Howard",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Admiral%20Michelle%20J.%20Howard%20VCNO.jpg",
 "q": "Q6837087",
 "zh": "米歇尔·霍华德"
 },
@@ -1489,8 +1939,14 @@
 },
 "1773298": {
 "en": "Eric S. Yuan",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Eric%20Yuan%20The%20Grove%202021%20%28cropped%29.jpg",
 "q": "Q44870909",
 "zh": "袁征"
+},
+"1773914": {
+"en": "Ben Silbermann",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Silbermann%20face.jpg",
+"q": "Q4273954"
 },
 "1775297": {
 "en": "Jill Hazelbaker",
@@ -1503,6 +1959,7 @@
 },
 "1778564": {
 "en": "George Kurtz",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Web%20Summit%202018%20-%20SaaS%20Monster%20-%20Day%202%2C%20November%207%20SD5%207630%20%2844852025415%29.jpg",
 "q": "Q50082669"
 },
 "1781357": {
@@ -1511,20 +1968,28 @@
 },
 "1785997": {
 "en": "Mark Weinberger",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mark%20Weinberger%20at%20the%20EY%20World%20Entrepreneur%20of%20the%20Year%202016.png",
 "q": "Q14538344",
 "zh": "马克·温伯格"
 },
 "1786925": {
 "en": "Matthew Prince",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/577181505RR106%20TechCrunch%20D.jpg",
 "q": "Q51665553"
 },
 "1786926": {
 "en": "Katrin Suder",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Katrin%20Suder%20-%20Re%20publica%2019%20-%20Day%202%20%2847745297832%29%20%28cropped%29.jpg",
 "q": "Q16937543"
 },
 "1786951": {
 "en": "Michelle Zatlyn",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Collision%202019%20-%20Toronto%20-%20ENX%209646%20%2847894937341%29.jpg",
 "q": "Q51665968"
+},
+"1801222": {
+"en": "Ted Pick",
+"q": "Q123531962"
 },
 "1804370": {
 "en": "Christine Barone",
@@ -1556,7 +2021,12 @@
 },
 "1818224": {
 "en": "John O. Dabiri",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20O.%20Dabiri%2C%20PCAST%20Member%20%28cropped%29.jpg",
 "q": "Q6228369"
+},
+"1821737": {
+"en": "Benoît Dageville",
+"q": "Q101855939"
 },
 "1823920": {
 "en": "Stephen Cohen",
@@ -1564,6 +2034,7 @@
 },
 "1823951": {
 "en": "Alexander C. Karp",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Alex%20Karp%20attends%20AI%20Summit%20%2853302457013%29%204-5%20ratio.jpg",
 "q": "Q19560940",
 "zh": "艾力克斯·卡普"
 },
@@ -1573,6 +2044,7 @@
 },
 "1827011": {
 "en": "Steve Huffman",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Web%20Summit%202017%20-%20Centre%20Stage%20Day%202%20CG1%207885%20%2838232183112%29%20%28cropped%29.jpg",
 "q": "Q7612894",
 "zh": "史蒂夫·霍夫曼"
 },
@@ -1587,26 +2059,37 @@
 },
 "1832617": {
 "en": "Tony Xu",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/TechCrunch%20Disrupt%20NY%202016%20-%20Day%203%20%2826348657713%29.jpg",
 "q": "Q105038817",
 "zh": "徐迅"
 },
 "1834147": {
 "en": "Nathan Blecharczyk",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/2022%20-%20Centre%20Stage%20SM7%208493%20%2852474319677%29%20%28cropped%29.jpg",
 "q": "Q19538950",
 "zh": "内森·布莱卡斯亚克"
 },
 "1834152": {
 "en": "Brian Chesky",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Brian%20Chesky%202025.jpg",
 "q": "Q4963341",
 "zh": "布莱恩·切斯基"
 },
+"1834171": {
+"en": "Joe Gebbia",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Joe-gebbia-2024-cropped.png",
+"q": "Q19560551",
+"zh": "乔·杰比亚"
+},
 "1834991": {
 "en": "David Baszucki",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/David%20Baszucki%20in%202021.jpg",
 "q": "Q20117554",
 "zh": "大卫·巴斯佐兹基"
 },
 "1837857": {
 "en": "Strive Masiyiwa",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Strive%20Masiwia%2C%20Chairman%2C%20Econet%20Wireless%20%2834345475883%29.jpg",
 "q": "Q7624176"
 },
 "1843821": {
@@ -1619,26 +2102,41 @@
 },
 "1849152": {
 "en": "Bom Kim",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/20231102%E9%87%91%E7%AF%84%E9%8C%AB.jpg",
 "q": "Q63117886",
 "zh": "博姆·苏克·基姆"
 },
 "1850865": {
 "en": "Kathryn Ruemmler",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kathryn%20Ruemmler.jpg",
 "q": "Q6377116"
 },
 "1851101": {
 "en": "Andrew Y. Ng",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Andrew%20Ng%20at%20TechCrunch%20Disrupt%20SF%202017.jpg",
 "q": "Q2846695",
 "zh": "吴恩达"
 },
+"1851442": {
+"en": "Fred Ehrsam",
+"q": "Q56222225"
+},
 "1851492": {
 "en": "Brian Armstrong",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Brian%20Armstrong%20-%20TechCrunch%20Disrupt%202018%2001.jpg",
 "q": "Q64705310",
 "zh": "布莱恩·阿姆斯壮"
 },
 "1855767": {
 "en": "Daniel Dines",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/2021%20-%20Centre%20Stage%20EN6%205562%20%2851652161468%29%20%28cropped%29.jpg",
 "q": "Q105729183"
+},
+"1858976": {
+"en": "Jessica Alba",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Jessica%20Alba%20-%20Los%20Angeles%20Comic%20Con%202025.jpg",
+"q": "Q44077",
+"zh": "杰西卡·阿尔巴"
 },
 "1859853": {
 "en": "David Allemann",
@@ -1659,20 +2157,35 @@
 },
 "1865256": {
 "en": "Sonita Lontoh",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sonita%20Lontoh.jpg",
 "q": "Q7561890"
 },
 "1866802": {
 "en": "Ragy Thomas",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ragy%20Thomas%20photo.jpg",
 "q": "Q88593986"
+},
+"1869013": {
+"en": "Chris Urmson",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/ChrisUrmson2018.jpg",
+"q": "Q23760309"
 },
 "1869638": {
 "en": "David Risher",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/David%20Risher%20%282012%29.jpg",
 "q": "Q14948758"
 },
 "1870914": {
 "en": "Baiju Bhatt",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/TechCrunch%20Disrupt%20San%20Francisco%202018%20-%20day%202%20%2843802635144%29.jpg",
 "q": "Q55760424",
 "zh": "拜居·巴哈特"
+},
+"1871006": {
+"en": "Vlad Tenev",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/TechCrunch%20Disrupt%20NY%202016%20-%20Day%202%20%2826867775421%29%20%282%29.jpg",
+"q": "Q56248473",
+"zh": "弗拉基米尔·特内夫"
 },
 "1879974": {
 "en": "Neesha Hathi",
@@ -1680,6 +2193,7 @@
 },
 "1881842": {
 "en": "Peter Beck",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Peter%20Beck%202753%20%28tighter%20crop%29.jpg",
 "q": "Q55629586",
 "zh": "彼得·贝克"
 },
@@ -1691,6 +2205,10 @@
 "en": "Travis Boersma",
 "q": "Q136480368"
 },
+"1893081": {
+"en": "Chuck Magro",
+"q": "Q28233530"
+},
 "1895106": {
 "en": "John Bicket",
 "q": "Q79543012"
@@ -1698,6 +2216,16 @@
 "1895111": {
 "en": "Sanjit Biswas",
 "q": "Q7418560"
+},
+"1898468": {
+"en": "Will Marshall",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/TechCrunch%20Disrupt%20San%20Francisco%202018%20-%20day%201%20%2843784198524%29.jpg",
+"q": "Q23688148"
+},
+"1911039": {
+"en": "Ondřej Vlček",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Praha%2C%20Cibulka%2C%20Den%20otev%C5%99en%C3%A9%20br%C3%A1ny%2C%20man%C5%BEel%C3%A9%20Vl%C4%8Dkovi%20%288%29.jpg",
+"q": "Q96990627"
 },
 "1911045": {
 "en": "Adam Singolda",
@@ -1717,6 +2245,7 @@
 },
 "1962727": {
 "en": "Fidji Simo",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Facebook%20F8%20Developer%27s%20Conference%202017%20Fidji%20Simo%20%2833324521813%29.jpg",
 "q": "Q64853019"
 },
 "1975975": {
@@ -1734,16 +2263,23 @@
 },
 "2015798": {
 "en": "Devin Nunes",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Devin%20Nunes%2C%20official%20color%20photo%20portrait.jpg",
 "q": "Q539493",
 "zh": "德文·努尼斯"
 },
+"2071873": {
+"en": "Clay Magouyrk",
+"q": "Q138570027"
+},
 "2073586": {
 "en": "Dylan Field",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dylan%20Field%202008%20%28cropped%29.jpg",
 "q": "Q108871755",
 "zh": "迪伦·菲尔德"
 },
 "2085719": {
 "en": "Stephen Ehikian",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Stephen%20Ehikian%2C%20Acting%20Administrator%20and%20Deputy%20Administrator%20of%20the%20General%20Services%20Administration%20%28GSA%29%20by%20appointment.jpg",
 "q": "Q133809725"
 },
 "2113729": {
@@ -1753,17 +2289,24 @@
 },
 "2114078": {
 "en": "Hiroki Totoki",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hiroki%20Totoki%20%28cropped%29.jpg",
 "q": "Q89449105",
 "zh": "十时裕树"
 },
 "2114081": {
 "en": "Kenichiro Yoshida",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kenichiro%20Yoshida.jpg",
 "q": "Q64783806",
 "zh": "吉田宪一郎"
 },
 "2116312": {
 "en": "Eddie Wilson",
 "q": "Q24795213"
+},
+"2119473": {
+"en": "Kōji Satō",
+"q": "Q116935918",
+"zh": "佐藤恒治"
 },
 "2119478": {
 "en": "Kenta Kon",
@@ -1779,29 +2322,35 @@
 },
 "904858": {
 "en": "John W. Stanton",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/2009%20Secretary%20of%20State%27s%20Award%20for%20Corporate%20Excellence.jpg",
 "q": "Q6262563",
 "zh": "约翰·斯坦顿"
 },
 "923738": {
 "en": "Charles R. Schwab",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Charles%20schwab%202007.jpg",
 "q": "Q1066027",
 "zh": "查尔斯·施瓦布"
 },
 "938071": {
 "en": "David Duffield",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Dave%20Duffield%20addressing%20Peoplesoft%2C%202005.jpg",
 "q": "Q5233095"
 },
 "938543": {
 "en": "Milton S. Hershey",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Milton%20S.%20Hershey%20c1905.jpg",
 "q": "Q737720",
 "zh": "米尔顿·斯内夫利·赫尔希"
 },
 "938861": {
 "en": "Scott Cook",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Scott%20Cook%20%28Intuit%29%20%40%20SXSW%202017%20%28cropped%29.jpg",
 "q": "Q7436159"
 },
 "938885": {
 "en": "John W. Rogers, Jr.",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/20120721%20John%20W.%20Rogers%2C%20Jr.JPG",
 "q": "Q6262507"
 },
 "940569": {
@@ -1814,16 +2363,19 @@
 },
 "942082": {
 "en": "Carl Lindner III",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/MLS2Cincy%20announcement%20-%20Carl%20Lindner%20III%20%2842444130491%29%20%28cropped%29.jpg",
 "q": "Q27791897",
 "zh": "卡尔·林德纳三世"
 },
 "942439": {
 "en": "Roger Penske",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/Roger%20Penske%202023%20%28cropped%29.jpg",
 "q": "Q172155",
 "zh": "罗杰·彭斯克"
 },
 "944011": {
 "en": "Richard Gelfond",
+"img": "http://commons.wikimedia.org/wiki/Special:FilePath/NYCW%202026%20-%20Richard%20Gelfond%2001%20%28cropped%29.jpg",
 "q": "Q36395056",
 "zh": "理查德·葛尔方"
 }
