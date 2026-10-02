@@ -104,6 +104,10 @@ function Zh({ meta, c }: P) {
         <li>最新值得关注：近 45 天公开的股票买入中，属于上述信号、或金额 25 万美元以上的交易；每位官员每类最多列 2 笔。</li>
         <li>交易风格：单笔金额按档位中值取中位数；持有时间是从建仓到清仓的完整周期取中位数。</li>
         <li>改名的股票代码（如 FB→META、SQ→XYZ）统一按现在的代码计算，以便取得完整行情。申报日期早于交易日期的明显笔误不参与估算，表格中以 * 标出。</li>
+        <li>公司内部人交易：来自 SEC Form 4（季度打包数据集加各公司最新申报）。只保留非衍生证券的公开市场买入（代码 P）和卖出（代码 S），不含股权激励、期权行权、赠与和缴税扣股；标注“预设计划”的是按 10b5-1 计划执行的交易。以申报文件写明的发行人为准，公司作为别家公司大股东的申报不计入。新申报按公司轮流补充，交易多的公司优先。</li>
+        <li>财报日：取自公司向 SEC 提交的 8-K 文件中 2.02 项（经营业绩）的申报日期。“财报前 30 天内的交易占比”与随机水平（30 天 × 财报次数 ÷ 总天数）对比，只说明时间上的集中程度，不代表利用了未公开信息。</li>
+        <li>政策事件：走势图上的政策标记是人工整理的少量重大联邦法案与政策日期，按受影响行业显示。</li>
+        <li>委员会页面：成员按现任委员会名单；“监管相关”即上面的职权相关标记。每周回顾按申报公开日统计，周一至周日。</li>
       </ul>
 
       <h2>照片、标志与实时股价</h2>
@@ -211,6 +215,10 @@ function En({ meta, c }: P) {
         <li>Worth a look now: stock buys made public in the last 45 days that match those signals or exceed $250,000; at most two per official in each list.</li>
         <li>Trading style: median trade size from band midpoints; holding period is the median length of complete open-to-close round trips.</li>
         <li>Renamed tickers (FB to META, SQ to XYZ, …) are tracked under today&apos;s symbol so the full price history is available. Trade dates that come after their own filing date are typos; they are left out of estimates and marked with * in tables.</li>
+        <li>Company insiders: from SEC Form 4 (the quarterly data sets plus each company's newest filings). Only open-market purchases (code P) and sales (code S) of non-derivative securities are kept: no grants, option exercises, gifts or tax withholding. "Plan" marks trades made under a 10b5-1 plan. The issuer is taken from the filing itself, so a company's filings as a large holder of other companies are not counted as its own. New filings are added company by company, busiest first.</li>
+        <li>Earnings dates: the filing dates of the company's 8-Ks with item 2.02 (results of operations). The share of trades in the 30 days before a release is set against chance (30 days x releases / total days); it shows clustering in time, not use of non-public information.</li>
+        <li>Policy events: the policy marks on charts are a short hand-kept list of major federal laws and actions, shown for the sectors they affected.</li>
+        <li>Committee pages use current committee rosters; "within remit" is the oversight flag described above. The weekly review counts by the day a filing became public, Monday to Sunday.</li>
       </ul>
 
       <h2>Photos, logos and live prices</h2>

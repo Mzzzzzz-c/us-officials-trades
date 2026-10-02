@@ -392,6 +392,39 @@ export function mediaFor(ids: Iterable<string>, syms: Iterable<string>): MediaSu
 export const getMember = (id: string) => (safe(id) ? read<MemberPage>(`member/${id}.json`) : null);
 export const getTicker = (sym: string) => (safe(sym) ? read<TickerPage>(`ticker/${sym}.json`) : null);
 export const getSeries = (sym: string) => (safe(sym) ? read<{ w: [string, number][] }>(`series/${sym}.json`) : null);
+/** Company insiders' open-market trades (SEC Form 4) and earnings-release dates for one stock. */
+export interface InsiderFile {
+  cik: number;
+  /** [trade date, filed, name, relationship letters (D director, O officer, T 10% owner), title, P|S, shares, price, value, 10b5-1 plan, accession] */
+  tx: [string, string, string, string, string, "P" | "S", number, number, number, 0 | 1, string][];
+  earn: string[];
+  /** false until the company's own filing index has been read (recent months may be missing) */
+  full: boolean;
+}
+export type InsiderSum = Record<"b90" | "s90" | "vb90" | "vs90" | "nb90" | "ns90" | "b365" | "s365" | "vb365" | "vs365" | "nb365" | "ns365", number>;
+/** Buys and sells over the last 90 and 365 days: count, dollar value, distinct people. */
+export function insiderSum(tx: InsiderFile["tx"], today: string): InsiderSum {
+  const out = {} as InsiderSum;
+  for (const days of [90, 365] as const) {
+    const cut = new Date(Date.parse(today) - days * 864e5).toISOString().slice(0, 10);
+    for (const [code, k] of [["P", "b"], ["S", "s"]] as const) {
+      const sel = tx.filter((r) => r[5] === code && r[0] >= cut);
+      out[`${k}${days}`] = sel.length;
+      out[`v${k}${days}`] = sel.reduce((a, r) => a + r[8], 0);
+      out[`n${k}${days}`] = new Set(sel.map((r) => r[2])).size;
+    }
+  }
+  return out;
+}
+export interface InsidersIndex {
+  asof: string;
+  bulk_end: string | null;
+  stocks: number;
+  both: { sym: string; off: string[]; nob: number; ins: number; nib: number; vb: number; last: string }[];
+  top: { sym: string; who: string; rel: string; title: string; td: string; fd: string; val: number; n: number; acc: string; cik: number }[];
+}
+export const getInsider = (sym: string) => (safe(sym) ? read<InsiderFile>(`insider/${sym}.json`) : null);
+export const getInsiders = () => read<InsidersIndex>("insiders.json");
 export const getInvestor = (id: string) => (safe(id) ? read<InvestorPage>(`investor/${id}.json`) : null);
 
 let memberIndex: Map<string, MemberRow> | null = null;

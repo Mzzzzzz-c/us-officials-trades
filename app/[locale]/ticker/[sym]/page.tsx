@@ -5,11 +5,13 @@ import Share from "@/components/client/Share";
 import { FollowButton } from "@/components/client/Follow";
 import { ExtendedPrice, LivePrice, QuoteRanges } from "@/components/client/Quotes";
 import Reveal from "@/components/client/Reveal";
-import StockChart, { type TradeMark } from "@/components/client/StockChart";
+import StockChart, { type ChartEvent, type TradeMark } from "@/components/client/StockChart";
+import InsiderSection from "@/components/InsiderSection";
 import { Container, Metric, SectionHead } from "@/components/layout";
 import { Avatar, Logo } from "@/components/media";
 import TradeTable, { type MemberLite } from "@/components/TradeTable";
-import { getLatestPrices, getMedia, getSeries, getTicker, getTickers, investorMap, memberMap, slim } from "@/lib/data";
+import { getInsider, getInsiders, getLatestPrices, getMedia, getSeries, getTicker, getTickers, investorMap, memberMap, slim } from "@/lib/data";
+import { policyEventsFor } from "@/lib/events";
 import { amountRange, quarterLabel, shares, usdShort } from "@/lib/format";
 import { dict, fmt, isLocale } from "@/lib/i18n";
 import { person } from "@/lib/people";
@@ -61,6 +63,38 @@ export default async function TickerPage({ params }: { params: Promise<{ locale:
     byDay.set(tr.tx, mk);
   }
   const marks = Array.from(byDay.values()).sort((a, b) => (a.d < b.d ? -1 : 1));
+
+  // company insiders (SEC Form 4), earnings releases and policy events for the chart
+  const ins = getInsider(sym);
+  const insIndex = getInsiders();
+  const insDay = new Map<string, TradeMark>();
+  for (const r of ins?.tx ?? []) {
+    const mk = insDay.get(r[0]) ?? { d: r[0], b: 0, s: 0 };
+    if (r[5] === "P") mk.b += 1;
+    else mk.s += 1;
+    insDay.set(r[0], mk);
+  }
+  const insMarks = Array.from(insDay.values()).sort((a, b) => (a.d < b.d ? -1 : 1));
+  const earnDates = ins?.earn ?? [];
+  const events: ChartEvent[] = [
+    ...earnDates.map((e) => ({ d: e, k: "e" as const, label: t.insider.earnings })),
+    ...policyEventsFor(d.sec, locale).map((e) => ({ d: e.d, k: "p" as const, label: e.label })),
+  ];
+  // how many official trades fell in the 30 days before an earnings release, against chance
+  let earnStat: { n: number; k: number; base: number; releases: number } | null = null;
+  if (earnDates.length >= 4) {
+    const day = (x: string) => Date.parse(x) / 864e5;
+    const es = earnDates.map(day);
+    const lo = es[0] - 30, hi = es[es.length - 1];
+    const txs = d.trades.filter((x) => x.tx && ["P", "S", "SF", "SP"].includes(x.type)).map((x) => day(x.tx!)).filter((x) => x >= lo && x <= hi);
+    const k = txs.filter((x) => es.some((e) => e - x > 0 && e - x <= 30)).length;
+    earnStat = { n: txs.length, k, base: Math.min(1, (30 * es.length) / Math.max(1, hi - lo)), releases: es.length };
+  }
+  const cut90 = new Date(Date.now() - 90 * 864e5).toISOString().slice(0, 10);
+  const off90 = {
+    b: d.trades.filter((x) => x.type === "P" && (x.fil ?? "") >= cut90).length,
+    s: d.trades.filter((x) => x.type !== "P" && x.type !== "E" && (x.fil ?? "") >= cut90).length,
+  };
   const nb = d.trades.filter((x) => x.type === "P").length;
   const ns = d.trades.filter((x) => x.type !== "P" && x.type !== "E").length;
   const holders = d.members.filter((m) => m.held).length;
@@ -104,7 +138,18 @@ export default async function TickerPage({ params }: { params: Promise<{ locale:
 
       <Container>
         <Reveal className="card mt-8 p-4 sm:p-6">
-          <StockChart sym={d.sym} marks={marks} fallback={series} labels={t.x.chartRange} buyLabel={t.x.buy} sellLabel={t.x.sell} locale={locale} />
+          <StockChart
+            sym={d.sym}
+            marks={marks}
+            insiders={insMarks}
+            events={events}
+            layers={{ earnings: t.insider.layerEarnings, policy: t.insider.layerPolicy, insiders: t.insider.layerInsiders, insiderBuy: t.insider.insiderBuy, insiderSell: t.insider.insiderSell }}
+            fallback={series}
+            labels={t.x.chartRange}
+            buyLabel={t.x.buy}
+            sellLabel={t.x.sell}
+            locale={locale}
+          />
         </Reveal>
 
         <div className="mt-10 grid grid-cols-2 gap-6 sm:grid-cols-4">
@@ -128,6 +173,13 @@ export default async function TickerPage({ params }: { params: Promise<{ locale:
               <SentimentCell label={t.x.sentiment} b={d.stats.b90} s={d.stats.s90} line={fmt(t.x.sentimentLine, { b: d.stats.b90, s: d.stats.s90 })} />
               <SentimentCell label={t.x.sentiment365} b={d.stats.b365} s={d.stats.s365} line={fmt(t.x.sentimentLine, { b: d.stats.b365, s: d.stats.s365 })} />
             </div>
+          </Reveal>
+        ) : null}
+
+        {ins ? (
+          <Reveal className="mt-14">
+            <SectionHead title={t.insider.title} sub={t.insider.sub} id="insiders" />
+            <InsiderSection locale={locale} ins={ins} officials={off90} earn={earnStat} today={insIndex?.asof ?? new Date().toISOString().slice(0, 10)} bulkEnd={insIndex?.bulk_end ?? null} />
           </Reveal>
         ) : null}
 

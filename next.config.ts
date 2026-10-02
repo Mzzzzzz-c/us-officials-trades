@@ -6,7 +6,7 @@ const config: NextConfig = {
   poweredByHeader: false,
   // Pages rendered on demand read the JSON under data/site at runtime; make sure it ships with them.
   outputFileTracingIncludes: {
-    "/\\[locale\\]/ticker/\\[sym\\]": [`${SITE}/ticker/**/*`, `${SITE}/series/**/*`, `${SITE}/*.json`],
+    "/\\[locale\\]/ticker/\\[sym\\]": [`${SITE}/ticker/**/*`, `${SITE}/series/**/*`, `${SITE}/insider/**/*`, `${SITE}/*.json`],
     "/\\[locale\\]/member/\\[id\\]": [`${SITE}/member/**/*`, `${SITE}/*.json`],
     "/\\[locale\\]/trade/\\[id\\]": [`${SITE}/member/**/*`, `${SITE}/*.json`],
     "/\\[locale\\]/investor/\\[id\\]": [`${SITE}/investor/**/*`, `${SITE}/*.json`],

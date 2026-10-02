@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getInvestors, getMembers, getMeta, getTickers } from "@/lib/data";
 import { LOCALES } from "@/lib/i18n";
+import { getCommittees } from "@/lib/derived";
 import { siteUrl } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -15,6 +16,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/latest",
     "/investors",
     "/data",
+    "/weekly",
+    "/committees",
+    ...getCommittees().map((c) => `/committee/${c.id}`),
     "/portfolio",
     "/methodology",
     ...getMembers().map((m) => `/member/${m.id}`),

@@ -118,10 +118,10 @@ export default async function MemberPage({ params }: { params: Promise<{ locale:
           {p.committees?.length ? (
             <div className="mt-8 flex flex-wrap justify-center gap-2 sm:justify-start">
               {p.committees.map((c) => (
-                <span key={c.id} className="rounded-full bg-surface-2 px-3 py-1.5 text-xs">
+                <Link key={c.id} prefetch={false} href={`/${locale}/committee/${c.id}`} className="rounded-full bg-surface-2 px-3 py-1.5 text-xs transition-colors hover:bg-surface-3">
                   {committeeName(c.id, c.name, locale)}
                   {c.title ? <span className="font-semibold text-accent"> · {committeeTitle(c.title, locale)}</span> : null}
-                </span>
+                </Link>
               ))}
             </div>
           ) : null}

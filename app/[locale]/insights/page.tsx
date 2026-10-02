@@ -11,8 +11,8 @@ import { LivePrice, LiveSince } from "@/components/client/Quotes";
 import Reveal from "@/components/client/Reveal";
 import { Band, Container, Metric, PageHeader, SectionHead } from "@/components/layout";
 import { Avatar, AvatarStack, Logo, Sparkline } from "@/components/media";
-import { getInsights, getLatestPrices, type Strategy, type TradeCard } from "@/lib/data";
-import { amountRange } from "@/lib/format";
+import { getInsiders, getInsights, getLatestPrices, type Strategy, type TradeCard } from "@/lib/data";
+import { amountRange, usdShort } from "@/lib/format";
 import { dict, fmt, isLocale, type Dict, type Locale } from "@/lib/i18n";
 import { person, stock } from "@/lib/people";
 import { signalGroups } from "@/lib/signals";
@@ -37,6 +37,7 @@ export default async function InsightsPage({ params }: { params: Promise<{ local
   const all = st.all;
   const secLabel = (s: string) => t.sectors[s as keyof typeof t.sectors] ?? s;
   const sigs = signalGroups(ins, locale);
+  const insiders = getInsiders();
   const sections: [string, string][] = [
     ...(sigs.length ? ([["signals", t.x.signalsTitle]] as [string, string][]) : []),
     ["strategy", t.x.strategyEyebrow],
@@ -44,6 +45,7 @@ export default async function InsightsPage({ params }: { params: Promise<{ local
     ["leaders", t.x.leaderboard],
     ["flows", t.x.flowsTitle],
     ["clusters", t.x.clustersTitle],
+    ...(insiders ? ([["insiders", t.insider.title]] as [string, string][]) : []),
     ["oversight", t.x.oversightTitle],
     ["timing", t.x.bestTitle],
     ["delay", t.x.delayTitle],
@@ -340,7 +342,87 @@ export default async function InsightsPage({ params }: { params: Promise<{ local
       </Band>
 
       {/* ---------------------------------------------------------------- oversight */}
-      <Band id="oversight">
+      {/* ---------------------------------------------------------------- officials and company insiders */}
+      {insiders ? (
+        <Band id="insiders">
+          <Reveal>
+            <SectionHead title={t.insider.bothTitle} sub={t.insider.bothSub} />
+          </Reveal>
+          {insiders.both.length ? (
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {insiders.both.slice(0, 12).map((b) => {
+                const s = stock(b.sym, locale);
+                const people = b.off.slice(0, 5).map((id) => person(id, locale));
+                return (
+                  <Link key={b.sym} prefetch={false} href={`/${locale}/ticker/${encodeURIComponent(b.sym)}#insiders`} className="tile flex flex-col gap-4 p-5">
+                    <div className="flex items-center gap-3">
+                      <Logo sym={b.sym} kind={s.kind} size={40} />
+                      <div className="min-w-0 flex-1">
+                        <div className="text-[17px] font-semibold tracking-tight">{b.sym}</div>
+                        <div className="truncate text-xs text-muted">{s.name}</div>
+                      </div>
+                    </div>
+                    <div className="flex items-center justify-between gap-3 text-[13px]">
+                      <AvatarStack people={people.map((p) => ({ id: p.id, name: p.en, party: p.party, has: p.has }))} size={28} max={5} />
+                      <span className="font-semibold text-pos">{fmt(t.insider.nOfficials, { n: b.off.length })}</span>
+                    </div>
+                    <div className="border-t border-hair pt-3 text-[13px]">
+                      <span className="font-semibold text-pos">{fmt(t.insider.nInsiders, { n: b.ins, v: usdShort(b.vb) })}</span>
+                      <span className="num ml-2 text-faint">{b.last}</span>
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
+          ) : (
+            <p className="card px-5 py-8 text-center text-muted">{t.insider.bothNone}</p>
+          )}
+          {insiders.top.length ? (
+            <Reveal className="mt-10">
+              <h3 className="title-2">{t.insider.topTitle}</h3>
+              <p className="mt-1 mb-4 text-sm text-muted">{t.insider.topSub}</p>
+              <div className="card scroll-x overflow-hidden">
+                <table className="tbl">
+                  <tbody>
+                    {insiders.top.slice(0, 12).map((r, i) => {
+                      const s = stock(r.sym, locale);
+                      return (
+                        <tr key={i}>
+                          <td>
+                            <Link prefetch={false} href={`/${locale}/ticker/${encodeURIComponent(r.sym)}#insiders`} className="flex items-center gap-3">
+                              <Logo sym={r.sym} kind={s.kind} size={30} />
+                              <span>
+                                <span className="block font-semibold">{r.sym}</span>
+                                <span className="block max-w-[180px] truncate text-[11px] text-faint">{s.name}</span>
+                              </span>
+                            </Link>
+                          </td>
+                          <td>
+                            <div className="font-medium">{r.who.toLowerCase().replace(/\b[a-z]/g, (c) => c.toUpperCase())}</div>
+                            <div className="max-w-[220px] truncate text-[11px] text-faint">{(r.title && !/^see remarks?/i.test(r.title) ? r.title : "") || [...r.rel].map((c) => t.insider.rel[c as keyof typeof t.insider.rel] ?? "").join(" · ")}</div>
+                          </td>
+                          <td className="r num">
+                            <span className="font-semibold text-pos">{usdShort(r.val)}</span>
+                            {r.n > 1 ? <span className="ml-1.5 text-xs text-faint">{fmt(t.insider.nTrades, { n: r.n })}</span> : null}
+                          </td>
+                          <td className="r num whitespace-nowrap text-muted">
+                            <a className="link" href={`https://www.sec.gov/Archives/edgar/data/${r.cik}/${r.acc.replace(/-/g, "")}/`} target="_blank" rel="noopener noreferrer">
+                              {r.td}
+                            </a>
+                          </td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              </div>
+            </Reveal>
+          ) : null}
+          <p className="mt-4 text-xs text-faint">{fmt(t.insider.coverage, { n: insiders.stocks.toLocaleString("en-US") })}</p>
+        </Band>
+      ) : null}
+
+      <Band alt id="oversight">
         <Reveal>
           <SectionHead title={t.x.oversightTitle} sub={t.x.oversightSub} />
         </Reveal>
@@ -375,7 +457,7 @@ export default async function InsightsPage({ params }: { params: Promise<{ local
       </Band>
 
       {/* ---------------------------------------------------------------- timing */}
-      <Band alt id="timing">
+      <Band id="timing">
         <Reveal>
           <SectionHead title={`${t.x.bestTitle} · ${t.x.worstTitle}`} sub={t.x.timingSub} />
         </Reveal>
@@ -399,7 +481,7 @@ export default async function InsightsPage({ params }: { params: Promise<{ local
       </Band>
 
       {/* ---------------------------------------------------------------- delay */}
-      <Band id="delay">
+      <Band alt id="delay">
         <Reveal>
           <SectionHead title={t.x.delayTitle} sub={t.x.delaySub} />
         </Reveal>
@@ -439,7 +521,7 @@ export default async function InsightsPage({ params }: { params: Promise<{ local
       </Band>
 
       {/* ---------------------------------------------------------------- party */}
-      <Band alt id="party">
+      <Band id="party">
         <Reveal>
           <SectionHead title={t.x.partyTitle} sub={t.x.partySub} />
           <div className="-mt-2 mb-6 flex">

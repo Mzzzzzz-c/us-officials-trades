@@ -8,7 +8,7 @@ import re
 import shutil
 from collections import Counter, defaultdict
 
-from . import companies, estimate, executive, house, insights, media, oge, performance, positions, prices, sec13f, senate
+from . import companies, estimate, executive, house, insiders, insights, media, oge, performance, positions, prices, sec13f, senate
 from .members import Directory
 from .util import CONFIG, REF, SITE, days_between, load_yaml, norm_name, read_json, settings, today_iso, write_json
 
@@ -654,6 +654,11 @@ def run(fetch: bool = True, limit: int | None = None, skip_prices: bool = False,
     series, pos = analyse(trades, cfg)
     guard_coverage(trades)
     report["meta"] = export(trades, scanned, unknown, review, series, pos, directory, cfg, with_investors=not skip_sec)
+    try:
+        # company insiders' trades (SEC Form 4) and earnings dates; never let them break the main build
+        report["insiders"] = insiders.update(trades, fetch=fetch and not skip_sec)
+    except Exception as e:  # noqa: BLE001
+        log.warning("insiders update failed: %s", e)
     report["media"] = update_media(fetch)
     return report
 

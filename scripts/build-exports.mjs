@@ -26,9 +26,14 @@ const members = read("members.json");
 const tradeCols = ["id", "m", "ch", "tx", "txr", "fil", "delay", "own", "sym", "asset", "at", "type", "act", "amin", "amax", "opt", "ov", "src"];
 const trades = [];
 const memberPerf = {};
+const committees = {};
 for (const f of list("member")) {
   const d = read(`member/${f}`);
   memberPerf[d.profile.id] = { perf: d.perf, style: d.style, summary: d.summary };
+  for (const c of d.profile.committees ?? []) {
+    const k = (committees[c.id] ??= { id: c.id, name: c.name, members: [] });
+    k.members.push({ id: d.profile.id, title: c.title ?? null });
+  }
   for (const t of d.trades) {
     const opt = t.opt ? [t.opt.kind, t.opt.strike, t.opt.exp].filter((x) => x != null && x !== "").join(" ") : null;
     trades.push([t.id, t.m, t.ch, t.tx ?? null, t.txr ?? null, t.fil ?? null, t.delay ?? null, t.own, t.sym ?? null, t.asset ?? null, t.at ?? null, t.type, t.act ?? null, t.amin ?? null, t.amax ?? null, opt || null, t.ov ?? null, t.src]);
@@ -50,6 +55,89 @@ write("trades", tradeCols, trades);
     .map((t) => [t[I.id], t[I.m], t[I.ch], t[I.sym], t[I.sym] ? null : String(t[I.asset] ?? "").slice(0, 60) || null, t[I.type], t[I.act], t[I.fil], t[I.tx], t[I.amin], t[I.amax]]);
   write("feed", feedCols, feed);
   index.feed = { from: cut, to: end };
+}
+
+// ---------------------------------------------------------------- weekly reviews and committees
+// Not downloads: summaries the /weekly and /committee pages read (written next to the exports
+// because this script already has every trade in memory).
+{
+  const I = Object.fromEntries(tradeCols.map((k, i) => [k, i]));
+  const card = (t) => ({ id: t[I.id], m: t[I.m], sym: t[I.sym], asset: t[I.sym] ? null : String(t[I.asset] ?? "").slice(0, 60) || null, type: t[I.type], act: t[I.act], fil: t[I.fil], tx: t[I.tx], amin: t[I.amin], amax: t[I.amax], delay: t[I.delay] });
+  const isBuy = (t) => t[I.type] === "P";
+  const isSell = (t) => t[I.type] !== "P" && t[I.type] !== "E";
+
+  // weeks run Monday to Sunday by the date a filing became public
+  const end = read("meta.json").data_through ?? new Date().toISOString().slice(0, 10);
+  const day = (iso, n) => new Date(Date.parse(iso) + n * 864e5).toISOString().slice(0, 10);
+  const monday = (iso) => day(iso, -((new Date(iso).getUTCDay() + 6) % 7));
+  const weeks = [];
+  for (let w = 0, from = monday(end); w < 12; w++, from = day(from, -7)) {
+    const to = day(from, 6);
+    const ts = trades.filter((t) => (t[I.fil] ?? "") >= from && (t[I.fil] ?? "") <= to);
+    if (!ts.length) continue;
+    const byM = new Map(), byS = new Map();
+    for (const t of ts) {
+      const m = byM.get(t[I.m]) ?? byM.set(t[I.m], { m: t[I.m], n: 0, nb: 0, ns: 0, vmin: 0, vmax: 0 }).get(t[I.m]);
+      m.n++;
+      if (isBuy(t)) m.nb++;
+      if (isSell(t)) m.ns++;
+      m.vmin += t[I.amin] ?? 0;
+      m.vmax += t[I.amax] ?? t[I.amin] ?? 0;
+      if (t[I.sym] && (isBuy(t) || isSell(t))) {
+        const x = byS.get(t[I.sym]) ?? byS.set(t[I.sym], { sym: t[I.sym], nb: 0, ns: 0, buyers: new Set(), sellers: new Set() }).get(t[I.sym]);
+        if (isBuy(t)) (x.nb++, x.buyers.add(t[I.m]));
+        else (x.ns++, x.sellers.add(t[I.m]));
+      }
+    }
+    const size = (t) => t[I.amax] ?? t[I.amin] ?? 0;
+    // each list counts and shows the officials on its own side of the trade
+    const side = (k) => [...byS.values()].map((x) => ({ sym: x.sym, nb: x.nb, ns: x.ns, nm: x[k].size, ms: [...x[k]].slice(0, 6) }));
+    weeks.push({
+      from, to: to > end ? end : to, partial: to > end,
+      n: ts.length, officials: byM.size, nb: ts.filter(isBuy).length, ns: ts.filter(isSell).length,
+      late: ts.filter((t) => (t[I.delay] ?? 0) > 45).length,
+      vmin: ts.reduce((a, t) => a + (t[I.amin] ?? 0), 0), vmax: ts.reduce((a, t) => a + (t[I.amax] ?? t[I.amin] ?? 0), 0),
+      biggest: [...ts].sort((a, b) => size(b) - size(a) || (b[I.amin] ?? 0) - (a[I.amin] ?? 0)).slice(0, 10).map(card),
+      active: [...byM.values()].sort((a, b) => b.n - a.n || b.vmax - a.vmax).slice(0, 8),
+      bought: side("buyers").filter((x) => x.nb).sort((a, b) => b.nm - a.nm || b.nb - a.nb || a.sym.localeCompare(b.sym)).slice(0, 10),
+      sold: side("sellers").filter((x) => x.ns).sort((a, b) => b.nm - a.nm || b.ns - a.ns || a.sym.localeCompare(b.sym)).slice(0, 10),
+      slowest: [...ts].filter((t) => t[I.delay] != null).sort((a, b) => b[I.delay] - a[I.delay]).slice(0, 5).map(card),
+    });
+  }
+  fs.writeFileSync(path.join(OUT, "weekly.json"), JSON.stringify({ end, weeks }));
+
+  // committees: every member's trades, and those within the committee's own remit (the "ov" flag)
+  const out = [];
+  for (const c of Object.values(committees)) {
+    const ids = new Set(c.members.map((m) => m.id));
+    const all = trades.filter((t) => ids.has(t[I.m]));
+    const ov = all.filter((t) => t[I.ov] === c.id);
+    const bySym = new Map(), byM = new Map();
+    for (const t of ov) {
+      if (t[I.sym]) {
+        const x = bySym.get(t[I.sym]) ?? bySym.set(t[I.sym], { sym: t[I.sym], nb: 0, ns: 0, ms: new Set() }).get(t[I.sym]);
+        if (isBuy(t)) x.nb++;
+        else if (isSell(t)) x.ns++;
+        x.ms.add(t[I.m]);
+      }
+      byM.set(t[I.m], (byM.get(t[I.m]) ?? 0) + 1);
+    }
+    const allByM = new Map();
+    for (const t of all) allByM.set(t[I.m], (allByM.get(t[I.m]) ?? 0) + 1);
+    const order = { Chairman: 0, Chair: 0, Chairwoman: 0, "Ranking Member": 1, "Vice Chairman": 2, "Vice Chair": 2 };
+    out.push({
+      id: c.id, name: c.name,
+      members: c.members.map((m) => ({ ...m, n: allByM.get(m.id) ?? 0, nov: byM.get(m.id) ?? 0 })).sort((a, b) => (order[a.title] ?? 9) - (order[b.title] ?? 9) || b.nov - a.nov || b.n - a.n),
+      n: all.length, nov: ov.length, nb: ov.filter(isBuy).length, ns: ov.filter(isSell).length,
+      vmin: ov.reduce((a, t) => a + (t[I.amin] ?? 0), 0), vmax: ov.reduce((a, t) => a + (t[I.amax] ?? t[I.amin] ?? 0), 0),
+      last: ov[0]?.[I.fil] ?? null,
+      stocks: [...bySym.values()].map((x) => ({ sym: x.sym, nb: x.nb, ns: x.ns, nm: x.ms.size })).sort((a, b) => b.nb + b.ns - (a.nb + a.ns)).slice(0, 12),
+      recent: ov.slice(0, 150).map(card),
+    });
+  }
+  out.sort((a, b) => b.nov - a.nov || b.n - a.n);
+  fs.writeFileSync(path.join(OUT, "committees.json"), JSON.stringify(out));
+  console.log(`weekly: ${weeks.length} weeks; committees: ${out.length}`);
 }
 
 // ---------------------------------------------------------------- officials

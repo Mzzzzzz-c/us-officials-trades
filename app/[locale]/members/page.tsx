@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import MemberList from "@/components/MemberList";
@@ -16,7 +17,15 @@ export default async function MembersPage({ params }: { params: Promise<{ locale
   const t = dict(locale);
   return (
     <div>
-      <PageHeader title={t.nav.members} sub={t.home.intro} />
+      <PageHeader
+        title={t.nav.members}
+        sub={t.home.intro}
+        right={
+          <Link prefetch={false} href={`/${locale}/committees`} className="btn btn-quiet text-[15px]">
+            {t.committee.link} ›
+          </Link>
+        }
+      />
       <Container>
         <MemberList locale={locale} rows={getMembers().filter((m) => m.chamber !== "E")} photos={getMedia().people} />
       </Container>

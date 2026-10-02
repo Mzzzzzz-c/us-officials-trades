@@ -33,7 +33,14 @@ export default async function LatestPage({ params }: { params: Promise<{ locale:
       <PageHeader
         title={t.x.latestFeed}
         sub={t.home.intro}
-        right={<PosterButton src={`/${locale}/poster/week`} path={`/${locale}/latest`} text={`${t.x.latestFeed} · ${t.siteName}`} labels={t.share} label={t.share.posterWeek} />}
+        right={
+          <div className="flex flex-wrap items-center gap-2">
+            <PosterButton src={`/${locale}/poster/week`} path={`/${locale}/latest`} text={`${t.x.latestFeed} · ${t.siteName}`} labels={t.share} label={t.share.posterWeek} />
+            <Link prefetch={false} href={`/${locale}/weekly`} className="inline-flex items-center rounded-full bg-surface-2 px-3.5 py-1.5 text-[13px] font-semibold transition-colors hover:bg-surface-3">
+              {t.weekly.home} ›
+            </Link>
+          </div>
+        }
       />
       <Container>
         <TradeTable locale={locale} trades={recent} members={members} px={pxSub} filters media={media} />

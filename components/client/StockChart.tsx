@@ -8,6 +8,19 @@ export interface TradeMark {
   b: number; // buys that day
   s: number; // sells that day
 }
+/** A dated event drawn on the chart: an earnings release ("e") or a policy event ("p"). */
+export interface ChartEvent {
+  d: string;
+  k: "e" | "p";
+  label: string;
+}
+export interface ChartLayers {
+  earnings: string;
+  policy: string;
+  insiders: string;
+  insiderBuy: string;
+  insiderSell: string;
+}
 
 const RANGES = ["1d", "5d", "1m", "6m", "1y", "5y", "max"] as const;
 type Range = (typeof RANGES)[number];
@@ -26,7 +39,15 @@ export default function StockChart({
   buyLabel,
   sellLabel,
   locale = "en",
+  insiders = [],
+  events = [],
+  layers,
 }: {
+  /** company insiders' open-market buys and sells per day (SEC Form 4) */
+  insiders?: TradeMark[];
+  events?: ChartEvent[];
+  /** labels for the optional layers; without them the layer toggles are not shown */
+  layers?: ChartLayers;
   sym: string;
   marks: TradeMark[];
   fallback: [string, number][];
@@ -41,7 +62,10 @@ export default function StockChart({
   const [bars, setBars] = useState<Bar[] | null>(null);
   const [tz, setTz] = useState(0);
   const [err, setErr] = useState(false);
-  const [hover, setHover] = useState<{ t: string; p: number; b: number; s: number } | null>(null);
+  const [hover, setHover] = useState<{ t: string; p: number; b: number; s: number; ib: number; is: number; ev: string[] } | null>(null);
+  const [showIns, setShowIns] = useState(true);
+  const [showEarn, setShowEarn] = useState(true);
+  const [showPol, setShowPol] = useState(true);
 
   useEffect(() => {
     let dead = false;
@@ -132,8 +156,9 @@ export default function StockChart({
         s.setData(bars.map((b) => ({ time: time(b[0]), value: b[4] })));
         series = s;
       }
-      const agg = new Map<string, { b: number; s: number }>();
-      if (!intraday && marks.length) {
+      type Cell = { b: number; s: number; ib: number; is: number; ev: string[]; e: boolean; p: boolean };
+      const agg = new Map<string, Cell>();
+      if (!intraday) {
         // group trades so markers stay readable: by day (1 month), week (up to a year) or month (longer)
         const days = bars.map((b) => new Date(b[0] * 1000).toISOString().slice(0, 10));
         const span = range === "1m" ? 1 : range === "6m" || range === "1y" ? 7 : 30;
@@ -143,28 +168,56 @@ export default function StockChart({
           const b = bucketOf(i);
           if (!firstOf.has(b)) firstOf.set(b, d);
         });
-        for (const m of marks) {
-          if (m.d < days[0]) continue;
+        // index of the last bar on or before a date
+        const at = (d: string) => {
           let lo = 0;
           let hi = days.length - 1;
           while (lo < hi) {
             const mid = (lo + hi + 1) >> 1;
-            if (days[mid] <= m.d) lo = mid;
+            if (days[mid] <= d) lo = mid;
             else hi = mid - 1;
           }
-          const k = firstOf.get(bucketOf(lo)) ?? days[lo];
-          const a = agg.get(k) ?? { b: 0, s: 0 };
-          a.b += m.b;
-          a.s += m.s;
-          agg.set(k, a);
+          return lo;
+        };
+        const cell = (k: string) => agg.get(k) ?? agg.set(k, { b: 0, s: 0, ib: 0, is: 0, ev: [], e: false, p: false }).get(k)!;
+        const lastDay = days[days.length - 1];
+        for (const m of marks) {
+          if (m.d < days[0]) continue;
+          const c = cell(firstOf.get(bucketOf(at(m.d))) ?? days[at(m.d)]);
+          c.b += m.b;
+          c.s += m.s;
         }
-        const mk: import("lightweight-charts").SeriesMarker<import("lightweight-charts").Time>[] = [];
+        if (showIns)
+          for (const m of insiders) {
+            if (m.d < days[0]) continue;
+            const c = cell(firstOf.get(bucketOf(at(m.d))) ?? days[at(m.d)]);
+            c.ib += m.b;
+            c.is += m.s;
+          }
+        // events sit on their own day (the first trading day on or after it would be ideal; the bar before is close enough)
+        for (const ev of events) {
+          if (ev.d < days[0] || ev.d > lastDay) continue;
+          if ((ev.k === "e" && !showEarn) || (ev.k === "p" && !showPol)) continue;
+          const c = cell(days[at(ev.d)]);
+          c.ev.push(ev.label);
+          if (ev.k === "e") c.e = true;
+          else c.p = true;
+        }
+        type Marker = import("lightweight-charts").SeriesMarker<import("lightweight-charts").Time>;
+        const mk: Marker[] = [];
+        const T = (d: string) => d as unknown as import("lightweight-charts").Time;
         for (const [d, a] of Array.from(agg.entries()).sort()) {
-          // the arrow's direction and colour say buy or sell; a number only when there were several
-          if (a.b) mk.push({ time: d as unknown as import("lightweight-charts").Time, position: "belowBar", color: pos, shape: "arrowUp", text: a.b > 1 ? String(a.b) : "" });
-          if (a.s) mk.push({ time: d as unknown as import("lightweight-charts").Time, position: "aboveBar", color: neg, shape: "arrowDown", text: a.s > 1 ? String(a.s) : "" });
+          // officials: arrows (direction and colour say buy or sell; a number only when there were several)
+          if (a.b) mk.push({ time: T(d), position: "belowBar", color: pos, shape: "arrowUp", text: a.b > 1 ? String(a.b) : "" });
+          if (a.s) mk.push({ time: T(d), position: "aboveBar", color: neg, shape: "arrowDown", text: a.s > 1 ? String(a.s) : "" });
+          // company insiders: small dots
+          if (a.ib) mk.push({ time: T(d), position: "belowBar", color: pos, shape: "circle", size: 0.6 });
+          if (a.is) mk.push({ time: T(d), position: "aboveBar", color: neg, shape: "circle", size: 0.6 });
+          // events: squares on the line itself
+          if (a.e) mk.push({ time: T(d), position: "inBar", color: "#ff9f0a", shape: "square", size: 0.7 });
+          if (a.p) mk.push({ time: T(d), position: "inBar", color: "#5e5ce6", shape: "square", size: 0.9 });
         }
-        lc.createSeriesMarkers(series, mk);
+        if (mk.length) lc.createSeriesMarkers(series, mk);
       }
       chart.timeScale().fitContent();
       chart.subscribeCrosshairMove((p) => {
@@ -173,7 +226,7 @@ export default function StockChart({
         const price = v?.value ?? v?.close;
         const t = typeof p.time === "number" ? new Date(p.time * 1000).toISOString().replace("T", " ").slice(0, 16) : String(p.time);
         const a = typeof p.time === "number" ? undefined : agg.get(String(p.time));
-        if (price != null) setHover({ t, p: price, b: a?.b ?? 0, s: a?.s ?? 0 });
+        if (price != null) setHover({ t, p: price, b: a?.b ?? 0, s: a?.s ?? 0, ib: a?.ib ?? 0, is: a?.is ?? 0, ev: a?.ev ?? [] });
       });
       ro = new ResizeObserver(() => chart?.applyOptions({ width: box.clientWidth }));
       ro.observe(box);
@@ -183,7 +236,7 @@ export default function StockChart({
       ro?.disconnect();
       chart?.remove();
     };
-  }, [bars, kind, marks, range, buyLabel, sellLabel, locale, tz]);
+  }, [bars, kind, marks, insiders, events, showIns, showEarn, showPol, range, buyLabel, sellLabel, locale, tz]);
 
   const chg = bars && bars.length > 1 ? bars[bars.length - 1][4] / bars[0][1] - 1 : null;
   return (
@@ -203,6 +256,9 @@ export default function StockChart({
                 {hover.t} · <span className="font-semibold text-ink">${hover.p.toFixed(2)}</span>
                 {hover.b ? <span className="text-pos"> · {buyLabel} {hover.b}</span> : null}
                 {hover.s ? <span className="text-neg"> · {sellLabel} {hover.s}</span> : null}
+                {layers && hover.ib ? <span className="text-pos"> · {layers.insiderBuy} {hover.ib}</span> : null}
+                {layers && hover.is ? <span className="text-neg"> · {layers.insiderSell} {hover.is}</span> : null}
+                {hover.ev.length ? <span className="font-medium text-ink"> · {hover.ev.slice(0, 2).join(" / ")}</span> : null}
               </>
             ) : chg != null ? (
               <span className={chg >= 0 ? "text-pos" : "text-neg"}>
@@ -231,8 +287,8 @@ export default function StockChart({
         {!bars ? <div className="skeleton absolute inset-0" /> : null}
         <div ref={el} className="absolute inset-0" />
       </div>
-      {marks.length ? (
-        <div className="mt-3 flex items-center gap-4 text-xs text-muted">
+      {marks.length || insiders.length || events.length ? (
+        <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted">
           <span className="flex items-center gap-1.5">
             <svg width="10" height="10" viewBox="0 0 10 10" aria-hidden>
               <path d="M5 1l4 7H1z" fill="var(--pos)" />
@@ -245,6 +301,31 @@ export default function StockChart({
             </svg>
             {sellLabel}
           </span>
+          {layers ? (
+            <span className="flex flex-wrap items-center gap-1.5 sm:ml-auto">
+              {insiders.length ? (
+                <button type="button" className="chip px-2.5 py-1 text-[12px]" aria-pressed={showIns} onClick={() => setShowIns(!showIns)}>
+                  <svg width="14" height="8" viewBox="0 0 14 8" aria-hidden>
+                    <circle cx="3.5" cy="4" r="3" fill="var(--pos)" />
+                    <circle cx="10.5" cy="4" r="3" fill="var(--neg)" />
+                  </svg>
+                  {layers.insiders}
+                </button>
+              ) : null}
+              {events.some((e) => e.k === "e") ? (
+                <button type="button" className="chip px-2.5 py-1 text-[12px]" aria-pressed={showEarn} onClick={() => setShowEarn(!showEarn)}>
+                  <span className="inline-block size-2 rounded-[2px] bg-[#ff9f0a]" />
+                  {layers.earnings}
+                </button>
+              ) : null}
+              {events.some((e) => e.k === "p") ? (
+                <button type="button" className="chip px-2.5 py-1 text-[12px]" aria-pressed={showPol} onClick={() => setShowPol(!showPol)}>
+                  <span className="inline-block size-2.5 rounded-[2px] bg-[#5e5ce6]" />
+                  {layers.policy}
+                </button>
+              ) : null}
+            </span>
+          ) : null}
         </div>
       ) : null}
     </div>
