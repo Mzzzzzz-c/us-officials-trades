@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import SectionTabs from "@/components/SectionTabs";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Reveal from "@/components/client/Reveal";
@@ -21,7 +22,7 @@ export default async function InvestorsPage({ params }: { params: Promise<{ loca
   const list = [...getInvestors()].sort((a, b) => b.value - a.value);
   return (
     <div>
-      <PageHeader title={t.investors.title} sub={t.investors.intro} />
+      <PageHeader eyebrow={<SectionTabs locale={locale} group="people" active="investors" />} title={t.investors.title} sub={t.investors.intro} />
       <Container className="pb-8">
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {list.map((iv, i) => {

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import SectionTabs from "@/components/SectionTabs";
 import { notFound } from "next/navigation";
 import MemberList from "@/components/MemberList";
 import { Container, PageHeader } from "@/components/layout";
@@ -16,7 +17,7 @@ export default async function ExecutivePage({ params }: { params: Promise<{ loca
   const t = dict(locale);
   return (
     <div>
-      <PageHeader title={t.executive.title} sub={t.executive.intro} />
+      <PageHeader eyebrow={<SectionTabs locale={locale} group="people" active="executive" />} title={t.executive.title} sub={t.executive.intro} />
       <Container>
         <MemberList locale={locale} rows={getMembers().filter((m) => m.chamber === "E")} executive photos={getMedia().people} />
       </Container>

@@ -1,5 +1,6 @@
 "use client";
 
+import Morph from "@/components/Morph";
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { TickerRow } from "@/lib/data";
@@ -67,7 +68,9 @@ export default function TickerList({
       <div className="card divide-y divide-hair overflow-hidden">
         {list.slice(0, limit).map((r) => (
           <Link key={r.sym} prefetch={false} href={`/${locale}/ticker/${r.sym}`} className="flex items-center gap-4 px-4 py-3 transition-colors hover:bg-surface-2 sm:px-5">
-            <Logo sym={r.sym} kind={logos[r.sym]} size={40} />
+            <Morph name={`s-${r.sym}`}>
+              <Logo sym={r.sym} kind={logos[r.sym]} size={40} />
+            </Morph>
             <div className="min-w-0 flex-1">
               <div className="font-semibold">{r.sym}</div>
               <div className="truncate text-xs text-muted">{locale === "zh" && r.zh ? r.zh : r.name}</div>

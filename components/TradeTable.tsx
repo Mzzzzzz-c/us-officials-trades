@@ -6,6 +6,7 @@ import type { Trade } from "@/lib/data";
 import { amountRange, price, priceRange, shareRange, since } from "@/lib/format";
 import { dict, fmt, type Locale } from "@/lib/i18n";
 import { Avatar, Logo } from "./media";
+import Term from "./client/Term";
 import { ConfBadge, Pct, TypeBadge } from "./ui";
 
 export interface MemberLite {
@@ -118,10 +119,18 @@ export default function TradeTable({ locale, trades, members = {}, px, showMembe
               {showTicker && <th>{t.table.ticker}</th>}
               <th>{t.table.type}</th>
               <th>{t.table.tx}</th>
-              <th className="r">{t.table.amount}</th>
-              <th className="r">{t.table.estPrice}</th>
-              <th className="r" title={t.trade.follower}>{t.table.followSince}</th>
-              <th className="r">{t.table.delay}</th>
+              <th className="r">
+                <Term tip={t.glossary.amount} align="right">{t.table.amount}</Term>
+              </th>
+              <th className="r">
+                <Term tip={t.glossary.estPrice} align="right">{t.table.estPrice}</Term>
+              </th>
+              <th className="r">
+                <Term tip={t.glossary.follow} align="right">{t.table.followSince}</Term>
+              </th>
+              <th className="r">
+                <Term tip={t.glossary.delay} align="right">{t.table.delay}</Term>
+              </th>
             </tr>
           </thead>
           <tbody>

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import SectionTabs from "@/components/SectionTabs";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Container, PageHeader } from "@/components/layout";
@@ -57,7 +58,7 @@ export default async function CalendarPage({ params }: { params: Promise<{ local
 
   return (
     <div>
-      <PageHeader title={c.title} sub={c.sub} />
+      <PageHeader eyebrow={<SectionTabs locale={locale} group="insights" active="calendar" />} title={c.title} sub={c.sub} />
       <Container className="pb-16">
         {peak && peak[1] >= 20 ? (
           <div className="well mb-8 rounded-2xl p-5">

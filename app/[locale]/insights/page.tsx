@@ -1,4 +1,5 @@
 import { PosterButton } from "@/components/client/Share";
+import SectionTabs from "@/components/SectionTabs";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -60,7 +61,7 @@ export default async function InsightsPage({ params }: { params: Promise<{ local
 
   return (
     <div>
-      <PageHeader title={t.x.insightsTitle} sub={t.x.insightsSub} />
+      <PageHeader eyebrow={<SectionTabs locale={locale} group="insights" active="insights" />} title={t.x.insightsTitle} sub={t.x.insightsSub} />
       <Container>
         <div className="no-scrollbar -mx-5 flex gap-2 overflow-x-auto px-5 pb-2">
           {sections.map(([id, label]) => (

@@ -1,3 +1,4 @@
+import Morph from "@/components/Morph";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -101,7 +102,9 @@ export default async function MemberPage({ params }: { params: Promise<{ locale:
         <Container className="pt-12 pb-10 sm:pt-16">
           <div className="flex flex-col items-center gap-6 text-center sm:flex-row sm:items-end sm:text-left">
             <div className="fade-up">
-              <Avatar id={p.id} name={p.name} party={p.party} has={!!media.people[p.id]} size={148} />
+              <Morph name={`p-${p.id}`}>
+                <Avatar id={p.id} name={p.name} party={p.party} has={!!media.people[p.id]} size={148} />
+              </Morph>
             </div>
             <div className="fade-up min-w-0 flex-1" style={{ animationDelay: "80ms" }}>
               <div className="flex flex-wrap items-center justify-center gap-2 sm:justify-start">

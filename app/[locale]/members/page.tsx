@@ -1,4 +1,5 @@
 import Link from "next/link";
+import SectionTabs from "@/components/SectionTabs";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import MemberList from "@/components/MemberList";
@@ -17,7 +18,7 @@ export default async function MembersPage({ params }: { params: Promise<{ locale
   const t = dict(locale);
   return (
     <div>
-      <PageHeader
+      <PageHeader eyebrow={<SectionTabs locale={locale} group="people" active="members" />}
         title={t.nav.members}
         sub={t.home.intro}
         right={

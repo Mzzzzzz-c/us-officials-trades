@@ -43,7 +43,7 @@ export function Avatar({
   const style = {
     width: size,
     height: size,
-    boxShadow: ring ? `0 0 0 ${size >= 64 ? 3 : 2}px var(--bg-elev), 0 0 0 ${size >= 64 ? 5 : 3.5}px ${color}` : undefined,
+    boxShadow: ring ? `0 0 0 ${size >= 64 ? 3 : 2}px var(--solid), 0 0 0 ${size >= 64 ? 5 : 3.5}px ${color}` : undefined,
   };
   if (has) {
     return (
@@ -141,7 +141,7 @@ export function AvatarStack({
       {rest > 0 ? (
         <span
           className="relative inline-flex items-center justify-center rounded-full bg-surface-3 text-[11px] font-semibold text-muted"
-          style={{ width: size, height: size, marginLeft: -size * 0.3, boxShadow: "0 0 0 2px var(--bg-elev)" }}
+          style={{ width: size, height: size, marginLeft: -size * 0.3, boxShadow: "0 0 0 2px var(--solid)" }}
         >
           +{rest}
         </span>

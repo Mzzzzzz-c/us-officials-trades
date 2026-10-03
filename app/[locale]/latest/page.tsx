@@ -1,4 +1,5 @@
 import { PosterButton } from "@/components/client/Share";
+import SectionTabs from "@/components/SectionTabs";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -30,7 +31,7 @@ export default async function LatestPage({ params }: { params: Promise<{ locale:
   const unparsed = getUnparsed().length;
   return (
     <div>
-      <PageHeader
+      <PageHeader eyebrow={<SectionTabs locale={locale} group="insights" active="latest" />}
         title={t.x.latestFeed}
         sub={t.home.intro}
         right={

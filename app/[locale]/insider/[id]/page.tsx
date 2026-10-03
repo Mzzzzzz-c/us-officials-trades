@@ -1,3 +1,4 @@
+import Morph from "@/components/Morph";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -99,8 +100,10 @@ export default async function InsiderPage({ params }: { params: Promise<{ locale
         <Container className="pt-12 pb-10 sm:pt-16">
           <div className="fade-up flex flex-wrap items-center gap-6">
             <div className="relative shrink-0">
-              <Avatar id={`ins-${p[0]}`} name={p[10] || insiderName(p[1])} has={!!media.people[`ins-${p[0]}`]} size={known ? 132 : 104} />
-              <span className="absolute -right-1.5 -bottom-1.5 rounded-[12px] shadow-[0_0_0_3px_var(--bg-elev)]">
+              <Morph name={`p-ins-${p[0]}`}>
+                <Avatar id={`ins-${p[0]}`} name={p[10] || insiderName(p[1])} has={!!media.people[`ins-${p[0]}`]} size={known ? 132 : 104} />
+              </Morph>
+              <span className="absolute -right-1.5 -bottom-1.5 rounded-[12px] shadow-[0_0_0_3px_var(--solid)]">
                 <Logo sym={main.sym} kind={logos[main.sym]} size={40} />
               </span>
             </div>

@@ -97,14 +97,31 @@ export const C = {
 export const upDown = (locale: Locale) => (locale === "zh" ? { up: "#e0352b", down: "#1f9d55" } : { up: "#1f9d55", down: "#e0352b" });
 export const partyColor = (p?: string | null) => (p === "D" ? C.dem : p === "R" ? C.rep : C.ind);
 
+/** The site mark (same drawing as components/Brand.tsx), for share images. */
+export function BrandSvg({ size = 30 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24">
+      <defs>
+        <linearGradient id="bg" x1="3" y1="21" x2="21" y2="3" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stopColor="#3b47e0" />
+          <stop offset="0.55" stopColor="#b14bd9" />
+          <stop offset="1" stopColor="#f0694f" />
+        </linearGradient>
+      </defs>
+      <rect x="1" y="1" width="22" height="22" rx="7.2" fill="url(#bg)" />
+      <path d="M6.2 12.2a5.8 5.8 0 0 1 11.6 0" stroke="#fff" strokeWidth="1.7" fill="none" strokeLinecap="round" />
+      <path d="M12 6.4V4.2M5.6 12.2h1.8M16.6 12.2h1.8" stroke="#fff" strokeWidth="1.5" fill="none" strokeLinecap="round" />
+      <path d="M8 18.6v-2.4M12 18.6v-4.2M16 18.6v-6" stroke="#fff" strokeWidth="2.1" fill="none" strokeLinecap="round" />
+    </svg>
+  );
+}
+
 export function Frame({ children, brand, site, qr }: { children: ReactNode; brand: string; site: string; qr?: ReactNode }) {
   return (
     <div style={{ width: "100%", height: "100%", display: "flex", flexDirection: "column", background: C.bg, fontFamily: "SC", color: C.text, padding: "44px 56px" }}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", fontSize: 24, color: C.muted, fontWeight: 500 }}>
         <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
-          <svg width="30" height="30" viewBox="0 0 24 24">
-            <path d="M3 9.5 12 4l9 5.5M5 10v8m4.7-8v8m4.6-8v8M19 10v8M3.5 20.5h17" stroke={C.accent} strokeWidth="1.9" fill="none" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
+<BrandSvg size={34} />
           <span style={{ color: C.text, fontWeight: 700 }}>{brand}</span>
         </div>
         <span>{site}</span>

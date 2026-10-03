@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import SectionTabs from "@/components/SectionTabs";
 import { notFound } from "next/navigation";
 import Following from "@/components/client/Following";
 import { Container, PageHeader } from "@/components/layout";
@@ -22,7 +23,7 @@ export default async function FollowingPage({ params }: { params: Promise<{ loca
   };
   return (
     <div>
-      <PageHeader title={t.follow.title} sub={t.follow.sub} />
+      <PageHeader eyebrow={<SectionTabs locale={locale} group="mine" active="following" />} title={t.follow.title} sub={t.follow.sub} />
       <Container className="pb-16">
         <Following locale={locale} t={t.follow} types={t.types} site={siteUrl()} popular={popular} />
       </Container>

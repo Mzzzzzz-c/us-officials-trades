@@ -1,5 +1,6 @@
 "use client";
 
+import Morph from "@/components/Morph";
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { MemberRow } from "@/lib/data";
@@ -86,7 +87,9 @@ export default function MemberList({ locale, rows, executive = false, photos }: 
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
         {list.slice(0, limit).map((m) => (
           <Link key={m.id} prefetch={false} href={`/${locale}/member/${m.id}`} className="tile flex flex-col items-center px-4 pt-6 pb-4 text-center">
-            <Avatar id={m.id} name={m.name} party={m.party} has={!!photos[m.id]} size={88} />
+            <Morph name={`p-${m.id}`}>
+              <Avatar id={m.id} name={m.name} party={m.party} has={!!photos[m.id]} size={88} />
+            </Morph>
             <div className="mt-4 line-clamp-1 text-[16px] font-semibold tracking-tight">{locale === "zh" && m.zh ? m.zh : m.name}</div>
             {locale === "zh" && m.zh ? <div className="line-clamp-1 text-[11px] text-faint">{m.name}</div> : null}
             <div className="mt-1 line-clamp-2 min-h-[2.5em] text-xs leading-snug text-muted">{role(m)}</div>

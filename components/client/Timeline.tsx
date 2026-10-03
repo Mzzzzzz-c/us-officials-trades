@@ -6,6 +6,7 @@
 // from trade to trade.
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { Avatar, Logo } from "../media";
 import { PosterButton } from "./Share";
 
@@ -44,6 +45,15 @@ export interface TLEvent {
   label: string;
   sub?: string;
   href?: string;
+}
+
+/** A guided entry point: a headline that, when chosen, moves the timeline to the trades behind it. */
+export interface TLStory {
+  kicker: string;
+  title: string;
+  sub: string;
+  ids: string[];
+  tone?: "b" | "s";
 }
 
 export interface TLLabels {
@@ -98,7 +108,9 @@ export default function Timeline({
   locale,
   today,
   poster,
+  stories,
 }: {
+  stories?: TLStory[];
   items: TLItem[];
   events?: TLEvent[];
   /** lane names, top to bottom; items without a lane go to the first */
@@ -124,6 +136,8 @@ export default function Timeline({
   const [selEvent, setSelEvent] = useState<TLEvent | null>(null);
   const [loaded, setLoaded] = useState<{ sym: string; pts: [number, number][] } | null>(null);
   const drag = useRef<{ x: number; t0: number; t1: number; moved: boolean } | null>(null);
+  const sheetDrag = useRef<number | null>(null);
+  const [sheetY, setSheetY] = useState(0);
 
   const now = ms(today);
   const shown = useMemo(() => items.filter((i) => (!side || i.side === side) && (!stock || i.sym === stock)).sort((a, b) => (a.d < b.d ? -1 : a.d > b.d ? 1 : 0)), [items, side, stock]);
@@ -134,8 +148,10 @@ export default function Timeline({
   const domain = useMemo(() => {
     const first = items.length ? Math.min(...items.map((i) => ms(i.d))) : now - 365 * DAY;
     const lastEv = events.reduce((a, e) => Math.max(a, ms(e.d)), now);
-    const end = Math.min(lastEv, now + 100 * DAY) + 10 * DAY;
-    return [Math.min(first, now - 120 * DAY) - 20 * DAY, Math.max(end, now + 20 * DAY)] as [number, number];
+    // room for what is coming, but never more than a quarter of the history shown
+    const ahead = Math.min(100 * DAY, Math.max(14 * DAY, (now - first) * 0.25));
+    const end = Math.min(lastEv, now + ahead) + 6 * DAY;
+    return [Math.min(first, now - 45 * DAY) - 10 * DAY, Math.max(end, now + 8 * DAY)] as [number, number];
   }, [items, events, now]);
   const [view, setView] = useState<[number, number]>(domain);
   const [range, setRange] = useState<keyof TLLabels["ranges"] | "">("all");
@@ -248,15 +264,52 @@ export default function Timeline({
   const cy = (b: Bucket) => mid(b.lane) + (b.side === "b" ? -1 : b.side === "s" ? 1 : 0) * ((LH - HEAD) / 4);
   const color = (s: TLItem["side"]) => (s === "b" ? "var(--pos)" : s === "s" ? "var(--neg)" : "var(--faint)");
 
+  const biggest = useMemo(() => buckets.reduce<Bucket | null>((a, b) => (!a || b.v / vmax[b.lane] > a.v / vmax[a.lane] ? b : a), null), [buckets, vmax]);
   const selected = useMemo(() => buckets.find((b) => b.key === sel) ?? null, [buckets, sel]);
   // the selection is a set of trade ids, so it survives zooming (buckets regroup)
   const [selIds, setSelIds] = useState<string[]>([]);
   const selItems = useMemo(() => (selIds.length ? shown.filter((i) => selIds.includes(i.id)) : []), [shown, selIds]);
+  const [hint, setHint] = useState(false);
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    setMounted(true);
+    try {
+      setHint(!window.localStorage.getItem("tl:seen"));
+    } catch {
+      setHint(false);
+    }
+  }, []);
   const pick = (b: Bucket | null) => {
     setSel(b?.key ?? null);
     setSelIds(b ? b.items.map((i) => i.id) : []);
     setSelEvent(null);
+    if (b && hint) {
+      setHint(false);
+      try {
+        window.localStorage.setItem("tl:seen", "1");
+      } catch {
+        // private mode: the hint simply shows again next time
+      }
+    }
   };
+  /** Move to the trades of a story and open them. */
+  const focus = (ids: string[]) => {
+    const ts = items.filter((i) => ids.includes(i.id)).map((i) => ms(i.d));
+    if (!ts.length) return;
+    setSide("");
+    setStock("");
+    const lo = Math.min(...ts), hi = Math.max(...ts);
+    const span = Math.max(50 * DAY, (hi - lo) * 1.8);
+    const mid = (lo + hi) / 2;
+    const a = Math.max(domain[0], Math.min(domain[1] - span, mid - span / 2));
+    setRange("");
+    setView([a, a + span]);
+    setSel(null);
+    setSelIds(ids);
+    setSelEvent(null);
+    box.current?.scrollIntoView({ behavior: "smooth", block: "center" });
+  };
+  const [story, setStory] = useState(-1);
 
   const step = (dir: 1 | -1) => {
     if (!buckets.length) return;
@@ -333,10 +386,89 @@ export default function Timeline({
   const nowX = X(now);
   const tipLeft = hover ? Math.min(Math.max(8, hover.x - 130), Math.max(8, w - 268)) : 0;
 
+  const detail = (
+        <div className="mt-4 grid gap-3 sm:grid-cols-2">
+          {selItems.slice(0, 40).map((it) => (
+            <div key={it.id} className="card p-4">
+              <div className="flex items-center gap-3">
+                {it.avatar ? <Avatar id={it.avatar.id} name={it.avatar.name} party={it.avatar.party} has={it.avatar.has} size={40} /> : it.logo ? <Logo sym={it.logo.sym} kind={it.logo.kind} size={40} /> : null}
+                <div className="min-w-0 flex-1">
+                  <div className="truncate text-[15px] font-semibold">{it.title}</div>
+                  {it.sub ? <div className="truncate text-[12px] text-muted">{it.sub}</div> : null}
+                </div>
+                <span className="shrink-0 rounded-full px-2.5 py-1 text-[12px] font-semibold text-white" style={{ background: color(it.side) }}>
+                  {sideName(it.side)}
+                </span>
+              </div>
+              <div className="num mt-3 text-[22px] font-semibold tracking-tight">{it.amount}</div>
+              <dl className="mt-2 grid grid-cols-2 gap-x-4 gap-y-1.5 text-[13px]">
+                {it.rows.map(([k, v]) => (
+                  <div key={k} className="flex justify-between gap-2 border-b border-hair pb-1">
+                    <dt className="text-muted">{k}</dt>
+                    <dd className="num text-right font-medium">{v}</dd>
+                  </div>
+                ))}
+              </dl>
+              {it.tags?.length ? (
+                <div className="mt-2 flex flex-wrap gap-1.5">
+                  {it.tags.map((g) => (
+                    <span key={g} className="rounded-full bg-surface-2 px-2 py-0.5 text-[11px] text-muted">
+                      {g}
+                    </span>
+                  ))}
+                </div>
+              ) : null}
+              <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-[13px]">
+                {it.href ? (
+                  <Link prefetch={false} className="link font-medium" href={it.href}>
+                    {labels.details} ›
+                  </Link>
+                ) : null}
+                {it.link ? (
+                  <Link prefetch={false} className="link" href={it.link}>
+                    {it.avatar ? labels.person : labels.stock} ›
+                  </Link>
+                ) : null}
+                {it.src ? (
+                  <a className="link" href={it.src} target="_blank" rel="noopener noreferrer">
+                    {labels.source} ↗
+                  </a>
+                ) : null}
+              </div>
+            </div>
+          ))}
+          {selItems.length > 40 ? <p className="text-xs text-faint sm:col-span-2">{fmtN(labels.more, selItems.length - 40)}</p> : null}
+        </div>
+  );
   if (!items.length) return <p className="card px-5 py-8 text-center text-sm text-muted">{labels.empty}</p>;
 
   return (
     <div>
+      {stories?.length ? (
+        <div className="mb-5 grid gap-3 sm:grid-cols-3">
+          {stories.map((st, k) => (
+            <button
+              key={k}
+              type="button"
+              aria-pressed={story === k}
+              onClick={() => {
+                setStory(k);
+                focus(st.ids);
+              }}
+              className={`sheen rounded-2xl p-4 text-left transition-all duration-300 ${story === k ? "bg-[var(--solid)] shadow-[inset_0_0_0_1.5px_var(--accent),var(--shadow-sm)]" : "bg-surface-2 hover:bg-surface-3"}`}
+            >
+              <div className="flex items-center gap-2 text-[12px] font-semibold" style={{ color: st.tone === "s" ? "var(--neg)" : st.tone === "b" ? "var(--pos)" : "var(--accent)" }}>
+                <span className="num flex size-5 items-center justify-center rounded-full text-[11px] text-white" style={{ background: st.tone === "s" ? "var(--neg)" : st.tone === "b" ? "var(--pos)" : "var(--accent)" }}>
+                  {k + 1}
+                </span>
+                {st.kicker}
+              </div>
+              <div className="mt-2 text-[16px] leading-snug font-semibold tracking-tight">{st.title}</div>
+              <div className="mt-1 text-[13px] leading-snug text-muted">{st.sub}</div>
+            </button>
+          ))}
+        </div>
+      ) : null}
       <div className="mb-3 flex flex-wrap items-center gap-x-3 gap-y-2">
         <div className="seg">
           {(Object.keys(labels.ranges) as (keyof TLLabels["ranges"])[]).map((r) => (
@@ -415,7 +547,7 @@ export default function Timeline({
           setHover(null);
         }}
       >
-        <svg width={w} height={H} className="block" role="img" aria-label={labels.hint}>
+        <svg width={w} height={H} className={`block ${hover?.b ? "tl-dim" : ""}`} role="img" aria-label={labels.hint}>
           {/* months */}
           {ticks.map((t, k) => (
             <g key={k}>
@@ -486,10 +618,11 @@ export default function Timeline({
           {/* trades */}
           {buckets.map((b) => {
             const r = radius(b);
-            const on = b.key === sel;
+            const on = b.key === sel || (selIds.length > 0 && b.items.some((i) => selIds.includes(i.id)));
             return (
               <g
                 key={b.key}
+                className={`tl-g ${on || hover?.b === b ? "is-hot" : ""}`}
                 transform={`translate(${b.x} ${cy(b)})`}
                 style={{ cursor: "pointer" }}
                 onPointerEnter={() => !drag.current?.moved && setHover({ x: b.x, y: cy(b) - r, b })}
@@ -502,7 +635,8 @@ export default function Timeline({
               >
                 {/* a taller invisible target than the dot, no wider than its slot so neighbours stay clickable */}
                 <rect x={-bin / 2} y={-Math.max(16, r + 4)} width={bin} height={2 * Math.max(16, r + 4)} fill="transparent" />
-                <circle r={r} fill={color(b.side)} fillOpacity={on ? 1 : 0.82} stroke={on ? "var(--text)" : "var(--surface)"} strokeWidth={on ? 2.5 : 2} />
+                {hint && b === biggest ? <circle className="tl-ring" r={r} fill="none" stroke={color(b.side)} strokeWidth={2} /> : null}
+                <circle className="tl-dot" style={{ animationDelay: `${Math.round(((b.x - padL) / iw) * 700)}ms` }} r={r} fill={color(b.side)} fillOpacity={on ? 1 : 0.82} stroke={on ? "var(--text)" : "var(--solid)"} strokeWidth={on ? 2.5 : 1.5} />
                 {b.items.length > 1 ? (
                   <text y={3.5} textAnchor="middle" fontSize={r > 9 ? 10 : 9} fontWeight={700} fill="#fff" style={{ pointerEvents: "none" }}>
                     {b.items.length > 99 ? "99+" : b.items.length}
@@ -543,7 +677,7 @@ export default function Timeline({
         </svg>
 
         {hover ? (
-          <div className="pointer-events-none absolute z-10 w-[260px] rounded-2xl bg-surface p-3 text-left shadow-[0_8px_30px_rgba(0,0,0,0.18)] ring-1 ring-hair" style={{ left: tipLeft, top: hover.y > 150 ? undefined : hover.y + 28, bottom: hover.y > 150 ? H - hover.y + 10 : undefined }}>
+          <div className="pointer-events-none absolute z-10 w-[260px] float rounded-2xl p-3 text-left" style={{ left: tipLeft, top: hover.y > 150 ? undefined : hover.y + 28, bottom: hover.y > 150 ? H - hover.y + 10 : undefined }}>
             {hover.b ? (
               <>
                 <div className="flex items-center justify-between gap-2 text-[11px] text-muted">
@@ -636,58 +770,38 @@ export default function Timeline({
         </div>
       ) : null}
       {selItems.length ? (
-        <div className="mt-4 grid gap-3 sm:grid-cols-2">
-          {selItems.slice(0, 40).map((it) => (
-            <div key={it.id} className="card p-4">
-              <div className="flex items-center gap-3">
-                {it.avatar ? <Avatar id={it.avatar.id} name={it.avatar.name} party={it.avatar.party} has={it.avatar.has} size={40} /> : it.logo ? <Logo sym={it.logo.sym} kind={it.logo.kind} size={40} /> : null}
-                <div className="min-w-0 flex-1">
-                  <div className="truncate text-[15px] font-semibold">{it.title}</div>
-                  {it.sub ? <div className="truncate text-[12px] text-muted">{it.sub}</div> : null}
+        w < 520 && mounted ? (
+          createPortal(
+            <div className="fixed inset-0 z-50 flex items-end" role="dialog" aria-modal="true">
+              <button type="button" aria-label="close" className="absolute inset-0 bg-black/30" onClick={() => pick(null)} />
+              <div
+                className="sheet float relative max-h-[72vh] w-full overflow-y-auto rounded-t-[28px] px-4 pt-2 pb-[max(20px,env(safe-area-inset-bottom))]"
+                style={{ transform: sheetY ? `translateY(${sheetY}px)` : undefined }}
+              >
+                <div
+                  className="sticky top-0 z-10 -mx-4 flex cursor-grab touch-none flex-col items-center px-4 pt-1 pb-3"
+                  onPointerDown={(e) => {
+                    sheetDrag.current = e.clientY;
+                    (e.target as HTMLElement).setPointerCapture?.(e.pointerId);
+                  }}
+                  onPointerMove={(e) => sheetDrag.current != null && setSheetY(Math.max(0, e.clientY - sheetDrag.current))}
+                  onPointerUp={() => {
+                    if (sheetY > 90) pick(null);
+                    sheetDrag.current = null;
+                    setSheetY(0);
+                  }}
+                >
+                  <span className="h-1.5 w-10 rounded-full bg-surface-3" />
+                  <span className="mt-2 text-[12px] text-muted">{fmtN(labels.trades, selItems.length)}</span>
                 </div>
-                <span className="shrink-0 rounded-full px-2.5 py-1 text-[12px] font-semibold text-white" style={{ background: color(it.side) }}>
-                  {sideName(it.side)}
-                </span>
+                {detail}
               </div>
-              <div className="num mt-3 text-[22px] font-semibold tracking-tight">{it.amount}</div>
-              <dl className="mt-2 grid grid-cols-2 gap-x-4 gap-y-1.5 text-[13px]">
-                {it.rows.map(([k, v]) => (
-                  <div key={k} className="flex justify-between gap-2 border-b border-hair pb-1">
-                    <dt className="text-muted">{k}</dt>
-                    <dd className="num text-right font-medium">{v}</dd>
-                  </div>
-                ))}
-              </dl>
-              {it.tags?.length ? (
-                <div className="mt-2 flex flex-wrap gap-1.5">
-                  {it.tags.map((g) => (
-                    <span key={g} className="rounded-full bg-surface-2 px-2 py-0.5 text-[11px] text-muted">
-                      {g}
-                    </span>
-                  ))}
-                </div>
-              ) : null}
-              <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-[13px]">
-                {it.href ? (
-                  <Link prefetch={false} className="link font-medium" href={it.href}>
-                    {labels.details} ›
-                  </Link>
-                ) : null}
-                {it.link ? (
-                  <Link prefetch={false} className="link" href={it.link}>
-                    {it.avatar ? labels.person : labels.stock} ›
-                  </Link>
-                ) : null}
-                {it.src ? (
-                  <a className="link" href={it.src} target="_blank" rel="noopener noreferrer">
-                    {labels.source} ↗
-                  </a>
-                ) : null}
-              </div>
-            </div>
-          ))}
-          {selItems.length > 40 ? <p className="text-xs text-faint sm:col-span-2">{fmtN(labels.more, selItems.length - 40)}</p> : null}
-        </div>
+            </div>,
+            document.body,
+          )
+        ) : (
+          detail
+        )
       ) : null}
     </div>
   );

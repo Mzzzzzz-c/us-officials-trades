@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import SectionTabs from "@/components/SectionTabs";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Reveal from "@/components/client/Reveal";
@@ -29,7 +30,7 @@ export default async function CommitteesPage({ params }: { params: Promise<{ loc
   ];
   return (
     <div>
-      <PageHeader title={c.listTitle} sub={c.listSub} />
+      <PageHeader eyebrow={<SectionTabs locale={locale} group="insights" active="committees" />} title={c.listTitle} sub={c.listSub} />
       <Container className="pb-16">
         {groups.map(([label, list]) =>
           list.length ? (

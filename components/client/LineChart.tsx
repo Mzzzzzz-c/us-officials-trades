@@ -159,7 +159,7 @@ export default function LineChart({
         </svg>
         {hover != null && first?.pts[hover] ? (
           <div
-            className="pointer-events-none absolute top-0 rounded-lg bg-elev px-2.5 py-1.5 text-xs shadow-lg"
+            className="pointer-events-none absolute top-0 float rounded-lg px-2.5 py-1.5 text-xs shadow-lg"
             style={{ left: Math.min(Math.max((hx ?? 0) - 60, 0), w - 150), boxShadow: "var(--shadow)" }}
           >
             <div className="num text-faint">{first.pts[hover][0]}</div>

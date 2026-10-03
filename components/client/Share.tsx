@@ -122,7 +122,7 @@ export default function Share({ path, text, image, poster, labels, compact = fal
         {labels.share}
       </button>
       {open ? (
-        <div role="menu" className="fade-up absolute top-full left-0 z-30 mt-2 w-60 overflow-hidden rounded-2xl border border-hair bg-[var(--bg-elev)] p-1.5 shadow-[0_16px_48px_rgba(0,0,0,0.16)] sm:right-auto">
+        <div role="menu" className="fade-up absolute top-full left-0 z-30 mt-2 w-60 overflow-hidden rounded-2xl float p-1.5 shadow-[0_16px_48px_rgba(0,0,0,0.16)] sm:right-auto">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={image} alt="" width={1200} height={630} className="mb-1.5 aspect-[1200/630] w-full rounded-xl bg-surface-2 object-cover" loading="lazy" />
           {items
@@ -210,7 +210,7 @@ function PosterSheet({ src, path, text, labels, onClose }: { src: string; path: 
 
   return (
     <div className="fixed inset-0 z-[60] flex items-center justify-center bg-black/55 p-4 backdrop-blur-sm" role="dialog" aria-modal="true" aria-label={labels.posterTitle} onMouseDown={(e) => e.target === e.currentTarget && onClose()}>
-      <div className="fade-up flex max-h-full w-full max-w-[440px] flex-col overflow-hidden rounded-3xl bg-[var(--bg-elev)] shadow-[0_24px_80px_rgba(0,0,0,0.35)]">
+      <div className="fade-up flex max-h-full w-full max-w-[440px] flex-col overflow-hidden float rounded-3xl">
         <div className="flex items-center justify-between px-5 pt-4 pb-3">
           <h2 className="text-[17px] font-semibold">{labels.posterTitle}</h2>
           <button type="button" onClick={onClose} aria-label={labels.close} className="flex size-8 items-center justify-center rounded-full bg-surface-2 text-muted hover:bg-surface-3">

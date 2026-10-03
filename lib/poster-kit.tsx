@@ -5,7 +5,7 @@ import { ImageResponse } from "next/og";
 import QRCode from "qrcode";
 import type { ReactNode } from "react";
 import { dict, type Locale } from "./i18n";
-import { C, ogFonts, siteHost } from "./og";
+import { BrandSvg, C, ogFonts, siteHost } from "./og";
 import { siteUrl } from "./site";
 
 export const POSTER = { width: 1080, height: 1440 };
@@ -86,11 +86,7 @@ const FOOT = {
 };
 
 export function BrandMark({ size = 30 }: { size?: number }) {
-  return (
-    <svg width={size} height={size} viewBox="0 0 24 24">
-      <path d="M3 9.5 12 4l9 5.5M5 10v8m4.7-8v8m4.6-8v8M19 10v8M3.5 20.5h17" stroke={C.accent} strokeWidth="1.9" fill="none" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
-  );
+  return <BrandSvg size={size} />;
 }
 
 /** The footer every poster shares: QR code to the page, site name, data note. */

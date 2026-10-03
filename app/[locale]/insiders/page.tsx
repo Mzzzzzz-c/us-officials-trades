@@ -1,4 +1,6 @@
+import Morph from "@/components/Morph";
 import type { Metadata } from "next";
+import SectionTabs from "@/components/SectionTabs";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Container, PageHeader } from "@/components/layout";
@@ -68,7 +70,7 @@ export default async function InsidersPage({ params, searchParams }: { params: P
 
   return (
     <div>
-      <PageHeader title={i.listTitle} sub={i.listSub} />
+      <PageHeader eyebrow={<SectionTabs locale={locale} group="people" active="insiders" />} title={i.listTitle} sub={i.listSub} />
       <Container>
         <div className="mb-8 flex flex-col gap-3">
           <form action={`/${locale}/insiders`} method="get" className="flex gap-2">
@@ -119,8 +121,10 @@ export default async function InsidersPage({ params, searchParams }: { params: P
             {shown.map((p) => (
               <Link key={p[0]} prefetch={false} href={`/${locale}/insider/${p[0]}`} className="tile flex flex-col items-center px-4 pt-6 pb-4 text-center">
                 <div className="relative">
-                  <Avatar id={`ins-${p[0]}`} name={p[10] || insiderName(p[1])} has={!!media.people[`ins-${p[0]}`]} size={88} />
-                  <span className="absolute -right-1.5 -bottom-1.5 rounded-[10px] shadow-[0_0_0_3px_var(--surface)]">
+                  <Morph name={`p-ins-${p[0]}`}>
+                    <Avatar id={`ins-${p[0]}`} name={p[10] || insiderName(p[1])} has={!!media.people[`ins-${p[0]}`]} size={88} />
+                  </Morph>
+                  <span className="absolute -right-1.5 -bottom-1.5 rounded-[10px] shadow-[0_0_0_3px_var(--solid)]">
                     <Logo sym={p[4][0]} kind={logos[p[4][0]]} size={32} />
                   </span>
                 </div>

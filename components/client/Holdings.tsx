@@ -201,7 +201,7 @@ export default function Holdings({ locale, t, follow, types, sectors }: { locale
             </button>
           </form>
           {sugg.length ? (
-            <ul id="hold-sugg" role="listbox" className="absolute top-full right-0 left-0 z-20 mt-2 overflow-hidden rounded-2xl border border-hair bg-[var(--bg-elev)] shadow-[0_12px_40px_rgba(0,0,0,0.14)]">
+            <ul id="hold-sugg" role="listbox" className="absolute top-full right-0 left-0 z-20 mt-2 overflow-hidden rounded-2xl float shadow-[0_12px_40px_rgba(0,0,0,0.14)]">
               {sugg.map((r, i) => (
                 <li key={r[0]} role="option" aria-selected={i === hi}>
                   <button

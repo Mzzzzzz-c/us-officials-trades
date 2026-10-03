@@ -429,6 +429,9 @@ export interface InsidersIndex {
   people?: number;
   /** next earnings dates, soonest first: [date, symbol, "pre" | "post" | "", "cal" | "est"] */
   upcoming?: [string, string, string, "cal" | "est"][];
+  /** large insider trades of the last 45 days, a person's same-day lots added up:
+   *  [trade date, filed, symbol, name, person id, relationship, title, P|S, shares, price, value, plan, accession, company cik] */
+  big?: [string, string, string, string, number, string, string, "P" | "S", number, number, number, 0 | 1, string, number][];
 }
 export const getInsider = (sym: string) => (safe(sym) ? read<InsiderFile>(`insider/${sym}.json`) : null);
 export interface SiteEvents {

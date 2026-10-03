@@ -1,3 +1,4 @@
+import Morph from "@/components/Morph";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -116,7 +117,9 @@ export default async function TickerPage({ params }: { params: Promise<{ locale:
         <Container className="pt-12 pb-10 sm:pt-16">
           <div className="flex flex-wrap items-end justify-between gap-8">
             <div className="fade-up flex items-center gap-5">
-              <Logo sym={d.sym} kind={media.logos[d.sym]} size={76} />
+              <Morph name={`s-${d.sym}`}>
+                <Logo sym={d.sym} kind={media.logos[d.sym]} size={76} />
+              </Morph>
               <div className="min-w-0">
                 <div className="eyebrow">
                   {t.sectors[d.sec as keyof typeof t.sectors] ?? d.sec}

@@ -504,6 +504,9 @@ def export_site(bulk: list[dict], trades: list[dict], companies: dict, symbols: 
     people_done: set[int] = set()
     fixed: set[int] = set()
     coming: list[list] = []
+    big: list[list] = []
+    big_done: set[int] = set()
+    cut45 = (dt.date.fromisoformat(today) - dt.timedelta(days=45)).isoformat()
     market = (read_json(SITE / "latest-prices.json", {}) or {}).get("px", {})
     for sym in symbols:
         cik = (companies.get(sym) or {}).get("cik")
@@ -553,6 +556,22 @@ def export_site(bulk: list[dict], trades: list[dict], companies: dict, symbols: 
         if summ["nb90"] and off_buys.get(sym):
             last = max(r["td"] for r in rows if r["code"] == "P")
             both.append({"sym": sym, "off": sorted(off_buys[sym]), "nob": off_n[sym], "ins": summ["nb90"], "nib": summ["b90"], "vb": summ["vb90"], "last": last})
+        # the market-wide timeline on the home page: large trades of the last weeks, a person's
+        # same-day lots in one stock added up
+        if int(cik) not in big_done:
+            big_done.add(int(cik))
+            day: dict[tuple, dict] = {}
+            for r in rows:
+                if r["td"] < cut45:
+                    continue
+                g = day.setdefault((r["who"], r["td"], r["code"]), {"sh": 0.0, "val": 0.0, "r": r})
+                g["sh"] += r["sh"]
+                g["val"] += r["sh"] * r["px"]
+            for (who, td, code), g in day.items():
+                if g["val"] >= 1_000_000:
+                    r = g["r"]
+                    big.append([td, r["fd"], sym, who, r.get("oc") or 0, r["rel"], r["title"], code, round(g["sh"]), round(g["val"] / g["sh"], 2), round(g["val"]),
+                                1 if r.get("plan") else 0, r["acc"], int(cik)])
         # large buyers of the last 30 days: one line per person and stock, their purchases added up
         by_who: dict[str, dict] = {}
         for r in rows:
@@ -572,7 +591,9 @@ def export_site(bulk: list[dict], trades: list[dict], companies: dict, symbols: 
     top = uniq
     write_json(SITE / "insiders.json", {"asof": today, "bulk_end": bulk_end, "both": both[:60], "top": top[:40], "stocks": written, "people": len(people),
                                         # next earnings dates [date, symbol, pre|post, cal|est], soonest first
-                                        "upcoming": sorted(coming)})
+                                        "upcoming": sorted(coming),
+                                        # [trade date, filed, symbol, name, person id, relationship, title, P|S, shares, price, value, plan, accession, company cik]
+                                        "big": sorted(big, key=lambda b: b[10], reverse=True)[:240]})
     write_json(SITE / "events.json", {"macro": read_json(REF / "macro_events.json", {}) or {}, "company": read_json(REF / "company_events.json", []) or []})
     # One line per insider for the list and profile pages; their trades stay in the per-stock files.
     # [id, name, relationship, title, stocks (largest first), buys, sells, bought $, sold $, last trade]

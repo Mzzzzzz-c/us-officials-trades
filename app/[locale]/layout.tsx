@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import type { ReactNode } from "react";
+import { ViewTransition, type ReactNode } from "react";
 import "../globals.css";
 import LangSwitch from "@/components/LangSwitch";
-import Nav from "@/components/Nav";
+import Nav, { type NavItem } from "@/components/Nav";
+import { Fraunces } from "next/font/google";
 import { MarketState, QuoteProvider } from "@/components/client/Quotes";
 import { FollowNav } from "@/components/client/Follow";
 import SearchPalette, { SearchButton } from "@/components/client/SearchPalette";
@@ -12,6 +13,8 @@ import { getMeta } from "@/lib/data";
 import { updatedAt } from "@/lib/format";
 import { dict, isLocale, LOCALES } from "@/lib/i18n";
 import { REPO_URL, siteUrl } from "@/lib/site";
+
+const fraunces = Fraunces({ subsets: ["latin"], variable: "--font-fraunces", display: "swap", axes: ["opsz"] });
 
 // No dynamicParams=false here: child segments inherit it, which 404s every stock page not
 // pre-rendered at build time. Unknown locales are rejected below with notFound().
@@ -40,20 +43,15 @@ export default async function LocaleLayout({ children, params }: { children: Rea
   const t = dict(locale);
   const meta = getMeta();
   const L = (p: string) => `/${locale}${p}`;
-  const nav = [
-    { href: L(""), label: t.nav.home, match: [""] },
-    { href: L("/members"), label: t.nav.members, match: ["members", "member"] },
-    { href: L("/executive"), label: t.nav.executive, match: ["executive"] },
-    { href: L("/tickers"), label: t.nav.tickers, match: ["tickers", "ticker"] },
-    { href: L("/insights"), label: t.nav.insights, match: ["insights"] },
-    { href: L("/investors"), label: t.nav.investors, match: ["investors", "investor"] },
-    { href: L("/insiders"), label: t.nav.insiders, match: ["insiders", "insider"] },
-    { href: L("/portfolio"), label: t.nav.portfolio, match: ["portfolio"] },
-    { href: L("/data"), label: t.nav.data, match: ["data"] },
-    { href: L("/methodology"), label: t.nav.methodology, match: ["methodology", "unparsed", "trade"] },
+  const nav: NavItem[] = [
+    { href: L(""), label: t.nav5.home, match: [""], icon: "pulse" },
+    { href: L("/members"), label: t.nav5.people, match: ["members", "member", "executive", "insiders", "insider", "investors", "investor"], icon: "people" },
+    { href: L("/tickers"), label: t.nav5.tickers, match: ["tickers", "ticker"], icon: "chart" },
+    { href: L("/insights"), label: t.nav5.insights, match: ["insights", "latest", "weekly", "calendar", "committees", "committee", "trade"], icon: "spark" },
+    { href: L("/following"), label: t.nav5.mine, match: ["following", "portfolio"], icon: "star" },
   ];
   return (
-    <html lang={locale === "zh" ? "zh-CN" : "en"} suppressHydrationWarning>
+    <html lang={locale === "zh" ? "zh-CN" : "en"} className={fraunces.variable} suppressHydrationWarning>
       <head>
         {/* hide scroll-in content only when JavaScript can reveal it again */}
         <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
@@ -64,13 +62,16 @@ export default async function LocaleLayout({ children, params }: { children: Rea
             items={nav}
             home={L("")}
             brand={t.siteName}
+            tag={t.navTag}
             right={
               <>
                 <span className="hidden lg:inline-flex">
                   <MarketState labels={t.x.market} />
                 </span>
                 <SearchButton label={t.x.searchOpen} />
-                <FollowNav href={L("/following")} label={t.follow.navLabel} />
+                <span className="hidden md:inline-flex">
+                  <FollowNav href={L("/following")} label={t.follow.navLabel} />
+                </span>
                 <LangSwitch locale={locale} label={t.langSwitch} title={t.langSwitchLabel} />
               </>
             }
@@ -87,10 +88,12 @@ export default async function LocaleLayout({ children, params }: { children: Rea
               open: t.x.searchOpen,
             }}
           />
-          <main>{children}</main>
+          <main>
+            <ViewTransition>{children}</ViewTransition>
+          </main>
         </QuoteProvider>
-        <footer className="mt-20 bg-surface-2">
-          <div className="mx-auto max-w-[1100px] space-y-3 px-5 py-10 text-xs leading-relaxed text-muted">
+        <footer className="mt-24 px-3 pb-28 sm:px-5 md:pb-8">
+          <div className="card mx-auto max-w-[1100px] space-y-3 px-6 py-8 text-xs leading-relaxed text-muted">
             <p>{t.footer.disclaimer}</p>
             <p>{t.footer.legal}</p>
             <p>{t.x.liveNote} {t.x.photoCredit}</p>
@@ -114,6 +117,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
                 <Link className="hover:text-ink" prefetch={false} href={L("/weekly")}>{t.weekly.title}</Link>
                 <Link className="hover:text-ink" prefetch={false} href={L("/calendar")}>{t.cal.link}</Link>
                 <Link className="hover:text-ink" prefetch={false} href={L("/committees")}>{t.committee.listTitle}</Link>
+                <Link className="hover:text-ink" prefetch={false} href={L("/data")}>{t.nav.data}</Link>
                 <Link className="hover:text-ink" href={L("/methodology")}>{t.nav.methodology}</Link>
                 <a className="hover:text-ink" href={`${REPO_URL}/issues`} target="_blank" rel="noopener noreferrer">
                   {t.footer.corrections}

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { TradeRow } from "@/components/cards";
 import { PosterButton } from "@/components/client/Share";
 import { Container, Metric, PageHeader } from "@/components/layout";
+import SectionTabs from "@/components/SectionTabs";
 import { Avatar, AvatarStack, Logo } from "@/components/media";
 import type { Trade } from "@/lib/data";
 import type { TradeCardLite, Week } from "@/lib/derived";
@@ -49,7 +50,12 @@ export default function WeeklyView({ locale, weeks, week }: { locale: Locale; we
   return (
     <div>
       <PageHeader
-        eyebrow={label(week)}
+        eyebrow={
+          <>
+            <SectionTabs locale={locale} group="insights" active="weekly" />
+            <div>{label(week)}</div>
+          </>
+        }
         title={w.title}
         sub={w.sub}
         right={<PosterButton src={L("/poster/week")} path={L("/weekly")} text={`${w.title} · ${t.siteName}`} labels={t.share} label={w.poster} />}

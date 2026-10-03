@@ -201,7 +201,7 @@ export function QuoteRanges({ sym, labels }: { sym: string; labels: { day: strin
     return (
       <div>
         <div className="relative mt-2 h-1.5 rounded-full bg-surface-3">
-          <div className="absolute top-1/2 h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent ring-2 ring-[var(--bg-elev)]" style={{ left: `${x * 100}%` }} />
+          <div className="absolute top-1/2 h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent ring-2 ring-[var(--solid)]" style={{ left: `${x * 100}%` }} />
         </div>
         <div className="num mt-1.5 flex justify-between text-[11px] text-faint">
           <span>${lo.toFixed(2)}</span>

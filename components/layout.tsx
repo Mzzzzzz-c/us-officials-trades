@@ -10,7 +10,7 @@ export function PageHeader({ eyebrow, title, sub, right }: { eyebrow?: ReactNode
   return (
     <Container className="pt-12 pb-8 sm:pt-16">
       <div className="flex flex-wrap items-end justify-between gap-6">
-        <div className="max-w-3xl">
+        <div className="w-full max-w-3xl min-w-0">
           {eyebrow ? <div className="eyebrow mb-2">{eyebrow}</div> : null}
           <h1 className="headline">{title}</h1>
           {sub ? <p className="lead mt-4">{sub}</p> : null}
