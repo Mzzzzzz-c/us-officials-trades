@@ -26580,6 +26580,22 @@
    "tried": "2026-10-03",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Frances_Arnold_in_2021_at_Caltech_01_%28cropped%29.jpg/500px-Frances_Arnold_in_2021_at_Caltech_01_%28cropped%29.jpg"
   },
+  "ins-1666121": {
+   "cfg": "https://upload.wikimedia.org/wikipedia/commons/2/29/Scott_Farquhar.png",
+   "file": "Scott_Farquhar.png",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Scott_Farquhar.png"
+  },
+  "ins-1669213": {
+   "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Patrice_Louvet_%28born_1964%29_at_World_Economic_Forum_Annual_Meeting_2025.png/500px-Patrice_Louvet_%28born_1964%29_at_World_Economic_Forum_Annual_Meeting_2025.png",
+   "file": "Patrice_Louvet_(born_1964)_at_World_Economic_Forum_Annual_Meeting_2025.png",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Patrice_Louvet_%28born_1964%29_at_World_Economic_Forum_Annual_Meeting_2025.png/500px-Patrice_Louvet_%28born_1964%29_at_World_Economic_Forum_Annual_Meeting_2025.png"
+  },
   "ins-1673401": {
    "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/JnJ_Duato_cropped.jpg/500px-JnJ_Duato_cropped.jpg",
    "file": "JnJ_Duato_cropped.jpg",
@@ -26588,6 +26604,14 @@
    "tried": "2026-10-03",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/JnJ_Duato_cropped.jpg/500px-JnJ_Duato_cropped.jpg"
   },
+  "ins-1677874": {
+   "cfg": "https://upload.wikimedia.org/wikipedia/commons/8/86/Logan_Green.jpg",
+   "file": "Logan_Green.jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Logan_Green.jpg"
+  },
   "ins-1681266": {
    "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/General_Sir_Peter_Wall_in_No_1_uniform.jpg/500px-General_Sir_Peter_Wall_in_No_1_uniform.jpg",
    "file": "General_Sir_Peter_Wall_in_No_1_uniform.jpg",
@@ -26595,6 +26619,14 @@
    "src": "commons",
    "tried": "2026-10-03",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/General_Sir_Peter_Wall_in_No_1_uniform.jpg/500px-General_Sir_Peter_Wall_in_No_1_uniform.jpg"
+  },
+  "ins-1687544": {
+   "cfg": "https://upload.wikimedia.org/wikipedia/commons/7/77/Diane_Bryant_at_SemiAccurate_%28cropped%29.jpg",
+   "file": "Diane_Bryant_at_SemiAccurate_(cropped).jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Diane_Bryant_at_SemiAccurate_%28cropped%29.jpg"
   },
   "ins-1692554": {
    "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Gen_Mark_A._Welsh_III_CSAF.jpg/500px-Gen_Mark_A._Welsh_III_CSAF.jpg",
@@ -26612,6 +26644,46 @@
    "tried": "2026-10-03",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/David_Solomon.jpg/500px-David_Solomon.jpg"
   },
+  "ins-1695566": {
+   "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Admiral_James_A._Winnefeld%2C_Jr.jpg/500px-Admiral_James_A._Winnefeld%2C_Jr.jpg",
+   "file": "Admiral_James_A._Winnefeld,_Jr.jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Admiral_James_A._Winnefeld%2C_Jr.jpg/500px-Admiral_James_A._Winnefeld%2C_Jr.jpg"
+  },
+  "ins-1699293": {
+   "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Evan_Spiegel%2C_founder_of_Snapchat.jpg/500px-Evan_Spiegel%2C_founder_of_Snapchat.jpg",
+   "file": "Evan_Spiegel,_founder_of_Snapchat.jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Evan_Spiegel%2C_founder_of_Snapchat.jpg/500px-Evan_Spiegel%2C_founder_of_Snapchat.jpg"
+  },
+  "ins-1699322": {
+   "cfg": "https://upload.wikimedia.org/wikipedia/commons/3/35/Robert_%28Bobby%29_Murphy.jpg",
+   "file": "Robert_(Bobby)_Murphy.jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Robert_%28Bobby%29_Murphy.jpg"
+  },
+  "ins-1702684": {
+   "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Hans_Vestberg.jpg/500px-Hans_Vestberg.jpg",
+   "file": "Hans_Vestberg.jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Hans_Vestberg.jpg/500px-Hans_Vestberg.jpg"
+  },
+  "ins-1706596": {
+   "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/John_Noseworthy_at_Spotlight_Health_Aspen_Ideas_Festival_2015.JPG/500px-John_Noseworthy_at_Spotlight_Health_Aspen_Ideas_Festival_2015.JPG",
+   "file": "John_Noseworthy_at_Spotlight_Health_Aspen_Ideas_Festival_2015.JPG",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/John_Noseworthy_at_Spotlight_Health_Aspen_Ideas_Festival_2015.JPG/500px-John_Noseworthy_at_Spotlight_Health_Aspen_Ideas_Festival_2015.JPG"
+  },
   "ins-1712444": {
    "cfg": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tom_D%27Agostino.jpg",
    "file": "Tom_D'Agostino.jpg",
@@ -26619,6 +26691,14 @@
    "src": "commons",
    "tried": "2026-10-03",
    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tom_D%27Agostino.jpg"
+  },
+  "ins-1716837": {
+   "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Anthony_Wood_at_Collision_Conference_2016_%28cropped%29.jpg/500px-Anthony_Wood_at_Collision_Conference_2016_%28cropped%29.jpg",
+   "file": "Anthony_Wood_at_Collision_Conference_2016_(cropped).jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Anthony_Wood_at_Collision_Conference_2016_%28cropped%29.jpg/500px-Anthony_Wood_at_Collision_Conference_2016_%28cropped%29.jpg"
   },
   "ins-1718909": {
    "cfg": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Dugan_john_sm.jpg",
@@ -26676,6 +26756,22 @@
    "tried": "2026-10-03",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Ethan_Brown_Headshot_White_%28cropped%29.jpg/500px-Ethan_Brown_Headshot_White_%28cropped%29.jpg"
   },
+  "ins-1766269": {
+   "cfg": "https://upload.wikimedia.org/wikipedia/commons/1/16/John_Zimmer.jpg",
+   "file": "John_Zimmer.jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/John_Zimmer.jpg"
+  },
+  "ins-1768956": {
+   "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Gwynne_Shotwell_at_pre-launch_briefing_for_CRS-2_mission_%28KSC-2013-1704%29.jpg/500px-Gwynne_Shotwell_at_pre-launch_briefing_for_CRS-2_mission_%28KSC-2013-1704%29.jpg",
+   "file": "Gwynne_Shotwell_at_pre-launch_briefing_for_CRS-2_mission_(KSC-2013-1704).jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Gwynne_Shotwell_at_pre-launch_briefing_for_CRS-2_mission_%28KSC-2013-1704%29.jpg/500px-Gwynne_Shotwell_at_pre-launch_briefing_for_CRS-2_mission_%28KSC-2013-1704%29.jpg"
+  },
   "ins-1769389": {
    "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Admiral_Michelle_J._Howard_VCNO.jpg/500px-Admiral_Michelle_J._Howard_VCNO.jpg",
    "file": "Admiral_Michelle_J._Howard_VCNO.jpg",
@@ -26683,6 +26779,22 @@
    "src": "commons",
    "tried": "2026-10-03",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Admiral_Michelle_J._Howard_VCNO.jpg/500px-Admiral_Michelle_J._Howard_VCNO.jpg"
+  },
+  "ins-1773298": {
+   "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Eric_Yuan_The_Grove_2021_%28cropped%29.jpg/500px-Eric_Yuan_The_Grove_2021_%28cropped%29.jpg",
+   "file": "Eric_Yuan_The_Grove_2021_(cropped).jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Eric_Yuan_The_Grove_2021_%28cropped%29.jpg/500px-Eric_Yuan_The_Grove_2021_%28cropped%29.jpg"
+  },
+  "ins-1773914": {
+   "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Silbermann_face.jpg/500px-Silbermann_face.jpg",
+   "file": "Silbermann_face.jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Silbermann_face.jpg/500px-Silbermann_face.jpg"
   },
   "ins-1778564": {
    "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Web_Summit_2018_-_SaaS_Monster_-_Day_2%2C_November_7_SD5_7630_%2844852025415%29.jpg/500px-Web_Summit_2018_-_SaaS_Monster_-_Day_2%2C_November_7_SD5_7630_%2844852025415%29.jpg",
@@ -26724,6 +26836,30 @@
    "tried": "2026-10-03",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Collision_2019_-_Toronto_-_ENX_9646_%2847894937341%29.jpg/500px-Collision_2019_-_Toronto_-_ENX_9646_%2847894937341%29.jpg"
   },
+  "ins-1818224": {
+   "cfg": "https://upload.wikimedia.org/wikipedia/commons/5/51/John_O._Dabiri%2C_PCAST_Member_%28cropped%29.jpg",
+   "file": "John_O._Dabiri,_PCAST_Member_(cropped).jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/John_O._Dabiri%2C_PCAST_Member_%28cropped%29.jpg"
+  },
+  "ins-1823951": {
+   "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Alex_Karp_attends_AI_Summit_%2853302457013%29_4-5_ratio.jpg/500px-Alex_Karp_attends_AI_Summit_%2853302457013%29_4-5_ratio.jpg",
+   "file": "Alex_Karp_attends_AI_Summit_(53302457013)_4-5_ratio.jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Alex_Karp_attends_AI_Summit_%2853302457013%29_4-5_ratio.jpg/500px-Alex_Karp_attends_AI_Summit_%2853302457013%29_4-5_ratio.jpg"
+  },
+  "ins-1827011": {
+   "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Web_Summit_2017_-_Centre_Stage_Day_2_CG1_7885_%2838232183112%29_%28cropped%29.jpg/500px-Web_Summit_2017_-_Centre_Stage_Day_2_CG1_7885_%2838232183112%29_%28cropped%29.jpg",
+   "file": "Web_Summit_2017_-_Centre_Stage_Day_2_CG1_7885_(38232183112)_(cropped).jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Web_Summit_2017_-_Centre_Stage_Day_2_CG1_7885_%2838232183112%29_%28cropped%29.jpg/500px-Web_Summit_2017_-_Centre_Stage_Day_2_CG1_7885_%2838232183112%29_%28cropped%29.jpg"
+  },
   "ins-1832617": {
    "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/TechCrunch_Disrupt_NY_2016_-_Day_3_%2826348657713%29.jpg/500px-TechCrunch_Disrupt_NY_2016_-_Day_3_%2826348657713%29.jpg",
    "file": "TechCrunch_Disrupt_NY_2016_-_Day_3_(26348657713).jpg",
@@ -26755,6 +26891,14 @@
    "src": "commons",
    "tried": "2026-10-03",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Joe-gebbia-2024-cropped.png/500px-Joe-gebbia-2024-cropped.png"
+  },
+  "ins-1834991": {
+   "cfg": "https://upload.wikimedia.org/wikipedia/commons/3/35/David_Baszucki_in_2021.jpg",
+   "file": "David_Baszucki_in_2021.jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/David_Baszucki_in_2021.jpg"
   },
   "ins-1837857": {
    "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Strive_Masiwia%2C_Chairman%2C_Econet_Wireless_%2834345475883%29.jpg/500px-Strive_Masiwia%2C_Chairman%2C_Econet_Wireless_%2834345475883%29.jpg",
@@ -26796,6 +26940,14 @@
    "tried": "2026-10-03",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Brian_Armstrong_-_TechCrunch_Disrupt_2018_01.jpg/500px-Brian_Armstrong_-_TechCrunch_Disrupt_2018_01.jpg"
   },
+  "ins-1855767": {
+   "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/2021_-_Centre_Stage_EN6_5562_%2851652161468%29_%28cropped%29.jpg/500px-2021_-_Centre_Stage_EN6_5562_%2851652161468%29_%28cropped%29.jpg",
+   "file": "2021_-_Centre_Stage_EN6_5562_(51652161468)_(cropped).jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/2021_-_Centre_Stage_EN6_5562_%2851652161468%29_%28cropped%29.jpg/500px-2021_-_Centre_Stage_EN6_5562_%2851652161468%29_%28cropped%29.jpg"
+  },
   "ins-1858976": {
    "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Jessica_Alba_-_Los_Angeles_Comic_Con_2025.jpg/500px-Jessica_Alba_-_Los_Angeles_Comic_Con_2025.jpg",
    "file": "Jessica_Alba_-_Los_Angeles_Comic_Con_2025.jpg",
@@ -26803,6 +26955,22 @@
    "src": "commons",
    "tried": "2026-10-03",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Jessica_Alba_-_Los_Angeles_Comic_Con_2025.jpg/500px-Jessica_Alba_-_Los_Angeles_Comic_Con_2025.jpg"
+  },
+  "ins-1865256": {
+   "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Sonita_Lontoh.jpg/500px-Sonita_Lontoh.jpg",
+   "file": "Sonita_Lontoh.jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Sonita_Lontoh.jpg/500px-Sonita_Lontoh.jpg"
+  },
+  "ins-1866802": {
+   "cfg": "https://upload.wikimedia.org/wikipedia/commons/1/12/Ragy_Thomas_photo.jpg",
+   "file": "Ragy_Thomas_photo.jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Ragy_Thomas_photo.jpg"
   },
   "ins-1869013": {
    "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/ChrisUrmson2018.jpg/500px-ChrisUrmson2018.jpg",
@@ -26835,6 +27003,22 @@
    "src": "commons",
    "tried": "2026-10-03",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/TechCrunch_Disrupt_NY_2016_-_Day_2_%2826867775421%29_%282%29.jpg/500px-TechCrunch_Disrupt_NY_2016_-_Day_2_%2826867775421%29_%282%29.jpg"
+  },
+  "ins-1881842": {
+   "cfg": "https://upload.wikimedia.org/wikipedia/commons/d/db/Peter_Beck_2753_%28tighter_crop%29.jpg",
+   "file": "Peter_Beck_2753_(tighter_crop).jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Peter_Beck_2753_%28tighter_crop%29.jpg"
+  },
+  "ins-1898468": {
+   "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/TechCrunch_Disrupt_San_Francisco_2018_-_day_1_%2843784198524%29.jpg/500px-TechCrunch_Disrupt_San_Francisco_2018_-_day_1_%2843784198524%29.jpg",
+   "file": "TechCrunch_Disrupt_San_Francisco_2018_-_day_1_(43784198524).jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/TechCrunch_Disrupt_San_Francisco_2018_-_day_1_%2843784198524%29.jpg/500px-TechCrunch_Disrupt_San_Francisco_2018_-_day_1_%2843784198524%29.jpg"
   },
   "ins-1911039": {
    "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Praha%2C_Cibulka%2C_Den_otev%C5%99en%C3%A9_br%C3%A1ny%2C_man%C5%BEel%C3%A9_Vl%C4%8Dkovi_%288%29.jpg/500px-Praha%2C_Cibulka%2C_Den_otev%C5%99en%C3%A9_br%C3%A1ny%2C_man%C5%BEel%C3%A9_Vl%C4%8Dkovi_%288%29.jpg",
@@ -26875,6 +27059,22 @@
    "src": "commons",
    "tried": "2026-10-03",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Stephen_Ehikian%2C_Acting_Administrator_and_Deputy_Administrator_of_the_General_Services_Administration_%28GSA%29_by_appointment.jpg/500px-Stephen_Ehikian%2C_Acting_Administrator_and_Deputy_Administrator_of_the_General_Services_Administration_%28GSA%29_by_appointment.jpg"
+  },
+  "ins-2114078": {
+   "cfg": "https://upload.wikimedia.org/wikipedia/commons/2/26/Hiroki_Totoki_%28cropped%29.jpg",
+   "file": "Hiroki_Totoki_(cropped).jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Hiroki_Totoki_%28cropped%29.jpg"
+  },
+  "ins-2114081": {
+   "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Kenichiro_Yoshida.jpg/500px-Kenichiro_Yoshida.jpg",
+   "file": "Kenichiro_Yoshida.jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Kenichiro_Yoshida.jpg/500px-Kenichiro_Yoshida.jpg"
   },
   "ins-904858": {
    "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/2009_Secretary_of_State%27s_Award_for_Corporate_Excellence.jpg/500px-2009_Secretary_of_State%27s_Award_for_Corporate_Excellence.jpg",
