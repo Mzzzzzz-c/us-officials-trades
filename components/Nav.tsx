@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
-import { BrandMark } from "./Brand";
+import { BrandLetters } from "./Brand";
 
 export interface NavItem {
   href: string;
@@ -57,12 +57,13 @@ export default function Nav({ items, home, brand, tag, right }: { items: NavItem
     <>
       <header className="sticky top-0 z-40 px-3 pt-2.5 sm:px-5">
         <div className={`nav-capsule mx-auto flex max-w-[1100px] items-center gap-3 rounded-[22px] pr-2.5 pl-3 transition-[height,box-shadow] duration-300 sm:gap-5 sm:pr-3 sm:pl-4 ${scrolled ? "h-[50px] is-scrolled" : "h-[58px]"}`}>
-          <Link href={home} className="group flex min-w-0 items-center gap-2.5" aria-label={brand}>
-            <span className="transition-transform duration-500 group-hover:rotate-[-8deg] group-hover:scale-105">
-              <BrandMark size={scrolled ? 28 : 32} />
+          <Link href={home} className="group flex min-w-0 items-center gap-3" aria-label={brand}>
+            <span className="text-ink transition-opacity duration-300 group-hover:opacity-70">
+              <BrandLetters height={scrolled ? 20 : 24} />
             </span>
+            <span className="h-7 w-[2px] shrink-0 bg-ink" aria-hidden />
             <span className="flex min-w-0 flex-col leading-none">
-              <span className="brand-word truncate text-[16px] tracking-tight">{brand}</span>
+              <span className="truncate text-[15px] font-semibold tracking-tight">{brand}</span>
               <span className={`truncate text-[10px] tracking-[0.02em] text-faint transition-all duration-300 ${scrolled ? "max-h-0 opacity-0" : "mt-1 max-h-4 opacity-100"} hidden sm:block`}>{tag}</span>
             </span>
           </Link>

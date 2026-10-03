@@ -99,19 +99,15 @@ export const partyColor = (p?: string | null) => (p === "D" ? C.dem : p === "R" 
 
 /** The site mark (same drawing as components/Brand.tsx), for share images. */
 export function BrandSvg({ size = 30 }: { size?: number }) {
+  const u = ["8,2 16,10 16,50 8,58 0,50 0,10", "8,62 16,70 16,102 8,110 0,102 0,70", "10,112 18,104 54,104 62,112 54,120 18,120", "64,62 72,70 72,102 64,110 56,102 56,70", "64,2 72,10 72,50 64,58 56,50 56,10"];
   return (
-    <svg width={size} height={size} viewBox="0 0 24 24">
-      <defs>
-        <linearGradient id="bg" x1="3" y1="21" x2="21" y2="3" gradientUnits="userSpaceOnUse">
-          <stop offset="0" stopColor="#3b47e0" />
-          <stop offset="0.55" stopColor="#b14bd9" />
-          <stop offset="1" stopColor="#f0694f" />
-        </linearGradient>
-      </defs>
-      <rect x="1" y="1" width="22" height="22" rx="7.2" fill="url(#bg)" />
-      <path d="M6.2 12.2a5.8 5.8 0 0 1 11.6 0" stroke="#fff" strokeWidth="1.7" fill="none" strokeLinecap="round" />
-      <path d="M12 6.4V4.2M5.6 12.2h1.8M16.6 12.2h1.8" stroke="#fff" strokeWidth="1.5" fill="none" strokeLinecap="round" />
-      <path d="M8 18.6v-2.4M12 18.6v-4.2M16 18.6v-6" stroke="#fff" strokeWidth="2.1" fill="none" strokeLinecap="round" />
+    <svg width={size} height={size} viewBox="0 0 136 136">
+      <rect width="136" height="136" rx="31" fill="#0B0F14" />
+      <g fill="#fff" transform="translate(41 23) scale(0.75)">
+        {u.map((p) => (
+          <polygon key={p} points={p} />
+        ))}
+      </g>
     </svg>
   );
 }
