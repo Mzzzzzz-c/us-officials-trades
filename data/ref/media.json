@@ -27084,6 +27084,22 @@
    "tried": "2026-10-03",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/2009_Secretary_of_State%27s_Award_for_Corporate_Excellence.jpg/500px-2009_Secretary_of_State%27s_Award_for_Corporate_Excellence.jpg"
   },
+  "ins-923738": {
+   "cfg": "https://upload.wikimedia.org/wikipedia/commons/6/65/Charles_schwab_2007.jpg",
+   "file": "Charles_schwab_2007.jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Charles_schwab_2007.jpg"
+  },
+  "ins-938071": {
+   "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Dave_Duffield_addressing_Peoplesoft%2C_2005.jpg/500px-Dave_Duffield_addressing_Peoplesoft%2C_2005.jpg",
+   "file": "Dave_Duffield_addressing_Peoplesoft,_2005.jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Dave_Duffield_addressing_Peoplesoft%2C_2005.jpg/500px-Dave_Duffield_addressing_Peoplesoft%2C_2005.jpg"
+  },
   "ins-938543": {
    "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Milton_S._Hershey_c1905.jpg/500px-Milton_S._Hershey_c1905.jpg",
    "file": "Milton_S._Hershey_c1905.jpg",
@@ -27115,6 +27131,14 @@
    "src": "commons",
    "tried": "2026-10-03",
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/MLS2Cincy_announcement_-_Carl_Lindner_III_%2842444130491%29_%28cropped%29.jpg/500px-MLS2Cincy_announcement_-_Carl_Lindner_III_%2842444130491%29_%28cropped%29.jpg"
+  },
+  "ins-942439": {
+   "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Roger_Penske_2023_%28cropped%29.jpg/500px-Roger_Penske_2023_%28cropped%29.jpg",
+   "file": "Roger_Penske_2023_(cropped).jpg",
+   "ok": true,
+   "src": "commons",
+   "tried": "2026-10-03",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Roger_Penske_2023_%28cropped%29.jpg/500px-Roger_Penske_2023_%28cropped%29.jpg"
   },
   "ins-944011": {
    "cfg": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/NYCW_2026_-_Richard_Gelfond_01_%28cropped%29.jpg/500px-NYCW_2026_-_Richard_Gelfond_01_%28cropped%29.jpg",
