@@ -159,6 +159,25 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             </div>
             <PosterButton src={L("/poster/week")} path={L("/latest")} text={`${t.x.latestFeed} · ${t.siteName}`} labels={t.share} label={t.share.posterWeek} />
           </div>
+          {c ? (
+            <div className="fade-up mx-auto mt-10 grid max-w-3xl grid-cols-2 gap-x-6 gap-y-6 sm:grid-cols-4" style={{ animationDelay: "220ms" }}>
+              {(
+                [
+                  [c.trades, t.h.statTrades],
+                  [c.members, t.h.statPeople],
+                  [insIdx?.people ?? 0, t.h.statInsiders],
+                  [c.tickers, t.h.statStocks],
+                ] as [number, string][]
+              ).map(([v, label]) => (
+                <div key={label}>
+                  <div className="display !text-[34px] sm:!text-[44px]">
+                    <CountUp value={Number(v)} />
+                  </div>
+                  <div className="mt-1 text-[13px] text-muted">{label}</div>
+                </div>
+              ))}
+            </div>
+          ) : null}
         </Container>
         <Container className="mt-10">
           <div className="card fade-up p-4 sm:p-6" style={{ animationDelay: "240ms" }} id="timeline">
@@ -169,25 +188,6 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               </div>
               <span className="text-[13px] font-semibold text-accent">{t.h.three} ↓</span>
             </div>
-            {c ? (
-              <div className="mb-5 grid grid-cols-2 gap-x-4 gap-y-3 rounded-2xl bg-surface-2 px-4 py-3 sm:grid-cols-4">
-                {(
-                  [
-                    [c.trades, t.h.statTrades],
-                    [c.members, t.h.statPeople],
-                    [insIdx?.people ?? 0, t.h.statInsiders],
-                    [c.tickers, t.h.statStocks],
-                  ] as [number, string][]
-                ).map(([v, label]) => (
-                  <div key={label} className="min-w-0">
-                    <div className="display !text-[26px] sm:!text-[32px]">
-                      <CountUp value={Number(v)} />
-                    </div>
-                    <div className="truncate text-[12px] text-muted">{label}</div>
-                  </div>
-                ))}
-              </div>
-            ) : null}
             <Timeline items={tlItems} events={tlEvents} lanes={[t.tl.lanes.officials, t.tl.lanes.insiders]} price={spy} priceSym={t.h.spy} labels={tlLabels(locale)} locale={locale} today={today} stories={stories} />
           </div>
         </Container>
