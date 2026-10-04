@@ -2,27 +2,19 @@ import Link from "next/link";
 import { LivePrice } from "./client/Quotes";
 import { Logo } from "./media";
 import type { Position, PositionStep } from "@/lib/data";
+import PositionTrack from "./client/PositionTrack";
 import { shareRange } from "@/lib/format";
 import { dict, type Locale } from "@/lib/i18n";
-
-const ACT_TONE: Record<string, string> = {
-  open: "bg-pos-soft text-pos",
-  add: "bg-pos-soft text-pos",
-  reduce: "bg-neg-soft text-neg",
-  sell: "bg-neg-soft text-neg",
-  close: "bg-neg text-white",
-  exchange: "bg-surface-2 text-muted",
-  other: "bg-surface-2 text-muted",
-};
 
 export default function Positions({ locale, positions, names, kinds = {}, px = {}, pc = {} }: { locale: Locale; positions: Position[]; names: Record<string, string>; kinds?: Record<string, 1 | 2 | 3>; px?: Record<string, number>; pc?: Record<string, number> }) {
   const t = dict(locale);
   const L = (p: string) => `/${locale}${p}`;
+  const today = new Date().toISOString().slice(0, 10);
   const list = [...positions].sort((a, b) => Number(b.held) - Number(a.held) || (a.last < b.last ? 1 : -1));
   const head = list.slice(0, 24);
   const rest = list.slice(24);
   const render = (p: Position) => (
-    <div key={p.sym} className="card p-4">
+    <div key={p.sym} className="card p-4 sm:p-5">
       <div className="flex items-center gap-3">
         <Link prefetch={false} href={L(`/ticker/${p.sym}`)} className="flex min-w-0 flex-1 items-center gap-3">
           <Logo sym={p.sym} kind={kinds[p.sym]} size={36} />
@@ -40,7 +32,7 @@ export default function Positions({ locale, positions, names, kinds = {}, px = {
             {p.held ? t.member.stillHeld : t.member.closed}
           </span>
       </div>
-      <Steps locale={locale} steps={p.steps} />
+      <Steps locale={locale} steps={p.steps} held={p.held} today={today} />
     </div>
   );
   return (
@@ -78,42 +70,36 @@ function group(steps: PositionStep[]): Group[] {
   return out;
 }
 
-const SHOW = 10;
-
-function Steps({ locale, steps }: { locale: Locale; steps: PositionStep[] }) {
+function Steps({ locale, steps, held, today }: { locale: Locale; steps: PositionStep[]; held: boolean; today: string }) {
   const t = dict(locale);
-  const L = (p: string) => `/${locale}${p}`;
   const groups = group(steps);
-  const chip = (s: Group, i: number) => (
-    <li key={s.id} className="flex items-center gap-1">
-      {i > 0 && <span className="text-faint">→</span>}
-      <Link prefetch={false} href={L(`/trade/${s.id}`)} className="rounded border border-line px-1.5 py-1 hover:bg-surface-2" title={`${t.table.holding}: ${shareRange(s.lo, s.hi)} ${t.common.shares}`}>
-        <span className={`mr-1 rounded px-1 py-0.5 ${ACT_TONE[s.act] ?? ACT_TONE.other}`}>
-          {t.acts[s.act as keyof typeof t.acts] ?? s.act}
-          {s.n > 1 ? ` ×${s.n}` : ""}
-        </span>
-        <span className="num text-muted">{s.tx.slice(2)}</span>
-        <span className="num ml-1 text-faint">{shareRange(s.lo, s.hi)}</span>
-      </Link>
-    </li>
-  );
-  if (groups.length <= SHOW) {
-    return <ol className="mt-2 flex flex-wrap items-center gap-x-1 gap-y-2 text-xs">{groups.map(chip)}</ol>;
-  }
-  const early = groups.slice(0, groups.length - SHOW);
-  const late = groups.slice(-SHOW);
+  if (!groups.length) return null;
+  const count = (acts: string[]) => groups.filter((g) => acts.includes(g.act)).reduce((a, g) => a + g.n, 0);
+  const nb = count(["open", "add"]), ns = count(["reduce", "sell", "close"]);
   return (
-    <div className="mt-2 text-xs">
-      <details>
-        <summary className="link mb-2">
-          {t.common.showAll} ({groups.length})
-        </summary>
-        <ol className="mb-2 flex flex-wrap items-center gap-x-1 gap-y-2">{early.map(chip)}</ol>
-      </details>
-      <ol className="flex flex-wrap items-center gap-x-1 gap-y-2">
-        <li className="text-faint">…</li>
-        {late.map((g, i) => chip(g, i + 1))}
-      </ol>
+    <div>
+      <div className="mt-3 flex items-center gap-3 text-[12px] text-muted">
+        {nb ? (
+          <span className="inline-flex items-center gap-1.5">
+            <span className="size-2 rounded-full bg-pos" />
+            {t.x.buy} <b className="num font-semibold text-ink">{nb}</b>
+          </span>
+        ) : null}
+        {ns ? (
+          <span className="inline-flex items-center gap-1.5">
+            <span className="size-2 rounded-full bg-neg" />
+            {t.x.sell} <b className="num font-semibold text-ink">{ns}</b>
+          </span>
+        ) : null}
+      </div>
+      <PositionTrack
+        steps={groups.map((g) => ({ id: g.id, tx: g.tx, act: g.act, lo: g.lo, hi: g.hi, n: g.n, sh: g.lo == null && g.hi == null ? t.pos.unknown : `${shareRange(g.lo, g.hi)} ${t.common.shares}` }))}
+        held={held}
+        today={today}
+        acts={t.acts}
+        labels={{ holding: t.table.holding, open: t.pos.open, now: t.pos.now }}
+        hrefBase={`/${locale}/trade`}
+      />
     </div>
   );
 }

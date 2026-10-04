@@ -67,6 +67,13 @@ export default function StockChart({
   const [err, setErr] = useState(false);
   const [hover, setHover] = useState<{ t: string; p: number; b: number; s: number; ib: number; is: number; ev: string[] } | null>(null);
   const [showIns, setShowIns] = useState(true);
+  // a phone has no room for three layers of marks at once: start with the officials only
+  useEffect(() => {
+    if (window.innerWidth < 520) {
+      setShowIns(false);
+      setShowPol(false);
+    }
+  }, []);
   const [showEarn, setShowEarn] = useState(true);
   const [showPol, setShowPol] = useState(true);
 

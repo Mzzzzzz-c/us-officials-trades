@@ -63,9 +63,9 @@ export default async function InsightsPage({ params }: { params: Promise<{ local
     <div>
       <PageHeader eyebrow={<SectionTabs locale={locale} group="insights" active="insights" />} title={t.x.insightsTitle} sub={t.x.insightsSub} />
       <Container>
-        <div className="no-scrollbar -mx-5 flex gap-2 overflow-x-auto px-5 pb-2">
+        <div className="grid grid-cols-2 gap-2 sm:grid-cols-4 lg:grid-cols-6">
           {sections.map(([id, label]) => (
-            <a key={id} href={`#${id}`} className="chip">
+            <a key={id} href={`#${id}`} className="chip min-h-[44px] justify-center !whitespace-normal px-3 text-center leading-tight">
               {label}
             </a>
           ))}

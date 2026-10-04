@@ -376,6 +376,7 @@ const zh = {
     viewStock: "查看 {sym}",
     more: "还有 {n} 笔更早的记录未显示。",
   },
+  pos: { open: "查看这笔交易", unknown: "股数未知", now: "估算现持" },
   glossary: {
     amount: "官员申报的是金额区间（如 1.5 万至 5 万美元），不是精确数字。",
     estPrice: "申报里没有成交价。这里用交易当天的行情推算，标“高/中/低”表示可信程度。",
@@ -1204,6 +1205,7 @@ const en: Dict = {
     viewStock: "View {sym}",
     more: "{n} older trades are not shown.",
   },
+  pos: { open: "Open this trade", unknown: "size unknown", now: "Est. holding" },
   glossary: {
     amount: "Officials report a range (say $15K to $50K), not an exact figure.",
     estPrice: "Filings carry no price. This one is estimated from that day's market; the badge says how reliable it is.",

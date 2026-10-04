@@ -83,6 +83,8 @@ export interface TLLabels {
 }
 
 const DAY = 864e5;
+// one shared empty list: a fresh [] on every render would look like new events each time
+const NO_EVENTS: TLEvent[] = [];
 const RANGE_DAYS = { "6m": 183, "1y": 365, "2y": 730, "5y": 1826 } as const;
 const EVENT_COLOR: Record<TLEvent["k"], string> = { e: "var(--accent)", f: "var(--accent)", m: "#bf5af2", p: "var(--warn)", n: "var(--muted)" };
 const ms = (d: string) => Date.parse(`${d}T00:00:00Z`);
@@ -99,7 +101,7 @@ interface Bucket {
 
 export default function Timeline({
   items,
-  events = [],
+  events = NO_EVENTS,
   lanes,
   price,
   priceSym,
@@ -131,7 +133,7 @@ export default function Timeline({
   const [side, setSide] = useState<"" | "b" | "s">("");
   const [stock, setStock] = useState("");
   const [off, setOff] = useState<Set<string>>(new Set());
-  const [hover, setHover] = useState<{ x: number; y: number; b?: Bucket; e?: TLEvent } | null>(null);
+  const [hover, setHover] = useState<{ x: number; y: number; b?: Bucket; e?: TLEvent; more?: TLEvent[] } | null>(null);
   const [sel, setSel] = useState<string | null>(null);
   const [selEvent, setSelEvent] = useState<TLEvent | null>(null);
   const [loaded, setLoaded] = useState<{ sym: string; pts: [number, number][] } | null>(null);
@@ -163,10 +165,15 @@ export default function Timeline({
     },
     [domain],
   );
-  // start on the last two years when the history is long and busy enough to be crowded
+  // start on the last two years when the history is long and busy enough to be crowded; only once,
+  // so the range the reader picks afterwards stays
+  const started = useRef(false);
   useEffect(() => {
+    if (started.current) return;
+    started.current = true;
     const twoY = items.filter((i) => ms(i.d) >= now - 730 * DAY).length;
-    if (domain[1] - domain[0] > 900 * DAY && twoY >= 6) applyRange("2y");
+    const narrow = (box.current?.clientWidth ?? 900) < 520;
+    if (domain[1] - domain[0] > 900 * DAY && twoY >= 6) applyRange(narrow ? "1y" : "2y");
     else applyRange("all");
   }, [domain, items, now, applyRange]);
 
@@ -215,6 +222,25 @@ export default function Timeline({
   const H = evY + (events.length ? (wide ? 44 : 24) : 6);
   const X = useCallback((t: number) => padL + ((t - view[0]) / (view[1] - view[0])) * iw, [view, iw]);
 
+  // events too close to draw apart share one marker (the first), and the tooltip says how many more
+  const evMarks = useMemo(() => {
+    const out: { e: TLEvent; x: number; ey: number; more: TLEvent[] }[] = [];
+    const last = new Map<number, { x: number; k: number }>();
+    for (const e of [...evs].sort((a, b) => (a.d < b.d ? -1 : 1))) {
+      const t = ms(e.d);
+      if (t < view[0] || t > view[1]) continue;
+      const x = X(t), ey = evRow(e);
+      const prev = last.get(ey);
+      if (prev && x - prev.x < 13) {
+        out[prev.k].more.push(e);
+        continue;
+      }
+      last.set(ey, { x, k: out.length });
+      out.push({ e, x, ey, more: [] });
+    }
+    return out;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [evs, view, X, wide, evY]);
   const priceView = useMemo(() => {
     if (!pricePts) return null;
     const pts = pricePts.filter(([t]) => t >= view[0] - 14 * DAY && t <= view[1] + 14 * DAY);
@@ -242,7 +268,8 @@ export default function Timeline({
     return { d, Y, lo, hi, at, last: pts[pts.length - 1], first: pts[0] };
   }, [pricePts, view, X, PH]);
 
-  const bin = w < 520 ? 18 : 14;
+  // slots wide enough that neighbouring dots never touch
+  const bin = w < 520 ? 26 : 22;
   const buckets = useMemo(() => {
     const map = new Map<string, Bucket>();
     for (const it of shown) {
@@ -260,7 +287,7 @@ export default function Timeline({
   }, [shown, view, X, lanes.length, bin]);
   // sizes are relative within a lane: officials report ranges in thousands, insiders sell millions
   const vmax = useMemo(() => lanes.map((_, k) => Math.max(1, ...buckets.filter((b) => b.lane === k).map((b) => b.v))), [buckets, lanes]);
-  const radius = (b: Bucket) => Math.max(b.items.length > 1 ? 7.5 : 5, 5 + 9 * Math.sqrt(b.v / vmax[b.lane]));
+  const radius = (b: Bucket) => Math.min(bin / 2 - 1.5, Math.max(b.items.length > 1 ? 7.5 : 4.5, 4.5 + 7 * Math.sqrt(b.v / vmax[b.lane])));
   const cy = (b: Bucket) => mid(b.lane) + (b.side === "b" ? -1 : b.side === "s" ? 1 : 0) * ((LH - HEAD) / 4);
   const color = (s: TLItem["side"]) => (s === "b" ? "var(--pos)" : s === "s" ? "var(--neg)" : "var(--faint)");
 
@@ -379,7 +406,13 @@ export default function Timeline({
       }
       d.setUTCMonth(d.getUTCMonth() + stepM);
     }
-    return out;
+    // months on a phone sit close together: keep a label only when it clears the previous one
+    let lastX = -1e9;
+    return out.map((t) => {
+      const show = t.major || t.x - lastX >= 46;
+      if (show) lastX = t.x;
+      return { ...t, show };
+    });
   }, [view, X, locale]);
 
   const sideName = (s: TLItem["side"]) => (s === "b" ? labels.buy : s === "s" ? labels.sell : labels.other);
@@ -550,11 +583,12 @@ export default function Timeline({
         <svg width={w} height={H} className={`block ${hover?.b ? "tl-dim" : ""}`} role="img" aria-label={labels.hint}>
           {/* months */}
           {ticks.map((t, k) => (
+            // (labels too close to the one before are left out below)
             <g key={k}>
               <line x1={t.x} x2={t.x} y1={0} y2={axisY} stroke="var(--hair)" strokeWidth={1} strokeDasharray={t.major ? undefined : "2 4"} />
-              <text x={t.x + 4} y={axisY + 16} fontSize={11} fill={t.major ? "var(--text)" : "var(--faint)"} fontWeight={t.major ? 600 : 400}>
+              {t.show ? <text x={t.x + 4} y={axisY + 16} fontSize={11} fill={t.major ? "var(--text)" : "var(--faint)"} fontWeight={t.major ? 600 : 400}>
                 {t.label}
-              </text>
+              </text> : null}
             </g>
           ))}
           {/* what has not happened yet */}
@@ -563,12 +597,12 @@ export default function Timeline({
               <rect x={Math.max(padL, nowX)} y={0} width={padL + iw - Math.max(padL, nowX)} height={axisY} fill="var(--surface-2)" opacity={0.7} />
               {nowX >= padL ? <line x1={nowX} x2={nowX} y1={0} y2={axisY} stroke="var(--accent)" strokeWidth={1} strokeDasharray="3 3" /> : null}
               {nowX >= padL + 40 ? (
-                <text x={nowX - 5} y={axisY - 6} fontSize={10} fill="var(--accent)" textAnchor="end">
+                <text x={nowX - 5} y={PH ? PH + 10 : 10} fontSize={10} fill="var(--accent)" textAnchor="end">
                   {labels.today}
                 </text>
               ) : null}
               {padL + iw - nowX > 70 ? (
-                <text x={nowX + 6} y={axisY - 6} fontSize={10} fill="var(--faint)">
+                <text x={nowX + 6} y={PH ? PH + 10 : 10} fontSize={10} fill="var(--faint)">
                   {labels.future} →
                 </text>
               ) : null}
@@ -647,11 +681,7 @@ export default function Timeline({
           })}
 
           {/* events */}
-          {evs.map((e, k) => {
-            const t = ms(e.d);
-            if (t < view[0] || t > view[1]) return null;
-            const x = X(t);
-            const ey = evRow(e);
+          {evMarks.map(({ e, x, ey, more }, k) => {
             const c = EVENT_COLOR[e.k];
             const on = selEvent === e;
             return (
@@ -659,10 +689,11 @@ export default function Timeline({
                 key={`${e.k}${e.d}${k}`}
                 transform={`translate(${x} ${ey})`}
                 style={{ cursor: "pointer" }}
-                onPointerEnter={() => !drag.current?.moved && setHover({ x, y: ey - 8, e })}
+                onPointerEnter={() => !drag.current?.moved && setHover({ x, y: ey - 8, e, more })}
                 onPointerLeave={() => setHover(null)}
                 onClick={() => {
                   if (drag.current?.moved) return;
+                  setHover(null);
                   setSelEvent(on ? null : e);
                   setSel(null);
                   setSelIds([]);
@@ -712,6 +743,11 @@ export default function Timeline({
                 </div>
                 <div className="mt-1.5 text-[13px] font-semibold leading-snug">{hover.e.label}</div>
                 {hover.e.sub ? <div className="mt-1 text-[12px] leading-snug text-muted">{hover.e.sub}</div> : null}
+                {(hover.more ?? []).slice(0, 3).map((m, k) => (
+                  <div key={k} className="mt-1.5 border-t border-hair pt-1.5 text-[12px] leading-snug">
+                    <span className="num text-muted">{m.d}</span> {m.label}
+                  </div>
+                ))}
               </>
             ) : null}
           </div>

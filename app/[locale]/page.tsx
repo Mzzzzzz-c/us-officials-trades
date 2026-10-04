@@ -138,22 +138,22 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
     <div>
       {/* ---------------------------------------------------------------- hero: headline and the timeline */}
       <section>
-        <Container className="pt-10 sm:pt-16">
+        <Container className="pt-10 text-center sm:pt-16">
           <div className="fade-up inline-flex items-center gap-2 rounded-full bg-surface px-3 py-1 text-[12px] font-medium text-muted shadow-[inset_0_0_0_1px_var(--edge)]">
             <span className="live-dot" />
             {meta ? fmt(t.h.live, { t: updatedAt(meta.generated, locale) }) : t.siteName}
           </div>
-          <h1 className="display fade-up mt-5 max-w-4xl" style={{ animationDelay: "60ms" }}>
+          <h1 className="display fade-up mx-auto mt-5 max-w-4xl" style={{ animationDelay: "60ms" }}>
             {t.h.title1}
             <br />
             <span className="gradient-text">{t.h.title2}</span>
           </h1>
           {stats ? (
-            <p className="lead fade-up mt-6 max-w-2xl" style={{ animationDelay: "120ms" }}>
+            <p className="lead fade-up mx-auto mt-6 max-w-2xl" style={{ animationDelay: "120ms" }}>
               {fmt(t.h.pulse, { m: stats.last30.members, n: stats.last30.trades.toLocaleString("en-US"), b: stats.last30.buys.toLocaleString("en-US"), s: stats.last30.sells.toLocaleString("en-US") })}
             </p>
           ) : null}
-          <div className="fade-up mt-7 flex flex-wrap items-center gap-3" style={{ animationDelay: "180ms" }}>
+          <div className="fade-up mt-7 flex flex-wrap items-center justify-center gap-3" style={{ animationDelay: "180ms" }}>
             <div className="w-full max-w-md">
               <SearchField label={t.x.searchPlaceholder} />
             </div>
@@ -169,27 +169,27 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               </div>
               <span className="text-[13px] font-semibold text-accent">{t.h.three} ↓</span>
             </div>
+            {c ? (
+              <div className="mb-5 grid grid-cols-2 gap-x-4 gap-y-3 rounded-2xl bg-surface-2 px-4 py-3 sm:grid-cols-4">
+                {(
+                  [
+                    [c.trades, t.h.statTrades],
+                    [c.members, t.h.statPeople],
+                    [insIdx?.people ?? 0, t.h.statInsiders],
+                    [c.tickers, t.h.statStocks],
+                  ] as [number, string][]
+                ).map(([v, label]) => (
+                  <div key={label} className="min-w-0">
+                    <div className="display !text-[26px] sm:!text-[32px]">
+                      <CountUp value={Number(v)} />
+                    </div>
+                    <div className="truncate text-[12px] text-muted">{label}</div>
+                  </div>
+                ))}
+              </div>
+            ) : null}
             <Timeline items={tlItems} events={tlEvents} lanes={[t.tl.lanes.officials, t.tl.lanes.insiders]} price={spy} priceSym={t.h.spy} labels={tlLabels(locale)} locale={locale} today={today} stories={stories} />
           </div>
-          {c ? (
-            <div className="mt-8 grid grid-cols-2 gap-x-6 gap-y-5 sm:grid-cols-4">
-              {(
-                [
-                  [c.trades, t.h.statTrades],
-                  [c.members, t.h.statPeople],
-                  [insIdx?.people ?? 0, t.h.statInsiders],
-                  [c.tickers, t.h.statStocks],
-                ] as [number, string][]
-              ).map(([v, label]) => (
-                <Reveal key={label}>
-                  <div className="display !text-[40px] sm:!text-[52px]">
-                    <CountUp value={Number(v)} />
-                  </div>
-                  <div className="text-[13px] text-muted">{label}</div>
-                </Reveal>
-              ))}
-            </div>
-          ) : null}
         </Container>
       </section>
 
