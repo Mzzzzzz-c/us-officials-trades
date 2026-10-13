@@ -2707,6 +2707,13 @@
   "sic": 2834,
   "sicd": "Pharmaceutical Preparations"
  },
+ "BHE": {
+  "cik": 863436,
+  "exch": "NYSE",
+  "name": "BENCHMARK ELECTRONICS INC",
+  "sic": 3672,
+  "sicd": "Printed Circuit Boards"
+ },
  "BHF": {
   "cik": 1685040,
   "exch": "Nasdaq",
@@ -14274,6 +14281,13 @@
   "sic": 7841,
   "sicd": "Services-Video Tape Rental"
  },
+ "NG": {
+  "cik": 1173420,
+  "exch": "NYSE",
+  "name": "NOVAGOLD RESOURCES INC",
+  "sic": 1040,
+  "sicd": "Gold and Silver Ores"
+ },
  "NGD": {
   "sic": null
  },
@@ -22666,6 +22680,9 @@
   "name": "TERAWULF INC.",
   "sic": 6199,
   "sicd": "Finance Services"
+ },
+ "WUXIF": {
+  "sic": null
  },
  "WVE": {
   "cik": 1631574,

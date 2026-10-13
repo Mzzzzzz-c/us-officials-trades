@@ -2608,6 +2608,12 @@
    "src": "parqet",
    "tried": "2026-10-01"
   },
+  "BHE": {
+   "fill": true,
+   "ok": true,
+   "src": "parqet",
+   "tried": "2026-10-13"
+  },
   "BHF": {
    "fill": true,
    "ok": true,
@@ -14296,6 +14302,12 @@
    "src": "parqet",
    "tried": "2026-10-01"
   },
+  "NG": {
+   "fill": true,
+   "ok": true,
+   "src": "parqet",
+   "tried": "2026-10-13"
+  },
   "NGD": {
    "fill": true,
    "ok": true,
@@ -22778,6 +22790,12 @@
    "ok": true,
    "src": "parqet",
    "tried": "2026-10-01"
+  },
+  "WUXIF": {
+   "fill": true,
+   "ok": true,
+   "src": "parqet",
+   "tried": "2026-10-13"
   },
   "WVE": {
    "fill": true,
