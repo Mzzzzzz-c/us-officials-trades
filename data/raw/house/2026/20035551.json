@@ -1,0 +1,103 @@
+{
+ "doc_id": "20035551",
+ "filed": "2026-10-19",
+ "filer": {
+  "name": "Hon. Jonathan Jackson",
+  "state_dst": "IL01",
+  "status": "Member"
+ },
+ "first": "Jonathan",
+ "last": "Jackson",
+ "parser": 3,
+ "state_dst": "IL01",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Datadog, Inc. - Class A Common Stock",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2026-10-01",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Morgan Stanley Trust Account",
+   "ticker": "DDOG",
+   "tx_date": "2026-09-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Estee Lauder Companies, Inc.",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2026-10-01",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Morgan Stanley Trust Account",
+   "ticker": "EL",
+   "tx_date": "2026-09-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 50000,
+   "amount_min": 15001,
+   "asset": "Guardant Health, Inc. - Common Stock",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2026-10-01",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Morgan Stanley Trust Account",
+   "ticker": "GH",
+   "tx_date": "2026-09-28",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Tortoise Energy Infrastructure Corporation Common Stock",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2026-10-01",
+   "owner": "SP",
+   "status": "New",
+   "subholding": "Morgan Stanley - Rollover IRA",
+   "ticker": "TYG",
+   "tx_date": "2026-09-04",
+   "type": "SF"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "ViaSat, Inc. - Common Stock",
+   "asset_type": "ST",
+   "idx": 5,
+   "notified": "2026-10-01",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Morgan Stanley Trust Account",
+   "ticker": "VSAT",
+   "tx_date": "2026-09-28",
+   "type": "SF"
+  },
+  {
+   "amount_max": 100000,
+   "amount_min": 50001,
+   "asset": "Walmart Inc. - Common Stock",
+   "asset_type": "ST",
+   "idx": 6,
+   "notified": "2026-10-01",
+   "owner": "JT",
+   "status": "New",
+   "subholding": "Morgan Stanley Trust Account",
+   "ticker": "WMT",
+   "tx_date": "2026-09-28",
+   "type": "SF"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035551.pdf",
+ "year": 2026
+}
