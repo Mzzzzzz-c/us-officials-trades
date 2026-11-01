@@ -141,7 +141,7 @@
   },
   "ABEYX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "ABG": {
    "fill": true,
@@ -169,11 +169,11 @@
   },
   "ABNFX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "ABQCX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "ABSI": {
    "fill": true,
@@ -189,7 +189,7 @@
   },
   "ABYIX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "ACA": {
    "fill": true,
@@ -563,7 +563,7 @@
   },
   "AGPPF": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "AGR": {
    "fill": false,
@@ -580,7 +580,7 @@
   },
   "AGVGX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "AGX": {
    "fill": true,
@@ -627,7 +627,7 @@
   },
   "AHL.C": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "AHLIX": {
    "fill": false,
@@ -638,7 +638,7 @@
   },
   "AHLYX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "AHR": {
    "fill": true,
@@ -941,7 +941,7 @@
   },
   "ALYF": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "AM": {
    "fill": true,
@@ -1048,7 +1048,7 @@
   },
   "AMI": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "AMJ": {
    "fill": true,
@@ -1172,7 +1172,7 @@
   },
   "ANBFX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "ANCTF": {
    "fill": true,
@@ -1406,7 +1406,7 @@
   },
   "APPAD": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "APPF": {
    "fill": true,
@@ -1416,11 +1416,11 @@
   },
   "APPL": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "APPLE": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "APPS": {
    "fill": true,
@@ -1514,7 +1514,7 @@
   },
   "ARINA": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "ARIS": {
    "fill": true,
@@ -1659,7 +1659,7 @@
   },
   "ASBC": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "ASC": {
    "fill": true,
@@ -1675,7 +1675,7 @@
   },
   "ASHGY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "ASHTY": {
    "fill": true,
@@ -1856,7 +1856,7 @@
   },
   "AULGF": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "AUR": {
    "fill": false,
@@ -2006,7 +2006,7 @@
   },
   "AXHE": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "AXON": {
    "fill": true,
@@ -2040,7 +2040,7 @@
   },
   "AXTE": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "AY": {
    "fill": true,
@@ -2086,7 +2086,7 @@
   },
   "AZSEY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "AZTA": {
    "fill": true,
@@ -2138,7 +2138,7 @@
   },
   "BAF": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "BAGIX": {
    "fill": false,
@@ -2173,7 +2173,7 @@
   },
   "BAMXY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "BAND": {
    "fill": true,
@@ -2378,7 +2378,7 @@
   },
   "BCRED": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "BCRX": {
    "fill": true,
@@ -2564,11 +2564,11 @@
   },
   "BGG": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "BGHAX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "BGNE": {
    "fill": true,
@@ -2622,7 +2622,7 @@
   },
   "BHI": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "BHKLY": {
    "fill": false,
@@ -2827,7 +2827,7 @@
   },
   "BLFSD": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "BLK": {
    "fill": true,
@@ -3080,7 +3080,7 @@
   },
   "BRCM": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "BRDCY": {
    "fill": true,
@@ -3090,11 +3090,11 @@
   },
   "BREW": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "BRK": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "BRK.A": {
    "fill": true,
@@ -3214,7 +3214,7 @@
   },
   "BTAIQ": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "BTC": {
    "fill": true,
@@ -3357,7 +3357,7 @@
   },
   "BXMIX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "BXMT": {
    "fill": true,
@@ -3458,7 +3458,7 @@
   },
   "CAIFX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "CAJ": {
    "fill": true,
@@ -3633,7 +3633,7 @@
   },
   "CBSI": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "CBT": {
    "fill": true,
@@ -3711,7 +3711,7 @@
   },
   "CCLAY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "CCLD": {
    "fill": true,
@@ -3757,7 +3757,7 @@
   },
   "CCXX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "CDAY": {
    "fill": true,
@@ -3883,7 +3883,7 @@
   },
   "CEMCF": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "CEMI": {
    "fill": true,
@@ -3924,7 +3924,7 @@
   },
   "CEQPET": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "CERN": {
    "fill": true,
@@ -3970,11 +3970,11 @@
   },
   "CFRZX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "CFSSX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "CG": {
    "fill": true,
@@ -4325,7 +4325,7 @@
   },
   "CMD": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "CME": {
    "fill": true,
@@ -4609,7 +4609,7 @@
   },
   "COLPAL": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "COMM": {
    "fill": true,
@@ -4947,7 +4947,7 @@
   },
   "CSDIX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "CSGP": {
    "fill": true,
@@ -5044,7 +5044,7 @@
   },
   "CTECBX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "CTKB": {
    "fill": true,
@@ -5085,7 +5085,7 @@
   },
   "CTRCF": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "CTRE": {
    "fill": true,
@@ -5101,7 +5101,7 @@
   },
   "CTRL": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "CTRM": {
    "fill": true,
@@ -5401,7 +5401,7 @@
   },
   "DBLEX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "DBOEY": {
    "fill": true,
@@ -5441,7 +5441,7 @@
   },
   "DCCIX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "DCH": {
    "fill": false,
@@ -5482,7 +5482,7 @@
   },
   "DDIFF": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "DDOG": {
    "fill": true,
@@ -5530,7 +5530,7 @@
   },
   "DEL": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "DELL": {
    "fill": true,
@@ -5540,11 +5540,11 @@
   },
   "DEMIX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "DEMZX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "DENN": {
    "fill": true,
@@ -5560,7 +5560,7 @@
   },
   "DESY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "DFAT": {
    "fill": true,
@@ -5821,7 +5821,7 @@
   },
   "DNHBY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "DNKN": {
    "fill": false,
@@ -5980,7 +5980,7 @@
   },
   "DRGVX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "DRH": {
    "fill": true,
@@ -6166,7 +6166,7 @@
   },
   "DWDP": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "DXC": {
    "fill": true,
@@ -6274,7 +6274,7 @@
   },
   "ECEIX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "ECG": {
    "fill": true,
@@ -6454,7 +6454,7 @@
   },
   "EGRIX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "EHC": {
    "fill": true,
@@ -6471,7 +6471,7 @@
   },
   "EIDIX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "EIG": {
    "fill": true,
@@ -6481,7 +6481,7 @@
   },
   "EIHYX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "EIPI": {
    "fill": true,
@@ -6589,7 +6589,7 @@
   },
   "EMRZX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "EMX": {
    "fill": true,
@@ -7007,7 +7007,7 @@
   },
   "ETFC": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "ETH": {
    "fill": false,
@@ -7024,7 +7024,7 @@
   },
   "ETHZ": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "ETN": {
    "fill": true,
@@ -7072,7 +7072,7 @@
   },
   "ETWO.W": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "ETY": {
    "fill": true,
@@ -7385,7 +7385,7 @@
   },
   "FBKWX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "FBND": {
    "fill": true,
@@ -7414,11 +7414,11 @@
   },
   "FBTCX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "FCBYX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "FCEL": {
    "fill": true,
@@ -7520,7 +7520,7 @@
   },
   "FDSWX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "FDX": {
    "fill": true,
@@ -7567,7 +7567,7 @@
   },
   "FEPIX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "FERG": {
    "fill": true,
@@ -7591,7 +7591,7 @@
   },
   "FFHRX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "FFIN": {
    "fill": true,
@@ -7620,7 +7620,7 @@
   },
   "FGSCX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "FHB": {
    "fill": true,
@@ -7712,7 +7712,7 @@
   },
   "FIKMX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "FIMKX": {
    "fill": false,
@@ -7771,7 +7771,7 @@
   },
   "FITZX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "FIVE": {
    "fill": true,
@@ -7933,7 +7933,7 @@
   },
   "FLYX.WS": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "FMAO": {
    "fill": true,
@@ -7949,7 +7949,7 @@
   },
   "FMBA": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "FMC": {
    "fill": true,
@@ -7959,7 +7959,7 @@
   },
   "FMCMF": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "FMCSX": {
    "fill": false,
@@ -8012,11 +8012,11 @@
   },
   "FNFV.V": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "FNJQX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "FNKO": {
    "fill": true,
@@ -8169,7 +8169,7 @@
   },
   "FROGX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "FRPT": {
    "fill": true,
@@ -8213,7 +8213,7 @@
   },
   "FSKR": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "FSLR": {
    "fill": true,
@@ -8255,7 +8255,7 @@
   },
   "FSSL": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "FSTFX": {
    "fill": false,
@@ -8352,7 +8352,7 @@
   },
   "FTVVNT": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "FUBO": {
    "fill": true,
@@ -8465,7 +8465,7 @@
   },
   "GAJPX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "GAN": {
    "fill": true,
@@ -8547,7 +8547,7 @@
   },
   "GCGMF": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "GCI": {
    "fill": true,
@@ -8629,11 +8629,11 @@
   },
   "GEAGY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "GEGEHC": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "GEHC": {
    "fill": true,
@@ -8643,7 +8643,7 @@
   },
   "GEHCV": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "GEL": {
    "fill": true,
@@ -8666,7 +8666,7 @@
   },
   "GEMIX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "GEN": {
    "fill": true,
@@ -8745,7 +8745,7 @@
   },
   "GFN": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "GFS": {
    "fill": true,
@@ -8773,7 +8773,7 @@
   },
   "GGLPX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "GGSM": {
    "fill": true,
@@ -8807,11 +8807,11 @@
   },
   "GICIX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "GICUX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "GIGB": {
    "fill": true,
@@ -9006,7 +9006,7 @@
   },
   "GNKOQ": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "GNPX": {
    "fill": true,
@@ -9088,11 +9088,11 @@
   },
   "GOOGM": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "GOOGN": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "GOOS": {
    "fill": true,
@@ -9248,7 +9248,7 @@
   },
   "GSIMX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "GSK": {
    "fill": false,
@@ -9265,11 +9265,11 @@
   },
   "GSMYX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "GSPIX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "GSS": {
    "fill": true,
@@ -9487,7 +9487,7 @@
   },
   "HCN": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "HCRB": {
    "fill": true,
@@ -9649,7 +9649,7 @@
   },
   "HHHFX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "HIG": {
    "fill": true,
@@ -9731,7 +9731,7 @@
   },
   "HLIEX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "HLIO": {
    "fill": true,
@@ -9747,7 +9747,7 @@
   },
   "HLIZX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "HLMEX": {
    "fill": false,
@@ -9997,7 +9997,7 @@
   },
   "HSAC": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "HSBC": {
    "fill": true,
@@ -10352,7 +10352,7 @@
   },
   "ICAFX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "ICE": {
    "fill": true,
@@ -10585,7 +10585,7 @@
   },
   "IJF": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "IJH": {
    "fill": true,
@@ -10595,7 +10595,7 @@
   },
   "IJLXX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "IJR": {
    "fill": true,
@@ -10782,7 +10782,7 @@
   },
   "INSW.V": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "INTA": {
    "fill": true,
@@ -11016,7 +11016,7 @@
   },
   "ITIP": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "ITOT": {
    "fill": true,
@@ -11159,7 +11159,7 @@
   },
   "IXNZF": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "IXP": {
    "fill": true,
@@ -11362,7 +11362,7 @@
   },
   "JHCBX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "JHEM": {
    "fill": true,
@@ -11391,7 +11391,7 @@
   },
   "JIH": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "JJSF": {
    "fill": true,
@@ -11521,7 +11521,7 @@
   },
   "JSFDX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "JSGRY": {
    "fill": false,
@@ -11810,7 +11810,7 @@
   },
   "KMI.W": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "KMPR": {
    "fill": true,
@@ -11904,7 +11904,7 @@
   },
   "KPELY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "KPLT": {
    "fill": true,
@@ -12101,11 +12101,11 @@
   },
   "LANFX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "LAOIX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "LAR": {
    "fill": true,
@@ -12121,7 +12121,7 @@
   },
   "LAVLX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "LAZ": {
    "fill": true,
@@ -12143,11 +12143,11 @@
   },
   "LBDAV": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "LBDFX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "LBRDA": {
    "fill": true,
@@ -12284,7 +12284,7 @@
   },
   "LFRIX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "LFST": {
    "fill": true,
@@ -12643,7 +12643,7 @@
   },
   "LSYIX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "LTC": {
    "fill": true,
@@ -12653,7 +12653,7 @@
   },
   "LTD": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "LTGHY": {
    "fill": true,
@@ -12687,7 +12687,7 @@
   },
   "LUBFX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "LUBYX": {
    "fill": false,
@@ -12832,7 +12832,7 @@
   },
   "MADVX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "MAG": {
    "fill": true,
@@ -12848,7 +12848,7 @@
   },
   "MAIIX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "MAIN": {
    "fill": true,
@@ -12980,7 +12980,7 @@
   },
   "MBXIX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "MC": {
    "fill": true,
@@ -13240,7 +13240,7 @@
   },
   "MGTIX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "MGY": {
    "fill": true,
@@ -13275,7 +13275,7 @@
   },
   "MHVIY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "MHVYF": {
    "fill": true,
@@ -13292,7 +13292,7 @@
   },
   "MIAYX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "MICC": {
    "fill": false,
@@ -13303,7 +13303,7 @@
   },
   "MICRD": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "MIDD": {
    "fill": true,
@@ -13319,7 +13319,7 @@
   },
   "MIMIX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "MINE": {
    "fill": false,
@@ -13660,7 +13660,7 @@
   },
   "MRKOGN": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "MRNA": {
    "fill": true,
@@ -13708,7 +13708,7 @@
   },
   "MRWSY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "MS": {
    "fill": true,
@@ -13736,7 +13736,7 @@
   },
   "MSBHY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "MSCI": {
    "fill": true,
@@ -14150,7 +14150,7 @@
   },
   "NCMGF": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "NCMGY": {
    "fill": true,
@@ -14191,7 +14191,7 @@
   },
   "NDS": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "NDSN": {
    "fill": true,
@@ -14334,7 +14334,7 @@
   },
   "NGLS": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "NGVT": {
    "fill": true,
@@ -14453,11 +14453,11 @@
   },
   "NMTRX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "NMVZX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "NNBR": {
    "fill": true,
@@ -14485,7 +14485,7 @@
   },
   "NNJAX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "NNN": {
    "fill": true,
@@ -14696,7 +14696,7 @@
   },
   "NTDTY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "NTES": {
    "fill": true,
@@ -14748,7 +14748,7 @@
   },
   "NTT": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "NTTYY": {
    "fill": true,
@@ -14758,7 +14758,7 @@
   },
   "NTXFY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "NU": {
    "fill": true,
@@ -14828,11 +14828,11 @@
   },
   "NVHAX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "NVIGF": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "NVMI": {
    "fill": true,
@@ -14987,7 +14987,7 @@
   },
   "NYSE": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "NYT": {
    "fill": true,
@@ -15003,11 +15003,11 @@
   },
   "OANIX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "OAYIX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "OBDC": {
    "fill": true,
@@ -15243,7 +15243,7 @@
   },
   "ONJAX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "ONON": {
    "fill": true,
@@ -15271,11 +15271,11 @@
   },
   "OPENL": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "OPENW": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "OPHLY": {
    "fill": true,
@@ -15648,7 +15648,7 @@
   },
   "PBDPX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "PBF": {
    "fill": true,
@@ -15713,11 +15713,11 @@
   },
   "PCLPX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "PCNNX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "PCOR": {
    "fill": true,
@@ -15727,11 +15727,11 @@
   },
   "PCPL": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "PCPL.U": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "PCRFY": {
    "fill": true,
@@ -15868,7 +15868,7 @@
   },
   "PEIFX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "PEJ": {
    "fill": true,
@@ -16235,7 +16235,7 @@
   },
   "POEFF": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "POL": {
    "fill": true,
@@ -16252,7 +16252,7 @@
   },
   "PONCX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "PONPX": {
    "fill": false,
@@ -16421,7 +16421,7 @@
   },
   "PRJAX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "PRKS": {
    "fill": true,
@@ -16523,7 +16523,7 @@
   },
   "PSDTX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "PSIX": {
    "fill": true,
@@ -16748,7 +16748,7 @@
   },
   "PYPLV": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "PZZA": {
    "fill": true,
@@ -16802,7 +16802,7 @@
   },
   "QLEIX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "QLYS": {
    "fill": true,
@@ -16874,7 +16874,7 @@
   },
   "QSERX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "QSI": {
    "fill": true,
@@ -16884,11 +16884,11 @@
   },
   "QSMLX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "QSPRX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "QSR": {
    "fill": true,
@@ -17148,7 +17148,7 @@
   },
   "RDSA": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "RDSMY": {
    "fill": true,
@@ -17268,7 +17268,7 @@
   },
   "RGBM": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "RGEN": {
    "fill": true,
@@ -17345,7 +17345,7 @@
   },
   "RIPPLE": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "RITM": {
    "fill": true,
@@ -17489,7 +17489,7 @@
   },
   "RNWAX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "RNWGX": {
    "fill": false,
@@ -17683,11 +17683,11 @@
   },
   "RTNRTX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "RTNUTX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "RTO": {
    "fill": true,
@@ -17703,7 +17703,7 @@
   },
   "RTXAX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "RUM": {
    "fill": true,
@@ -17989,7 +17989,7 @@
   },
   "SBLYX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "SBNY": {
    "fill": true,
@@ -17999,7 +17999,7 @@
   },
   "SBPYX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "SBRA": {
    "fill": true,
@@ -18117,7 +18117,7 @@
   },
   "SCMY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "SCSC": {
    "fill": true,
@@ -18242,7 +18242,7 @@
   },
   "SFGYY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "SFL": {
    "fill": true,
@@ -18575,7 +18575,7 @@
   },
   "SKBSY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "SKE": {
    "fill": true,
@@ -18591,11 +18591,11 @@
   },
   "SKHCY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "SKHHY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "SKHSY": {
    "fill": true,
@@ -18625,7 +18625,7 @@
   },
   "SKVKY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "SKWD": {
    "fill": true,
@@ -18733,7 +18733,7 @@
   },
   "SMCFX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "SMCI": {
    "fill": true,
@@ -18756,7 +18756,7 @@
   },
   "SMCYY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "SMDV": {
    "fill": true,
@@ -18802,7 +18802,7 @@
   },
   "SMLPX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "SMLR": {
    "fill": true,
@@ -18964,7 +18964,7 @@
   },
   "SNREY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "SNV": {
    "fill": true,
@@ -19025,7 +19025,7 @@
   },
   "SOLANA": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "SOLO": {
    "fill": true,
@@ -19384,7 +19384,7 @@
   },
   "SSLTY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "SSMXY": {
    "fill": true,
@@ -19412,7 +19412,7 @@
   },
   "SSTHX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "SSUMY": {
    "fill": true,
@@ -19611,7 +19611,7 @@
   },
   "SVCBY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "SVNDY": {
    "fill": true,
@@ -19651,7 +19651,7 @@
   },
   "SWGXX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "SWK": {
    "fill": true,
@@ -19667,7 +19667,7 @@
   },
   "SWMAY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "SWN": {
    "fill": false,
@@ -19771,7 +19771,7 @@
   },
   "SZEVY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "SZKMY": {
    "fill": true,
@@ -19910,7 +19910,7 @@
   },
   "TCYMY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "TD": {
    "fill": true,
@@ -20046,7 +20046,7 @@
   },
   "TFDXX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "TFFP": {
    "fill": true,
@@ -20074,7 +20074,7 @@
   },
   "TGBAX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "TGNA": {
    "fill": true,
@@ -20115,7 +20115,7 @@
   },
   "THE": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "THG": {
    "fill": true,
@@ -20156,7 +20156,7 @@
   },
   "TIF": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "TILE": {
    "fill": true,
@@ -20196,7 +20196,7 @@
   },
   "TKNZ": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "TKO": {
    "fill": true,
@@ -20254,7 +20254,7 @@
   },
   "TLRN": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "TLRY": {
    "fill": true,
@@ -20343,7 +20343,7 @@
   },
   "TMUSR": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "TNA": {
    "fill": true,
@@ -20377,11 +20377,11 @@
   },
   "TNTOF": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "TOELF": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "TOELY": {
    "fill": true,
@@ -20675,7 +20675,7 @@
   },
   "TSTR": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "TT": {
    "fill": true,
@@ -20757,7 +20757,7 @@
   },
   "TWBD": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "TWKS": {
    "fill": true,
@@ -20992,7 +20992,7 @@
   },
   "UIEMX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "UIGRX": {
    "fill": false,
@@ -21003,27 +21003,27 @@
   },
   "UIHIX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "UIIFX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "UIINX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "UIISX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "UISBX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "UISCX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "UL": {
    "fill": true,
@@ -21045,7 +21045,7 @@
   },
   "UMAFX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "UMBF": {
    "fill": true,
@@ -21728,7 +21728,7 @@
   },
   "VIV.V": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "VIVEF": {
    "fill": true,
@@ -21853,7 +21853,7 @@
   },
   "VOLVY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "VONE": {
    "fill": true,
@@ -22009,7 +22009,7 @@
   },
   "VSLR": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "VSNT": {
    "fill": false,
@@ -22088,7 +22088,7 @@
   },
   "VTRSV": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "VTS": {
    "fill": true,
@@ -22117,7 +22117,7 @@
   },
   "VUSFX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "VUZI": {
    "fill": true,
@@ -22252,7 +22252,7 @@
   },
   "VZTMUS": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "W": {
    "fill": true,
@@ -22331,7 +22331,7 @@
   },
   "WCAGY": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "WCC": {
    "fill": true,
@@ -22446,7 +22446,7 @@
   },
   "WFDRX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "WGIFX": {
    "fill": false,
@@ -22579,7 +22579,7 @@
   },
   "WMFFX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "WMG": {
    "fill": true,
@@ -22615,7 +22615,7 @@
   },
   "WNRP": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "WOLF": {
    "fill": true,
@@ -22698,7 +22698,7 @@
   },
   "WRK.V": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "WSBC": {
    "fill": true,
@@ -22829,7 +22829,7 @@
   },
   "WWSYX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "WWW": {
    "fill": true,
@@ -22845,7 +22845,7 @@
   },
   "WY.Z": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "WYND": {
    "fill": false,
@@ -23003,7 +23003,7 @@
   },
   "XMEX": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "XMTR": {
    "fill": true,
@@ -23278,7 +23278,7 @@
   },
   "ZOOM": {
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "ZS": {
    "fill": true,
@@ -27199,7 +27199,7 @@
   "inv-akre": {
    "cfg": "Chuck_Akre",
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "inv-buffett": {
    "cfg": "Warren_Buffett",
@@ -27212,7 +27212,7 @@
   "inv-burry": {
    "cfg": "Michael_Burry",
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "inv-cathie-wood": {
    "cfg": "Cathie_Wood",
@@ -27225,7 +27225,7 @@
   "inv-coleman": {
    "cfg": "Chase_Coleman_III",
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "inv-dalio": {
    "cfg": "Ray_Dalio",
@@ -27238,12 +27238,12 @@
   "inv-druckenmiller": {
    "cfg": "Stanley_Druckenmiller",
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "inv-duan-yongping": {
    "cfg": "Duan_Yongping",
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "inv-gates-foundation": {
    "cfg": "https://upload.wikimedia.org/wikipedia/commons/8/88/Bill_Gates_at_the_European_Commission_-_2025_-_P067383-987995_%28cropped%29.jpg",
@@ -27272,13 +27272,12 @@
   "inv-li-lu": {
    "cfg": "Li_Lu",
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "inv-loeb": {
    "cfg": "Daniel_S._Loeb",
-   "note": "Commons has only a caricature drawing",
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "inv-marks": {
    "cfg": "Howard_Marks_(investor)",
@@ -27290,9 +27289,8 @@
   },
   "inv-pabrai": {
    "cfg": "Mohnish_Pabrai",
-   "note": "Commons has only a caricature drawing",
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "inv-soros": {
    "cfg": "George_Soros",
@@ -27313,7 +27311,7 @@
   "inv-terry-smith": {
    "cfg": "Terry_Smith_(fund_manager)",
    "ok": false,
-   "tried": "2026-10-01"
+   "tried": "2026-11-01"
   },
   "inv-zhang-lei": {
    "cfg": "Zhang_Lei_(investor)",
