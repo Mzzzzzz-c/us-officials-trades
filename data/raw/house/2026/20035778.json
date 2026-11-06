@@ -1,0 +1,89 @@
+{
+ "doc_id": "20035778",
+ "filed": "2026-11-05",
+ "filer": {
+  "name": "Hon. Maria Elvira Salazar",
+  "state_dst": "FL27",
+  "status": "Member"
+ },
+ "first": "Maria Elvira",
+ "last": "Salazar",
+ "parser": 3,
+ "state_dst": "FL27",
+ "status": "ok",
+ "suffix": "",
+ "transactions": [
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Cisco Systems, Inc. - Common Stock",
+   "asset_type": "ST",
+   "idx": 1,
+   "notified": "2026-11-01",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "UBS IRA Account",
+   "ticker": "CSCO",
+   "tx_date": "2026-10-23",
+   "type": "SF"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NVIDIA Corporation - Common Stock",
+   "asset_type": "ST",
+   "idx": 2,
+   "notified": "2026-11-01",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "UBS IRA Account",
+   "ticker": "NVDA",
+   "tx_date": "2026-10-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "NVIDIA Corporation - Common Stock",
+   "asset_type": "ST",
+   "idx": 3,
+   "notified": "2026-11-01",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "UBS Brokerage Account",
+   "ticker": "NVDA",
+   "tx_date": "2026-10-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Procter & Gamble Company",
+   "asset_type": "ST",
+   "idx": 4,
+   "notified": "2026-11-01",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "UBS Brokerage Account",
+   "ticker": "PG",
+   "tx_date": "2026-10-23",
+   "type": "P"
+  },
+  {
+   "amount_max": 15000,
+   "amount_min": 1001,
+   "asset": "Procter & Gamble Company",
+   "asset_type": "ST",
+   "idx": 5,
+   "notified": "2026-11-01",
+   "owner": "SELF",
+   "status": "New",
+   "subholding": "UBS IRA Account",
+   "ticker": "PG",
+   "tx_date": "2026-10-23",
+   "type": "P"
+  }
+ ],
+ "url": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035778.pdf",
+ "year": 2026
+}
