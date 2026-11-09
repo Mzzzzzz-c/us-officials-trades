@@ -19486,6 +19486,10 @@
    "src": "parqet",
    "tried": "2026-10-01"
   },
+  "STLN": {
+   "ok": false,
+   "tried": "2026-11-09"
+  },
   "STM": {
    "fill": true,
    "ok": true,
