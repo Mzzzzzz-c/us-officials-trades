@@ -13301,6 +13301,12 @@
    "src": "fmp",
    "tried": "2026-10-01"
   },
+  "MICR": {
+   "fill": true,
+   "ok": true,
+   "src": "parqet",
+   "tried": "2026-11-11"
+  },
   "MICRD": {
    "ok": false,
    "tried": "2026-11-01"
@@ -13639,6 +13645,12 @@
    "ok": true,
    "src": "parqet",
    "tried": "2026-10-01"
+  },
+  "MRAAF": {
+   "fill": true,
+   "ok": true,
+   "src": "parqet",
+   "tried": "2026-11-11"
   },
   "MRAAY": {
    "fill": true,

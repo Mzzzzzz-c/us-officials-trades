@@ -13295,6 +13295,9 @@
   "sic": 2024,
   "sicd": "Ice Cream & Frozen Desserts"
  },
+ "MICR": {
+  "sic": null
+ },
  "MICRD": {
   "sic": null
  },
@@ -13647,6 +13650,13 @@
  },
  "MQBKY": {
   "sic": null
+ },
+ "MRAAF": {
+  "cik": 1450468,
+  "exch": "OTC",
+  "name": "Murata Manufacturing Co., Ltd./ADR",
+  "sic": null,
+  "sicd": ""
  },
  "MRAAY": {
   "sic": null
