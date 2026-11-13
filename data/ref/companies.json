@@ -220,6 +220,13 @@
   "sic": 2780,
   "sicd": "Blankbooks, Looseleaf Binders & Bookbindg & Relatd Work"
  },
+ "ACCV": {
+  "cik": 2141406,
+  "exch": "Nasdaq",
+  "name": "Accelevation Holdings Corp.",
+  "sic": 3620,
+  "sicd": "Electrical Industrial Apparatus"
+ },
  "ACGL": {
   "cik": 947484,
   "exch": "Nasdaq",
@@ -874,6 +881,13 @@
   "name": "Allegiant Travel CO",
   "sic": 4512,
   "sicd": "Air Transportation, Scheduled"
+ },
+ "ALH": {
+  "cik": 1317685,
+  "exch": "NYSE",
+  "name": "Alliance Laundry Holdings Inc.",
+  "sic": 3580,
+  "sicd": "Refrigeration & Service Industry Machinery"
  },
  "ALHC": {
   "cik": 1832466,
@@ -2439,6 +2453,13 @@
   "sic": 2834,
   "sicd": "Pharmaceutical Preparations"
  },
+ "BCBP": {
+  "cik": 1228454,
+  "exch": "Nasdaq",
+  "name": "BCB BANCORP INC",
+  "sic": 6035,
+  "sicd": "Savings Institution, Federally Chartered"
+ },
  "BCC": {
   "cik": 1328581,
   "exch": "NYSE",
@@ -3786,6 +3807,13 @@
   "name": "Central Bancompany, Inc.",
   "sic": null,
   "sicd": ""
+ },
+ "CBIO": {
+  "cik": 1253689,
+  "exch": "Nasdaq",
+  "name": "CRESCENT BIOPHARMA, INC.",
+  "sic": 2834,
+  "sicd": "Pharmaceutical Preparations"
  },
  "CBL": {
   "cik": 910612,
@@ -6378,6 +6406,13 @@
   "sic": 1623,
   "sicd": "Water, Sewer, Pipeline, Comm & Power Line Construction"
  },
+ "DYN": {
+  "cik": 1818794,
+  "exch": "Nasdaq",
+  "name": "Dyne Therapeutics, Inc.",
+  "sic": 2834,
+  "sicd": "Pharmaceutical Preparations"
+ },
  "E": {
   "cik": 1002242,
   "exch": "NYSE",
@@ -7211,6 +7246,13 @@
   "name": "ENTERGY CORP /DE/",
   "sic": 4911,
   "sicd": "Electric Services"
+ },
+ "ETRA": {
+  "cik": 2088082,
+  "exch": "Nasdaq",
+  "name": "Electra Therapeutics, Inc.",
+  "sic": 2836,
+  "sicd": "Biological Products, (No Diagnostic Substances)"
  },
  "ETRN": {
   "sic": null
@@ -8287,6 +8329,13 @@
   "sic": 4911,
   "sicd": "Electric Services"
  },
+ "FSBC": {
+  "cik": 1275168,
+  "exch": "Nasdaq",
+  "name": "FIVE STAR BANCORP",
+  "sic": 6022,
+  "sicd": "State Commercial Banks"
+ },
  "FSCSX": {
   "sic": null
  },
@@ -8370,6 +8419,13 @@
  },
  "FTBFX": {
   "sic": null
+ },
+ "FTCI": {
+  "cik": 1828161,
+  "exch": "Nasdaq",
+  "name": "FTC Solar, Inc.",
+  "sic": 3674,
+  "sicd": "Semiconductors & Related Devices"
  },
  "FTDR": {
   "cik": 1727263,
@@ -8971,6 +9027,13 @@
   "cik": 1557860,
   "exch": "NYSE",
   "name": "Globant S.A.",
+  "sic": 7374,
+  "sicd": "Services-Computer Processing & Data Preparation"
+ },
+ "GLOO": {
+  "cik": 2069785,
+  "exch": "Nasdaq",
+  "name": "Gloo Holdings, Inc.",
   "sic": 7374,
   "sicd": "Services-Computer Processing & Data Preparation"
  },
@@ -10062,6 +10125,13 @@
   "cik": 1802665,
   "exch": "Nasdaq",
   "name": "Harmony Biosciences Holdings, Inc.",
+  "sic": 2834,
+  "sicd": "Pharmaceutical Preparations"
+ },
+ "HROW": {
+  "cik": 1360214,
+  "exch": "Nasdaq",
+  "name": "HARROW, INC.",
   "sic": 2834,
   "sicd": "Pharmaceutical Preparations"
  },
@@ -11425,6 +11495,13 @@
  "JMHLY": {
   "sic": null
  },
+ "JMKE": {
+  "cik": 2127043,
+  "exch": "NYSE",
+  "name": "Jersey Mike's Subs Inc.",
+  "sic": 5812,
+  "sicd": "Retail-Eating  Places"
+ },
  "JMP": {
   "sic": null
  },
@@ -12355,6 +12432,13 @@
   "name": "LENNOX INTERNATIONAL INC",
   "sic": 3585,
   "sicd": "Air-Cond & Warm Air Heatg Equip & Comm & Indl Refrig Equip"
+ },
+ "LIME": {
+  "cik": 1699963,
+  "exch": "Nasdaq",
+  "name": "Neutron Holdings, Inc.",
+  "sic": 7372,
+  "sicd": "Services-Prepackaged Software"
  },
  "LIN": {
   "cik": 1707925,
@@ -17230,6 +17314,13 @@
   "sic": 5900,
   "sicd": "Retail-Miscellaneous Retail"
  },
+ "REF": {
+  "cik": 1787117,
+  "exch": "NYSE",
+  "name": "Reformation Inc.",
+  "sic": 2330,
+  "sicd": "Women's, Misses':  and Juniors Outerwear"
+ },
  "REG": {
   "cik": 910606,
   "exch": "Nasdaq",
@@ -17912,6 +18003,13 @@
  },
  "SAFRY": {
   "sic": null
+ },
+ "SAFT": {
+  "cik": 1172052,
+  "exch": "Nasdaq",
+  "name": "SAFETY INSURANCE GROUP INC",
+  "sic": 6331,
+  "sicd": "Fire, Marine & Casualty Insurance"
  },
  "SAH": {
   "cik": 1043509,
@@ -19683,6 +19781,13 @@
  },
  "SVNLY": {
   "sic": null
+ },
+ "SVV": {
+  "cik": 1883313,
+  "exch": "NYSE",
+  "name": "Savers Value Village, Inc.",
+  "sic": 5900,
+  "sicd": "Retail-Miscellaneous Retail"
  },
  "SW": {
   "cik": 2005951,
@@ -23012,6 +23117,13 @@
   "name": "YARA INTERNATIONAL ASA",
   "sic": 8880,
   "sicd": "American Depositary Receipts"
+ },
+ "YARW": {
+  "cik": 1566044,
+  "exch": "Nasdaq",
+  "name": "Yarrow Bioscience, Inc.",
+  "sic": 2834,
+  "sicd": "Pharmaceutical Preparations"
  },
  "YASKY": {
   "sic": null
