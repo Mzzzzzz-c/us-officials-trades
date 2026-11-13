@@ -1600,6 +1600,9 @@
  "ARKK": {
   "sic": null
  },
+ "ARKY": {
+  "sic": null
+ },
  "ARLO": {
   "cik": 1736946,
   "exch": "NYSE",
@@ -8228,6 +8231,13 @@
   "name": "FORUM MARKETS Inc",
   "sic": 6199,
   "sicd": "Finance Services"
+ },
+ "FRNM": {
+  "cik": 2017526,
+  "exch": "Nasdaq",
+  "name": "Freenome, Inc.",
+  "sic": 8071,
+  "sicd": "Services-Medical Laboratories"
  },
  "FRO": {
   "cik": 913290,
@@ -18171,6 +18181,13 @@
   "sic": 5045,
   "sicd": "Wholesale-Computers & Peripheral Equipment & Software"
  },
+ "SCTX": {
+  "cik": 1853921,
+  "exch": "Nasdaq",
+  "name": "Scribe Therapeutics, Inc.",
+  "sic": 2836,
+  "sicd": "Biological Products, (No Diagnostic Substances)"
+ },
  "SCU": {
   "sic": null
  },
@@ -18222,6 +18239,13 @@
   "name": "SEABOARD CORP /DE/",
   "sic": 5150,
   "sicd": "Wholesale-Farm Product Raw Materials"
+ },
+ "SECZ": {
+  "cik": 2094496,
+  "exch": "NYSE",
+  "name": "Securitize Corp.",
+  "sic": 6199,
+  "sicd": "Finance Services"
  },
  "SEDG": {
   "cik": 1419612,
@@ -18711,6 +18735,13 @@
   "name": "SL GREEN REALTY CORP",
   "sic": 6798,
   "sicd": "Real Estate Investment Trusts"
+ },
+ "SLGL": {
+  "cik": 1684693,
+  "exch": "Nasdaq",
+  "name": "Sol-Gel Technologies Ltd.",
+  "sic": 2834,
+  "sicd": "Pharmaceutical Preparations"
  },
  "SLGN": {
   "cik": 849869,

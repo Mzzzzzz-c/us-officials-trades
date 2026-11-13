@@ -1547,6 +1547,12 @@
    "src": "parqet",
    "tried": "2026-10-01"
   },
+  "ARKY": {
+   "fill": true,
+   "ok": true,
+   "src": "parqet",
+   "tried": "2026-11-13"
+  },
   "ARLO": {
    "fill": true,
    "ok": true,
@@ -8154,6 +8160,10 @@
    "src": "fmp",
    "tried": "2026-10-01"
   },
+  "FRNM": {
+   "ok": false,
+   "tried": "2026-11-13"
+  },
   "FRO": {
    "fill": false,
    "light": false,
@@ -14289,6 +14299,12 @@
    "src": "parqet",
    "tried": "2026-10-01"
   },
+  "NEXN": {
+   "fill": true,
+   "ok": true,
+   "src": "parqet",
+   "tried": "2026-11-13"
+  },
   "NEXOY": {
    "fill": false,
    "light": false,
@@ -18137,6 +18153,10 @@
    "src": "parqet",
    "tried": "2026-10-01"
   },
+  "SCTX": {
+   "ok": false,
+   "tried": "2026-11-13"
+  },
   "SCU": {
    "fill": true,
    "ok": true,
@@ -18209,6 +18229,13 @@
    "ok": true,
    "src": "parqet",
    "tried": "2026-10-01"
+  },
+  "SECZ": {
+   "fill": false,
+   "light": false,
+   "ok": true,
+   "src": "fmp",
+   "tried": "2026-11-13"
   },
   "SEDG": {
    "fill": true,
@@ -18524,6 +18551,12 @@
    "src": "parqet",
    "tried": "2026-10-01"
   },
+  "SILC": {
+   "fill": true,
+   "ok": true,
+   "src": "parqet",
+   "tried": "2026-11-13"
+  },
   "SILK": {
    "fill": true,
    "ok": true,
@@ -18692,6 +18725,12 @@
    "ok": true,
    "src": "parqet",
    "tried": "2026-10-01"
+  },
+  "SLGL": {
+   "fill": true,
+   "ok": true,
+   "src": "parqet",
+   "tried": "2026-11-13"
   },
   "SLGN": {
    "fill": true,
