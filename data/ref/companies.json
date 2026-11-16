@@ -708,6 +708,13 @@
  "AIMC": {
   "sic": null
  },
+ "AIN": {
+  "cik": 819793,
+  "exch": "NYSE",
+  "name": "ALBANY INTERNATIONAL CORP /DE/",
+  "sic": 2221,
+  "sicd": "Broadwoven Fabric Mills, Man Made Fiber & Silk"
+ },
  "AIO": {
   "cik": 1778114,
   "exch": "NYSE",
@@ -3515,6 +3522,13 @@
   "name": "Baldwin Insurance Group, Inc.",
   "sic": 6411,
   "sicd": "Insurance Agents, Brokers & Service"
+ },
+ "BWLP": {
+  "cik": 1649313,
+  "exch": "NYSE",
+  "name": "BW LPG Ltd",
+  "sic": 4700,
+  "sicd": "Transportation Services"
  },
  "BWXT": {
   "cik": 1486957,
@@ -10987,6 +11001,13 @@
   "sic": 7373,
   "sicd": "Services-Computer Integrated Systems Design"
  },
+ "IOVA": {
+  "cik": 1425205,
+  "exch": "Nasdaq",
+  "name": "IOVANCE BIOTHERAPEUTICS, INC.",
+  "sic": 2836,
+  "sicd": "Biological Products, (No Diagnostic Substances)"
+ },
  "IP": {
   "cik": 51434,
   "exch": "NYSE",
@@ -12006,6 +12027,13 @@
   "sic": 1311,
   "sicd": "Crude Petroleum & Natural Gas"
  },
+ "KRSA": {
+  "cik": 1755237,
+  "exch": "Nasdaq",
+  "name": "Korsana Biosciences, Inc.",
+  "sic": 2834,
+  "sicd": "Pharmaceutical Preparations"
+ },
  "KRTX": {
   "sic": null
  },
@@ -12425,6 +12453,13 @@
   "name": "Li Auto Inc.",
   "sic": 3711,
   "sicd": "Motor Vehicles & Passenger Car Bodies"
+ },
+ "LIF": {
+  "cik": 1581760,
+  "exch": "Nasdaq",
+  "name": "Life360, Inc.",
+  "sic": 7374,
+  "sicd": "Services-Computer Processing & Data Preparation"
  },
  "LII": {
   "cik": 1069202,
@@ -13239,6 +13274,13 @@
   "name": "Meta Platforms, Inc.",
   "sic": 7370,
   "sicd": "Services-Computer Programming, Data Processing, Etc."
+ },
+ "METC": {
+  "cik": 1687187,
+  "exch": "Nasdaq",
+  "name": "Ramaco Resources, Inc.",
+  "sic": 1220,
+  "sicd": "Silver Ores"
  },
  "MFC": {
   "cik": 1086888,
@@ -20032,6 +20074,13 @@
   "cik": 1077428,
   "exch": "Nasdaq",
   "name": "TEXAS CAPITAL BANCSHARES INC/TX",
+  "sic": 6022,
+  "sicd": "State Commercial Banks"
+ },
+ "TCBK": {
+  "cik": 356171,
+  "exch": "Nasdaq",
+  "name": "TRICO BANCSHARES /",
   "sic": 6022,
   "sicd": "State Commercial Banks"
  },
