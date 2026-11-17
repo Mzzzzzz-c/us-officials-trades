@@ -10339,6 +10339,12 @@
    "src": "parqet",
    "tried": "2026-10-01"
   },
+  "HYBB": {
+   "fill": true,
+   "ok": true,
+   "src": "parqet",
+   "tried": "2026-11-17"
+  },
   "HYD": {
    "fill": true,
    "ok": true,
